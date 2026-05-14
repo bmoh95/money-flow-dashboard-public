@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T17:08:17+09:00",
+  "updated_at": "2026-05-14T18:10:47+09:00",
   "last_run": {
-    "run_id": "2026-05-14_1708_money-flow",
-    "started_at": "2026-05-14T17:08:17+09:00",
-    "finished_at": "2026-05-14T17:08:17+09:00",
+    "run_id": "2026-05-14_1810_money-flow",
+    "started_at": "2026-05-14T18:10:47+09:00",
+    "finished_at": "2026-05-14T18:10:47+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -27,10 +27,10 @@
       {
         "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
         "decision": "GO",
-        "summary": "MF-1 daily recheck completed; no state change; still approval needed for L3 upload."
+        "summary": "MF-1 recheck passed but no material state change; L3 upload approval still required."
       }
     ],
-    "summary": "MF-1 paid comparable/가격/채널/썸네일/업로드 문구/법률 고지 재확인 완료. 상태 변화 없음. 신규 후보 스카우트는 승인 대기 품목 우선으로 생략.",
+    "summary": "검증 보류(redteam_hold) 항목 없음. MF-1 paid comparable HTTP 200/19,000원/1인샵·노쇼·예약금 키워드 및 법률 고지 재확인. 기존 승인 대기 상태 유지. 신규 후보는 승인 대기 품목 우선으로 생략.",
     "final_report": "[SILENT]"
   },
   "metrics": {
