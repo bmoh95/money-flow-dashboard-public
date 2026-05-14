@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-14T15:01:05+09:00",
+  "updated_at": "2026-05-14T15:42:30+09:00",
   "last_run": {
     "run_id": "2026-05-14_1501_money-flow",
     "started_at": "2026-05-14T15:01:05+09:00",
@@ -338,6 +338,21 @@
       "reason_code": "NO_APPROVAL",
       "summary": "크몽 업로드는 L3 외부 게시라 주인님 승인 필요",
       "links": []
+    },
+    {
+      "time": "2026-05-14T15:42:30+09:00",
+      "run_id": "manual_blog_draft",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "asset_created",
+      "from_status": "ready_for_approval",
+      "to_status": "ready_for_approval",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 블로그 유입용 초안 blog_01_nailshop_noshow_reservation_deposit.md 작성 완료",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md"
+      ]
     }
   ],
   "board_columns": [
@@ -371,7 +386,7 @@
       "buyer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
       "channel": "크몽 자료·템플릿/문서 자료 우선, 이후 스마트스토어 디지털파일 확장 후보",
       "owner": "execution_lead",
-      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행",
+      "next_action": "무료 블로그 글 1편 초안 검토 후 이미지 3장 제작/삽입, 이후 블로그 게시 승인 여부 판단",
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/products/beauty-noshow-reservation-kit-kr/09_market_validation.md",
@@ -519,8 +534,15 @@
           "name": "beauty-noshow-reservation-kit-kr.zip",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/beauty-noshow-reservation-kit-kr.zip"
+        },
+        {
+          "label": "무료 블로그 초안 1",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md"
         }
-      ]
+      ],
+      "updated_at": "2026-05-14T15:42:30+09:00",
+      "asset_count": 13
     },
     {
       "key": "MF-2",
