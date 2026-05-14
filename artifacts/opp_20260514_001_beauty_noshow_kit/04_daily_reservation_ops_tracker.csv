@@ -1,0 +1,4 @@
+﻿date,customer_alias,service,reservation_time,deposit,status,reminder_sent,change_deadline,cancel_reason,slot_resold,recovered_amount,next_booking_rule,memo
+2026-05-14,김**,젤 원컬러,14:00,10000,confirmed,Y,전일 18:00,,,0,normal,D-1 확인 답장
+2026-05-14,박**,속눈썹 리터치,16:00,10000,same_day_cancel,Y,전일 18:00,개인 일정,Y,35000,deposit_required,스토리 공지 후 단골 회수
+2026-05-14,이**,아트 풀세트,19:00,20000,no_show,Y,전일 18:00,연락두절,N,0,prepay_only,다음 예약 제한

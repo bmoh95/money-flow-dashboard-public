@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T13:18:40+09:00",
+  "updated_at": "2026-05-14T15:01:05+09:00",
   "last_run": {
-    "run_id": "2026-05-14_1130_money-flow",
-    "started_at": "2026-05-14T11:30:20+09:00",
-    "finished_at": "2026-05-14T11:30:20+09:00",
+    "run_id": "2026-05-14_1501_money-flow",
+    "started_at": "2026-05-14T15:01:05+09:00",
+    "finished_at": "2026-05-14T15:01:05+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,28 +16,33 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 5,
-    "opportunities_advanced": 0,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 0,
-    "assets_created": [],
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip"
+    ],
     "approval_needed": [
       "opp_20260514_001_beauty_noshow_kit"
     ],
     "decisions": [
       {
-        "opportunity_id": null,
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "공개 bounty 후보 재점검 결과 신규 등록할 만큼 유리한 현금성 기회 없음"
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "redteam_hold 블로커 해소 후 승인 대기 전환"
       }
     ],
-    "summary": "콘텐츠 판매 외 현금성 bounty 후보 5개 재점검. 신규 A/B급 저부담·고승률·70% 순마진 후보 없음. 기존 승인 대기 상태 유지.",
-    "final_report": "[SILENT]"
+    "summary": "MF-1 유료 경쟁상품 검증, 법률 고지/업로드 문구 보강, 승인 대기로 전환.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- MF-1 검증 보류 블로커 해소: 크몽 실제 유료 경쟁상품 19,000원 확인.\n- 가격/채널/썸네일/업로드 문구 확정, 법률 고지 추가, ZIP 재패키징 완료.\n- 상태: `검증 보류` → `승인 대기`.\n\n**시장성 판단**\n- GO: 크몽 자료·템플릿 카테고리에 유사 paid listing 있음.\n- MF-1은 문구 90개 + 정책 빌더 + 트래커 + 빈타임 회수 캘린더라 차별성 유지.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 45,600원, 약 80% / 낙관: 152,000원.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 크몽에 19,000원 상품으로 외부 업로드 진행 여부 승인 필요.\n"
   },
   "metrics": {
     "total": 2,
-    "active": 2,
-    "approval_needed": 0,
+    "active": 1,
+    "approval_needed": 1,
     "launched": 0,
     "closed_won": 0,
     "closed_lost": 1,
@@ -48,11 +53,18 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "status": "ready_for_approval",
-      "next_action": "주인님 승인 후 크몽/스마트스토어 중 1개 채널용 업로드 준비 또는 실제 유료 경쟁상품 링크 1개 추가 검증",
-      "quality": 84
+      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행",
+      "quality": 86
     }
   ],
-  "approval_needed": [],
+  "approval_needed": [
+    {
+      "id": "opp_20260514_001_beauty_noshow_kit",
+      "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
+      "approval_reason": "크몽 상품 업로드/외부 게시(L3)는 주인님 명시 승인 필요",
+      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행"
+    }
+  ],
   "priority_queue": [
     {
       "id": "opp_20260514_001_beauty_noshow_kit",
@@ -70,19 +82,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-14T10:22:07+09:00",
-      "run_id": "2026-05-14_1022_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": null,
-      "reason_code": null,
-      "summary": "기존 뷰티샵 노쇼 키트를 Money Flow 후보로 가져옴",
-      "links": []
-    },
     {
       "time": "2026-05-14T10:22:07+09:00",
       "run_id": "2026-05-14_1022_money-flow",
@@ -252,6 +251,93 @@
       "reason_code": "NO_EVIDENCE",
       "summary": "Red Team HOLD 조건(유료 경쟁상품 A등급 근거 부족)을 승인 대기가 아닌 검증 보류로 정정",
       "links": []
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "evidence_added",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "크몽 실제 paid listing 19,000원 확인으로 유료 수요 근거 보강",
+      "links": [
+        "https://kmong.com/gig/740539"
+      ]
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "크몽 우선 채널, 19,000원 가격, 썸네일/업로드 문구 확정",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md"
+      ]
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "법률 고지 추가 및 ZIP 재패키징 완료 SHA256=b463e297ad4a9838adde27d5f3219bab4d5cab64618f32d55f4088baba58903c",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip"
+      ]
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "ready_for_approval",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "이전 HOLD 블로커 해소. 외부 업로드 승인만 필요",
+      "links": []
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "19,000원 기준 3건 판매 시 예상 순마진 80% 유지",
+      "links": []
+    },
+    {
+      "time": "2026-05-14T15:01:05+09:00",
+      "run_id": "2026-05-14_1501_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "approval_needed",
+      "from_status": "redteam_hold",
+      "to_status": "ready_for_approval",
+      "decision": "HOLD",
+      "reason_code": "NO_APPROVAL",
+      "summary": "크몽 업로드는 L3 외부 게시라 주인님 승인 필요",
+      "links": []
     }
   ],
   "board_columns": [
@@ -270,22 +356,22 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "type": "digital_product",
-      "status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "ready_for_approval",
+      "column": "승인 대기",
       "priority": "HIGH",
       "stop_reason_code": null,
       "risk_flags": [
-        "실제 유료 경쟁상품 A등급 링크 보강 필요",
-        "예약금/환불 문구는 법률 자문 아님 고지 필요"
+        "외부 업로드는 승인 필요",
+        "예약금/환불 문구는 법률 자문 아님 고지 포함 완료"
       ],
-      "quality": 84,
+      "quality": 86,
       "base_net": 45600,
       "margin_pct": 80,
       "expected_price": 19000,
       "buyer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
-      "channel": "크몽 또는 스마트스토어/디지털파일 판매 채널",
-      "owner": "redteam",
-      "next_action": "실제 유료 경쟁상품 링크 1개 이상 검증 후 가격/채널/썸네일/업로드 문구를 확정해야 함",
+      "channel": "크몽 자료·템플릿/문서 자료 우선, 이후 스마트스토어 디지털파일 확장 후보",
+      "owner": "execution_lead",
+      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행",
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/products/beauty-noshow-reservation-kit-kr/09_market_validation.md",
@@ -298,6 +384,18 @@
           "grade": "A",
           "summary": "제작된 판매 가능 ZIP. unzip 무결성 통과, SHA256=125fd87e21d6f18643c64f5ae6786c3fec9f03ecbccafb647e0b432432f8c163",
           "checked_at": "2026-05-14T10:22:07+09:00"
+        },
+        {
+          "url": "https://kmong.com/gig/740539",
+          "grade": "A",
+          "summary": "크몽 자료·템플릿/문서 자료 카테고리의 실제 paid listing. “1인샵 운영문구 템플릿”, lowPrice/highPrice 19,000원 KRW, 예약·취소·노쇼·예약금 안내 문구 포함.",
+          "checked_at": "2026-05-14T15:01:05+09:00"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?query=%ED%81%AC%EB%AA%BD%20%EB%85%B8%EC%87%BC%20%EB%AC%B8%EC%9E%90%20%EC%98%88%EC%95%BD%EA%B8%88%20%EC%96%91%EC%8B%9D",
+          "grade": "B",
+          "summary": "네이버 검색 결과에서 동일 크몽 paid listing 노출 확인. 키워드: 크몽 노쇼 문자 예약금 양식.",
+          "checked_at": "2026-05-14T15:01:05+09:00"
         }
       ],
       "decision_history": [
@@ -325,6 +423,31 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "판매가 19,000원 기준 파일형 판매라 base 순마진 70%대 가능."
+        },
+        {
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "크몽 실제 paid listing 19,000원 확인. 구매자/채널/가격 근거 보강 완료."
+        },
+        {
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "크몽 우선 채널, 19,000원 유지, 썸네일/업로드 문구 확정. 품질 86점으로 상향."
+        },
+        {
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "법률 고지 추가, 업로드 문구/판매 페이지 보강, ZIP 재패키징 완료."
+        },
+        {
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "paid comparable 및 법률 고지 보강으로 이전 HOLD 블로커 해소. 외부 업로드 승인만 남음."
+        },
+        {
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "19,000원 x 기준 3건, 플랫폼 수수료 20% 가정 시 기준 순마진 80% 유지."
         }
       ],
       "assets": [
@@ -344,66 +467,60 @@
       "asset_links": [
         {
           "name": "08_usage_guide.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/08_usage_guide.md"
         },
         {
           "name": "06_sales_page.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/06_sales_page.md"
         },
         {
           "name": "01_kakao_sms_templates_90.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/01_kakao_sms_templates_90.md"
         },
         {
           "name": "03_no_show_response_playbook.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/03_no_show_response_playbook.md"
         },
         {
-          "name": "product_manifest.json",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/product_manifest.json",
-          "viewer": null
-        },
-        {
           "name": "README.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/README.md"
         },
         {
           "name": "09_market_validation.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/09_market_validation.md"
         },
         {
           "name": "07_upload_copy.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/07_upload_copy.md"
         },
         {
           "name": "02_reservation_policy_builder.md",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/02_reservation_policy_builder.md"
         },
         {
           "name": "05_empty_slot_resale_calendar.csv",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
-          "viewer": null
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/05_empty_slot_resale_calendar.csv"
         },
         {
           "name": "04_daily_reservation_ops_tracker.csv",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
-          "viewer": null
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/04_daily_reservation_ops_tracker.csv"
         },
         {
           "name": "beauty-noshow-reservation-kit-kr.zip",
-          "source": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
-          "viewer": null
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/beauty-noshow-reservation-kit-kr.zip"
         }
-      ],
-      "approval_required": false
+      ]
     },
     {
       "key": "MF-2",
@@ -450,19 +567,7 @@
       "assets": [
         "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr"
       ],
-      "asset_links": [
-        {
-          "name": "smartstore-review-repurchase-kit-kr",
-          "source": "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
-          "viewer": null
-        }
-      ]
+      "asset_links": []
     }
-  ],
-  "external_dashboard": {
-    "url": "https://38ab914251cd65.lhr.life/",
-    "status": "verified_200",
-    "checked_at": "2026-05-14T11:00:24+09:00",
-    "next_action": "사용자 요청 시 임시 터널 재생성 및 HTTP 재검증"
-  }
+  ]
 }
