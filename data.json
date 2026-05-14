@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T15:45:06+09:00",
+  "updated_at": "2026-05-14T16:05:18+09:00",
   "last_run": {
-    "run_id": "2026-05-14_1501_money-flow",
-    "started_at": "2026-05-14T15:01:05+09:00",
-    "finished_at": "2026-05-14T15:01:05+09:00",
+    "run_id": "2026-05-14_1605_money-flow",
+    "started_at": "2026-05-14T16:05:18+09:00",
+    "finished_at": "2026-05-14T16:05:18+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -17,27 +17,15 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip"
-    ],
+    "assets_created": [],
     "approval_needed": [
       "opp_20260514_001_beauty_noshow_kit"
     ],
-    "decisions": [
-      {
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "redteam_hold 블로커 해소 후 승인 대기 전환"
-      }
-    ],
-    "summary": "MF-1 유료 경쟁상품 검증, 법률 고지/업로드 문구 보강, 승인 대기로 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- MF-1 검증 보류 블로커 해소: 크몽 실제 유료 경쟁상품 19,000원 확인.\n- 가격/채널/썸네일/업로드 문구 확정, 법률 고지 추가, ZIP 재패키징 완료.\n- 상태: `검증 보류` → `승인 대기`.\n\n**시장성 판단**\n- GO: 크몽 자료·템플릿 카테고리에 유사 paid listing 있음.\n- MF-1은 문구 90개 + 정책 빌더 + 트래커 + 빈타임 회수 캘린더라 차별성 유지.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 45,600원, 약 80% / 낙관: 152,000원.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 크몽에 19,000원 상품으로 외부 업로드 진행 여부 승인 필요.\n"
+    "decisions": [],
+    "summary": "검증 보류 항목 없음. MF-1 paid comparable/가격/채널/썸네일/법률 고지 재확인 완료; 상태 변화 없음.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 2,
