@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T18:10:47+09:00",
+  "updated_at": "2026-05-14T19:51:33+09:00",
   "last_run": {
-    "run_id": "2026-05-14_1810_money-flow",
-    "started_at": "2026-05-14T18:10:47+09:00",
-    "finished_at": "2026-05-14T18:10:47+09:00",
+    "run_id": "2026-05-14_1951_money-flow",
+    "started_at": "2026-05-14T19:51:33+09:00",
+    "finished_at": "2026-05-14T19:51:33+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -25,12 +25,55 @@
     ],
     "decisions": [
       {
+        "agent": "research_member",
         "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
         "decision": "GO",
-        "summary": "MF-1 recheck passed but no material state change; L3 upload approval still required."
+        "summary": "기존 승인 대기 품목 우선 재검토. 신규 후보 생성 생략."
+      },
+      {
+        "agent": "research_lead",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "A/B 근거, 구매자, 채널, 가격 가정 유지. paid comparable은 별도 HTTP 검증 완료."
+      },
+      {
+        "agent": "planning_member",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "기존 크몽 업로드 경로와 무료 블로그 검증 자산 유지."
+      },
+      {
+        "agent": "planning_lead",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "범용 템플릿보다 뷰티샵 노쇼·예약금 운영 문제에 좁게 맞춰져 품질 86 유지."
+      },
+      {
+        "agent": "execution_member",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "HOLD",
+        "summary": "외부 업로드 승인 전 추가 제작/게시 중단. 로컬 ZIP 및 초안 보존."
+      },
+      {
+        "agent": "execution_lead",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "산출물 존재 확인. ZIP SHA256=b463e297ad4a9838adde27d5f3219bab4d5cab64618f32d55f4088baba58903c."
+      },
+      {
+        "agent": "redteam",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "새 블로커 없음. 과장 매출 보장/법률 자문 표현 없음. L3 업로드 승인만 필요."
+      },
+      {
+        "agent": "roi",
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "19,000원 x 기준 3건, 플랫폼 수수료 20% 가정 순매출 45,600원·순마진 80% 유지."
       }
     ],
-    "summary": "검증 보류(redteam_hold) 항목 없음. MF-1 paid comparable HTTP 200/19,000원/1인샵·노쇼·예약금 키워드 및 법률 고지 재확인. 기존 승인 대기 상태 유지. 신규 후보는 승인 대기 품목 우선으로 생략.",
+    "summary": "승인 대기 품목 MF-1 재검토 완료. 상태 변화 없음. 신규 후보는 승인 대기 품목 우선 원칙으로 생략.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -39,7 +82,7 @@
     "approval_needed": 1,
     "launched": 0,
     "closed_won": 0,
-    "closed_lost": 0,
+    "closed_lost": 1,
     "rejected": 1
   },
   "active_opportunities": [
@@ -530,7 +573,8 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md"
       ],
       "asset_links": [
         {
@@ -560,6 +604,13 @@
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/03_no_show_response_playbook.md",
           "title": "노쇼·당일취소 대응 플레이북",
           "label": "노쇼·당일취소 대응 플레이북"
+        },
+        {
+          "name": "product_manifest.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/product_manifest.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/product_manifest.json",
+          "title": "product_manifest.json",
+          "label": "product_manifest.json"
         },
         {
           "name": "README.md",
@@ -611,10 +662,11 @@
           "label": "beauty-noshow-reservation-kit-kr.zip"
         },
         {
-          "label": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다",
+          "name": "blog_01_nailshop_noshow_reservation_deposit.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md",
-          "title": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다"
+          "title": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다",
+          "label": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다"
         }
       ],
       "updated_at": "2026-05-14T17:08:17+09:00",
@@ -665,7 +717,9 @@
       "assets": [
         "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr"
       ],
-      "asset_links": []
+      "asset_links": [],
+      "updated_at": "2026-05-14T10:22:07+09:00",
+      "asset_count": 1
     }
   ]
 }

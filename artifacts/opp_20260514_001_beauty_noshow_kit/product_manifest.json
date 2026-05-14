@@ -1,0 +1,18 @@
+{
+  "product": "beauty-noshow-reservation-kit-kr",
+  "created_at": "2026-05-14T10:00:00+09:00",
+  "target": "Korean reservation-based beauty shops",
+  "recommended_price_krw": 19000,
+  "files": [
+    "01_kakao_sms_templates_90.md",
+    "02_reservation_policy_builder.md",
+    "03_no_show_response_playbook.md",
+    "04_daily_reservation_ops_tracker.csv",
+    "05_empty_slot_resale_calendar.csv",
+    "06_sales_page.md",
+    "07_upload_copy.md",
+    "08_usage_guide.md",
+    "09_market_validation.md",
+    "README.md"
+  ]
+}
