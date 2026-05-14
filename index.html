@@ -24,10 +24,10 @@
   <div class="modal" id="modal" aria-hidden="true"><div class="shade" data-close="1"></div><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="close" data-close="1" aria-label="닫기">×</button><div id="modalBody"></div></section></div>
   <div class="modal" id="mdModal" aria-hidden="true"><div class="shade" data-md-close="1"></div><section class="dialog mdDialog" role="dialog" aria-modal="true" aria-labelledby="mdTitle"><button class="close" data-md-close="1" aria-label="닫기">×</button><div class="modalHead"><span class="key">Markdown</span></div><h2 id="mdTitle">산출물</h2><article id="mdBody" class="mdBody">불러오는 중...</article></section></div>
   <script>
-    let currentData = {work_items:[], metrics:{}, roi:{}, board_columns:['백로그','리서치','기획','제작','승인 대기','운영/수익','종료/폐기'], recent_events:[]};
+    let currentData = {work_items:[], metrics:{}, roi:{}, board_columns:['백로그','리서치','기획','제작','검증 보류','승인 대기','운영/수익','종료/폐기'], recent_events:[]};
     const fmtWon = n => (n ?? 0).toLocaleString('ko-KR') + '원';
     const esc = s => String(s ?? '').replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]));
-    const statusKo = {ready_for_approval:'승인 대기', planning_rejected:'기획 반려', research_rejected:'리서치 반려', execution:'제작 중', planning:'기획 중', discovered:'발견', launched:'출시', tracking:'운영', closed_lost:'종료', closed_won:'수익 발생', redteam_hold:'보류'};
+    const statusKo = {ready_for_approval:'승인 대기', planning_rejected:'기획 반려', research_rejected:'리서치 반려', execution:'제작 중', planning:'기획 중', discovered:'발견', launched:'출시', tracking:'운영', closed_lost:'종료', closed_won:'수익 발생', redteam_hold:'검증 보류'};
     const typeKo = {digital_product:'디지털 상품', bounty:'개발 보상금', writing:'유료 원고', contest:'공모전', resale:'리셀', service:'서비스', other:'기타'};
     const ownerKo = {research_member:'리서치 수집', research_lead:'시장성 검토', planning_member:'기획 작성', planning_lead:'기획 검수', execution_member:'제작', execution_lead:'제작 검수', redteam:'리스크 검토', roi:'수익성 검토', ledger_dashboard_manager:'대시보드 관리'};
     const priorityKo = {HIGH:'높음', MED:'보통', LOW:'낮음'};
