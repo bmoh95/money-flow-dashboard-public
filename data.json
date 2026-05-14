@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-14T16:05:18+09:00",
+  "updated_at": "2026-05-14T17:08:17+09:00",
   "last_run": {
-    "run_id": "2026-05-14_1605_money-flow",
-    "started_at": "2026-05-14T16:05:18+09:00",
-    "finished_at": "2026-05-14T16:05:18+09:00",
+    "run_id": "2026-05-14_1708_money-flow",
+    "started_at": "2026-05-14T17:08:17+09:00",
+    "finished_at": "2026-05-14T17:08:17+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -23,8 +23,14 @@
     "approval_needed": [
       "opp_20260514_001_beauty_noshow_kit"
     ],
-    "decisions": [],
-    "summary": "검증 보류 항목 없음. MF-1 paid comparable/가격/채널/썸네일/법률 고지 재확인 완료; 상태 변화 없음.",
+    "decisions": [
+      {
+        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+        "decision": "GO",
+        "summary": "MF-1 daily recheck completed; no state change; still approval needed for L3 upload."
+      }
+    ],
+    "summary": "MF-1 paid comparable/가격/채널/썸네일/업로드 문구/법률 고지 재확인 완료. 상태 변화 없음. 신규 후보 스카우트는 승인 대기 품목 우선으로 생략.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -33,7 +39,7 @@
     "approval_needed": 1,
     "launched": 0,
     "closed_won": 0,
-    "closed_lost": 1,
+    "closed_lost": 0,
     "rejected": 1
   },
   "active_opportunities": [
@@ -41,7 +47,7 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "status": "ready_for_approval",
-      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행",
+      "next_action": "크몽 상품 업로드는 승인 대기. 추가 자동 작업은 외부 게시 승인 전 보류.",
       "quality": 86
     }
   ],
@@ -50,7 +56,7 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "approval_reason": "크몽 상품 업로드/외부 게시(L3)는 주인님 명시 승인 필요",
-      "next_action": "주인님 승인 시 크몽 자료·템플릿 채널에 19,000원 상품으로 업로드 진행"
+      "next_action": "크몽 상품 업로드는 승인 대기. 추가 자동 작업은 외부 게시 승인 전 보류."
     }
   ],
   "priority_queue": [
@@ -70,6 +76,19 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-14T10:22:07+09:00",
+      "run_id": "2026-05-14_1022_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": null,
+      "reason_code": null,
+      "summary": "기존 뷰티샵 노쇼 키트를 Money Flow 후보로 가져옴",
+      "links": []
+    },
     {
       "time": "2026-05-14T10:22:07+09:00",
       "run_id": "2026-05-14_1022_money-flow",
@@ -341,6 +360,47 @@
       "links": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md"
       ]
+    },
+    {
+      "time": "2026-05-14T17:08:17+09:00",
+      "run_id": "2026-05-14_1708_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "evidence_added",
+      "from_status": "ready_for_approval",
+      "to_status": "ready_for_approval",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "일일 재확인: 크몽 paid listing HTTP 200, lowPrice 19000 및 1인샵/노쇼/예약금 키워드 확인. 기존 근거 유지.",
+      "links": [
+        "https://kmong.com/gig/740539"
+      ]
+    },
+    {
+      "time": "2026-05-14T17:08:17+09:00",
+      "run_id": "2026-05-14_1708_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "ready_for_approval",
+      "to_status": "ready_for_approval",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로커 없음. 법률 자문 아님/환불·예약금 고지 포함, 매출·노쇼 감소 보장 표현 없음. 외부 업로드 승인만 필요.",
+      "links": []
+    },
+    {
+      "time": "2026-05-14T17:08:17+09:00",
+      "run_id": "2026-05-14_1708_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "가격 19,000원, 플랫폼 수수료 20% 가정 시 기준 3건 순매출 45,600원·순마진 80% 유지.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -374,7 +434,7 @@
       "buyer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
       "channel": "크몽 자료·템플릿/문서 자료 우선, 이후 스마트스토어 디지털파일 확장 후보",
       "owner": "execution_lead",
-      "next_action": "무료 블로그 글 1편 초안 검토 후 이미지 3장 제작/삽입, 이후 블로그 게시 승인 여부 판단",
+      "next_action": "크몽 상품 업로드는 승인 대기. 추가 자동 작업은 외부 게시 승인 전 보류.",
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/products/beauty-noshow-reservation-kit-kr/09_market_validation.md",
@@ -392,13 +452,13 @@
           "url": "https://kmong.com/gig/740539",
           "grade": "A",
           "summary": "크몽 자료·템플릿/문서 자료 카테고리의 실제 paid listing. “1인샵 운영문구 템플릿”, lowPrice/highPrice 19,000원 KRW, 예약·취소·노쇼·예약금 안내 문구 포함.",
-          "checked_at": "2026-05-14T15:01:05+09:00"
+          "checked_at": "2026-05-14T17:08:17+09:00"
         },
         {
           "url": "https://search.naver.com/search.naver?query=%ED%81%AC%EB%AA%BD%20%EB%85%B8%EC%87%BC%20%EB%AC%B8%EC%9E%90%20%EC%98%88%EC%95%BD%EA%B8%88%20%EC%96%91%EC%8B%9D",
           "grade": "B",
           "summary": "네이버 검색 결과에서 동일 크몽 paid listing 노출 확인. 키워드: 크몽 노쇼 문자 예약금 양식.",
-          "checked_at": "2026-05-14T15:01:05+09:00"
+          "checked_at": "2026-05-14T17:08:17+09:00"
         }
       ],
       "decision_history": [
@@ -451,6 +511,11 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "19,000원 x 기준 3건, 플랫폼 수수료 20% 가정 시 기준 순마진 80% 유지."
+        },
+        {
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "일일 재검증: 크몽 paid comparable HTTP 200 및 19,000원/1인샵/예약금/노쇼 키워드 재확인. 법률 고지와 썸네일/업로드 문구 유지. 상태 변화 없음."
         }
       ],
       "assets": [
@@ -552,7 +617,7 @@
           "title": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다"
         }
       ],
-      "updated_at": "2026-05-14T15:42:30+09:00",
+      "updated_at": "2026-05-14T17:08:17+09:00",
       "asset_count": 13
     },
     {
