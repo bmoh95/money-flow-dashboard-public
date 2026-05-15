@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-15T12:47:53+09:00",
+  "updated_at": "2026-05-15T13:55:49+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1247_money-flow",
-    "started_at": "2026-05-15T12:47:53+09:00",
-    "finished_at": "2026-05-15T12:47:53+09:00",
+    "run_id": "2026-05-15_1355_money-flow",
+    "started_at": "2026-05-15T13:55:49+09:00",
+    "finished_at": "2026-05-15T13:55:49+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -17,64 +17,15 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [],
     "approval_needed": [
       "opp_20260514_001_beauty_noshow_kit"
     ],
-    "decisions": [
-      {
-        "agent": "research_member",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "기존 폐기 자산의 무료 티스토리 검증 글 공개 URL을 우선 재확인. 신규 후보 생성 생략."
-      },
-      {
-        "agent": "research_lead",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "공개 글 HTTP 200 확인. 무료 검증 채널로 buyer pain 검증을 추적할 수 있음."
-      },
-      {
-        "agent": "planning_member",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "다음 계획은 조회/검색 반응 추적 후 업종별 후속 글 또는 유료 키트 전환 판단."
-      },
-      {
-        "agent": "planning_lead",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "유료상품으로는 약하나 무료 검증 콘텐츠로는 품질·채널 적합. 하드 CTA 없음."
-      },
-      {
-        "agent": "execution_member",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "티스토리 공개 게시 URL을 원장부/대시보드에 반영."
-      },
-      {
-        "agent": "execution_lead",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "공개 URL 접근 확인. 추가 외부 액션 없음."
-      },
-      {
-        "agent": "redteam",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "GO",
-        "summary": "실패 모드: 검색 유입 부족, 범용 답변으로 차별성 약함, 유료 전환 근거 부족. 무료 검증 상태라 허용."
-      },
-      {
-        "agent": "roi",
-        "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-        "decision": "HOLD",
-        "summary": "현재 실제 매출 0원. 무료 검증 성과 데이터 확보 전 유료 전환은 보류."
-      }
-    ],
-    "summary": "티스토리 공개 게시 상태를 원장부/대시보드에 반영하고 공개 URL을 추적 대상으로 전환. 신규 후보 없음.",
-    "final_report": "material: tistory launched reconciled"
+    "decisions": [],
+    "summary": "기존 승인대기/출시검증 상태 재확인. 신규 물질 변화 없음.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 2,
@@ -651,22 +602,22 @@
       "asset_count": 13,
       "asset_links": [
         {
-          "label": "08_usage_guide.md",
+          "label": "5분 적용 가이드",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/08_usage_guide.md"
         },
         {
-          "label": "06_sales_page.md",
+          "label": "판매 페이지 원고",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/06_sales_page.md"
         },
         {
-          "label": "01_kakao_sms_templates_90.md",
+          "label": "카톡/SMS 템플릿 90개",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/01_kakao_sms_templates_90.md"
         },
         {
-          "label": "03_no_show_response_playbook.md",
+          "label": "노쇼·당일취소 대응 플레이북",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/03_no_show_response_playbook.md"
         },
@@ -676,22 +627,22 @@
           "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/product_manifest.json"
         },
         {
-          "label": "README.md",
+          "label": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트 KR",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/README.md"
         },
         {
-          "label": "09_market_validation.md",
+          "label": "시장성·경쟁·마진 검증",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/09_market_validation.md"
         },
         {
-          "label": "07_upload_copy.md",
+          "label": "업로드용 문구",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/07_upload_copy.md"
         },
         {
-          "label": "02_reservation_policy_builder.md",
+          "label": "예약 정책 빌더",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/02_reservation_policy_builder.md"
         },
@@ -711,7 +662,7 @@
           "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/beauty-noshow-reservation-kit-kr.zip"
         },
         {
-          "label": "blog_01_nailshop_noshow_reservation_deposit.md",
+          "label": "네일샵 노쇼 줄이는 예약금 안내문, 너무 세게 쓰지 않고도 충분합니다",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md"
         }
@@ -777,7 +728,7 @@
           "viewer": "artifacts/opp_20260514_002_smartstore_review_kit/smartstore-review-repurchase-kit-kr"
         },
         {
-          "label": "blog_draft_smartstore_review_reply_20260515.md",
+          "label": "스마트스토어 리뷰 답변, 복붙처럼 보이지 않게 쓰는 법",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/blog_draft_smartstore_review_reply_20260515.md",
           "viewer": "viewer.html?file=artifacts/opp_20260514_002_smartstore_review_kit/blog_draft_smartstore_review_reply_20260515.md"
         },
