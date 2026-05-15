@@ -1252,7 +1252,7 @@
           "time": "2026-05-15T19:57:01+09:00",
           "agent": "execution_lead",
           "decision": "HOLD",
-          "reason_code": "NO_APPROVAL",
+          "reason_code": "NO_EVIDENCE",
           "summary": "게시 전 이미지 3장 생성 및 Tistory 렌더링 검수가 필요. standing approval은 품질 게이트 통과 후 적용."
         },
         {
