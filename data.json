@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T07:07:38+09:00",
+  "updated_at": "2026-05-16T08:18:24+09:00",
   "last_run": {
-    "run_id": "2026-05-16_0707_money-flow",
-    "started_at": "2026-05-16T07:07:38+09:00",
-    "finished_at": "2026-05-16T07:07:38+09:00",
+    "run_id": "2026-05-16_0814_money-flow",
+    "started_at": "2026-05-16T08:18:24+09:00",
+    "finished_at": "2026-05-16T08:18:24+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,39 +20,39 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "카페 여름 시즌메뉴 안내 글은 독자와 계절 수요 명확"
+        "summary": "치과·동네의원 휴진 안내 글은 독자와 계절 수요 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 85점, 초안 제작 승인"
+        "summary": "품질 86점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
         "summary": "이미지·렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for cafe summer seasonal menu notice pain.",
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for clinic summer vacation closure notice pain.",
     "final_report": ""
   },
   "metrics": {
-    "total": 16,
-    "active": 14,
+    "total": 17,
+    "active": 15,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -157,6 +157,13 @@
       "status": "검증 보류",
       "next_action": "썸네일·메뉴 공지 카드·체크리스트 이미지 3장 생성 후 알레르기/성분 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 85
+    },
+    {
+      "id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "썸네일·문자 예시·체크리스트 이미지 3장 생성 후 의료 조언/진료 보장/개인정보 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "quality": 86
     }
   ],
   "approval_needed": [],
@@ -288,215 +295,27 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "썸네일·메뉴 공지 카드·체크리스트 이미지 3장 생성 후 알레르기/성분 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "썸네일·문자 예시·체크리스트 이미지 3장 생성 후 의료 조언/진료 보장/개인정보 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 4,
-    "근거 부족": 9
+    "근거 부족": 10
   },
   "roi": {
-    "expected_base_net_total": 534840,
+    "expected_base_net_total": 596760,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "세탁소·셀프빨래방 장마철 이불·이염·분실 문의 안내문 무료 검증 글 후보 발견.",
-      "links": [
-        "https://duckduckgo.com/html/?q=site%3Atistory.com+%EC%84%B8%ED%83%81%EC%86%8C+%EC%9D%B4%EC%97%BC+%EB%B6%84%EC%8B%A4+%EB%B3%B4%EC%83%81+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "세탁소 보상/분쟁, 장마철 빨래방, 안내문 대체재 근거 추가.",
-      "links": [
-        "https://duckduckgo.com/html/?q=site%3Atistory.com+%EC%84%B8%ED%83%81%EC%86%8C+%EC%9D%B4%EC%97%BC+%EB%B6%84%EC%8B%A4+%EB%B3%B4%EC%83%81+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
-        "https://6story.tistory.com/1852",
-        "https://duckduckgo.com/html/?q=site%3Ablog.naver.com+%EB%B9%A8%EB%9E%98%EB%B0%A9+%EC%9E%A5%EB%A7%88%EC%B2%A0+%EC%9D%B4%EC%9A%A9+%EC%95%88%EB%82%B4%EB%AC%B8",
-        "https://blog.naver.com/sung4632/223505222031",
-        "https://blog.naver.com/easywash319/223913654781",
-        "https://kmong.com/prices",
-        "https://www.canva.com/ko_kr/announcements/templates/"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "독자/채널은 명확. 유료 직행보다 무료 안내문 검증 글로 범위 제한.",
-      "links": [],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "블로그 검증 브리프와 plan.md 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 85점. 장마철 세탁 문의 감소라는 좁은 문제에 맞춤.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory용 Markdown 초안 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516.md"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
-      "links": [],
-      "agent_label": "제작 검수",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "실패 모드: 보상 단정 오해, 무료 안내문 경쟁, 매장별 정책 차이, 유료 전환 미확인.",
-      "links": [],
-      "agent_label": "리스크 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 전 실제 매출 0원. 후속 세탁소 안내문 ZIP 기준 순매출은 검증 후 판단.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "PIVOT",
-      "reason_code": "HIGH_RISK",
-      "summary": "Scout pivot: 세탁소 클레임 대응 유료 ZIP 직행은 보상/법적 오해 리스크가 있어 무료 운영 안내 글로 전환.",
-      "links": [
-        "https://6story.tistory.com/1852"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "위험 높음"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "WEAK_DIFFERENTIATION",
-      "summary": "Scout rejected: 안내문 디자인 외주/템플릿 리셀은 Canva·미리캔버스·크몽 대체재가 강해 차별성 부족.",
-      "links": [
-        "https://www.canva.com/ko_kr/announcements/templates/",
-        "https://kmong.com/prices"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "차별성 약함"
-    },
-    {
-      "time": "2026-05-16T02:43:32+09:00",
-      "run_id": "2026-05-16_0243_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "PAYMENT_UNCLEAR",
-      "summary": "Scout rejected: 유료 원고료 블로그 기자단은 지급처 신뢰·권리 조건·국내 정산 경로가 불명확하고 사용자 프로필 부담이 큼.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%EC%9B%90%EA%B3%A0%EB%A3%8C+%ED%88%AC%EA%B3%A0+%EB%AA%A8%EC%A7%91+%EA%B8%B0%EA%B3%A0%EB%A3%8C+IT+%EB%B8%94%EB%A1%9C%EA%B7%B8"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "지급 불명확"
-    },
     {
       "time": "2026-05-16T03:50:04+09:00",
       "run_id": "2026-05-16_0350_money-flow",
@@ -1269,6 +1088,200 @@
       "summary": "Scout rejected: 여름 한정 굿즈/우산 리셀은 구매·재고·배송·반품 부담이 커 L4 승인 없이 진행 불가.",
       "links": [
         "https://www.google.com/search?q=%EC%97%AC%EB%A6%84+%ED%95%9C%EC%A0%95+%EA%B5%BF%EC%A6%88+%EB%A6%AC%EC%85%80"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글 후보 발견.",
+      "links": [
+        "https://help.naver.com/service/30026/contents/20380?osType=PC&lang=ko"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "실제 치과 휴진 공지, 병원 예약문자 가이드, 공식 로컬 채널 근거 추가.",
+      "links": [
+        "https://help.naver.com/service/30026/contents/20380?osType=PC&lang=ko",
+        "https://support.google.com/business/answer/6303076?hl=ko",
+        "https://duckduckgo.com/html/?q=%EC%B9%98%EA%B3%BC+%EC%97%AC%EB%A6%84%ED%9C%B4%EA%B0%80+%ED%9C%B4%EC%A7%84+%EC%95%88%EB%82%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://www.tingtalk.co.kr/static/publish/business/medical-appointment-sms.html",
+        "https://www.canva.com/ko_kr/templates/s/closure/",
+        "https://www.yna.co.kr/view/AKR20240618081200004"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자·채널 명확. 의료 조언이 아니라 운영 안내문으로 범위 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프와 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 86점. 예약 변경·채널 업데이트 체크리스트가 즉시 사용 가능.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "실패 모드: 의료광고/진료 보장 오해, 개인정보 예시 노출, 무료 템플릿 경쟁.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 병원 안내문 ZIP 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: GitHub/Algora 대형 인프라 바운티는 구현 난도·리뷰 대기·중복 PR 리스크가 커 이번 시간대 단기 ROI 부적합.",
+      "links": [
+        "https://algora.io/bounties"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "PIVOT",
+      "reason_code": "HIGH_RISK",
+      "summary": "Scout pivot: 병원 예약문자 유료 템플릿 직접 판매는 개인정보/진료과별 규정 차이가 커 무료 일반 문구 글로 먼저 검증 필요.",
+      "links": [
+        "https://www.tingtalk.co.kr/static/publish/business/medical-appointment-sms.html"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-16T08:18:24+09:00",
+      "run_id": "2026-05-16_0814_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: 여름 휴가철 병원 전화대행/ARS 세팅 서비스는 외부 연락, 계정/전화 서비스 가입, 고객 응대가 필요해 사용자 부담이 높음.",
+      "links": [
+        "https://blog.atalkbiz.co.kr/271"
       ],
       "agent_label": "시장성 검토",
       "reason_label": "사용자 부담 높음"
@@ -3176,6 +3189,133 @@
           "name": "draft_cafe_summer_menu_notice_20260516.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_016_cafe_summer_menu_blog/draft_cafe_summer_menu_notice_20260516.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
+    },
+    {
+      "key": "MF-17",
+      "id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 86,
+      "base_net": 61920,
+      "margin_pct": 80,
+      "expected_price": 12900,
+      "buyer_or_payer": "여름휴가 휴진을 앞둔 동네 치과·의원 원장, 실장, 데스크 담당자",
+      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 진료과별 휴진/예약변경 안내문 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "썸네일·문자 예시·체크리스트 이미지 3장 생성 후 의료 조언/진료 보장/개인정보 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "medical_advice_or_advertising_overreach",
+        "personal_data_placeholder_needed",
+        "free_template_competition",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://help.naver.com/service/30026/contents/20380?osType=PC&lang=ko",
+          "grade": "A",
+          "summary": "네이버 스마트플레이스 업체 영업시간/휴무일 수정 공식 도움말. 병원 휴진 노출 채널 근거.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        },
+        {
+          "url": "https://support.google.com/business/answer/6303076?hl=ko",
+          "grade": "A",
+          "summary": "Google 비즈니스 프로필 특별 영업시간 설정 공식 문서. 휴진/특별 영업시간 관리 근거.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%B9%98%EA%B3%BC+%EC%97%AC%EB%A6%84%ED%9C%B4%EA%B0%80+%ED%9C%B4%EC%A7%84+%EC%95%88%EB%82%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "실제 치과 휴진 공지 다수 노출.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        },
+        {
+          "url": "https://www.tingtalk.co.kr/static/publish/business/medical-appointment-sms.html",
+          "grade": "B",
+          "summary": "병원 진료예약문자 발송 가이드. 병원 문자 수요 신호.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        },
+        {
+          "url": "https://www.yesform.com/upjong/bizf/1630.php",
+          "grade": "B",
+          "summary": "치과병원 휴진 안내문 샘플/문서 대체재.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        },
+        {
+          "url": "https://news.seoul.go.kr/welfare/archives/560083",
+          "grade": "B",
+          "summary": "야간·휴일 진료가능 병의원 안내. 휴진/진료 가능 정보 확인 수요 신호.",
+          "checked_at": "2026-05-16T08:18:24+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "실제 치과 휴진 공지와 병원 문자 발송 서비스/템플릿 수요 확인."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자·채널 명확. 의료 조언이 아니라 운영 안내문으로 범위 제한."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글/이미지 계획/후속 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 86점. 예약 변경·채널 업데이트 체크리스트가 즉시 사용 가능."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "브리프와 Tistory Markdown 초안 생성."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성과 Tistory 렌더링 QA 전 게시 보류."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "의료광고/진료 보장 오해, 개인정보 예시 노출, 무료 템플릿 경쟁."
+        },
+        {
+          "time": "2026-05-16T08:18:24+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 실제 매출 0원."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_017_clinic_vacation_notice_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_clinic_vacation_notice_20260516.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_017_clinic_vacation_notice_blog/draft_clinic_vacation_notice_20260516.md"
         }
       ],
       "stop_reason_label": "근거 부족"
