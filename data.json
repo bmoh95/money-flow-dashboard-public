@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T02:43:32+09:00",
+  "updated_at": "2026-05-16T03:50:04+09:00",
   "last_run": {
-    "run_id": "2026-05-16_0243_money-flow",
-    "started_at": "2026-05-16T02:43:32+09:00",
-    "finished_at": "2026-05-16T02:43:32+09:00",
+    "run_id": "2026-05-16_0350_money-flow",
+    "started_at": "2026-05-16T03:50:04+09:00",
+    "finished_at": "2026-05-16T03:50:04+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,39 +20,39 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
+        "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "세탁소 장마철 문의 안내문 무료 검증 글은 독자와 채널 명확"
+        "summary": "에어컨 청소업체 예약 안내문 무료 검증 글은 독자와 계절 수요 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
+        "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 85점, 초안 제작 승인"
+        "summary": "품질 86점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260516_012_laundry_rainy_season_blog",
+        "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
         "summary": "이미지·렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for laundry rainy-season inquiry pain.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 신규 후보 4개 검토, 새 작업 항목 `opp_20260516_012_laundry_rainy_season_blog` 생성 완료.\n- 세탁소·셀프빨래방용 “장마철 이불·이염·분실 문의 안내문” Tistory 검증 글 브리프와 초안 제작 완료.\n\n**시장성 판단**\n- GO/HOLD: 장마철 세탁 문의와 분실·손상 클레임 pain은 명확합니다.\n- 단, 보상 단정 오해와 무료 안내문 경쟁이 있어 이미지·렌더링 QA 전 게시 보류입니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 후속 안내문 ZIP 5건 가정 시 약 39,600원 순매출, 80%대 가능.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 다음 단계: 이미지 3장 생성 + 보상 표현 재검수 + Tistory 렌더링 QA 후 무료 검증 글 게시.\n\n**필요 승인**\n- 없음. standing approval 범위지만, 이번에는 품질 게이트 미완료라 외부 게시하지 않았습니다.\n"
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for aircon cleaning booking pain.",
+    "final_report": ""
   },
   "metrics": {
-    "total": 12,
-    "active": 10,
+    "total": 13,
+    "active": 11,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -129,6 +129,13 @@
       "status": "검증 보류",
       "next_action": "썸네일·문자예시·체크리스트 이미지 3장 생성 후 보상/분실 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 85
+    },
+    {
+      "id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "title": "에어컨 청소업체 여름 예약·방문 전 안내문 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "썸네일·문자예시·체크리스트 이미지 3장 생성 후 가격/청소효과 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "quality": 86
     }
   ],
   "approval_needed": [],
@@ -228,211 +235,27 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "썸네일·문자예시·체크리스트 이미지 3장 생성 후 보상/분실 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "title": "에어컨 청소업체 여름 예약·방문 전 안내문 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "썸네일·문자예시·체크리스트 이미지 3장 생성 후 가격/청소효과 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 4,
-    "근거 부족": 5
+    "근거 부족": 6
   },
   "roi": {
-    "expected_base_net_total": 332760,
+    "expected_base_net_total": 372360,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "쇼핑몰·배달 소상공인 종소세 매출자료 정리 무료 검증 글 후보 발견.",
-      "links": [
-        "https://search.naver.com/search.naver?query=%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%A7%A4%EC%B6%9C%EC%9E%90%EB%A3%8C+%EC%A0%95%EB%A6%AC"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "국세청 공식 출처, 네이버 검색 수요, 크몽 종소세 엑셀 검색 신호 추가.",
-      "links": [
-        "https://www.nts.go.kr/",
-        "https://search.naver.com/search.naver?query=%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%A7%A4%EC%B6%9C%EC%9E%90%EB%A3%8C+%EC%A0%95%EB%A6%AC",
-        "https://kmong.com/search?keyword=%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8%20%EC%97%91%EC%85%80",
-        "https://search.naver.com/search.naver?query=%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%8A%A4%ED%86%A0%EC%96%B4+%EB%A7%A4%EC%B6%9C%EC%9E%90%EB%A3%8C+%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "독자와 시즌성 명확. 세무 자문이 아닌 자료 수집 순서 글로 범위 제한.",
-      "links": [],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "블로그 검증 브리프 및 plan.md 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 85점. 세무 계산이 아니라 자료 정리 pain에 맞춰 제작 승인.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory용 Markdown 초안 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "세무 표현 검수, 이미지 생성, Tistory 렌더링 QA 전이라 게시 보류.",
-      "links": [],
-      "agent_label": "제작 검수",
-      "reason_label": "위험 높음"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "실패 모드: 세무 자문 오해, 플랫폼 UI 변경, 시즌성, 유료 전환 미확인.",
-      "links": [],
-      "agent_label": "리스크 검토",
-      "reason_label": "위험 높음"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 전 실제 매출 0원. 후속 엑셀 ZIP 기준 순매출은 검증 후 판단.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: Algora/GitHub 신규 bounty는 이번 검색에서 즉시 수행 가능한 저위험·저범위 이슈를 확정하지 못함.",
-      "links": [
-        "https://algora.io/bounties"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "NO_CHANNEL",
-      "summary": "Scout rejected: paid writing 후보는 제출 채널/채택 가능성/계정 의존성이 약해 이번 실행에서 제외.",
-      "links": [
-        "https://www.thewordling.com/submissions"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "채널 없음"
-    },
-    {
-      "time": "2026-05-15T22:12:36+09:00",
-      "run_id": "2026-05-15_2212_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "PIVOT",
-      "reason_code": "HIGH_RISK",
-      "summary": "Scout pivot: 종소세 엑셀 유료 상품 직행은 세무 정확성 리스크가 커서 무료 자료정리 글 검증으로 전환.",
-      "links": [
-        "https://kmong.com/search?keyword=%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8%20%EC%97%91%EC%85%80"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "위험 높음"
-    },
     {
       "time": "2026-05-15T23:20:18+09:00",
       "run_id": "2026-05-15_2320_money-flow",
@@ -1210,6 +1033,201 @@
       ],
       "agent_label": "시장성 검토",
       "reason_label": "지급 불명확"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "에어컨 청소업체 여름 예약·방문 전 안내문 무료 검증 글 후보 발견.",
+      "links": [
+        "https://duckduckgo.com/html/?q=site%3Ablog.naver.com+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EC%95%88%EB%82%B4+%EC%97%AC%EB%A6%84+%EC%97%85%EC%B2%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "네이버/Tistory 예약 글, 삼성/LG 공식 예약 근거, 안내문 대체재 근거 추가.",
+      "links": [
+        "https://duckduckgo.com/html/?q=site%3Ablog.naver.com+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EC%95%88%EB%82%B4+%EC%97%AC%EB%A6%84+%EC%97%85%EC%B2%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://duckduckgo.com/html/?q=site%3Atistory.com+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EC%95%88%EB%82%B4+%EC%97%AC%EB%A6%84+%EC%B2%AD%EC%86%8C%EC%97%85%EC%B2%B4",
+        "https://www.samsungsvc.co.kr/solution/24731",
+        "https://www.lge.co.kr/support/service-engineer-reservation",
+        "https://duckduckgo.com/html/?q=%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EB%AC%B8%EC%9E%90+%EC%95%88%EB%82%B4%EB%AC%B8",
+        "https://duckduckgo.com/html/?q=%EC%B2%AD%EC%86%8C%EC%97%85%EC%B2%B4+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EA%B0%80%EA%B2%A9+%EC%95%88%EB%82%B4",
+        "https://www.canva.com/ko_kr/announcements/templates/"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자/채널은 명확. 소비자 가격비교가 아니라 업체용 예약 안내문 무료 검증으로 범위 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프와 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 86점. 성수기 예약 전 확인문자라는 좁은 문제에 맞춤.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "실패 모드: 가격/효과 보장 오해, 무료 안내문 경쟁, 업체별 작업 방식 차이, 유료 전환 미확인.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 에어컨 청소업체 문자 ZIP 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "PIVOT",
+      "reason_code": "CHANNEL_MISMATCH",
+      "summary": "Scout pivot: 에어컨 청소 가격 비교 유료 리포트는 소비자 검색 의도와 판매 전환이 약해 업체용 안내문 글로 전환.",
+      "links": [
+        "https://duckduckgo.com/html/?q=%EC%B2%AD%EC%86%8C%EC%97%85%EC%B2%B4+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EA%B0%80%EA%B2%A9+%EC%95%88%EB%82%B4"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "채널 부적합"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "Scout rejected: Algora/GitHub bounty 범용 탐색은 지급·중복·난이도 대비 이번 실행에서 즉시 진행 가치 부족.",
+      "links": [
+        "https://algora.io/bounties"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "지급 불명확"
+    },
+    {
+      "time": "2026-05-16T03:50:04+09:00",
+      "run_id": "2026-05-16_0350_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: 에어컨 청소업체 광고 대행 소액 서비스는 광고 계정/비용/CS 부담이 커 자동 운영 부적합.",
+      "links": [
+        "https://kmong.com/search?keyword=%EC%97%90%EC%96%B4%EC%BB%A8%20%EC%B2%AD%EC%86%8C%20%EB%A7%88%EC%BC%80%ED%8C%85"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
     }
   ],
   "board_columns": [
@@ -2603,6 +2621,140 @@
           "name": "draft_laundry_rainy_season_messages_20260516.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_012_laundry_rainy_season_blog/draft_laundry_rainy_season_messages_20260516.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
+    },
+    {
+      "key": "MF-13",
+      "id": "opp_20260516_013_aircon_cleaning_booking_blog",
+      "title": "에어컨 청소업체 여름 예약·방문 전 안내문 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 86,
+      "base_net": 39600,
+      "margin_pct": 80,
+      "expected_price": 9900,
+      "buyer_or_payer": "1~3인 에어컨 청소업체·홈케어/입주청소 겸업 소상공인",
+      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 에어컨 청소업체 예약·방문·후기 문자 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "썸네일·문자예시·체크리스트 이미지 3장 생성 후 가격/청소효과 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "price_or_cleaning_effect_misread_risk",
+        "crowded_free_templates",
+        "store_workflow_variance",
+        "paid_conversion_unproven",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://duckduckgo.com/html/?q=site%3Ablog.naver.com+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EC%95%88%EB%82%B4+%EC%97%AC%EB%A6%84+%EC%97%85%EC%B2%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "네이버 업체/후기/예약 글 다수 노출.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=site%3Atistory.com+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EC%95%88%EB%82%B4+%EC%97%AC%EB%A6%84+%EC%B2%AD%EC%86%8C%EC%97%85%EC%B2%B4",
+          "grade": "B",
+          "summary": "Tistory 예약/비용/업체 추천 글 다수.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://www.samsungsvc.co.kr/solution/24731",
+          "grade": "A",
+          "summary": "삼성전자서비스 에어컨 서비스/예약 관련 공식 정보.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://www.lge.co.kr/support/service-engineer-reservation",
+          "grade": "A",
+          "summary": "LG전자 서비스 예약 공식 경로.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EC%98%88%EC%95%BD+%EB%AC%B8%EC%9E%90+%EC%95%88%EB%82%B4%EB%AC%B8",
+          "grade": "B",
+          "summary": "예약 문자/상담/서비스 안내 검색 수요.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%B2%AD%EC%86%8C%EC%97%85%EC%B2%B4+%EC%97%90%EC%96%B4%EC%BB%A8+%EC%B2%AD%EC%86%8C+%EA%B0%80%EA%B2%A9+%EC%95%88%EB%82%B4",
+          "grade": "B",
+          "summary": "가격·업체 비교 콘텐츠 경쟁 신호.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        },
+        {
+          "url": "https://www.canva.com/ko_kr/announcements/templates/",
+          "grade": "B",
+          "summary": "안내문 템플릿 대체재 존재, 차별화 필요.",
+          "checked_at": "2026-05-16T03:50:04+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "에어컨 청소 예약/비용/업체 글 다수와 공식 서비스 예약 근거 확인."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 계절 pain은 명확. 업체용 안내문으로 범위 제한."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글/이미지 계획/후속 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 86점. 성수기 예약 전 확인문자라는 구체 문제에 맞춤."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "브리프와 Tistory Markdown 초안 생성."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성과 Tistory 렌더링 QA 전 게시 보류."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "가격/효과 보장 오해, 무료 템플릿 경쟁, 업체별 작업 차이 리스크."
+        },
+        {
+          "time": "2026-05-16T03:50:04+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 실제 매출 0원."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_013_aircon_cleaning_booking_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_aircon_cleaning_booking_20260516.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_013_aircon_cleaning_booking_blog/draft_aircon_cleaning_booking_20260516.md"
         }
       ],
       "stop_reason_label": "근거 부족"
