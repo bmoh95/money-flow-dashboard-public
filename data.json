@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-15T15:30:28+09:00",
+  "updated_at": "2026-05-15T16:11:16+09:00",
   "last_run": {
     "run_id": "2026-05-15_1530_money-flow",
     "started_at": "2026-05-15T15:30:28+09:00",
@@ -66,9 +66,9 @@
   },
   "metrics": {
     "total": 3,
-    "active": 3,
-    "approval_needed": 1,
-    "launched": 2,
+    "active": 0,
+    "approval_needed": 0,
+    "launched": 3,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 0
@@ -91,18 +91,12 @@
     {
       "id": "opp_20260515_003_changelog_bounty",
       "title": "GitHub/Opire CHANGELOG 생성기 바운티",
-      "status": "승인 대기",
-      "next_action": "승인 시 GitHub issue에 /opire try 댓글 후 준비된 changelog-bounty 패키지로 PR 제출.",
+      "status": "tracking",
+      "next_action": "PR #1385 제출 완료. maintainer 리뷰/병합 및 Opire 지급 상태 모니터링.",
       "quality": 82
     }
   ],
-  "approval_needed": [
-    {
-      "id": "opp_20260515_003_changelog_bounty",
-      "title": "GitHub/Opire CHANGELOG 생성기 바운티",
-      "reason": "GitHub issue에 /opire try 댓글을 달고 PR을 제출하는 L3 외부 액션 승인 필요"
-    }
-  ],
+  "approval_needed": [],
   "priority_queue": [
     {
       "id": "opp_20260514_001_beauty_noshow_kit",
@@ -120,7 +114,9 @@
       "id": "opp_20260515_003_changelog_bounty",
       "title": "GitHub/Opire CHANGELOG 생성기 바운티",
       "priority": "high",
-      "why": "승인 필요"
+      "why": "승인 필요",
+      "status": "tracking",
+      "next_action": "PR #1385 제출 완료. maintainer 리뷰/병합 및 Opire 지급 상태 모니터링."
     }
   ],
   "rejection_summary": {
@@ -132,6 +128,21 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-15T16:11:16+09:00",
+      "run_id": "manual_2026-05-15_pr1385_submit",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_003_changelog_bounty",
+      "event": "launched",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "GitHub issue #1 /opire try 댓글 및 PR #1385 제출 완료. 모니터링 시작.",
+      "links": [
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385"
+      ]
+    },
     {
       "time": "2026-05-15T12:47:53+09:00",
       "run_id": "2026-05-15_1247_money-flow",
@@ -582,21 +593,6 @@
       ],
       "agent_label": "시장성 검토",
       "reason_label": "차별성 약함"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "HIGH_USER_INPUT",
-      "summary": "Scout rejected: contest/hackathon scan — account/demo/team/application burden too high for hourly low-involvement run.",
-      "links": [],
-      "agent_label": "시장성 검토",
-      "reason_label": "사용자 부담 높음"
     }
   ],
   "board_columns": [
@@ -896,8 +892,8 @@
       "key": "MF-3",
       "id": "opp_20260515_003_changelog_bounty",
       "title": "GitHub/Opire CHANGELOG 생성기 바운티",
-      "status": "승인 대기",
-      "column": "승인 대기",
+      "status": "tracking",
+      "column": "운영/수익",
       "type_label": "바운티",
       "priority_label": "높음",
       "quality": 82,
@@ -907,7 +903,7 @@
       "buyer_or_payer": "claude-builders-bounty 저장소 운영자 / Opire 바운티",
       "channel": "GitHub issue claim + pull request",
       "owner": "제작 검수",
-      "next_action": "승인 시 GitHub issue에 /opire try 댓글 후 준비된 changelog-bounty 패키지로 PR 제출.",
+      "next_action": "PR #1385 제출 완료. maintainer 리뷰/병합 및 Opire 지급 상태 모니터링.",
       "risk_flags": [
         "경쟁 PR 선점 가능",
         "Opire 지급 계정/정산 세부는 미검증",
