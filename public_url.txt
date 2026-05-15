@@ -1,0 +1,7 @@
+https://bmoh95.github.io/money-flow-dashboard-public/
+
+Updated: 2026-05-14T13:14:50+09:00
+Provider: GitHub Pages
+Repo: https://github.com/bmoh95/money-flow-dashboard-public
+Maintained by: money-flow-github-pages-publish cron
+Note: Stable static hosting. Mac/tunnel process does not need to stay alive for the latest published snapshot.
