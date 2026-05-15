@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-15T16:42:08+09:00",
+  "updated_at": "2026-05-15T17:49:58+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1642_money-flow",
-    "started_at": "2026-05-15T16:42:08+09:00",
-    "finished_at": "2026-05-15T16:42:08+09:00",
+    "run_id": "2026-05-15_1749_money-flow",
+    "started_at": "2026-05-15T17:49:58+09:00",
+    "finished_at": "2026-05-15T17:49:58+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -24,37 +24,37 @@
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260515_004_unsafelabs_prompt_bounty",
+        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
         "decision": "NO-GO",
         "reason_code": "HIGH_RISK",
-        "summary": "PR 조건이 전체 시스템 프롬프트 공개를 요구해 보안/정책 리스크가 큼"
+        "summary": "민감 AWS/IAM/S3 및 Civil ID 업로드 흐름으로 자율 바운티 수행 리스크가 큼"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260515_004_unsafelabs_prompt_bounty",
+        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
         "decision": "NO-GO",
         "reason_code": "HIGH_RISK",
-        "summary": "$50 기대수익 대비 공개 리스크가 과도함"
+        "summary": "보안·개인정보·운영 피해 리스크가 $600 기대수익보다 큼"
       },
       {
         "agent": "roi",
-        "opportunity_id": "opp_20260515_004_unsafelabs_prompt_bounty",
+        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
         "decision": "NO-GO",
         "reason_code": "LOW_MARGIN",
         "summary": "위험 조정 기준 순마진 0"
       }
     ],
-    "summary": "Scouted 4 new candidates across GitHub bounties, paid writing, and contests. Created one persistent rejected work item for UnsafeLabs bounty because terms require full system-prompt disclosure.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 기존 완료/추적 항목은 빠르게 건너뛰고 신규 후보 4개를 검토했습니다.\n- 새 작업 항목 `opp_20260515_004_unsafelabs_prompt_bounty` 생성 후 즉시 NO-GO 처리했습니다.\n\n**시장성 판단**\n- GitHub 바운티 금액은 확인됐지만, PR 조건이 전체 시스템 프롬프트 공개를 요구해 보안/정책 리스크가 큽니다.\n- tscircuit $75 바운티는 경쟁 PR이 너무 많아 이번 실행에서는 제외했습니다.\n\n**예상 순마진**\n- 보수/기준: 0원. 위험 조정 후 수익화 불가.\n\n**대기**\n- 로컬 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- GitHub 원격 `data.json`은 갱신됐지만 Pages 공개 URL은 캐시/배포 지연으로 아직 이전 데이터입니다.\n\n**필요 승인**\n- 없음.\n\n**실패**\n- 공개 대시보드 `data.json` HTTPS 검증은 아직 최신 run_id를 반환하지 않았습니다."
+    "summary": "Scouted 4 candidates across bounties, paid writing, and contests. Created one persistent rejected work item for StudentHub AWS S3 security bounty due sensitive infra/privacy risk.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 기존 완료/추적 항목은 재작업 없이 빠르게 확인했습니다.\n- 신규 후보 4개를 검토했고, 새 작업 항목 `opp_20260515_005_studenthub_s3_bounty`를 생성 후 NO-GO 처리했습니다.\n\n**시장성 판단**\n- $600 바운티 자체는 A급 근거가 있으나, AWS/IAM/S3 보안 복구와 Civil ID 업로드 흐름이 포함돼 자율 실행 리스크가 큽니다.\n- Listverse/Smashing 글쓰기와 Kaggle도 검토했지만, 사용자 부담·지급 불명확·긴 현금화 거리로 미진행입니다.\n\n**예상 순마진**\n- 보수/기준: 0원. 위험 조정 후 수익화 불가.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 4,
+    "total": 5,
     "active": 3,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
     "closed_lost": 0,
-    "rejected": 1
+    "rejected": 2
   },
   "active_opportunities": [
     {
@@ -112,11 +112,19 @@
       "why": "폐기됨",
       "status": "research_rejected",
       "next_action": "폐기. 같은 'full system prompt 공개' 조건의 UnsafeLabs/Bounty-Hunters 바운티는 자동 스킵 후보로 재사용."
+    },
+    {
+      "id": "opp_20260515_005_studenthub_s3_bounty",
+      "title": "StudentHub AWS S3 보안 복구 $600 바운티",
+      "priority": "low",
+      "why": "폐기됨",
+      "status": "research_rejected",
+      "next_action": "폐기. 민감 AWS/IAM/S3·신분증 업로드 복구형 바운티는 사전 권한/안전 범위가 명확하지 않으면 자동 제외."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
-    "위험 높음": 1
+    "위험 높음": 2
   },
   "roi": {
     "expected_base_net_total": 88520,
@@ -124,112 +132,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T12:47:53+09:00",
-      "run_id": "2026-05-15_1247_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-      "event": "decision",
-      "from_status": "launched",
-      "to_status": "tracking",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "현재 실제 매출 0원. 무료 검증 성과 데이터 확보 전 유료 전환은 보류.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "MF-1 기존 노쇼/예약금 콘텐츠를 무료 블로그 검증 대상으로 전환.",
-      "links": [
-        "https://beemo.tistory.com/3"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "하드 판매 대신 예약금 안내문 무료 정보글로 공개하는 방향이 채널/품질에 적합.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "asset_created",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory용 HTML 및 SVG 이미지 4개 생성/공개 Pages 배포.",
-      "links": [
-        "https://beemo.tistory.com/3"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "launched",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 공개 발행 완료 및 공개 URL 확인.",
-      "links": [
-        "https://beemo.tistory.com/3"
-      ],
-      "agent_label": "제작 검수"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "법률 자문 아님 고지 포함. 무료 정보글이라 판매 과장 리스크 낮음.",
-      "links": [],
-      "agent_label": "리스크 검토"
-    },
-    {
-      "time": "2026-05-15T14:33:27+09:00",
-      "run_id": "2026-05-15_1433_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "tracking",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "실제 유입/반응 데이터 확보 전 유료 전환은 보류.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
     {
       "time": "2026-05-15T14:48:59+09:00",
       "run_id": "2026-05-15_1448_money-flow",
@@ -593,6 +495,116 @@
       "decision": "NO-GO",
       "reason_code": "LOW_MARGIN",
       "summary": "Risk-adjusted base net is 0; skip this bounty family unless terms change.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "마진 낮음"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "StudentHub $600 AWS S3 security bounty found during GitHub/Algora scout.",
+      "links": [
+        "https://github.com/BAWES-Universe/studenthub/issues/55"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "Official issue, bounty labels, and sensitive S3/IAM/Civil ID scope captured.",
+      "links": [
+        "https://github.com/BAWES-Universe/studenthub/issues/55",
+        "https://algora.io/bounties"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "AWS/IAM/S3 security remediation plus Civil ID upload path is too sensitive for autonomous hourly execution.",
+      "links": [
+        "https://github.com/BAWES-Universe/studenthub/issues/55"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Safe execution would need maintainer coordination and privileged validation.",
+      "links": [],
+      "agent_label": "기획 검수",
+      "reason_label": "사용자 부담 높음"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "No implementation or external action attempted.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "Security, privacy, production-impact, and payout uncertainty risks exceed $600 upside.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T17:49:58+09:00",
+      "run_id": "2026-05-15_1749_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "LOW_MARGIN",
+      "summary": "Risk-adjusted base net is 0; exclude similar sensitive-infra bounties unless authority/scope is explicit.",
       "links": [],
       "agent_label": "수익성 검토",
       "reason_label": "마진 낮음"
@@ -1060,6 +1072,94 @@
           "decision": "NO-GO",
           "reason_code": "LOW_MARGIN",
           "summary": "기대 수익은 $50 수준이나 보안 리스크 비용이 무한대에 가까워 ROI 불합격."
+        }
+      ],
+      "assets": [],
+      "stop_reason_label": "위험 높음"
+    },
+    {
+      "key": "MF-5",
+      "id": "opp_20260515_005_studenthub_s3_bounty",
+      "title": "StudentHub AWS S3 보안 복구 $600 바운티",
+      "status": "리서치 폐기",
+      "column": "종료/폐기",
+      "type_label": "바운티",
+      "priority_label": "낮음",
+      "quality": 25,
+      "base_net": 0,
+      "margin_pct": 0,
+      "expected_price": 600,
+      "buyer_or_payer": "BAWES-Universe/studenthub GitHub bounty issuer",
+      "channel": "GitHub issue / pull request bounty",
+      "owner": "시장성 검토",
+      "next_action": "폐기. 민감 AWS/IAM/S3·신분증 업로드 복구형 바운티는 사전 권한/안전 범위가 명확하지 않으면 자동 제외.",
+      "risk_flags": [
+        "sensitive_aws_security_scope",
+        "civil_id_upload_flow",
+        "requires_secret_owner_coordination",
+        "high_operational_liability"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/BAWES-Universe/studenthub/issues/55",
+          "grade": "A",
+          "summary": "공식 GitHub 이슈. security/help wanted/💎 Bounty/$600 라벨과 작업 범위 확인.",
+          "checked_at": "2026-05-15T17:49:58+09:00"
+        },
+        {
+          "url": "https://github.com/BAWES-Universe/studenthub/issues/55",
+          "grade": "A",
+          "summary": "본문에 Civil ID upload, IAM key rotation, S3 bucket hardening 등 민감 인프라·개인식별 업로드 흐름이 포함됨.",
+          "checked_at": "2026-05-15T17:49:58+09:00"
+        },
+        {
+          "url": "https://algora.io/bounties",
+          "grade": "A",
+          "summary": "Algora 공식 바운티 페이지에서 GitHub issue reward/pay-on-merge 모델과 공개 바운티 시장 존재 확인.",
+          "checked_at": "2026-05-15T17:49:58+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "research_member",
+          "decision": "HOLD",
+          "summary": "$600 공식 바운티와 작업 범위는 확인했으나 민감 인프라/개인정보성 업로드 흐름 포함."
+        },
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_RISK",
+          "summary": "타인 AWS/IAM/S3 보안 복구와 Civil ID 업로드 경로를 다뤄야 해 권한·책임·검증 리스크가 큼."
+        },
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_USER_INPUT",
+          "summary": "계정 권한, maintainer coordination, 실제 인프라 검증 없이 안전한 산출물 완성 불가."
+        },
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "execution_lead",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_RISK",
+          "summary": "로컬 제작/PR 준비 없이 중단. 외부 repo clone, claim, comment, PR 없음."
+        },
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_RISK",
+          "summary": "민감 키·버킷·신분증 업로드 경로 오작업 시 피해가 커 $600 기대값으로 감당 불가."
+        },
+        {
+          "time": "2026-05-15T17:49:58+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "LOW_MARGIN",
+          "summary": "위험 조정 기준 base 순가치 0. 즉시 수익 후보에서 제외."
         }
       ],
       "assets": [],
