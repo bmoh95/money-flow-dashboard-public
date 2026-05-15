@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T06:02:19+09:00",
+  "updated_at": "2026-05-16T07:07:38+09:00",
   "last_run": {
-    "run_id": "2026-05-16_0602_money-flow",
-    "started_at": "2026-05-16T06:02:19+09:00",
-    "finished_at": "2026-05-16T06:02:19+09:00",
+    "run_id": "2026-05-16_0707_money-flow",
+    "started_at": "2026-05-16T07:07:38+09:00",
+    "finished_at": "2026-05-16T07:07:38+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,39 +20,39 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "장마철 펫살롱 예약 안내 글은 독자와 계절 수요 명확"
+        "summary": "카페 여름 시즌메뉴 안내 글은 독자와 계절 수요 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 86점, 초안 제작 승인"
+        "summary": "품질 85점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
         "summary": "이미지·렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for rainy-season pet grooming appointment pain.",
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for cafe summer seasonal menu notice pain.",
     "final_report": ""
   },
   "metrics": {
-    "total": 15,
-    "active": 13,
+    "total": 16,
+    "active": 14,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -150,6 +150,13 @@
       "status": "검증 보류",
       "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 86
+    },
+    {
+      "id": "opp_20260516_016_cafe_summer_menu_blog",
+      "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "썸네일·메뉴 공지 카드·체크리스트 이미지 3장 생성 후 알레르기/성분 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "quality": 85
     }
   ],
   "approval_needed": [],
@@ -273,214 +280,27 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260516_016_cafe_summer_menu_blog",
+      "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "썸네일·메뉴 공지 카드·체크리스트 이미지 3장 생성 후 알레르기/성분 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 4,
-    "근거 부족": 8
+    "근거 부족": 9
   },
   "roi": {
-    "expected_base_net_total": 471480,
+    "expected_base_net_total": 534840,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "스터디카페 시험기간 좌석·소음·환불 문의 안내문 무료 검증 글 후보 발견.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%EC%8A%A4%ED%84%B0%EB%94%94%EC%B9%B4%ED%8E%98+%EC%8B%9C%ED%97%98%EA%B8%B0%EA%B0%84+%EC%A2%8C%EC%84%9D+%EC%98%88%EC%95%BD+%EC%86%8C%EC%9D%8C+%ED%99%98%EB%B6%88+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%AC%B8%EC%9E%90+%EC%98%88%EC%8B%9C"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "스터디카페 문자·안내문·환불규정·디자인 템플릿 수요 근거 추가.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%EC%8A%A4%ED%84%B0%EB%94%94%EC%B9%B4%ED%8E%98+%EC%8B%9C%ED%97%98%EA%B8%B0%EA%B0%84+%EC%A2%8C%EC%84%9D+%EC%98%88%EC%95%BD+%EC%86%8C%EC%9D%8C+%ED%99%98%EB%B6%88+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%AC%B8%EC%9E%90+%EC%98%88%EC%8B%9C",
-        "https://www.xonda.net/publish/event/studyroom-sms.html",
-        "https://m.blog.naver.com/timestudycafebangbae/223172203883",
-        "https://www.canva.com/ko_kr/announcements/templates/",
-        "https://www.miricanvas.com/ko/template/all-types/%EC%95%88%EB%82%B4%EB%AC%B8",
-        "https://beyondtheline.tistory.com/560"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "독자/채널은 명확. 유료 직행보다 무료 안내문 검증 글로 범위 제한.",
-      "links": [],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "블로그 검증 브리프와 plan.md 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 86점. 시험기간 좌석/소음/환불 문의 감소라는 좁은 문제에 맞춤.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory용 Markdown 초안 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/draft_studycafe_exam_rules_20260516.md"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
-      "links": [],
-      "agent_label": "제작 검수",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "실패 모드: 환불/정지 단정 오해, 무료 안내문 경쟁, 매장별 정책 차이, 유료 전환 미확인.",
-      "links": [],
-      "agent_label": "리스크 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_011_studycafe_exam_rules_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 전 실제 매출 0원. 후속 스터디카페 문자 ZIP 기준 순매출은 검증 후 판단.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "PIVOT",
-      "reason_code": "WEAK_DIFFERENTIATION",
-      "summary": "Scout pivot: 스터디카페 시험기간 안내문·문자 유료 ZIP 직행은 무료 템플릿 경쟁이 있어 무료 블로그 검증으로 전환.",
-      "links": [
-        "https://www.canva.com/ko_kr/announcements/templates/"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "차별성 약함"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: Algora/오픈소스 문서 바운티 일반 탐색은 이번 후보에서 claim 가능 이슈·중복 PR·테스트 범위가 즉시 확정되지 않음.",
-      "links": [
-        "https://algora.io/bounties/",
-        "https://sematic.algora.io/bounties/workflow"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
-    {
-      "time": "2026-05-16T01:37:49+09:00",
-      "run_id": "2026-05-16_0137_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "PAYMENT_UNCLEAR",
-      "summary": "Scout rejected: 유료 게스트포스트/한류 글쓰기 후보는 지급처 신뢰·권리 조건·국내 지급 경로가 불명확하고 사용자 프로필 부담이 큼.",
-      "links": [
-        "https://duckduckgo.com/html/?q=paid+writing+Korea+contributor+guidelines+pay+guest+post"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "지급 불명확"
-    },
     {
       "time": "2026-05-16T02:43:32+09:00",
       "run_id": "2026-05-16_0243_money-flow",
@@ -1259,6 +1079,199 @@
       ],
       "agent_label": "시장성 검토",
       "reason_label": "지급 불명확"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글 후보 발견.",
+      "links": [
+        "https://support.google.com/business/answer/6303076?hl=ko"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "카페 시즌메뉴 검색 결과, 공식 로컬 채널, 메뉴판/홍보물 대체재 근거 추가.",
+      "links": [
+        "https://support.google.com/business/answer/6303076?hl=ko",
+        "https://help.naver.com/service/30026/contents/20380?osType=PC&lang=ko",
+        "https://blog.naver.com/letsgocoffee/223924221347",
+        "https://www.canva.com/ko_kr/templates/s/coffee-shop-menu/",
+        "https://kmong.com/search?keyword=%EC%B9%B4%ED%8E%98%20%EB%A9%94%EB%89%B4%ED%8C%90"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자/채널은 명확. 식품 안전 보장이 아니라 운영 안내문으로 범위 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프와 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 85점. 계절성 카페 CS 감소라는 즉시 사용 가치가 있음.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "실패 모드: 알레르기/성분 보장 오해, 무료 디자인 템플릿 경쟁, 유료 전환 미확인.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 카페 안내문 ZIP 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: Algora Twenty IMAP $2,500 bounty는 실제 bounty이나 Java/Scala/IMAP 구현 난도와 리뷰 기간이 커 단기 ROI 부적합.",
+      "links": [
+        "https://algora.io/bounties"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "PIVOT",
+      "reason_code": "HIGH_RISK",
+      "summary": "Scout pivot: 어린이집 여름방학 준비물 안내문 유료 템플릿은 아동/기관별 규정 리스크가 있어 무료 일반 정보 글로 재설계 필요.",
+      "links": [
+        "https://www.google.com/search?q=%EC%96%B4%EB%A6%B0%EC%9D%B4%EC%A7%91+%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99+%EC%A4%80%EB%B9%84%EB%AC%BC+%EC%95%88%EB%82%B4%EB%AC%B8"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-16T07:07:38+09:00",
+      "run_id": "2026-05-16_0707_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: 여름 한정 굿즈/우산 리셀은 구매·재고·배송·반품 부담이 커 L4 승인 없이 진행 불가.",
+      "links": [
+        "https://www.google.com/search?q=%EC%97%AC%EB%A6%84+%ED%95%9C%EC%A0%95+%EA%B5%BF%EC%A6%88+%EB%A6%AC%EC%85%80"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
     }
   ],
   "board_columns": [
@@ -3042,6 +3055,127 @@
           "name": "draft_pet_grooming_rainy_booking_20260516.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
+    },
+    {
+      "key": "MF-16",
+      "id": "opp_20260516_016_cafe_summer_menu_blog",
+      "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 85,
+      "base_net": 63360,
+      "margin_pct": 80,
+      "expected_price": 9900,
+      "buyer_or_payer": "여름 시즌메뉴·빙수·디저트를 운영하는 개인 카페/디저트샵 사장님",
+      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 카페 시즌메뉴/품절/알레르기 안내문 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "썸네일·메뉴 공지 카드·체크리스트 이미지 3장 생성 후 알레르기/성분 보장 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "food_allergy_advice_overreach",
+        "free_template_competition",
+        "paid_conversion_unproven",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://support.google.com/business/answer/6303076?hl=ko",
+          "grade": "A",
+          "summary": "Google 비즈니스 프로필 특별 영업시간 설정 공식 문서. 시즌/휴무 공지와 결합 가능한 공식 채널 근거.",
+          "checked_at": "2026-05-16T07:07:38+09:00"
+        },
+        {
+          "url": "https://help.naver.com/service/30026/contents/20380?osType=PC&lang=ko",
+          "grade": "A",
+          "summary": "네이버 스마트플레이스 업체 영업시간/휴무일 수정 공식 도움말. 카페 로컬 정보 채널 근거.",
+          "checked_at": "2026-05-16T07:07:38+09:00"
+        },
+        {
+          "url": "https://blog.naver.com/letsgocoffee/223924221347",
+          "grade": "B",
+          "summary": "카페 여름 한정 메뉴 글 검색 결과. 시즌메뉴 콘텐츠 수요 신호.",
+          "checked_at": "2026-05-16T07:07:38+09:00"
+        },
+        {
+          "url": "https://www.canva.com/ko_kr/templates/s/coffee-shop-menu/",
+          "grade": "B",
+          "summary": "카페 메뉴판 템플릿 대체재 존재.",
+          "checked_at": "2026-05-16T07:07:38+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%EC%B9%B4%ED%8E%98%20%EB%A9%94%EB%89%B4%ED%8C%90",
+          "grade": "B",
+          "summary": "카페 메뉴판/홍보물 외주 수요 확인용.",
+          "checked_at": "2026-05-16T07:07:38+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "카페 여름 메뉴·품절·옵션 문의 pain, 검색 결과, 공식 로컬 채널, 메뉴판 대체재 확인."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 채널 명확. 식품 안전 보장이 아니라 운영 안내문으로 범위 제한."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글/이미지 계획/후속 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 85점. 반복 CS 감소라는 즉시 사용 가치가 있고 계절성이 있음."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "브리프와 Tistory Markdown 초안 생성."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성과 Tistory 렌더링 QA 전 게시 보류."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "알레르기/성분 보장 오해, 무료 디자인 템플릿 경쟁, 유료 전환 미확인."
+        },
+        {
+          "time": "2026-05-16T07:07:38+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 실제 매출 0원."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_016_cafe_summer_menu_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_cafe_summer_menu_notice_20260516.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_016_cafe_summer_menu_blog/draft_cafe_summer_menu_notice_20260516.md"
         }
       ],
       "stop_reason_label": "근거 부족"
