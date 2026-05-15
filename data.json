@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-15T22:12:36+09:00",
+  "updated_at": "2026-05-15T23:20:18+09:00",
   "last_run": {
-    "run_id": "2026-05-15_2212_money-flow",
-    "started_at": "2026-05-15T22:12:36+09:00",
-    "finished_at": "2026-05-15T22:12:36+09:00",
+    "run_id": "2026-05-15_2320_money-flow",
+    "started_at": "2026-05-15T23:20:18+09:00",
+    "finished_at": "2026-05-15T23:20:18+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,39 +20,39 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "종소세 매출자료 정리 무료 검증 글은 독자/시즌성 명확"
+        "summary": "펜션 취소/환불 안내문 무료 검증 글은 독자와 시즌성 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 85점, 초안 제작 승인"
+        "summary": "품질 84점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "HOLD",
         "reason_code": "HIGH_RISK",
-        "summary": "세무 표현/이미지/렌더링 검수 전 게시 보류"
+        "summary": "소비자법/약관 표현·이미지·렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for store/delivery tax sales-doc pain.",
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for pension cancellation/refund message pain.",
     "final_report": ""
   },
   "metrics": {
-    "total": 8,
-    "active": 6,
+    "total": 9,
+    "active": 7,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -101,6 +101,13 @@
       "status": "검증 보류",
       "next_action": "세무 조언처럼 보이는 표현을 한 번 더 줄이고, 썸네일/자료위치/누락체크 이미지 3장 생성 후 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 85
+    },
+    {
+      "id": "opp_20260515_009_pension_cancel_refund_blog",
+      "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "소비자분쟁/플랫폼 약관 오해 표현을 한 번 더 줄이고, 썸네일·문자예시·체크리스트 이미지 3장 생성 후 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "quality": 84
     }
   ],
   "approval_needed": [],
@@ -168,208 +175,27 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "세무 조언처럼 보이는 표현을 한 번 더 줄이고, 썸네일/자료위치/누락체크 이미지 3장 생성 후 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260515_009_pension_cancel_refund_blog",
+      "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "소비자분쟁/플랫폼 약관 오해 표현을 한 번 더 줄이고, 썸네일·문자예시·체크리스트 이미지 3장 생성 후 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
-    "위험 높음": 3,
+    "위험 높음": 4,
     "근거 부족": 2
   },
   "roi": {
-    "expected_base_net_total": 182280,
+    "expected_base_net_total": 213960,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "HIGH_USER_INPUT",
-      "summary": "Scout rejected: K-Startup 모집중 창업지원/공모 후보 — Requires personal/business documents, application work, and long cash distance; not suitable for hourly low-involvement pipeline.",
-      "links": [
-        "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "사용자 부담 높음"
-    },
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "Scout rejected: Korean Excel/admin template searches: 직원 근태·급여, 학원 상담일지, 요양보호 상담일지 — Buyer pain plausible but no A-grade paid comparable captured this run; avoid generic template production.",
-      "links": [
-        "https://kmong.com/search?keyword=%EC%A7%81%EC%9B%90%20%EA%B7%BC%ED%83%9C%20%EA%B8%89%EC%97%AC%20%EC%97%91%EC%85%80%20%ED%85%9C%ED%94%8C%EB%A6%BF"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "GitHub/Opire $50 CHANGELOG 생성기 바운티 후보 발견.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A급 GitHub issue에서 구매자/채널/수락 기준/claim 흐름 확인.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "바운티 제출용 plan.md 작성.",
-      "links": [
-        "local:opportunities/opp_20260515_003_changelog_bounty/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 82점. 범위가 좁고 재사용 가능한 Changelog 생성기라 제작 승인.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "changelog.sh, SKILL.md, README.md, sample-output.md 생성.",
-      "links": [
-        "local:opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Bash 3.2 호환성 수정 후 임시 git repo 및 bounty repo clone에서 검증 완료.",
-      "links": [],
-      "agent_label": "제작 검수"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "ready_for_approval",
-      "decision": "HOLD",
-      "reason_code": "NO_APPROVAL",
-      "summary": "외부 GitHub /opire try 댓글과 PR 제출은 승인 필요. 경쟁 PR·Opire 지급 세부 리스크 존재.",
-      "links": [],
-      "agent_label": "리스크 검토",
-      "reason_label": "승인 필요"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "$50 바운티 기준 base 기대 순가치 약 35,000원. 직접 비용 0원, 재사용 가능 자산 확보.",
-      "links": [],
-      "agent_label": "수익성 검토"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "approval_needed",
-      "from_status": "execution",
-      "to_status": "ready_for_approval",
-      "decision": "HOLD",
-      "reason_code": "NO_APPROVAL",
-      "summary": "GitHub issue claim 및 PR 제출 승인 필요.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ],
-      "agent_label": "원장/대시보드",
-      "reason_label": "승인 필요"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: Listverse paid writing — official payer exists, but acceptance is speculative and expected hourly value is weaker than bounty package.",
-      "links": [
-        "https://listverse.com/write-get-paid/"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
     {
       "time": "2026-05-15T15:30:28+09:00",
       "run_id": "2026-05-15_1530_money-flow",
@@ -1129,6 +955,199 @@
       ],
       "agent_label": "시장성 검토",
       "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글 후보 발견.",
+      "links": [
+        "https://search.naver.com/search.naver?where=view&query=%ED%8E%9C%EC%85%98%20%EC%98%88%EC%95%BD%20%EC%B7%A8%EC%86%8C%20%ED%99%98%EB%B6%88%20%EA%B7%9C%EC%A0%95%20%EC%95%88%EB%82%B4%EB%AC%B8"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 소비자/공정위 출처와 네이버 검색 수요, 유료 문구 템플릿 탐색 경로 추가.",
+      "links": [
+        "https://www.consumer.go.kr/",
+        "https://www.ftc.go.kr/",
+        "https://search.naver.com/search.naver?where=view&query=%ED%8E%9C%EC%85%98%20%EC%98%88%EC%95%BD%20%EC%B7%A8%EC%86%8C%20%ED%99%98%EB%B6%88%20%EA%B7%9C%EC%A0%95%20%EC%95%88%EB%82%B4%EB%AC%B8",
+        "https://kmong.com/search?keyword=%ED%8E%9C%EC%85%98%20%EC%95%88%EB%82%B4%EB%AC%B8%20%EB%AC%B8%EA%B5%AC"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자/시즌성/채널은 명확. 법률 자문이 아닌 무료 안내문 작성 글로 범위 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프와 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 84점. 손님 탓/강한 환불불가 문구를 피하고 실무 순서에 집중.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "소비자법/플랫폼 약관 표현 검수, 이미지 생성, 렌더링 QA 전 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "실패 모드: 법률 자문 오해, 플랫폼 약관 불일치, 성수기 키워드 경쟁, 유료 전환 미확인.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 문구 ZIP 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: GitHub/Algora bounty는 즉시 수행 가능한 저위험·저범위·지급명확 후보를 확정하지 못함.",
+      "links": [
+        "https://github.com/search?q=label%3Abounty+is%3Aissue+is%3Aopen&type=issues",
+        "https://algora.io/bounties"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: K-Startup 모집중 공고는 사업자/개인서류/장기심사 부담이 커 저관여 수익화 파이프라인에 부적합.",
+      "links": [
+        "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
+    },
+    {
+      "time": "2026-05-15T23:20:18+09:00",
+      "run_id": "2026-05-15_2320_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "PIVOT",
+      "reason_code": "HIGH_RISK",
+      "summary": "Scout pivot: 숙박 환불규정 유료 템플릿 직행은 소비자법 오해 리스크가 커 무료 검증 글로 전환.",
+      "links": [
+        "https://kmong.com/search?keyword=%ED%8E%9C%EC%85%98%20%EC%95%88%EB%82%B4%EB%AC%B8%20%EB%AC%B8%EA%B5%AC"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
     }
   ],
   "board_columns": [
@@ -1334,7 +1353,7 @@
         {
           "name": "blog_post_tistory.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html",
-          "viewer": null
+          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_post_tistory.html"
         }
       ],
       "stop_reason_label": null
@@ -2022,6 +2041,122 @@
           "name": "draft_store_tax_sales_docs_20260515.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_008_store_tax_sales_blog/draft_store_tax_sales_docs_20260515.md"
+        }
+      ],
+      "stop_reason_label": "위험 높음"
+    },
+    {
+      "key": "MF-9",
+      "id": "opp_20260515_009_pension_cancel_refund_blog",
+      "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 84,
+      "base_net": 31680,
+      "margin_pct": 80,
+      "expected_price": 9900,
+      "buyer_or_payer": "펜션·게스트하우스·독채 숙소 등 소규모 숙박업 운영자",
+      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 숙박업 예약/취소/환불 문구 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "소비자분쟁/플랫폼 약관 오해 표현을 한 번 더 줄이고, 썸네일·문자예시·체크리스트 이미지 3장 생성 후 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "consumer_law_misread_risk",
+        "platform_policy_variance",
+        "seasonal_keyword_competition",
+        "paid_conversion_unproven",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.consumer.go.kr/",
+          "grade": "A",
+          "summary": "소비자24/공정위 소비자 정보 출처. 숙박 취소·환불 분쟁 기준 확인 기준점.",
+          "checked_at": "2026-05-15T23:20:18+09:00"
+        },
+        {
+          "url": "https://www.ftc.go.kr/",
+          "grade": "A",
+          "summary": "공정거래위원회 공식 출처. 소비자분쟁해결기준/약관 리스크 확인 기준점.",
+          "checked_at": "2026-05-15T23:20:18+09:00"
+        },
+        {
+          "url": "https://search.naver.com/search.naver?where=view&query=%ED%8E%9C%EC%85%98%20%EC%98%88%EC%95%BD%20%EC%B7%A8%EC%86%8C%20%ED%99%98%EB%B6%88%20%EA%B7%9C%EC%A0%95%20%EC%95%88%EB%82%B4%EB%AC%B8",
+          "grade": "B",
+          "summary": "펜션 예약 취소/환불 안내문 관련 네이버 VIEW 검색 수요 확인.",
+          "checked_at": "2026-05-15T23:20:18+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%ED%8E%9C%EC%85%98%20%EC%95%88%EB%82%B4%EB%AC%B8%20%EB%AC%B8%EA%B5%AC",
+          "grade": "B",
+          "summary": "문구/안내문 템플릿 유료화 가능성 탐색용 검색 경로.",
+          "checked_at": "2026-05-15T23:20:18+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "숙박 취소/환불 안내문 검색 수요와 공식 기준 확인 필요성 발견."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 시즌성 명확. 유료 직행 대신 무료 검증으로 범위 제한."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글/이미지 계획/후속 문구 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 84점. 분쟁 줄이는 안내 순서 중심."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "브리프와 초안 생성."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "이미지 생성과 Tistory 렌더링 QA 전 게시 보류."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "소비자법/플랫폼 약관 오해, 성수기 경쟁, 유료 전환 미검증."
+        },
+        {
+          "time": "2026-05-15T23:20:18+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 실제 매출 0원."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_009_pension_cancel_refund_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_pension_cancel_refund_messages_20260515.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_009_pension_cancel_refund_blog/draft_pension_cancel_refund_messages_20260515.md"
         }
       ],
       "stop_reason_label": "위험 높음"
