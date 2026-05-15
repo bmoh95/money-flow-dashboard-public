@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fffaf4"/><stop offset="1" stop-color="#f0e3d2"/></linearGradient></defs>
+  <rect width="1200" height="760" fill="url(#bg)"/>
+  <rect x="48" y="48" width="1104" height="664" rx="36" fill="#ffffff" opacity="0.78"/>
+  <circle cx="1030" cy="150" r="78" fill="#ead7be" opacity="0.8"/>
+  <circle cx="102" cy="660" r="62" fill="#ead7be" opacity="0.65"/>
+  <text x="80" y="130" font-size="36" font-weight="700" fill="#b89167" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">카톡으로 보내기 좋은 기본형</text>
+  <text x="80" y="205" font-size="58" font-weight="800" fill="#2f2924" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">예약 전 안내문 예시</text>
+  <text x="80" y="250" font-size="30" fill="#3a322b">예약 확정을 위해 예약금을 받고 있습니다.</text><text x="80" y="302" font-size="30" fill="#3a322b">변경/취소는 방문 24시간 전까지 가능해요.</text><text x="80" y="354" font-size="30" fill="#3a322b">한 타임이 비면 다른 예약을 받기 어렵습니다.</text>
+  <rect x="80" y="610" width="470" height="74" rx="20" fill="#f6efe5"/>
+  <text x="110" y="657" font-size="28" font-weight="700" fill="#7d6040" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif">1인샵 예약 운영 메모</text>
+</svg>
