@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-15T19:57:01+09:00",
+  "updated_at": "2026-05-15T21:04:07+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1957_money-flow",
-    "started_at": "2026-05-15T19:57:01+09:00",
-    "finished_at": "2026-05-15T19:57:01+09:00",
+    "run_id": "2026-05-15_2104_money-flow",
+    "started_at": "2026-05-15T21:04:07+09:00",
+    "finished_at": "2026-05-15T21:04:07+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -18,45 +18,45 @@
     ],
     "candidates_discovered": 4,
     "opportunities_advanced": 1,
-    "opportunities_rejected": 0,
+    "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "5월 종합소득세/간편장부 독자 pain과 무료 검증 채널 적합"
+        "summary": "학원 여름방학 특강 무료 검증 글 후보는 독자/채널 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 87점, 세무 자문 단정 없이 실무 정리 문제에 좁게 맞춤"
+        "summary": "품질 84점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
-        "summary": "이미지·Tistory 렌더링 검수와 실제 유입 데이터 전까지 검증 보류"
+        "summary": "이미지/렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for freelancer simple-bookkeeping seasonal pain.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 신규 후보 4개를 검토했고, 새 작업 항목 `opp_20260515_006_freelancer_simple_book_blog`를 생성했습니다.\n- 프리랜서 5월 간편장부 비용정리 Tistory 검증 글의 브리프와 초안을 로컬 제작했습니다.\n\n**시장성 판단**\n- GO/HOLD: 5월 종합소득세 시즌 pain, 국세청 공식 근거, 간편장부/엑셀 검색 샘플이 있어 무료 검증 가치는 있습니다.\n- 단, 세무 자문 오인·무료 템플릿 과밀·실제 유입 미확인으로 게시 전 이미지/렌더링 검수가 필요합니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 후속 템플릿 2건 가정 시 약 30,400원 순매출, 80%대 가능.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 다음 단계: 이미지 3장 생성 후 Tistory 품질 게이트 통과 시 무료 검증 글 게시.\n\n**필요 승인**\n- 없음. standing approval 범위지만, 이번에는 품질 게이트 미완료라 외부 게시하지 않았습니다."
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for academy summer-class messaging pain.",
+    "final_report": ""
   },
   "metrics": {
-    "total": 6,
-    "active": 4,
+    "total": 7,
+    "active": 5,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
-    "closed_lost": 0,
+    "closed_lost": 2,
     "rejected": 2
   },
   "active_opportunities": [
@@ -87,6 +87,13 @@
       "status": "검증 보류",
       "next_action": "다음 실행에서 썸네일/비용표/흐름 카드 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시.",
       "quality": 87
+    },
+    {
+      "id": "opp_20260515_007_academy_summer_class_blog",
+      "title": "학원 여름방학 특강 안내문·문자 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "썸네일/문자예시/체크리스트 이미지 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시.",
+      "quality": 84
     }
   ],
   "approval_needed": [],
@@ -138,19 +145,308 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "다음 실행에서 썸네일/비용표/흐름 카드 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260515_007_academy_summer_class_blog",
+      "title": "학원 여름방학 특강 안내문·문자 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "썸네일/문자예시/체크리스트 이미지 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 2,
-    "근거 부족": 1
+    "근거 부족": 2
   },
   "roi": {
-    "expected_base_net_total": 118920,
+    "expected_base_net_total": 142680,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-15T12:47:53+09:00",
+      "run_id": "2026-05-15_1247_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260514_002_smartstore_review_kit",
+      "event": "decision",
+      "from_status": "launched",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 URL 접근 확인. 추가 외부 액션 없음.",
+      "links": [],
+      "agent_label": "제작 검수"
+    },
+    {
+      "time": "2026-05-15T12:47:53+09:00",
+      "run_id": "2026-05-15_1247_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260514_002_smartstore_review_kit",
+      "event": "decision",
+      "from_status": "launched",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "실패 모드: 검색 유입 부족, 범용 답변으로 차별성 약함, 유료 전환 근거 부족. 무료 검증 상태라 허용.",
+      "links": [],
+      "agent_label": "리스크 검토"
+    },
+    {
+      "time": "2026-05-15T12:47:53+09:00",
+      "run_id": "2026-05-15_1247_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260514_002_smartstore_review_kit",
+      "event": "decision",
+      "from_status": "launched",
+      "to_status": "tracking",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "현재 실제 매출 0원. 무료 검증 성과 데이터 확보 전 유료 전환은 보류.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "MF-1 기존 노쇼/예약금 콘텐츠를 무료 블로그 검증 대상으로 전환.",
+      "links": [
+        "https://beemo.tistory.com/3"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "하드 판매 대신 예약금 안내문 무료 정보글로 공개하는 방향이 채널/품질에 적합.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "asset_created",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 HTML 및 SVG 이미지 4개 생성/공개 Pages 배포.",
+      "links": [
+        "https://beemo.tistory.com/3"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "launched",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개 발행 완료 및 공개 URL 확인.",
+      "links": [
+        "https://beemo.tistory.com/3"
+      ],
+      "agent_label": "제작 검수"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "법률 자문 아님 고지 포함. 무료 정보글이라 판매 과장 리스크 낮음.",
+      "links": [],
+      "agent_label": "리스크 검토"
+    },
+    {
+      "time": "2026-05-15T14:33:27+09:00",
+      "run_id": "2026-05-15_1433_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "decision",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "실제 유입/반응 데이터 확보 전 유료 전환은 보류.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T14:48:59+09:00",
+      "run_id": "2026-05-15_1448_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "status_changed",
+      "from_status": "tracking",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "MF-1은 블로그 공개로 완료 처리. 반복 실행에서 재작업하지 않고 신규 후보 탐색으로 넘어감.",
+      "links": [
+        "https://beemo.tistory.com/3"
+      ],
+      "agent_label": "원장/대시보드"
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: Algora/Kyo #390 gRPC Support — $500 headline is real, but gRPC/codegen work is broad, old, heavily discussed, and likely multi-day specialist work.",
+      "links": [
+        "https://algora.io/bounties",
+        "https://github.com/getkyo/kyo/issues/390"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: Listverse paid writing submission — Clear payer, but speculative editorial acceptance and PayPal/account dependency make expected hourly value weak.",
+      "links": [
+        "https://listverse.com/write-get-paid/"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: K-Startup 모집중 창업지원/공모 후보 — Requires personal/business documents, application work, and long cash distance; not suitable for hourly low-involvement pipeline.",
+      "links": [
+        "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "Scout rejected: Korean Excel/admin template searches: 직원 근태·급여, 학원 상담일지, 요양보호 상담일지 — Buyer pain plausible but no A-grade paid comparable captured this run; avoid generic template production.",
+      "links": [
+        "https://kmong.com/search?keyword=%EC%A7%81%EC%9B%90%20%EA%B7%BC%ED%83%9C%20%EA%B8%89%EC%97%AC%20%EC%97%91%EC%85%80%20%ED%85%9C%ED%94%8C%EB%A6%BF"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T15:30:28+09:00",
+      "run_id": "2026-05-15_1530_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_003_changelog_bounty",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "GitHub/Opire $50 CHANGELOG 생성기 바운티 후보 발견.",
+      "links": [
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T15:30:28+09:00",
+      "run_id": "2026-05-15_1530_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260515_003_changelog_bounty",
+      "event": "decision",
+      "from_status": "discovered",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 GitHub issue에서 구매자/채널/수락 기준/claim 흐름 확인.",
+      "links": [
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
+      ],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-15T15:30:28+09:00",
+      "run_id": "2026-05-15_1530_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260515_003_changelog_bounty",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "바운티 제출용 plan.md 작성.",
+      "links": [
+        "local:opportunities/opp_20260515_003_changelog_bounty/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-15T15:30:28+09:00",
+      "run_id": "2026-05-15_1530_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260515_003_changelog_bounty",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 82점. 범위가 좁고 재사용 가능한 Changelog 생성기라 제작 승인.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
     {
       "time": "2026-05-15T15:30:28+09:00",
       "run_id": "2026-05-15_1530_money-flow",
@@ -618,6 +914,199 @@
       "links": [],
       "agent_label": "수익성 검토",
       "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "학원 여름방학 특강 안내문·문자 무료 검증 글 후보 발견.",
+      "links": [
+        "https://duckduckgo.com/html/?q=%ED%95%99%EC%9B%90+%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99+%ED%8A%B9%EA%B0%95+%EC%95%88%EB%82%B4%EB%AC%B8+%EC%98%88%EC%8B%9C"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "검색 샘플 20개, 학원 문자 가이드, 안내문 템플릿 수요 근거 추가.",
+      "links": [
+        "https://duckduckgo.com/html/?q=%ED%95%99%EC%9B%90+%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99+%ED%8A%B9%EA%B0%95+%EC%95%88%EB%82%B4%EB%AC%B8+%EC%98%88%EC%8B%9C",
+        "https://doc.tingtalk.co.kr/publish/photo-smart/education-promo-sms.html",
+        "https://www.yesform.com/z_n/forms/search.php?q=%B9%E6%C7%D0%C6%AF%B0%AD%BE%C8%B3%BB%B9%AE",
+        "https://www.canva.com/ko_kr/templates/s/special-lecture/"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자와 채널 명확. 무료 검증 후 유료 템플릿 전환으로 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프 및 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 84점. 학원 특강 안내문 pain에 좁게 맞춰 제작 승인.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 양식 과밀, 학원별 기준 차이, 교육 성과 보장 오해 리스크.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 템플릿 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "Scout rejected: GitHub bounty search had many unofficial/artifact issues; payer and claim route unclear.",
+      "links": [
+        "https://api.github.com/search/issues?q=label%3Abounty"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: paid writing/listicle channels have payer but speculative acceptance and weaker hourly EV.",
+      "links": [
+        "https://listverse.com/write-get-paid/"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-15T21:04:07+09:00",
+      "run_id": "2026-05-15_2104_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: Korean contest/support-program route requires application, identity/business docs, and long cash distance.",
+      "links": [
+        "https://www.thinkcontest.com/",
+        "https://www.k-startup.go.kr/"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "사용자 부담 높음"
     }
   ],
   "board_columns": [
@@ -1018,10 +1507,10 @@
       "key": "MF-4",
       "id": "opp_20260515_004_unsafelabs_prompt_bounty",
       "title": "UnsafeLabs AI-only GitHub bounty prompt 공개 요구",
-      "status": "리서치 폐기",
+      "status": "종료/폐기",
       "column": "종료/폐기",
       "type_label": "바운티",
-      "priority_label": "낮음",
+      "priority_label": "보통",
       "quality": 20,
       "base_net": 0,
       "margin_pct": 0,
@@ -1091,10 +1580,10 @@
       "key": "MF-5",
       "id": "opp_20260515_005_studenthub_s3_bounty",
       "title": "StudentHub AWS S3 보안 복구 $600 바운티",
-      "status": "리서치 폐기",
+      "status": "종료/폐기",
       "column": "종료/폐기",
       "type_label": "바운티",
-      "priority_label": "낮음",
+      "priority_label": "보통",
       "quality": 25,
       "base_net": 0,
       "margin_pct": 0,
@@ -1181,7 +1670,7 @@
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
       "status": "검증 보류",
       "column": "검증 보류",
-      "type_label": "기타",
+      "type_label": "콘텐츠",
       "priority_label": "보통",
       "quality": 87,
       "base_net": 30400,
@@ -1280,6 +1769,121 @@
           "name": "draft_freelancer_simple_book_20260515.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260515.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
+    },
+    {
+      "key": "MF-7",
+      "id": "opp_20260515_007_academy_summer_class_blog",
+      "title": "학원 여름방학 특강 안내문·문자 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 84,
+      "base_net": 23760,
+      "margin_pct": 80,
+      "expected_price": 9900,
+      "buyer_or_payer": "소형 보습학원·영어/수학학원 원장·실장·행정 담당자",
+      "channel": "Tistory 무료 검증 글 → 반응 확인 후 학원 문자 템플릿 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "썸네일/문자예시/체크리스트 이미지 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "crowded_free_templates",
+        "school_context_varies",
+        "avoid_education_outcome_guarantees",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://duckduckgo.com/html/?q=%ED%95%99%EC%9B%90+%EC%97%AC%EB%A6%84%EB%B0%A9%ED%95%99+%ED%8A%B9%EA%B0%95+%EC%95%88%EB%82%B4%EB%AC%B8+%EC%98%88%EC%8B%9C",
+          "grade": "B",
+          "summary": "학원 방학특강 안내문/템플릿/실제 학원 공지/문자 예시 결과 다수 확인.",
+          "checked_at": "2026-05-15T21:04:07+09:00"
+        },
+        {
+          "url": "https://doc.tingtalk.co.kr/publish/photo-smart/education-promo-sms.html",
+          "grade": "B",
+          "summary": "교육/학원 문자 발송 가이드가 검색 노출되어 문자 운영 pain과 채널 적합성 확인.",
+          "checked_at": "2026-05-15T21:04:07+09:00"
+        },
+        {
+          "url": "https://www.yesform.com/z_n/forms/search.php?q=%B9%E6%C7%D0%C6%AF%B0%AD%BE%C8%B3%BB%B9%AE",
+          "grade": "B",
+          "summary": "방학특강 안내문 양식 검색/유료 서식 채널 수요 신호.",
+          "checked_at": "2026-05-15T21:04:07+09:00"
+        },
+        {
+          "url": "https://www.canva.com/ko_kr/templates/s/special-lecture/",
+          "grade": "B",
+          "summary": "특강 안내문 디자인/템플릿 검색 수요와 대체재 확인.",
+          "checked_at": "2026-05-15T21:04:07+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "학원 방학특강 안내문/문자 예시 검색 샘플 20개 확보."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자 pain과 무료 검증 채널 명확. 후속 유료화는 반응 이후로 제한."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글, 이미지 계획, 후속 템플릿 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 84점. 학원 여름 특강 안내라는 좁은 문제에 맞춤."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "블로그 브리프와 초안 생성."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 3장 생성 및 Tistory 렌더링 검수 전 게시 보류."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 양식 과밀, 학원별 기준 차이, 과장 표현 리스크."
+        },
+        {
+          "time": "2026-05-15T21:04:07+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 매출 0원. 후속 ZIP 전환은 유입 확인 후."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_academy_summer_class_messages_20260515.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/draft_academy_summer_class_messages_20260515.md"
         }
       ],
       "stop_reason_label": "근거 부족"
