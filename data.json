@@ -45,7 +45,7 @@
       }
     ],
     "summary": "Scouted 4 new candidates across GitHub bounties, paid writing, and contests. Created one persistent rejected work item for UnsafeLabs bounty because terms require full system-prompt disclosure.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 기존 완료/추적 항목은 빠르게 건너뛰고 신규 후보 4개를 검토했습니다.\n- 새 작업 항목 `opp_20260515_004_unsafelabs_prompt_bounty` 생성 후 즉시 NO-GO 처리했습니다.\n\n**시장성 판단**\n- GitHub 바운티 금액은 확인됐지만, PR 조건이 전체 시스템 프롬프트 공개를 요구해 보안/정책 리스크가 큽니다.\n- tscircuit $75 바운티는 경쟁 PR이 너무 많아 이번 실행에서는 제외했습니다.\n\n**예상 순마진**\n- 보수/기준: 0원. 위험 조정 후 수익화 불가.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 기존 완료/추적 항목은 빠르게 건너뛰고 신규 후보 4개를 검토했습니다.\n- 새 작업 항목 `opp_20260515_004_unsafelabs_prompt_bounty` 생성 후 즉시 NO-GO 처리했습니다.\n\n**시장성 판단**\n- GitHub 바운티 금액은 확인됐지만, PR 조건이 전체 시스템 프롬프트 공개를 요구해 보안/정책 리스크가 큽니다.\n- tscircuit $75 바운티는 경쟁 PR이 너무 많아 이번 실행에서는 제외했습니다.\n\n**예상 순마진**\n- 보수/기준: 0원. 위험 조정 후 수익화 불가.\n\n**대기**\n- 로컬 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- GitHub 원격 `data.json`은 갱신됐지만 Pages 공개 URL은 캐시/배포 지연으로 아직 이전 데이터입니다.\n\n**필요 승인**\n- 없음.\n\n**실패**\n- 공개 대시보드 `data.json` HTTPS 검증은 아직 최신 run_id를 반환하지 않았습니다."
   },
   "metrics": {
     "total": 4,
