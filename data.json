@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-15T17:49:58+09:00",
+  "updated_at": "2026-05-15T19:57:01+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1749_money-flow",
-    "started_at": "2026-05-15T17:49:58+09:00",
-    "finished_at": "2026-05-15T17:49:58+09:00",
+    "run_id": "2026-05-15_1957_money-flow",
+    "started_at": "2026-05-15T19:57:01+09:00",
+    "finished_at": "2026-05-15T19:57:01+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -17,39 +17,42 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 4,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
-    "assets_created": [],
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 0,
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md"
+    ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_RISK",
-        "summary": "민감 AWS/IAM/S3 및 Civil ID 업로드 흐름으로 자율 바운티 수행 리스크가 큼"
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "5월 종합소득세/간편장부 독자 pain과 무료 검증 채널 적합"
+      },
+      {
+        "agent": "planning_lead",
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "품질 87점, 세무 자문 단정 없이 실무 정리 문제에 좁게 맞춤"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_RISK",
-        "summary": "보안·개인정보·운영 피해 리스크가 $600 기대수익보다 큼"
-      },
-      {
-        "agent": "roi",
-        "opportunity_id": "opp_20260515_005_studenthub_s3_bounty",
-        "decision": "NO-GO",
-        "reason_code": "LOW_MARGIN",
-        "summary": "위험 조정 기준 순마진 0"
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "decision": "HOLD",
+        "reason_code": "NO_EVIDENCE",
+        "summary": "이미지·Tistory 렌더링 검수와 실제 유입 데이터 전까지 검증 보류"
       }
     ],
-    "summary": "Scouted 4 candidates across bounties, paid writing, and contests. Created one persistent rejected work item for StudentHub AWS S3 security bounty due sensitive infra/privacy risk.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 기존 완료/추적 항목은 재작업 없이 빠르게 확인했습니다.\n- 신규 후보 4개를 검토했고, 새 작업 항목 `opp_20260515_005_studenthub_s3_bounty`를 생성 후 NO-GO 처리했습니다.\n\n**시장성 판단**\n- $600 바운티 자체는 A급 근거가 있으나, AWS/IAM/S3 보안 복구와 Civil ID 업로드 흐름이 포함돼 자율 실행 리스크가 큽니다.\n- Listverse/Smashing 글쓰기와 Kaggle도 검토했지만, 사용자 부담·지급 불명확·긴 현금화 거리로 미진행입니다.\n\n**예상 순마진**\n- 보수/기준: 0원. 위험 조정 후 수익화 불가.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for freelancer simple-bookkeeping seasonal pain.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 신규 후보 4개를 검토했고, 새 작업 항목 `opp_20260515_006_freelancer_simple_book_blog`를 생성했습니다.\n- 프리랜서 5월 간편장부 비용정리 Tistory 검증 글의 브리프와 초안을 로컬 제작했습니다.\n\n**시장성 판단**\n- GO/HOLD: 5월 종합소득세 시즌 pain, 국세청 공식 근거, 간편장부/엑셀 검색 샘플이 있어 무료 검증 가치는 있습니다.\n- 단, 세무 자문 오인·무료 템플릿 과밀·실제 유입 미확인으로 게시 전 이미지/렌더링 검수가 필요합니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 후속 템플릿 2건 가정 시 약 30,400원 순매출, 80%대 가능.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 다음 단계: 이미지 3장 생성 후 Tistory 품질 게이트 통과 시 무료 검증 글 게시.\n\n**필요 승인**\n- 없음. standing approval 범위지만, 이번에는 품질 게이트 미완료라 외부 게시하지 않았습니다."
   },
   "metrics": {
-    "total": 5,
-    "active": 3,
+    "total": 6,
+    "active": 4,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -77,6 +80,13 @@
       "status": "운영/수익",
       "next_action": "PR #1385 제출 완료. maintainer 리뷰/병합 및 Opire 지급 상태 모니터링.",
       "quality": 82
+    },
+    {
+      "id": "opp_20260515_006_freelancer_simple_book_blog",
+      "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "다음 실행에서 썸네일/비용표/흐름 카드 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시.",
+      "quality": 87
     }
   ],
   "approval_needed": [],
@@ -120,165 +130,27 @@
       "why": "폐기됨",
       "status": "research_rejected",
       "next_action": "폐기. 민감 AWS/IAM/S3·신분증 업로드 복구형 바운티는 사전 권한/안전 범위가 명확하지 않으면 자동 제외."
+    },
+    {
+      "id": "opp_20260515_006_freelancer_simple_book_blog",
+      "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "다음 실행에서 썸네일/비용표/흐름 카드 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
-    "위험 높음": 2
+    "위험 높음": 2,
+    "근거 부족": 1
   },
   "roi": {
-    "expected_base_net_total": 88520,
+    "expected_base_net_total": 118920,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T14:48:59+09:00",
-      "run_id": "2026-05-15_1448_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "status_changed",
-      "from_status": "tracking",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "MF-1은 블로그 공개로 완료 처리. 반복 실행에서 재작업하지 않고 신규 후보 탐색으로 넘어감.",
-      "links": [
-        "https://beemo.tistory.com/3"
-      ],
-      "agent_label": "원장/대시보드"
-    },
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: Algora/Kyo #390 gRPC Support — $500 headline is real, but gRPC/codegen work is broad, old, heavily discussed, and likely multi-day specialist work.",
-      "links": [
-        "https://algora.io/bounties",
-        "https://github.com/getkyo/kyo/issues/390"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: Listverse paid writing submission — Clear payer, but speculative editorial acceptance and PayPal/account dependency make expected hourly value weak.",
-      "links": [
-        "https://listverse.com/write-get-paid/"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "HIGH_USER_INPUT",
-      "summary": "Scout rejected: K-Startup 모집중 창업지원/공모 후보 — Requires personal/business documents, application work, and long cash distance; not suitable for hourly low-involvement pipeline.",
-      "links": [
-        "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "사용자 부담 높음"
-    },
-    {
-      "time": "2026-05-15T14:47:29+09:00",
-      "run_id": "2026-05-15_1447_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "Scout rejected: Korean Excel/admin template searches: 직원 근태·급여, 학원 상담일지, 요양보호 상담일지 — Buyer pain plausible but no A-grade paid comparable captured this run; avoid generic template production.",
-      "links": [
-        "https://kmong.com/search?keyword=%EC%A7%81%EC%9B%90%20%EA%B7%BC%ED%83%9C%20%EA%B8%89%EC%97%AC%20%EC%97%91%EC%85%80%20%ED%85%9C%ED%94%8C%EB%A6%BF"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "GitHub/Opire $50 CHANGELOG 생성기 바운티 후보 발견.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A급 GitHub issue에서 구매자/채널/수락 기준/claim 흐름 확인.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "바운티 제출용 plan.md 작성.",
-      "links": [
-        "local:opportunities/opp_20260515_003_changelog_bounty/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-15T15:30:28+09:00",
-      "run_id": "2026-05-15_1530_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260515_003_changelog_bounty",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 82점. 범위가 좁고 재사용 가능한 Changelog 생성기라 제작 승인.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
     {
       "time": "2026-05-15T15:30:28+09:00",
       "run_id": "2026-05-15_1530_money-flow",
@@ -608,6 +480,144 @@
       "links": [],
       "agent_label": "수익성 검토",
       "reason_label": "마진 낮음"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "프리랜서 5월 간편장부 비용정리 무료 검증 글 후보 발견.",
+      "links": [
+        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "국세청 공식 페이지, 검색 샘플 10개, 크몽 검색 채널 근거 추가.",
+      "links": [
+        "https://duckduckgo.com/html/?q=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80+%EC%97%91%EC%85%80+%ED%85%9C%ED%94%8C%EB%A6%BF+%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C+%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://kmong.com/search?keyword=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80%20%EC%97%91%EC%85%80"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자 pain과 채널 명확. 유료 전환은 무료 검증 이후로 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 87점. 무료 검증 글로 제작 승인.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "세무 자문 경계, 무료 템플릿 과밀, 트래픽 미확인 리스크.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-15T19:57:01+09:00",
+      "run_id": "2026-05-15_1957_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 템플릿 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
     }
   ],
   "board_columns": [
@@ -1164,6 +1174,115 @@
       ],
       "assets": [],
       "stop_reason_label": "위험 높음"
+    },
+    {
+      "key": "MF-6",
+      "id": "opp_20260515_006_freelancer_simple_book_blog",
+      "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "기타",
+      "priority_label": "보통",
+      "quality": 87,
+      "base_net": 30400,
+      "margin_pct": 80,
+      "expected_price": 19000,
+      "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
+      "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "다음 실행에서 썸네일/비용표/흐름 카드 3장 생성 후 Tistory 품질 게이트를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "tax_advice_boundary",
+        "seasonal_search_window",
+        "crowded_free_template_results",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661",
+          "grade": "A",
+          "summary": "국세청 종합소득세 관련 공식 안내 페이지 접근 확인. 5월 세무 정리 pain과 안전 고지 근거.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80+%EC%97%91%EC%85%80+%ED%85%9C%ED%94%8C%EB%A6%BF+%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C+%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "간편장부/엑셀/프리랜서/종합소득세 관련 비교 글·양식 글 10개 이상 검색 노출 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80%20%EC%97%91%EC%85%80",
+          "grade": "B",
+          "summary": "크몽 검색 페이지에서 간편장부·엑셀 키워드 유료 템플릿/서비스 채널 가능성 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "5월 종합소득세/간편장부 검색 pain과 공식 세무 정보, 무료 글 샘플 확인."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 채널은 명확. 유료 전환은 검증 후로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 정보글 + 업종별 엑셀 템플릿 후속 경로 계획."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 87점. 세무 자문 단정 없이 실무 정리 pain에 좁게 맞춤."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "블로그 검증 브리프와 초안 1개 생성."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "게시 전 이미지 3장 생성 및 Tistory 렌더링 검수가 필요. standing approval은 품질 게이트 통과 후 적용."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "세무·검색 경쟁·무료 템플릿 과밀 리스크. 공개 전 법률/세무 고지와 이미지 보강 필요."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 자산으로는 전략 가치 있음. 실제 유입 전 매출 기대는 보수적으로 0."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_006_freelancer_simple_book_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260515.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260515.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
     }
   ]
 }
