@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T04:56:01+09:00",
+  "updated_at": "2026-05-16T06:02:19+09:00",
   "last_run": {
-    "run_id": "2026-05-16_0456_money-flow",
-    "started_at": "2026-05-16T04:56:01+09:00",
-    "finished_at": "2026-05-16T04:56:01+09:00",
+    "run_id": "2026-05-16_0602_money-flow",
+    "started_at": "2026-05-16T06:02:19+09:00",
+    "finished_at": "2026-05-16T06:02:19+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,39 +20,39 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/blog_validation_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "네이버플레이스 휴무 공지 글은 독자와 계절 수요 명확"
+        "summary": "장마철 펫살롱 예약 안내 글은 독자와 계절 수요 명확"
       },
       {
         "agent": "planning_lead",
-        "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "품질 85점, 초안 제작 승인"
+        "summary": "품질 86점, 초안 제작 승인"
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
         "summary": "이미지·렌더링 검수 전 게시 보류"
       }
     ],
-    "summary": "Created one new Korean blog/free validation opportunity and local draft for Naver Place vacation hours pain.",
+    "summary": "Created one new Korean blog/free validation opportunity and local draft for rainy-season pet grooming appointment pain.",
     "final_report": ""
   },
   "metrics": {
-    "total": 14,
-    "active": 12,
+    "total": 15,
+    "active": 13,
     "approval_needed": 0,
     "launched": 3,
     "closed_won": 0,
@@ -143,6 +143,13 @@
       "status": "검증 보류",
       "next_action": "썸네일·공지문 예시·체크리스트 이미지 3장 생성 후 네이버 UI 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 85
+    },
+    {
+      "id": "opp_20260516_015_pet_grooming_rain_blog",
+      "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "quality": 86
     }
   ],
   "approval_needed": [],
@@ -258,213 +265,27 @@
       "why": "상태 확인",
       "status": "redteam_hold",
       "next_action": "썸네일·공지문 예시·체크리스트 이미지 3장 생성 후 네이버 UI 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
+    },
+    {
+      "id": "opp_20260516_015_pet_grooming_rain_blog",
+      "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
+      "priority": "medium",
+      "why": "상태 확인",
+      "status": "redteam_hold",
+      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시."
     }
   ],
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 4,
-    "근거 부족": 7
+    "근거 부족": 8
   },
   "roi": {
-    "expected_base_net_total": 419880,
+    "expected_base_net_total": 471480,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "헬스장 여름휴가·회원권 정지 안내문 무료 검증 글 후보 발견.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%ED%97%AC%EC%8A%A4%EC%9E%A5+%EC%97%AC%EB%A6%84+%ED%9C%B4%EA%B0%80+%ED%9A%8C%EC%9B%90%EA%B6%8C+%EC%A0%95%EC%A7%80+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%AC%B8%EC%9E%90+%EC%98%88%EC%8B%9C"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "헬스장 안내 문자·휴무 공지·양식/템플릿 수요 근거 추가.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%ED%97%AC%EC%8A%A4%EC%9E%A5+%EC%97%AC%EB%A6%84+%ED%9C%B4%EA%B0%80+%ED%9A%8C%EC%9B%90%EA%B6%8C+%EC%A0%95%EC%A7%80+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%AC%B8%EC%9E%90+%EC%98%88%EC%8B%9C",
-        "https://munjasample.com/category/%EC%97%85%EC%A2%85%EB%B3%84-%EB%AC%B8%EC%9E%90/%ED%9C%98%ED%8B%B0%EB%8B%88%EC%8A%A4-%ED%97%AC%EC%8A%A4%EC%9E%A5",
-        "https://www.nizform.com/example/view.htm?fid=72515",
-        "https://www.yesform.com/z_n/forms/search.php?q=%C7%EF%BD%BA%C0%E5%BE%C8%B3%BB%B9%AE",
-        "https://www.oppadu.com/resources/%ED%97%AC%EC%8A%A4%EC%9E%A5-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC-%EC%97%91%EC%85%80-%ED%85%9C%ED%94%8C%EB%A6%BF/"
-      ],
-      "agent_label": "후보 조사"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "독자/채널은 명확. 유료 직행보다 무료 안내문 검증 글로 범위 제한.",
-      "links": [],
-      "agent_label": "시장성 검토"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "블로그 검증 브리프와 plan.md 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/plan.md"
-      ],
-      "agent_label": "기획"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 85점. 회원권 정지/수업 보강 문의 감소라는 좁은 문제에 맞춤.",
-      "links": [],
-      "agent_label": "기획 검수"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory용 Markdown 초안 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516.md"
-      ],
-      "agent_label": "제작"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
-      "links": [],
-      "agent_label": "제작 검수",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "실패 모드: 환불/계약 오해, 무료 문자 예시 과밀, 센터별 규정 차이, 유료 전환 미확인.",
-      "links": [],
-      "agent_label": "리스크 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 전 실제 매출 0원. 후속 피트니스 문자 ZIP 기준 순매출은 검증 후 판단.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "WEAK_DIFFERENTIATION",
-      "summary": "Scout rejected: 장마철 에어컨 냄새 제거 체크리스트는 검색 수요는 있으나 구매자/후속 유료화가 모호하고 무료 경쟁이 과밀.",
-      "links": [
-        "https://duckduckgo.com/html/?q=%EC%9E%A5%EB%A7%88%EC%B2%A0+%EC%97%90%EC%96%B4%EC%BB%A8+%EB%83%84%EC%83%88+%EC%A0%9C%EA%B1%B0+%EC%85%80%ED%94%84+%EC%B2%AD%EC%86%8C+%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "차별성 약함"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Scout rejected: GitHub bounty Angular dependency upgrade 후보는 지급/claim/테스트 환경이 즉시 확정되지 않아 이번 실행에서 제외.",
-      "links": [
-        "https://github.com/BAWES-Universe/studenthub-staff/issues/33",
-        "https://algora.io/bounties"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "기회비용 높음"
-    },
-    {
-      "time": "2026-05-16T00:27:32+09:00",
-      "run_id": "2026-05-16_0027_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "PIVOT",
-      "reason_code": "WEAK_DIFFERENTIATION",
-      "summary": "Scout pivot: 헬스장 회원관리 엑셀/문자 템플릿 유료 직행은 차별성 검증 전이라 무료 블로그 검증으로 전환.",
-      "links": [
-        "https://www.oppadu.com/resources/%ED%97%AC%EC%8A%A4%EC%9E%A5-%ED%9A%8C%EC%9B%90%EA%B4%80%EB%A6%AC-%EC%97%91%EC%85%80-%ED%85%9C%ED%94%8C%EB%A6%BF/"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "차별성 약함"
-    },
     {
       "time": "2026-05-16T01:37:49+09:00",
       "run_id": "2026-05-16_0137_money-flow",
@@ -1244,6 +1065,200 @@
       ],
       "agent_label": "시장성 검토",
       "reason_label": "기회비용 높음"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글 후보 발견.",
+      "links": [
+        "https://map.naver.com/"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "애견미용 예약 변경/노쇼, 예약금, 장마철 강아지 관리 검색 수요와 대체재 근거 추가.",
+      "links": [
+        "https://map.naver.com/",
+        "https://www.google.com/search?q=%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9+%EC%98%88%EC%95%BD+%EB%B3%80%EA%B2%BD+%EB%85%B8%EC%87%BC+%EC%95%88%EB%82%B4",
+        "https://www.google.com/search?q=%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC+%EB%AF%B8%EC%9A%A9%EC%83%B5+%EC%98%88%EC%95%BD%EA%B8%88+%EC%95%88%EB%82%B4",
+        "https://www.google.com/search?q=%EC%9E%A5%EB%A7%88%EC%B2%A0+%EA%B0%95%EC%95%84%EC%A7%80+%EB%AF%B8%EC%9A%A9+%EA%B4%80%EB%A6%AC",
+        "https://kmong.com/search?keyword=%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9",
+        "https://www.canva.com/ko_kr/templates/"
+      ],
+      "agent_label": "후보 조사"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자/채널은 명확. 의료·환불 조언이 아니라 운영 안내문으로 범위 제한.",
+      "links": [],
+      "agent_label": "시장성 검토"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "블로그 검증 브리프와 plan.md 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/plan.md"
+      ],
+      "agent_label": "기획"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 86점. 장마철 펫살롱 예약 안내라는 구체 pain과 무료 예시가 있음.",
+      "links": [],
+      "agent_label": "기획 검수"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 Markdown 초안 작성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md"
+      ],
+      "agent_label": "제작"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "이미지 생성과 Tistory 렌더링 검수 전이라 게시 보류.",
+      "links": [],
+      "agent_label": "제작 검수",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "실패 모드: 예약금/취소 단정 리스크, 펫케어 의료 조언 오해, 무료 경쟁, 유료 전환 미확인.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "무료 검증 전 실제 매출 0원. 후속 펫살롱 안내문 ZIP 기준 순매출은 검증 후 판단.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "PIVOT",
+      "reason_code": "HIGH_RISK",
+      "summary": "Scout pivot: 꽃집 장마철 배송 지연·꽃 상태 안내문은 배송/환불 단정 위험이 있어 택배사·플랫폼별 근거 확인 전 보류.",
+      "links": [
+        "https://www.google.com/search?q=%EA%BD%83%EC%A7%91+%EC%9E%A5%EB%A7%88%EC%B2%A0+%EB%B0%B0%EC%86%A1+%EC%A7%80%EC%97%B0+%EC%95%88%EB%82%B4%EB%AC%B8"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "Scout rejected: 무인 아이스크림 매장 여름 위생 안내문 유료 키트는 식품위생·안전 단정 리스크와 업종별 규정 차이가 큼.",
+      "links": [
+        "https://www.google.com/search?q=%EB%AC%B4%EC%9D%B8+%EC%95%84%EC%9D%B4%EC%8A%A4%ED%81%AC%EB%A6%BC+%EB%A7%A4%EC%9E%A5+%EC%9C%84%EC%83%9D+%EC%95%88%EB%82%B4%EB%AC%B8"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "위험 높음"
+    },
+    {
+      "time": "2026-05-16T06:02:19+09:00",
+      "run_id": "2026-05-16_0602_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "Scout rejected: paid writing 일반 투고는 이번 실행에서 지급 매체·편집자 fit·권리 조건을 특정하지 못함.",
+      "links": [
+        "https://www.google.com/search?q=%EC%9B%90%EA%B3%A0%EB%A3%8C+%EC%A7%80%EA%B8%89+%ED%88%AC%EA%B3%A0+%EB%A7%A4%EC%B2%B4"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "지급 불명확"
     }
   ],
   "board_columns": [
@@ -2899,6 +2914,134 @@
           "name": "draft_naver_place_vacation_hours_20260516.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_014_place_vacation_hours_blog/draft_naver_place_vacation_hours_20260516.md"
+        }
+      ],
+      "stop_reason_label": "근거 부족"
+    },
+    {
+      "key": "MF-15",
+      "id": "opp_20260516_015_pet_grooming_rain_blog",
+      "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "type_label": "콘텐츠",
+      "priority_label": "보통",
+      "quality": 86,
+      "base_net": 51600,
+      "margin_pct": 80,
+      "expected_price": 12900,
+      "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
+      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 펫살롱 상황별 예약/우천/노쇼 안내문 ZIP",
+      "owner": "리스크 검토",
+      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "risk_flags": [
+        "reservation_fee_policy_risk",
+        "pet_health_advice_overreach",
+        "free_template_competition",
+        "paid_conversion_unproven",
+        "needs_images_and_tistory_visual_qa"
+      ],
+      "evidence": [
+        {
+          "url": "https://map.naver.com/",
+          "grade": "A",
+          "summary": "반려동물 미용샵 검색·예약/영업 정보가 노출되는 실제 로컬 탐색 채널.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        },
+        {
+          "url": "https://www.google.com/search?q=%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9+%EC%98%88%EC%95%BD+%EB%B3%80%EA%B2%BD+%EB%85%B8%EC%87%BC+%EC%95%88%EB%82%B4",
+          "grade": "B",
+          "summary": "애견미용 예약 변경/노쇼 안내 검색 수요.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        },
+        {
+          "url": "https://www.google.com/search?q=%EB%B0%98%EB%A0%A4%EB%8F%99%EB%AC%BC+%EB%AF%B8%EC%9A%A9%EC%83%B5+%EC%98%88%EC%95%BD%EA%B8%88+%EC%95%88%EB%82%B4",
+          "grade": "B",
+          "summary": "펫샵 예약금 안내 문구 검색 수요.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        },
+        {
+          "url": "https://www.google.com/search?q=%EC%9E%A5%EB%A7%88%EC%B2%A0+%EA%B0%95%EC%95%84%EC%A7%80+%EB%AF%B8%EC%9A%A9+%EA%B4%80%EB%A6%AC",
+          "grade": "B",
+          "summary": "장마철 강아지 미용/관리 관심 수요.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%EC%95%A0%EA%B2%AC%EB%AF%B8%EC%9A%A9",
+          "grade": "B",
+          "summary": "펫/소상공인 관련 디자인·마케팅 외주 수요 확인용.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        },
+        {
+          "url": "https://www.canva.com/ko_kr/templates/",
+          "grade": "B",
+          "summary": "반려동물/샵 공지 카드 대체재 존재.",
+          "checked_at": "2026-05-16T06:02:19+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "장마철·펫살롱 예약 운영 pain, 검색 수요, 카드/문구 대체재 확인."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 채널 명확. 의료·환불 조언이 아니라 운영 안내문으로 범위 제한."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 글/이미지 계획/후속 ZIP 경로 작성."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 86점. 계절성+업종 특화 pain이 있고 무료 문구도 즉시 사용 가능."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "브리프와 Tistory Markdown 초안 생성."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성과 Tistory 렌더링 QA 전 게시 보류."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "예약금/취소 단정 리스크, 펫케어 의료 조언 오해, 무료 경쟁, 유료 전환 미확인."
+        },
+        {
+          "time": "2026-05-16T06:02:19+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 전 실제 매출 0원."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_validation_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/blog_validation_brief.md"
+        },
+        {
+          "name": "draft_pet_grooming_rainy_booking_20260516.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516.md"
         }
       ],
       "stop_reason_label": "근거 부족"
