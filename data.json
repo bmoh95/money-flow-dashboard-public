@@ -1,41 +1,99 @@
 {
-  "updated_at": "2026-05-15T14:48:59+09:00",
+  "updated_at": "2026-05-15T14:47:29+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1448_money-flow",
-    "started_at": "2026-05-15T14:48:59+09:00",
-    "finished_at": "2026-05-15T14:48:59+09:00",
-    "trigger": "manual",
+    "run_id": "2026-05-15_1447_money-flow",
+    "started_at": "2026-05-15T14:47:29+09:00",
+    "finished_at": "2026-05-15T14:47:29+09:00",
+    "trigger": "cron",
     "agents_executed": [
+      "research_member",
+      "research_lead",
+      "planning_member",
+      "planning_lead",
+      "execution_member",
+      "execution_lead",
+      "redteam",
+      "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
+    "candidates_discovered": 4,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 0,
+    "opportunities_rejected": 4,
     "assets_created": [],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "ledger_dashboard_manager",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "summary": "MF-1 블로그 공개 완료 처리 및 재작업 대상 제외."
+        "agent": "research_lead",
+        "opportunity_id": null,
+        "decision": "NO-GO",
+        "reason_code": "OPPORTUNITY_COST",
+        "summary": "Algora/Kyo #390 gRPC Support"
+      },
+      {
+        "agent": "research_lead",
+        "opportunity_id": null,
+        "decision": "NO-GO",
+        "reason_code": "OPPORTUNITY_COST",
+        "summary": "Listverse paid writing submission"
+      },
+      {
+        "agent": "research_lead",
+        "opportunity_id": null,
+        "decision": "NO-GO",
+        "reason_code": "HIGH_USER_INPUT",
+        "summary": "K-Startup 모집중 창업지원/공모 후보"
+      },
+      {
+        "agent": "research_lead",
+        "opportunity_id": null,
+        "decision": "NO-GO",
+        "reason_code": "NO_EVIDENCE",
+        "summary": "Korean Excel/admin template searches: 직원 근태·급여, 학원 상담일지, 요양보호 상담일지"
       }
     ],
-    "summary": "MF-1을 완료 상태로 정리.",
-    "final_report": "MF-1 completed as free blog publication"
+    "summary": "Existing tracking opportunities unchanged. Scout reviewed 4 candidates across GitHub bounty, paid writing, contest, and Korean templates; all rejected before production.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 2,
-    "active": 0,
+    "active": 2,
     "approval_needed": 0,
     "launched": 2,
     "closed_won": 0,
     "closed_lost": 0,
-    "rejected": 1
+    "rejected": 0
   },
-  "active_opportunities": [],
+  "active_opportunities": [
+    {
+      "id": "opp_20260514_001_beauty_noshow_kit",
+      "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
+      "status": "launched",
+      "next_action": "MF-1은 Tistory 무료 블로그 공개 완료. 추가 제작/재발행 없음. 새 Money Flow 실행은 신규 후보 탐색 우선.",
+      "quality": 86
+    },
+    {
+      "id": "opp_20260514_002_smartstore_review_kit",
+      "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
+      "status": "launched",
+      "next_action": "티스토리 공개 게시 완료. 조회/검색 반응을 추적해 업종별 리뷰 답변 글 또는 유료 키트 전환 여부 판단.",
+      "quality": 68
+    }
+  ],
   "approval_needed": [],
-  "priority_queue": [],
+  "priority_queue": [
+    {
+      "id": "opp_20260514_001_beauty_noshow_kit",
+      "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
+      "priority": "medium",
+      "why": "검증 추적"
+    },
+    {
+      "id": "opp_20260514_002_smartstore_review_kit",
+      "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
+      "priority": "medium",
+      "why": "검증 추적"
+    }
+  ],
   "rejection_summary": {
     "WEAK_DIFFERENTIATION": 1
   },
@@ -45,192 +103,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "기존 크몽 업로드 경로, 19,000원 가격, 무료 블로그 검증 자산 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "구성은 뷰티샵 노쇼·예약금 운영 문제에 좁게 맞춰져 품질 86 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "HOLD",
-      "reason_code": "NO_APPROVAL",
-      "summary": "L3 외부 업로드 승인 전 추가 게시/제출 중단. 로컬 산출물 보존.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "필수 산출물 확인. 누락 0개, ZIP 무결성=True, SHA256=b463e297ad4a9838adde27d5f3219bab4d5cab64618f32d55f4088baba58903c.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "신규 블로커 없음. 법률 자문/매출 보장 표현 없이 승인 대기 상태 유지. 실패 모드: 유사 무료 문구 대체, 크몽 노출 부족, 예약금 문구 오남용. 현재 보완/고지 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "19,000원 x 기준 3건, 플랫폼 수수료 20% 가정 순매출 45,600원·순마진 80% 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T12:35:12+09:00",
-      "run_id": "manual_tistory_publish_20260515_1235",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260514_002_smartstore_review_kit",
-      "event": "launched",
-      "from_status": "planning_rejected",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "스마트스토어 리뷰 답변 무료 검증 글을 티스토리에 공개 게시했고 공개 URL을 검증함.",
-      "links": [
-        "https://beemo.tistory.com/2"
-      ]
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "기존 승인 대기 품목 MF-1 우선 재검토. 검증 보류/승인 상태 우선 원칙에 따라 신규 후보 생성 생략.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "유료 비교근거 재확인: HTTP 200, 19,000/노쇼/예약금/1인샵/운영문구 키워드 확인=True. 기존 근거와 승인 대기 상태 유지.",
-      "links": [
-        "https://kmong.com/gig/740539"
-      ]
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "기존 크몽 업로드 경로, 19,000원 가격, 무료 블로그 검증 자산 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "구성은 뷰티샵 노쇼·예약금 운영 문제에 좁게 맞춰져 품질 86 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "HOLD",
-      "reason_code": "NO_APPROVAL",
-      "summary": "L3 외부 업로드 승인 전 추가 게시/제출 중단. 로컬 산출물 보존.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "필수 산출물 확인. 누락 0개, ZIP 무결성=True, SHA256=b463e297ad4a9838adde27d5f3219bab4d5cab64618f32d55f4088baba58903c.",
-      "links": []
-    },
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "신규 블로커 없음. 법률 자문/매출 보장 표현 없이 승인 대기 상태 유지. 실패 모드: 유사 무료 문구 대체, 크몽 노출 부족, 예약금 문구 오남용. 현재 보완/고지 유지.",
-      "links": []
-    },
     {
       "time": "2026-05-15T11:44:45+09:00",
       "run_id": "2026-05-15_1144_money-flow",
@@ -452,6 +324,67 @@
       "links": [
         "https://beemo.tistory.com/3"
       ]
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: Algora/Kyo #390 gRPC Support — $500 headline is real, but gRPC/codegen work is broad, old, heavily discussed, and likely multi-day specialist work.",
+      "links": [
+        "https://algora.io/bounties",
+        "https://github.com/getkyo/kyo/issues/390"
+      ]
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "Scout rejected: Listverse paid writing submission — Clear payer, but speculative editorial acceptance and PayPal/account dependency make expected hourly value weak.",
+      "links": [
+        "https://listverse.com/write-get-paid/"
+      ]
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Scout rejected: K-Startup 모집중 창업지원/공모 후보 — Requires personal/business documents, application work, and long cash distance; not suitable for hourly low-involvement pipeline.",
+      "links": [
+        "https://www.k-startup.go.kr/web/contents/bizpbanc-ongoing.do"
+      ]
+    },
+    {
+      "time": "2026-05-15T14:47:29+09:00",
+      "run_id": "2026-05-15_1447_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "Scout rejected: Korean Excel/admin template searches: 직원 근태·급여, 학원 상담일지, 요양보호 상담일지 — Buyer pain plausible but no A-grade paid comparable captured this run; avoid generic template production.",
+      "links": [
+        "https://kmong.com/search?keyword=%EC%A7%81%EC%9B%90%20%EA%B7%BC%ED%83%9C%20%EA%B8%89%EC%97%AC%20%EC%97%91%EC%85%80%20%ED%85%9C%ED%94%8C%EB%A6%BF"
+      ]
     }
   ],
   "board_columns": [
@@ -469,23 +402,22 @@
       "key": "MF-1",
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
-      "type": "digital_product",
       "status": "launched",
       "column": "운영/수익",
-      "priority": "LOW",
-      "stop_reason_code": null,
-      "risk_flags": [
-        "외부 업로드는 승인 필요",
-        "예약금/환불 문구는 법률 자문 아님 고지 포함 완료"
-      ],
+      "type_label": "디지털 상품",
+      "priority_label": "보통",
       "quality": 86,
       "base_net": 45600,
       "margin_pct": 80,
       "expected_price": 19000,
       "buyer_or_payer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
       "channel": "Tistory 무료 블로그 검증",
-      "current_owner": "roi",
+      "owner": "roi",
       "next_action": "MF-1은 Tistory 무료 블로그 공개 완료. 추가 제작/재발행 없음. 새 Money Flow 실행은 신규 후보 탐색 우선.",
+      "risk_flags": [
+        "외부 업로드는 승인 필요",
+        "예약금/환불 문구는 법률 자문 아님 고지 포함 완료"
+      ],
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/products/beauty-noshow-reservation-kit-kr/09_market_validation.md",
@@ -584,107 +516,46 @@
           "summary": "사용자 확인: MF-1은 블로그 공개로 완료 처리. 향후 반복 실행에서 재작업 대상 제외."
         }
       ],
-      "asset_count": 15,
-      "asset_links": [
-        {
-          "label": "08_usage_guide.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/08_usage_guide.md"
-        },
-        {
-          "label": "06_sales_page.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/06_sales_page.md"
-        },
-        {
-          "label": "01_kakao_sms_templates_90.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/01_kakao_sms_templates_90.md"
-        },
-        {
-          "label": "03_no_show_response_playbook.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/03_no_show_response_playbook.md"
-        },
-        {
-          "label": "product_manifest.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/product_manifest.json",
-          "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/product_manifest.json"
-        },
-        {
-          "label": "README.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/README.md"
-        },
-        {
-          "label": "09_market_validation.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/09_market_validation.md"
-        },
-        {
-          "label": "07_upload_copy.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/07_upload_copy.md"
-        },
-        {
-          "label": "02_reservation_policy_builder.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/02_reservation_policy_builder.md"
-        },
-        {
-          "label": "05_empty_slot_resale_calendar.csv",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
-          "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/05_empty_slot_resale_calendar.csv"
-        },
-        {
-          "label": "04_daily_reservation_ops_tracker.csv",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
-          "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/04_daily_reservation_ops_tracker.csv"
-        },
-        {
-          "label": "beauty-noshow-reservation-kit-kr.zip",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
-          "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/beauty-noshow-reservation-kit-kr.zip"
-        },
-        {
-          "label": "blog_01_nailshop_noshow_reservation_deposit.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md"
-        },
-        {
-          "label": "https://beemo.tistory.com/3",
-          "path": "https://beemo.tistory.com/3",
-          "url": "https://beemo.tistory.com/3"
-        },
-        {
-          "label": "blog_post_tistory.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html",
-          "viewer": "artifacts/opp_20260514_001_beauty_noshow_kit/blog_post_tistory.html"
-        }
-      ]
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/product_manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
+        "https://beemo.tistory.com/3",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html"
+      ],
+      "stop_reason_label": null
     },
     {
       "key": "MF-2",
       "id": "opp_20260514_002_smartstore_review_kit",
       "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
-      "type": "digital_product",
       "status": "launched",
       "column": "운영/수익",
-      "priority": "LOW",
-      "stop_reason_code": "WEAK_DIFFERENTIATION",
-      "risk_flags": [
-        "범용 템플릿",
-        "무료 AI 대체재 강함",
-        "유료 경쟁 근거 부족"
-      ],
+      "type_label": "디지털 상품",
+      "priority_label": "보통",
       "quality": 68,
       "base_net": 7920,
       "margin_pct": 80,
       "expected_price": 9900,
       "buyer_or_payer": "스마트스토어 초보 셀러",
       "channel": "Tistory 무료 블로그 검증",
-      "current_owner": "roi",
+      "owner": "roi",
       "next_action": "티스토리 공개 게시 완료. 조회/검색 반응을 추적해 업종별 리뷰 답변 글 또는 유료 키트 전환 여부 판단.",
+      "risk_flags": [
+        "범용 템플릿",
+        "무료 AI 대체재 강함",
+        "유료 경쟁 근거 부족"
+      ],
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/reports/smartstore_review_repurchase_kit_20260514_0900.md",
@@ -715,39 +586,15 @@
           "summary": "티스토리 공개 게시와 공개 URL 검증 완료."
         }
       ],
-      "asset_count": 6,
-      "asset_links": [
-        {
-          "label": "smartstore-review-repurchase-kit-kr",
-          "path": "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
-          "viewer": "artifacts/opp_20260514_002_smartstore_review_kit/smartstore-review-repurchase-kit-kr"
-        },
-        {
-          "label": "blog_draft_smartstore_review_reply_20260515.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/blog_draft_smartstore_review_reply_20260515.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260514_002_smartstore_review_kit/blog_draft_smartstore_review_reply_20260515.md"
-        },
-        {
-          "label": "01-thumbnail-review-replies.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/01-thumbnail-review-replies.png",
-          "viewer": "artifacts/opp_20260514_002_smartstore_review_kit/01-thumbnail-review-replies.png"
-        },
-        {
-          "label": "02-review-reply-example.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/02-review-reply-example.png",
-          "viewer": "artifacts/opp_20260514_002_smartstore_review_kit/02-review-reply-example.png"
-        },
-        {
-          "label": "03-review-checklist-card.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/03-review-checklist-card.png",
-          "viewer": "artifacts/opp_20260514_002_smartstore_review_kit/03-review-checklist-card.png"
-        },
-        {
-          "label": "https://beemo.tistory.com/2",
-          "path": "https://beemo.tistory.com/2",
-          "url": "https://beemo.tistory.com/2"
-        }
-      ]
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/blog_draft_smartstore_review_reply_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/01-thumbnail-review-replies.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/02-review-reply-example.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/03-review-checklist-card.png",
+        "https://beemo.tistory.com/2"
+      ],
+      "stop_reason_label": "차별성 약함"
     }
   ]
 }
