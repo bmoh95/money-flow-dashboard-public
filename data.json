@@ -1,100 +1,41 @@
 {
-  "updated_at": "2026-05-15T14:33:27+09:00",
+  "updated_at": "2026-05-15T14:48:59+09:00",
   "last_run": {
-    "run_id": "2026-05-15_1433_money-flow",
-    "started_at": "2026-05-15T14:33:27+09:00",
-    "finished_at": "2026-05-15T14:33:27+09:00",
+    "run_id": "2026-05-15_1448_money-flow",
+    "started_at": "2026-05-15T14:48:59+09:00",
+    "finished_at": "2026-05-15T14:48:59+09:00",
     "trigger": "manual",
     "agents_executed": [
-      "research_member",
-      "planning_lead",
-      "execution_member",
-      "execution_lead",
-      "redteam",
-      "roi",
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [
-      "https://beemo.tistory.com/3"
-    ],
+    "assets_created": [],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "research_member",
+        "agent": "ledger_dashboard_manager",
         "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
         "decision": "GO",
-        "summary": "MF-1 기존 노쇼/예약금 콘텐츠를 무료 블로그 검증 대상으로 전환."
-      },
-      {
-        "agent": "planning_lead",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "summary": "하드 판매 대신 예약금 안내문 무료 정보글로 공개하는 방향이 채널/품질에 적합."
-      },
-      {
-        "agent": "execution_member",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "summary": "Tistory용 HTML 및 SVG 이미지 4개 생성/공개 Pages 배포."
-      },
-      {
-        "agent": "execution_lead",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "summary": "Tistory 공개 발행 완료 및 공개 URL 확인."
-      },
-      {
-        "agent": "redteam",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "GO",
-        "summary": "법률 자문 아님 고지 포함. 무료 정보글이라 판매 과장 리스크 낮음."
-      },
-      {
-        "agent": "roi",
-        "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-        "decision": "HOLD",
-        "summary": "실제 유입/반응 데이터 확보 전 유료 전환은 보류."
+        "summary": "MF-1 블로그 공개 완료 처리 및 재작업 대상 제외."
       }
     ],
-    "summary": "MF-1 콘텐츠를 Tistory 무료 블로그로 공개하고 검증 추적 상태로 전환.",
-    "final_report": "MF-1 Tistory free blog launched"
+    "summary": "MF-1을 완료 상태로 정리.",
+    "final_report": "MF-1 completed as free blog publication"
   },
   "metrics": {
     "total": 2,
-    "active": 1,
+    "active": 0,
     "approval_needed": 0,
     "launched": 2,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 1
   },
-  "active_opportunities": [
-    {
-      "id": "opp_20260514_001_beauty_noshow_kit",
-      "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
-      "status": "tracking",
-      "next_action": "티스토리 무료 공개글 조회/검색 반응을 추적해 유료 키트 전환 여부 판단.",
-      "quality": 86
-    }
-  ],
+  "active_opportunities": [],
   "approval_needed": [],
-  "priority_queue": [
-    {
-      "id": "opp_20260514_001_beauty_noshow_kit",
-      "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
-      "priority": "medium",
-      "why": "검증 추적"
-    },
-    {
-      "id": "opp_20260514_002_smartstore_review_kit",
-      "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
-      "priority": "medium",
-      "why": "검증 추적"
-    }
-  ],
+  "priority_queue": [],
   "rejection_summary": {
     "WEAK_DIFFERENTIATION": 1
   },
@@ -104,21 +45,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-15T11:44:45+09:00",
-      "run_id": "2026-05-15_1144_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
-      "event": "decision",
-      "from_status": "ready_for_approval",
-      "to_status": "ready_for_approval",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "유료 비교근거 재확인: HTTP 200, 19,000/노쇼/예약금/1인샵/운영문구 키워드 확인=True. 기존 근거와 승인 대기 상태 유지.",
-      "links": [
-        "https://kmong.com/gig/740539"
-      ]
-    },
     {
       "time": "2026-05-15T11:44:45+09:00",
       "run_id": "2026-05-15_1144_money-flow",
@@ -511,6 +437,21 @@
       "reason_code": "NO_EVIDENCE",
       "summary": "실제 유입/반응 데이터 확보 전 유료 전환은 보류.",
       "links": []
+    },
+    {
+      "time": "2026-05-15T14:48:59+09:00",
+      "run_id": "2026-05-15_1448_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260514_001_beauty_noshow_kit",
+      "event": "status_changed",
+      "from_status": "tracking",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "MF-1은 블로그 공개로 완료 처리. 반복 실행에서 재작업하지 않고 신규 후보 탐색으로 넘어감.",
+      "links": [
+        "https://beemo.tistory.com/3"
+      ]
     }
   ],
   "board_columns": [
@@ -529,9 +470,9 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "type": "digital_product",
-      "status": "tracking",
+      "status": "launched",
       "column": "운영/수익",
-      "priority": "MED",
+      "priority": "LOW",
       "stop_reason_code": null,
       "risk_flags": [
         "외부 업로드는 승인 필요",
@@ -544,7 +485,7 @@
       "buyer_or_payer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
       "channel": "Tistory 무료 블로그 검증",
       "current_owner": "roi",
-      "next_action": "티스토리 무료 공개글 조회/검색 반응을 추적해 유료 키트 전환 여부 판단.",
+      "next_action": "MF-1은 Tistory 무료 블로그 공개 완료. 추가 제작/재발행 없음. 새 Money Flow 실행은 신규 후보 탐색 우선.",
       "evidence": [
         {
           "url": "local:/Users/beemo/.hermes/money_ops/products/beauty-noshow-reservation-kit-kr/09_market_validation.md",
@@ -636,6 +577,11 @@
           "agent": "roi",
           "decision": "HOLD",
           "summary": "실제 반응 데이터 확보 전 유료 판매 전환은 보류하고 무료 검증 추적."
+        },
+        {
+          "agent": "ledger_dashboard_manager",
+          "decision": "GO",
+          "summary": "사용자 확인: MF-1은 블로그 공개로 완료 처리. 향후 반복 실행에서 재작업 대상 제외."
         }
       ],
       "asset_count": 15,
@@ -724,7 +670,7 @@
       "type": "digital_product",
       "status": "launched",
       "column": "운영/수익",
-      "priority": "MED",
+      "priority": "LOW",
       "stop_reason_code": "WEAK_DIFFERENTIATION",
       "risk_flags": [
         "범용 템플릿",
