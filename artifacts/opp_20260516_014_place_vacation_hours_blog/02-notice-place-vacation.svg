@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#f0f9ff"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#fff" stroke="#fed7aa" stroke-width="4"/>
+  <rect x="86" y="92" width="160" height="48" rx="24" fill="#0284c7" opacity="0.92"/>
+  <text x="166" y="126" text-anchor="middle" font-size="24" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#fff" font-weight="700">무료 체크</text>
+  <text x="92" y="220" font-size="54" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#111" font-weight="800">휴무 공지문
+짧게 쓰는 예시</text>
+  <text x="94" y="270" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#666">날짜만 말고 손님이 궁금한 한 줄까지</text>
+  <g font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif"><text x="94" y="310" font-size="30" fill="#333">✓ 8/3~8/6 매장 휴무</text><text x="94" y="368" font-size="30" fill="#333">✓ 8/7 오전 11시 정상 영업</text><text x="94" y="426" font-size="30" fill="#333">✓ 휴무 중 문의는 재개 후 순차 답변</text></g>
+  <text x="94" y="704" font-size="24" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#777">※ 화면 위치보다 공지 내용 정리에 초점을 둔 예시입니다.</text>
+</svg>
