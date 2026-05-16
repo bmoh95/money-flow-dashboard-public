@@ -1,43 +1,46 @@
 {
-  "updated_at": "2026-05-16T14:54:36+09:00",
+  "updated_at": "2026-05-16T15:03:22+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1450_money-flow",
-    "started_at": "2026-05-16T14:50:20+09:00",
-    "finished_at": "2026-05-16T14:54:36+09:00",
-    "trigger": "cron",
+    "run_id": "2026-05-16_1503_money-flow",
+    "started_at": "2026-05-16T15:03:21+09:00",
+    "finished_at": "2026-05-16T15:03:21+09:00",
+    "trigger": "manual",
     "agents_executed": [
-      "execution_member",
-      "execution_lead",
+      "research_member",
+      "research_lead",
+      "planning_member",
+      "planning_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
+    "candidates_discovered": 3,
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516_revised.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_preview.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/01-thumbnail-place-vacation.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/02-notice-place-vacation.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/03-checklist-place-vacation.svg"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+        "agent": "research_lead",
+        "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
         "decision": "GO",
-        "to_status": "tracking",
-        "summary": "보류 글 이미지/리스크/렌더링 QA 후 Tistory 게시 완료"
+        "summary": "중고 맥북 체크리스트 무료 블로그 기획 GO"
+      },
+      {
+        "agent": "roi",
+        "opportunity_id": "multiple",
+        "decision": "PIVOT",
+        "summary": "유료화/ZIP 전환 중지 반영"
       }
     ],
-    "summary": "가장 오래된 redteam_hold 항목 1개를 처리해 무료 검증 글로 게시하고 tracking 전환.",
-    "final_report": "published"
+    "summary": "콘텐츠 판매 중지 상태로 Money Flow 수동 실행. 기존 유료화 문구 제거, 신규 무료 블로그 후보 1개 기획.",
+    "final_report": "주인님, Money Flow 수동 실행 완료. 판매 전환 없이 무료 블로그 기획 1개 생성."
   },
   "metrics": {
-    "total": 19,
-    "active": 5,
+    "total": 20,
+    "active": 6,
     "approval_needed": 0,
     "launched": 12,
     "closed_won": 0,
@@ -56,8 +59,15 @@
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
       "quality": 86
+    },
+    {
+      "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
+      "status": "기획",
+      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "quality": 82
     },
     {
       "id": "opp_20260516_017_clinic_vacation_notice_blog",
@@ -87,7 +97,7 @@
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
       "quality": 86
     },
     {
@@ -117,6 +127,13 @@
       "status": "검증 보류",
       "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 환불/예약금 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
       "quality": 85
+    },
+    {
+      "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
+      "status": "기획",
+      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "quality": 82
     }
   ],
   "rejection_summary": {
@@ -130,81 +147,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T12:39:19+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "launched",
-      "from_status": "tracking",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록.",
-      "links": [
-        "https://beemo.tistory.com/5"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:39:19+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환.",
-      "links": [
-        "https://beemo.tistory.com/5"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:55:20+09:00",
-      "run_id": "2026-05-16_1250_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "학원 여름방학 특강 안내문 무료 검증 글 Tistory 공개 및 URL/이미지 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/7"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:55:20+09:00",
-      "run_id": "2026-05-16_1250_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "교육 성과 보장·환불 단정 표현 완화 확인. 더 이상 게시 차단 리스크 없음.",
-      "links": [
-        "https://beemo.tistory.com/7"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:55:20+09:00",
-      "run_id": "2026-05-16_1250_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260515_007_academy_summer_class_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검증 게시 완료. 실제 매출 0원, 기준 순마진 80% 가정은 후속 ZIP 전환 시에만 적용.",
-      "links": [
-        "https://beemo.tistory.com/7"
-      ]
-    },
     {
       "time": "2026-05-16T13:13:41+09:00",
       "run_id": "2026-05-16_1308_money-flow",
@@ -585,6 +527,79 @@
       "reason_code": null,
       "summary": "직접 매출 0원, 무료 검증 반응 추적 단계. 후속 ZIP 기준 순마진 80% 가정 유지",
       "links": []
+    },
+    {
+      "time": "2026-05-16T15:03:15+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "지원 이미지 SVG 3장, 예약금/펫케어 리스크 완화 Markdown, Tistory HTML/preview 생성",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_preview.html"
+      ]
+    },
+    {
+      "time": "2026-05-16T15:03:15+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "이미지 3개, 예약금·펫케어 단정 완화, HTML 렌더링 구조 QA 통과. 게시 세션 확인 단계로 진행",
+      "links": [
+        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_015_pet_grooming_rain_blog/pet_grooming_rain_tistory_preview.html"
+      ]
+    },
+    {
+      "time": "2026-05-16T15:03:21+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "multiple",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "PIVOT",
+      "reason_code": null,
+      "summary": "기존 9개 기회에서 ZIP/상품화 전환 문구 제거. 무료 블로그/자료 보강 추적으로 변경.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T15:03:21+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "discovered",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "3개 카테고리 비교 후 중고 맥북 체크리스트 무료 블로그 주제를 선택. 안내문 반복 대신 소비자 구매 체크리스트로 다양성 개선.",
+      "links": [
+        "https://support.apple.com/en-us/102888",
+        "https://support.apple.com/en-us/102589"
+      ]
+    },
+    {
+      "time": "2026-05-16T15:03:21+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "판매/크몽 전환 없음. 본문 작성 전 공식 팩트와 중고거래 표현 검수 필요.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -615,7 +630,7 @@
       "buyer_or_payer": "스마트스토어 초보 셀러",
       "channel": "Tistory 무료 블로그 검증",
       "owner": "수익성 검토",
-      "next_action": "티스토리 공개 게시 완료. 조회/검색 반응을 추적해 업종별 리뷰 답변 글 또는 유료 키트 전환 여부 판단.",
+      "next_action": "티스토리 공개 게시 완료. 조회/검색 반응을 추적해 업종별 리뷰 답변 글 또는 무료 키트 전환 여부 판단.",
       "risk_flags": [
         "범용 템플릿",
         "무료 AI 대체재 강함",
@@ -649,6 +664,12 @@
           "agent": "execution_lead",
           "decision": "GO",
           "summary": "티스토리 공개 게시와 공개 URL 검증 완료."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -1406,7 +1427,7 @@
       "buyer_or_payer": "소형 보습학원·영어/수학학원 원장·실장·행정 담당자",
       "channel": "Tistory 무료 검증 글 → 반응 확인 후 학원 문자 템플릿 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 학원 상담·마감·보강 안내 문구 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 학원 상담·마감·보강 안내 문구 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "avoid_education_outcome_guarantees",
         "crowded_free_templates",
@@ -1557,6 +1578,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 매출 0원, 검색/조회 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -1627,7 +1654,7 @@
       "buyer_or_payer": "스마트스토어·쿠팡·배달앱 입점 소상공인, 간이/일반 과세 자영업자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 매출/수수료/입금 대조 엑셀 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 쇼핑몰·배달 매출자료 정리표 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 쇼핑몰·배달 매출자료 정리표 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "paid_conversion_unproven",
         "platform_ui_changes",
@@ -1779,6 +1806,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -1849,7 +1882,7 @@
       "buyer_or_payer": "펜션·게스트하우스·독채 숙소 등 소규모 숙박업 운영자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 숙박업 예약/취소/환불 문구 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "consumer_law_wording_softened",
         "paid_conversion_unproven",
@@ -2002,6 +2035,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -2072,7 +2111,7 @@
       "buyer_or_payer": "소형 헬스장·필라테스·요가센터 원장/매니저/데스크 담당자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 피트니스 운영 문자 템플릿 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "center_policy_variance",
         "center_policy_variance_noted",
@@ -2203,6 +2242,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -2273,7 +2318,7 @@
       "buyer_or_payer": "무인 스터디카페·독서실·학원카페 소형 점주/매니저",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 스터디카페 운영 공지·문자 템플릿 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 스터디카페 운영 공지·문자 템플릿 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 스터디카페 운영 공지·문자 템플릿 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "crowded_free_notice_templates",
         "paid_conversion_unproven",
@@ -2396,6 +2441,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 후속 ZIP 전환 시 기준 순마진 80% 가정 유지."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -2472,7 +2523,7 @@
       "buyer_or_payer": "동네 세탁소·무인/셀프빨래방·수거배달 세탁 서비스 소형 점주",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 세탁소 접수·클레임·수거배달 안내문 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 세탁소·빨래방 접수/클레임/수거배달 안내문 ZIP 전환 여부 판단.",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 세탁소·빨래방 접수/클레임/수거배달 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "crowded_free_notice_templates",
         "store_policy_variance",
@@ -2597,6 +2648,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 후속 ZIP 전환 시 기준 순마진 80% 가정 유지."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -2673,7 +2730,7 @@
       "buyer_or_payer": "1~3인 에어컨 청소업체·홈케어/입주청소 겸업 소상공인",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 에어컨 청소업체 예약·방문·후기 문자 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업체별 문구 요청 신호가 있으면 후속 ZIP 상품화를 재검토.",
+      "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업체별 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "paid_conversion_unproven",
         "monitor_search_response"
@@ -2797,6 +2854,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 글 공개 완료. 현재 매출 0원, 기준 순마진 가정은 후속 ZIP 전환 시 유지."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -2873,7 +2936,7 @@
       "buyer_or_payer": "네이버플레이스 의존도가 높은 카페·미용실·네일샵·공방·식당 등 1인/소규모 매장 사장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 업종별 휴무·임시휴무·재오픈 공지문 ZIP",
       "owner": "수익성 검토",
-      "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업종별 휴무 공지 문구 요청 신호가 있으면 후속 ZIP 상품화를 재검토.",
+      "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업종별 휴무 공지 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
         "paid_conversion_unproven",
         "monitor_search_response",
@@ -2992,6 +3055,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 글 공개 완료. 현재 매출 0원, 기준 순마진 가정은 후속 ZIP 전환 시 유지."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "roi",
+          "decision": "PIVOT",
+          "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
       "assets": [
@@ -3067,8 +3136,8 @@
       "expected_price": 12900,
       "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 펫살롱 상황별 예약/우천/노쇼 안내문 ZIP",
-      "owner": "리스크 검토",
-      "next_action": "썸네일·카톡 예시·체크리스트 이미지 3장 생성 후 예약금/펫케어 단정 표현을 재검수하고 Tistory 렌더링 QA를 통과하면 무료 검증 글로 게시.",
+      "owner": "제작 검수",
+      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
       "risk_flags": [
         "reservation_fee_policy_risk",
         "pet_health_advice_overreach",
@@ -3179,6 +3248,42 @@
           "title": "draft_pet_grooming_rainy_booking_20260516.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516.md"
+        },
+        {
+          "name": "draft_pet_grooming_rainy_booking_20260516_revised.md",
+          "title": "draft_pet_grooming_rainy_booking_20260516_revised.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516_revised.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516_revised.md"
+        },
+        {
+          "name": "pet_grooming_rain_tistory_body.html",
+          "title": "pet_grooming_rain_tistory_body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/pet_grooming_rain_tistory_body.html"
+        },
+        {
+          "name": "pet_grooming_rain_tistory_preview.html",
+          "title": "pet_grooming_rain_tistory_preview.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_preview.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_015_pet_grooming_rain_blog/pet_grooming_rain_tistory_preview.html"
+        },
+        {
+          "name": "01-thumbnail-pet-rain.svg",
+          "title": "01-thumbnail-pet-rain.svg",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.svg",
+          "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/01-thumbnail-pet-rain.svg"
+        },
+        {
+          "name": "02-kakao-pet-rain.svg",
+          "title": "02-kakao-pet-rain.svg",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.svg",
+          "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/02-kakao-pet-rain.svg"
+        },
+        {
+          "name": "03-checklist-pet-rain.svg",
+          "title": "03-checklist-pet-rain.svg",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.svg",
+          "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/03-checklist-pet-rain.svg"
         }
       ]
     },
@@ -3673,6 +3778,78 @@
           "title": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_019_oneday_class_booking_blog/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-20",
+      "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
+      "status": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "보통",
+      "stop_reason": null,
+      "quality": 82,
+      "expected_base_net": 0,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "중고 맥북 구매 전 실수 줄이고 싶은 개인 독자",
+      "channel": "Tistory 무료 블로그",
+      "owner": "기획",
+      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "risk_flags": [
+        "콘텐츠 판매 중지 상태: 무료 블로그만 허용",
+        "Apple 공식 안내 기준 팩트 확인 필요",
+        "중고거래 법률/사기 단정 표현 주의"
+      ],
+      "evidence": [
+        {
+          "url": "https://support.apple.com/en-us/102888",
+          "grade": "A",
+          "summary": "Apple 공식 Mac 노트북 배터리 사이클 확인 안내.",
+          "checked_at": "2026-05-16T15:03:21+09:00"
+        },
+        {
+          "url": "https://support.apple.com/en-us/102589",
+          "grade": "A",
+          "summary": "Apple 공식 배터리 상태 관리 안내.",
+          "checked_at": "2026-05-16T15:03:21+09:00"
+        },
+        {
+          "url": "DuckDuckGo search: 맥북 중고 구매 체크리스트 배터리 사이클 보증 블로그",
+          "grade": "B",
+          "summary": "네이버/티스토리/브런치/커뮤니티에 중고 맥북 구매 체크리스트·배터리 사이클 관련 글 다수 확인.",
+          "checked_at": "2026-05-16T15:03:21+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "안내문 반복이 아닌 소비자 체크리스트 주제. 공식 Apple 근거와 검색 수요 확인."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "판매 전환 없이 무료 블로그 브리프로만 진행. 기존 주제보다 다양성 개선."
+        },
+        {
+          "time": "2026-05-16T15:03:21+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "summary": "아직 본문/이미지/공개 QA 전이므로 기획 단계 유지."
+        }
+      ],
+      "assets": [
+        {
+          "name": "blog_brief_used_macbook_checklist.md",
+          "title": "blog_brief_used_macbook_checklist.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/blog_brief_used_macbook_checklist.md"
         }
       ]
     }
