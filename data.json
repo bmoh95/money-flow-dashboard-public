@@ -3701,27 +3701,12 @@
           "type": "file"
         },
         {
-          "name": "publish_pet_retry_20260516_1746.py",
-          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/publish_pet_retry_20260516_1746.py",
-          "type": "file"
-        },
-        {
           "name": "14",
           "url": "https://beemo.tistory.com/14",
           "type": "file"
-        },
-        {
-          "name": "direct_publish_pet_tistory_20260516_1840.py",
-          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/direct_publish_pet_tistory_20260516_1840.py",
-          "type": "file"
-        },
-        {
-          "name": "update_pet_post14_thumbnail_20260516_1848.py",
-          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/update_pet_post14_thumbnail_20260516_1848.py",
-          "type": "file"
         }
       ],
-      "asset_count": 15,
+      "asset_count": 12,
       "updated_at": "2026-05-17T03:41:27+09:00"
     },
     {
@@ -3994,19 +3979,9 @@
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/16",
           "type": "public_post"
-        },
-        {
-          "name": "direct_publish_cafe_tistory_20260516_1906.py",
-          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/direct_publish_cafe_tistory_20260516_1906.py",
-          "type": "file"
-        },
-        {
-          "name": "update_cafe_post16_images_20260516_1909.py",
-          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/update_cafe_post16_images_20260516_1909.py",
-          "type": "file"
         }
       ],
-      "asset_count": 14,
+      "asset_count": 12,
       "updated_at": "2026-05-16T19:09:54+09:00"
     },
     {
@@ -4261,14 +4236,9 @@
           "name": "17",
           "url": "https://beemo.tistory.com/17",
           "type": "file"
-        },
-        {
-          "name": "direct_publish_clinic_tistory_20260516_1922.py",
-          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/direct_publish_clinic_tistory_20260516_1922.py",
-          "type": "file"
         }
       ],
-      "asset_count": 13,
+      "asset_count": 12,
       "updated_at": "2026-05-16T19:30:05+09:00"
     },
     {
@@ -4490,22 +4460,12 @@
           "type": "file"
         },
         {
-          "name": "process_childcare_20260516_1827.py",
-          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/process_childcare_20260516_1827.py",
-          "type": "file"
-        },
-        {
           "name": "https://beemo.tistory.com/18",
           "url": "https://beemo.tistory.com/18",
           "type": "link"
-        },
-        {
-          "name": "direct_publish_childcare_tistory_20260516_1941.py",
-          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/direct_publish_childcare_tistory_20260516_1941.py",
-          "type": "file"
         }
       ],
-      "asset_count": 14,
+      "asset_count": 12,
       "updated_at": "2026-05-16T19:44:13+09:00"
     },
     {
@@ -4712,17 +4672,12 @@
           "type": "file"
         },
         {
-          "name": "process_oneday_20260516_1849.py",
-          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/process_oneday_20260516_1849.py",
-          "type": "file"
-        },
-        {
           "name": "https://beemo.tistory.com/15",
           "url": "https://beemo.tistory.com/15",
           "type": "link"
         }
       ],
-      "asset_count": 17,
+      "asset_count": 16,
       "updated_at": "2026-05-16T18:54:10+09:00"
     },
     {
@@ -4935,14 +4890,9 @@
           "name": "19",
           "url": "https://beemo.tistory.com/19",
           "type": "file"
-        },
-        {
-          "name": "direct_publish_macbook_tistory_20260516_2246.py",
-          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/direct_publish_macbook_tistory_20260516_2246.py",
-          "type": "file"
         }
       ],
-      "asset_count": 10,
+      "asset_count": 9,
       "updated_at": "2026-05-17T00:04:24+09:00"
     }
   ]
