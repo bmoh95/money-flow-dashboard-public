@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T19:28:00+09:00",
+  "updated_at": "2026-05-16T19:30:05+09:00",
   "last_run": {
     "run_id": "2026-05-16_1922_money-flow",
     "started_at": "2026-05-16T19:22:05+09:00",
@@ -88,21 +88,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "이미지 3개, 의료 조언/진료 보장/개인정보 표현 완화, HTML 렌더링 구조 QA 통과. 게시 세션 확인 단계로 진행.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_preview.html"
-      ]
-    },
     {
       "time": "2026-05-16T18:10:07+09:00",
       "run_id": "2026-05-16_1806_money-flow",
@@ -547,6 +532,21 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "redteam_hold 해소 후 tracking 전환.",
+      "links": [
+        "https://beemo.tistory.com/17"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:30:05+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 Tistory 시각 QA 통과: 본문 이미지 3장과 문단/제목 간격 확인.",
       "links": [
         "https://beemo.tistory.com/17"
       ]
@@ -3672,6 +3672,7 @@
         "medical_wording_softened",
         "personal_data_placeholder_removed",
         "public_url_verified",
+        "public_visual_qa_passed",
         "tistory_published",
         "tracking_search_response",
         "uploaded_png_thumbnail_verified"
@@ -3830,6 +3831,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 공개 완료. 실제 매출은 0원이나 후속 전환 반응 추적 가치 있음."
+        },
+        {
+          "time": "2026-05-16T19:30:05+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "공개 Tistory 시각 QA 통과: 문단/제목 간격, 본문 이미지 3장, 대표 OG 이미지 확인."
         }
       ],
       "assets": [
