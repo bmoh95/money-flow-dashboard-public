@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#f7f8ff"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#5964b0" stroke-width="4"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="54" font-weight="700" fill="#16363a">수요조사 전 확인 6가지</text>
+  <text x="88" y="184" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#5a686b">원 운영 기준에 맞춰 수정</text>
+  <text x="86" y="218" font-size="28" fill="#243238">• 개인정보 최소화</text><text x="86" y="270" font-size="28" fill="#243238">• 통합보육 여부</text><text x="86" y="322" font-size="28" fill="#243238">• 차량·급식 기준</text>
+  <rect x="86" y="650" width="430" height="54" rx="27" fill="#5964b0" opacity="0.12"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#5964b0" font-weight="700">개인정보는 예시값으로만 표시</text>
+</svg>

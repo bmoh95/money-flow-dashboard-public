@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#fffaf0"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#b96d16" stroke-width="4"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="54" font-weight="700" fill="#16363a">키즈노트 안내 예시</text>
+  <text x="88" y="184" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#5a686b">짧게, 날짜와 회신 항목만</text>
+  <text x="86" y="218" font-size="28" fill="#243238">• 등원 희망일</text><text x="86" y="270" font-size="28" fill="#243238">• 등·하원 시간</text><text x="86" y="322" font-size="28" fill="#243238">• 급식·차량 여부</text>
+  <rect x="86" y="650" width="430" height="54" rx="27" fill="#b96d16" opacity="0.12"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#b96d16" font-weight="700">개인정보는 예시값으로만 표시</text>
+</svg>

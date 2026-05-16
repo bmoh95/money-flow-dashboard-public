@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#f5fbf8"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#2f7d5a" stroke-width="4"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="54" font-weight="700" fill="#16363a">여름방학 등원 수요조사</text>
+  <text x="88" y="184" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#5a686b">어린이집·유치원 안내문 체크</text>
+  <text x="86" y="218" font-size="28" fill="#243238">• 방학 기간</text><text x="86" y="270" font-size="28" fill="#243238">• 등원 가능일</text><text x="86" y="322" font-size="28" fill="#243238">• 회신 마감</text>
+  <rect x="86" y="650" width="430" height="54" rx="27" fill="#2f7d5a" opacity="0.12"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#2f7d5a" font-weight="700">개인정보는 예시값으로만 표시</text>
+</svg>
