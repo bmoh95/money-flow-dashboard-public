@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="좌석 예약·만석 안내 문자 예시 카드">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .accent{fill:#334155} .soft{fill:#eef6ff} .yellow{fill:#fff7d6}</style>
+  
+  <text x="90" y="90" font-size="42" font-weight="800">문자/카톡 예시는 짧게, 기준은 따로</text>
+  <rect x="115" y="145" width="970" height="455" rx="34" class="box"/>
+  <rect x="165" y="205" width="690" height="82" rx="28" fill="#e8f5e9"/>
+  <text x="200" y="257" font-size="30">시험기간 좌석 예약은 운영하지 않습니다.</text>
+  <rect x="165" y="315" width="800" height="82" rx="28" fill="#eef6ff"/>
+  <text x="200" y="367" font-size="30">만석 시 대기 여부는 현장/앱에서 확인해주세요.</text>
+  <rect x="165" y="425" width="760" height="82" rx="28" fill="#fff7ed"/>
+  <text x="200" y="477" font-size="30">소음 문의는 좌석번호와 상황을 남겨주세요.</text>
+  <text x="115" y="655" font-size="26" class="muted">※ 환불·정지는 이용권/사용내역 확인 후 매장 기준에 따라 안내</text>
+
+</svg>

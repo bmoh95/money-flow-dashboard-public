@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="시험기간 스터디카페 공지 체크리스트">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .accent{fill:#334155} .soft{fill:#eef6ff} .yellow{fill:#fff7d6}</style>
+  
+  <text x="90" y="88" font-size="44" font-weight="800">시험기간 공지 전 체크리스트</text>
+  <rect x="90" y="130" width="1020" height="475" rx="36" class="box"/>
+  <g font-size="31">
+    <text x="145" y="205">✓ 적용 기간과 운영시간 변경 여부</text>
+    <text x="145" y="270">✓ 좌석 예약 가능/불가와 만석 안내</text>
+    <text x="145" y="335">✓ 자리 맡아두기·장시간 이석 기준</text>
+    <text x="145" y="400">✓ 통화·대화 가능 공간과 소음 문의 방법</text>
+    <text x="145" y="465">✓ 환불·정지는 매장 기준 확인 절차로 분리</text>
+    <text x="145" y="530">✓ 앱·카톡·매장 게시문 내용 일치</text>
+  </g>
+  <rect x="90" y="630" width="850" height="44" rx="18" class="yellow"/>
+  <text x="120" y="661" font-size="24" class="muted">단정 대신 “확인 후 안내” 문구를 남기면 오해가 줄어듭니다</text>
+
+</svg>

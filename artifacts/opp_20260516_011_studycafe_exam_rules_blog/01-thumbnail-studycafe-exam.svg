@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="스터디카페 시험기간 공지 썸네일">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .accent{fill:#334155} .soft{fill:#eef6ff} .yellow{fill:#fff7d6}</style>
+  
+  <circle cx="1030" cy="110" r="92" fill="#e0f2fe"/><circle cx="150" cy="615" r="118" fill="#ede9fe"/>
+  <rect x="105" y="100" width="990" height="520" rx="44" class="box"/>
+  <text x="160" y="205" font-size="38" class="muted">시험기간 문의 줄이는 운영 공지</text>
+  <text x="160" y="320" font-size="72" font-weight="800">스터디카페</text>
+  <text x="160" y="410" font-size="64" font-weight="800">좌석·소음 안내문</text>
+  <rect x="160" y="472" width="620" height="76" rx="24" class="soft"/>
+  <text x="195" y="522" font-size="34">예약 · 만석 · 환불 문의 분리</text>
+  <rect x="850" y="425" width="138" height="138" rx="28" fill="#334155"/><text x="890" y="512" font-size="62" fill="white">✓</text>
+
+</svg>
