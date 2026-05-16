@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T18:10:07+09:00",
+  "updated_at": "2026-05-16T18:16:06+09:00",
   "last_run": {
     "run_id": "2026-05-16_1806_money-flow",
     "started_at": "2026-05-16T18:10:07+09:00",
-    "finished_at": "2026-05-16T18:10:07+09:00",
+    "finished_at": "2026-05-16T18:16:06+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -55,10 +55,31 @@
         "decision": "HOLD",
         "reason_code": "NO_EVIDENCE",
         "summary": "무료 검증 공개 전 실제 매출 0원. 후속 기준 순마진 80% 가정은 공개 후 반응 추적 시만 의미 있음."
+      },
+      {
+        "agent": "execution_lead",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+        "decision": "HOLD",
+        "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+        "summary": "Profile 2 로그인 확인 후 Tistory 게시를 시도했으나 글쓰기 target Runtime 응답 Timeout으로 게시 자동화 차단. AUTH_BLOCKED 아님."
+      },
+      {
+        "agent": "redteam",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+        "decision": "HOLD",
+        "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+        "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단."
+      },
+      {
+        "agent": "roi",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+        "decision": "HOLD",
+        "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+        "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 반응 추적 시만 적용."
       }
     ],
-    "summary": "Oldest actionable redteam_hold clinic vacation blog assets and rendering QA completed; publishing pending existing Tistory editor session.",
-    "final_report": "assets_created_hold"
+    "summary": "Clinic blog assets/QA completed; Profile 2 logged in, but Tistory editor automation blocked by Runtime timeout.",
+    "final_report": "editor_automation_blocked_after_assets"
   },
   "metrics": {
     "total": 20,
@@ -172,7 +193,7 @@
       "id": "opp_20260516_017_clinic_vacation_notice_blog",
       "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "이미지 3장(PNG+SVG)·의료 조언/진료 보장/개인정보 표현 완화·Tistory HTML 렌더링 QA 완료. 기존 Tistory 세션으로 게시 자동화 재시도 후 성공 시 tracking 전환.",
+      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
       "quality": 86
     },
     {
@@ -217,7 +238,7 @@
       "id": "opp_20260516_017_clinic_vacation_notice_blog",
       "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "이미지 3장(PNG+SVG)·의료 조언/진료 보장/개인정보 표현 완화·Tistory HTML 렌더링 QA 완료. 기존 Tistory 세션으로 게시 자동화 재시도 후 성공 시 tracking 전환.",
+      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
       "quality": 86
     },
     {
@@ -245,8 +266,8 @@
   "rejection_summary": {
     "차별성 약함": 1,
     "위험 높음": 2,
-    "에디터 자동화 막힘": 2,
-    "근거 부족": 3
+    "에디터 자동화 막힘": 3,
+    "근거 부족": 2
   },
   "roi": {
     "expected_base_net_total": 715560,
@@ -254,54 +275,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T12:33:48+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "무료 검증 게시 전 매출 0원, 후속 피트니스 운영 문자 ZIP 기준 순마진 80% 가정 유지.",
-      "links": [],
-      "agent_label": "수익성 검토",
-      "reason_label": "로그인/인증 필요"
-    },
-    {
-      "time": "2026-05-16T12:37:37+09:00",
-      "run_id": "2026-05-16_1237_money-flow-manual-publish",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 무료 검증 글 공개 및 검증 완료: https://beemo.tistory.com/5. duplicate cleanup pending: https://beemo.tistory.com/4",
-      "links": [
-        "https://beemo.tistory.com/5",
-        "https://beemo.tistory.com/4"
-      ],
-      "agent_label": "제작 검수"
-    },
-    {
-      "time": "2026-05-16T12:39:19+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "헬스장 무료 검증 글 Tistory 공개 및 URL 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/6"
-      ],
-      "agent_label": "제작 검수"
-    },
     {
       "time": "2026-05-16T12:39:19+09:00",
       "run_id": "2026-05-16_1226_money-flow",
@@ -1230,6 +1203,53 @@
       "links": [],
       "agent_label": "수익성 검토",
       "reason_label": "근거 부족"
+    },
+    {
+      "time": "2026-05-16T18:16:06+09:00",
+      "run_id": "2026-05-16_1806_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "summary": "Profile 2 로그인 확인 후 Tistory 게시를 시도했으나 글쓰기 target Runtime 응답 Timeout으로 게시 자동화 차단. AUTH_BLOCKED 아님.",
+      "links": [
+        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_017_clinic_vacation_notice_blog/clinic_vacation_notice_tistory_preview.html"
+      ],
+      "agent_label": "제작 검수",
+      "reason_label": "에디터 자동화 막힘"
+    },
+    {
+      "time": "2026-05-16T18:16:06+09:00",
+      "run_id": "2026-05-16_1806_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단.",
+      "links": [],
+      "agent_label": "리스크 검토",
+      "reason_label": "에디터 자동화 막힘"
+    },
+    {
+      "time": "2026-05-16T18:16:06+09:00",
+      "run_id": "2026-05-16_1806_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 반응 추적 시만 적용.",
+      "links": [],
+      "agent_label": "수익성 검토",
+      "reason_label": "에디터 자동화 막힘"
     }
   ],
   "board_columns": [
@@ -5338,8 +5358,8 @@
       "type_label": "콘텐츠",
       "priority": "MED",
       "priority_label": "보통",
-      "stop_reason_code": "NO_EVIDENCE",
-      "stop_reason": "근거 부족",
+      "stop_reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "stop_reason": "에디터 자동화 막힘",
       "quality": 86,
       "base_net": 61920,
       "expected_base_net": 61920,
@@ -5349,13 +5369,13 @@
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 진료과별 휴진/예약변경 안내문 ZIP",
       "current_owner": "execution_lead",
       "owner": "제작 검수",
-      "next_action": "이미지 3장(PNG+SVG)·의료 조언/진료 보장/개인정보 표현 완화·Tistory HTML 렌더링 QA 완료. 기존 Tistory 세션으로 게시 자동화 재시도 후 성공 시 tracking 전환.",
+      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
       "risk_flags": [
+        "EDITOR_AUTOMATION_BLOCKED",
         "free_template_competition",
         "medical_wording_softened",
         "personal_data_placeholder_removed",
-        "tistory_preview_ready",
-        "tistory_publish_pending_existing_session"
+        "tistory_preview_ready"
       ],
       "evidence": [
         {
@@ -5472,6 +5492,27 @@
           "decision": "HOLD",
           "reason_code": "NO_EVIDENCE",
           "summary": "무료 검증 공개 전 실제 매출 0원. 공개되면 검색 반응 추적 단계 전환 가능."
+        },
+        {
+          "time": "2026-05-16T18:16:06+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "Profile 2 로그인 확인 후 Tistory 게시를 시도했으나 글쓰기 target Runtime 응답 Timeout으로 에디터 자동화 차단."
+        },
+        {
+          "time": "2026-05-16T18:16:06+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단."
+        },
+        {
+          "time": "2026-05-16T18:16:06+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 반응 추적 시만 적용."
         }
       ],
       "assets": [
