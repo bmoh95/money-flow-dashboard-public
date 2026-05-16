@@ -991,7 +991,10 @@
       "tags": [
         "디지털 상품",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "네일샵/속눈썹샵/왁싱샵/1인 헤어샵 원장",
+      "current_owner": "roi",
+      "base_net": 45600
     },
     {
       "key": "MF-2",
@@ -1082,7 +1085,10 @@
       "tags": [
         "디지털 상품",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "스마트스토어 초보 셀러",
+      "current_owner": "roi",
+      "base_net": 7920
     },
     {
       "key": "MF-3",
@@ -1189,7 +1195,10 @@
       "tags": [
         "바운티",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "claude-builders-bounty 저장소 운영자 / Opire 바운티",
+      "current_owner": "roi",
+      "base_net": 35000
     },
     {
       "key": "MF-4",
@@ -1268,7 +1277,10 @@
       "tags": [
         "바운티",
         "종료/폐기"
-      ]
+      ],
+      "buyer_or_payer": "UnsafeLabs/Bounty-Hunters GitHub bounty issuer",
+      "current_owner": "research_lead",
+      "base_net": 0
     },
     {
       "key": "MF-5",
@@ -1362,7 +1374,10 @@
       "tags": [
         "바운티",
         "종료/폐기"
-      ]
+      ],
+      "buyer_or_payer": "BAWES-Universe/studenthub GitHub bounty issuer",
+      "current_owner": "research_lead",
+      "base_net": 0
     },
     {
       "key": "MF-6",
@@ -1573,7 +1588,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
+      "current_owner": "roi",
+      "base_net": 30400
     },
     {
       "key": "MF-7",
@@ -1791,7 +1809,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "소형 보습학원·영어/수학학원 원장·실장·행정 담당자",
+      "current_owner": "roi",
+      "base_net": 23760
     },
     {
       "key": "MF-8",
@@ -2010,7 +2031,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "스마트스토어·쿠팡·배달앱 입점 소상공인, 간이/일반 과세 자영업자",
+      "current_owner": "roi",
+      "base_net": 39600
     },
     {
       "key": "MF-9",
@@ -2230,7 +2254,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "펜션·게스트하우스·독채 숙소 등 소규모 숙박업 운영자",
+      "current_owner": "roi",
+      "base_net": 31680
     },
     {
       "key": "MF-10",
@@ -2427,7 +2454,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "소형 헬스장·필라테스·요가센터 원장/매니저/데스크 담당자",
+      "current_owner": "roi",
+      "base_net": 39600
     },
     {
       "key": "MF-11",
@@ -2621,7 +2651,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "무인 스터디카페·독서실·학원카페 소형 점주/매니저",
+      "current_owner": "roi",
+      "base_net": 39600
     },
     {
       "key": "MF-12",
@@ -2818,7 +2851,10 @@
       "tags": [
         "기타",
         "운영/수익"
-      ]
+      ],
+      "buyer_or_payer": "동네 세탁소·무인/셀프빨래방·수거배달 세탁 서비스 소형 점주",
+      "current_owner": "roi",
+      "base_net": 39600
     },
     {
       "key": "MF-13",
@@ -2958,7 +2994,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "1~3인 에어컨 청소업체·홈케어/입주청소 겸업 소상공인",
+      "current_owner": "redteam",
+      "base_net": 39600
     },
     {
       "key": "MF-14",
@@ -3092,7 +3131,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "네이버플레이스 의존도가 높은 카페·미용실·네일샵·공방·식당 등 1인/소규모 매장 사장님",
+      "current_owner": "redteam",
+      "base_net": 47520
     },
     {
       "key": "MF-15",
@@ -3226,7 +3268,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
+      "current_owner": "redteam",
+      "base_net": 51600
     },
     {
       "key": "MF-16",
@@ -3353,7 +3398,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "여름 시즌메뉴·빙수·디저트를 운영하는 개인 카페/디저트샵 사장님",
+      "current_owner": "redteam",
+      "base_net": 63360
     },
     {
       "key": "MF-17",
@@ -3486,7 +3534,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "여름휴가 휴진을 앞둔 동네 치과·의원 원장, 실장, 데스크 담당자",
+      "current_owner": "redteam",
+      "base_net": 61920
     },
     {
       "key": "MF-18",
@@ -3614,7 +3665,10 @@
       "tags": [
         "기타",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "여름방학 수요조사 안내문을 준비하는 어린이집·유치원 원장님, 교사, 행정 담당자",
+      "current_owner": "redteam",
+      "base_net": 63360
     },
     {
       "key": "MF-19",
@@ -3728,7 +3782,10 @@
       "tags": [
         "디지털 상품",
         "검증 보류"
-      ]
+      ],
+      "buyer_or_payer": "1인 공방 대표, 원데이클래스 운영자",
+      "current_owner": "redteam",
+      "base_net": 55440
     }
   ]
 }
