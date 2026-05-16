@@ -1,34 +1,35 @@
 {
-  "updated_at": "2026-05-16T19:09:59+09:00",
+  "updated_at": "2026-05-16T19:28:00+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1909_money-flow",
-    "started_at": "2026-05-16T19:09:54+09:00",
-    "finished_at": "2026-05-16T19:09:54+09:00",
+    "run_id": "2026-05-16_1922_money-flow",
+    "started_at": "2026-05-16T19:22:05+09:00",
+    "finished_at": "2026-05-16T19:28:00+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
-      "ledger"
+      "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "https://beemo.tistory.com/16",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.png"
+      "https://beemo.tistory.com/17",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
+      "https://beemo.tistory.com/17",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
         "from_status": "redteam_hold",
         "to_status": "tracking",
         "decision": "GO",
-        "summary": "카페 시즌메뉴 무료 검증 글 Tistory 게시 및 공개 QA 완료"
+        "summary": "치과·의원 휴진 안내 무료 검증 글 Tistory 게시 및 공개 QA 완료"
       }
     ],
     "summary": "오래된 redteam_hold 1건을 직접 API 게시 경로로 해소하고 tracking 전환.",
@@ -36,9 +37,9 @@
   },
   "metrics": {
     "total": 20,
-    "active": 3,
+    "active": 2,
     "approval_needed": 0,
-    "launched": 15,
+    "launched": 16,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -57,24 +58,10 @@
       "status": "기획",
       "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
       "quality": 82
-    },
-    {
-      "id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
-      "quality": 86
     }
   ],
   "approval_needed": [],
   "priority_queue": [
-    {
-      "id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
-      "quality": 86
-    },
     {
       "id": "opp_20260516_018_childcare_vacation_survey_blog",
       "title": "어린이집·유치원 여름방학 등원 수요조사 안내문 무료 검증 글",
@@ -91,7 +78,7 @@
     }
   ],
   "rejection_summary": {
-    "에디터 자동화 막힘": 2,
+    "에디터 자동화 막힘": 1,
     "차별성 약함": 1,
     "HIGH_RISK": 2
   },
@@ -101,101 +88,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T17:32:10+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "무료 검증 공개 전 실제 매출 0원.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "제작",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 썸네일 안정화를 위해 펫살롱 글 본문 이미지 3개를 SVG에서 PNG public artifact로 교체.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.png"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "Profile 2 로그인 확인, Chrome 9334 세션 재시작, newpost 새 탭 생성 후 재시도했으나 Tistory 글쓰기 target CDP Runtime 응답 Timeout 반복.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/publish_pet_retry_20260516_1746.py"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 후속 전환 시만 적용.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "제작",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "치과·의원 휴진 안내 무료 검증 글 지원 이미지 3장(PNG+SVG), 수정 Markdown, Tistory HTML/preview 생성 및 의료/개인정보 리스크 문구 완화.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg"
-      ]
-    },
     {
       "time": "2026-05-16T18:10:07+09:00",
       "run_id": "2026-05-16_1806_money-flow",
@@ -552,6 +444,111 @@
       "summary": "Tistory URL 및 게시/이미지 업데이트 스크립트, PNG 자산 기록",
       "links": [
         "https://beemo.tistory.com/16"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:12:36+09:00",
+      "run_id": "2026-05-16_thumbnail_recovery",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 기존 공개 글 12건 대표 PNG/OG 썸네일 복구 시도, 실패 0건.",
+      "links": [
+        "https://beemo.tistory.com/2",
+        "https://beemo.tistory.com/3",
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/6",
+        "https://beemo.tistory.com/7",
+        "https://beemo.tistory.com/8",
+        "https://beemo.tistory.com/9",
+        "https://beemo.tistory.com/10",
+        "https://beemo.tistory.com/11",
+        "https://beemo.tistory.com/12",
+        "https://beemo.tistory.com/13"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:28:00+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory API 게시용 PNG 3장 업로드 및 무료 검증 글 공개 자산 생성.",
+      "links": [
+        "https://beemo.tistory.com/17",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
+        "https://beemo.tistory.com/17",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:28:00+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "치과·의원 휴진 안내 무료 검증 글 게시 및 공개 QA 완료.",
+      "links": [
+        "https://beemo.tistory.com/17"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:28:00+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "의료/개인정보 리스크 문구 완화 확인. 공개 페이지와 og:image 검증 통과.",
+      "links": [
+        "https://beemo.tistory.com/17"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:28:00+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 공개 전환. 실제 매출 0원, 기준 후속 순마진 80% 가정은 반응 추적 후 재평가.",
+      "links": [
+        "https://beemo.tistory.com/17"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:28:00+09:00",
+      "run_id": "2026-05-16_1922_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "redteam_hold 해소 후 tracking 전환.",
+      "links": [
+        "https://beemo.tistory.com/17"
       ]
     }
   ],
@@ -3656,26 +3653,28 @@
       "key": "MF-17",
       "id": "opp_20260516_017_clinic_vacation_notice_blog",
       "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "에디터 자동화 막힘",
+      "stop_reason": null,
       "quality": 86,
       "expected_base_net": 61920,
       "margin_pct": 80,
       "expected_price": 12900,
       "buyer_or_payer": "여름휴가 휴진을 앞둔 동네 치과·의원 원장, 실장, 데스크 담당자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 진료과별 휴진/예약변경 안내문 ZIP",
-      "owner": "제작 검수",
-      "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 공개 URL/제목/본문 PNG 3장/og:image 확인됨. 검색 유입·반응 추적 단계.",
       "risk_flags": [
-        "EDITOR_AUTOMATION_BLOCKED",
         "free_template_competition",
         "medical_wording_softened",
         "personal_data_placeholder_removed",
-        "tistory_preview_ready"
+        "public_url_verified",
+        "tistory_published",
+        "tracking_search_response",
+        "uploaded_png_thumbnail_verified"
       ],
       "evidence": [
         {
@@ -3813,6 +3812,24 @@
           "decision": "HOLD",
           "reason_code": "EDITOR_AUTOMATION_BLOCKED",
           "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 반응 추적 시만 적용."
+        },
+        {
+          "time": "2026-05-16T19:28:00+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Direct Tistory API 경로로 게시 완료. 공개 URL, 제목, 본문 대표 PNG, og:image 검증."
+        },
+        {
+          "time": "2026-05-16T19:28:00+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "의료 조언/진료 보장/개인정보 표현 완화 유지. 공개 검증 통과로 보류 해제."
+        },
+        {
+          "time": "2026-05-16T19:28:00+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 공개 완료. 실제 매출은 0원이나 후속 전환 반응 추적 가치 있음."
         }
       ],
       "assets": [
@@ -3881,6 +3898,18 @@
           "title": "03-checklist-clinic-vacation.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
           "viewer": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/03-checklist-clinic-vacation.svg"
+        },
+        {
+          "name": "https://beemo.tistory.com/17",
+          "title": "공개 글",
+          "path": "https://beemo.tistory.com/17",
+          "viewer": "https://beemo.tistory.com/17"
+        },
+        {
+          "name": "direct_publish_clinic_tistory_20260516_1922.py",
+          "title": "direct_publish_clinic_tistory_20260516_1922.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py",
+          "viewer": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/direct_publish_clinic_tistory_20260516_1922.py"
         }
       ]
     },
