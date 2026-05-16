@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T20:31:51+09:00",
+  "updated_at": "2026-05-16T20:44:57+09:00",
   "last_run": {
-    "run_id": "2026-05-16_2030_money-flow",
-    "started_at": "2026-05-16T20:30:37+09:00",
-    "finished_at": "2026-05-16T20:31:44+09:00",
+    "run_id": "2026-05-16_2043_money-flow",
+    "started_at": "2026-05-16T20:43:14+09:00",
+    "finished_at": "2026-05-16T20:44:57+09:00",
     "trigger": "cron",
     "agents_executed": [
       "ledger",
@@ -23,10 +23,10 @@
         "agent": "redteam",
         "decision": "HOLD",
         "reason_code": null,
-        "summary": "Tistory Profile 2 세션으로 재게시를 시도했으나 공개 발행 일일 제한 15개가 계속 403으로 차단. 로그인 실패가 아니라 플랫폼 quota 대기."
+        "summary": "Tistory Profile 2 세션과 이미지 업로드는 정상이나 공개 발행 일일 제한 15개가 403으로 유지되어 상태 변화 없음."
       }
     ],
-    "summary": "Backlog retry only. Same Tistory daily publish limit remains; dashboard mirror refreshed and verified.",
+    "summary": "Backlog retry only. Same Tistory daily publish limit remains; no status/material change.",
     "final_report": "[SILENT]"
   },
   "metrics": {
