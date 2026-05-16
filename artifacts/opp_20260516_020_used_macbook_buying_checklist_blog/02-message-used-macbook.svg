@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f7f8f6"/>
+<rect x="48" y="48" width="1104" height="579" rx="34" fill="#ffffff" stroke="#e4e7e4"/>
+<text x="86" y="84" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="24" font-weight="700" fill="#0f766e">거래 전 질문 예시</text>
+<text x="86" y="140" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="54" font-weight="800" fill="#111827">판매자에게
+먼저 물어볼 말</text>
+<line x1="86" y1="183" x2="1114" y2="183" stroke="#e5e7eb" stroke-width="3"/>
+<g font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif"><text x="86" y="253" font-size="32" font-weight="700" fill="#263238">초기화</text><text x="300" y="253" font-size="27" fill="#455a64">설정 화면까지 진입 가능한가요?</text><text x="86" y="335" font-size="32" font-weight="700" fill="#263238">계정</text><text x="300" y="335" font-size="27" fill="#455a64">Apple 계정/나의 찾기 해제됐나요?</text><text x="86" y="417" font-size="32" font-weight="700" fill="#263238">보증</text><text x="300" y="417" font-size="27" fill="#455a64">일련번호로 보증 확인해도 될까요?</text></g>
+<text x="86" y="612" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="22" fill="#6b7280">무료 체크용 요약 · 판매/법률 조언 아님</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f7f8f6"/>
+<rect x="48" y="48" width="1104" height="579" rx="34" fill="#ffffff" stroke="#e4e7e4"/>
+<text x="86" y="84" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="24" font-weight="700" fill="#2563eb">배터리 사이클보다 먼저</text>
+<text x="86" y="140" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="54" font-weight="800" fill="#111827">중고 맥북
+거래 전 체크</text>
+<line x1="86" y1="183" x2="1114" y2="183" stroke="#e5e7eb" stroke-width="3"/>
+<g font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif"><text x="86" y="253" font-size="32" font-weight="700" fill="#263238">1</text><text x="300" y="253" font-size="27" fill="#455a64">계정 잠금 · 초기화 가능 여부</text><text x="86" y="335" font-size="32" font-weight="700" fill="#263238">2</text><text x="300" y="335" font-size="27" fill="#455a64">일련번호 · 보증 상태 확인</text><text x="86" y="417" font-size="32" font-weight="700" fill="#263238">3</text><text x="300" y="417" font-size="27" fill="#455a64">외관 · 포트 · 배터리 상태</text></g>
+<text x="86" y="612" font-family="Apple SD Gothic Neo, AppleGothic, NanumGothic, sans-serif" font-size="22" fill="#6b7280">무료 체크용 요약 · 판매/법률 조언 아님</text>
+</svg>

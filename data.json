@@ -1,22 +1,41 @@
 {
-  "updated_at": "2026-05-16T19:58:28+09:00",
+  "updated_at": "2026-05-16T20:17:14+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1956_money-flow",
-    "started_at": "2026-05-16T19:58:28+09:00",
-    "finished_at": "2026-05-16T19:58:28+09:00",
+    "run_id": "2026-05-16_2017_money-flow",
+    "started_at": "2026-05-16T20:17:14+09:00",
+    "finished_at": "2026-05-16T20:17:14+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "ledger_dashboard_manager",
-      "roi"
+      "planning_member",
+      "planning_lead",
+      "execution_member",
+      "execution_lead",
+      "redteam",
+      "roi",
+      "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [],
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/draft_used_macbook_checklist_20260516_revised.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_preview.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png"
+    ],
     "approval_needed": [],
-    "decisions": [],
-    "summary": "Backlog processor found no actionable redteam_hold/ready_for_approval/auth-blocked items. No new opportunity created by design.",
-    "final_report": "[SILENT]"
+    "decisions": [
+      {
+        "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+        "decision": "HOLD",
+        "reason": "Tistory daily public publish limit"
+      }
+    ],
+    "summary": "기존 planning 항목 1개를 블로그 자산 제작/QA까지 처리했으나 Tistory 일일 공개 발행 제한으로 redteam_hold 전환.",
+    "final_report": "REPORT"
   },
   "metrics": {
     "total": 20,
@@ -31,8 +50,8 @@
     {
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
-      "status": "기획",
-      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "status": "검증 보류",
+      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -41,8 +60,8 @@
     {
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
-      "status": "기획",
-      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "status": "검증 보류",
+      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -57,299 +76,35 @@
   },
   "recent_events": [
     {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 썸네일 안정화를 위해 펫살롱 글 본문 이미지 3개를 SVG에서 PNG public artifact로 교체.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.png"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "Profile 2 로그인 확인, Chrome 9334 세션 재시작, newpost 새 탭 생성 후 재시도했으나 Tistory 글쓰기 target CDP Runtime 응답 Timeout 반복.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/publish_pet_retry_20260516_1746.py"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:51:43+09:00",
-      "run_id": "2026-05-16_1744_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 후속 전환 시만 적용.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "치과·의원 휴진 안내 무료 검증 글 지원 이미지 3장(PNG+SVG), 수정 Markdown, Tistory HTML/preview 생성 및 의료/개인정보 리스크 문구 완화.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "이미지 3개, 의료 조언/진료 보장/개인정보 표현 완화, HTML 렌더링 구조 QA 통과. 게시 세션 확인 단계로 진행.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_preview.html"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "의료광고/진료 보장/개인정보 오해는 완화됨. 공개 URL 검증 전까지 HOLD 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 후속 기준 순마진 80% 가정은 공개 후 반응 추적 시만 의미 있음.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:16:06+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "Profile 2 로그인 확인 후 Tistory 게시를 시도했으나 글쓰기 target Runtime 응답 Timeout으로 게시 자동화 차단. AUTH_BLOCKED 아님.",
-      "links": [
-        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_017_clinic_vacation_notice_blog/clinic_vacation_notice_tistory_preview.html"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:16:06+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:16:06+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 기준 순마진 80% 가정은 공개 후 반응 추적 시만 적용.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:36:01+09:00",
-      "run_id": "2026-05-16_1827_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "썸네일·키즈노트 예시·체크리스트 PNG/SVG 3장, 수정 Markdown, Tistory HTML/preview 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/draft_childcare_vacation_survey_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/childcare_vacation_survey_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/childcare_vacation_survey_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/01-thumbnail-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/01-thumbnail-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/02-kidsnote-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/02-kidsnote-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/process_childcare_20260516_1827.py"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:36:01+09:00",
-      "run_id": "2026-05-16_1827_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "이미지 3장과 개인정보/기관 운영 단정 완화, 로컬 HTML 렌더링 QA 통과. Tistory newpost Runtime Timeout으로 게시 자동화 보류.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:36:01+09:00",
-      "run_id": "2026-05-16_1827_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "개인정보 노출/기관 기준 단정 리스크는 완화. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:36:01+09:00",
-      "run_id": "2026-05-16_1827_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능.",
-      "links": []
-    },
-    {
       "time": "2026-05-16T18:51:30+09:00",
       "run_id": "2026-05-16_1849_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "썸네일·카톡 예시·체크리스트 PNG/SVG 3장, 수정 Markdown, Tistory HTML/preview 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/draft_oneday_class_booking_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/process_oneday_20260516_1849.py"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:51:30+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "환불·예약금 단정 표현을 운영 안내 예시로 완화하고 로컬 HTML 렌더링 QA 통과.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:51:30+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
       "event": "decision",
       "from_status": "redteam_hold",
       "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "reason_code": "에디터 자동화 막힘",
       "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개 검증 전까지 HOLD.",
       "links": []
     },
     {
       "time": "2026-05-16T18:51:30+09:00",
       "run_id": "2026-05-16_1849_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
       "event": "decision",
       "from_status": "redteam_hold",
       "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+      "reason_code": "에디터 자동화 막힘",
       "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능.",
       "links": []
     },
     {
       "time": "2026-05-16T18:54:10+09:00",
       "run_id": "2026-05-16_1849_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
       "event": "launched",
       "from_status": "redteam_hold",
@@ -364,7 +119,7 @@
     {
       "time": "2026-05-16T18:54:10+09:00",
       "run_id": "2026-05-16_1849_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -379,7 +134,7 @@
     {
       "time": "2026-05-16T18:54:10+09:00",
       "run_id": "2026-05-16_1849_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -394,7 +149,7 @@
     {
       "time": "2026-05-16T18:55:33+09:00",
       "run_id": "manual_2026-05-16_image_fix",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
       "event": "asset_created",
       "from_status": "redteam_hold",
@@ -409,7 +164,7 @@
     {
       "time": "2026-05-16T18:55:33+09:00",
       "run_id": "manual_2026-05-16_image_fix",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
       "event": "status_changed",
       "from_status": "redteam_hold",
@@ -424,7 +179,7 @@
     {
       "time": "2026-05-16T19:09:54+09:00",
       "run_id": "2026-05-16_1909_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
       "event": "launched",
       "from_status": "redteam_hold",
@@ -439,7 +194,7 @@
     {
       "time": "2026-05-16T19:09:54+09:00",
       "run_id": "2026-05-16_1909_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -454,7 +209,7 @@
     {
       "time": "2026-05-16T19:09:54+09:00",
       "run_id": "2026-05-16_1909_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -469,7 +224,7 @@
     {
       "time": "2026-05-16T19:09:54+09:00",
       "run_id": "2026-05-16_1909_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
       "event": "status_changed",
       "from_status": "redteam_hold",
@@ -484,7 +239,7 @@
     {
       "time": "2026-05-16T19:09:54+09:00",
       "run_id": "2026-05-16_1909_money-flow",
-      "agent": "ledger",
+      "agent": "원장",
       "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
       "event": "asset_created",
       "from_status": "redteam_hold",
@@ -525,7 +280,7 @@
     {
       "time": "2026-05-16T19:28:00+09:00",
       "run_id": "2026-05-16_1922_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "asset_created",
       "from_status": "redteam_hold",
@@ -544,7 +299,7 @@
     {
       "time": "2026-05-16T19:28:00+09:00",
       "run_id": "2026-05-16_1922_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -559,7 +314,7 @@
     {
       "time": "2026-05-16T19:28:00+09:00",
       "run_id": "2026-05-16_1922_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -574,7 +329,7 @@
     {
       "time": "2026-05-16T19:28:00+09:00",
       "run_id": "2026-05-16_1922_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -604,7 +359,7 @@
     {
       "time": "2026-05-16T19:30:05+09:00",
       "run_id": "2026-05-16_1922_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "decision",
       "from_status": "tracking",
@@ -619,7 +374,7 @@
     {
       "time": "2026-05-16T19:44:13+09:00",
       "run_id": "2026-05-16_1941_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "asset_created",
       "from_status": "redteam_hold",
@@ -635,7 +390,7 @@
     {
       "time": "2026-05-16T19:44:13+09:00",
       "run_id": "2026-05-16_1941_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "launched",
       "from_status": "redteam_hold",
@@ -650,7 +405,7 @@
     {
       "time": "2026-05-16T19:44:13+09:00",
       "run_id": "2026-05-16_1941_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "decision",
       "from_status": "redteam_hold",
@@ -665,7 +420,7 @@
     {
       "time": "2026-05-16T19:44:13+09:00",
       "run_id": "2026-05-16_1941_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "status_changed",
       "from_status": "redteam_hold",
@@ -676,6 +431,164 @@
       "links": [
         "https://beemo.tistory.com/18"
       ]
+    },
+    {
+      "time": "2026-05-16T20:02:27+09:00",
+      "run_id": "2026-05-16_blog_image_hq_update",
+      "agent": "제작 검수",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
+      "links": [
+        "https://beemo.tistory.com/2",
+        "https://beemo.tistory.com/3",
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/6",
+        "https://beemo.tistory.com/7",
+        "https://beemo.tistory.com/8",
+        "https://beemo.tistory.com/9",
+        "https://beemo.tistory.com/10",
+        "https://beemo.tistory.com/11",
+        "https://beemo.tistory.com/12",
+        "https://beemo.tistory.com/13",
+        "https://beemo.tistory.com/14",
+        "https://beemo.tistory.com/15",
+        "https://beemo.tistory.com/16",
+        "https://beemo.tistory.com/17",
+        "https://beemo.tistory.com/18"
+      ]
+    },
+    {
+      "time": "2026-05-16T20:06:04+09:00",
+      "run_id": "2026-05-16_blog_image_hq_update",
+      "agent": "제작 검수",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
+      "links": [
+        "https://beemo.tistory.com/2",
+        "https://beemo.tistory.com/3",
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/6",
+        "https://beemo.tistory.com/7",
+        "https://beemo.tistory.com/8",
+        "https://beemo.tistory.com/9",
+        "https://beemo.tistory.com/10",
+        "https://beemo.tistory.com/11",
+        "https://beemo.tistory.com/12",
+        "https://beemo.tistory.com/13",
+        "https://beemo.tistory.com/14",
+        "https://beemo.tistory.com/15",
+        "https://beemo.tistory.com/16",
+        "https://beemo.tistory.com/17",
+        "https://beemo.tistory.com/18"
+      ]
+    },
+    {
+      "time": "2026-05-16T20:08:58+09:00",
+      "run_id": "2026-05-16_blog_image_hq_update",
+      "agent": "제작 검수",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
+      "links": [
+        "https://beemo.tistory.com/2",
+        "https://beemo.tistory.com/3",
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/6",
+        "https://beemo.tistory.com/7",
+        "https://beemo.tistory.com/8",
+        "https://beemo.tistory.com/9",
+        "https://beemo.tistory.com/10",
+        "https://beemo.tistory.com/11",
+        "https://beemo.tistory.com/12",
+        "https://beemo.tistory.com/13",
+        "https://beemo.tistory.com/14",
+        "https://beemo.tistory.com/15",
+        "https://beemo.tistory.com/16",
+        "https://beemo.tistory.com/17",
+        "https://beemo.tistory.com/18"
+      ]
+    },
+    {
+      "time": "2026-05-16T20:17:14+09:00",
+      "run_id": "2026-05-16_2017_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "중고 맥북 무료 검증 글 본문, PNG 이미지 3장, Tistory HTML/미리보기, 샘플링 브리프 제작.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/draft_used_macbook_checklist_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png"
+      ]
+    },
+    {
+      "time": "2026-05-16T20:17:14+09:00",
+      "run_id": "2026-05-16_2017_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Markdown/HTML 로컬 렌더링과 PNG 썸네일 가독성 QA 통과. Tistory 이미지 업로드 성공.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png"
+      ]
+    },
+    {
+      "time": "2026-05-16T20:17:14+09:00",
+      "run_id": "2026-05-16_2017_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "Tistory 공개 발행 일일 15개 제한으로 게시 403. 로그인 실패가 아니며 quota 리셋 후 재시도 필요.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T20:17:14+09:00",
+      "run_id": "2026-05-16_2017_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "직접 매출 0원인 무료 검증 글. 재사용 가능한 자산 생성 완료, 공개는 플랫폼 제한 해소 후 진행.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -4527,9 +4440,9 @@
       "key": "MF-20",
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "priority": "보통",
       "stop_reason": null,
@@ -4539,12 +4452,17 @@
       "expected_price": 0,
       "buyer_or_payer": "중고 맥북 구매 전 실수 줄이고 싶은 개인 독자",
       "channel": "Tistory 무료 블로그",
-      "owner": "기획",
-      "next_action": "무료 블로그 본문 작성 전 Apple 공식 안내 기준으로 배터리/보증/잠금 표현을 재검증하고 이미지 3장 계획 후 Tistory 공개 QA.",
+      "owner": "리스크 검토",
+      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "risk_flags": [
-        "콘텐츠 판매 중지 상태: 무료 블로그만 허용",
-        "Apple 공식 안내 기준 팩트 확인 필요",
-        "중고거래 법률/사기 단정 표현 주의"
+        "activation_lock_wording_softened",
+        "apple_official_fact_check_done",
+        "tistory_daily_publish_limit",
+        "tistory_thumbnail_png_ready",
+        "tistory_visual_qa_passed_local",
+        "used_trade_scam_wording_softened",
+        "중고거래 법률/사기 단정 표현 주의",
+        "콘텐츠 판매 중지 상태: 무료 블로그만 허용"
       ],
       "evidence": [
         {
@@ -4584,6 +4502,30 @@
           "agent": "redteam",
           "decision": "HOLD",
           "summary": "아직 본문/이미지/공개 QA 전이므로 기획 단계 유지."
+        },
+        {
+          "time": "2026-05-16T20:17:14+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "본문, 이미지 3장, HTML 미리보기, 샘플링/스타일 브리프 제작 완료. 위험 문구는 공식 확인/거래 확인 중심으로 완화."
+        },
+        {
+          "time": "2026-05-16T20:17:14+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "로컬 렌더링과 PNG 대표 이미지 QA 통과. Profile 2 세션에서 이미지 업로드까지 성공."
+        },
+        {
+          "time": "2026-05-16T20:17:14+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "summary": "Tistory 공개 발행 일일 제한(15개)으로 post.json 공개 발행이 403 반환. 게시 자동화/로그인 실패가 아니라 플랫폼 quota 대기."
+        },
+        {
+          "time": "2026-05-16T20:17:14+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "무료 검증 글이라 직접 매출 0원. 제작 자산은 재사용 가능하며 다음 리셋 후 공개 가치 있음."
         }
       ],
       "assets": [
@@ -4592,6 +4534,48 @@
           "title": "blog_brief_used_macbook_checklist.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md",
           "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/blog_brief_used_macbook_checklist.md"
+        },
+        {
+          "name": "sample_style_brief_used_macbook_20260516.md",
+          "title": "sample_style_brief_used_macbook_20260516.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/sample_style_brief_used_macbook_20260516.md"
+        },
+        {
+          "name": "draft_used_macbook_checklist_20260516_revised.md",
+          "title": "draft_used_macbook_checklist_20260516_revised.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/draft_used_macbook_checklist_20260516_revised.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/draft_used_macbook_checklist_20260516_revised.md"
+        },
+        {
+          "name": "used_macbook_checklist_tistory_body.html",
+          "title": "used_macbook_checklist_tistory_body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/used_macbook_checklist_tistory_body.html"
+        },
+        {
+          "name": "used_macbook_checklist_tistory_preview.html",
+          "title": "used_macbook_checklist_tistory_preview.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_preview.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/used_macbook_checklist_tistory_preview.html"
+        },
+        {
+          "name": "01-thumbnail-used-macbook.png",
+          "title": "01-thumbnail-used-macbook.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
+          "viewer": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/01-thumbnail-used-macbook.png"
+        },
+        {
+          "name": "02-message-used-macbook.png",
+          "title": "02-message-used-macbook.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
+          "viewer": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/02-message-used-macbook.png"
+        },
+        {
+          "name": "03-checklist-used-macbook.png",
+          "title": "03-checklist-used-macbook.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png",
+          "viewer": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/03-checklist-used-macbook.png"
         }
       ]
     }
