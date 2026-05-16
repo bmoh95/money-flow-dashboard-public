@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-05-17T06:09:40+09:00",
+  "updated_at": "2026-05-17T06:22:38+09:00",
   "last_run": {
-    "run_id": "2026-05-17_0609_money-flow",
-    "started_at": "2026-05-17T06:09:40+09:00",
-    "finished_at": "2026-05-17T06:09:40+09:00",
+    "run_id": "2026-05-17_0622_money-flow",
+    "started_at": "2026-05-17T06:22:38+09:00",
+    "finished_at": "2026-05-17T06:22:38+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "ledger_dashboard_manager",
       "research_member",
       "research_lead",
       "planning_member",
@@ -13,8 +14,7 @@
       "execution_member",
       "execution_lead",
       "redteam",
-      "roi",
-      "ledger_dashboard_manager"
+      "roi"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
@@ -27,14 +27,8 @@
         "reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
       }
     ],
-    "decisions": [
-      {
-        "agent": "ledger_dashboard_manager",
-        "decision": "HOLD",
-        "summary": "No material backlog state change; no local actionable hold remains."
-      }
-    ],
-    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. Existing duplicate-post cleanup still requires explicit approval; no external deletion/private conversion executed.",
+    "decisions": [],
+    "summary": "Backlog-only processor checked existing opportunities. No actionable redteam_hold, ready_for_approval, AUTH/PERMISSION/EDITOR blocker remains. Existing duplicate cleanup still requires user approval and was not modified.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -229,13 +223,41 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260515.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260515.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260516_revised.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "freelancer_simple_book_tistory_preview.html",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/freelancer_simple_book_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-freelancer-simple-book.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/01-thumbnail-freelancer-simple-book.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-cost-table-card.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/02-cost-table-card.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-ox-flow-checklist.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/03-ox-flow-checklist.svg",
+          "type": "file"
+        },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/5",
@@ -433,13 +455,41 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260515.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260515.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260516_revised.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "freelancer_simple_book_tistory_preview.html",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/freelancer_simple_book_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-freelancer-simple-book.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/01-thumbnail-freelancer-simple-book.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-cost-table-card.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/02-cost-table-card.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-ox-flow-checklist.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/03-ox-flow-checklist.svg",
+          "type": "file"
+        },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/5",
@@ -466,14 +516,11 @@
   "recent_events": [
     {
       "time": "2026-05-17T03:41:27+09:00",
-      "run_id": "2026-05-17_0341_money-flow",
       "agent": "대시보드",
       "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
       "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "False-positive backlog trigger removed from next_action; pet grooming post remains tracking with image/OG QA complete.",
       "links": [
         "https://beemo.tistory.com/14"
@@ -481,14 +528,11 @@
     },
     {
       "time": "2026-05-17T02:12:50+09:00",
-      "run_id": "2026-05-16_blog_image_hq_update",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
       "links": [
         "https://beemo.tistory.com/2",
@@ -512,14 +556,11 @@
     },
     {
       "time": "2026-05-17T01:55:36+09:00",
-      "run_id": "2026-05-17_0155_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
       "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "HOLD",
-      "reason_code": "승인 필요",
+      "reason": "승인 필요",
       "summary": "중복 URL 정리 품질 리스크만 확인. 실제 매출 0원, 수익성 변화 없음.",
       "links": [
         "https://beemo.tistory.com/4",
@@ -528,14 +569,11 @@
     },
     {
       "time": "2026-05-17T01:55:36+09:00",
-      "run_id": "2026-05-17_0155_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
       "event": "approval_needed",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "HOLD",
-      "reason_code": "승인 필요",
+      "reason": "승인 필요",
       "summary": "중복 공개 글 정리는 삭제/비공개 외부 변경이므로 승인 전 보류. 로그인 실패 아님.",
       "links": [
         "https://beemo.tistory.com/4",
@@ -544,14 +582,11 @@
     },
     {
       "time": "2026-05-17T01:55:36+09:00",
-      "run_id": "2026-05-17_0155_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
       "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "프리랜서 간편장부 Tistory 공개 글 /4·/5 재검증. 둘 다 200, 동일 제목, 이미지 3장 확인. stale auth flag 제거.",
       "links": [
         "https://beemo.tistory.com/4",
@@ -560,14 +595,11 @@
     },
     {
       "time": "2026-05-17T00:04:24+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "공개 본문 이미지 3장 DOM 로드와 Tistory 홈 목록 실제 썸네일 표시 확인.",
       "links": [
         "https://beemo.tistory.com/19",
@@ -576,14 +608,11 @@
     },
     {
       "time": "2026-05-17T00:01:47+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
-      "agent": "대시보드",
+      "agent": "ledger",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "opportunity status redteam_hold -> tracking.",
       "links": [
         "https://beemo.tistory.com/19"
@@ -591,14 +620,11 @@
     },
     {
       "time": "2026-05-17T00:01:47+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "무료 검증 콘텐츠로 추적 전환. 직접 매출 0원, 재사용 자산 가치 유지.",
       "links": [
         "https://beemo.tistory.com/19"
@@ -606,14 +632,11 @@
     },
     {
       "time": "2026-05-17T00:01:47+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "하루 발행 제한 해소 후 공개 검증 완료. 위험 문구는 확인/주의 중심으로 완화 유지.",
       "links": [
         "https://beemo.tistory.com/19"
@@ -621,14 +644,11 @@
     },
     {
       "time": "2026-05-17T00:01:47+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 공개 게시 및 공개 페이지 검증 완료.",
       "links": [
         "https://beemo.tistory.com/19"
@@ -636,11 +656,11 @@
     },
     {
       "time": "2026-05-16T23:06:15.578841+09:00",
-      "run_id": "2026-05-16_blog_image_full_redesign",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
       "decision": "GO",
+      "reason": null,
       "summary": "Tistory 공개 글 17개 전체 이미지 템플릿을 재설계해 재업로드하고 실제 공개 이미지/홈 목록/OG를 재검증함.",
       "links": [
         "https://beemo.tistory.com/"
@@ -648,14 +668,11 @@
     },
     {
       "time": "2026-05-16T23:03:36+09:00",
-      "run_id": "2026-05-16_blog_image_hq_update",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
       "links": [
         "https://beemo.tistory.com/2",
@@ -679,105 +696,81 @@
     },
     {
       "time": "2026-05-16T21:41:06+09:00",
-      "run_id": "2026-05-16_2138_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory Profile 2 로그인 세션으로 공개 발행 재시도했으나 하루 공개 발행 15개 제한 403이 계속됨. 로그인 실패가 아니라 플랫폼 quota 대기.",
       "links": []
     },
     {
       "time": "2026-05-16T21:12:47+09:00",
-      "run_id": "2026-05-16_2110_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason": "기회비용 높음",
       "summary": "무료 검증 글 직접 매출 0원. 새 작업은 만들지 않고 quota 리셋 후 재시도 대상으로 유지.",
       "links": []
     },
     {
       "time": "2026-05-16T21:12:47+09:00",
-      "run_id": "2026-05-16_2110_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": null,
+      "reason": null,
       "summary": "Profile 2 기존 로그인 세션과 직접 API 경로로 공개 발행 재시도. 이미지 업로드/HTML 준비는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속되어 quota 리셋 대기.",
       "links": []
     },
     {
       "time": "2026-05-16T21:12:47+09:00",
-      "run_id": "2026-05-16_2110_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": null,
+      "reason": null,
       "summary": "Profile 2 로그인/API 접근 및 PNG attach 업로드 성공. 공개 발행 전 단계까지 정상.",
       "links": []
     },
     {
       "time": "2026-05-16T20:30:37+09:00",
-      "run_id": "2026-05-16_2030_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 공개 발행 일일 제한(15개)이 계속 403으로 확인되어 상태 전환 없이 대기 유지. Profile 2 로그인/이미지 업로드는 정상.",
       "links": []
     },
     {
       "time": "2026-05-16T20:17:14+09:00",
-      "run_id": "2026-05-16_2017_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": null,
+      "reason": null,
       "summary": "직접 매출 0원인 무료 검증 글. 재사용 가능한 자산 생성 완료, 공개는 플랫폼 제한 해소 후 진행.",
       "links": []
     },
     {
       "time": "2026-05-16T20:17:14+09:00",
-      "run_id": "2026-05-16_2017_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": "위험 높음",
+      "reason": "위험 높음",
       "summary": "Tistory 공개 발행 일일 15개 제한으로 게시 403. 로그인 실패가 아니며 quota 리셋 후 재시도 필요.",
       "links": []
     },
     {
       "time": "2026-05-16T20:17:14+09:00",
-      "run_id": "2026-05-16_2017_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Markdown/HTML 로컬 렌더링과 PNG 썸네일 가독성 QA 통과. Tistory 이미지 업로드 성공.",
       "links": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
@@ -788,14 +781,11 @@
     },
     {
       "time": "2026-05-16T20:17:14+09:00",
-      "run_id": "2026-05-16_2017_money-flow",
       "agent": "제작",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "중고 맥북 무료 검증 글 본문, PNG 이미지 3장, Tistory HTML/미리보기, 샘플링 브리프 제작.",
       "links": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
@@ -809,14 +799,11 @@
     },
     {
       "time": "2026-05-16T20:08:58+09:00",
-      "run_id": "2026-05-16_blog_image_hq_update",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
       "links": [
         "https://beemo.tistory.com/2",
@@ -840,14 +827,11 @@
     },
     {
       "time": "2026-05-16T20:06:04+09:00",
-      "run_id": "2026-05-16_blog_image_hq_update",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
       "links": [
         "https://beemo.tistory.com/2",
@@ -871,14 +855,11 @@
     },
     {
       "time": "2026-05-16T20:02:27+09:00",
-      "run_id": "2026-05-16_blog_image_hq_update",
       "agent": "제작 검수",
       "opportunity_id": null,
       "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 기존 공개 글 17건 본문 이미지/대표 PNG 고도화 업데이트, 실패 0건.",
       "links": [
         "https://beemo.tistory.com/2",
@@ -902,14 +883,11 @@
     },
     {
       "time": "2026-05-16T19:44:13+09:00",
-      "run_id": "2026-05-16_1941_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "무료 검증 공개 후 반응 추적 단계로 전환. 실제 매출 0원.",
       "links": [
         "https://beemo.tistory.com/18"
@@ -917,14 +895,11 @@
     },
     {
       "time": "2026-05-16T19:44:13+09:00",
-      "run_id": "2026-05-16_1941_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "개인정보 노출·기관별 운영 기준 단정 리스크 완화 확인.",
       "links": [
         "https://beemo.tistory.com/18"
@@ -932,14 +907,11 @@
     },
     {
       "time": "2026-05-16T19:44:13+09:00",
-      "run_id": "2026-05-16_1941_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 무료 검증 글 게시 및 공개 URL/이미지 3장/og:image 검증 완료.",
       "links": [
         "https://beemo.tistory.com/18"
@@ -947,14 +919,11 @@
     },
     {
       "time": "2026-05-16T19:44:13+09:00",
-      "run_id": "2026-05-16_1941_money-flow",
       "agent": "제작",
       "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
       "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory API 게시용 PNG 3장 업로드 및 어린이집·유치원 수요조사 무료 검증 글 공개 자산 생성.",
       "links": [
         "https://beemo.tistory.com/18",
@@ -963,14 +932,11 @@
     },
     {
       "time": "2026-05-16T19:30:05+09:00",
-      "run_id": "2026-05-16_1922_money-flow",
       "agent": "제작 검수",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "decision",
-      "from_status": "tracking",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "공개 Tistory 시각 QA 통과: 본문 이미지 3장과 문단/제목 간격 확인.",
       "links": [
         "https://beemo.tistory.com/17"
@@ -978,14 +944,11 @@
     },
     {
       "time": "2026-05-16T19:28:00+09:00",
-      "run_id": "2026-05-16_1922_money-flow",
       "agent": "대시보드",
       "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "redteam_hold 해소 후 tracking 전환.",
       "links": [
         "https://beemo.tistory.com/17"
@@ -1008,10 +971,10 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "type": "디지털 상품",
-      "status": "운영/수익",
+      "status": "출시",
       "raw_status": "launched",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 86,
       "expected_base_net": 45600,
       "margin_pct": 80,
@@ -1126,21 +1089,81 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/01_kakao_sms_templates_90.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/03_no_show_response_playbook.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/product_manifest.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/README.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/09_market_validation.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/07_upload_copy.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/02_reservation_policy_builder.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/05_empty_slot_resale_calendar.csv",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/04_daily_reservation_ops_tracker.csv",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/beauty-noshow-reservation-kit-kr.zip",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
-        "https://beemo.tistory.com/3",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html"
+        {
+          "name": "08_usage_guide.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/08_usage_guide.md",
+          "type": "file"
+        },
+        {
+          "name": "06_sales_page.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/06_sales_page.md",
+          "type": "file"
+        },
+        {
+          "name": "01_kakao_sms_templates_90.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/01_kakao_sms_templates_90.md",
+          "type": "file"
+        },
+        {
+          "name": "03_no_show_response_playbook.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/03_no_show_response_playbook.md",
+          "type": "file"
+        },
+        {
+          "name": "product_manifest.json",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/product_manifest.json",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/README.md",
+          "type": "file"
+        },
+        {
+          "name": "09_market_validation.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/09_market_validation.md",
+          "type": "file"
+        },
+        {
+          "name": "07_upload_copy.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/07_upload_copy.md",
+          "type": "file"
+        },
+        {
+          "name": "02_reservation_policy_builder.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/02_reservation_policy_builder.md",
+          "type": "file"
+        },
+        {
+          "name": "05_empty_slot_resale_calendar.csv",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/05_empty_slot_resale_calendar.csv",
+          "type": "file"
+        },
+        {
+          "name": "04_daily_reservation_ops_tracker.csv",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/04_daily_reservation_ops_tracker.csv",
+          "type": "file"
+        },
+        {
+          "name": "beauty-noshow-reservation-kit-kr.zip",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/beauty-noshow-reservation-kit-kr.zip",
+          "type": "file"
+        },
+        {
+          "name": "blog_01_nailshop_noshow_reservation_deposit.md",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md",
+          "type": "file"
+        },
+        {
+          "name": "3",
+          "url": "https://beemo.tistory.com/3",
+          "type": "file"
+        },
+        {
+          "name": "blog_post_tistory.html",
+          "url": "artifacts/opp_20260514_001_beauty_noshow_kit/blog_post_tistory.html",
+          "type": "file"
+        }
       ],
       "asset_count": 15,
       "updated_at": "2026-05-15T14:48:59+09:00"
@@ -1150,10 +1173,10 @@
       "id": "opp_20260514_002_smartstore_review_kit",
       "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
       "type": "디지털 상품",
-      "status": "운영/수익",
+      "status": "출시",
       "raw_status": "launched",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 68,
       "expected_base_net": 7920,
       "margin_pct": 80,
@@ -1207,12 +1230,36 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/blog_draft_smartstore_review_reply_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/01-thumbnail-review-replies.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/02-review-reply-example.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/03-review-checklist-card.png",
-        "https://beemo.tistory.com/2"
+        {
+          "name": "smartstore-review-repurchase-kit-kr",
+          "url": "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
+          "type": "file"
+        },
+        {
+          "name": "blog_draft_smartstore_review_reply_20260515.md",
+          "url": "artifacts/opp_20260514_002_smartstore_review_kit/blog_draft_smartstore_review_reply_20260515.md",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-review-replies.png",
+          "url": "artifacts/opp_20260514_002_smartstore_review_kit/01-thumbnail-review-replies.png",
+          "type": "file"
+        },
+        {
+          "name": "02-review-reply-example.png",
+          "url": "artifacts/opp_20260514_002_smartstore_review_kit/02-review-reply-example.png",
+          "type": "file"
+        },
+        {
+          "name": "03-review-checklist-card.png",
+          "url": "artifacts/opp_20260514_002_smartstore_review_kit/03-review-checklist-card.png",
+          "type": "file"
+        },
+        {
+          "name": "2",
+          "url": "https://beemo.tistory.com/2",
+          "type": "file"
+        }
       ],
       "asset_count": 6,
       "updated_at": "2026-05-16T15:03:21+09:00"
@@ -1225,7 +1272,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 82,
       "expected_base_net": 35000,
       "margin_pct": 80,
@@ -1289,12 +1336,36 @@
         }
       ],
       "assets": [
-        "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/changelog.sh",
-        "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/SKILL.md",
-        "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/README.md",
-        "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/sample-output.md",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
+        {
+          "name": "changelog.sh",
+          "url": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/changelog.sh",
+          "type": "file"
+        },
+        {
+          "name": "SKILL.md",
+          "url": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/SKILL.md",
+          "type": "file"
+        },
+        {
+          "name": "README.md",
+          "url": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/README.md",
+          "type": "file"
+        },
+        {
+          "name": "sample-output.md",
+          "url": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/sample-output.md",
+          "type": "file"
+        },
+        {
+          "name": "1385",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
+          "type": "file"
+        },
+        {
+          "name": "1",
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+          "type": "file"
+        }
       ],
       "asset_count": 6,
       "updated_at": "2026-05-15T16:11:16+09:00"
@@ -1304,7 +1375,7 @@
       "id": "opp_20260515_004_unsafelabs_prompt_bounty",
       "title": "UnsafeLabs AI-only GitHub bounty prompt 공개 요구",
       "type": "바운티",
-      "status": "종료/폐기",
+      "status": "리서치 폐기",
       "raw_status": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
@@ -1382,7 +1453,7 @@
       "id": "opp_20260515_005_studenthub_s3_bounty",
       "title": "StudentHub AWS S3 보안 복구 $600 바운티",
       "type": "바운티",
-      "status": "종료/폐기",
+      "status": "리서치 폐기",
       "raw_status": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
@@ -1651,13 +1722,41 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260515.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260515.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_freelancer_simple_book_20260516_revised.md",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/draft_freelancer_simple_book_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "freelancer_simple_book_tistory_preview.html",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/freelancer_simple_book_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-freelancer-simple-book.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/01-thumbnail-freelancer-simple-book.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-cost-table-card.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/02-cost-table-card.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-ox-flow-checklist.svg",
+          "url": "artifacts/opp_20260515_006_freelancer_simple_book_blog/03-ox-flow-checklist.svg",
+          "type": "file"
+        },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/5",
@@ -1680,7 +1779,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 84,
       "expected_base_net": 23760,
       "margin_pct": 80,
@@ -1853,43 +1952,43 @@
       "assets": [
         {
           "name": "학원 여름방학 특강 안내문 무료 검증 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/blog_validation_brief.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
+          "type": "link"
         },
         {
           "name": "학원 여름방학 특강 안내문, 문자로 보낼 때 덜 어색한 예시 8개",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/draft_academy_summer_class_messages_20260515.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md",
+          "type": "link"
         },
         {
           "name": "학원 여름방학 특강 안내문, 문자로 보낼 때 덜 어색한 예시 8개",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/draft_academy_summer_class_messages_20260516_revised.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260516_revised.md",
+          "type": "link"
         },
         {
           "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/academy_summer_class_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/academy_summer_class_tistory_preview.html"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/academy_summer_class_tistory_preview.html",
+          "type": "link"
         },
         {
           "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/01-thumbnail-academy-summer-class.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/01-thumbnail-academy-summer-class.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/01-thumbnail-academy-summer-class.svg",
+          "type": "link"
         },
         {
           "name": "문자 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/02-sms-example-academy.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/02-sms-example-academy.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/02-sms-example-academy.svg",
+          "type": "link"
         },
         {
           "name": "체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/03-checklist-academy.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/03-checklist-academy.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/03-checklist-academy.svg",
+          "type": "link"
         },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/7",
-          "path": "https://beemo.tistory.com/7"
+          "type": "link"
         }
       ],
       "asset_count": 8,
@@ -1903,7 +2002,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 39600,
       "margin_pct": 80,
@@ -2075,37 +2174,45 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260515_008_store_tax_sales_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_store_tax_sales_docs_20260515.md",
+          "url": "artifacts/opp_20260515_008_store_tax_sales_blog/draft_store_tax_sales_docs_20260515.md",
+          "type": "file"
+        },
         {
           "name": "종합소득세 신고 전, 쇼핑몰·배달 매출자료 정리 순서",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_008_store_tax_sales_blog/draft_store_tax_sales_docs_20260516_revised.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260516_revised.md",
+          "type": "link"
         },
         {
           "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/store_tax_sales_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/store_tax_sales_tistory_preview.html"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/store_tax_sales_tistory_preview.html",
+          "type": "link"
         },
         {
           "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/01-thumbnail-store-tax-sales.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/01-thumbnail-store-tax-sales.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/01-thumbnail-store-tax-sales.svg",
+          "type": "link"
         },
         {
           "name": "자료 위치 카드",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/02-doc-location-card.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/02-doc-location-card.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/02-doc-location-card.svg",
+          "type": "link"
         },
         {
           "name": "누락 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/03-missing-checklist.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/03-missing-checklist.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/03-missing-checklist.svg",
+          "type": "link"
         },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/8",
-          "path": "https://beemo.tistory.com/8"
+          "type": "link"
         }
       ],
       "asset_count": 8,
@@ -2119,7 +2226,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 84,
       "expected_base_net": 31680,
       "margin_pct": 80,
@@ -2292,37 +2399,45 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260515_009_pension_cancel_refund_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_pension_cancel_refund_messages_20260515.md",
+          "url": "artifacts/opp_20260515_009_pension_cancel_refund_blog/draft_pension_cancel_refund_messages_20260515.md",
+          "type": "file"
+        },
         {
           "name": "펜션 예약취소 안내문 수정 Markdown",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_009_pension_cancel_refund_blog/draft_pension_cancel_refund_messages_20260516_revised.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260516_revised.md",
+          "type": "link"
         },
         {
           "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/pension_cancel_refund_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/pension_cancel_refund_tistory_preview.html"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/pension_cancel_refund_tistory_preview.html",
+          "type": "link"
         },
         {
           "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/01-thumbnail-pension-cancel-refund.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/01-thumbnail-pension-cancel-refund.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/01-thumbnail-pension-cancel-refund.svg",
+          "type": "link"
         },
         {
           "name": "취소규정 문자 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/02-sms-example-pension.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/02-sms-example-pension.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/02-sms-example-pension.svg",
+          "type": "link"
         },
         {
           "name": "취소·환불 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/03-checklist-pension-refund.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/03-checklist-pension-refund.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/03-checklist-pension-refund.svg",
+          "type": "link"
         },
         {
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/9",
-          "path": "https://beemo.tistory.com/9"
+          "type": "link"
         }
       ],
       "asset_count": 8,
@@ -2336,7 +2451,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 39600,
       "margin_pct": 80,
@@ -2487,36 +2602,45 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516.md",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_gym_vacation_freeze_messages_20260516.md",
+          "url": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/draft_gym_vacation_freeze_messages_20260516.md",
+          "type": "file"
+        },
         {
           "name": "헬스장 휴무·정지 안내문 수정 Markdown",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260516_010_gym_vacation_freeze_blog/draft_gym_vacation_freeze_messages_20260516_revised.md"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516_revised.md",
+          "type": "link"
         },
         {
           "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/gym_vacation_freeze_tistory_preview.html",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/gym_vacation_freeze_tistory_preview.html"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/gym_vacation_freeze_tistory_preview.html",
+          "type": "link"
         },
         {
           "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/01-thumbnail-gym-vacation.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/01-thumbnail-gym-vacation.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/01-thumbnail-gym-vacation.svg",
+          "type": "link"
         },
         {
           "name": "문자/카톡 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/02-sms-example-gym.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/02-sms-example-gym.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/02-sms-example-gym.svg",
+          "type": "link"
         },
         {
           "name": "휴무 공지 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/03-checklist-gym-freeze.svg"
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg",
+          "type": "link"
         },
         {
           "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/6"
+          "url": "https://beemo.tistory.com/6",
+          "type": "link"
         }
       ],
       "asset_count": 8,
@@ -2530,7 +2654,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 86,
       "expected_base_net": 39600,
       "margin_pct": 80,
@@ -2673,17 +2797,50 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/draft_studycafe_exam_rules_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/draft_studycafe_exam_rules_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/studycafe_exam_rules_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/studycafe_exam_rules_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/01-thumbnail-studycafe-exam.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/02-sms-seat-noise-studycafe.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/03-checklist-studycafe-exam.svg",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_studycafe_exam_rules_20260516.md",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/draft_studycafe_exam_rules_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_studycafe_exam_rules_20260516_revised.md",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/draft_studycafe_exam_rules_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "studycafe_exam_rules_tistory_preview.html",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/studycafe_exam_rules_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "studycafe_exam_rules_tistory_body.html",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/studycafe_exam_rules_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-studycafe-exam.svg",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/01-thumbnail-studycafe-exam.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-sms-seat-noise-studycafe.svg",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/02-sms-seat-noise-studycafe.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-studycafe-exam.svg",
+          "url": "artifacts/opp_20260516_011_studycafe_exam_rules_blog/03-checklist-studycafe-exam.svg",
+          "type": "file"
+        },
         {
           "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/10"
+          "url": "https://beemo.tistory.com/10",
+          "type": "link"
         }
       ],
       "asset_count": 9,
@@ -2697,7 +2854,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 39600,
       "margin_pct": 80,
@@ -2842,15 +2999,51 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/laundry_rainy_season_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/laundry_rainy_season_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/01-thumbnail-laundry-rain.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/02-sms-laundry-rain.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/03-checklist-laundry-rain.svg",
-        "https://beemo.tistory.com/11"
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_laundry_rainy_season_messages_20260516.md",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/draft_laundry_rainy_season_messages_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_laundry_rainy_season_messages_20260516_revised.md",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/draft_laundry_rainy_season_messages_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "laundry_rainy_season_tistory_preview.html",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/laundry_rainy_season_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "laundry_rainy_season_tistory_body.html",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/laundry_rainy_season_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-laundry-rain.svg",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/01-thumbnail-laundry-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-sms-laundry-rain.svg",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/02-sms-laundry-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-laundry-rain.svg",
+          "url": "artifacts/opp_20260516_012_laundry_rainy_season_blog/03-checklist-laundry-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "11",
+          "url": "https://beemo.tistory.com/11",
+          "type": "file"
+        }
       ],
       "asset_count": 9,
       "updated_at": "2026-05-16T15:03:21+09:00"
@@ -2863,7 +3056,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 86,
       "expected_base_net": 39600,
       "margin_pct": 80,
@@ -3007,15 +3200,51 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/aircon_cleaning_booking_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/aircon_cleaning_booking_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/01-thumbnail-aircon-cleaning.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/02-sms-aircon-cleaning.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/03-checklist-aircon-cleaning.svg",
-        "https://beemo.tistory.com/12"
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_aircon_cleaning_booking_20260516.md",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/draft_aircon_cleaning_booking_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_aircon_cleaning_booking_20260516_revised.md",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/draft_aircon_cleaning_booking_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "aircon_cleaning_booking_tistory_preview.html",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/aircon_cleaning_booking_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "aircon_cleaning_booking_tistory_body.html",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/aircon_cleaning_booking_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-aircon-cleaning.svg",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/01-thumbnail-aircon-cleaning.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-sms-aircon-cleaning.svg",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/02-sms-aircon-cleaning.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-aircon-cleaning.svg",
+          "url": "artifacts/opp_20260516_013_aircon_cleaning_booking_blog/03-checklist-aircon-cleaning.svg",
+          "type": "file"
+        },
+        {
+          "name": "12",
+          "url": "https://beemo.tistory.com/12",
+          "type": "file"
+        }
       ],
       "asset_count": 9,
       "updated_at": "2026-05-16T15:03:21+09:00"
@@ -3028,7 +3257,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 47520,
       "margin_pct": 80,
@@ -3167,15 +3396,51 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/01-thumbnail-place-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/02-notice-place-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/03-checklist-place-vacation.svg",
-        "https://beemo.tistory.com/13"
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_naver_place_vacation_hours_20260516.md",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/draft_naver_place_vacation_hours_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_naver_place_vacation_hours_20260516_revised.md",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/draft_naver_place_vacation_hours_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "place_vacation_hours_tistory_body.html",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/place_vacation_hours_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "place_vacation_hours_tistory_preview.html",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/place_vacation_hours_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-place-vacation.svg",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/01-thumbnail-place-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-notice-place-vacation.svg",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/02-notice-place-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-place-vacation.svg",
+          "url": "artifacts/opp_20260516_014_place_vacation_hours_blog/03-checklist-place-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "13",
+          "url": "https://beemo.tistory.com/13",
+          "type": "file"
+        }
       ],
       "asset_count": 9,
       "updated_at": "2026-05-16T15:03:21+09:00"
@@ -3188,7 +3453,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 86,
       "expected_base_net": 51600,
       "margin_pct": 80,
@@ -3380,21 +3645,81 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/publish_pet_retry_20260516_1746.py",
-        "https://beemo.tistory.com/14",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_pet_tistory_20260516_1840.py",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/update_pet_post14_thumbnail_20260516_1848.py"
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_pet_grooming_rainy_booking_20260516.md",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_pet_grooming_rainy_booking_20260516_revised.md",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/draft_pet_grooming_rainy_booking_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "pet_grooming_rain_tistory_body.html",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/pet_grooming_rain_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "pet_grooming_rain_tistory_preview.html",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/pet_grooming_rain_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-pet-rain.svg",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/01-thumbnail-pet-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-kakao-pet-rain.svg",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/02-kakao-pet-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-pet-rain.svg",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/03-checklist-pet-rain.svg",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-pet-rain.png",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/01-thumbnail-pet-rain.png",
+          "type": "file"
+        },
+        {
+          "name": "02-kakao-pet-rain.png",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/02-kakao-pet-rain.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-pet-rain.png",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/03-checklist-pet-rain.png",
+          "type": "file"
+        },
+        {
+          "name": "publish_pet_retry_20260516_1746.py",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/publish_pet_retry_20260516_1746.py",
+          "type": "file"
+        },
+        {
+          "name": "14",
+          "url": "https://beemo.tistory.com/14",
+          "type": "file"
+        },
+        {
+          "name": "direct_publish_pet_tistory_20260516_1840.py",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/direct_publish_pet_tistory_20260516_1840.py",
+          "type": "file"
+        },
+        {
+          "name": "update_pet_post14_thumbnail_20260516_1848.py",
+          "url": "artifacts/opp_20260516_015_pet_grooming_rain_blog/update_pet_post14_thumbnail_20260516_1848.py",
+          "type": "file"
+        }
       ],
       "asset_count": 15,
       "updated_at": "2026-05-17T03:41:27+09:00"
@@ -3407,7 +3732,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 63360,
       "margin_pct": 80,
@@ -3610,24 +3935,76 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/cafe_summer_menu_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/cafe_summer_menu_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.png",
         {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_cafe_summer_menu_notice_20260516.md",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/draft_cafe_summer_menu_notice_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_cafe_summer_menu_notice_20260516_revised.md",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/draft_cafe_summer_menu_notice_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "cafe_summer_menu_tistory_body.html",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/cafe_summer_menu_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "cafe_summer_menu_tistory_preview.html",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/cafe_summer_menu_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-cafe-summer-menu.svg",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/01-thumbnail-cafe-summer-menu.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-menu-notice-cafe-summer.svg",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/02-menu-notice-cafe-summer.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-cafe-summer.svg",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/03-checklist-cafe-summer.svg",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-cafe-summer-menu.png",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/01-thumbnail-cafe-summer-menu.png",
+          "type": "file"
+        },
+        {
+          "name": "02-menu-notice-cafe-summer.png",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/02-menu-notice-cafe-summer.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-cafe-summer.png",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/03-checklist-cafe-summer.png",
+          "type": "file"
+        },
+        {
+          "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/16",
-          "title": "Tistory 공개 글",
           "type": "public_post"
         },
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_cafe_tistory_20260516_1906.py",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/update_cafe_post16_images_20260516_1909.py"
+        {
+          "name": "direct_publish_cafe_tistory_20260516_1906.py",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/direct_publish_cafe_tistory_20260516_1906.py",
+          "type": "file"
+        },
+        {
+          "name": "update_cafe_post16_images_20260516_1909.py",
+          "url": "artifacts/opp_20260516_016_cafe_summer_menu_blog/update_cafe_post16_images_20260516_1909.py",
+          "type": "file"
+        }
       ],
       "asset_count": 14,
       "updated_at": "2026-05-16T19:09:54+09:00"
@@ -3640,7 +4017,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 86,
       "expected_base_net": 61920,
       "margin_pct": 80,
@@ -3825,19 +4202,71 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/clinic_vacation_notice_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/01-thumbnail-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
-        "https://beemo.tistory.com/17",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_clinic_vacation_notice_20260516.md",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/draft_clinic_vacation_notice_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_clinic_vacation_notice_20260516_revised.md",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/draft_clinic_vacation_notice_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "clinic_vacation_notice_tistory_body.html",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/clinic_vacation_notice_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "clinic_vacation_notice_tistory_preview.html",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/clinic_vacation_notice_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-clinic-vacation.png",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/01-thumbnail-clinic-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "02-sms-clinic-vacation.png",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/02-sms-clinic-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-clinic-vacation.png",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/03-checklist-clinic-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-clinic-vacation.svg",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/01-thumbnail-clinic-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-sms-clinic-vacation.svg",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/02-sms-clinic-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-clinic-vacation.svg",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/03-checklist-clinic-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "17",
+          "url": "https://beemo.tistory.com/17",
+          "type": "file"
+        },
+        {
+          "name": "direct_publish_clinic_tistory_20260516_1922.py",
+          "url": "artifacts/opp_20260516_017_clinic_vacation_notice_blog/direct_publish_clinic_tistory_20260516_1922.py",
+          "type": "file"
+        }
       ],
       "asset_count": 13,
       "updated_at": "2026-05-16T19:30:05+09:00"
@@ -3850,7 +4279,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 63360,
       "margin_pct": 80,
@@ -4005,25 +4434,76 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/draft_childcare_vacation_survey_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/draft_childcare_vacation_survey_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/childcare_vacation_survey_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/childcare_vacation_survey_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/01-thumbnail-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/01-thumbnail-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/02-kidsnote-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/02-kidsnote-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/process_childcare_20260516_1827.py",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_childcare_vacation_survey_20260516.md",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/draft_childcare_vacation_survey_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_childcare_vacation_survey_20260516_revised.md",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/draft_childcare_vacation_survey_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "childcare_vacation_survey_tistory_body.html",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/childcare_vacation_survey_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "childcare_vacation_survey_tistory_preview.html",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/childcare_vacation_survey_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-childcare-vacation.svg",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/01-thumbnail-childcare-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-childcare-vacation.png",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/01-thumbnail-childcare-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "02-kidsnote-childcare-vacation.svg",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/02-kidsnote-childcare-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-kidsnote-childcare-vacation.png",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/02-kidsnote-childcare-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-childcare-vacation.svg",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/03-checklist-childcare-vacation.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-childcare-vacation.png",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/03-checklist-childcare-vacation.png",
+          "type": "file"
+        },
+        {
+          "name": "process_childcare_20260516_1827.py",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/process_childcare_20260516_1827.py",
+          "type": "file"
+        },
         {
           "name": "https://beemo.tistory.com/18",
-          "title": "공개 글",
-          "path": "https://beemo.tistory.com/18",
-          "viewer": "https://beemo.tistory.com/18"
+          "url": "https://beemo.tistory.com/18",
+          "type": "link"
         },
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
+        {
+          "name": "direct_publish_childcare_tistory_20260516_1941.py",
+          "url": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/direct_publish_childcare_tistory_20260516_1941.py",
+          "type": "file"
+        }
       ],
       "asset_count": 14,
       "updated_at": "2026-05-16T19:44:13+09:00"
@@ -4036,7 +4516,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 85,
       "expected_base_net": 55440,
       "margin_pct": 80,
@@ -4156,27 +4636,90 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/draft_oneday_class_booking_notice_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/draft_oneday_class_booking_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/process_oneday_20260516_1849.py",
+        {
+          "name": "blog_validation_brief.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/blog_validation_brief.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_oneday_class_booking_notice_20260516.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/draft_oneday_class_booking_notice_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "plan.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/plan.md",
+          "type": "file"
+        },
+        {
+          "name": "evidence.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/evidence.md",
+          "type": "file"
+        },
+        {
+          "name": "decisions.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/decisions.md",
+          "type": "file"
+        },
+        {
+          "name": "roi.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/roi.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_oneday_class_booking_notice_20260516_revised.md",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/draft_oneday_class_booking_notice_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "oneday_class_booking_tistory_body.html",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/oneday_class_booking_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "oneday_class_booking_tistory_preview.html",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/oneday_class_booking_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-oneday-class-booking.svg",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/01-thumbnail-oneday-class-booking.svg",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-oneday-class-booking.png",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/01-thumbnail-oneday-class-booking.png",
+          "type": "file"
+        },
+        {
+          "name": "02-kakao-oneday-class-booking.svg",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/02-kakao-oneday-class-booking.svg",
+          "type": "file"
+        },
+        {
+          "name": "02-kakao-oneday-class-booking.png",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/02-kakao-oneday-class-booking.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-oneday-class-booking.svg",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/03-checklist-oneday-class-booking.svg",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-oneday-class-booking.png",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/03-checklist-oneday-class-booking.png",
+          "type": "file"
+        },
+        {
+          "name": "process_oneday_20260516_1849.py",
+          "url": "artifacts/opp_20260516_019_oneday_class_booking_blog/process_oneday_20260516_1849.py",
+          "type": "file"
+        },
         {
           "name": "https://beemo.tistory.com/15",
-          "title": "공개 글",
-          "path": "https://beemo.tistory.com/15",
-          "viewer": "https://beemo.tistory.com/15"
+          "url": "https://beemo.tistory.com/15",
+          "type": "link"
         }
       ],
       "asset_count": 17,
@@ -4190,7 +4733,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "낮음",
       "quality": 82,
       "expected_base_net": 0,
       "margin_pct": null,
@@ -4348,16 +4891,56 @@
         }
       ],
       "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/draft_used_macbook_checklist_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png",
-        "https://beemo.tistory.com/19",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_macbook_tistory_20260516_2246.py"
+        {
+          "name": "blog_brief_used_macbook_checklist.md",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/blog_brief_used_macbook_checklist.md",
+          "type": "file"
+        },
+        {
+          "name": "sample_style_brief_used_macbook_20260516.md",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/sample_style_brief_used_macbook_20260516.md",
+          "type": "file"
+        },
+        {
+          "name": "draft_used_macbook_checklist_20260516_revised.md",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/draft_used_macbook_checklist_20260516_revised.md",
+          "type": "file"
+        },
+        {
+          "name": "used_macbook_checklist_tistory_body.html",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/used_macbook_checklist_tistory_body.html",
+          "type": "file"
+        },
+        {
+          "name": "used_macbook_checklist_tistory_preview.html",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/used_macbook_checklist_tistory_preview.html",
+          "type": "file"
+        },
+        {
+          "name": "01-thumbnail-used-macbook.png",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/01-thumbnail-used-macbook.png",
+          "type": "file"
+        },
+        {
+          "name": "02-message-used-macbook.png",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/02-message-used-macbook.png",
+          "type": "file"
+        },
+        {
+          "name": "03-checklist-used-macbook.png",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/03-checklist-used-macbook.png",
+          "type": "file"
+        },
+        {
+          "name": "19",
+          "url": "https://beemo.tistory.com/19",
+          "type": "file"
+        },
+        {
+          "name": "direct_publish_macbook_tistory_20260516_2246.py",
+          "url": "artifacts/opp_20260516_020_used_macbook_buying_checklist_blog/direct_publish_macbook_tistory_20260516_2246.py",
+          "type": "file"
+        }
       ],
       "asset_count": 10,
       "updated_at": "2026-05-17T00:04:24+09:00"
