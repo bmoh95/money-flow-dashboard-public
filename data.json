@@ -1,41 +1,33 @@
 {
-  "updated_at": "2026-05-16T20:18:14+09:00",
+  "updated_at": "2026-05-16T20:30:41+09:00",
   "last_run": {
-    "run_id": "2026-05-16_2017_money-flow",
-    "started_at": "2026-05-16T20:17:14+09:00",
-    "finished_at": "2026-05-16T20:17:14+09:00",
+    "run_id": "2026-05-16_2030_money-flow",
+    "started_at": "2026-05-16T20:30:37+09:00",
+    "finished_at": "2026-05-16T20:30:37+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "planning_member",
-      "planning_lead",
+      "ledger",
       "execution_member",
       "execution_lead",
       "redteam",
-      "roi",
-      "ledger_dashboard_manager"
+      "roi"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/draft_used_macbook_checklist_20260516_revised.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/used_macbook_checklist_tistory_preview.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/01-thumbnail-used-macbook.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png"
-    ],
+    "assets_created": [],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+        "agent": "redteam",
         "decision": "HOLD",
-        "reason": "Tistory daily public publish limit"
+        "reason_code": null,
+        "summary": "Tistory Profile 2 세션으로 재게시를 시도했으나 공개 발행 일일 제한 15개가 계속 403으로 차단. 로그인 실패가 아니라 플랫폼 quota 대기."
       }
     ],
-    "summary": "기존 planning 항목 1개를 블로그 자산 제작/QA까지 처리했으나 Tistory 일일 공개 발행 제한으로 redteam_hold 전환.",
-    "final_report": "REPORT"
+    "summary": "Backlog retry only. Same Tistory daily publish limit remains; no state transition.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 20,
@@ -75,19 +67,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T18:51:30+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개 검증 전까지 HOLD.",
-      "links": []
-    },
     {
       "time": "2026-05-16T18:51:30+09:00",
       "run_id": "2026-05-16_1849_money-flow",
@@ -588,6 +567,19 @@
       "decision": "HOLD",
       "reason_code": null,
       "summary": "직접 매출 0원인 무료 검증 글. 재사용 가능한 자산 생성 완료, 공개는 플랫폼 제한 해소 후 진행.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T20:30:37+09:00",
+      "run_id": "2026-05-16_2030_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "Tistory 공개 발행 일일 제한(15개)이 계속 403으로 확인되어 상태 전환 없이 대기 유지. Profile 2 로그인/이미지 업로드는 정상.",
       "links": []
     }
   ],
