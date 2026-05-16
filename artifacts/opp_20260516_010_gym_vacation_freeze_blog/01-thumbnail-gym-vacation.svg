@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="헬스장 여름휴가 안내문 이미지">
+  <rect width="1200" height="720" fill="#F7FBFF"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#dbe6f3;stroke-width:3} .accent{fill:#1f7aec} .soft{fill:#eaf3ff}</style>
+  
+  <circle cx="1020" cy="120" r="90" fill="#dbeafe"/><circle cx="130" cy="600" r="120" fill="#e0f2fe"/>
+  <rect x="110" y="105" width="980" height="510" rx="42" class="box"/>
+  <text x="160" y="210" font-size="38" class="muted">회원 문의 줄이는 휴무 공지</text>
+  <text x="160" y="315" font-size="72" font-weight="800">헬스장 여름휴가</text>
+  <text x="160" y="405" font-size="64" font-weight="800">안내문 정리법</text>
+  <rect x="160" y="470" width="610" height="76" rx="24" class="soft"/>
+  <text x="195" y="520" font-size="34">휴무일 · 회원권 정지 · PT 보강</text>
+  <rect x="840" y="420" width="140" height="140" rx="28" class="accent"/><text x="876" y="507" font-size="62" fill="white">✓</text>
+
+</svg>

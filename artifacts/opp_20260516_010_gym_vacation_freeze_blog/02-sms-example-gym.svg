@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="헬스장 여름휴가 안내문 이미지">
+  <rect width="1200" height="720" fill="#F7FBFF"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#dbe6f3;stroke-width:3} .accent{fill:#1f7aec} .soft{fill:#eaf3ff}</style>
+  
+  <text x="90" y="90" font-size="42" font-weight="800">문자/카톡 공지는 짧게, 기준은 분명하게</text>
+  <rect x="120" y="145" width="960" height="450" rx="34" class="box"/>
+  <rect x="170" y="205" width="650" height="82" rx="28" fill="#e8f5e9"/>
+  <text x="205" y="257" font-size="30">8/12(월)~8/15(목) 여름휴가 휴무입니다.</text>
+  <rect x="170" y="315" width="770" height="82" rx="28" fill="#eef6ff"/>
+  <text x="205" y="367" font-size="30">회원권 반영 여부는 센터 규정에 따라 안내드립니다.</text>
+  <rect x="170" y="425" width="700" height="82" rx="28" fill="#fff7ed"/>
+  <text x="205" y="477" font-size="30">PT·그룹수업 보강은 담당자와 순차 조율됩니다.</text>
+  <text x="120" y="655" font-size="26" class="muted">※ 실제 계약/환불 기준은 센터 규정과 회원권 종류에 맞춰 확인</text>
+
+</svg>
