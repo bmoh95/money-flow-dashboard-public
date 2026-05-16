@@ -1,88 +1,44 @@
 {
-  "updated_at": "2026-05-16T18:54:10+09:00",
+  "updated_at": "2026-05-16T19:09:59+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1849_money-flow",
-    "started_at": "2026-05-16T18:51:30+09:00",
-    "finished_at": "2026-05-16T18:54:10+09:00",
+    "run_id": "2026-05-16_1909_money-flow",
+    "started_at": "2026-05-16T19:09:54+09:00",
+    "finished_at": "2026-05-16T19:09:54+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
-      "ledger_dashboard_manager"
+      "ledger"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/draft_oneday_class_booking_notice_20260516_revised.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/oneday_class_booking_tistory_preview.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/01-thumbnail-oneday-class-booking.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/02-kakao-oneday-class-booking.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/process_oneday_20260516_1849.py",
-      "https://beemo.tistory.com/15"
+      "https://beemo.tistory.com/16",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.png"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-05-16T18:51:30+09:00",
-        "agent": "execution_member",
+        "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+        "from_status": "redteam_hold",
+        "to_status": "tracking",
         "decision": "GO",
-        "summary": "썸네일·카톡 예시·체크리스트 PNG/SVG 3장, 수정 Markdown, Tistory HTML/preview 생성."
-      },
-      {
-        "time": "2026-05-16T18:51:30+09:00",
-        "agent": "execution_lead",
-        "decision": "GO",
-        "summary": "환불·예약금 단정 표현을 운영 안내 예시로 완화하고 로컬 HTML 렌더링 QA 통과."
-      },
-      {
-        "time": "2026-05-16T18:51:30+09:00",
-        "agent": "redteam",
-        "decision": "HOLD",
-        "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-        "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개 검증 전까지 HOLD."
-      },
-      {
-        "time": "2026-05-16T18:51:30+09:00",
-        "agent": "roi",
-        "decision": "HOLD",
-        "reason_code": "EDITOR_AUTOMATION_BLOCKED",
-        "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능."
-      },
-      {
-        "time": "2026-05-16T18:54:10+09:00",
-        "agent": "execution_lead",
-        "decision": "GO",
-        "summary": "Tistory 직접 API 게시, 공개 URL·본문 이미지·og:image 검증 완료."
-      },
-      {
-        "time": "2026-05-16T18:54:10+09:00",
-        "agent": "redteam",
-        "decision": "GO",
-        "summary": "환불·예약금·플랫폼 기준 문구를 단정 대신 운영 안내 예시로 완화했고 공개 검증 통과."
-      },
-      {
-        "time": "2026-05-16T18:54:10+09:00",
-        "agent": "roi",
-        "decision": "GO",
-        "summary": "무료 검증 글 공개 완료. 실제 매출 0원, 후속 전환은 검색 반응 추적 후 판단."
+        "summary": "카페 시즌메뉴 무료 검증 글 Tistory 게시 및 공개 QA 완료"
       }
     ],
-    "summary": "Processed oneday class blog, published to Tistory, verified public URL and thumbnail OG image.",
-    "final_report": "published_tracking"
+    "summary": "오래된 redteam_hold 1건을 직접 API 게시 경로로 해소하고 tracking 전환.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다."
   },
   "metrics": {
     "total": 20,
-    "active": 5,
+    "active": 3,
     "approval_needed": 0,
-    "launched": 13,
+    "launched": 15,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -94,13 +50,6 @@
       "status": "검증 보류",
       "next_action": "지원 이미지 3장·개인정보/기관 운영 문구 완화·Tistory HTML 렌더링 QA 완료. Profile 2 로그인은 확인됐으나 newpost 에디터 Runtime Timeout으로 게시 자동화만 보류.",
       "quality": 85
-    },
-    {
-      "id": "opp_20260516_015_pet_grooming_rain_blog",
-      "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "Tistory Profile 2 로그인은 재확인됨. SVG 대신 PNG 대표 이미지로 본문을 갱신했지만, 글쓰기 newpost target의 CDP Runtime 응답 Timeout이 반복되어 게시 자동화만 보류. 다음 실행은 에디터 세션 정상화 또는 수동 에디터 확인 필요.",
-      "quality": 86
     },
     {
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
@@ -115,31 +64,10 @@
       "status": "검증 보류",
       "next_action": "Tistory Profile 2 로그인은 확인됨(beemo/글쓰기/관리 표시). 글쓰기 화면 진입 중 CDP Runtime Timeout이 발생해 게시 자동화만 보류. 콘텐츠/이미지/공개 dashboard artifact는 준비 완료.",
       "quality": 86
-    },
-    {
-      "id": "opp_20260516_016_cafe_summer_menu_blog",
-      "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "이미지/문구/HTML QA와 공개 dashboard artifact 검증 완료. Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류.",
-      "quality": 85
     }
   ],
   "approval_needed": [],
   "priority_queue": [
-    {
-      "id": "opp_20260516_015_pet_grooming_rain_blog",
-      "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "Tistory Profile 2 로그인은 재확인됨. SVG 대신 PNG 대표 이미지로 본문을 갱신했지만, 글쓰기 newpost target의 CDP Runtime 응답 Timeout이 반복되어 게시 자동화만 보류. 다음 실행은 에디터 세션 정상화 또는 수동 에디터 확인 필요.",
-      "quality": 86
-    },
-    {
-      "id": "opp_20260516_016_cafe_summer_menu_blog",
-      "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "이미지/문구/HTML QA와 공개 dashboard artifact 검증 완료. Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류.",
-      "quality": 85
-    },
     {
       "id": "opp_20260516_017_clinic_vacation_notice_blog",
       "title": "치과·동네의원 여름휴가 휴진/예약변경 안내 무료 검증 글",
@@ -163,7 +91,7 @@
     }
   ],
   "rejection_summary": {
-    "에디터 자동화 막힘": 4,
+    "에디터 자동화 막힘": 2,
     "차별성 약함": 1,
     "HIGH_RISK": 2
   },
@@ -173,108 +101,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T17:25:28+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "근거 부족",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 후속 기준 순마진 80% 가정은 공개 후 반응 추적 시만 의미 있음.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:25:44+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "제작",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "카페 여름 시즌메뉴 무료 검증 글 지원 이미지 3장, 수정 Markdown, Tistory HTML/preview 생성 및 리스크 문구 완화.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/cafe_summer_menu_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/cafe_summer_menu_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.svg"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:25:44+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "이미지 3개, 알레르기/성분 보장 완화, HTML 렌더링 구조 QA 통과. 게시 세션 확인 단계로 진행.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/cafe_summer_menu_tistory_preview.html"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:25:44+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "근거 부족",
-      "summary": "알레르기/성분 보장 오해는 완화됨. 공개 URL 검증 전까지 HOLD 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:25:44+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "근거 부족",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 후속 기준 순마진 80% 가정은 공개 후 반응 추적 시만 의미 있음.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T17:32:10+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "Tistory 로그인은 확인됐으나 글쓰기 에디터 Runtime 평가가 Timeout으로 응답하지 않아 게시 자동화 보류.",
-      "links": [
-        "https://beemo.tistory.com/manage/newpost"
-      ]
-    },
-    {
-      "time": "2026-05-16T17:32:10+09:00",
-      "run_id": "2026-05-16_1721_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "콘텐츠 리스크와 QA는 해결. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
     {
       "time": "2026-05-16T17:32:10+09:00",
       "run_id": "2026-05-16_1721_money-flow",
@@ -621,6 +447,111 @@
       "summary": "무료 검증 공개 후 반응 추적 단계로 전환. 실제 매출 0원.",
       "links": [
         "https://beemo.tistory.com/15"
+      ]
+    },
+    {
+      "time": "2026-05-16T18:55:33+09:00",
+      "run_id": "manual_2026-05-16_image_fix",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "카드 이미지 3장 타이포그래피/간격 수정 및 PNG 재생성",
+      "links": [
+        "https://beemo.tistory.com/14"
+      ]
+    },
+    {
+      "time": "2026-05-16T18:55:33+09:00",
+      "run_id": "manual_2026-05-16_image_fix",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개 글 이미지/대표이미지/OG 재검증 완료",
+      "links": [
+        "https://beemo.tistory.com/14"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:09:54+09:00",
+      "run_id": "2026-05-16_1909_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory direct API로 무료 검증 글 게시 완료",
+      "links": [
+        "https://beemo.tistory.com/16"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:09:54+09:00",
+      "run_id": "2026-05-16_1909_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 글 제목, 이미지 3장, OG 대표 이미지, 본문 간격 QA 통과",
+      "links": [
+        "https://beemo.tistory.com/16"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:09:54+09:00",
+      "run_id": "2026-05-16_1909_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "알레르기/성분 보장 오해 문구 완화 및 무판매 CTA 확인",
+      "links": [
+        "https://beemo.tistory.com/16"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:09:54+09:00",
+      "run_id": "2026-05-16_1909_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 추적 단계 전환. 실제 매출 0원, 기준 기대 순마진은 유료 전환 재개 전 가정치로만 유지",
+      "links": [
+        "https://beemo.tistory.com/16"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:09:54+09:00",
+      "run_id": "2026-05-16_1909_money-flow",
+      "agent": "원장",
+      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory URL 및 게시/이미지 업데이트 스크립트, PNG 자산 기록",
+      "links": [
+        "https://beemo.tistory.com/16"
       ]
     }
   ],
@@ -3146,27 +3077,29 @@
       "key": "MF-15",
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "에디터 자동화 막힘",
+      "stop_reason": null,
       "quality": 86,
       "expected_base_net": 51600,
       "margin_pct": 80,
       "expected_price": 12900,
       "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 펫살롱 상황별 예약/우천/노쇼 안내문 ZIP",
-      "owner": "제작 검수",
-      "next_action": "Tistory Profile 2 로그인은 재확인됨. SVG 대신 PNG 대표 이미지로 본문을 갱신했지만, 글쓰기 newpost target의 CDP Runtime 응답 Timeout이 반복되어 게시 자동화만 보류. 다음 실행은 에디터 세션 정상화 또는 수동 에디터 확인 필요.",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 공개 글 이미지 3장 재제작 및 대표이미지/OG 검증 완료. 글씨 겹침·간격 문제를 수정했으므로 공개 글 유입/반응만 추적.",
       "risk_flags": [
-        "EDITOR_AUTOMATION_BLOCKED",
-        "editor_cdp_newpost_unresponsive",
         "free_template_competition",
         "paid_conversion_unproven",
         "tistory_logged_in_profile2_confirmed",
-        "tistory_thumbnail_png_ready"
+        "tistory_published",
+        "public_url_verified",
+        "tistory_thumbnail_verified",
+        "image_typography_fixed",
+        "monitor_search_response"
       ],
       "evidence": [
         {
@@ -3305,6 +3238,30 @@
           "decision": "HOLD",
           "reason_code": "EDITOR_AUTOMATION_BLOCKED",
           "summary": "무료 검증 글 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능."
+        },
+        {
+          "time": "2026-05-16T18:55:33+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "사용자 지적에 따라 카드 이미지 3장을 재배치: 제목/부제/목록 간격 확대, 목록 박스화, PNG 1200x800 재렌더링."
+        },
+        {
+          "time": "2026-05-16T18:55:33+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "수정 PNG 3장 시각 검수 완료: 텍스트 겹침 해소, 여백/줄간격 개선."
+        },
+        {
+          "time": "2026-05-16T18:55:33+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "이미지 가독성 문제 재발 방지를 위해 SVG 원본과 PNG 산출물을 함께 갱신. 공개 글도 수정 완료."
+        },
+        {
+          "time": "2026-05-16T18:55:33+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 글 공개 및 대표이미지/OG 확인 완료. 상태를 tracking으로 전환."
         }
       ],
       "assets": [
@@ -3379,6 +3336,24 @@
           "title": "publish_pet_retry_20260516_1746.py",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/publish_pet_retry_20260516_1746.py",
           "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/publish_pet_retry_20260516_1746.py"
+        },
+        {
+          "name": "https://beemo.tistory.com/14",
+          "title": "공개 글",
+          "path": "https://beemo.tistory.com/14",
+          "viewer": "https://beemo.tistory.com/14"
+        },
+        {
+          "name": "direct_publish_pet_tistory_20260516_1840.py",
+          "title": "direct_publish_pet_tistory_20260516_1840.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_pet_tistory_20260516_1840.py",
+          "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/direct_publish_pet_tistory_20260516_1840.py"
+        },
+        {
+          "name": "update_pet_post14_thumbnail_20260516_1848.py",
+          "title": "update_pet_post14_thumbnail_20260516_1848.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/update_pet_post14_thumbnail_20260516_1848.py",
+          "viewer": "artifacts/opp_20260516_015_pet_grooming_rain_blog/update_pet_post14_thumbnail_20260516_1848.py"
         }
       ]
     },
@@ -3386,27 +3361,27 @@
       "key": "MF-16",
       "id": "opp_20260516_016_cafe_summer_menu_blog",
       "title": "개인 카페 여름 시즌메뉴 품절·알레르기 문의 안내 무료 검증 글",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "에디터 자동화 막힘",
+      "stop_reason": null,
       "quality": 85,
       "expected_base_net": 63360,
       "margin_pct": 80,
       "expected_price": 9900,
       "buyer_or_payer": "여름 시즌메뉴·빙수·디저트를 운영하는 개인 카페/디저트샵 사장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 카페 시즌메뉴/품절/알레르기 안내문 ZIP",
-      "owner": "제작 검수",
-      "next_action": "이미지/문구/HTML QA와 공개 dashboard artifact 검증 완료. Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류.",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색/유입 반응을 추적하고, 유료 전환은 사용자 판매 재개 전까지 보류.",
       "risk_flags": [
-        "EDITOR_AUTOMATION_BLOCKED",
         "allergy_wording_softened",
-        "editor_cdp_newpost_unresponsive",
         "free_template_competition",
         "paid_conversion_unproven",
-        "tistory_preview_ready"
+        "tistory_profile2_direct_api_publish_verified",
+        "tistory_visual_qa_passed_public",
+        "tistory_thumbnail_png_verified"
       ],
       "evidence": [
         {
@@ -3564,6 +3539,30 @@
           "decision": "HOLD",
           "reason_code": "EDITOR_AUTOMATION_BLOCKED",
           "summary": "무료 검증 글 공개 전이므로 실제 매출 0원. 게시 성공 후 tracking 전환 가능."
+        },
+        {
+          "time": "2026-05-16T19:09:54+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "Tistory 직접 API 경로로 PNG 3장 업로드 후 무료 검증 글 게시."
+        },
+        {
+          "time": "2026-05-16T19:09:54+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "공개 페이지 제목/본문 이미지 3장/OG 대표 이미지/문단 간격 시각 QA 통과."
+        },
+        {
+          "time": "2026-05-16T19:09:54+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "알레르기 보장 표현 완화, 판매 CTA 없음, 무료 검증 글 범위로 리스크 비차단."
+        },
+        {
+          "time": "2026-05-16T19:09:54+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 글은 현금화 전 단계. 실제 매출 0원이나 검색 반응 추적 자산으로 전환."
         }
       ],
       "assets": [
@@ -3614,6 +3613,42 @@
           "title": "03-checklist-cafe-summer.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.svg",
           "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/03-checklist-cafe-summer.svg"
+        },
+        {
+          "name": "01-thumbnail-cafe-summer-menu.png",
+          "title": "01-thumbnail-cafe-summer-menu.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.png",
+          "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/01-thumbnail-cafe-summer-menu.png"
+        },
+        {
+          "name": "02-menu-notice-cafe-summer.png",
+          "title": "02-menu-notice-cafe-summer.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.png",
+          "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/02-menu-notice-cafe-summer.png"
+        },
+        {
+          "name": "03-checklist-cafe-summer.png",
+          "title": "03-checklist-cafe-summer.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.png",
+          "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/03-checklist-cafe-summer.png"
+        },
+        {
+          "name": "https://beemo.tistory.com/16",
+          "title": "공개 글",
+          "path": "https://beemo.tistory.com/16",
+          "viewer": "https://beemo.tistory.com/16"
+        },
+        {
+          "name": "direct_publish_cafe_tistory_20260516_1906.py",
+          "title": "direct_publish_cafe_tistory_20260516_1906.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_cafe_tistory_20260516_1906.py",
+          "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/direct_publish_cafe_tistory_20260516_1906.py"
+        },
+        {
+          "name": "update_cafe_post16_images_20260516_1909.py",
+          "title": "update_cafe_post16_images_20260516_1909.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/update_cafe_post16_images_20260516_1909.py",
+          "viewer": "artifacts/opp_20260516_016_cafe_summer_menu_blog/update_cafe_post16_images_20260516_1909.py"
         }
       ]
     },
