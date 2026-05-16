@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T19:30:05+09:00",
+  "updated_at": "2026-05-16T19:44:13+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1922_money-flow",
-    "started_at": "2026-05-16T19:22:05+09:00",
-    "finished_at": "2026-05-16T19:28:00+09:00",
+    "run_id": "2026-05-16_1941_money-flow",
+    "started_at": "2026-05-16T19:41:51+09:00",
+    "finished_at": "2026-05-16T19:44:13+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -16,20 +16,17 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "https://beemo.tistory.com/17",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
-      "https://beemo.tistory.com/17",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
+      "https://beemo.tistory.com/18",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
+        "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
         "from_status": "redteam_hold",
         "to_status": "tracking",
         "decision": "GO",
-        "summary": "치과·의원 휴진 안내 무료 검증 글 Tistory 게시 및 공개 QA 완료"
+        "summary": "어린이집·유치원 여름방학 등원 수요조사 무료 검증 글 Tistory 게시 및 공개 QA 완료"
       }
     ],
     "summary": "오래된 redteam_hold 1건을 직접 API 게시 경로로 해소하고 tracking 전환.",
@@ -37,21 +34,14 @@
   },
   "metrics": {
     "total": 20,
-    "active": 2,
+    "active": 1,
     "approval_needed": 0,
-    "launched": 16,
+    "launched": 17,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
   },
   "active_opportunities": [
-    {
-      "id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "title": "어린이집·유치원 여름방학 등원 수요조사 안내문 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "지원 이미지 3장·개인정보/기관 운영 문구 완화·Tistory HTML 렌더링 QA 완료. Profile 2 로그인은 확인됐으나 newpost 에디터 Runtime Timeout으로 게시 자동화만 보류.",
-      "quality": 85
-    },
     {
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
@@ -63,13 +53,6 @@
   "approval_needed": [],
   "priority_queue": [
     {
-      "id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "title": "어린이집·유치원 여름방학 등원 수요조사 안내문 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "지원 이미지 3장·개인정보/기관 운영 문구 완화·Tistory HTML 렌더링 QA 완료. Profile 2 로그인은 확인됐으나 newpost 에디터 Runtime Timeout으로 게시 자동화만 보류.",
-      "quality": 85
-    },
-    {
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
       "status": "기획",
@@ -78,7 +61,6 @@
     }
   ],
   "rejection_summary": {
-    "에디터 자동화 막힘": 1,
     "차별성 약함": 1,
     "HIGH_RISK": 2
   },
@@ -88,60 +70,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "근거 부족",
-      "summary": "의료광고/진료 보장/개인정보 오해는 완화됨. 공개 URL 검증 전까지 HOLD 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:10:07+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "근거 부족",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 후속 기준 순마진 80% 가정은 공개 후 반응 추적 시만 의미 있음.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:16:06+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "Profile 2 로그인 확인 후 Tistory 게시를 시도했으나 글쓰기 target Runtime 응답 Timeout으로 게시 자동화 차단. AUTH_BLOCKED 아님.",
-      "links": [
-        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_017_clinic_vacation_notice_blog/clinic_vacation_notice_tistory_preview.html"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:16:06+09:00",
-      "run_id": "2026-05-16_1806_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "콘텐츠/이미지/리스크 문구는 게시 가능 수준. 외부 공개만 에디터 자동화 문제로 차단.",
-      "links": []
-    },
     {
       "time": "2026-05-16T18:16:06+09:00",
       "run_id": "2026-05-16_1806_money-flow",
@@ -549,6 +477,67 @@
       "summary": "공개 Tistory 시각 QA 통과: 본문 이미지 3장과 문단/제목 간격 확인.",
       "links": [
         "https://beemo.tistory.com/17"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:44:13+09:00",
+      "run_id": "2026-05-16_1941_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory API 게시용 PNG 3장 업로드 및 어린이집·유치원 수요조사 무료 검증 글 공개 자산 생성.",
+      "links": [
+        "https://beemo.tistory.com/18",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:44:13+09:00",
+      "run_id": "2026-05-16_1941_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 무료 검증 글 게시 및 공개 URL/이미지 3장/og:image 검증 완료.",
+      "links": [
+        "https://beemo.tistory.com/18"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:44:13+09:00",
+      "run_id": "2026-05-16_1941_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "개인정보 노출·기관별 운영 기준 단정 리스크 완화 확인.",
+      "links": [
+        "https://beemo.tistory.com/18"
+      ]
+    },
+    {
+      "time": "2026-05-16T19:44:13+09:00",
+      "run_id": "2026-05-16_1941_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 공개 후 반응 추적 단계로 전환. 실제 매출 0원.",
+      "links": [
+        "https://beemo.tistory.com/18"
       ]
     }
   ],
@@ -3924,20 +3913,20 @@
       "key": "MF-18",
       "id": "opp_20260516_018_childcare_vacation_survey_blog",
       "title": "어린이집·유치원 여름방학 등원 수요조사 안내문 무료 검증 글",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "에디터 자동화 막힘",
+      "stop_reason": null,
       "quality": 85,
       "expected_base_net": 63360,
       "margin_pct": 80,
       "expected_price": 9900,
       "buyer_or_payer": "여름방학 수요조사 안내문을 준비하는 어린이집·유치원 원장님, 교사, 행정 담당자",
-      "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 방학/긴급보육/방과후 안내문 ZIP",
-      "owner": "제작 검수",
-      "next_action": "지원 이미지 3장·개인정보/기관 운영 문구 완화·Tistory HTML 렌더링 QA 완료. Profile 2 로그인은 확인됐으나 newpost 에디터 Runtime Timeout으로 게시 자동화만 보류.",
+      "channel": "Tistory 무료 블로그 검증",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 방학 안내문·긴급보육 안내 자료 보강 여부만 판단.",
       "risk_flags": [
         "institution_policy_variation",
         "free_template_competition",
@@ -3945,8 +3934,10 @@
         "personal_data_wording_softened",
         "tistory_visual_qa_passed_local",
         "tistory_thumbnail_png_ready",
-        "EDITOR_AUTOMATION_BLOCKED",
-        "tistory_logged_in_profile2_confirmed"
+        "tistory_published",
+        "public_url_verified",
+        "og_image_verified",
+        "institution_policy_wording_softened"
       ],
       "evidence": [
         {
@@ -4058,6 +4049,24 @@
           "decision": "HOLD",
           "reason_code": "EDITOR_AUTOMATION_BLOCKED",
           "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능."
+        },
+        {
+          "time": "2026-05-16T19:44:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Tistory 직접 API 게시, 공개 URL·본문 이미지 3장·og:image 검증 완료."
+        },
+        {
+          "time": "2026-05-16T19:44:13+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "개인정보 노출·기관 운영 기준 단정 표현 완화 및 무판매 CTA 확인."
+        },
+        {
+          "time": "2026-05-16T19:44:13+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 글 공개 완료. 실제 매출 0원, 후속 전환은 검색 반응 추적 후 판단."
         }
       ],
       "assets": [
@@ -4132,6 +4141,18 @@
           "title": "process_childcare_20260516_1827.py",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/process_childcare_20260516_1827.py",
           "viewer": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/process_childcare_20260516_1827.py"
+        },
+        {
+          "name": "https://beemo.tistory.com/18",
+          "title": "공개 글",
+          "path": "https://beemo.tistory.com/18",
+          "viewer": "https://beemo.tistory.com/18"
+        },
+        {
+          "name": "direct_publish_childcare_tistory_20260516_1941.py",
+          "title": "direct_publish_childcare_tistory_20260516_1941.py",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py",
+          "viewer": "artifacts/opp_20260516_018_childcare_vacation_survey_blog/direct_publish_childcare_tistory_20260516_1941.py"
         }
       ]
     },
