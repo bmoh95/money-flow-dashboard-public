@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T04:42:43+09:00",
+  "updated_at": "2026-05-17T04:56:13+09:00",
   "last_run": {
-    "run_id": "2026-05-17_0442_money-flow",
-    "started_at": "2026-05-17T04:42:43+09:00",
-    "finished_at": "2026-05-17T04:42:43+09:00",
+    "run_id": "2026-05-17_0456_money-flow",
+    "started_at": "2026-05-17T04:56:13+09:00",
+    "finished_at": "2026-05-17T04:56:13+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -31,10 +31,10 @@
       {
         "agent": "ledger_dashboard_manager",
         "decision": "HOLD",
-        "summary": "No new backlog state change; no local actionable hold remains."
+        "summary": "No material backlog state change; no local actionable hold remains."
       }
     ],
-    "summary": "Backlog-only processor checked existing redteam_hold/ready_for_approval/auth/editor/permission queue. No local actionable hold remains; duplicate public-post cleanup still requires user approval.",
+    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. One external duplicate-post cleanup still requires user approval; no L3 deletion/private conversion executed.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -577,7 +577,7 @@
     {
       "time": "2026-05-17T00:01:47+09:00",
       "run_id": "2026-05-17_0001_money-flow",
-      "agent": "ledger",
+      "agent": "대시보드",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "status_changed",
       "from_status": "redteam_hold",
