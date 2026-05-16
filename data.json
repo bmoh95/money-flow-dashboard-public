@@ -1,65 +1,45 @@
 {
-  "updated_at": "2026-05-16T14:51:13+09:00",
+  "updated_at": "2026-05-16T14:54:36+09:00",
   "last_run": {
     "run_id": "2026-05-16_1450_money-flow",
     "started_at": "2026-05-16T14:50:20+09:00",
-    "finished_at": null,
+    "finished_at": "2026-05-16T14:54:36+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
       "execution_lead",
+      "redteam",
+      "roi",
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516_revised.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_preview.html",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_preview.html"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/01-thumbnail-place-vacation.svg",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/02-notice-place-vacation.svg",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/03-checklist-place-vacation.svg"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-05-16T14:50:20+09:00",
-        "run_id": "2026-05-16_1450_money-flow",
-        "agent": "execution_member",
         "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
-        "event": "asset_created",
-        "from_status": "redteam_hold",
-        "to_status": "redteam_hold",
         "decision": "GO",
-        "reason_code": null,
-        "summary": "지원 이미지 SVG 3장, 완화 문구 반영 Markdown, Tistory HTML/preview 생성",
-        "links": [
-          "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516_revised.md",
-          "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/place_vacation_hours_tistory_preview.html"
-        ]
-      },
-      {
-        "time": "2026-05-16T14:50:20+09:00",
-        "run_id": "2026-05-16_1450_money-flow",
-        "agent": "execution_lead",
-        "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
-        "event": "decision",
-        "from_status": "redteam_hold",
-        "to_status": "redteam_hold",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "이미지 3개, 문구 리스크 완화, HTML 렌더링 구조 QA 통과. 게시 세션 확인 단계로 진행",
-        "links": [
-          "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_014_place_vacation_hours_blog/place_vacation_hours_tistory_preview.html"
-        ]
+        "to_status": "tracking",
+        "summary": "보류 글 이미지/리스크/렌더링 QA 후 Tistory 게시 완료"
       }
     ],
-    "summary": "가장 오래된 redteam_hold 항목의 이미지/문구/렌더링 QA 처리",
-    "final_report": null
+    "summary": "가장 오래된 redteam_hold 항목 1개를 처리해 무료 검증 글로 게시하고 tracking 전환.",
+    "final_report": "published"
   },
   "metrics": {
     "total": 19,
-    "active": 6,
+    "active": 5,
     "approval_needed": 0,
-    "launched": 11,
+    "launched": 12,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -94,13 +74,6 @@
       "quality": 85
     },
     {
-      "id": "opp_20260516_014_place_vacation_hours_blog",
-      "title": "네이버플레이스 여름휴가 영업시간·휴무 공지 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "지원 이미지 3장과 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 결과 URL을 검증.",
-      "quality": 85
-    },
-    {
       "id": "opp_20260516_019_oneday_class_booking_blog",
       "title": "공방 원데이클래스 예약 안내문·카톡 문구 무료 검증 글",
       "status": "검증 보류",
@@ -110,13 +83,6 @@
   ],
   "approval_needed": [],
   "priority_queue": [
-    {
-      "id": "opp_20260516_014_place_vacation_hours_blog",
-      "title": "네이버플레이스 여름휴가 영업시간·휴무 공지 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "지원 이미지 3장과 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 결과 URL을 검증.",
-      "quality": 85
-    },
     {
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
@@ -154,7 +120,7 @@
     }
   ],
   "rejection_summary": {
-    "근거 부족": 6,
+    "근거 부족": 5,
     "차별성 약함": 1,
     "HIGH_RISK": 2
   },
@@ -164,65 +130,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T12:33:48+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "인증 필요",
-      "summary": "무료 검증 게시 전 매출 0원, 후속 피트니스 운영 문자 ZIP 기준 순마진 80% 가정 유지.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T12:37:37+09:00",
-      "run_id": "2026-05-16_1237_money-flow-manual-publish",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 무료 검증 글 공개 및 검증 완료: https://beemo.tistory.com/5. duplicate cleanup pending: https://beemo.tistory.com/4",
-      "links": [
-        "https://beemo.tistory.com/5",
-        "https://beemo.tistory.com/4"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:39:19+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "헬스장 무료 검증 글 Tistory 공개 및 URL 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/6"
-      ]
-    },
-    {
-      "time": "2026-05-16T12:39:19+09:00",
-      "run_id": "2026-05-16_1226_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환.",
-      "links": [
-        "https://beemo.tistory.com/6"
-      ]
-    },
     {
       "time": "2026-05-16T12:39:19+09:00",
       "run_id": "2026-05-16_1226_money-flow",
@@ -622,6 +529,62 @@
       "links": [
         "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260516_014_place_vacation_hours_blog/place_vacation_hours_tistory_preview.html"
       ]
+    },
+    {
+      "time": "2026-05-16T14:54:36+09:00",
+      "run_id": "2026-05-16_1450_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "네이버 UI 변경/업종별 운영 차이/효과 보장 표현 완화 완료",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T14:54:36+09:00",
+      "run_id": "2026-05-16_1450_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 무료 검증 글 공개 및 URL 검증 완료",
+      "links": [
+        "https://beemo.tistory.com/13"
+      ]
+    },
+    {
+      "time": "2026-05-16T14:54:36+09:00",
+      "run_id": "2026-05-16_1450_money-flow",
+      "agent": "원장",
+      "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "redteam_hold에서 tracking으로 전환",
+      "links": [
+        "https://beemo.tistory.com/13"
+      ]
+    },
+    {
+      "time": "2026-05-16T14:54:36+09:00",
+      "run_id": "2026-05-16_1450_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_014_place_vacation_hours_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출 0원, 무료 검증 반응 추적 단계. 후속 ZIP 기준 순마진 80% 가정 유지",
+      "links": []
     }
   ],
   "board_columns": [
@@ -2897,26 +2860,24 @@
       "key": "MF-14",
       "id": "opp_20260516_014_place_vacation_hours_blog",
       "title": "네이버플레이스 여름휴가 영업시간·휴무 공지 무료 검증 글",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "근거 부족",
+      "stop_reason": null,
       "quality": 85,
       "expected_base_net": 47520,
       "margin_pct": 80,
       "expected_price": 9900,
       "buyer_or_payer": "네이버플레이스 의존도가 높은 카페·미용실·네일샵·공방·식당 등 1인/소규모 매장 사장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 업종별 휴무·임시휴무·재오픈 공지문 ZIP",
-      "owner": "제작 검수",
-      "next_action": "지원 이미지 3장과 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 결과 URL을 검증.",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업종별 휴무 공지 문구 요청 신호가 있으면 후속 ZIP 상품화를 재검토.",
       "risk_flags": [
-        "free_template_competition",
-        "naver_ui_change_risk",
-        "store_policy_variance",
         "paid_conversion_unproven",
-        "needs_images_and_tistory_visual_qa"
+        "monitor_search_response",
+        "naver_ui_change_risk_softened"
       ],
       "evidence": [
         {
@@ -3007,6 +2968,30 @@
           "decision": "HOLD",
           "reason_code": "NO_EVIDENCE",
           "summary": "무료 검증 전 실제 매출 0원."
+        },
+        {
+          "time": "2026-05-16T14:54:36+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "지원 이미지 3장, 네이버 UI 단정 완화 Markdown/HTML, Tistory용 본문 파일 생성."
+        },
+        {
+          "time": "2026-05-16T14:54:36+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "공개 페이지 렌더링 QA 통과: 제목/문단/이미지 3개/체크리스트 확인."
+        },
+        {
+          "time": "2026-05-16T14:54:36+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "플랫폼 UI 단정, 운영 기준, 효과 보장 표현을 완화해 게시 리스크 비차단."
+        },
+        {
+          "time": "2026-05-16T14:54:36+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 글 공개 완료. 현재 매출 0원, 기준 순마진 가정은 후속 ZIP 전환 시 유지."
         }
       ],
       "assets": [
@@ -3057,6 +3042,12 @@
           "title": "03-checklist-place-vacation.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/03-checklist-place-vacation.svg",
           "viewer": "artifacts/opp_20260516_014_place_vacation_hours_blog/03-checklist-place-vacation.svg"
+        },
+        {
+          "name": "https://beemo.tistory.com/13",
+          "title": "공개 글",
+          "path": "https://beemo.tistory.com/13",
+          "viewer": "https://beemo.tistory.com/13"
         }
       ]
     },
