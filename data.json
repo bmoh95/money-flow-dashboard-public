@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T22:34:48+09:00",
+  "updated_at": "2026-05-16T22:49:49+09:00",
   "last_run": {
-    "run_id": "2026-05-16_2233_money-flow",
-    "started_at": "2026-05-16T22:34:48+09:00",
-    "finished_at": "2026-05-16T22:34:48+09:00",
+    "run_id": "2026-05-16_2246_money-flow",
+    "started_at": "2026-05-16T22:49:49+09:00",
+    "finished_at": "2026-05-16T22:49:49+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -15,14 +15,16 @@
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [],
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_macbook_tistory_20260516_2246.py"
+    ],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
         "agent": "redteam",
         "decision": "HOLD",
-        "summary": "Profile 2 세션/API로 22:33 재시도. newpost 접근과 PNG 3장 업로드는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속됨."
+        "summary": "Profile 2 세션/API로 22:46 재시도. newpost 접근과 PNG 3장 업로드는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속됨."
       }
     ],
     "summary": "Backlog item rechecked; Tistory daily public publish limit unchanged. No material user-facing state change.",
@@ -42,7 +44,7 @@
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
       "status": "검증 보류",
-      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:07 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:46 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -52,7 +54,7 @@
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
       "status": "검증 보류",
-      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:07 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:46 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -3828,6 +3830,7 @@
         "tistory_daily_publish_limit_rechecked_2125",
         "tistory_daily_publish_limit_rechecked_2153",
         "tistory_daily_publish_limit_rechecked_2207",
+        "tistory_daily_publish_limit_rechecked_2246",
         "tistory_thumbnail_png_ready",
         "tistory_visual_qa_passed_local",
         "used_trade_scam_wording_softened",
@@ -3841,7 +3844,7 @@
       "buyer_or_payer": "중고 맥북 구매 전 실수 줄이고 싶은 개인 독자",
       "channel": "Tistory 무료 블로그",
       "current_owner": "redteam",
-      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:07 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 22:46 재시도에서도 유지됨. Profile 2 로그인/이미지 업로드/HTML 준비는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "evidence": [
         {
           "url": "https://support.apple.com/en-us/102888",
@@ -3923,7 +3926,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/02-message-used-macbook.png",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png"
       ],
-      "updated_at": "2026-05-16T22:09:12+09:00"
+      "updated_at": "2026-05-16T22:49:49+09:00"
     }
   ]
 }
