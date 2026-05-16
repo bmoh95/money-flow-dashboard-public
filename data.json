@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T13:13:41+09:00",
+  "updated_at": "2026-05-16T13:30:05+09:00",
   "last_run": {
-    "run_id": "2026-05-16_1308_money-flow",
-    "started_at": "2026-05-16T13:13:41+09:00",
-    "finished_at": "2026-05-16T13:13:41+09:00",
+    "run_id": "2026-05-16_1328_money-flow",
+    "started_at": "2026-05-16T13:30:05+09:00",
+    "finished_at": "2026-05-16T13:30:05+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_lead",
@@ -15,40 +15,40 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "https://beemo.tistory.com/8"
+      "https://beemo.tistory.com/9"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "execution_lead",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "쇼핑몰·배달 종소세 매출자료 정리 무료 검증 글 Tistory 공개 및 렌더링 검증 완료."
+        "summary": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글 Tistory 공개 및 렌더링 검증 완료."
       },
       {
         "agent": "redteam",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "세무 자문 단정 표현 완화와 전문가 확인 고지 확인. 리스크 HOLD 해제."
+        "summary": "소비자분쟁·플랫폼 약관 단정 표현 완화와 확인 고지 확인. 리스크 HOLD 해제."
       },
       {
         "agent": "roi",
-        "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
+        "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
         "decision": "GO",
         "reason_code": null,
         "summary": "무료 검증 게시 완료. 실제 매출 0원, 기준 순마진 80% 가정은 후속 ZIP 전환 시 적용."
       }
     ],
-    "summary": "Oldest actionable redteam_hold store tax blog published to Tistory and moved to tracking.",
-    "final_report": "MF store tax blog launched/tracking."
+    "summary": "Oldest actionable redteam_hold pension refund blog published to Tistory and moved to tracking.",
+    "final_report": "MF pension refund blog launched/tracking."
   },
   "metrics": {
     "total": 19,
     "active": 17,
     "approval_needed": 0,
-    "launched": 7,
+    "launched": 8,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -99,8 +99,8 @@
     {
       "id": "opp_20260515_009_pension_cancel_refund_blog",
       "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 소비자분쟁·플랫폼 약관 오해 표현 완화 완료. Tistory는 현재 로그인 화면이라 기존 로그인 세션 복구 후 게시 재시도 필요.",
+      "status": "운영/수익",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 ZIP 전환 여부 판단.",
       "quality": 84
     },
     {
@@ -227,10 +227,10 @@
     {
       "id": "opp_20260515_009_pension_cancel_refund_blog",
       "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
-      "priority": "medium",
-      "why": "검증 보류",
-      "status": "redteam_hold",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 소비자분쟁·플랫폼 약관 오해 표현 완화 완료. Tistory는 현재 로그인 화면이라 기존 로그인 세션 복구 후 게시 재시도 필요."
+      "priority": "low",
+      "why": "검증/운영 추적",
+      "status": "tracking",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 ZIP 전환 여부 판단."
     },
     {
       "id": "opp_20260516_010_gym_vacation_freeze_blog",
@@ -316,7 +316,6 @@
   "rejection_summary": {
     "WEAK_DIFFERENTIATION": 1,
     "HIGH_RISK": 2,
-    "AUTH_BLOCKED": 1,
     "NO_EVIDENCE": 9
   },
   "roi": {
@@ -325,48 +324,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T11:18:26+09:00",
-      "run_id": "2026-05-16_1115_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "프리랜서 간편장부 글 지원 이미지 3장, 수정 Markdown, HTML 미리보기 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html"
-      ]
-    },
-    {
-      "time": "2026-05-16T11:18:26+09:00",
-      "run_id": "2026-05-16_1115_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "로컬 렌더링 QA 통과. Tistory 공개는 로그인 화면으로 인증 보류.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T11:18:26+09:00",
-      "run_id": "2026-05-16_1115_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "세무 자문 오해 표현 완화 완료. 외부 게시 인증만 남음.",
-      "links": []
-    },
     {
       "time": "2026-05-16T11:18:26+09:00",
       "run_id": "2026-05-16_1115_money-flow",
@@ -899,6 +856,51 @@
       "summary": "무료 검증 게시 완료. 실제 매출 0원, 기준 순마진 80% 가정은 후속 ZIP 전환 시 적용.",
       "links": [
         "https://beemo.tistory.com/8"
+      ]
+    },
+    {
+      "time": "2026-05-16T13:30:05+09:00",
+      "run_id": "2026-05-16_1328_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글 Tistory 공개 및 렌더링 검증 완료.",
+      "links": [
+        "https://beemo.tistory.com/9"
+      ]
+    },
+    {
+      "time": "2026-05-16T13:30:05+09:00",
+      "run_id": "2026-05-16_1328_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "소비자분쟁·플랫폼 약관 단정 표현 완화와 확인 고지 확인. 리스크 HOLD 해제.",
+      "links": [
+        "https://beemo.tistory.com/9"
+      ]
+    },
+    {
+      "time": "2026-05-16T13:30:05+09:00",
+      "run_id": "2026-05-16_1328_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_009_pension_cancel_refund_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 게시 완료. 실제 매출 0원, 기준 순마진 80% 가정은 후속 ZIP 전환 시 적용.",
+      "links": [
+        "https://beemo.tistory.com/9"
       ]
     }
   ],
@@ -2152,18 +2154,19 @@
       "id": "opp_20260515_009_pension_cancel_refund_blog",
       "title": "펜션·숙박업 예약 취소/환불 안내문 무료 검증 글",
       "type": "other",
-      "status": "redteam_hold",
-      "column": "검증 보류",
-      "priority": "MED",
-      "stop_reason_code": "AUTH_BLOCKED",
+      "status": "tracking",
+      "column": "운영/수익",
+      "priority": "LOW",
+      "stop_reason_code": null,
       "risk_flags": [
         "consumer_law_wording_softened",
         "paid_conversion_unproven",
         "platform_policy_variance",
         "platform_policy_wording_softened",
         "seasonal_keyword_competition",
-        "tistory_auth_blocked",
-        "tistory_preview_ready"
+        "tistory_preview_ready",
+        "tistory_published",
+        "public_url_verified"
       ],
       "quality": 84,
       "base_net": 31680,
@@ -2171,8 +2174,8 @@
       "expected_price": 9900,
       "buyer_or_payer": "펜션·게스트하우스·독채 숙소 등 소규모 숙박업 운영자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 숙박업 예약/취소/환불 문구 ZIP",
-      "current_owner": "redteam",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 소비자분쟁·플랫폼 약관 오해 표현 완화 완료. Tistory는 현재 로그인 화면이라 기존 로그인 세션 복구 후 게시 재시도 필요.",
+      "current_owner": "roi",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 ZIP 전환 여부 판단.",
       "evidence": [
         {
           "url": "https://www.consumer.go.kr/",
@@ -2297,9 +2300,27 @@
           "decision": "HOLD",
           "reason_code": "AUTH_BLOCKED",
           "summary": "무료 검증 게시 전 매출 0원, 후속 숙박업 안내문 ZIP 기준 순마진 80% 가정 유지."
+        },
+        {
+          "time": "2026-05-16T13:30:05+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Tistory Profile 2 CDP 로그인 세션으로 무료 검증 글 공개. 공개 페이지에서 제목, 이미지 3장, 문단 렌더링 확인."
+        },
+        {
+          "time": "2026-05-16T13:30:05+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "소비자분쟁·플랫폼 약관 오해 표현 완화 확인. 게시 차단 리스크 해소."
+        },
+        {
+          "time": "2026-05-16T13:30:05+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
         }
       ],
-      "asset_count": 7,
+      "asset_count": 8,
       "asset_links": [
         {
           "label": "blog_validation_brief.md",
@@ -2342,6 +2363,12 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/03-checklist-pension-refund.svg",
           "name": "03-checklist-pension-refund.svg",
           "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/03-checklist-pension-refund.svg"
+        },
+        {
+          "label": "Tistory 공개 글",
+          "path": "https://beemo.tistory.com/9",
+          "name": "https://beemo.tistory.com/9",
+          "url": "https://beemo.tistory.com/9"
         }
       ]
     },
