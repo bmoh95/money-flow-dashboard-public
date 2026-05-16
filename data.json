@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T00:01:47+09:00",
+  "updated_at": "2026-05-17T00:04:24+09:00",
   "last_run": {
     "run_id": "2026-05-17_0001_money-flow",
     "started_at": "2026-05-17T00:01:47+09:00",
-    "finished_at": "2026-05-17T00:01:47+09:00",
+    "finished_at": "2026-05-17T00:04:24+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -47,9 +47,16 @@
         "decision": "GO",
         "reason_code": null,
         "summary": "opportunity status redteam_hold -> tracking."
+      },
+      {
+        "agent": "execution_lead",
+        "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "공개 본문 이미지 3장 DOM 로드와 Tistory 홈 목록 실제 썸네일 표시 확인."
       }
     ],
-    "summary": "MacBook checklist free validation post published to Tistory and verified.",
+    "summary": "MacBook checklist free validation post published to Tistory and verified. Public body/list thumbnail visual QA passed.",
     "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260516_020_used_macbook_buying_checklist_blog` Tistory 게시 및 검증 완료: https://beemo.tistory.com/19\n- 상태 `redteam_hold` → `tracking` 전환.\n\n**시장성 판단**\n- 무료 검증 글로 운영. Apple 공식 확인 흐름과 중고거래 실수 방지 수요에 맞춤.\n\n**예상 순마진**\n- 직접 매출 0원 / 후속 반응 추적.\n\n**대기**\n- 대시보드 갱신 및 GitHub Pages 반영 확인.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
@@ -74,21 +81,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T19:09:54+09:00",
-      "run_id": "2026-05-16_1909_money-flow",
-      "agent": "원장",
-      "opportunity_id": "opp_20260516_016_cafe_summer_menu_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory URL 및 게시/이미지 업데이트 스크립트, PNG 자산 기록",
-      "links": [
-        "https://beemo.tistory.com/16"
-      ]
-    },
     {
       "time": "2026-05-16T19:12:36+09:00",
       "run_id": "2026-05-16_thumbnail_recovery",
@@ -595,6 +587,22 @@
       "summary": "opportunity status redteam_hold -> tracking.",
       "links": [
         "https://beemo.tistory.com/19"
+      ]
+    },
+    {
+      "time": "2026-05-17T00:04:24+09:00",
+      "run_id": "2026-05-17_0001_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 본문 이미지 3장 DOM 로드와 Tistory 홈 목록 실제 썸네일 표시 확인.",
+      "links": [
+        "https://beemo.tistory.com/19",
+        "https://beemo.tistory.com/"
       ]
     }
   ],
@@ -4465,8 +4473,10 @@
         "activation_lock_wording_softened",
         "apple_official_fact_check_done",
         "body_images_3_verified",
+        "public_body_images_3_dom_verified",
         "public_url_verified",
         "thumbnail_og_verified",
+        "tistory_list_thumbnail_real_verified",
         "tistory_published",
         "tistory_thumbnail_png_ready",
         "tistory_visual_qa_passed_local",
@@ -4596,6 +4606,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 글이라 직접 매출은 0원. 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-17T00:04:24+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "공개 본문 DOM에서 이미지 3장 로드 확인, 홈 목록 첫 카드에서 기본 T placeholder가 아닌 실제 썸네일 확인."
         }
       ],
       "assets": [
