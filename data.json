@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-05-16T20:58:40+09:00",
+  "updated_at": "2026-05-16T21:12:47+09:00",
   "last_run": {
-    "run_id": "2026-05-16_2056_money-flow",
-    "started_at": "2026-05-16T20:56:50+09:00",
-    "finished_at": "2026-05-16T20:58:40+09:00",
+    "run_id": "2026-05-16_2110_money-flow",
+    "started_at": "2026-05-16T21:10:21+09:00",
+    "finished_at": "2026-05-16T21:12:47+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "ledger",
+      "ledger_dashboard_manager",
       "execution_member",
       "execution_lead",
       "redteam",
@@ -19,13 +19,13 @@
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "redteam",
         "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+        "agent": "redteam",
         "decision": "HOLD",
-        "summary": "Tistory Profile 2 세션/이미지 업로드는 정상이나 공개 발행 API가 동일하게 403 daily publish limit 반환. 신규 기회 생성 없이 quota 대기 유지."
+        "summary": "Profile 2 기존 로그인 세션과 직접 API 경로로 공개 발행 재시도. 이미지 업로드/HTML 준비는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속되어 quota 리셋 대기."
       }
     ],
-    "summary": "Backlog-only run: oldest redteam_hold rechecked. Tistory public publish still blocked by daily 15-post quota, not login/auth failure. No material state change.",
+    "summary": "Backlog item rechecked; Tistory daily publish limit unchanged. No material user-facing state change.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -42,7 +42,7 @@
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
       "status": "검증 보류",
-      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 21:10 재시도에서도 유지됨. 기존 Profile 2 로그인/이미지 업로드는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -52,7 +52,7 @@
       "id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "title": "중고 맥북 구매 전 배터리·보증·잠금 체크리스트 무료 블로그",
       "status": "검증 보류",
-      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 21:10 재시도에서도 유지됨. 기존 Profile 2 로그인/이미지 업로드는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "quality": 82
     }
   ],
@@ -66,49 +66,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T18:51:30+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "에디터 자동화 막힘",
-      "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T18:54:10+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 무료 검증 글 게시 및 공개 URL/이미지/og:image 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/15"
-      ]
-    },
-    {
-      "time": "2026-05-16T18:54:10+09:00",
-      "run_id": "2026-05-16_1849_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "환불·예약금·플랫폼 약관 오해 리스크 완화 확인.",
-      "links": [
-        "https://beemo.tistory.com/15"
-      ]
-    },
     {
       "time": "2026-05-16T18:54:10+09:00",
       "run_id": "2026-05-16_1849_money-flow",
@@ -579,6 +536,45 @@
       "decision": "HOLD",
       "reason_code": null,
       "summary": "Tistory 공개 발행 일일 제한(15개)이 계속 403으로 확인되어 상태 전환 없이 대기 유지. Profile 2 로그인/이미지 업로드는 정상.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T21:12:47+09:00",
+      "run_id": "2026-05-16_2110_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "Profile 2 로그인/API 접근 및 PNG attach 업로드 성공. 공개 발행 전 단계까지 정상.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T21:12:47+09:00",
+      "run_id": "2026-05-16_2110_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "Profile 2 기존 로그인 세션과 직접 API 경로로 공개 발행 재시도. 이미지 업로드/HTML 준비는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속되어 quota 리셋 대기.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T21:12:47+09:00",
+      "run_id": "2026-05-16_2110_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "무료 검증 글 직접 매출 0원. 새 작업은 만들지 않고 quota 리셋 후 재시도 대상으로 유지.",
       "links": []
     }
   ],
@@ -4444,11 +4440,12 @@
       "buyer_or_payer": "중고 맥북 구매 전 실수 줄이고 싶은 개인 독자",
       "channel": "Tistory 무료 블로그",
       "owner": "리스크 검토",
-      "next_action": "Tistory 하루 공개 발행 15개 제한으로 게시가 막힘. 기존 Profile 2 로그인/이미지 업로드는 정상이며, quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
+      "next_action": "Tistory 하루 공개 발행 15개 제한이 21:10 재시도에서도 유지됨. 기존 Profile 2 로그인/이미지 업로드는 정상이며 quota 리셋 후 같은 HTML/PNG로 공개 게시 재시도.",
       "risk_flags": [
         "activation_lock_wording_softened",
         "apple_official_fact_check_done",
         "tistory_daily_publish_limit",
+        "tistory_daily_publish_limit_rechecked",
         "tistory_thumbnail_png_ready",
         "tistory_visual_qa_passed_local",
         "used_trade_scam_wording_softened",
@@ -4517,6 +4514,12 @@
           "agent": "roi",
           "decision": "HOLD",
           "summary": "무료 검증 글이라 직접 매출 0원. 제작 자산은 재사용 가능하며 다음 리셋 후 공개 가치 있음."
+        },
+        {
+          "time": "2026-05-16T21:12:47+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "summary": "Profile 2 기존 로그인 세션과 직접 API 경로로 공개 발행 재시도. 이미지 업로드/HTML 준비는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속되어 quota 리셋 대기."
         }
       ],
       "assets": [
