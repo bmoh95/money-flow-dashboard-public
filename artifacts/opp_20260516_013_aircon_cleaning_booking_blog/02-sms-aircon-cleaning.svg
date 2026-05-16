@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="방문 전 준비 안내 문자 예시 카드">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .blue{fill:#e0f2fe} .green{fill:#e8f5e9} .yellow{fill:#fff7d6}</style>
+  
+  <text x="90" y="90" font-size="42" font-weight="800">방문 전 안내는 짧고 구체적으로</text>
+  <rect x="115" y="145" width="970" height="455" rx="34" class="box"/>
+  <rect x="165" y="200" width="780" height="82" rx="28" fill="#e8f5e9"/>
+  <text x="200" y="252" font-size="30">내일 에어컨 청소 방문 예정입니다.</text>
+  <rect x="165" y="310" width="830" height="82" rx="28" fill="#eef6ff"/>
+  <text x="200" y="362" font-size="30">주변 물건, 콘센트·물 사용 가능 여부를 확인해주세요.</text>
+  <rect x="165" y="420" width="805" height="82" rx="28" fill="#fff7ed"/>
+  <text x="200" y="472" font-size="30">주차가 어렵다면 미리 말씀 부탁드립니다.</text>
+  <text x="115" y="655" font-size="25" class="muted">※ 작업 시간·가능 범위는 현장 상태에 따라 달라질 수 있음</text>
+
+</svg>
