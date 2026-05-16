@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T06:37:36+09:00",
+  "updated_at": "2026-05-17T06:49:34+09:00",
   "last_run": {
-    "run_id": "2026-05-17_0637_money-flow",
-    "started_at": "2026-05-17T06:37:36+09:00",
-    "finished_at": "2026-05-17T06:37:36+09:00",
+    "run_id": "2026-05-17_0649_money-flow",
+    "started_at": "2026-05-17T06:49:34+09:00",
+    "finished_at": "2026-05-17T06:49:34+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -34,7 +34,7 @@
         "summary": "No material backlog state change; no local actionable hold remains."
       }
     ],
-    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. One external duplicate-post cleanup still requires user approval; no L3 deletion/private conversion executed.",
+    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. Existing duplicate-post cleanup still requires explicit approval; no external deletion/private conversion executed.",
     "final_report": "[SILENT]"
   },
   "metrics": {
