@@ -1,42 +1,39 @@
 {
-  "updated_at": "2026-05-16T15:03:22+09:00",
+  "updated_at": "2026-05-16T15:13:36+09:00",
   "last_run": {
     "run_id": "2026-05-16_1503_money-flow",
     "started_at": "2026-05-16T15:03:21+09:00",
-    "finished_at": "2026-05-16T15:03:21+09:00",
+    "finished_at": "2026-05-16T15:13:36+09:00",
     "trigger": "manual",
     "agents_executed": [
-      "research_member",
-      "research_lead",
-      "planning_member",
-      "planning_lead",
+      "execution_member",
+      "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 3,
-    "opportunities_advanced": 1,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516_revised.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_preview.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_body.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/01-thumbnail-pet-rain.svg",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/02-kakao-pet-rain.svg",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/03-checklist-pet-rain.svg"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "research_lead",
-        "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
-        "decision": "GO",
-        "summary": "중고 맥북 체크리스트 무료 블로그 기획 GO"
-      },
-      {
-        "agent": "roi",
-        "opportunity_id": "multiple",
-        "decision": "PIVOT",
-        "summary": "유료화/ZIP 전환 중지 반영"
+        "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+        "decision": "HOLD",
+        "to_status": "redteam_hold",
+        "summary": "이미지/문구/렌더링 QA 완료, Tistory 에디터 자동화 차단"
       }
     ],
-    "summary": "콘텐츠 판매 중지 상태로 Money Flow 수동 실행. 기존 유료화 문구 제거, 신규 무료 블로그 후보 1개 기획.",
-    "final_report": "주인님, Money Flow 수동 실행 완료. 판매 전환 없이 무료 블로그 기획 1개 생성."
+    "summary": "가장 오래된 redteam_hold 항목 1개를 처리했으나 Tistory 글쓰기 에디터 자동화 응답 없음으로 게시 보류.",
+    "final_report": "editor_blocked"
   },
   "metrics": {
     "total": 20,
@@ -59,7 +56,7 @@
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
+      "next_action": "Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류. 로컬 글/이미지/HTML과 공개 대시보드 artifact는 준비 완료. 다음 실행에서 에디터 세션 재시도 또는 수동 에디터 확인 필요.",
       "quality": 86
     },
     {
@@ -97,7 +94,7 @@
       "id": "opp_20260516_015_pet_grooming_rain_blog",
       "title": "반려동물 미용샵 장마철 예약 변경·건조 안내 무료 검증 글",
       "status": "검증 보류",
-      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
+      "next_action": "Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류. 로컬 글/이미지/HTML과 공개 대시보드 artifact는 준비 완료. 다음 실행에서 에디터 세션 재시도 또는 수동 에디터 확인 필요.",
       "quality": 86
     },
     {
@@ -137,8 +134,9 @@
     }
   ],
   "rejection_summary": {
-    "근거 부족": 5,
+    "근거 부족": 4,
     "차별성 약함": 1,
+    "에디터 자동화 막힘": 1,
     "HIGH_RISK": 2
   },
   "roi": {
@@ -147,36 +145,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T13:13:41+09:00",
-      "run_id": "2026-05-16_1308_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "쇼핑몰·배달 종소세 매출자료 정리 무료 검증 글 Tistory 공개 및 렌더링 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/8"
-      ]
-    },
-    {
-      "time": "2026-05-16T13:13:41+09:00",
-      "run_id": "2026-05-16_1308_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260515_008_store_tax_sales_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "세무 자문 단정 표현 완화와 전문가 확인 고지 확인. 리스크 HOLD 해제.",
-      "links": [
-        "https://beemo.tistory.com/8"
-      ]
-    },
     {
       "time": "2026-05-16T13:13:41+09:00",
       "run_id": "2026-05-16_1308_money-flow",
@@ -599,6 +567,34 @@
       "decision": "HOLD",
       "reason_code": null,
       "summary": "판매/크몽 전환 없음. 본문 작성 전 공식 팩트와 중고거래 표현 검수 필요.",
+      "links": []
+    },
+    {
+      "time": "2026-05-16T15:13:36+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "에디터 자동화 막힘",
+      "summary": "이미지/문구/HTML QA 완료. Tistory 기존 세션 로그인 확인 후 게시 시도했으나 글쓰기 에디터 CDP가 응답하지 않아 게시 자동화 보류.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/pet_grooming_rain_tistory_preview.html"
+      ]
+    },
+    {
+      "time": "2026-05-16T15:13:36+09:00",
+      "run_id": "2026-05-16_1503_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "에디터 자동화 막힘",
+      "summary": "예약금·펫케어 단정 리스크는 완화됨. 남은 차단 사유는 에디터 자동화 문제.",
       "links": []
     }
   ],
@@ -3129,7 +3125,7 @@
       "column": "검증 보류",
       "type": "기타",
       "priority": "보통",
-      "stop_reason": "근거 부족",
+      "stop_reason": "에디터 자동화 막힘",
       "quality": 86,
       "expected_base_net": 51600,
       "margin_pct": 80,
@@ -3137,13 +3133,12 @@
       "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 펫살롱 상황별 예약/우천/노쇼 안내문 ZIP",
       "owner": "제작 검수",
-      "next_action": "지원 이미지 3장과 예약금/펫케어 리스크 문구 완화, HTML 렌더링 QA 완료. Tistory 기존 로그인 세션으로 무료 검증 글 게시를 시도하고 URL 검증.",
+      "next_action": "Tistory 로그인은 확인됐으나 글쓰기 에디터 CDP가 newpost 화면에서 응답하지 않아 게시 자동화만 보류. 로컬 글/이미지/HTML과 공개 대시보드 artifact는 준비 완료. 다음 실행에서 에디터 세션 재시도 또는 수동 에디터 확인 필요.",
       "risk_flags": [
-        "reservation_fee_policy_risk",
-        "pet_health_advice_overreach",
         "free_template_competition",
         "paid_conversion_unproven",
-        "needs_images_and_tistory_visual_qa"
+        "editor_cdp_newpost_unresponsive",
+        "EDITOR_AUTOMATION_BLOCKED"
       ],
       "evidence": [
         {
@@ -3234,6 +3229,27 @@
           "decision": "HOLD",
           "reason_code": "NO_EVIDENCE",
           "summary": "무료 검증 전 실제 매출 0원."
+        },
+        {
+          "time": "2026-05-16T15:13:36+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "Tistory 기존 세션 로그인은 확인. 글쓰기 에디터 newpost target이 CDP Runtime/Page 명령에 응답하지 않아 게시 자동화 보류."
+        },
+        {
+          "time": "2026-05-16T15:13:36+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "예약금/펫케어 단정 표현과 이미지/HTML QA는 해결. 외부 게시만 에디터 자동화 문제로 차단."
+        },
+        {
+          "time": "2026-05-16T15:13:36+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "EDITOR_AUTOMATION_BLOCKED",
+          "summary": "무료 검증 글 공개 전이므로 실제 매출 0원. 공개되면 반응 추적 단계 전환 가능."
         }
       ],
       "assets": [
