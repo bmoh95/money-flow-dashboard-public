@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#f5fbff"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#2f6f73" stroke-width="4"/>
+  <circle cx="1010" cy="150" r="72" fill="#2f6f73" opacity="0.12"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="53" font-weight="700" fill="#30231c">카톡 답장 예시</text>
+  <text x="88" y="185" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#66584f">짧게, 기준은 흐리지 않게</text>
+  <text x="86" y="222" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 예약 확인되었습니다</text><text x="86" y="276" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 시작 10분 전 도착 부탁드려요</text><text x="86" y="330" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 재료 준비 후 변경은 빠르게 연락</text>
+  <rect x="86" y="650" width="390" height="54" rx="27" fill="#2f6f73" opacity="0.13"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#2f6f73" font-weight="700">부드럽게 단호하게</text>
+</svg>

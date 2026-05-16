@@ -1,10 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
   <rect width="1200" height="800" rx="42" fill="#eef6ff"/>
   <rect x="54" y="54" width="1092" height="692" rx="34" fill="#fff" stroke="#e5e7eb" stroke-width="4"/>
-  <rect x="86" y="92" width="176" height="50" rx="25" fill="#2563eb" opacity="0.94"/>
-  <text x="174" y="126" text-anchor="middle" font-size="24" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#fff" font-weight="700">장마철 안내</text>
-  <text x="92" y="210" font-size="52" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#111" font-weight="800">비 오는 날</text><text x="92" y="272" font-size="52" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#111" font-weight="800">애견미용 예약 안내</text>
-  <text x="94" y="292" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#666">보호자에게 미리 알려두면 덜 꼬이는 5가지</text>
-  <g><text x="94" y="330" font-size="29" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#333">✓ 도착 시간 여유</text><text x="94" y="388" font-size="29" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#333">✓ 젖은 털 안내</text><text x="94" y="446" font-size="29" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#333">✓ 변경 요청 기준</text><text x="94" y="504" font-size="29" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#333">✓ 예약금 문구 완화</text></g>
-  <text x="94" y="704" font-size="23" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#777">※ 샵 기준에 맞춰 바꿔 쓰는 운영 문구 예시입니다.</text>
+  <rect x="86" y="92" width="188" height="52" rx="26" fill="#2563eb" opacity="0.95"/>
+  <text x="180" y="127" text-anchor="middle" font-size="24" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#fff" font-weight="800">장마철 안내</text>
+
+  <text x="92" y="214" font-size="56" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#111" font-weight="900">비 오는 날</text>
+  <text x="92" y="286" font-size="56" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#111" font-weight="900">애견미용 예약 안내</text>
+  <text x="94" y="336" font-size="29" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#5f6368" font-weight="500">보호자에게 미리 알려두면 덜 꼬이는 5가지</text>
+
+  <g><rect x="92" y="362" width="520" height="54" rx="18" fill="#f8fafc"/><text x="116" y="396" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#2f3437" font-weight="600">✓ 도착 시간 여유</text><rect x="92" y="430" width="520" height="54" rx="18" fill="#f8fafc"/><text x="116" y="464" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#2f3437" font-weight="600">✓ 젖은 털 안내</text><rect x="92" y="498" width="520" height="54" rx="18" fill="#f8fafc"/><text x="116" y="532" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#2f3437" font-weight="600">✓ 변경 요청 기준</text><rect x="92" y="566" width="520" height="54" rx="18" fill="#f8fafc"/><text x="116" y="600" font-size="28" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#2f3437" font-weight="600">✓ 예약금 문구 완화</text></g>
+
+  <text x="94" y="704" font-size="23" font-family="Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif" fill="#777" font-weight="500">※ 샵 기준에 맞춰 바꿔 쓰는 운영 문구 예시입니다.</text>
 </svg>

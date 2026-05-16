@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#f7f6ff"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#6260a8" stroke-width="4"/>
+  <circle cx="1010" cy="150" r="72" fill="#6260a8" opacity="0.12"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="53" font-weight="700" fill="#30231c">예약 전 체크리스트</text>
+  <text x="88" y="185" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#66584f">안내문에 빠지기 쉬운 항목</text>
+  <text x="86" y="222" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 준비물·복장</text><text x="86" y="276" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 주차·위치</text><text x="86" y="330" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 지각 시 진행 시간</text><text x="86" y="384" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 단체 예약 여부</text><text x="86" y="438" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 플랫폼 환불 기준</text>
+  <rect x="86" y="650" width="390" height="54" rx="27" fill="#6260a8" opacity="0.13"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#6260a8" font-weight="700">환불은 약관 먼저 확인</text>
+</svg>

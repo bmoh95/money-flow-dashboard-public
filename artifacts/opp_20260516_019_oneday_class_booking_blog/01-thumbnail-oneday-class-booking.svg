@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" rx="42" fill="#fff8ef"/>
+  <rect x="54" y="54" width="1092" height="692" rx="34" fill="#ffffff" stroke="#a86635" stroke-width="4"/>
+  <circle cx="1010" cy="150" r="72" fill="#a86635" opacity="0.12"/>
+  <text x="86" y="136" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="53" font-weight="700" fill="#30231c">원데이클래스 예약 안내</text>
+  <text x="88" y="185" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" fill="#66584f">처음부터 써두면 덜 반복되는 5가지</text>
+  <text x="86" y="222" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 날짜·시간</text><text x="86" y="276" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 인원·체험 내용</text><text x="86" y="330" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 예약금·결제</text><text x="86" y="384" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 소요 시간</text><text x="86" y="438" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" fill="#2c2c2c">• 변경 문의 기준</text>
+  <rect x="86" y="650" width="390" height="54" rx="27" fill="#a86635" opacity="0.13"/>
+  <text x="112" y="686" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" fill="#a86635" font-weight="700">복붙 전 공방 기준 확인</text>
+</svg>
