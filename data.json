@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T18:36:01+09:00",
+  "updated_at": "2026-05-16T18:37:41+09:00",
   "last_run": {
     "run_id": "2026-05-16_1827_money-flow",
     "started_at": "2026-05-16T18:36:01+09:00",
-    "finished_at": "2026-05-16T18:36:01+09:00",
+    "finished_at": "2026-05-16T18:37:27+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -57,7 +57,7 @@
         "summary": "무료 검증 공개 전 실제 매출 0원. 공개 후 검색 반응 추적 단계로 전환 가능."
       }
     ],
-    "summary": "Processed childcare held blog assets; publishing blocked by Tistory editor automation timeout.",
+    "summary": "Processed childcare held blog assets; dashboard/GitHub Pages verified; publishing blocked by Tistory editor automation timeout.",
     "final_report": "assets_created_editor_automation_blocked"
   },
   "metrics": {
