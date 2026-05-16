@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T22:22:11+09:00",
+  "updated_at": "2026-05-16T22:34:48+09:00",
   "last_run": {
-    "run_id": "2026-05-16_2220_money-flow",
-    "started_at": "2026-05-16T22:22:11+09:00",
-    "finished_at": "2026-05-16T22:22:11+09:00",
+    "run_id": "2026-05-16_2233_money-flow",
+    "started_at": "2026-05-16T22:34:48+09:00",
+    "finished_at": "2026-05-16T22:34:48+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -22,7 +22,7 @@
         "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
         "agent": "redteam",
         "decision": "HOLD",
-        "summary": "Profile 2 세션/API로 22:20 재시도. newpost 접근과 PNG 3장 업로드는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속됨."
+        "summary": "Profile 2 세션/API로 22:33 재시도. newpost 접근과 PNG 3장 업로드는 정상이나 Tistory 하루 공개 발행 15개 제한 403이 계속됨."
       }
     ],
     "summary": "Backlog item rechecked; Tistory daily public publish limit unchanged. No material user-facing state change.",
