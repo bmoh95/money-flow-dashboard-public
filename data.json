@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T01:41:11+09:00",
+  "updated_at": "2026-05-17T01:55:36+09:00",
   "last_run": {
-    "run_id": "2026-05-17_0141_money-flow",
-    "started_at": "2026-05-17T01:41:11+09:00",
-    "finished_at": "2026-05-17T01:41:11+09:00",
+    "run_id": "2026-05-17_0155_money-flow",
+    "started_at": "2026-05-17T01:55:36+09:00",
+    "finished_at": "2026-05-17T01:55:36+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,29 +20,445 @@
     "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [],
-    "approval_needed": [],
-    "decisions": [
+    "approval_needed": [
       {
-        "agent": "ledger_dashboard_manager",
-        "decision": "HOLD",
-        "summary": "No actionable backlog item; no state changes."
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
       }
     ],
-    "summary": "Backlog-only processor checked all opportunities. No redteam_hold, ready_for_approval, AUTH_BLOCKED, PERMISSION_BLOCKED, or EDITOR_AUTOMATION_BLOCKED item remains actionable. No new opportunity created by rule.",
-    "final_report": "[SILENT]"
+    "decisions": [
+      {
+        "agent": "execution_lead",
+        "decision": "GO",
+        "summary": "Duplicate public post verified; stale auth blocker cleared."
+      },
+      {
+        "agent": "redteam",
+        "decision": "HOLD",
+        "summary": "Cleanup requires approval."
+      }
+    ],
+    "summary": "Backlog-only processor resolved stale auth/duplicate-check risk on one tracking item and marked duplicate cleanup approval needed. No new opportunity created.",
+    "final_report": "meaningful"
   },
   "metrics": {
     "total": 20,
     "active": 0,
-    "approval_needed": 0,
+    "approval_needed": 1,
     "launched": 18,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
   },
   "active_opportunities": [],
-  "approval_needed": [],
-  "priority_queue": [],
+  "approval_needed": [
+    {
+      "key": "MF-6",
+      "id": "opp_20260515_006_freelancer_simple_book_blog",
+      "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+      "type": "기타",
+      "status": "운영/수익",
+      "raw_status": "tracking",
+      "column": "운영/수익",
+      "priority": "높음",
+      "quality": 87,
+      "expected_base_net": 30400,
+      "margin_pct": 80,
+      "expected_price": 19000,
+      "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
+      "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
+      "current_owner": "roi",
+      "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
+      "risk_flags": [
+        "crowded_free_template_results",
+        "duplicate_post_cleanup_pending",
+        "seasonal_search_window",
+        "tax_advice_disclaimer_included",
+        "tistory_preview_ready",
+        "tistory_published",
+        "duplicate_public_post_confirmed",
+        "duplicate_cleanup_requires_approval"
+      ],
+      "stop_reason": null,
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661",
+          "grade": "A",
+          "summary": "국세청 종합소득세 관련 공식 안내 페이지 접근 확인. 5월 세무 정리 pain과 안전 고지 근거.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80+%EC%97%91%EC%85%80+%ED%85%9C%ED%94%8C%EB%A6%BF+%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C+%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "간편장부/엑셀/프리랜서/종합소득세 관련 비교 글·양식 글 10개 이상 검색 노출 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80%20%EC%97%91%EC%85%80",
+          "grade": "B",
+          "summary": "크몽 검색 페이지에서 간편장부·엑셀 키워드 유료 템플릿/서비스 채널 가능성 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "5월 종합소득세/간편장부 검색 pain과 공식 세무 정보, 무료 글 샘플 확인."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 채널은 명확. 유료 전환은 검증 후로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 정보글 + 업종별 엑셀 템플릿 후속 경로 계획."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 87점. 세무 자문 단정 없이 실무 정리 pain에 좁게 맞춤."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "블로그 검증 브리프와 초안 1개 생성."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "게시 전 이미지 3장 생성 및 Tistory 렌더링 검수가 필요. standing approval은 품질 게이트 통과 후 적용."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "세무·검색 경쟁·무료 템플릿 과밀 리스크. 공개 전 법률/세무 고지와 이미지 보강 필요."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 자산으로는 전략 가치 있음. 실제 유입 전 매출 기대는 보수적으로 0."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "썸네일/비용표/OX흐름 SVG 3장과 수정 Markdown, Tistory 미리보기 HTML 생성."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "로컬 렌더링은 통과. 브라우저 Tistory가 로그인 화면이라 공개 게시 전환은 보류."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "세무 자문 단정 표현을 완화했으나 외부 게시 인증이 필요."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "무료 검증 게시 전 실제 매출/유입은 0원. 자산은 재사용 가능."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Chrome Profile 2 CDP로 Tistory 편집기 접근, 본문/이미지 삽입, 공개 발행 및 public URL 검증 완료."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "세무 자문 아님 고지와 비용 인정 단정 회피 문구 확인. 무료 검증 글로 공개 허용."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "무료 검증 전환 완료. 실제 매출 0원, 유입/조회 반응 추적 후 후속 ZIP 전환 판단."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Tistory 공개 URL /4와 /5를 재검증. 둘 다 동일 제목 공개 글이며 이미지 3장 로드 확인."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "로그인 문제는 아님. 중복 공개 글 삭제/비공개 전환은 외부 변경이므로 승인 전 보류."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "Tistory 공개 글",
+          "url": "https://beemo.tistory.com/5",
+          "type": "tistory_post"
+        },
+        {
+          "name": "Tistory 중복 공개 글(정리 대기)",
+          "url": "https://beemo.tistory.com/4",
+          "type": "duplicate_tistory_post"
+        }
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-17T01:55:36+09:00",
+      "approval_required": true,
+      "approval_reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
+    }
+  ],
+  "priority_queue": [
+    {
+      "key": "MF-6",
+      "id": "opp_20260515_006_freelancer_simple_book_blog",
+      "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+      "type": "기타",
+      "status": "운영/수익",
+      "raw_status": "tracking",
+      "column": "운영/수익",
+      "priority": "높음",
+      "quality": 87,
+      "expected_base_net": 30400,
+      "margin_pct": 80,
+      "expected_price": 19000,
+      "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
+      "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
+      "current_owner": "roi",
+      "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
+      "risk_flags": [
+        "crowded_free_template_results",
+        "duplicate_post_cleanup_pending",
+        "seasonal_search_window",
+        "tax_advice_disclaimer_included",
+        "tistory_preview_ready",
+        "tistory_published",
+        "duplicate_public_post_confirmed",
+        "duplicate_cleanup_requires_approval"
+      ],
+      "stop_reason": null,
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661",
+          "grade": "A",
+          "summary": "국세청 종합소득세 관련 공식 안내 페이지 접근 확인. 5월 세무 정리 pain과 안전 고지 근거.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80+%EC%97%91%EC%85%80+%ED%85%9C%ED%94%8C%EB%A6%BF+%ED%94%84%EB%A6%AC%EB%9E%9C%EC%84%9C+%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "간편장부/엑셀/프리랜서/종합소득세 관련 비교 글·양식 글 10개 이상 검색 노출 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        },
+        {
+          "url": "https://kmong.com/search?keyword=%EA%B0%84%ED%8E%B8%EC%9E%A5%EB%B6%80%20%EC%97%91%EC%85%80",
+          "grade": "B",
+          "summary": "크몽 검색 페이지에서 간편장부·엑셀 키워드 유료 템플릿/서비스 채널 가능성 확인.",
+          "checked_at": "2026-05-15T19:57:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "5월 종합소득세/간편장부 검색 pain과 공식 세무 정보, 무료 글 샘플 확인."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "독자와 채널은 명확. 유료 전환은 검증 후로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 정보글 + 업종별 엑셀 템플릿 후속 경로 계획."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 87점. 세무 자문 단정 없이 실무 정리 pain에 좁게 맞춤."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "블로그 검증 브리프와 초안 1개 생성."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "게시 전 이미지 3장 생성 및 Tistory 렌더링 검수가 필요. standing approval은 품질 게이트 통과 후 적용."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "세무·검색 경쟁·무료 템플릿 과밀 리스크. 공개 전 법률/세무 고지와 이미지 보강 필요."
+        },
+        {
+          "time": "2026-05-15T19:57:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "무료 검증 자산으로는 전략 가치 있음. 실제 유입 전 매출 기대는 보수적으로 0."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "썸네일/비용표/OX흐름 SVG 3장과 수정 Markdown, Tistory 미리보기 HTML 생성."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "로컬 렌더링은 통과. 브라우저 Tistory가 로그인 화면이라 공개 게시 전환은 보류."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "세무 자문 단정 표현을 완화했으나 외부 게시 인증이 필요."
+        },
+        {
+          "time": "2026-05-16T11:18:26+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "무료 검증 게시 전 실제 매출/유입은 0원. 자산은 재사용 가능."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Chrome Profile 2 CDP로 Tistory 편집기 접근, 본문/이미지 삽입, 공개 발행 및 public URL 검증 완료."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "세무 자문 아님 고지와 비용 인정 단정 회피 문구 확인. 무료 검증 글로 공개 허용."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "무료 검증 전환 완료. 실제 매출 0원, 유입/조회 반응 추적 후 후속 ZIP 전환 판단."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Tistory 공개 URL /4와 /5를 재검증. 둘 다 동일 제목 공개 글이며 이미지 3장 로드 확인."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "로그인 문제는 아님. 중복 공개 글 삭제/비공개 전환은 외부 변경이므로 승인 전 보류."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "Tistory 공개 글",
+          "url": "https://beemo.tistory.com/5",
+          "type": "tistory_post"
+        },
+        {
+          "name": "Tistory 중복 공개 글(정리 대기)",
+          "url": "https://beemo.tistory.com/4",
+          "type": "duplicate_tistory_post"
+        }
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-17T01:55:36+09:00",
+      "approval_required": true,
+      "approval_reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
+    }
+  ],
   "rejection_summary": {
     "위험 높음": 2
   },
@@ -52,6 +468,54 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-17T01:55:36+09:00",
+      "run_id": "2026-05-17_0155_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "HOLD",
+      "reason_code": "NO_APPROVAL",
+      "summary": "중복 URL 정리 품질 리스크만 확인. 실제 매출 0원, 수익성 변화 없음.",
+      "links": [
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5"
+      ]
+    },
+    {
+      "time": "2026-05-17T01:55:36+09:00",
+      "run_id": "2026-05-17_0155_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "approval_needed",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "HOLD",
+      "reason_code": "NO_APPROVAL",
+      "summary": "중복 공개 글 정리는 삭제/비공개 외부 변경이므로 승인 전 보류. 로그인 실패 아님.",
+      "links": [
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5"
+      ]
+    },
+    {
+      "time": "2026-05-17T01:55:36+09:00",
+      "run_id": "2026-05-17_0155_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "프리랜서 간편장부 Tistory 공개 글 /4·/5 재검증. 둘 다 200, 동일 제목, 이미지 3장 확인. stale auth flag 제거.",
+      "links": [
+        "https://beemo.tistory.com/4",
+        "https://beemo.tistory.com/5"
+      ]
+    },
     {
       "time": "2026-05-17T00:04:24+09:00",
       "run_id": "2026-05-17_0001_money-flow",
@@ -514,66 +978,6 @@
       "links": [
         "https://beemo.tistory.com/17"
       ]
-    },
-    {
-      "time": "2026-05-16T19:28:00+09:00",
-      "run_id": "2026-05-16_1922_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "치과·의원 휴진 안내 무료 검증 글 게시 및 공개 QA 완료.",
-      "links": [
-        "https://beemo.tistory.com/17"
-      ]
-    },
-    {
-      "time": "2026-05-16T19:28:00+09:00",
-      "run_id": "2026-05-16_1922_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory API 게시용 PNG 3장 업로드 및 무료 검증 글 공개 자산 생성.",
-      "links": [
-        "https://beemo.tistory.com/17",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/02-sms-clinic-vacation.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
-        "https://beemo.tistory.com/17",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
-      ]
-    },
-    {
-      "time": "2026-05-16T19:12:36+09:00",
-      "run_id": "2026-05-16_thumbnail_recovery",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 기존 공개 글 12건 대표 PNG/OG 썸네일 복구 시도, 실패 0건.",
-      "links": [
-        "https://beemo.tistory.com/2",
-        "https://beemo.tistory.com/3",
-        "https://beemo.tistory.com/4",
-        "https://beemo.tistory.com/5",
-        "https://beemo.tistory.com/6",
-        "https://beemo.tistory.com/7",
-        "https://beemo.tistory.com/8",
-        "https://beemo.tistory.com/9",
-        "https://beemo.tistory.com/10",
-        "https://beemo.tistory.com/11",
-        "https://beemo.tistory.com/12",
-        "https://beemo.tistory.com/13"
-      ]
     }
   ],
   "board_columns": [
@@ -725,7 +1129,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html"
       ],
       "asset_count": 15,
-      "updated_at": "2026-05-15T14:48:59+09:00"
+      "updated_at": "2026-05-15T14:48:59+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-2",
@@ -795,7 +1201,9 @@
         "https://beemo.tistory.com/2"
       ],
       "asset_count": 6,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-3",
@@ -875,7 +1283,9 @@
         "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
       ],
       "asset_count": 6,
-      "updated_at": "2026-05-15T16:11:16+09:00"
+      "updated_at": "2026-05-15T16:11:16+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-4",
@@ -951,7 +1361,9 @@
       ],
       "assets": [],
       "asset_count": 0,
-      "updated_at": "2026-05-15T16:42:08+09:00"
+      "updated_at": "2026-05-15T16:42:08+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-5",
@@ -1042,7 +1454,9 @@
       ],
       "assets": [],
       "asset_count": 0,
-      "updated_at": "2026-05-15T17:49:58+09:00"
+      "updated_at": "2026-05-15T17:49:58+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-6",
@@ -1052,7 +1466,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "column": "운영/수익",
-      "priority": "보통",
+      "priority": "높음",
       "quality": 87,
       "expected_base_net": 30400,
       "margin_pct": 80,
@@ -1060,16 +1474,16 @@
       "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
       "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
       "current_owner": "roi",
-      "next_action": "Tistory 무료 검증 글 공개 확인. 동일 제목 공개 글 2건(/4, /5) 상태 확인 후 필요 시 수동 정리 판단.",
+      "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
       "risk_flags": [
         "crowded_free_template_results",
         "duplicate_post_cleanup_pending",
-        "duplicate_public_post_check_needed",
         "seasonal_search_window",
         "tax_advice_disclaimer_included",
-        "tistory_auth_blocked",
         "tistory_preview_ready",
-        "tistory_published"
+        "tistory_published",
+        "duplicate_public_post_confirmed",
+        "duplicate_cleanup_requires_approval"
       ],
       "stop_reason": null,
       "evidence": [
@@ -1200,6 +1614,26 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Tistory 공개 URL /4와 /5를 재검증. 둘 다 동일 제목 공개 글이며 이미지 3장 로드 확인."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "로그인 문제는 아님. 중복 공개 글 삭제/비공개 전환은 외부 변경이므로 승인 전 보류."
+        },
+        {
+          "time": "2026-05-17T01:55:36+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": "NO_APPROVAL",
+          "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
         }
       ],
       "assets": [
@@ -1222,7 +1656,9 @@
         }
       ],
       "asset_count": 9,
-      "updated_at": "2026-05-16T12:39:19+09:00"
+      "updated_at": "2026-05-17T01:55:36+09:00",
+      "approval_required": true,
+      "approval_reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
     },
     {
       "key": "MF-7",
@@ -1443,7 +1879,9 @@
         }
       ],
       "asset_count": 8,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-8",
@@ -1657,7 +2095,9 @@
         }
       ],
       "asset_count": 8,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-9",
@@ -1872,7 +2312,9 @@
         }
       ],
       "asset_count": 8,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-10",
@@ -2064,7 +2506,9 @@
         }
       ],
       "asset_count": 8,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-11",
@@ -2229,7 +2673,9 @@
         }
       ],
       "asset_count": 9,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-12",
@@ -2393,7 +2839,9 @@
         "https://beemo.tistory.com/11"
       ],
       "asset_count": 9,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-13",
@@ -2556,7 +3004,9 @@
         "https://beemo.tistory.com/12"
       ],
       "asset_count": 9,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-14",
@@ -2714,7 +3164,9 @@
         "https://beemo.tistory.com/13"
       ],
       "asset_count": 9,
-      "updated_at": "2026-05-16T15:03:21+09:00"
+      "updated_at": "2026-05-16T15:03:21+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-15",
@@ -2925,7 +3377,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_pet_post14_thumbnail_20260516_1848.py"
       ],
       "asset_count": 15,
-      "updated_at": "2026-05-16T18:55:33+09:00"
+      "updated_at": "2026-05-16T18:55:33+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-16",
@@ -3156,7 +3610,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_cafe_post16_images_20260516_1909.py"
       ],
       "asset_count": 14,
-      "updated_at": "2026-05-16T19:09:54+09:00"
+      "updated_at": "2026-05-16T19:09:54+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-17",
@@ -3364,7 +3820,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
       ],
       "asset_count": 13,
-      "updated_at": "2026-05-16T19:30:05+09:00"
+      "updated_at": "2026-05-16T19:30:05+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-18",
@@ -3548,7 +4006,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
       ],
       "asset_count": 14,
-      "updated_at": "2026-05-16T19:44:13+09:00"
+      "updated_at": "2026-05-16T19:44:13+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-19",
@@ -3700,7 +4160,9 @@
         }
       ],
       "asset_count": 17,
-      "updated_at": "2026-05-16T18:54:10+09:00"
+      "updated_at": "2026-05-16T18:54:10+09:00",
+      "approval_required": false,
+      "approval_reason": null
     },
     {
       "key": "MF-20",
@@ -3878,7 +4340,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_macbook_tistory_20260516_2246.py"
       ],
       "asset_count": 10,
-      "updated_at": "2026-05-17T00:04:24+09:00"
+      "updated_at": "2026-05-17T00:04:24+09:00",
+      "approval_required": false,
+      "approval_reason": null
     }
   ]
 }
