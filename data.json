@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-16T12:38:06+09:00",
+  "updated_at": "2026-05-16T12:39:19+09:00",
   "last_run": {
     "run_id": "2026-05-16_1226_money-flow",
-    "started_at": "2026-05-16T12:33:48+09:00",
-    "finished_at": "2026-05-16T12:33:48+09:00",
+    "started_at": "2026-05-16T12:39:19+09:00",
+    "finished_at": "2026-05-16T12:39:19+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -13,54 +13,48 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 0,
+    "opportunities_advanced": 2,
     "opportunities_rejected": 0,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516_revised.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/gym_vacation_freeze_tistory_preview.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/01-thumbnail-gym-vacation.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/02-sms-example-gym.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg"
-    ],
+    "assets_created": [],
     "approval_needed": [],
     "decisions": [
-      {
-        "agent": "execution_member",
-        "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "헬스장 휴무/회원권 정지 글 지원 이미지 3장, 수정 Markdown, HTML 미리보기 생성."
-      },
       {
         "agent": "execution_lead",
         "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "로컬 렌더링 QA 통과. 이미지/문단/인용/체크리스트 확인."
-      },
-      {
-        "agent": "redteam",
-        "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-        "decision": "HOLD",
-        "reason_code": "AUTH_BLOCKED",
-        "summary": "환불/계약 단정 표현 완화. Chrome Profile 2 Tistory 홈 확인 후 게시 권한/에디터 확인 필요."
+        "summary": "헬스장 무료 검증 글 Tistory 공개 및 URL 검증 완료."
       },
       {
         "agent": "roi",
         "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
-        "decision": "HOLD",
-        "reason_code": "AUTH_BLOCKED",
-        "summary": "무료 검증 게시 전 매출 0원, 후속 피트니스 운영 문자 ZIP 기준 순마진 80% 가정 유지."
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환."
+      },
+      {
+        "agent": "execution_lead",
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록."
+      },
+      {
+        "agent": "roi",
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환."
       }
     ],
-    "summary": "Oldest actionable redteam_hold MF-10 processed locally: images/rendering/copy risk cleanup done; Tistory Profile 2 checked, posting still blocked pending editor/auth permission.",
-    "final_report": "MF-10 assets created; AUTH_BLOCKED for Tistory publish."
+    "summary": "MF-10 Tistory published and tracking. MF-6 publication also verified; duplicate public copy detected.",
+    "final_report": "MF-10 launched; MF-6 launched with duplicate copy check needed."
   },
   "metrics": {
     "total": 19,
     "active": 17,
     "approval_needed": 0,
-    "launched": 4,
+    "launched": 5,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -91,39 +85,8 @@
       "id": "opp_20260515_006_freelancer_simple_book_blog",
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
       "status": "운영/수익",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
-      "quality": 87,
-      "status_label": "운영/수익",
-      "stop_reason_code": null,
-      "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_auth_blocked",
-        "tistory_preview_ready",
-        "tistory_published"
-      ],
-      "current_owner": "roi",
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
-        },
-        {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
-        }
-      ]
+      "next_action": "Tistory 무료 검증 글 공개 확인. 동일 제목 공개 글 2건(/4, /5) 상태 확인 후 필요 시 수동 정리 판단.",
+      "quality": 87
     },
     {
       "id": "opp_20260515_007_academy_summer_class_blog",
@@ -149,8 +112,8 @@
     {
       "id": "opp_20260516_010_gym_vacation_freeze_blog",
       "title": "헬스장 여름휴가·회원권 정지 안내문 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 환불·계약 단정 표현 완화 완료. Chrome Profile 2 세션은 Tistory 홈 접근 가능하나 글쓰기 권한/에디터 게시 확인이 필요해 AUTH_BLOCKED 재시도 대기.",
+      "status": "운영/수익",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 ZIP 전환 여부 판단.",
       "quality": 85
     },
     {
@@ -246,41 +209,10 @@
     {
       "id": "opp_20260515_006_freelancer_simple_book_blog",
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
-      "priority": "medium",
-      "why": "검증 보류",
+      "priority": "low",
+      "why": "검증/운영 추적",
       "status": "tracking",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
-      "status_label": "운영/수익",
-      "stop_reason_code": null,
-      "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_auth_blocked",
-        "tistory_preview_ready",
-        "tistory_published"
-      ],
-      "current_owner": "roi",
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
-        },
-        {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
-        }
-      ]
+      "next_action": "Tistory 무료 검증 글 공개 확인. 동일 제목 공개 글 2건(/4, /5) 상태 확인 후 필요 시 수동 정리 판단."
     },
     {
       "id": "opp_20260515_007_academy_summer_class_blog",
@@ -309,10 +241,10 @@
     {
       "id": "opp_20260516_010_gym_vacation_freeze_blog",
       "title": "헬스장 여름휴가·회원권 정지 안내문 무료 검증 글",
-      "priority": "medium",
-      "why": "검증 보류",
-      "status": "redteam_hold",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 환불·계약 단정 표현 완화 완료. Chrome Profile 2 세션은 Tistory 홈 접근 가능하나 글쓰기 권한/에디터 게시 확인이 필요해 AUTH_BLOCKED 재시도 대기."
+      "priority": "low",
+      "why": "검증/운영 추적",
+      "status": "tracking",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 ZIP 전환 여부 판단."
     },
     {
       "id": "opp_20260516_011_studycafe_exam_rules_blog",
@@ -390,7 +322,7 @@
   "rejection_summary": {
     "WEAK_DIFFERENTIATION": 1,
     "HIGH_RISK": 2,
-    "AUTH_BLOCKED": 5,
+    "AUTH_BLOCKED": 3,
     "NO_EVIDENCE": 9
   },
   "roi": {
@@ -399,88 +331,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-16T12:38:06+09:00",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
-      "event": "launched",
-      "decision": "GO",
-      "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 완료",
-      "links": [
-        "https://beemo.tistory.com/5"
-      ]
-    },
-    {
-      "time": "2026-05-16T09:24:37+09:00",
-      "run_id": "2026-05-16_0920_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "이미지·렌더링 QA 전 게시 보류. 개인정보/기관별 운영 차이 검수 필요.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T09:24:37+09:00",
-      "run_id": "2026-05-16_0920_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260516_018_childcare_vacation_survey_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "무료 검증 전 실제 매출 0원. 기준 유료 전환 시 순마진 80% 가능.",
-      "links": []
-    },
-    {
-      "time": "2026-05-16T10:32:03+09:00",
-      "run_id": "2026-05-16_1028_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공방 원데이클래스 예약 안내문·카톡 문구 무료 검증 글 후보 발견.",
-      "links": [
-        "https://duckduckgo.com/html/?q=원데이클래스+예약+안내+주의사항+공방+블로그"
-      ]
-    },
-    {
-      "time": "2026-05-16T10:32:03+09:00",
-      "run_id": "2026-05-16_1028_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "실제 공방 예약안내 글, 클래스 플랫폼, 안내문 템플릿 대체재 근거 추가.",
-      "links": [
-        "https://www.sssd.co.kr/main/",
-        "https://www.umclass.com/",
-        "https://www.canva.com/ko_kr/announcements/templates/"
-      ]
-    },
-    {
-      "time": "2026-05-16T10:32:03+09:00",
-      "run_id": "2026-05-16_1028_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260516_019_oneday_class_booking_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "독자·채널·반복 pain 명확. 환불·예약금 단정만 제한하면 무료 검증 가치 있음.",
-      "links": []
-    },
     {
       "time": "2026-05-16T10:32:03+09:00",
       "run_id": "2026-05-16_1028_money-flow",
@@ -973,6 +823,82 @@
       "reason_code": "AUTH_BLOCKED",
       "summary": "무료 검증 게시 전 매출 0원, 후속 피트니스 운영 문자 ZIP 기준 순마진 80% 가정 유지.",
       "links": []
+    },
+    {
+      "time": "2026-05-16T12:37:37+09:00",
+      "run_id": "2026-05-16_1237_money-flow-manual-publish",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 무료 검증 글 공개 및 검증 완료: https://beemo.tistory.com/5. duplicate cleanup pending: https://beemo.tistory.com/4",
+      "links": [
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/4"
+      ]
+    },
+    {
+      "time": "2026-05-16T12:39:19+09:00",
+      "run_id": "2026-05-16_1226_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
+      "event": "launched",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "헬스장 무료 검증 글 Tistory 공개 및 URL 검증 완료.",
+      "links": [
+        "https://beemo.tistory.com/6"
+      ]
+    },
+    {
+      "time": "2026-05-16T12:39:19+09:00",
+      "run_id": "2026-05-16_1226_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260516_010_gym_vacation_freeze_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환.",
+      "links": [
+        "https://beemo.tistory.com/6"
+      ]
+    },
+    {
+      "time": "2026-05-16T12:39:19+09:00",
+      "run_id": "2026-05-16_1226_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "launched",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록.",
+      "links": [
+        "https://beemo.tistory.com/5"
+      ]
+    },
+    {
+      "time": "2026-05-16T12:39:19+09:00",
+      "run_id": "2026-05-16_1226_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 게시 완료. 매출 0원, 반응 추적 단계로 전환.",
+      "links": [
+        "https://beemo.tistory.com/5"
+      ]
     }
   ],
   "board_columns": [
@@ -1568,12 +1494,13 @@
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
       "type": "other",
       "status": "tracking",
-      "column": "검증 보류",
-      "priority": "MED",
+      "column": "운영/수익",
+      "priority": "LOW",
       "stop_reason_code": null,
       "risk_flags": [
         "crowded_free_template_results",
         "duplicate_post_cleanup_pending",
+        "duplicate_public_post_check_needed",
         "seasonal_search_window",
         "tax_advice_disclaimer_included",
         "tistory_auth_blocked",
@@ -1587,7 +1514,7 @@
       "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
       "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
       "current_owner": "roi",
-      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
+      "next_action": "Tistory 무료 검증 글 공개 확인. 동일 제목 공개 글 2건(/4, /5) 상태 확인 후 필요 시 수동 정리 판단.",
       "evidence": [
         {
           "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661",
@@ -1686,9 +1613,39 @@
           "decision": "HOLD",
           "reason_code": "AUTH_BLOCKED",
           "summary": "무료 검증 게시 전 실제 매출/유입은 0원. 자산은 재사용 가능."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "Chrome Profile 2 CDP로 Tistory 편집기 접근, 본문/이미지 삽입, 공개 발행 및 public URL 검증 완료."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "세무 자문 아님 고지와 비용 인정 단정 회피 문구 확인. 무료 검증 글로 공개 허용."
+        },
+        {
+          "time": "2026-05-16T12:37:37+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "무료 검증 전환 완료. 실제 매출 0원, 유입/조회 반응 추적 후 후속 ZIP 전환 판단."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 확인. 동일 제목 공개 글 /4도 발견되어 중복 공개 리스크 기록."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
         }
       ],
-      "asset_count": 7,
+      "asset_count": 9,
       "asset_links": [
         {
           "label": "blog_validation_brief.md",
@@ -1731,26 +1688,18 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
           "name": "03-ox-flow-checklist.svg",
           "viewer": "artifacts/opp_20260515_006_freelancer_simple_book_blog/03-ox-flow-checklist.svg"
-        }
-      ],
-      "status_label": "운영/수익",
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
         },
         {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
+          "label": "Tistory 공개 글",
+          "path": "https://beemo.tistory.com/5",
+          "name": "https://beemo.tistory.com/5",
+          "url": "https://beemo.tistory.com/5"
+        },
+        {
+          "label": "Tistory 중복 공개 글(정리 대기)",
+          "path": "https://beemo.tistory.com/4",
+          "name": "https://beemo.tistory.com/4",
+          "url": "https://beemo.tistory.com/4"
         }
       ]
     },
@@ -2350,10 +2299,10 @@
       "id": "opp_20260516_010_gym_vacation_freeze_blog",
       "title": "헬스장 여름휴가·회원권 정지 안내문 무료 검증 글",
       "type": "other",
-      "status": "redteam_hold",
-      "column": "검증 보류",
-      "priority": "MED",
-      "stop_reason_code": "AUTH_BLOCKED",
+      "status": "tracking",
+      "column": "운영/수익",
+      "priority": "LOW",
+      "stop_reason_code": null,
       "risk_flags": [
         "center_policy_variance",
         "center_policy_variance_noted",
@@ -2361,7 +2310,7 @@
         "paid_conversion_unproven",
         "refund_contract_wording_softened",
         "tistory_preview_ready",
-        "tistory_profile2_auth_checked"
+        "tistory_published"
       ],
       "quality": 85,
       "base_net": 39600,
@@ -2369,8 +2318,8 @@
       "expected_price": 9900,
       "buyer_or_payer": "소형 헬스장·필라테스·요가센터 원장/매니저/데스크 담당자",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 피트니스 운영 문자 템플릿 ZIP",
-      "current_owner": "execution_lead",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. 환불·계약 단정 표현 완화 완료. Chrome Profile 2 세션은 Tistory 홈 접근 가능하나 글쓰기 권한/에디터 게시 확인이 필요해 AUTH_BLOCKED 재시도 대기.",
+      "current_owner": "roi",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 ZIP 전환 여부 판단.",
       "evidence": [
         {
           "url": "https://duckduckgo.com/html/?q=%ED%97%AC%EC%8A%A4%EC%9E%A5+%EC%97%AC%EB%A6%84+%ED%9C%B4%EA%B0%80+%ED%9A%8C%EC%9B%90%EA%B6%8C+%EC%A0%95%EC%A7%80+%EC%95%88%EB%82%B4%EB%AC%B8+%EB%AC%B8%EC%9E%90+%EC%98%88%EC%8B%9C",
@@ -2480,9 +2429,21 @@
           "decision": "HOLD",
           "reason_code": "AUTH_BLOCKED",
           "summary": "무료 검증 게시 전 실제 매출 0원. 후속 피트니스 문자 ZIP 기준 순마진 80% 가정 유지."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "헬스장 무료 검증 글 Tistory 공개 및 URL 검증 완료."
+        },
+        {
+          "time": "2026-05-16T12:39:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "무료 검증 게시 완료. 실제 매출 0원, 검색 반응 추적 단계로 전환."
         }
       ],
-      "asset_count": 7,
+      "asset_count": 8,
       "asset_links": [
         {
           "label": "blog_validation_brief.md",
@@ -2525,6 +2486,12 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg",
           "name": "03-checklist-gym-freeze.svg",
           "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/03-checklist-gym-freeze.svg"
+        },
+        {
+          "label": "Tistory 공개 글",
+          "path": "https://beemo.tistory.com/6",
+          "name": "https://beemo.tistory.com/6",
+          "url": "https://beemo.tistory.com/6"
         }
       ]
     },
