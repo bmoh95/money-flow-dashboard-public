@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T03:40:36+09:00",
+  "updated_at": "2026-05-17T03:41:27+09:00",
   "last_run": {
-    "run_id": "2026-05-17_0340_money-flow",
-    "started_at": "2026-05-17T03:40:36+09:00",
-    "finished_at": "2026-05-17T03:40:36+09:00",
+    "run_id": "2026-05-17_0341_money-flow",
+    "started_at": "2026-05-17T03:41:27+09:00",
+    "finished_at": "2026-05-17T03:41:27+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -464,6 +464,21 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-17T03:41:27+09:00",
+      "run_id": "2026-05-17_0341_money-flow",
+      "agent": "대시보드",
+      "opportunity_id": "opp_20260516_015_pet_grooming_rain_blog",
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "False-positive backlog trigger removed from next_action; pet grooming post remains tracking with image/OG QA complete.",
+      "links": [
+        "https://beemo.tistory.com/14"
+      ]
+    },
     {
       "time": "2026-05-17T02:12:50+09:00",
       "run_id": "2026-05-16_blog_image_hq_update",
@@ -972,21 +987,6 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "redteam_hold 해소 후 tracking 전환.",
-      "links": [
-        "https://beemo.tistory.com/17"
-      ]
-    },
-    {
-      "time": "2026-05-16T19:28:00+09:00",
-      "run_id": "2026-05-16_1922_money-flow",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260516_017_clinic_vacation_notice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검증 공개 전환. 실제 매출 0원, 기준 후속 순마진 80% 가정은 반응 추적 후 재평가.",
       "links": [
         "https://beemo.tistory.com/17"
       ]
@@ -3196,7 +3196,7 @@
       "buyer_or_payer": "애견미용샵·펫살롱·반려동물 스파를 운영하는 1인/소규모 원장님",
       "channel": "Tistory 무료 검증 글 → 검색 반응 확인 후 펫살롱 상황별 예약/우천/노쇼 안내문 ZIP",
       "current_owner": "수익성 검토",
-      "next_action": "Tistory 공개 글 이미지 3장 재제작 및 대표이미지/OG 검증 완료. 글씨 겹침·간격 문제를 수정했으므로 공개 글 유입/반응만 추적.",
+      "next_action": "공개 글 유입/검색 반응만 추적. 이미지·대표이미지·OG 검증은 완료됨.",
       "risk_flags": [
         "free_template_competition",
         "paid_conversion_unproven",
@@ -3371,6 +3371,12 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "무료 검증 글 공개 및 대표이미지/OG 확인 완료. 상태를 tracking으로 전환."
+        },
+        {
+          "time": "2026-05-17T03:41:27+09:00",
+          "agent": "ledger_dashboard_manager",
+          "decision": "GO",
+          "summary": "tracking 항목의 next_action이 보류 작업처럼 탐지되던 문구를 정리. 실제 남은 작업은 유입/반응 추적뿐임을 확인."
         }
       ],
       "assets": [
@@ -3391,7 +3397,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_pet_post14_thumbnail_20260516_1848.py"
       ],
       "asset_count": 15,
-      "updated_at": "2026-05-16T18:55:33+09:00"
+      "updated_at": "2026-05-17T03:41:27+09:00"
     },
     {
       "key": "MF-16",
