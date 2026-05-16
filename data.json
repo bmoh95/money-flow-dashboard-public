@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-16T12:33:48+09:00",
+  "updated_at": "2026-05-16T12:38:06+09:00",
   "last_run": {
     "run_id": "2026-05-16_1226_money-flow",
     "started_at": "2026-05-16T12:33:48+09:00",
@@ -60,7 +60,7 @@
     "total": 19,
     "active": 17,
     "approval_needed": 0,
-    "launched": 3,
+    "launched": 4,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 2
@@ -90,9 +90,40 @@
     {
       "id": "opp_20260515_006_freelancer_simple_book_blog",
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
-      "status": "검증 보류",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. Tistory는 현재 로그인 화면으로 막혀 기존 세션 확인 후 게시 재시도 필요.",
-      "quality": 87
+      "status": "운영/수익",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
+      "quality": 87,
+      "status_label": "운영/수익",
+      "stop_reason_code": null,
+      "risk_flags": [
+        "crowded_free_template_results",
+        "duplicate_post_cleanup_pending",
+        "seasonal_search_window",
+        "tax_advice_disclaimer_included",
+        "tistory_auth_blocked",
+        "tistory_preview_ready",
+        "tistory_published"
+      ],
+      "current_owner": "roi",
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "Tistory 공개 글",
+          "url": "https://beemo.tistory.com/5",
+          "type": "tistory_post"
+        },
+        {
+          "name": "Tistory 중복 공개 글(정리 대기)",
+          "url": "https://beemo.tistory.com/4",
+          "type": "duplicate_tistory_post"
+        }
+      ]
     },
     {
       "id": "opp_20260515_007_academy_summer_class_blog",
@@ -217,8 +248,39 @@
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
       "priority": "medium",
       "why": "검증 보류",
-      "status": "redteam_hold",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. Tistory는 현재 로그인 화면으로 막혀 기존 세션 확인 후 게시 재시도 필요."
+      "status": "tracking",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
+      "status_label": "운영/수익",
+      "stop_reason_code": null,
+      "risk_flags": [
+        "crowded_free_template_results",
+        "duplicate_post_cleanup_pending",
+        "seasonal_search_window",
+        "tax_advice_disclaimer_included",
+        "tistory_auth_blocked",
+        "tistory_preview_ready",
+        "tistory_published"
+      ],
+      "current_owner": "roi",
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "Tistory 공개 글",
+          "url": "https://beemo.tistory.com/5",
+          "type": "tistory_post"
+        },
+        {
+          "name": "Tistory 중복 공개 글(정리 대기)",
+          "url": "https://beemo.tistory.com/4",
+          "type": "duplicate_tistory_post"
+        }
+      ]
     },
     {
       "id": "opp_20260515_007_academy_summer_class_blog",
@@ -337,6 +399,17 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-16T12:38:06+09:00",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+      "event": "launched",
+      "decision": "GO",
+      "summary": "프리랜서 간편장부 무료 검증 글 Tistory 공개 완료",
+      "links": [
+        "https://beemo.tistory.com/5"
+      ]
+    },
     {
       "time": "2026-05-16T09:24:37+09:00",
       "run_id": "2026-05-16_0920_money-flow",
@@ -1494,16 +1567,18 @@
       "id": "opp_20260515_006_freelancer_simple_book_blog",
       "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
       "type": "other",
-      "status": "redteam_hold",
+      "status": "tracking",
       "column": "검증 보류",
       "priority": "MED",
-      "stop_reason_code": "AUTH_BLOCKED",
+      "stop_reason_code": null,
       "risk_flags": [
         "crowded_free_template_results",
+        "duplicate_post_cleanup_pending",
         "seasonal_search_window",
-        "tax_advice_boundary",
+        "tax_advice_disclaimer_included",
         "tistory_auth_blocked",
-        "tistory_preview_ready"
+        "tistory_preview_ready",
+        "tistory_published"
       ],
       "quality": 87,
       "base_net": 30400,
@@ -1511,8 +1586,8 @@
       "expected_price": 19000,
       "buyer_or_payer": "프리랜서·1인 사업자 독자 / 향후 업종별 엑셀 템플릿 구매자",
       "channel": "Tistory 무료 검증 글 → 반응 확인 후 디지털 템플릿 ZIP",
-      "current_owner": "execution_lead",
-      "next_action": "이미지 3장과 Tistory 미리보기 HTML 제작/QA 완료. Tistory는 현재 로그인 화면으로 막혀 기존 세션 확인 후 게시 재시도 필요.",
+      "current_owner": "roi",
+      "next_action": "Tistory 무료 검증 글 공개 완료. 조회/검색 반응을 추적하고, 중복 게시된 /4 정리 여부는 사용자 지시에 따름.",
       "evidence": [
         {
           "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2226&cntntsId=7661",
@@ -1656,6 +1731,26 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
           "name": "03-ox-flow-checklist.svg",
           "viewer": "artifacts/opp_20260515_006_freelancer_simple_book_blog/03-ox-flow-checklist.svg"
+        }
+      ],
+      "status_label": "운영/수익",
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/freelancer_simple_book_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
+        {
+          "name": "Tistory 공개 글",
+          "url": "https://beemo.tistory.com/5",
+          "type": "tistory_post"
+        },
+        {
+          "name": "Tistory 중복 공개 글(정리 대기)",
+          "url": "https://beemo.tistory.com/4",
+          "type": "duplicate_tistory_post"
         }
       ]
     },
