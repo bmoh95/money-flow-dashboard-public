@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="장마철 세탁 접수 전 확인표">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .soft{fill:#e0f2fe} .green{fill:#e8f5e9} .yellow{fill:#fff7d6}</style>
+  
+  <text x="90" y="88" font-size="44" font-weight="800">장마철 세탁 접수 전 확인표</text>
+  <rect x="90" y="130" width="1020" height="475" rx="36" class="box"/>
+  <g font-size="31">
+    <text x="145" y="205">✓ 품목: 이불 / 의류 / 운동화 / 기타</text>
+    <text x="145" y="270">✓ 소재·충전재와 세탁 가능 표시 확인</text>
+    <text x="145" y="335">✓ 얼룩·이염·손상 부위 사진 요청</text>
+    <text x="145" y="400">✓ 희망 찾는 날짜와 사용 예정일 확인</text>
+    <text x="145" y="465">✓ 건조 지연 가능성과 연락 채널 안내</text>
+    <text x="145" y="530">✓ 분실·손상 문의는 접수정보 확인 절차로 분리</text>
+  </g>
+  <rect x="90" y="630" width="900" height="44" rx="18" class="yellow"/>
+  <text x="120" y="661" font-size="24" class="muted">“확인 후 안내” 문구가 결과 보장 오해를 줄입니다</text>
+
+</svg>

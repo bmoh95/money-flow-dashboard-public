@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-label="이불세탁·건조 지연 안내 문자 예시 카드">
+  <rect width="1200" height="720" fill="#F8FAFC"/>
+  <style>text{font-family:-apple-system,BlinkMacSystemFont,'Apple SD Gothic Neo','Noto Sans KR',sans-serif;fill:#172033} .muted{fill:#64748b} .box{fill:#fff;stroke:#d9e2ef;stroke-width:3} .soft{fill:#e0f2fe} .green{fill:#e8f5e9} .yellow{fill:#fff7d6}</style>
+  
+  <text x="90" y="90" font-size="42" font-weight="800">문자/카톡은 짧게, 확인 절차는 분명하게</text>
+  <rect x="115" y="145" width="970" height="455" rx="34" class="box"/>
+  <rect x="165" y="200" width="780" height="82" rx="28" fill="#e8f5e9"/>
+  <text x="200" y="252" font-size="30">이불세탁은 소재와 두께에 따라 시간이 달라집니다.</text>
+  <rect x="165" y="310" width="820" height="82" rx="28" fill="#eef6ff"/>
+  <text x="200" y="362" font-size="30">사용 예정일이 있으면 접수 전에 알려주세요.</text>
+  <rect x="165" y="420" width="805" height="82" rx="28" fill="#fff7ed"/>
+  <text x="200" y="472" font-size="30">얼룩·이염은 사진 확인 후 안내드릴 수 있습니다.</text>
+  <text x="115" y="655" font-size="25" class="muted">※ 완료일·보상 여부는 단정하지 말고 매장 기준 확인 후 안내</text>
+
+</svg>
