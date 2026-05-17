@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T21:37:08+09:00",
+  "updated_at": "2026-05-17T22:17:09+09:00",
   "last_run": {
-    "run_id": "2026-05-17_2137_money-flow",
-    "started_at": "2026-05-17T21:37:08+09:00",
-    "finished_at": "2026-05-17T21:37:08+09:00",
+    "run_id": "2026-05-17_2217_money-flow",
+    "started_at": "2026-05-17T22:17:09+09:00",
+    "finished_at": "2026-05-17T22:17:09+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -31,10 +31,10 @@
       {
         "agent": "ledger_dashboard_manager",
         "decision": "HOLD",
-        "summary": "No material backlog state change; no local actionable hold remains."
+        "summary": "No material backlog state change; no actionable held item found."
       }
     ],
-    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. One external duplicate-post cleanup still requires user approval; no L3 deletion/private conversion executed.",
+    "summary": "Backlog-only processor checked existing opportunities. No actionable redteam_hold/ready_for_approval/auth/editor/permission item remains. No new opportunity was created.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -457,7 +457,7 @@
   ],
   "rejection_summary": {
     "위험 높음": 4,
-    "OPPORTUNITY_COST": 5,
+    "기회비용 큼": 5,
     "지급 불명": 1
   },
   "roi": {
@@ -475,7 +475,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험조정 기준 기대 순수익 0원. 승인/지급 확률 대비 작업 투입 금지.",
       "links": []
     },
@@ -501,7 +501,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "preflight/plan으로 승격할 단일 GO 후보 없음. 코딩·claim·PR 제출하지 않음.",
       "links": []
     },
@@ -558,7 +558,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험조정 기준 기대 순수익 0원. 실제 지급 가능성이 낮은 후보는 시간 투입 금지.",
       "links": []
     },
@@ -645,7 +645,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험조정 기준 기대 순수익 0원. 다음 scout에서 검증 가능한 cash/platform micro-bounty 재검색.",
       "links": []
     },
@@ -732,7 +732,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "현금성 bounty scout 11건 전원 NO-GO로 기록",
       "links": []
     },
@@ -745,7 +745,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험 조정 기준 순수익 0원. 승인/지급 가능성 높은 신규 cash micro-bounty 재탐색이 우선.",
       "links": []
     },
@@ -784,7 +784,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "현금성 또는 플랫폼 payout 후보를 우선 확인했으나 경쟁 PR 과밀/선점, 지급 불명확, token only, 검증 부담으로 GO 없음.",
       "links": []
     },
@@ -822,7 +822,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "현금성 bounty scout 9건 전원 NO-GO로 기록",
       "links": []
     },
@@ -835,7 +835,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험 조정 기준 순가치 0원. 무경쟁 cash micro-bounty가 나올 때까지 claim/코딩 보류.",
       "links": []
     },
@@ -874,7 +874,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "9건 모두 경쟁 PR 선점/과밀, 지급 불명확, 보안/콘텐츠 부담, 또는 금액 대비 승인 확률 약함.",
       "links": []
     },
@@ -910,7 +910,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "현금성 bounty scout 10건 전원 NO-GO로 기록",
       "links": []
     },
@@ -923,7 +923,7 @@
       "from_status": "researching",
       "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
+      "reason_code": "기회비용 큼",
       "summary": "위험 조정 기준 순가치 0원. 기존 제출/모니터링 PR과 더 명확한 무경쟁 cash micro-bounty 탐색이 우선.",
       "links": []
     },
@@ -4686,7 +4686,7 @@
         "secret_or_payment_provider_testing_risk",
         "broad_acceptance_criteria"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4797,7 +4797,7 @@
         "external_instance_or_secret_testing_burden",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4919,7 +4919,7 @@
         "broad_acceptance_criteria",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5053,7 +5053,7 @@
         "prompt_exposure_risk",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5181,7 +5181,7 @@
         "external_tool_or_hardware_validation",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
