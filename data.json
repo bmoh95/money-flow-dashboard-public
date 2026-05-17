@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T18:18:39+09:00",
+  "updated_at": "2026-05-17T18:51:51+09:00",
   "last_run": {
-    "run_id": "2026-05-17_1818_money-flow",
-    "started_at": "2026-05-17T18:18:39+09:00",
-    "finished_at": "2026-05-17T18:18:39+09:00",
+    "run_id": "2026-05-17_1851_money-flow",
+    "started_at": "2026-05-17T18:51:51+09:00",
+    "finished_at": "2026-05-17T18:51:51+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -31,10 +31,10 @@
       {
         "agent": "ledger_dashboard_manager",
         "decision": "HOLD",
-        "summary": "No material backlog state change; only unchanged approval-required duplicate cleanup remains."
+        "summary": "Backlog-only run found no actionable redteam_hold/ready/auth/editor/permission item. Duplicate cleanup still requires explicit approval."
       }
     ],
-    "summary": "Backlog-only processor checked opportunities. No actionable redteam_hold/ready_for_approval/auth/editor/permission item remains. Existing duplicate Tistory post cleanup still requires explicit approval and was not changed.",
+    "summary": "Backlog-only processor checked existing opportunities. No new opportunity created. No actionable held item can be processed locally; the only remaining approval need is unchanged duplicate Tistory post cleanup.",
     "final_report": "[SILENT]"
   },
   "metrics": {
