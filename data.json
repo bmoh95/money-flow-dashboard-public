@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T12:26:10+09:00",
+  "updated_at": "2026-05-17T12:38:29+09:00",
   "last_run": {
-    "run_id": "2026-05-17_1226_money-flow",
-    "started_at": "2026-05-17T12:26:10+09:00",
-    "finished_at": "2026-05-17T12:26:10+09:00",
+    "run_id": "2026-05-17_1238_money-flow",
+    "started_at": "2026-05-17T12:38:29+09:00",
+    "finished_at": "2026-05-17T12:38:29+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -465,6 +465,22 @@
   },
   "recent_events": [
     {
+      "time": "2026-05-17T12:31:03+09:00",
+      "run_id": "manual_2026-05-17_wage-calculator-embed",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260517_021_minwage_payroll_blog",
+      "event": "status_changed",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 글에 2026 최저임금·주휴수당 계산기 삽입 및 공개 검증 완료",
+      "links": [
+        "https://beemo.tistory.com/20",
+        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html"
+      ]
+    },
+    {
       "time": "2026-05-17T12:20:04+09:00",
       "run_id": "manual_2026-05-17_wage-calculator-embed",
       "agent": "제작",
@@ -902,21 +918,6 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "무료 검증 콘텐츠로 추적 전환. 직접 매출 0원, 재사용 자산 가치 유지.",
-      "links": [
-        "https://beemo.tistory.com/19"
-      ]
-    },
-    {
-      "time": "2026-05-17T00:01:47+09:00",
-      "run_id": "2026-05-17_0001_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "하루 발행 제한 해소 후 공개 검증 완료. 위험 문구는 확인/주의 중심으로 완화 유지.",
       "links": [
         "https://beemo.tistory.com/19"
       ]
@@ -4308,14 +4309,13 @@
       "buyer_or_payer": "직원·알바 1명을 처음 쓰는 개인 카페·매장·공방 사장님 / 향후 계산기·체크시트 도구 독자",
       "channel": "Tistory 무료 블로그 검증 + 로컬 간이 계산기",
       "current_owner": "수익성 검토",
-      "next_action": "임금 계산기 개발 완료. backlog-processing에서 PNG 이미지 3장 생성, Tistory iframe/링크 렌더링 QA, 카테고리/썸네일 QA 후 무료 글 게시 판단.",
+      "next_action": "계산기 본문 삽입 및 공개 렌더링 검증 완료. 이후 조회/유입 변화 추적.",
       "risk_flags": [
-        "no_paid_cta",
-        "published_free_validation",
-        "tistory_iframe_qa_needed",
-        "image_and_tistory_qa_needed",
+        "calculator_asset_ready",
+        "calculator_embedded_verified",
         "free_calculator_competition",
-        "calculator_asset_ready"
+        "no_paid_cta",
+        "published_free_validation"
       ],
       "stop_reason": null,
       "approval_required": false,
@@ -4425,6 +4425,13 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "2026 최저임금·주휴수당 임베드형 계산기 HTML과 Tistory iframe/링크 삽입 초안 생성."
+        },
+        {
+          "time": "2026-05-17T12:31:03+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Tistory 공개 글 20번에 계산기 iframe+대체 링크 삽입, 높이 CSS 수정, 공개 렌더링 및 계산기 기본값 2,156,880원 확인."
         }
       ],
       "assets": [
@@ -4439,10 +4446,11 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/minwage_payroll_tistory_body.html",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/minwage_payroll_tistory_preview.html",
         "https://beemo.tistory.com/20",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/wage_calculator_2026_embed.html"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/wage_calculator_2026_embed.html",
+        "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html"
       ],
-      "asset_count": 12,
-      "updated_at": "2026-05-17T12:20:04+09:00"
+      "asset_count": 13,
+      "updated_at": "2026-05-17T12:31:03+09:00"
     }
   ]
 }
