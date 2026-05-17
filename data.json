@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T07:51:29+09:00",
+  "updated_at": "2026-05-18T08:24:07+09:00",
   "last_run": {
-    "run_id": "2026-05-18_0751_money-flow",
-    "started_at": "2026-05-18T07:51:29+09:00",
-    "finished_at": "2026-05-18T07:51:29+09:00",
+    "run_id": "2026-05-18_0824_money-flow",
+    "started_at": "2026-05-18T08:24:07+09:00",
+    "finished_at": "2026-05-18T08:24:07+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
