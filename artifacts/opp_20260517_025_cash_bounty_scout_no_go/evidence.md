@@ -1,0 +1,12 @@
+# 현금성 bounty/direct-payout scout
+
+- NO-GO `DUPLICATE` — https://github.com/ubiquity/ubiquity-dollar/issues/972 — ubiquity/ubiquity-dollar #972 — Price: 300 USD, open. PR endpoint 정상이나 open PR #1030이 “Skip storage layout check for newly added contracts”로 같은 이슈를 직접 해결 중. Ubiquity bot comment가 wallet 등록을 요구해 사용자 관여도도 있음.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/tscircuit/schematic-trace-solver/issues/34 — tscircuit/schematic-trace-solver #34 — Algora $100, open, /attempt·/claim 절차 명확. 그러나 open PR #364/#363/#362/#358 등 같은 same-net trace merge 해결 PR이 이미 다수라 승인 기대값 낮음.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/mangdangroboticsclub/mini_pupper_ros/issues/125 — mini_pupper_ros #125 — Algora $100, open. ROS2 Humble→Jazzy migration은 범위가 넓고 open PR #151/#150/#148/#146/#145 등 선점 PR 다수. 로컬 ROS/Jazzy 검증 부담 큼.
+- NO-GO `DUPLICATE` — https://github.com/getdozer/dozer/issues/1690 — getdozer/dozer #1690 — Algora $250, open. LLM+vector DB+LangChain working sample 요구. open PR #2492가 이미 “Add LangChain vector sample”로 연결되어 있고 범위/검증 부담이 큼.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/algora-io/algora/issues/238 — algora-io/algora #238 — UI auth button bug, issue open. PR endpoint 정상이나 #267/#266/#260/#258/#257 등 같은 수정 PR이 5개 이상 있어 신규 PR 승인 가능성 낮음.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/sindresorhus/awesome-lint/issues/37 — awesome-lint #37 — IssueHunt $60 funded. 하지만 제출 PR #225가 이미 있고 이슈가 오래되었으며 고해상도 이미지 판정 설계 논의가 열려 있어 소액 대비 리뷰 불확실성 큼.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/egoist/majo/issues/9 — egoist/majo #9 — IssueHunt $100 funded. PR #53/#51/#48 등 동일 기능 PR 다수, maintainer가 “not sure I really need this”라고 밝혀 승인 가능성 낮음.
+- NO-GO `HIGH_RISK` — https://github.com/ubiquity/business-development/issues/90 — ubiquity/business-development #90 — Price: 200 USD, open, PR 경쟁은 적음. 하지만 “GitHub based marketing”은 외부 홍보/댓글/리드 발굴 성격으로 스팸·평판 리스크와 wallet/payment 사용자 관여가 있어 자동 scout GO 부적합.
+- NO-GO `HIGH_RISK` — https://github.com/UnsafeLabs/Bounty-Hunters/issues/830 — UnsafeLabs/Bounty-Hunters #830 — Algora $70, fuzzy search 구현은 작음. 그러나 “AI only allowed - no humans” repo 신뢰 리스크, upstream open PR 30건, 댓글상 fork PR 제출자 존재, 소액 대비 지급/리뷰 리스크 큼.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/SecureBananaLabs/bug-bounty/issues/30 — SecureBananaLabs/bug-bounty #30 — Algora $750, API benchmark suite. 금액은 크지만 all /api endpoints·auth token·staging/local benchmark report 요구, open PR #39/#38/#35/#34/#32 등 경쟁 과밀.

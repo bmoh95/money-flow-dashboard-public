@@ -1,0 +1,5 @@
+- research_member: HOLD  — bounty/direct-payout 후보 10건 검색 및 GitHub API/clone preflight 확인.
+- research_lead: NO-GO HIGH_RISK — 5개 이상 후보를 검토했으나 실제 cash/platform payout·무경쟁·낮은 사용자 부담을 동시에 만족한 후보 없음.
+- planning_lead: NO-GO NO_EVIDENCE — preflight/plan 작성 대상으로 넘길 단일 GO 후보 없음. 코딩/claim/PR 제출 없음.
+- redteam: NO-GO REDTEAM_REJECTED — UnsafeLabs symbolic bounty 경고, 경쟁 PR 선점, finalized bounty, AWS/loom burden, payout 불명확 리스크.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 기대 순수익 0원. 실제 지급 가능성이 낮은 후보는 시간 투입 금지.

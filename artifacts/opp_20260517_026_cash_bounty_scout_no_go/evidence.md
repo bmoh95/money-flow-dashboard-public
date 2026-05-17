@@ -1,0 +1,11 @@
+# 현금성 bounty/direct-payout scout
+
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2 — claude-builders-bounty #2 — Opire $75 CLAUDE.md template. Issue open and payout rule says merge auto-release, but comments 337개, open PR 100개, issue #2 PR search hits 30개라 선점/과밀. 템플릿형 산출물이라 차별화/승인 가능성 낮음.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4 — claude-builders-bounty #4 — Opire $150 PR review agent. Issue open, payout route clear. 하지만 comments 359개, open PR 100개, issue #4 PR search hits 30개로 경쟁 과밀. 새 PR 승인 기대값 낮음.
+- NO-GO `DUPLICATE` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5 — claude-builders-bounty #5 — Opire $200 n8n weekly summary workflow. 직전 scout에서도 확인한 후보. open PR #1566/#1565/#1563 등 동일 방향 PR 선점, n8n 실행/스크린샷 검증 부담.
+- NO-GO `PAYMENT_UNCLEAR` — https://github.com/Rethunk-AI/bakeoff/issues/8 — Rethunk-AI/bakeoff #8 — performance metrics issue open, open PR 0개. 그러나 GitHub issue에 현금 bounty/플랫폼 지급 근거가 없고 labels도 enhancement뿐이라 direct-payout scout 기준 NO-GO.
+- NO-GO `HIGH_RISK` — https://github.com/ClankerNation/OpenAgents/issues/133 — OpenAgents #133 — $8k Solidity bounty, issue open. open PR #242가 같은 ChainlinkAdapter multi-hop fix로 연결되어 선점. CI가 세션 raw startup instructions 문서 블록을 요구해 보안/프롬프트 노출 리스크도 큼.
+- NO-GO `HIGH_USER_INPUT` — https://github.com/midnightntwrk/contributor-hub/issues/284 — Midnight contributor-hub #284 — bounty label 있는 video content proposal. 영상 제작/외부 콘텐츠 제출형이라 사용자 관여·제작 부담이 높고 현금 지급 rail이 GitHub issue만으로 불명확. 콘텐츠 fallback 금지 조건에도 부적합.
+- NO-GO `DUPLICATE` — https://github.com/piotrwitek/react-redux-typescript-guide/issues/82 — react-redux-typescript-guide #82 — IssueHunt $50 funded docs issue. open PR #281이 이미 “Fix #82”로 존재하고 repo open PR 47개. 오래된 IssueHunt라 지급/리뷰 불확실성 큼.
+- NO-GO `LOW_MARGIN` — https://github.com/0xSatellites/satellites/issues/656 — 0xSatellites/satellites #656 — IssueHunt $5 funded pagination. Submitted PR #660 및 open PR #665가 pagination 구현 중. 금액이 너무 작고 경쟁 PR 선점.
+- NO-GO `DUPLICATE` — https://github.com/wulkano/Kap/issues/515 — Kap #515 — IssueHunt $80 funded Disable SSR. open PR #1279/#1278이 동일 방향으로 선점. Electron/Next 앱 검증 부담 대비 승인 가능성 낮음.

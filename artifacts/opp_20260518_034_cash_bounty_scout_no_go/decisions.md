@@ -1,0 +1,5 @@
+- research_member: HOLD  — cash/platform bounty/direct-payout 후보 12건 검색 및 issue/PR/comment/payout preflight 확인.
+- research_lead: NO-GO OPPORTUNITY_COST — 5개 이상 검토 완료. cash/platform 지급 명확성, 낮은 경쟁도, PR 가능성, 승인 가능성을 동시에 만족한 GO 후보 없음.
+- planning_lead: NO-GO OPPORTUNITY_COST — preflight/plan 승격 후보 없음. 코딩·claim·PR 제출하지 않음.
+- redteam: NO-GO REDTEAM_REJECTED — 실패 모드: 선점 PR, 중복 시도, 낮은 보상, 지갑/권한/assignment 불명확, 광범위 스코프.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 순수익 0원. 승인/지급 확률 대비 작업 투입 금지.

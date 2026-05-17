@@ -1,0 +1,5 @@
+- research_member: HOLD  — bounty/direct-payout 후보 11건 검색 및 GitHub API preflight 확인.
+- research_lead: NO-GO OPPORTUNITY_COST — 현금성 또는 플랫폼 payout 후보를 우선 확인했으나 경쟁 PR 과밀/선점, 지급 불명확, token only, 검증 부담으로 GO 없음.
+- planning_lead: NO-GO NO_EVIDENCE — 품질 80+ 계획으로 넘길 단일 무경쟁 후보가 없음. 코딩/claim/PR 제출 없음.
+- redteam: NO-GO REDTEAM_REJECTED — crowded AI-bounty repo, token payout, hardware/CI/certificate 요구, mirror repo 권한 불명확 등 실패 모드 다수.
+- roi: NO-GO OPPORTUNITY_COST — 위험 조정 기준 순수익 0원. 승인/지급 가능성 높은 신규 cash micro-bounty 재탐색이 우선.

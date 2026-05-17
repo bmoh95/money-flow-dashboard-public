@@ -1,0 +1,8 @@
+- research_member: HOLD  — cash/platform bounty/direct-payout 후보 9건 검색 및 issue/PR/comment/payout preflight 확인.
+- research_lead: NO-GO OPPORTUNITY_COST — IssueHunt/Algora/Opire/Polar/GitHub 후보 9건 모두 중복 PR, 비현금 token/stake, PR route 불가, prompt disclosure, 과대 스코프 중 하나 이상으로 탈락.
+- planning_member: NO-GO OPPORTUNITY_COST — preflight/plan 승격 후보 없음. 코딩·claim·PR 제출하지 않음.
+- planning_lead: NO-GO OPPORTUNITY_COST — 승인/지급 확률 우선 기준에서 작업 투입 금지.
+- execution_member: NO-GO NO_APPROVAL — Scout-only cron이므로 외부 claim/comment/PR 없음.
+- execution_lead: NO-GO NO_APPROVAL — 제출 대상 없음. 안전 경계 준수.
+- redteam: NO-GO REDTEAM_REJECTED — 실패 모드: 선점/중복 PR, token/wallet/stake, PR route 404, prompt/system 지시 공개 요구, 광범위 스코프와 낮은 지급 확실성.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기대 순수익 0원. cash/platform·무경쟁·작은 범위 동시 충족 후보 없음.

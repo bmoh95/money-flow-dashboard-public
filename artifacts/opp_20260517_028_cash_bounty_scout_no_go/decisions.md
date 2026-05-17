@@ -1,0 +1,5 @@
+- research_member: HOLD  — bounty/direct-payout 후보 10건 검색 및 GitHub API preflight 확인.
+- research_lead: NO-GO HIGH_RISK — 5개 이상 후보를 검토했으나 무경쟁·명확 현금 payout·낮은 사용자/리스크 조건을 동시에 만족한 후보 없음.
+- planning_lead: NO-GO NO_EVIDENCE — 품질 80+ preflight/plan으로 넘길 단일 후보 없음. 코딩/claim/PR 제출 없음.
+- redteam: NO-GO REDTEAM_REJECTED — instruction leakage 요구, 경쟁 PR 선점, payout 불명확, low-reward IssueHunt, bot-like bounty repo 위험.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 기대 순수익 0원. 다음 scout에서 검증 가능한 cash/platform micro-bounty 재검색.

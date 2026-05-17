@@ -1,0 +1,5 @@
+- research_member: HOLD  — cash/platform bounty 후보 10건 검색 및 GitHub API preflight 확인.
+- research_lead: NO-GO OPPORTUNITY_COST — 10건 모두 경쟁 PR 선점/과밀, wallet 사용자 관여, 외부 홍보 리스크, 또는 범위 대비 승인 확률 약함.
+- planning_lead: NO-GO NO_EVIDENCE — 품질 80+로 계획할 단일 GO 후보 없음. 코딩/claim/PR 제출 단계로 넘기지 않음.
+- redteam: NO-GO HIGH_RISK — AI-only/마케팅형 bounty, wallet 등록, 오래된 IssueHunt, broad benchmark/sample 작업에서 지급·평판·리뷰 리스크 확인.
+- roi: NO-GO OPPORTUNITY_COST — 위험 조정 기준 순가치 0원. 기존 제출/모니터링 PR과 더 명확한 무경쟁 cash micro-bounty 탐색이 우선.

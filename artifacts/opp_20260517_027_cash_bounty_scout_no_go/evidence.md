@@ -1,0 +1,13 @@
+# 현금성 bounty/direct-payout scout
+
+- NO-GO `OPPORTUNITY_COST` — https://github.com/algora-io/algora/issues/238 — Algora UI bug. Issue open and PR endpoint works, but comments show multiple claimers and open PRs #267/#266/#260+ target the same unauthorized edit/delete-button fix.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1 — Opire $50 changelog skill. Payout visible, PR route open, but 860 comments/open PR flood (#1568..), crowded AI-agent repo, low reward vs review noise.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2 — Opire $75 Next.js+SQLite CLAUDE.md template. Payout visible, but 339 comments and many competing PRs; subjective “opinionated/not generic” acceptance lowers approval odds.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3 — Opire $100 destructive-command hook. Clear scope, but 487 comments, existing PR references, and security edge-case burden make fresh claim low-EV.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4 — Opire $150 PR-review agent. Payout visible, but 362 comments/open PR flood and needs tested outputs on real PRs; crowded and subjective acceptance.
+- NO-GO `OPPORTUNITY_COST` — https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5 — Opire $200 n8n weekly dev summary workflow. Payout visible but 289 comments, external Claude/API/webhook workflow setup, and review competition.
+- NO-GO `PAYMENT_UNCLEAR` — https://github.com/abdulmajeedsualihu/Autokey/issues/1 — Opire $40 mirror of autokey/autokey#87 Wayland support. Original issue has 244 comments and many open Wayland PRs; repo mirror has zero stars and unclear authority.
+- NO-GO `HIGH_USER_INPUT` — https://github.com/tenstorrent/tt-metal/issues/44507 — $3k exp2 optimization. Real open bounty but assigned in comment, open PR #44567 already targets it, and TT hardware/perf validation burden is high.
+- NO-GO `DUPLICATE` — https://github.com/tari-project/universe/issues/3210 — 15,000 XTM hashrate unit bug. Token payout, not preferred cash/platform; open PR #3233/#3234/#3236 already address same fix.
+- NO-GO `DUPLICATE` — https://github.com/seveibar/pgstrap/issues/2 — Algora $30 pglite default. Cash/platform path visible, but open PRs #15/#20-#24 already implement the same small change; low reward and crowded.
+- NO-GO `PAYMENT_UNCLEAR` — https://github.com/ActivityWatch/activitywatch/issues/632 — Windows code-signing bounty-labeled issue. Requires certificate/CI code-signing context; open PR #1304 already submitted; no clear current cash amount in issue.

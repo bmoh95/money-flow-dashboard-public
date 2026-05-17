@@ -1,0 +1,5 @@
+- research_member: HOLD  — cash/platform bounty 후보 8건 검색 및 issue/PR/CONTRIBUTING preflight 확인.
+- research_lead: NO-GO PAYMENT_UNCLEAR — 5개 이상 검토했으나 실제 현금성 지급·낮은 경쟁·명확 PR 경로를 동시에 만족한 후보 없음.
+- planning_lead: NO-GO OPPORTUNITY_COST — preflight/plan으로 승격할 단일 GO 후보 없음. 코딩·claim·PR 제출하지 않음.
+- redteam: NO-GO REDTEAM_REJECTED — symbolic bounty 경고, crypto-only/unclear payout, 경쟁 PR 선점, 내부 진행, maintainer friction 확인.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 기대 순수익 0원. 승인/지급 확률 대비 작업 투입 금지.
