@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T05:13:18+09:00",
+  "updated_at": "2026-05-18T05:36:18+09:00",
   "last_run": {
-    "run_id": "2026-05-18_0513_money-flow",
-    "started_at": "2026-05-18T05:13:18+09:00",
-    "finished_at": "2026-05-18T05:13:18+09:00",
+    "run_id": "2026-05-18_0536_money-flow",
+    "started_at": "2026-05-18T05:36:18+09:00",
+    "finished_at": "2026-05-18T05:36:18+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,25 +16,26 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 10,
+    "candidates_discovered": 0,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0513_money-flow/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/roi.md"
-    ],
-    "approval_needed": [],
-    "decisions": [
+    "opportunities_rejected": 0,
+    "assets_created": [],
+    "approval_needed": [
       {
-        "agent": "research_lead",
-        "decision": "NO-GO",
-        "summary": "10개 bounty/direct-payout 후보 모두 탈락"
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+        "reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
       }
     ],
-    "summary": "Cash bounty scout reviewed 10 candidates; none passed GO gate due to duplicate attempts, wallet/token/stake, sensitive session disclosure, external API burden, or crowded PRs. Public GitHub Pages data.json verified over HTTPS.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 10개 검토, 전원 NO-GO 기록.\n- 새 기록: `opp_20260518_037_cash_bounty_scout_no_go`\n- 대시보드와 GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료.\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: claudelance #148, claude-builders #5, awesome-lint #37, tscircuit #92.\n- wallet/token/stake 또는 민감 세션정보 노출: claudelance #146/#147, OpenAgents #133.\n- 범위·외부 API·리뷰 부담 과대: Spectral lux #68, sxt-proof-of-sql #560, UnsafeLabs #611.\n\n**대기**\n- claim, 코딩, PR 제출 없음. 다음 scout에서 경쟁 낮은 cash/platform micro-bounty만 재탐색."
+    "decisions": [
+      {
+        "agent": "ledger_dashboard_manager",
+        "decision": "HOLD",
+        "summary": "No material backlog state change; no actionable held item found."
+      }
+    ],
+    "summary": "Backlog-only processor checked existing opportunities. No actionable redteam_hold/ready_for_approval/auth/editor/permission item remains. No new opportunity was created.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 37,
@@ -54,7 +55,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "높음",
       "quality": 87,
@@ -228,7 +228,6 @@
           "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
@@ -247,7 +246,9 @@
           "url": "https://beemo.tistory.com/4",
           "type": "duplicate_tistory_post"
         }
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-17T01:55:36+09:00"
     }
   ],
   "priority_queue": [
@@ -258,7 +259,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "높음",
       "quality": 87,
@@ -432,7 +432,6 @@
           "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
@@ -451,14 +450,15 @@
           "url": "https://beemo.tistory.com/4",
           "type": "duplicate_tistory_post"
         }
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-17T01:55:36+09:00"
     }
   ],
   "rejection_summary": {
-    "차별성 약함": 1,
-    "리스크 높음": 5,
-    "기회비용 높음": 11,
-    "지급 불명확": 1
+    "위험 높음": 5,
+    "기회비용 큼": 11,
+    "지급 불명": 1
   },
   "roi": {
     "expected_base_net_total": 769960,
@@ -468,183 +468,459 @@
   "recent_events": [
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "대시보드",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "status_changed",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "현금성 bounty scout 10건 전원 NO-GO로 기록"
+      "reason_code": "기회비용 큼",
+      "summary": "현금성 bounty scout 10건 전원 NO-GO로 기록",
+      "links": []
     },
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리."
+      "reason_code": "기회비용 큼",
+      "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리.",
+      "links": []
     },
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "리스크 검토 탈락",
-      "summary": "실패 모드: 선점 PR 과밀, token/wallet claim, 민감 세션 지시문 노출, OAuth/API 데모 부담, 범위 과대."
+      "reason_code": "리스크 반려",
+      "summary": "실패 모드: 선점 PR 과밀, token/wallet claim, 민감 세션 지시문 노출, OAuth/API 데모 부담, 범위 과대.",
+      "links": []
     },
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "기획 검수",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
       "reason_code": "근거 부족",
-      "summary": "품질 80+ 계획으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지."
+      "summary": "품질 80+ 계획으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지.",
+      "links": []
     },
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "시장성 검토",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 현금 지급·안전한 PR 가능성·승인 가능성을 동시에 만족한 후보 없음."
+      "reason_code": "기회비용 큼",
+      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 현금 지급·안전한 PR 가능성·승인 가능성을 동시에 만족한 후보 없음.",
+      "links": []
     },
     {
       "time": "2026-05-18T05:13:18+09:00",
+      "run_id": "2026-05-18_0513_money-flow",
       "agent": "리서치",
       "opportunity_id": "opp_20260518_037_cash_bounty_scout_no_go",
       "event": "evidence_added",
+      "from_status": null,
+      "to_status": "researching",
       "decision": "HOLD",
       "reason_code": null,
-      "summary": "cash/platform bounty 후보 10건 preflight 확인"
+      "summary": "cash/platform bounty 후보 10건 preflight 확인",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
+        "https://github.com/yeheskieltame/claudelance/issues/146",
+        "https://github.com/yeheskieltame/claudelance/issues/147",
+        "https://github.com/yeheskieltame/claudelance/issues/148",
+        "https://github.com/Spectral-Finance/lux/issues/68",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/sindresorhus/awesome-lint/issues/37",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
+        "https://github.com/ClankerNation/OpenAgents/issues/133"
+      ]
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "대시보드",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "status_changed",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "현금성 bounty scout 9건 전원 NO-GO로 기록"
+      "reason_code": "기회비용 큼",
+      "summary": "현금성 bounty scout 9건 전원 NO-GO로 기록",
+      "links": []
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리."
+      "reason_code": "기회비용 큼",
+      "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리.",
+      "links": []
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "리스크 검토 탈락",
-      "summary": "실패 모드: 선점 PR/attempt 과밀, wallet·crypto claim, 민감 지시문 노출 요구, AWS/외부데모 부담, 마케팅성 범위."
+      "reason_code": "리스크 반려",
+      "summary": "실패 모드: 선점 PR/attempt 과밀, wallet·crypto claim, 민감 지시문 노출 요구, AWS/외부데모 부담, 마케팅성 범위.",
+      "links": []
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "기획 검수",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
       "reason_code": "근거 부족",
-      "summary": "품질 80+ plan으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지."
+      "summary": "품질 80+ plan으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지.",
+      "links": []
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "시장성 검토",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 지급/완료 기준·PR 가능성·승인 가능성을 동시에 만족한 GO 후보 없음."
+      "reason_code": "기회비용 큼",
+      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 지급/완료 기준·PR 가능성·승인 가능성을 동시에 만족한 GO 후보 없음.",
+      "links": []
     },
     {
       "time": "2026-05-18T04:07:50+09:00",
+      "run_id": "2026-05-18_0407_money-flow",
       "agent": "리서치",
       "opportunity_id": "opp_20260518_036_cash_bounty_scout_no_go",
       "event": "evidence_added",
+      "from_status": null,
+      "to_status": "researching",
       "decision": "HOLD",
       "reason_code": null,
-      "summary": "cash/platform bounty 후보 9건 preflight 확인"
+      "summary": "cash/platform bounty 후보 9건 preflight 확인",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+        "https://github.com/ClankerNation/OpenAgents/issues/136",
+        "https://github.com/ClankerNation/OpenAgents/issues/119",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+        "https://github.com/ubiquity/business-development/issues/90"
+      ]
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "대시보드",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "status_changed",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "현금성 bounty scout 8건 전원 NO-GO로 기록"
+      "reason_code": "기회비용 큼",
+      "summary": "현금성 bounty scout 8건 전원 NO-GO로 기록",
+      "links": []
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "위험조정 기준 기대 순수익 0원. 작업 투입보다 다음 scout의 더 좁고 명확한 cash micro-bounty 탐색이 유리."
+      "reason_code": "기회비용 큼",
+      "summary": "위험조정 기준 기대 순수익 0원. 작업 투입보다 다음 scout의 더 좁고 명확한 cash micro-bounty 탐색이 유리.",
+      "links": []
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "리스크 검토 탈락",
-      "summary": "실패 모드: 선점 PR, 비회원/비코어 assignment 제한, wallet/user burden, 과대 범위, 주관적 심사, 지급 기준 불명확."
+      "reason_code": "리스크 반려",
+      "summary": "실패 모드: 선점 PR, 비회원/비코어 assignment 제한, wallet/user burden, 과대 범위, 주관적 심사, 지급 기준 불명확.",
+      "links": []
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "기획 검수",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
       "reason_code": "근거 부족",
-      "summary": "품질 80+ plan으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지."
+      "summary": "품질 80+ plan으로 승격할 단일 후보 없음. 코딩/claim/PR 제출 금지.",
+      "links": []
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "시장성 검토",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 지급/완료 기준·PR 가능성·승인 가능성을 동시에 만족한 GO 후보 없음."
+      "reason_code": "기회비용 큼",
+      "summary": "5개 이상 검토 완료. 낮은 경쟁도·명확한 지급/완료 기준·PR 가능성·승인 가능성을 동시에 만족한 GO 후보 없음.",
+      "links": []
     },
     {
       "time": "2026-05-18T03:01:55+09:00",
+      "run_id": "2026-05-18_0301_money-flow",
       "agent": "리서치",
       "opportunity_id": "opp_20260518_035_cash_bounty_scout_no_go",
       "event": "evidence_added",
+      "from_status": null,
+      "to_status": "researching",
       "decision": "HOLD",
       "reason_code": null,
-      "summary": "cash/platform bounty 후보 8건 preflight 확인"
+      "summary": "cash/platform bounty 후보 8건 preflight 확인",
+      "links": [
+        "https://github.com/devpool-directory/devpool-directory/issues/5030",
+        "https://github.com/UnsafeLabs/RFC-5322/issues/1",
+        "https://github.com/CapSoftware/Cap/issues/54",
+        "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
+        "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/557",
+        "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
+        "https://github.com/ProKelly/mychart/issues/1"
+      ]
     },
     {
       "time": "2026-05-18T01:59:58+09:00",
+      "run_id": "2026-05-18_0155_money-flow",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260518_034_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "위험조정 기준 순수익 0원. 승인/지급 확률 대비 작업 투입 금지."
+      "reason_code": "기회비용 큼",
+      "summary": "위험조정 기준 순수익 0원. 승인/지급 확률 대비 작업 투입 금지.",
+      "links": []
     },
     {
       "time": "2026-05-18T01:59:58+09:00",
+      "run_id": "2026-05-18_0155_money-flow",
       "agent": "리스크 검토",
       "opportunity_id": "opp_20260518_034_cash_bounty_scout_no_go",
       "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
       "decision": "NO-GO",
-      "reason_code": "리스크 검토 탈락",
-      "summary": "실패 모드: 선점 PR, 중복 시도, 낮은 보상, 지갑/권한/assignment 불명확, 광범위 스코프."
+      "reason_code": "리스크 반려",
+      "summary": "실패 모드: 선점 PR, 중복 시도, 낮은 보상, 지갑/권한/assignment 불명확, 광범위 스코프.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T01:59:58+09:00",
+      "run_id": "2026-05-18_0155_money-flow",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260518_034_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "preflight/plan 승격 후보 없음. 코딩·claim·PR 제출하지 않음.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T01:59:58+09:00",
+      "run_id": "2026-05-18_0155_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260518_034_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "5개 이상 검토 완료. cash/platform 지급 명확성, 낮은 경쟁도, PR 가능성, 승인 가능성을 동시에 만족한 GO 후보 없음.",
+      "links": [
+        "https://github.com/highlight/highlight/issues/8635",
+        "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/Spectral-Finance/lux/issues/68",
+        "https://github.com/ubiquity/ubiquibot/issues/913",
+        "https://github.com/ubiquity/ubiquibot/issues/912",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/228",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
+        "https://github.com/arakoodev/EdgeChains/issues/290"
+      ]
+    },
+    {
+      "time": "2026-05-18T01:59:58+09:00",
+      "run_id": "2026-05-18_0155_money-flow",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260518_034_cash_bounty_scout_no_go",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "researching",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "cash/platform bounty/direct-payout 후보 12건 검색 및 issue/PR/comment/payout preflight 확인.",
+      "links": [
+        "https://github.com/highlight/highlight/issues/8635",
+        "https://github.com/tscircuit/circuit-json-to-readable-netlist/issues/4",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/Spectral-Finance/lux/issues/68",
+        "https://github.com/ubiquity/ubiquibot/issues/913",
+        "https://github.com/ubiquity/ubiquibot/issues/912",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/228",
+        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
+        "https://github.com/arakoodev/EdgeChains/issues/290"
+      ]
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "위험조정 기대 순수익 0원. cash/platform·무경쟁·작은 범위 동시 충족 후보 없음.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "리스크 반려",
+      "summary": "실패 모드: 선점/중복 PR, token/wallet/stake, PR route 404, prompt/system 지시 공개 요구, 광범위 스코프와 낮은 지급 확실성.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "승인 필요",
+      "summary": "제출 대상 없음. 안전 경계 준수.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "승인 필요",
+      "summary": "Scout-only cron이므로 외부 claim/comment/PR 없음.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "승인/지급 확률 우선 기준에서 작업 투입 금지.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "기획",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "preflight/plan 승격 후보 없음. 코딩·claim·PR 제출하지 않음.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T00:52:37+09:00",
+      "run_id": "2026-05-18_0048_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260518_033_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "기회비용 큼",
+      "summary": "IssueHunt/Algora/Opire/Polar/GitHub 후보 9건 모두 중복 PR, 비현금 token/stake, PR route 불가, prompt disclosure, 과대 스코프 중 하나 이상으로 탈락.",
+      "links": [
+        "https://github.com/pschanely/CrossHair/issues/115",
+        "https://github.com/sindresorhus/awesome-lint/issues/37",
+        "https://github.com/egoist/majo/issues/9",
+        "https://github.com/sindresorhus/electron-reloader/issues/2",
+        "https://github.com/UnsafeLabs/RFC-5322/issues/1",
+        "https://github.com/yeheskieltame/claudelance/issues/139",
+        "https://github.com/ClankerNation/OpenAgents/issues/96",
+        "https://github.com/SecureBananaLabs/bug-bounty/issues/80",
+        "https://github.com/organicmaps/organicmaps/issues/7350"
+      ]
     }
   ],
   "board_columns": [
@@ -663,9 +939,8 @@
       "id": "opp_20260514_001_beauty_noshow_kit",
       "title": "뷰티샵 노쇼·당일취소 방지 예약 운영 키트",
       "type": "디지털 상품",
-      "status": "출시/제출됨",
+      "status": "운영/수익",
       "raw_status": "launched",
-      "status_raw": "launched",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -781,7 +1056,6 @@
           "summary": "사용자 확인: MF-1은 블로그 공개로 완료 처리. 향후 반복 실행에서 재작업 대상 제외."
         }
       ],
-      "asset_count": 15,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/08_usage_guide.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/06_sales_page.md",
@@ -798,16 +1072,17 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_01_nailshop_noshow_reservation_deposit.md",
         "https://beemo.tistory.com/3",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_001_beauty_noshow_kit/assets/blog_nailshop_noshow_reservation_deposit/blog_post_tistory.html"
-      ]
+      ],
+      "asset_count": 15,
+      "updated_at": "2026-05-15T14:48:59+09:00"
     },
     {
       "key": "MF-2",
       "id": "opp_20260514_002_smartstore_review_kit",
       "title": "스마트스토어 리뷰 답변·재구매 유도 키트 KR",
       "type": "디지털 상품",
-      "status": "출시/제출됨",
+      "status": "운영/수익",
       "raw_status": "launched",
-      "status_raw": "launched",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 68,
@@ -862,7 +1137,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 6,
       "assets": [
         "/Users/beemo/.hermes/money_ops/products/smartstore-review-repurchase-kit-kr",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/blog_draft_smartstore_review_reply_20260515.md",
@@ -870,7 +1144,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/02-review-reply-example.png",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260514_002_smartstore_review_kit/assets/blog_smartstore_review_replies/03-review-checklist-card.png",
         "https://beemo.tistory.com/2"
-      ]
+      ],
+      "asset_count": 6,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-3",
@@ -879,7 +1155,6 @@
       "type": "바운티",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 82,
@@ -944,7 +1219,6 @@
           "summary": "사용자 승인 후 /opire try 댓글, fork push, PR #1385 제출 완료."
         }
       ],
-      "asset_count": 6,
       "assets": [
         "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/changelog.sh",
         "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/SKILL.md",
@@ -952,16 +1226,17 @@
         "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/sample-output.md",
         "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
         "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
-      ]
+      ],
+      "asset_count": 6,
+      "updated_at": "2026-05-15T16:11:16+09:00"
     },
     {
       "key": "MF-4",
       "id": "opp_20260515_004_unsafelabs_prompt_bounty",
       "title": "UnsafeLabs AI-only GitHub bounty prompt 공개 요구",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 20,
@@ -977,7 +1252,7 @@
         "policy_and_security_risk",
         "low_trust_bounty_terms"
       ],
-      "stop_reason": "리스크 높음",
+      "stop_reason": "위험 높음",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -1029,17 +1304,17 @@
           "summary": "기대 수익은 $50 수준이나 보안 리스크 비용이 무한대에 가까워 ROI 불합격."
         }
       ],
+      "assets": [],
       "asset_count": 0,
-      "assets": []
+      "updated_at": "2026-05-15T16:42:08+09:00"
     },
     {
       "key": "MF-5",
       "id": "opp_20260515_005_studenthub_s3_bounty",
       "title": "StudentHub AWS S3 보안 복구 $600 바운티",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 25,
@@ -1056,7 +1331,7 @@
         "requires_secret_owner_coordination",
         "high_operational_liability"
       ],
-      "stop_reason": "리스크 높음",
+      "stop_reason": "위험 높음",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -1122,8 +1397,9 @@
           "summary": "위험 조정 기준 base 순가치 0. 즉시 수익 후보에서 제외."
         }
       ],
+      "assets": [],
       "asset_count": 0,
-      "assets": []
+      "updated_at": "2026-05-15T17:49:58+09:00"
     },
     {
       "key": "MF-6",
@@ -1132,7 +1408,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "높음",
       "quality": 87,
@@ -1306,7 +1581,6 @@
           "summary": "중복 URL은 검색/브랜드 품질 리스크. 직접 매출 변화 없음, 정리 승인 대기."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/draft_freelancer_simple_book_20260515.md",
@@ -1325,7 +1599,9 @@
           "url": "https://beemo.tistory.com/4",
           "type": "duplicate_tistory_post"
         }
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-17T01:55:36+09:00"
     },
     {
       "key": "MF-7",
@@ -1334,7 +1610,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 84,
@@ -1506,7 +1781,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 8,
       "assets": [
         {
           "name": "학원 여름방학 특강 안내문 무료 검증 브리프",
@@ -1548,7 +1822,9 @@
           "url": "https://beemo.tistory.com/7",
           "path": "https://beemo.tistory.com/7"
         }
-      ]
+      ],
+      "asset_count": 8,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-8",
@@ -1557,7 +1833,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -1730,7 +2005,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 8,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md",
@@ -1764,7 +2038,9 @@
           "url": "https://beemo.tistory.com/8",
           "path": "https://beemo.tistory.com/8"
         }
-      ]
+      ],
+      "asset_count": 8,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-9",
@@ -1773,7 +2049,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 84,
@@ -1947,7 +2222,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 8,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md",
@@ -1981,7 +2255,9 @@
           "url": "https://beemo.tistory.com/9",
           "path": "https://beemo.tistory.com/9"
         }
-      ]
+      ],
+      "asset_count": 8,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-10",
@@ -1990,7 +2266,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -2142,7 +2417,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 8,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516.md",
@@ -2175,7 +2449,9 @@
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/6"
         }
-      ]
+      ],
+      "asset_count": 8,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-11",
@@ -2184,7 +2460,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -2328,7 +2603,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/draft_studycafe_exam_rules_20260516.md",
@@ -2342,7 +2616,9 @@
           "name": "Tistory 공개 글",
           "url": "https://beemo.tistory.com/10"
         }
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-12",
@@ -2351,7 +2627,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -2497,7 +2772,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/draft_laundry_rainy_season_messages_20260516.md",
@@ -2508,7 +2782,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/02-sms-laundry-rain.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_012_laundry_rainy_season_blog/assets/03-checklist-laundry-rain.svg",
         "https://beemo.tistory.com/11"
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-13",
@@ -2517,7 +2793,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -2662,7 +2937,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/draft_aircon_cleaning_booking_20260516.md",
@@ -2673,7 +2947,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/02-sms-aircon-cleaning.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_013_aircon_cleaning_booking_blog/assets/03-checklist-aircon-cleaning.svg",
         "https://beemo.tistory.com/12"
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-14",
@@ -2682,7 +2958,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -2822,7 +3097,6 @@
           "summary": "사용자 지시에 따라 콘텐츠 판매/크몽형 유료화 전환 문구를 중단하고 무료 블로그/자료 보강 추적으로 변경."
         }
       ],
-      "asset_count": 9,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/draft_naver_place_vacation_hours_20260516.md",
@@ -2833,7 +3107,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/02-notice-place-vacation.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_014_place_vacation_hours_blog/assets/03-checklist-place-vacation.svg",
         "https://beemo.tistory.com/13"
-      ]
+      ],
+      "asset_count": 9,
+      "updated_at": "2026-05-16T15:03:21+09:00"
     },
     {
       "key": "MF-15",
@@ -2842,7 +3118,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -3035,7 +3310,6 @@
           "summary": "tracking 항목의 next_action이 보류 작업처럼 탐지되던 문구를 정리. 실제 남은 작업은 유입/반응 추적뿐임을 확인."
         }
       ],
-      "asset_count": 15,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_015_pet_grooming_rain_blog/assets/draft_pet_grooming_rainy_booking_20260516.md",
@@ -3052,7 +3326,9 @@
         "https://beemo.tistory.com/14",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_pet_tistory_20260516_1840.py",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_pet_post14_thumbnail_20260516_1848.py"
-      ]
+      ],
+      "asset_count": 15,
+      "updated_at": "2026-05-17T03:41:27+09:00"
     },
     {
       "key": "MF-16",
@@ -3061,7 +3337,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -3265,7 +3540,6 @@
           "summary": "무료 검증 글은 현금화 전 단계. 실제 매출 0원이나 검색 반응 추적 자산으로 전환."
         }
       ],
-      "asset_count": 14,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/draft_cafe_summer_menu_notice_20260516.md",
@@ -3285,7 +3559,9 @@
         },
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_cafe_tistory_20260516_1906.py",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_cafe_post16_images_20260516_1909.py"
-      ]
+      ],
+      "asset_count": 14,
+      "updated_at": "2026-05-16T19:09:54+09:00"
     },
     {
       "key": "MF-17",
@@ -3294,7 +3570,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -3480,7 +3755,6 @@
           "summary": "공개 Tistory 시각 QA 통과: 문단/제목 간격, 본문 이미지 3장, 대표 OG 이미지 확인."
         }
       ],
-      "asset_count": 13,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/draft_clinic_vacation_notice_20260516.md",
@@ -3495,7 +3769,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_017_clinic_vacation_notice_blog/assets/03-checklist-clinic-vacation.svg",
         "https://beemo.tistory.com/17",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_clinic_tistory_20260516_1922.py"
-      ]
+      ],
+      "asset_count": 13,
+      "updated_at": "2026-05-16T19:30:05+09:00"
     },
     {
       "key": "MF-18",
@@ -3504,7 +3780,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -3660,7 +3935,6 @@
           "summary": "무료 검증 글 공개 완료. 실제 매출 0원, 후속 전환은 검색 반응 추적 후 판단."
         }
       ],
-      "asset_count": 14,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/draft_childcare_vacation_survey_20260516.md",
@@ -3681,7 +3955,9 @@
           "viewer": "https://beemo.tistory.com/18"
         },
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
-      ]
+      ],
+      "asset_count": 14,
+      "updated_at": "2026-05-16T19:44:13+09:00"
     },
     {
       "key": "MF-19",
@@ -3690,7 +3966,6 @@
       "type": "디지털 상품",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 85,
@@ -3811,7 +4086,6 @@
           "summary": "무료 검증 글 공개 완료. 실제 매출 0원, 후속 전환은 검색 반응 추적 후 판단."
         }
       ],
-      "asset_count": 17,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/draft_oneday_class_booking_notice_20260516.md",
@@ -3835,7 +4109,9 @@
           "path": "https://beemo.tistory.com/15",
           "viewer": "https://beemo.tistory.com/15"
         }
-      ]
+      ],
+      "asset_count": 17,
+      "updated_at": "2026-05-16T18:54:10+09:00"
     },
     {
       "key": "MF-20",
@@ -3844,7 +4120,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 82,
@@ -4003,7 +4278,6 @@
           "summary": "공개 본문 DOM에서 이미지 3장 로드 확인, 홈 목록 첫 카드에서 기본 T placeholder가 아닌 실제 썸네일 확인."
         }
       ],
-      "asset_count": 10,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/blog_brief_used_macbook_checklist.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/sample_style_brief_used_macbook_20260516.md",
@@ -4015,7 +4289,9 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_020_used_macbook_buying_checklist_blog/assets/03-checklist-used-macbook.png",
         "https://beemo.tistory.com/19",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_macbook_tistory_20260516_2246.py"
-      ]
+      ],
+      "asset_count": 10,
+      "updated_at": "2026-05-17T00:04:24+09:00"
     },
     {
       "key": "MF-21",
@@ -4024,7 +4300,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 86,
@@ -4159,7 +4434,6 @@
           "summary": "Tistory 공개 글 20번에 계산기 iframe+대체 링크 삽입, 높이 CSS 수정, 공개 렌더링 및 계산기 기본값 2,156,880원 확인."
         }
       ],
-      "asset_count": 13,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/blog_draft_2026_minwage_payroll.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/style_brief_and_samples.md",
@@ -4174,7 +4448,9 @@
         "https://beemo.tistory.com/20",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_021_minwage_payroll_blog/assets/wage_calculator_2026_embed.html",
         "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html"
-      ]
+      ],
+      "asset_count": 13,
+      "updated_at": "2026-05-17T12:31:03+09:00"
     },
     {
       "key": "MF-22",
@@ -4183,7 +4459,6 @@
       "type": "기타",
       "status": "운영/수익",
       "raw_status": "tracking",
-      "status_raw": "tracking",
       "column": "운영/수익",
       "priority": "보통",
       "quality": 84,
@@ -4352,7 +4627,6 @@
           "summary": "사용자 지적 후 제목 가로선 충돌과 하단 안내문 테두리 걸침을 수정. 가로선을 eyebrow 영역으로 축소하고 제목/푸터 안전 여백 기준을 스킬에 추가."
         }
       ],
-      "asset_count": 12,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_022_business_closure_tax_blog/assets/blog_draft_business_closure_tax_checklist.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_022_business_closure_tax_blog/assets/style_brief_and_samples.md",
@@ -4366,16 +4640,17 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_022_business_closure_tax_blog/assets/business_closure_tax_tistory_body.html",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_022_business_closure_tax_blog/assets/business_closure_tax_tistory_preview.html",
         "https://beemo.tistory.com/21"
-      ]
+      ],
+      "asset_count": 12,
+      "updated_at": "2026-05-17T21:31:22+09:00"
     },
     {
       "key": "MF-23",
       "id": "opp_20260517_023_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 6건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 42,
@@ -4393,7 +4668,7 @@
         "secret_or_payment_provider_testing_risk",
         "broad_acceptance_criteria"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4471,22 +4746,22 @@
           "summary": "위험 조정 기준 순가치 0원. 기존 제출 PR 모니터링과 더 선명한 cash bounty 탐색이 우선."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1346_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_023_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_023_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_023_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T13:46:47+09:00"
     },
     {
       "key": "MF-24",
       "id": "opp_20260517_024_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 44,
@@ -4504,7 +4779,7 @@
         "external_instance_or_secret_testing_burden",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4593,22 +4868,22 @@
           "summary": "위험 조정 기준 순가치 0원. 더 명확한 cash/platform micro-bounty를 계속 탐색."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1454_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_024_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_024_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_024_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T14:54:32+09:00"
     },
     {
       "key": "MF-25",
       "id": "opp_20260517_025_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 43,
@@ -4626,7 +4901,7 @@
         "broad_acceptance_criteria",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4727,22 +5002,22 @@
           "summary": "위험 조정 기준 순가치 0원. 기존 제출/모니터링 PR과 더 명확한 무경쟁 cash micro-bounty 탐색이 우선."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1602_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_025_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_025_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_025_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T16:02:25+09:00"
     },
     {
       "key": "MF-26",
       "id": "opp_20260517_026_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 41,
@@ -4760,7 +5035,7 @@
         "prompt_exposure_risk",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4855,22 +5130,22 @@
           "summary": "위험 조정 기준 순가치 0원. 무경쟁 cash micro-bounty가 나올 때까지 claim/코딩 보류."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1706_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_026_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_026_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_026_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T17:06:45+09:00"
     },
     {
       "key": "MF-27",
       "id": "opp_20260517_027_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 11건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 41,
@@ -4888,7 +5163,7 @@
         "external_tool_or_hardware_validation",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -4995,22 +5270,22 @@
           "summary": "위험 조정 기준 순수익 0원. 승인/지급 가능성 높은 신규 cash micro-bounty 재탐색이 우선."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1811_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_027_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_027_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_027_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T18:11:42+09:00"
     },
     {
       "key": "MF-28",
       "id": "opp_20260517_028_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 38,
@@ -5028,7 +5303,7 @@
         "bot_like_bounty_repo",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "리스크 높음",
+      "stop_reason": "위험 높음",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5130,22 +5405,22 @@
           "summary": "위험조정 기준 기대 순수익 0원. 다음 scout에서 검증 가능한 cash/platform micro-bounty 재검색."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_1917_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_028_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_028_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_028_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T19:21:57+09:00"
     },
     {
       "key": "MF-29",
       "id": "opp_20260517_029_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 35,
@@ -5163,7 +5438,7 @@
         "finalized_existing_pr",
         "demo_or_external_service_burden"
       ],
-      "stop_reason": "리스크 높음",
+      "stop_reason": "위험 높음",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5265,22 +5540,22 @@
           "summary": "위험조정 기준 기대 순수익 0원. 실제 지급 가능성이 낮은 후보는 시간 투입 금지."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_2024_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_029_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_029_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_029_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T20:29:11+09:00"
     },
     {
       "key": "MF-30",
       "id": "opp_20260517_030_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 35,
@@ -5298,7 +5573,7 @@
         "internal_or_existing_solution",
         "maintainer_friction"
       ],
-      "stop_reason": "지급 불명확",
+      "stop_reason": "지급 불명",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5388,22 +5663,22 @@
           "summary": "위험조정 기준 기대 순수익 0원. 승인/지급 확률 대비 작업 투입 금지."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_2130_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_030_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_030_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_030_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T21:34:24+09:00"
     },
     {
       "key": "MF-31",
       "id": "opp_20260517_031_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 35,
@@ -5422,7 +5697,7 @@
         "outreach_spam_risk",
         "low_reward_ev"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5518,22 +5793,22 @@
           "summary": "위험조정 기대 순수익 0원. 승인·지급 확률 대비 작업 투입 금지."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_2236_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T22:40:01+09:00"
     },
     {
       "key": "MF-32",
       "id": "opp_20260517_032_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 30,
@@ -5553,7 +5828,7 @@
         "unclear_payout_or_stake_required",
         "broad_scope"
       ],
-      "stop_reason": "리스크 높음",
+      "stop_reason": "위험 높음",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5670,22 +5945,22 @@
           "summary": "위험조정 기대 순수익 0원. 현금성·승인 가능성 동시 충족 후보 없음."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-17_2342_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_032_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_032_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_032_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-17T23:46:17+09:00"
     },
     {
       "key": "MF-33",
       "id": "opp_20260518_033_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 30,
@@ -5705,7 +5980,7 @@
         "large_scope_or_low_reward",
         "subjective_acceptance"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5822,22 +6097,22 @@
           "summary": "위험조정 기대 순수익 0원. cash/platform·무경쟁·작은 범위 동시 충족 후보 없음."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0048_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_033_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_033_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_033_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-18T00:52:37+09:00"
     },
     {
       "key": "MF-34",
       "id": "opp_20260518_034_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 12건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 35,
@@ -5856,7 +6131,7 @@
         "low_reward_ev",
         "outreach_spam_risk"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -5970,22 +6245,22 @@
           "summary": "위험조정 기준 순수익 0원. 승인/지급 확률 대비 작업 투입 금지."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0155_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_034_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_034_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_034_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-18T01:59:58+09:00"
     },
     {
       "key": "MF-35",
       "id": "opp_20260518_035_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 38,
@@ -6004,7 +6279,7 @@
         "subjective_acceptance",
         "stale_or_uncertain_payout"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -6094,22 +6369,22 @@
           "summary": "위험조정 기준 기대 순수익 0원. 작업 투입보다 다음 scout의 더 좁고 명확한 cash micro-bounty 탐색이 유리."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0301_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_035_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_035_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_035_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-18T03:01:55+09:00"
     },
     {
       "key": "MF-36",
       "id": "opp_20260518_036_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 35,
@@ -6127,7 +6402,7 @@
         "unclear_assignment_or_external_coordination",
         "broad_or_subjective_scope"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -6223,22 +6498,22 @@
           "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0407_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_036_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_036_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_036_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-18T04:07:50+09:00"
     },
     {
       "key": "MF-37",
       "id": "opp_20260518_037_cash_bounty_scout_no_go",
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "type": "바운티",
-      "status": "리서치 탈락",
+      "status": "종료/폐기",
       "raw_status": "research_rejected",
-      "status_raw": "research_rejected",
       "column": "종료/폐기",
       "priority": "낮음",
       "quality": 30,
@@ -6256,7 +6531,7 @@
         "oauth_or_external_api_demo_burden",
         "broad_or_subjective_scope"
       ],
-      "stop_reason": "기회비용 높음",
+      "stop_reason": "기회비용 큼",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -6358,13 +6633,14 @@
           "summary": "위험조정 기준 기대 순수익 0원. 더 좁고 경쟁 낮은 cash/platform micro-bounty 탐색이 유리."
         }
       ],
-      "asset_count": 4,
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0513_money-flow/research.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_037_cash_bounty_scout_no_go/roi.md"
-      ]
+      ],
+      "asset_count": 4,
+      "updated_at": "2026-05-18T05:13:18+09:00"
     }
   ]
 }
