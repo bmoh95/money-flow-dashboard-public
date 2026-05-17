@@ -33,8 +33,8 @@
         "summary": "10개 bounty/direct-payout 후보 모두 탈락"
       }
     ],
-    "summary": "Cash bounty scout reviewed 10 candidates; none passed GO gate due to duplicate attempts, wallet/token/stake, sensitive session disclosure, external API burden, or crowded PRs.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 10개 검토, 전원 NO-GO 기록.\n- 새 기록: `opp_20260518_037_cash_bounty_scout_no_go`\n- 대시보드와 GitHub Pages mirror 갱신 시도 완료.\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: claudelance #148, claude-builders #5, awesome-lint #37, tscircuit #92.\n- wallet/token/stake 또는 민감 세션정보 노출: claudelance #146/#147, OpenAgents #133.\n- 범위·외부 API·리뷰 부담 과대: Spectral lux #68, sxt-proof-of-sql #560, UnsafeLabs #611.\n\n**대기**\n- claim, 코딩, PR 제출 없음. 다음 scout에서 경쟁 낮은 cash/platform micro-bounty만 재탐색."
+    "summary": "Cash bounty scout reviewed 10 candidates; none passed GO gate due to duplicate attempts, wallet/token/stake, sensitive session disclosure, external API burden, or crowded PRs. Public GitHub Pages data.json verified over HTTPS.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 10개 검토, 전원 NO-GO 기록.\n- 새 기록: `opp_20260518_037_cash_bounty_scout_no_go`\n- 대시보드와 GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료.\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: claudelance #148, claude-builders #5, awesome-lint #37, tscircuit #92.\n- wallet/token/stake 또는 민감 세션정보 노출: claudelance #146/#147, OpenAgents #133.\n- 범위·외부 API·리뷰 부담 과대: Spectral lux #68, sxt-proof-of-sql #560, UnsafeLabs #611.\n\n**대기**\n- claim, 코딩, PR 제출 없음. 다음 scout에서 경쟁 낮은 cash/platform micro-bounty만 재탐색."
   },
   "metrics": {
     "total": 37,
