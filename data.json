@@ -1,58 +1,43 @@
 {
-  "updated_at": "2026-05-17T22:40:01+09:00",
+  "updated_at": "2026-05-17T22:50:47+09:00",
   "last_run": {
-    "run_id": "2026-05-17_2236_money-flow",
-    "started_at": "2026-05-17T22:40:01+09:00",
-    "finished_at": "2026-05-17T22:40:01+09:00",
+    "run_id": "2026-05-17_2250_money-flow",
+    "started_at": "2026-05-17T22:50:47+09:00",
+    "finished_at": "2026-05-17T22:50:47+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
-      "research_lead",
-      "planning_member",
-      "planning_lead",
-      "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 9,
+    "candidates_discovered": 0,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260517_031_cash_bounty_scout_no_go/roi.md"
+    "opportunities_rejected": 0,
+    "assets_created": [],
+    "approval_needed": [
+      {
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+        "reason": "Tistory 동일 제목 공개 글 2건(/4, /5)이 확인됨. 공개 글 삭제/비공개 전환은 외부 변경이라 주인님 승인 필요."
+      }
     ],
-    "approval_needed": [],
     "decisions": [
       {
-        "agent": "research_lead",
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "5개 이상 검토했으나 cash/platform 지급 명확성, 낮은 경쟁도, PR 가능성, 승인 가능성을 동시에 만족한 GO 후보 없음."
-      },
-      {
-        "agent": "planning_lead",
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "preflight/plan 승격할 후보 없음. 코딩·claim·PR 제출하지 않음."
+        "agent": "execution_lead",
+        "decision": "HOLD",
+        "reason_code": null,
+        "summary": "처리 가능한 redteam_hold/ready/auth-blocked 로컬 보류 항목 없음. QA 완료된 tracking 항목은 처리 대상에서 제외. 새 work item 생성 금지 준수."
       },
       {
         "agent": "redteam",
-        "decision": "NO-GO",
-        "reason_code": "REDTEAM_REJECTED",
-        "summary": "소액/선점/보상완료/권한제한/토큰지급/지갑필요/외부 outreach 리스크 확인."
-      },
-      {
-        "agent": "roi",
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "위험조정 기대 순수익 0원. 승인·지급 확률 대비 작업 투입 금지."
+        "decision": "HOLD",
+        "reason_code": "NO_APPROVAL",
+        "summary": "중복 공개 글 삭제/비공개 전환은 외부 변경이라 기존 승인 대기 유지. 자동 삭제하지 않음."
       }
     ],
-    "summary": "Cash/platform bounty scout checked 9 candidates; all NO-GO. No coding/claim/PR submission.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 9건 검토.\n- GO 0건, NO-GO 9건. 코딩/claim/PR 제출 없음.\n- 로컬 대시보드와 GitHub Pages mirror 갱신/검증.\n\n**NO-GO 이유**\n- 경쟁 PR 선점/보상완료, 권한 제한, 토큰·지갑 지급, 지급 불명확, 소액 대비 승인 가능성 낮음.\n\n**대기**\n- 다음 scout에서 cash/platform payout 명확 + 무경쟁 후보만 재검색."
+    "summary": "Backlog processor found no actionable redteam_hold/ready/auth-blocked local work. Tracking items with already-completed QA were ignored. One unchanged approval-only duplicate cleanup item remains.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 31,
@@ -751,6 +736,19 @@
       "decision": "NO-GO",
       "reason_code": "기회비용",
       "summary": "위험조정 기대 순수익 0원. 승인·지급 확률 대비 작업 투입 금지."
+    },
+    {
+      "time": "2026-05-17T22:50:47+09:00",
+      "run_id": "2026-05-17_2250_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "dashboard_updated",
+      "from_status": null,
+      "to_status": null,
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "Backlog processor maintenance run: no actionable local hold items; unchanged approval-only duplicate cleanup remains.",
+      "links": []
     }
   ],
   "board_columns": [
