@@ -68,6 +68,17 @@
 
 이 다섯 줄만 적어도 계산 실수가 많이 줄어듭니다.
 
+
+## 직접 계산해보기: 2026 최저임금·주휴수당 계산기
+
+아래 계산기는 시급, 주 근무일수, 하루 근무시간, 무급 휴게시간을 넣으면 월 기본급·주휴수당 추정·사업주 준비액을 바로 보여줍니다.
+
+<iframe src="https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html" title="2026 최저임금·주휴수당 월급 계산기" style="width:100%;min-height:980px;border:1px solid #eadcc8;border-radius:18px;background:#fff;" loading="lazy"></iframe>
+
+계산기가 보이지 않으면 아래 링크로 열어주세요.
+
+- [2026 최저임금·주휴수당 계산기 열기](https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html)
+
 ## 마지막으로
 
 2026년 숫자는 이미 정해졌지만, 매장마다 근무표가 다르니 그대로 복붙하기보다는 본인 매장 시간표에 맞춰 한 번 더 계산하는 게 좋습니다.
