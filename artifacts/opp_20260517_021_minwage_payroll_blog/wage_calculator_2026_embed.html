@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>2026 최저임금·주휴수당 월급 계산기</title>
+<style>
+  :root{--bg:#fff8ed;--card:#ffffff;--ink:#1f2937;--muted:#667085;--line:#eadcc8;--accent:#f97316;--accent2:#2563eb;--ok:#0f766e;--warn:#b45309}
+  *{box-sizing:border-box} body{margin:0;background:linear-gradient(180deg,#fffaf2,#f8fbff);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",Segoe UI,sans-serif;color:var(--ink);line-height:1.55}
+  .wrap{max-width:980px;margin:0 auto;padding:22px 14px}.hero{border:1px solid var(--line);background:var(--bg);border-radius:22px;padding:22px;margin-bottom:16px}.kicker{display:inline-block;background:#ffedd5;color:#9a3412;border-radius:999px;padding:5px 10px;font-size:13px;font-weight:800}.hero h1{font-size:clamp(24px,4.5vw,38px);margin:12px 0 8px;letter-spacing:-.04em}.hero p{margin:0;color:var(--muted)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:760px){.grid{grid-template-columns:1fr}}
+  .card{background:var(--card);border:1px solid #e5e7eb;border-radius:18px;padding:18px;box-shadow:0 10px 28px rgba(31,41,55,.06)}.card h2{font-size:19px;margin:0 0 12px;letter-spacing:-.03em}.row{display:grid;grid-template-columns:1fr 150px;gap:10px;align-items:center;margin:10px 0}@media(max-width:460px){.row{grid-template-columns:1fr}.row input,.row select{width:100%}}
+  label{font-weight:800}.hint{display:block;color:var(--muted);font-size:12px;font-weight:500;margin-top:2px}input,select{width:150px;border:1px solid #d0d5dd;border-radius:12px;padding:10px 11px;font-size:16px;background:white}input:focus,select:focus{outline:3px solid #fed7aa;border-color:var(--accent)}
+  .results{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-top:8px}@media(max-width:520px){.results{grid-template-columns:1fr}}.metric{border:1px solid #e5e7eb;border-radius:16px;padding:14px;background:#fbfdff}.metric strong{display:block;color:var(--muted);font-size:13px}.metric b{display:block;margin-top:4px;font-size:24px;letter-spacing:-.04em}.metric.main{background:#eff6ff;border-color:#bfdbfe}.metric.main b{color:#1d4ed8}.metric.warn{background:#fff7ed;border-color:#fed7aa}.metric.warn b{color:#c2410c}
+  .explain{margin-top:14px;border-radius:16px;background:#f8fafc;padding:14px;color:#475467}.explain ul{margin:8px 0 0;padding-left:18px}.badge{display:inline-block;border-radius:999px;padding:4px 9px;font-weight:800;font-size:12px;margin-right:4px}.ok{background:#ccfbf1;color:#115e59}.hold{background:#fef3c7;color:#92400e}.muted{color:var(--muted)}.footer{font-size:12px;color:#667085;margin-top:14px}.copy{margin-top:10px}.copy button{border:0;background:#111827;color:#fff;border-radius:12px;padding:10px 13px;font-weight:800;cursor:pointer}.copy small{display:block;margin-top:7px;color:#667085}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <span class="kicker">2026 기준 · 간이 계산</span>
+    <h1>최저임금·주휴수당 월급 계산기</h1>
+    <p>시급 10,320원을 기본값으로, 근무표 기준 월 예상 급여와 사업주 준비액을 빠르게 계산합니다.</p>
+  </section>
+  <div class="grid">
+    <section class="card" aria-label="입력값">
+      <h2>1) 근무 조건 입력</h2>
+      <div class="row"><label for="wage">시급<span class="hint">2026 최저시급 기본값</span></label><input id="wage" type="number" min="0" step="10" value="10320"></div>
+      <div class="row"><label for="days">주 근무일수<span class="hint">예: 주 5일</span></label><input id="days" type="number" min="1" max="7" step="1" value="5"></div>
+      <div class="row"><label for="hours">하루 근무시간<span class="hint">휴게시간 제외 전 시간</span></label><input id="hours" type="number" min="0" max="24" step="0.5" value="8"></div>
+      <div class="row"><label for="breaks">하루 무급 휴게시간<span class="hint">없으면 0</span></label><input id="breaks" type="number" min="0" max="8" step="0.5" value="0"></div>
+      <div class="row"><label for="weeks">월 환산 주 수<span class="hint">통상 365/12/7 ≈ 4.345</span></label><input id="weeks" type="number" min="4" max="5" step="0.001" value="4.345"></div>
+      <div class="row"><label for="insurance">사업주 부담 4대보험 추정<span class="hint">간단 추정치, 실제와 다름</span></label><select id="insurance"><option value="0">제외</option><option value="0.095" selected>약 9.5% 포함</option><option value="0.11">넉넉히 11% 포함</option></select></div>
+    </section>
+    <section class="card" aria-label="계산 결과">
+      <h2>2) 계산 결과</h2>
+      <div class="results">
+        <div class="metric"><strong>주 실제 근무시간</strong><b id="weeklyHours">-</b></div>
+        <div class="metric"><strong>주휴수당 단순 판단</strong><b id="holidayStatus">-</b></div>
+        <div class="metric"><strong>월 기본급</strong><b id="basePay">-</b></div>
+        <div class="metric warn"><strong>월 주휴수당 추정</strong><b id="holidayPay">-</b></div>
+        <div class="metric main"><strong>월 지급액 추정</strong><b id="grossPay">-</b></div>
+        <div class="metric main"><strong>사업주 준비액 추정</strong><b id="employerCost">-</b></div>
+      </div>
+      <div class="explain" id="explain"></div>
+      <div class="copy"><button type="button" onclick="copySummary()">계산 결과 문장 복사</button><small id="copyMsg">블로그 댓글/메모에 붙여넣기 좋게 요약합니다.</small></div>
+    </section>
+  </div>
+  <p class="footer">주의: 이 계산기는 2026년 최저시급 10,320원 기반의 단순 참고용입니다. 주휴수당 요건, 휴게시간, 4대보험, 세금, 연장·야간·휴일근로는 실제 근로계약과 법령 해석에 따라 달라질 수 있습니다. 법률·노무 자문이 아닙니다.</p>
+</div>
+<script>
+const $=id=>document.getElementById(id); const money=n=>Math.round(n).toLocaleString('ko-KR')+'원'; const one=n=>(Math.round(n*10)/10).toLocaleString('ko-KR')+'시간';
+function values(){let wage=+$('wage').value||0,days=+$('days').value||0,h=+$('hours').value||0,b=+$('breaks').value||0,weeks=+$('weeks').value||4.345,ins=+$('insurance').value||0;let paid=Math.max(0,h-b);let weekly=paid*days;let base=wage*weekly*weeks;let holidayHours=weekly>=15?Math.min(8,weekly/5):0;let holiday=holidayHours*wage*weeks;let gross=base+holiday;let employer=gross*(1+ins);return{wage,days,h,b,weeks,ins,paid,weekly,base,holidayHours,holiday,gross,employer};}
+function calc(){let v=values();$('weeklyHours').textContent=one(v.weekly);$('holidayStatus').textContent=v.weekly>=15?'대상 가능':'대상 아닐 수 있음';$('basePay').textContent=money(v.base);$('holidayPay').textContent=money(v.holiday);$('grossPay').textContent=money(v.gross);$('employerCost').textContent=money(v.employer);$('explain').innerHTML=`<span class="badge ${v.weekly>=15?'ok':'hold'}">${v.weekly>=15?'주 15시간 이상':'주 15시간 미만'}</span><span class="badge hold">간이 계산</span><ul><li>유급 계산 시간: 하루 ${one(v.paid)} × 주 ${v.days}일 = 주 ${one(v.weekly)}</li><li>주휴수당은 주 ${one(v.weekly)} 기준으로 ${v.weekly>=15?'발생 가능성이 있어 단순 반영했습니다.':'발생하지 않을 수 있어 0원 처리했습니다.'}</li><li>4대보험 사업주 부담 추정은 ${v.ins?Math.round(v.ins*1000)/10+'%':'제외'}로 계산했습니다.</li></ul>`;}
+function copySummary(){let v=values();let text=`2026년 시급 ${money(v.wage)} 기준, 주 ${one(v.weekly)} 근무 시 월 기본급 약 ${money(v.base)}, 주휴수당 추정 ${money(v.holiday)}, 월 지급액 약 ${money(v.gross)}, 사업주 준비액 약 ${money(v.employer)}입니다. 단순 참고용이며 실제 급여·세금·보험은 별도 확인이 필요합니다.`;navigator.clipboard?.writeText(text).then(()=>{$('copyMsg').textContent='복사 완료';}).catch(()=>{$('copyMsg').textContent=text;});}
+document.querySelectorAll('input,select').forEach(el=>el.addEventListener('input',calc));calc();
+</script>
+</body>
+</html>
