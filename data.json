@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-17T11:36:03+09:00",
+  "updated_at": "2026-05-17T11:48:47+09:00",
   "last_run": {
-    "run_id": "2026-05-17_1136_money-flow",
-    "started_at": "2026-05-17T11:36:03+09:00",
-    "finished_at": "2026-05-17T11:36:03+09:00",
+    "run_id": "2026-05-17_1148_money-flow",
+    "started_at": "2026-05-17T11:48:47+09:00",
+    "finished_at": "2026-05-17T11:48:47+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -31,10 +31,10 @@
       {
         "agent": "ledger_dashboard_manager",
         "decision": "HOLD",
-        "summary": "No material backlog state change; no local actionable hold remains."
+        "summary": "No material backlog state change; only unchanged approval-required duplicate cleanup remains."
       }
     ],
-    "summary": "Backlog-only processor found no local actionable redteam_hold/auth/editor/permission item. Existing duplicate-post cleanup still requires explicit approval; no external deletion/private conversion executed.",
+    "summary": "Backlog-only processor checked opportunities. No actionable redteam_hold/ready_for_approval/auth/editor/permission item remains. Existing duplicate Tistory post cleanup still requires explicit approval and was not changed.",
     "final_report": "[SILENT]"
   },
   "metrics": {
@@ -577,7 +577,7 @@
     {
       "time": "2026-05-17T00:01:47+09:00",
       "run_id": "2026-05-17_0001_money-flow",
-      "agent": "대시보드",
+      "agent": "ledger",
       "opportunity_id": "opp_20260516_020_used_macbook_buying_checklist_blog",
       "event": "status_changed",
       "from_status": "redteam_hold",
