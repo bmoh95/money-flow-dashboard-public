@@ -1,0 +1,6 @@
+- 2026-05-18T12:07:42+09:00 research_member GO None: 7개 cash/platform bounty 후보 검토; OWASP-BLT #6185가 소범위·무중복·$1 Sponsors 경로로 선택됨.
+- 2026-05-18T12:07:42+09:00 research_lead GO None: Issue #6185 open, parent #6119 paid/sponsors bounty visible, PR endpoint works, 해당 파일 참조 없음.
+- 2026-05-18T12:07:42+09:00 planning_lead GO None: 품질 84점. 1파일 삭제 + 검증 결과만 포함하는 최소 PR 계획 승인.
+- 2026-05-18T12:07:42+09:00 execution_lead GO None: 파일 삭제, diff check, 참조 스캔 완료 후 fork push 및 PR #6447 제출.
+- 2026-05-18T12:07:42+09:00 redteam HOLD HIGH_USER_INPUT: 제출 후 자동화가 신규 기여자 제한/친구 멘션 요구를 표시. 지급용 Sponsors 프로필도 사용자 L4 가능성 있음.
+- 2026-05-18T12:07:42+09:00 roi HOLD HIGH_USER_INPUT: 기준 기대수익 $1이나 승인/지급 가능성이 자동화 체크 때문에 낮아짐. 추가 외부 조치 자동 불가.
