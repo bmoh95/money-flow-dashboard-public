@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T01:02:40+09:00",
+  "updated_at": "2026-05-19T02:11:35+09:00",
   "last_run": {
-    "run_id": "2026-05-19_0100_money-flow",
-    "started_at": "2026-05-19T01:02:40+09:00",
-    "finished_at": "2026-05-19T01:02:40+09:00",
+    "run_id": "2026-05-19_0204_money-flow",
+    "started_at": "2026-05-19T02:11:35+09:00",
+    "finished_at": "2026-05-19T02:11:35+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,10 +20,10 @@
     "opportunities_advanced": 0,
     "opportunities_rejected": 7,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_065_cash_bounty_scout_no_go/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_065_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_065_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_065_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
@@ -34,17 +34,17 @@
         "summary": "7개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
       }
     ],
-    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. Existing PR monitor unchanged.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 7건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 기존 bounty PR 모니터 확인: 상태 변화 없음.\n- 새 기록: `opp_20260519_065_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- UnsafeLabs #758, Claude Builders #3, SecureBananaLabs #30/#80: open PR/attempt 과밀 또는 중복.\n- Algora #238: bounty 지급조건 불명확 + 중복 PR 다수.\n- awesome-lint #37: IssueHunt funded지만 PR/claim 경로와 경쟁 상태 불리.\n- Expensify #90985: assignee 있음 + Slack/Upwork/개인 contributor flow 필요.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. Existing PR monitor changed.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 7건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 기존 PR #1576 모니터 확인: 상태 변화 있음.\n- 새 기록: `opp_20260519_066_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- UnsafeLabs #920/#919/#917: cash/platform 가능성은 있으나 이미 claim/attempt 다수 + crypto/security 고위험 범위.\n- Claude Builders #5: Opire 명확하지만 301개 댓글, n8n/Claude API/스크린샷 등 외부 검증 부담.\n- Ubiquity #90: core team/admin만 start 가능.\n- fkill-cli #6, prest #284: IssueHunt 지급은 보이나 기존 PR/계정·claim 부담 또는 중복 PR.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
   },
   "metrics": {
-    "total": 65,
+    "total": 66,
     "active": 4,
     "approval_needed": 1,
     "launched": 28,
     "closed_won": 0,
     "closed_lost": 1,
-    "rejected": 33
+    "rejected": 34
   },
   "active_opportunities": [
     {
@@ -2382,7 +2382,7 @@
     "HIGH_RISK": 8,
     "OPPORTUNITY_COST": 15,
     "PAYMENT_UNCLEAR": 2,
-    "DUPLICATE": 10,
+    "DUPLICATE": 11,
     "HIGH_USER_INPUT": 2,
     "AUTH_BLOCKED": 1
   },
@@ -2392,90 +2392,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T22:47:23+09:00",
-      "run_id": "2026-05-18_2237_money-flow",
-      "opportunity_id": "opp_20260518_062_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/827",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/792",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/749",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/818",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/864",
-        "https://github.com/velodrome-finance/indexer/issues/738",
-        "https://github.com/sindresorhus/macos-wallpaper/issues/25"
-      ],
-      "agent": "roi",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "위험조정 기준 기대 순가치 0원."
-    },
-    {
-      "time": "2026-05-18T23:54:15+09:00",
-      "run_id": "2026-05-18_2349_money-flow",
-      "opportunity_id": "opp_20260518_063_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/760",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/853",
-        "https://github.com/ubiquity/.github/issues/124"
-      ],
-      "agent": "research_member",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "7개 bounty/direct-payout 후보 수집 및 preflight 확인."
-    },
-    {
-      "time": "2026-05-18T23:54:15+09:00",
-      "run_id": "2026-05-18_2349_money-flow",
-      "opportunity_id": "opp_20260518_063_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/760",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/853",
-        "https://github.com/ubiquity/.github/issues/124"
-      ],
-      "agent": "research_lead",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "과밀/중복, 외부 부담, 자격 제한, 지급 불명확으로 자동 구현/PR 후보 없음."
-    },
-    {
-      "time": "2026-05-18T23:54:15+09:00",
-      "run_id": "2026-05-18_2349_money-flow",
-      "opportunity_id": "opp_20260518_063_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/760",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/853",
-        "https://github.com/ubiquity/.github/issues/124"
-      ],
-      "agent": "redteam",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "REDTEAM_REJECTED",
-      "summary": "중복 제출, 외부 계정/API 증빙, 참여자격 제한 리스크로 실행 차단."
-    },
     {
       "time": "2026-05-18T23:54:15+09:00",
       "run_id": "2026-05-18_2349_money-flow",
@@ -2868,6 +2784,90 @@
         "https://github.com/algora-io/algora/issues/238",
         "https://github.com/sindresorhus/awesome-lint/issues/37",
         "https://github.com/Expensify/App/issues/90985"
+      ],
+      "agent": "roi",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "위험조정 기준 기대 순가치 0원."
+    },
+    {
+      "time": "2026-05-19T02:11:35+09:00",
+      "run_id": "2026-05-19_0204_money-flow",
+      "opportunity_id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/919",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/917",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/sindresorhus/fkill-cli/issues/6",
+        "https://github.com/prest/prest/issues/284"
+      ],
+      "agent": "research_member",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "7개 bounty/direct-payout 후보 수집 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T02:11:35+09:00",
+      "run_id": "2026-05-19_0204_money-flow",
+      "opportunity_id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/919",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/917",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/sindresorhus/fkill-cli/issues/6",
+        "https://github.com/prest/prest/issues/284"
+      ],
+      "agent": "research_lead",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "후보 모두 중복·참여자격·지급/계정·고위험 범위로 자동 구현/PR 후보 없음."
+    },
+    {
+      "time": "2026-05-19T02:11:35+09:00",
+      "run_id": "2026-05-19_0204_money-flow",
+      "opportunity_id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/919",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/917",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/sindresorhus/fkill-cli/issues/6",
+        "https://github.com/prest/prest/issues/284"
+      ],
+      "agent": "redteam",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "불완전 보안 PR, 중복 PR, 계정/eligibility 부담으로 실행 차단."
+    },
+    {
+      "time": "2026-05-19T02:11:35+09:00",
+      "run_id": "2026-05-19_0204_money-flow",
+      "opportunity_id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/919",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/917",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/sindresorhus/fkill-cli/issues/6",
+        "https://github.com/prest/prest/issues/284"
       ],
       "agent": "roi",
       "event": "decision",
@@ -17111,6 +17111,167 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_065_cash_bounty_scout_no_go/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260519_065_cash_bounty_scout_no_go/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-66",
+      "opportunity_id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "id": "opp_20260519_066_cash_bounty_scout_no_go",
+      "title": "현금성 GitHub bounty scout 7건 — GO 없음",
+      "status": "종료/폐기",
+      "status_label": "종료/폐기",
+      "raw_status": "research_rejected",
+      "column": "종료/폐기",
+      "type": "바운티",
+      "priority": "보통",
+      "tags": [
+        "바운티",
+        "중복/선점"
+      ],
+      "quality": 42,
+      "expected_base_net": 0,
+      "base_net_margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "UnsafeLabs/Opire/IssueHunt/Ubiquity/GitHub bounty issue owners",
+      "channel": "GitHub issue + fork PR + bounty/platform claim",
+      "current_owner": "research_lead",
+      "next_action": "다음 bounty scout는 경쟁 PR 0건, 작은 acceptance, cash/platform claim 명확, external account/profile 부담 없는 micro-bounty를 우선 탐색.",
+      "risk_flags": [
+        "중복/선점",
+        "채널 없음",
+        "사용자 부담 큼",
+        "고위험",
+        "리스크 탈락",
+        "기회비용 낮음"
+      ],
+      "stop_reason": "중복/선점",
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/920",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음, PR endpoint available. 10 comments already, recent /opire try by Adamchaua plus other claim comments. Security/crypto bridge signature/EIP-712 scope requires correct replay-safe implementation and tests. / GitHub labels show 💎 Bounty/$900 and comments use /opire try or /bounty try; platform-like route visible but payment comments include wallet/PayPal attempts.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/919",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. 10 comments; Abu1982, mkcash, Adamchaua already claiming/attempting. Acceptance covers fee math, max loan cap, rebasing-token accounting, pause/unpause, fee accrual, tests. / GitHub labels show 💎 Bounty/$250 and /opire try comments indicate cash/platform-style route.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/917",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. 8 comments; multiple interest/claim comments. Requires overflow-safe vesting math, remainder correctness, cliff revoke fix, fuzz/boundary tests. / GitHub labels show 💎 Bounty/$350 and /opire try comments indicate platform-style route.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Issue open, assignee 없음. 301 comments and many attempts. Acceptance requires real n8n instance, Claude API call/screenshot, destination webhook/email docs, EN/FR variables. / Issue body says $200 powered by Opire, /opire try, PR with workflow+README, payment released on merge.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/business-development/issues/90",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Issue open, assignee 없음. Bot response says “must be a core team member, or an administrator to start this task”; existing detailed submission comment and open PRs #202/#203. / Issue labels include Price: 200 USD, but UbiquityOS bot controls assignment/start.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
+          "grade": "A",
+          "summary": "NO-GO / NO_CHANNEL — Issue open, assignee 없음, but issue is old and current maintainer comment points to unresolved UX direction. Open PRs #90/#91 exist. Claim/payment likely requires IssueHunt account/profile. / IssueHunt badge/bot says $40 funded and submit via IssueHunt.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        },
+        {
+          "url": "https://github.com/prest/prest/issues/284",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. Issue body already lists submitted PRs #962/#963/#964/#965, and GitHub shows many open PRs. / IssueHunt badge says $20 funded; issue body lists submitted pull requests.",
+          "checked_at": "2026-05-19T02:11:35+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T02:11:35+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 7건 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-19T02:11:35+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "DUPLICATE",
+          "summary": "후보 모두 중복/참여자격/지급·계정/고위험 범위로 자동 PR 기준 미달."
+        },
+        {
+          "time": "2026-05-19T02:11:35+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "품질/승인 odds 80점 이상 후보 없음."
+        },
+        {
+          "time": "2026-05-19T02:11:35+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "중복 제출, 고위험 crypto/security, 외부 계정·사용자부담 리스크 확인."
+        },
+        {
+          "time": "2026-05-19T02:11:35+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "위험조정 기대 순수익 0원."
+        }
+      ],
+      "asset_count": 4,
+      "asset_links": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "assets": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_066_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_066_cash_bounty_scout_no_go/roi.md"
         }
       ]
     }
