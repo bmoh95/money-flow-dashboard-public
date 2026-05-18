@@ -1,50 +1,244 @@
 {
-  "updated_at": "2026-05-18T11:28:41+09:00",
+  "updated_at": "2026-05-18T11:59:01+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1128_money-flow",
-    "started_at": "2026-05-18T11:28:41+09:00",
-    "finished_at": "2026-05-18T11:28:41+09:00",
+    "run_id": "2026-05-18_1159_money-flow",
+    "started_at": "2026-05-18T11:59:01+09:00",
+    "finished_at": "2026-05-18T11:59:01+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
+      "research_lead",
+      "planning_member",
+      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
+    "candidates_discovered": 4,
     "opportunities_advanced": 1,
-    "opportunities_rejected": 0,
+    "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_043_business_account_blog/assets/01-business-account-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_043_business_account_blog/assets/02-hometax-prep-card.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_043_business_account_blog/assets/03-account-risk-check.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_043_business_account_blog/assets/body_with_local_images.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_043_business_account_blog/assets/body_dashboard_artifact.html"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-05-18T11:28:41+09:00",
-        "agent": "ledger_dashboard_manager",
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "research_member",
         "decision": "GO",
         "reason_code": null,
-        "summary": "redteam_hold blog item published and moved to tracking."
+        "summary": "신규 후보 4개 검토. 전자세금계산서 의무발급 기준 글이 A/B 근거와 독자 pain을 충족."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "research_lead",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "구매자/독자와 채널 명확. 공식 근거 있음. 실패 가능성은 세무 오해와 기준 변경."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "planning_member",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "무료 검증 글 계획, 샘플 10개 패턴, 이미지 3장 계획 수립."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "planning_lead",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "품질 83점. 기준 확인 순서 중심으로 세무 단정 리스크를 낮춤."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "execution_member",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "본문 Markdown/HTML 초안과 스타일 브리프/이미지 계획 생성."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "execution_lead",
+        "decision": "HOLD",
+        "reason_code": null,
+        "summary": "초안은 사용 가능하나 이미지 생성·Tistory 렌더링 QA 전 공개 불가."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "redteam",
+        "decision": "HOLD",
+        "reason_code": "REDTEAM_REJECTED",
+        "summary": "세무 정보 오해, 기준 변경, 이미지/OG/카테고리 QA 미완료가 남아 redteam_hold 유지."
+      },
+      {
+        "time": "2026-05-18T11:59:01+09:00",
+        "agent": "roi",
+        "decision": "HOLD",
+        "reason_code": null,
+        "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
       }
     ],
-    "summary": "Processed oldest actionable redteam_hold item into published Tistory tracking state.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건을 처리했습니다."
+    "summary": "New-work scout created one redteam_hold Korean blog validation draft for electronic tax invoice obligation checks.",
+    "final_report": "주인님, 신규 후보 4개 검토 후 전자세금계산서 무료 검증 글 초안을 생성했습니다."
   },
   "metrics": {
-    "total": 45,
-    "active": 0,
+    "total": 46,
+    "active": 1,
     "approval_needed": 1,
     "launched": 22,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 24
   },
-  "active_opportunities": [],
+  "active_opportunities": [
+    {
+      "key": "MF-46",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "title": "개인사업자 전자세금계산서 의무발급 기준·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "type": "블로그 검증",
+      "priority": "보통",
+      "stop_reason": "리스크 검토 보류",
+      "quality": 83,
+      "expected_base_net": 0,
+      "margin_pct": 0,
+      "next_action": "backlog-processing에서 공식 기준 재확인 후 이미지 3장 생성, Tistory 렌더링/카테고리/OG QA를 통과하면 무료 검증 글로 게시.",
+      "buyer_or_payer": "전자세금계산서 의무 여부와 가산세가 헷갈리는 개인사업자/소상공인 독자",
+      "channel": "Tistory 무료 검증 글",
+      "risk_flags": [
+        "세무 단정 주의",
+        "이미지 생성 대기",
+        "Tistory 시각 QA 대기"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2461&cntntsId=7787",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 발급의무 시행연혁/개인사업자 의무기간 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2464&cntntsId=7781",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 혜택과 가산세 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%A0%84%EC%9E%90%EC%84%B8%EA%B8%88%EA%B3%84%EC%82%B0%EC%84%9C+%EC%9D%98%EB%AC%B4%EB%B0%9C%EA%B8%89+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EA%B0%80%EC%82%B0%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/세무 SaaS/블로그 글 다수 노출. 대상·기준·가산세 검색 의도 확인.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신규 후보 4개 검토. 전자세금계산서 의무발급 기준 글이 A/B 근거와 독자 pain을 충족."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자/독자와 채널 명확. 공식 근거 있음. 실패 가능성은 세무 오해와 기준 변경."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 계획, 샘플 10개 패턴, 이미지 3장 계획 수립."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 83점. 기준 확인 순서 중심으로 세무 단정 리스크를 낮춤."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 Markdown/HTML 초안과 스타일 브리프/이미지 계획 생성."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "초안은 사용 가능하나 이미지 생성·Tistory 렌더링 QA 전 공개 불가."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무 정보 오해, 기준 변경, 이미지/OG/카테고리 QA 미완료가 남아 redteam_hold 유지."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html"
+      ],
+      "asset_links": [
+        {
+          "name": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/plan.md"
+        },
+        {
+          "name": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/evidence.md"
+        },
+        {
+          "name": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/style_brief.md"
+        },
+        {
+          "name": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/blog_draft.md"
+        },
+        {
+          "name": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/image_plan.md"
+        },
+        {
+          "name": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/body.html"
+        }
+      ]
+    }
+  ],
   "approval_needed": [
     {
       "key": "MF-6",
@@ -281,7 +475,147 @@
       "approval_required": true
     }
   ],
-  "priority_queue": [],
+  "priority_queue": [
+    {
+      "key": "MF-46",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "title": "개인사업자 전자세금계산서 의무발급 기준·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "type": "블로그 검증",
+      "priority": "보통",
+      "stop_reason": "리스크 검토 보류",
+      "quality": 83,
+      "expected_base_net": 0,
+      "margin_pct": 0,
+      "next_action": "backlog-processing에서 공식 기준 재확인 후 이미지 3장 생성, Tistory 렌더링/카테고리/OG QA를 통과하면 무료 검증 글로 게시.",
+      "buyer_or_payer": "전자세금계산서 의무 여부와 가산세가 헷갈리는 개인사업자/소상공인 독자",
+      "channel": "Tistory 무료 검증 글",
+      "risk_flags": [
+        "세무 단정 주의",
+        "이미지 생성 대기",
+        "Tistory 시각 QA 대기"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2461&cntntsId=7787",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 발급의무 시행연혁/개인사업자 의무기간 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2464&cntntsId=7781",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 혜택과 가산세 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%A0%84%EC%9E%90%EC%84%B8%EA%B8%88%EA%B3%84%EC%82%B0%EC%84%9C+%EC%9D%98%EB%AC%B4%EB%B0%9C%EA%B8%89+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EA%B0%80%EC%82%B0%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/세무 SaaS/블로그 글 다수 노출. 대상·기준·가산세 검색 의도 확인.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신규 후보 4개 검토. 전자세금계산서 의무발급 기준 글이 A/B 근거와 독자 pain을 충족."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자/독자와 채널 명확. 공식 근거 있음. 실패 가능성은 세무 오해와 기준 변경."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 계획, 샘플 10개 패턴, 이미지 3장 계획 수립."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 83점. 기준 확인 순서 중심으로 세무 단정 리스크를 낮춤."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 Markdown/HTML 초안과 스타일 브리프/이미지 계획 생성."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "초안은 사용 가능하나 이미지 생성·Tistory 렌더링 QA 전 공개 불가."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무 정보 오해, 기준 변경, 이미지/OG/카테고리 QA 미완료가 남아 redteam_hold 유지."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html"
+      ],
+      "asset_links": [
+        {
+          "name": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/plan.md"
+        },
+        {
+          "name": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/evidence.md"
+        },
+        {
+          "name": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/style_brief.md"
+        },
+        {
+          "name": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/blog_draft.md"
+        },
+        {
+          "name": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/image_plan.md"
+        },
+        {
+          "name": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/body.html"
+        }
+      ]
+    }
+  ],
   "rejection_summary": {
     "OPPORTUNITY_COST": 12,
     "중복": 4,
@@ -295,6 +629,78 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "신규 후보 4개 검토. 전자세금계산서 의무발급 기준 글이 A/B 근거와 독자 pain을 충족."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "구매자/독자와 채널 명확. 공식 근거 있음. 실패 가능성은 세무 오해와 기준 변경."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 계획, 샘플 10개 패턴, 이미지 3장 계획 수립."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 83점. 기준 확인 순서 중심으로 세무 단정 리스크를 낮춤."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "본문 Markdown/HTML 초안과 스타일 브리프/이미지 계획 생성."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "초안은 사용 가능하나 이미지 생성·Tistory 렌더링 QA 전 공개 불가."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "세무 정보 오해, 기준 변경, 이미지/OG/카테고리 QA 미완료가 남아 redteam_hold 유지."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "agent": "roi",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
+    },
     {
       "time": "2026-05-18T10:46:02+09:00",
       "run_id": "2026-05-18_1046_money-flow",
@@ -8659,6 +9065,145 @@
         }
       ],
       "approval_required": false
+    },
+    {
+      "key": "MF-46",
+      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
+      "title": "개인사업자 전자세금계산서 의무발급 기준·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "type": "블로그 검증",
+      "priority": "보통",
+      "stop_reason": "리스크 검토 보류",
+      "quality": 83,
+      "expected_base_net": 0,
+      "margin_pct": 0,
+      "next_action": "backlog-processing에서 공식 기준 재확인 후 이미지 3장 생성, Tistory 렌더링/카테고리/OG QA를 통과하면 무료 검증 글로 게시.",
+      "buyer_or_payer": "전자세금계산서 의무 여부와 가산세가 헷갈리는 개인사업자/소상공인 독자",
+      "channel": "Tistory 무료 검증 글",
+      "risk_flags": [
+        "세무 단정 주의",
+        "이미지 생성 대기",
+        "Tistory 시각 QA 대기"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2461&cntntsId=7787",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 발급의무 시행연혁/개인사업자 의무기간 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2464&cntntsId=7781",
+          "grade": "A",
+          "summary": "국세청 공식 전자세금계산서 혜택과 가산세 안내.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%A0%84%EC%9E%90%EC%84%B8%EA%B8%88%EA%B3%84%EC%82%B0%EC%84%9C+%EC%9D%98%EB%AC%B4%EB%B0%9C%EA%B8%89+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EA%B0%80%EC%82%B0%EC%84%B8+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/세무 SaaS/블로그 글 다수 노출. 대상·기준·가산세 검색 의도 확인.",
+          "checked_at": "2026-05-18T11:59:01+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신규 후보 4개 검토. 전자세금계산서 의무발급 기준 글이 A/B 근거와 독자 pain을 충족."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자/독자와 채널 명확. 공식 근거 있음. 실패 가능성은 세무 오해와 기준 변경."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 계획, 샘플 10개 패턴, 이미지 3장 계획 수립."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 83점. 기준 확인 순서 중심으로 세무 단정 리스크를 낮춤."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 Markdown/HTML 초안과 스타일 브리프/이미지 계획 생성."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "초안은 사용 가능하나 이미지 생성·Tistory 렌더링 QA 전 공개 불가."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무 정보 오해, 기준 변경, 이미지/OG/카테고리 QA 미완료가 남아 redteam_hold 유지."
+        },
+        {
+          "time": "2026-05-18T11:59:01+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html"
+      ],
+      "asset_links": [
+        {
+          "name": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/plan.md"
+        },
+        {
+          "name": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/evidence.md"
+        },
+        {
+          "name": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/style_brief.md"
+        },
+        {
+          "name": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/blog_draft.md"
+        },
+        {
+          "name": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/image_plan.md"
+        },
+        {
+          "name": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_046_e_tax_invoice_blog/body.html"
+        }
+      ]
     }
   ]
 }
