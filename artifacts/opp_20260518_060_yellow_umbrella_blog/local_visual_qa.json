@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "checks": [
+    "1200x675_png",
+    "explicit_korean_gothic_font_stack",
+    "short_dividers",
+    "footer_clearance",
+    "three distinct image jobs"
+  ],
+  "images": [
+    {
+      "file": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/01-yellow-umbrella-thumb.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/01-yellow-umbrella-thumb.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/02-yellow-umbrella-payment.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/02-yellow-umbrella-payment.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/03-yellow-umbrella-exit.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_060_yellow_umbrella_blog/assets/03-yellow-umbrella-exit.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    }
+  ]
+}
