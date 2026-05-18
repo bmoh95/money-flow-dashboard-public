@@ -1,0 +1,6 @@
+{
+  "status": "PUBLIC_QUOTA_BLOCKED",
+  "http": 403,
+  "reason": "하루에 새롭게 공개 발행할 수 있는 글은 최대 15개까지입니다.",
+  "note": "Profile 2 login and image upload worked; public post creation blocked by Tistory daily public publishing quota. Not AUTH_BLOCKED."
+}
