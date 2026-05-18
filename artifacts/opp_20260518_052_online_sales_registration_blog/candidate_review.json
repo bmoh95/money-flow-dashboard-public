@@ -1,0 +1,19 @@
+[
+  {
+    "title": "스마트스토어·온라인 판매자 통신판매업 신고/면제 체크 글",
+    "decision": "GO",
+    "reason": "정부24 민원 + 전자상거래법상 신고/면제 기준 + 스마트스토어 준비서류 pain이 명확. 기존 리뷰답변 키트와 주제/업종 중복 아님."
+  },
+  {
+    "title": "소상공인 냉방비·에너지 지원금 신청 체크 글",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "reason": "지역/시기/요금제/증빙 차이가 커서 독자가 직접 확인해야 할 변수가 많고 evergreen 품질 약함."
+  },
+  {
+    "title": "현금성 GitHub bounty 신규 검색",
+    "decision": "NO-GO",
+    "reason_code": "PAYMENT_UNCLEAR",
+    "reason": "최근 검색 결과가 자기홍보/토큰/assignee/경쟁 PR/지급조건 불명확 이슈 중심이라 이 scout에서 안전한 즉시 패치 후보 없음."
+  }
+]
