@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T10:14:35+09:00",
+  "updated_at": "2026-05-18T10:46:36+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1014_money-flow",
-    "started_at": "2026-05-18T10:14:35+09:00",
-    "finished_at": "2026-05-18T10:14:35+09:00",
+    "run_id": "2026-05-18_1046_money-flow",
+    "started_at": "2026-05-18T10:46:36+09:00",
+    "finished_at": "2026-05-18T10:46:36+09:00",
     "trigger": "cron",
     "agents_executed": [
       "ledger_dashboard_manager",
