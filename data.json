@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T05:33:35+09:00",
+  "updated_at": "2026-05-19T06:42:54+09:00",
   "last_run": {
-    "run_id": "2026-05-19_0529_money-flow",
-    "started_at": "2026-05-19T05:33:35+09:00",
-    "finished_at": "2026-05-19T05:33:35+09:00",
+    "run_id": "2026-05-19_0634_money-flow",
+    "started_at": "2026-05-19T06:42:54+09:00",
+    "finished_at": "2026-05-19T06:42:54+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,32 +16,33 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 12,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 12,
+    "candidates_discovered": 10,
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 9,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md",
+      "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "research_lead",
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "12개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "UnsafeLabs #745 자동 PR 기준 통과 및 제출 완료."
       }
     ],
-    "summary": "Cash/platform bounty scout checked 12 candidates; no GO.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 12건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_070_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 참여자격 차단: Ubiquity #47/#433/#90.\n- 중복 PR 과밀: Kleo #56, Auki #62, UnsafeLabs #852, codingo #2.\n- 지급 불명확/무지급: Ubiquity research #83, Polar #86/#87.\n- 무경쟁이나 테스트 부담 큼: GS13 #188.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "summary": "Cash/platform bounty scout checked 10 candidates; submitted UnsafeLabs #745 PR #1710.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 10건 preflight 완료.\n- GO 1건: UnsafeLabs #745 Laravel bcrypt rounds $50.\n- 구현, 정적검사, `/attempt`, fork push, PR 제출 완료: https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710\n\n**NO-GO 이유**\n- Archestra #4758/#4030: assignee/reserved/core-team assignment 조건.\n- tscircuit/EdgeChains/Aqualink/FinMind 등: 중복 PR 과밀 또는 범위 과대.\n- UnsafeLabs #803: maintainer가 기존 PR 완료 언급.\n\n**대기**\n- PR #1710 CI/review 대기. 제출 PR은 모니터링 목록에 기록 완료.\n"
   },
   "metrics": {
-    "total": 70,
+    "total": 71,
     "active": 4,
     "approval_needed": 1,
-    "launched": 28,
+    "launched": 29,
     "closed_won": 0,
     "closed_lost": 2,
     "rejected": 38
@@ -1141,12 +1142,12 @@
           "viewer": null
         },
         {
-          "label": "5",
+          "label": "https://beemo.tistory.com/5",
           "path": "https://beemo.tistory.com/5",
           "viewer": null
         },
         {
-          "label": "4",
+          "label": "https://beemo.tistory.com/4",
           "path": "https://beemo.tistory.com/4",
           "viewer": null
         }
@@ -1188,12 +1189,12 @@
           "viewer": null
         },
         {
-          "label": "5",
+          "label": "https://beemo.tistory.com/5",
           "path": "https://beemo.tistory.com/5",
           "viewer": null
         },
         {
-          "label": "4",
+          "label": "https://beemo.tistory.com/4",
           "path": "https://beemo.tistory.com/4",
           "viewer": null
         }
@@ -2069,6 +2070,214 @@
           "viewer": "viewer.html?file=artifacts/opp_20260519_068_local_tax_certificate_blog/roi.md"
         }
       ]
+    },
+    {
+      "key": "MF-71",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "title": "UnsafeLabs #745 Laravel bcrypt rounds bounty PR",
+      "status": "운영/수익",
+      "status_label": "운영/수익",
+      "raw_status": "launched",
+      "column": "운영/수익",
+      "type": "바운티",
+      "priority": "높음",
+      "tags": [
+        "바운티"
+      ],
+      "quality": 86,
+      "expected_base_net": 35,
+      "base_net_margin_pct": 70,
+      "expected_price": 50,
+      "buyer_or_payer": "UnsafeLabs/Stacylia via Algora bounty",
+      "channel": "GitHub issue /attempt + fork PR + /claim",
+      "current_owner": "execution_lead",
+      "next_action": "PR #1710 CI/review/Algora bot 상태 모니터링. 리뷰 요청 시 작은 follow-up commit으로 대응.",
+      "risk_flags": [
+        "CI 대기",
+        "지급 프로필 가능",
+        "중복 리스크"
+      ],
+      "stop_reason": null,
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/archestra-ai/archestra/issues/4758",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, but assigned to piercypixel; required core-team assignment in bot instructions. Existing /attempt by assignee. / Algora $150 cash/platform bounty.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/archestra-ai/archestra/issues/4030",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, assigned to mbachaud, Reserved for SE interview. Prior PR branch history and assignee /attempt present. / Algora $100 cash/platform bounty.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but direct comments include PR #310 and multiple current attempts. gh PR search found 30 open related PRs. / Algora-style /bounty $75 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open, no assignee, but maintainer comment says PR #1478 already completed implementation. / Algora/Stacylia $50 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+          "grade": "A",
+          "summary": "GO / None — Open, no assignee, repo accepts fork PRs. No open PR found by issue search. Scope is 2 small Laravel files plus test; no L4. / Algora/Stacylia $50 cash/platform label; PR body /claim route visible.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but 22 open PRs directly mention the issue; requires AWS Comprehend integration, example, and Loom video. / Algora-style $50 label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/circuitjson.com/issues/79",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open issue, rewarded label, PR #227/#230 comments and 30 open related PRs. / $50 bounty but label shows rewarded.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but comments and gh PR search show dozens of direct submitted PRs. / /bounty $50 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but at least 10 direct open PRs and broad frontend/backend/date data flow scope. / $50 bounty label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/rohitdash08/FinMind/issues/124",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, assigned to Pranjal6955, many direct PRs and broad production-ready auth/security scope. / Bounty/$50 labels; Opire comments visible.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "grade": "A",
+          "summary": "Submitted PR #1710 with /claim #745 in body; checks initially in progress.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 10건 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "UnsafeLabs #745는 $50 cash/platform, 범위 작고 open direct PR 미확인."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "2파일+테스트의 최소 diff로 quality 86점."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "/attempt, fork push, PR 제출 완료: https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "CI/중복/지급 profile 리스크는 있으나 자동 제출 기준 통과. 모니터링 필요."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "$50 gross, base risk-adjusted net $35, 약 70% margin."
+        }
+      ],
+      "asset_count": 6,
+      "asset_links": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md"
+        },
+        {
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "viewer": null
+        },
+        {
+          "label": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "path": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md"
+        },
+        {
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "viewer": null
+        },
+        {
+          "label": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "path": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "viewer": null
+        }
+      ]
     }
   ],
   "rejection_summary": {
@@ -2082,93 +2291,11 @@
     "LOW_QUALITY": 1
   },
   "roi": {
-    "expected_base_net_total": 915161,
+    "expected_base_net_total": 915196,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T03:19:51+09:00",
-      "run_id": "2026-05-19_0315_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260519_067_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "Expected base net 0; no coding time spent.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T03:39:46+09:00",
-      "run_id": "2026-05-19_0335_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_068_local_tax_certificate_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지방세 납세증명서 제출 전 체크 무료 검증 글 후보 발견.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T03:39:46+09:00",
-      "run_id": "2026-05-19_0335_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_068_local_tax_certificate_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "정부24 공식 근거와 comparable 검색 결과 기록.",
-      "links": [
-        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056",
-        "https://plus.gov.kr/search/searchdtl/?srvcId=13100000056&typeSn=01",
-        "https://search.naver.com/search.naver?query=%EC%A7%80%EB%B0%A9%EC%84%B8%20%EB%82%A9%EC%84%B8%EC%A6%9D%EB%AA%85%EC%84%9C%20%EC%A0%95%EB%B6%8024%20%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90%20%EB%B8%94%EB%A1%9C%EA%B7%B8"
-      ]
-    },
-    {
-      "time": "2026-05-19T03:39:46+09:00",
-      "run_id": "2026-05-19_0335_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_068_local_tax_certificate_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "4개 후보 검토. 지방세 납세증명서 제출 전 체크 글이 공식 근거와 독자 pain이 가장 명확함.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T03:39:46+09:00",
-      "run_id": "2026-05-19_0335_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260519_068_local_tax_certificate_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A/B 근거 확보. 서류명 혼동 방지 중심으로 진행.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T03:39:46+09:00",
-      "run_id": "2026-05-19_0335_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260519_068_local_tax_certificate_blog",
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "국세/지방세/세목별 과세증명 구분형 무료 글로 scope 축소. 이미지 3장 계획 포함.",
-      "links": []
-    },
     {
       "time": "2026-05-19T03:39:46+09:00",
       "run_id": "2026-05-19_0335_money-flow",
@@ -2588,6 +2715,156 @@
       "decision": "NO-GO",
       "reason_code": "OPPORTUNITY_COST",
       "summary": "위험조정 기준 기대 순가치 0원."
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "research_member",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "10개 bounty/direct-payout 후보 수집 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "research_lead",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "UnsafeLabs #745가 cash/platform, 낮은 competition, small scope로 GO."
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "planning_lead",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Quality 86; 2파일+테스트 최소 변경 승인."
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "execution_lead",
+      "event": "launched",
+      "from_status": "execution",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "PR submitted: https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "redteam",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "CI/duplicate/payout-profile residual risk accepted with monitor."
+    },
+    {
+      "time": "2026-05-19T06:42:54+09:00",
+      "run_id": "2026-05-19_0634_money-flow",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "links": [
+        "https://github.com/archestra-ai/archestra/issues/4758",
+        "https://github.com/archestra-ai/archestra/issues/4030",
+        "https://github.com/tscircuit/jlcsearch/issues/92",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+        "https://github.com/arakoodev/EdgeChains/issues/290",
+        "https://github.com/tscircuit/circuitjson.com/issues/79",
+        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+        "https://github.com/rohitdash08/FinMind/issues/124",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+      ],
+      "agent": "roi",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Base expected net $35 on $50 bounty."
     }
   ],
   "board_columns": [
@@ -2796,7 +3073,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md"
         },
         {
-          "label": "3",
+          "label": "https://beemo.tistory.com/3",
           "path": "https://beemo.tistory.com/3",
           "viewer": null
         },
@@ -2873,7 +3150,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260514_001_beauty_noshow_kit/blog_01_nailshop_noshow_reservation_deposit.md"
         },
         {
-          "label": "3",
+          "label": "https://beemo.tistory.com/3",
           "path": "https://beemo.tistory.com/3",
           "viewer": null
         },
@@ -2979,7 +3256,7 @@
           "viewer": null
         },
         {
-          "label": "2",
+          "label": "https://beemo.tistory.com/2",
           "path": "https://beemo.tistory.com/2",
           "viewer": null
         }
@@ -3011,7 +3288,7 @@
           "viewer": null
         },
         {
-          "label": "2",
+          "label": "https://beemo.tistory.com/2",
           "path": "https://beemo.tistory.com/2",
           "viewer": null
         }
@@ -3116,12 +3393,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/sample-output.md"
         },
         {
-          "label": "1385",
+          "label": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
           "path": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
           "viewer": null
         },
         {
-          "label": "1",
+          "label": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
           "path": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
           "viewer": null
         }
@@ -3148,12 +3425,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/sample-output.md"
         },
         {
-          "label": "1385",
+          "label": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
           "path": "https://github.com/claude-builders-bounty/claude-builders-bounty/pull/1385",
           "viewer": null
         },
         {
-          "label": "1",
+          "label": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
           "path": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
           "viewer": null
         }
@@ -3565,12 +3842,12 @@
           "viewer": null
         },
         {
-          "label": "5",
+          "label": "https://beemo.tistory.com/5",
           "path": "https://beemo.tistory.com/5",
           "viewer": null
         },
         {
-          "label": "4",
+          "label": "https://beemo.tistory.com/4",
           "path": "https://beemo.tistory.com/4",
           "viewer": null
         }
@@ -3612,12 +3889,12 @@
           "viewer": null
         },
         {
-          "label": "5",
+          "label": "https://beemo.tistory.com/5",
           "path": "https://beemo.tistory.com/5",
           "viewer": null
         },
         {
-          "label": "4",
+          "label": "https://beemo.tistory.com/4",
           "path": "https://beemo.tistory.com/4",
           "viewer": null
         }
@@ -3844,7 +4121,7 @@
           "viewer": null
         },
         {
-          "label": "7",
+          "label": "https://beemo.tistory.com/7",
           "path": "https://beemo.tistory.com/7",
           "viewer": null
         }
@@ -3886,7 +4163,7 @@
           "viewer": null
         },
         {
-          "label": "7",
+          "label": "https://beemo.tistory.com/7",
           "path": "https://beemo.tistory.com/7",
           "viewer": null
         }
@@ -4114,7 +4391,7 @@
           "viewer": null
         },
         {
-          "label": "8",
+          "label": "https://beemo.tistory.com/8",
           "path": "https://beemo.tistory.com/8",
           "viewer": null
         }
@@ -4156,7 +4433,7 @@
           "viewer": null
         },
         {
-          "label": "8",
+          "label": "https://beemo.tistory.com/8",
           "path": "https://beemo.tistory.com/8",
           "viewer": null
         }
@@ -4385,7 +4662,7 @@
           "viewer": null
         },
         {
-          "label": "9",
+          "label": "https://beemo.tistory.com/9",
           "path": "https://beemo.tistory.com/9",
           "viewer": null
         }
@@ -4427,7 +4704,7 @@
           "viewer": null
         },
         {
-          "label": "9",
+          "label": "https://beemo.tistory.com/9",
           "path": "https://beemo.tistory.com/9",
           "viewer": null
         }
@@ -4634,7 +4911,7 @@
           "viewer": null
         },
         {
-          "label": "6",
+          "label": "https://beemo.tistory.com/6",
           "path": "https://beemo.tistory.com/6",
           "viewer": null
         }
@@ -4676,7 +4953,7 @@
           "viewer": null
         },
         {
-          "label": "6",
+          "label": "https://beemo.tistory.com/6",
           "path": "https://beemo.tistory.com/6",
           "viewer": null
         }
@@ -4880,7 +5157,7 @@
           "viewer": null
         },
         {
-          "label": "10",
+          "label": "https://beemo.tistory.com/10",
           "path": "https://beemo.tistory.com/10",
           "viewer": null
         }
@@ -4927,7 +5204,7 @@
           "viewer": null
         },
         {
-          "label": "10",
+          "label": "https://beemo.tistory.com/10",
           "path": "https://beemo.tistory.com/10",
           "viewer": null
         }
@@ -5133,7 +5410,7 @@
           "viewer": null
         },
         {
-          "label": "11",
+          "label": "https://beemo.tistory.com/11",
           "path": "https://beemo.tistory.com/11",
           "viewer": null
         }
@@ -5180,7 +5457,7 @@
           "viewer": null
         },
         {
-          "label": "11",
+          "label": "https://beemo.tistory.com/11",
           "path": "https://beemo.tistory.com/11",
           "viewer": null
         }
@@ -5385,7 +5662,7 @@
           "viewer": null
         },
         {
-          "label": "12",
+          "label": "https://beemo.tistory.com/12",
           "path": "https://beemo.tistory.com/12",
           "viewer": null
         }
@@ -5432,7 +5709,7 @@
           "viewer": null
         },
         {
-          "label": "12",
+          "label": "https://beemo.tistory.com/12",
           "path": "https://beemo.tistory.com/12",
           "viewer": null
         }
@@ -5632,7 +5909,7 @@
           "viewer": null
         },
         {
-          "label": "13",
+          "label": "https://beemo.tistory.com/13",
           "path": "https://beemo.tistory.com/13",
           "viewer": null
         }
@@ -5679,7 +5956,7 @@
           "viewer": null
         },
         {
-          "label": "13",
+          "label": "https://beemo.tistory.com/13",
           "path": "https://beemo.tistory.com/13",
           "viewer": null
         }
@@ -5952,7 +6229,7 @@
           "viewer": null
         },
         {
-          "label": "14",
+          "label": "https://beemo.tistory.com/14",
           "path": "https://beemo.tistory.com/14",
           "viewer": null
         },
@@ -6029,7 +6306,7 @@
           "viewer": null
         },
         {
-          "label": "14",
+          "label": "https://beemo.tistory.com/14",
           "path": "https://beemo.tistory.com/14",
           "viewer": null
         },
@@ -6318,7 +6595,7 @@
           "viewer": null
         },
         {
-          "label": "16",
+          "label": "https://beemo.tistory.com/16",
           "path": "https://beemo.tistory.com/16",
           "viewer": null
         },
@@ -6390,7 +6667,7 @@
           "viewer": null
         },
         {
-          "label": "16",
+          "label": "https://beemo.tistory.com/16",
           "path": "https://beemo.tistory.com/16",
           "viewer": null
         },
@@ -6661,7 +6938,7 @@
           "viewer": null
         },
         {
-          "label": "17",
+          "label": "https://beemo.tistory.com/17",
           "path": "https://beemo.tistory.com/17",
           "viewer": null
         },
@@ -6728,7 +7005,7 @@
           "viewer": null
         },
         {
-          "label": "17",
+          "label": "https://beemo.tistory.com/17",
           "path": "https://beemo.tistory.com/17",
           "viewer": null
         },
@@ -6969,7 +7246,7 @@
           "viewer": null
         },
         {
-          "label": "18",
+          "label": "https://beemo.tistory.com/18",
           "path": "https://beemo.tistory.com/18",
           "viewer": null
         },
@@ -7041,7 +7318,7 @@
           "viewer": null
         },
         {
-          "label": "18",
+          "label": "https://beemo.tistory.com/18",
           "path": "https://beemo.tistory.com/18",
           "viewer": null
         },
@@ -7267,7 +7544,7 @@
           "viewer": null
         },
         {
-          "label": "15",
+          "label": "https://beemo.tistory.com/15",
           "path": "https://beemo.tistory.com/15",
           "viewer": null
         }
@@ -7354,7 +7631,7 @@
           "viewer": null
         },
         {
-          "label": "15",
+          "label": "https://beemo.tistory.com/15",
           "path": "https://beemo.tistory.com/15",
           "viewer": null
         }
@@ -7573,7 +7850,7 @@
           "viewer": null
         },
         {
-          "label": "19",
+          "label": "https://beemo.tistory.com/19",
           "path": "https://beemo.tistory.com/19",
           "viewer": null
         },
@@ -7625,7 +7902,7 @@
           "viewer": null
         },
         {
-          "label": "19",
+          "label": "https://beemo.tistory.com/19",
           "path": "https://beemo.tistory.com/19",
           "viewer": null
         },
@@ -7835,7 +8112,7 @@
           "viewer": null
         },
         {
-          "label": "20",
+          "label": "https://beemo.tistory.com/20",
           "path": "https://beemo.tistory.com/20",
           "viewer": null
         },
@@ -7845,7 +8122,7 @@
           "viewer": null
         },
         {
-          "label": "wage_calculator_2026_embed.html",
+          "label": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html",
           "path": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html",
           "viewer": null
         }
@@ -7902,7 +8179,7 @@
           "viewer": null
         },
         {
-          "label": "20",
+          "label": "https://beemo.tistory.com/20",
           "path": "https://beemo.tistory.com/20",
           "viewer": null
         },
@@ -7912,7 +8189,7 @@
           "viewer": null
         },
         {
-          "label": "wage_calculator_2026_embed.html",
+          "label": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html",
           "path": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260517_021_minwage_payroll_blog/wage_calculator_2026_embed.html",
           "viewer": null
         }
@@ -8156,7 +8433,7 @@
           "viewer": null
         },
         {
-          "label": "21",
+          "label": "https://beemo.tistory.com/21",
           "path": "https://beemo.tistory.com/21",
           "viewer": null
         }
@@ -8218,7 +8495,7 @@
           "viewer": null
         },
         {
-          "label": "21",
+          "label": "https://beemo.tistory.com/21",
           "path": "https://beemo.tistory.com/21",
           "viewer": null
         }
@@ -12065,7 +12342,7 @@
           "viewer": null
         },
         {
-          "label": "35",
+          "label": "https://beemo.tistory.com/35",
           "path": "https://beemo.tistory.com/35",
           "viewer": null
         }
@@ -12127,7 +12404,7 @@
           "viewer": null
         },
         {
-          "label": "35",
+          "label": "https://beemo.tistory.com/35",
           "path": "https://beemo.tistory.com/35",
           "viewer": null
         }
@@ -12391,7 +12668,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
         },
         {
-          "label": "6446",
+          "label": "https://github.com/OWASP-BLT/BLT/pull/6446",
           "path": "https://github.com/OWASP-BLT/BLT/pull/6446",
           "viewer": null
         }
@@ -12423,7 +12700,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
         },
         {
-          "label": "6446",
+          "label": "https://github.com/OWASP-BLT/BLT/pull/6446",
           "path": "https://github.com/OWASP-BLT/BLT/pull/6446",
           "viewer": null
         }
@@ -12684,7 +12961,7 @@
           "viewer": null
         },
         {
-          "label": "37",
+          "label": "https://beemo.tistory.com/37",
           "path": "https://beemo.tistory.com/37",
           "viewer": null
         },
@@ -12831,7 +13108,7 @@
           "viewer": null
         },
         {
-          "label": "37",
+          "label": "https://beemo.tistory.com/37",
           "path": "https://beemo.tistory.com/37",
           "viewer": null
         },
@@ -12976,7 +13253,7 @@
           "viewer": null
         },
         {
-          "label": "6447",
+          "label": "https://github.com/OWASP-BLT/BLT/pull/6447",
           "path": "https://github.com/OWASP-BLT/BLT/pull/6447",
           "viewer": null
         }
@@ -12988,7 +13265,7 @@
           "viewer": null
         },
         {
-          "label": "6447",
+          "label": "https://github.com/OWASP-BLT/BLT/pull/6447",
           "path": "https://github.com/OWASP-BLT/BLT/pull/6447",
           "viewer": null
         }
@@ -13193,7 +13470,7 @@
           "viewer": null
         },
         {
-          "label": "39",
+          "label": "https://beemo.tistory.com/39",
           "path": "https://beemo.tistory.com/39",
           "viewer": null
         }
@@ -13270,7 +13547,7 @@
           "viewer": null
         },
         {
-          "label": "39",
+          "label": "https://beemo.tistory.com/39",
           "path": "https://beemo.tistory.com/39",
           "viewer": null
         }
@@ -13660,7 +13937,7 @@
           "viewer": null
         },
         {
-          "label": "41",
+          "label": "https://beemo.tistory.com/41",
           "path": "https://beemo.tistory.com/41",
           "viewer": null
         }
@@ -13742,7 +14019,7 @@
           "viewer": null
         },
         {
-          "label": "41",
+          "label": "https://beemo.tistory.com/41",
           "path": "https://beemo.tistory.com/41",
           "viewer": null
         }
@@ -14123,7 +14400,7 @@
           "viewer": null
         },
         {
-          "label": "42",
+          "label": "https://beemo.tistory.com/42",
           "path": "https://beemo.tistory.com/42",
           "viewer": null
         }
@@ -14200,7 +14477,7 @@
           "viewer": null
         },
         {
-          "label": "42",
+          "label": "https://beemo.tistory.com/42",
           "path": "https://beemo.tistory.com/42",
           "viewer": null
         }
@@ -14599,7 +14876,7 @@
           "viewer": null
         },
         {
-          "label": "45",
+          "label": "https://beemo.tistory.com/45",
           "path": "https://beemo.tistory.com/45",
           "viewer": null
         }
@@ -14696,7 +14973,7 @@
           "viewer": null
         },
         {
-          "label": "45",
+          "label": "https://beemo.tistory.com/45",
           "path": "https://beemo.tistory.com/45",
           "viewer": null
         }
@@ -15140,7 +15417,7 @@
           "viewer": null
         },
         {
-          "label": "47",
+          "label": "https://beemo.tistory.com/47",
           "path": "https://beemo.tistory.com/47",
           "viewer": null
         }
@@ -15277,7 +15554,7 @@
           "viewer": null
         },
         {
-          "label": "47",
+          "label": "https://beemo.tistory.com/47",
           "path": "https://beemo.tistory.com/47",
           "viewer": null
         }
@@ -15415,7 +15692,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260518_057_unsafe_ems_micro_bounty/roi.md"
         },
         {
-          "label": "1576",
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576",
           "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576",
           "viewer": null
         }
@@ -15447,7 +15724,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260518_057_unsafe_ems_micro_bounty/roi.md"
         },
         {
-          "label": "1576",
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576",
           "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576",
           "viewer": null
         }
@@ -17782,6 +18059,214 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-71",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "title": "UnsafeLabs #745 Laravel bcrypt rounds bounty PR",
+      "status": "운영/수익",
+      "status_label": "운영/수익",
+      "raw_status": "launched",
+      "column": "운영/수익",
+      "type": "바운티",
+      "priority": "높음",
+      "tags": [
+        "바운티"
+      ],
+      "quality": 86,
+      "expected_base_net": 35,
+      "base_net_margin_pct": 70,
+      "expected_price": 50,
+      "buyer_or_payer": "UnsafeLabs/Stacylia via Algora bounty",
+      "channel": "GitHub issue /attempt + fork PR + /claim",
+      "current_owner": "execution_lead",
+      "next_action": "PR #1710 CI/review/Algora bot 상태 모니터링. 리뷰 요청 시 작은 follow-up commit으로 대응.",
+      "risk_flags": [
+        "CI 대기",
+        "지급 프로필 가능",
+        "중복 리스크"
+      ],
+      "stop_reason": null,
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/archestra-ai/archestra/issues/4758",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, but assigned to piercypixel; required core-team assignment in bot instructions. Existing /attempt by assignee. / Algora $150 cash/platform bounty.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/archestra-ai/archestra/issues/4030",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, assigned to mbachaud, Reserved for SE interview. Prior PR branch history and assignee /attempt present. / Algora $100 cash/platform bounty.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but direct comments include PR #310 and multiple current attempts. gh PR search found 30 open related PRs. / Algora-style /bounty $75 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open, no assignee, but maintainer comment says PR #1478 already completed implementation. / Algora/Stacylia $50 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+          "grade": "A",
+          "summary": "GO / None — Open, no assignee, repo accepts fork PRs. No open PR found by issue search. Scope is 2 small Laravel files plus test; no L4. / Algora/Stacylia $50 cash/platform label; PR body /claim route visible.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/arakoodev/EdgeChains/issues/290",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but 22 open PRs directly mention the issue; requires AWS Comprehend integration, example, and Loom video. / Algora-style $50 label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/circuitjson.com/issues/79",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open issue, rewarded label, PR #227/#230 comments and 30 open related PRs. / $50 bounty but label shows rewarded.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but comments and gh PR search show dozens of direct submitted PRs. / /bounty $50 cash/platform label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/aqualinkorg/aqualink-app/issues/1162",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open but at least 10 direct open PRs and broad frontend/backend/date data flow scope. / $50 bounty label.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/rohitdash08/FinMind/issues/124",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Open, assigned to Pranjal6955, many direct PRs and broad production-ready auth/security scope. / Bounty/$50 labels; Opire comments visible.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "grade": "A",
+          "summary": "Submitted PR #1710 with /claim #745 in body; checks initially in progress.",
+          "checked_at": "2026-05-19T06:42:54+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 10건 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "UnsafeLabs #745는 $50 cash/platform, 범위 작고 open direct PR 미확인."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "2파일+테스트의 최소 diff로 quality 86점."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "/attempt, fork push, PR 제출 완료: https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "CI/중복/지급 profile 리스크는 있으나 자동 제출 기준 통과. 모니터링 필요."
+        },
+        {
+          "time": "2026-05-19T06:42:54+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "$50 gross, base risk-adjusted net $35, 약 70% margin."
+        }
+      ],
+      "asset_count": 6,
+      "asset_links": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md"
+        },
+        {
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "viewer": null
+        },
+        {
+          "label": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "path": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_071_unsafe_laravel_bounty_pr/roi.md"
+        },
+        {
+          "label": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "path": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710",
+          "viewer": null
+        },
+        {
+          "label": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "path": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
+          "viewer": null
         }
       ]
     }
