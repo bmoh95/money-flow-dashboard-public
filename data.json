@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-18T13:05:28+09:00",
+  "updated_at": "2026-05-18T13:06:59+09:00",
   "last_run": {
     "run_id": "2026-05-18_1302_money-flow",
     "started_at": "2026-05-18T13:05:17+09:00",
@@ -75,6 +75,27 @@
         "decision": "HOLD",
         "reason_code": null,
         "summary": "직접 매출 0원, 현금 지출 0원. 장기 검색 검증 자산으로 추적."
+      },
+      {
+        "opportunity_id": null,
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "HIGH_USER_INPUT",
+        "summary": "사업장 전기요금 계약종별/소상공인 절감 체크 글: 업종별 변수와 사용량 확인 부담이 커서 신규 scout에서 NO-GO."
+      },
+      {
+        "opportunity_id": null,
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "GitHub bounty 신규 탐색: crypto/RTC reward bot류: 토큰/팔로우 검증/불명확 지급 조건이 많아 안전한 cash rail 부족."
+      },
+      {
+        "opportunity_id": null,
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "OPPORTUNITY_COST",
+        "summary": "프리랜서 부가세 예정고지/환급 체크 글: 5월 개인지방소득세 주제 대비 긴급성과 시즌성이 낮음."
       }
     ],
     "summary": "신규 scout: 개인지방소득세 무료 검증 글 1건 GO 후 redteam_hold, 후보 3건 NO-GO.",
@@ -123,65 +144,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T12:06:11+09:00",
-      "run_id": "2026-05-18_1206_money-flow",
-      "agent": "제작",
-      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": null,
-      "reason_code": null,
-      "summary": "지원 이미지 3장, 세무 리스크 완화 HTML, 공식 기준 재확인 파일 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/01-tax-invoice-title.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/01-tax-invoice-title.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/02-tax-invoice-flow.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/02-tax-invoice-flow.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/03-tax-invoice-checklist.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/03-tax-invoice-checklist.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/official_recheck_20260518.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/body_refined.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/local_render.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260518_046_e_tax_invoice_blog/01-tax-invoice-title.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260518_046_e_tax_invoice_blog/02-tax-invoice-flow.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260518_046_e_tax_invoice_blog/03-tax-invoice-checklist.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260518_046_e_tax_invoice_blog/body_refined.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260518_046_e_tax_invoice_blog/local_render.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_046_e_tax_invoice_blog/assets/tistory_publish_result_20260518.json"
-      ]
-    },
-    {
-      "time": "2026-05-18T12:06:11+09:00",
-      "run_id": "2026-05-18_1206_money-flow",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 무료 검증 글 게시 및 공개 URL/이미지 3장/OG/카테고리 검증 완료.",
-      "links": [
-        "https://beemo.tistory.com/37"
-      ]
-    },
-    {
-      "time": "2026-05-18T12:06:11+09:00",
-      "run_id": "2026-05-18_1206_money-flow",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260518_046_e_tax_invoice_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "세무 단정 문구 완화, 공식 출처 링크, 이미지/카테고리 QA 완료.",
-      "links": [
-        "https://beemo.tistory.com/37"
-      ]
-    },
     {
       "time": "2026-05-18T12:06:11+09:00",
       "run_id": "2026-05-18_1206_money-flow",
@@ -562,6 +524,45 @@
       "decision": "HOLD",
       "reason_code": null,
       "summary": "직접 매출 0원, 현금 지출 0원. 장기 검색 검증 자산으로 추적.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T13:06:59+09:00",
+      "run_id": "2026-05-18_1302_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "후보 탈락: 사업장 전기요금 계약종별/소상공인 절감 체크 글 — 업종별 변수와 사용량 확인 부담이 커서 신규 scout에서 NO-GO.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T13:06:59+09:00",
+      "run_id": "2026-05-18_1302_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "후보 탈락: GitHub bounty 신규 탐색: crypto/RTC reward bot류 — 토큰/팔로우 검증/불명확 지급 조건이 많아 안전한 cash rail 부족.",
+      "links": []
+    },
+    {
+      "time": "2026-05-18T13:06:59+09:00",
+      "run_id": "2026-05-18_1302_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "후보 탈락: 프리랜서 부가세 예정고지/환급 체크 글 — 5월 개인지방소득세 주제 대비 긴급성과 시즌성이 낮음.",
       "links": []
     }
   ],
