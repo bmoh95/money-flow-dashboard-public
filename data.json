@@ -1,39 +1,41 @@
 {
-  "updated_at": "2026-05-18T12:21:01+09:00",
+  "updated_at": "2026-05-18T12:47:07+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1221_money-flow",
-    "started_at": "2026-05-18T12:21:01+09:00",
-    "finished_at": "2026-05-18T12:21:01+09:00",
-    "trigger": "manual",
+    "run_id": "2026-05-18_1244_money-flow",
+    "started_at": "2026-05-18T12:47:07+09:00",
+    "finished_at": "2026-05-18T12:47:07+09:00",
+    "trigger": "cron",
     "agents_executed": [
       "research_lead",
-      "redteam",
       "execution_lead",
+      "redteam",
+      "roi",
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
+    "opportunities_rejected": 0,
     "assets_created": [],
-    "approval_needed": [],
-    "decisions": [
+    "approval_needed": [
       {
-        "time": "2026-05-18T12:21:01+09:00",
-        "agent": "redteam",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_USER_INPUT",
-        "summary": "이슈가 다른 사용자에게 assign되어 있고 PR은 friend mention, peer review, GitHub Sponsors profile 요구로 자동 수익 루프에 부적합."
-      },
-      {
-        "time": "2026-05-18T12:21:01+09:00",
-        "agent": "execution_lead",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_USER_INPUT",
-        "summary": "부적합 PR #6446 closed, monitor removed."
+        "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
+        "title": "프리랜서 5월 간편장부 비용정리 무료 검증 글",
+        "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
+        "risk_flags": [
+          "crowded_free_template_results",
+          "duplicate_post_cleanup_pending",
+          "seasonal_search_window",
+          "tax_advice_disclaimer_included",
+          "tistory_preview_ready",
+          "tistory_published",
+          "duplicate_public_post_confirmed",
+          "duplicate_cleanup_requires_approval"
+        ]
       }
     ],
-    "summary": "Closed ineligible OWASP BLT micro-bounty PR and marked opportunity closed_lost.",
-    "final_report": "PR #6446 closed; opportunity marked closed_lost due eligibility/user-input requirements."
+    "decisions": [],
+    "summary": "Backlog processor found no current actionable redteam_hold/AUTH_BLOCKED/EDITOR_AUTOMATION_BLOCKED item. Existing approval item is duplicate-post cleanup and remains blocked until explicit approval.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 47,
@@ -42,7 +44,7 @@
     "launched": 23,
     "closed_won": 0,
     "closed_lost": 1,
-    "rejected": 24
+    "rejected": 26
   },
   "active_opportunities": [],
   "approval_needed": [
