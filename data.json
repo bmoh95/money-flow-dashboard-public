@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T02:11:35+09:00",
+  "updated_at": "2026-05-19T02:13:53+09:00",
   "last_run": {
     "run_id": "2026-05-19_0204_money-flow",
     "started_at": "2026-05-19T02:11:35+09:00",
-    "finished_at": "2026-05-19T02:11:35+09:00",
+    "finished_at": "2026-05-19T02:13:53+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -32,19 +32,25 @@
         "decision": "NO-GO",
         "reason_code": "DUPLICATE",
         "summary": "7개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
+      },
+      {
+        "agent": "execution_lead",
+        "decision": "NO-GO",
+        "reason_code": "LOW_QUALITY",
+        "summary": "기존 bounty PR #1576 closed unmerged; opportunity closed_lost"
       }
     ],
-    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. Existing PR monitor changed.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 7건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 기존 PR #1576 모니터 확인: 상태 변화 있음.\n- 새 기록: `opp_20260519_066_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- UnsafeLabs #920/#919/#917: cash/platform 가능성은 있으나 이미 claim/attempt 다수 + crypto/security 고위험 범위.\n- Claude Builders #5: Opire 명확하지만 301개 댓글, n8n/Claude API/스크린샷 등 외부 검증 부담.\n- Ubiquity #90: core team/admin만 start 가능.\n- fkill-cli #6, prest #284: IssueHunt 지급은 보이나 기존 PR/계정·claim 부담 또는 중복 PR.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. PR #1576 closed_lost.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 7건 preflight 완료.\n- GO 0건. 새 코딩·claim·댓글·PR 제출 없음.\n- 기존 UnsafeLabs #573 PR #1576이 unmerged closed 처리되어 `closed_lost`로 정리했습니다.\n- 새 scout 기록: `opp_20260519_066_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- UnsafeLabs #920/#919/#917: claim/attempt 다수 + crypto/security 고위험 범위.\n- Claude Builders #5: Opire 명확하지만 301개 댓글, n8n/Claude API/스크린샷 외부 검증 부담.\n- Ubiquity #90: core team/admin만 start 가능.\n- fkill-cli #6, prest #284: IssueHunt 지급은 보이나 기존 PR/계정·claim 부담 또는 중복 PR.\n- PR #1576: 자동 판정 “changes didn't fully resolve the issue”, 미병합.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
   },
   "metrics": {
     "total": 66,
     "active": 4,
     "approval_needed": 1,
-    "launched": 28,
+    "launched": 27,
     "closed_won": 0,
-    "closed_lost": 1,
-    "rejected": 34
+    "closed_lost": 2,
+    "rejected": 35
   },
   "active_opportunities": [
     {
@@ -2384,35 +2390,15 @@
     "PAYMENT_UNCLEAR": 2,
     "DUPLICATE": 11,
     "HIGH_USER_INPUT": 2,
-    "AUTH_BLOCKED": 1
+    "AUTH_BLOCKED": 1,
+    "LOW_QUALITY": 1
   },
   "roi": {
-    "expected_base_net_total": 887162,
+    "expected_base_net_total": 887161,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T23:54:15+09:00",
-      "run_id": "2026-05-18_2349_money-flow",
-      "opportunity_id": "opp_20260518_063_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/4",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/760",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/853",
-        "https://github.com/ubiquity/.github/issues/124"
-      ],
-      "agent": "roi",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "위험조정 기준 기대 순가치 0원."
-    },
     {
       "time": "2026-05-19T00:33:02+09:00",
       "run_id": "2026-05-19_0028_money-flow",
@@ -2876,6 +2862,21 @@
       "decision": "NO-GO",
       "reason_code": "OPPORTUNITY_COST",
       "summary": "위험조정 기준 기대 순가치 0원."
+    },
+    {
+      "time": "2026-05-19T02:13:53+09:00",
+      "run_id": "2026-05-19_0204_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260518_057_unsafe_ems_micro_bounty",
+      "event": "closed",
+      "from_status": "launched",
+      "to_status": "closed_lost",
+      "decision": "NO-GO",
+      "reason_code": "LOW_QUALITY",
+      "summary": "PR #1576 closed unmerged: changes did not fully resolve issue; bounty attempt closed_lost.",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576"
+      ]
     }
   ],
   "board_columns": [
@@ -15471,23 +15472,24 @@
       "opportunity_id": "opp_20260518_057_unsafe_ems_micro_bounty",
       "id": "opp_20260518_057_unsafe_ems_micro_bounty",
       "title": "UnsafeLabs #573 EMS $1 micro-bounty PR",
-      "status": "운영/수익",
-      "status_label": "운영/수익",
-      "raw_status": "launched",
-      "column": "운영/수익",
+      "status": "종료/폐기",
+      "status_label": "종료/폐기",
+      "raw_status": "closed_lost",
+      "column": "종료/폐기",
       "type": "바운티",
       "priority": "보통",
       "tags": [
-        "바운티"
+        "바운티",
+        "품질 미달"
       ],
       "quality": 84,
-      "expected_base_net": 1,
-      "base_net_margin_pct": 100,
+      "expected_base_net": 0,
+      "base_net_margin_pct": 0,
       "expected_price": 1,
       "buyer_or_payer": "UnsafeLabs/Stacylia via Algora bounty",
       "channel": "GitHub issue /attempt + fork PR + /claim in PR body",
       "current_owner": "execution_lead",
-      "next_action": "PR #1576 리뷰/보상/CI material-state 모니터링. Algora payout profile·개인/세금/은행정보 요구 시 HOLD.",
+      "next_action": "폐기. 재제출하지 않음; acceptance criteria 미충족 판정으로 현 PR 수익화 실패.",
       "risk_flags": [
         "micro_payout",
         "maintainer_discretion",
@@ -15495,7 +15497,7 @@
         "demo_video_requirement_softened",
         "algora_payout_profile_may_be_needed"
       ],
-      "stop_reason": null,
+      "stop_reason": "품질 미달",
       "approval_required": false,
       "approval_reason": null,
       "evidence": [
@@ -15510,6 +15512,12 @@
           "grade": "A",
           "summary": "Submitted fork PR #1576 with /claim #573 in body; GitHub checks success.",
           "checked_at": "2026-05-18T18:05:07+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576",
+          "grade": "A",
+          "summary": "PR closed by automation: “changes did not fully resolve the issue; rework and submit a new pull request.” Not merged, no bounty claim/payment.",
+          "checked_at": "2026-05-19T02:13:53+09:00"
         }
       ],
       "decision_history": [
@@ -15554,6 +15562,13 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "기준 기대 순수익 $1, 현금성 지급 루프 검증 가치 있음."
+        },
+        {
+          "time": "2026-05-19T02:13:53+09:00",
+          "agent": "execution_lead",
+          "decision": "NO-GO",
+          "reason_code": "LOW_QUALITY",
+          "summary": "PR #1576 closed unmerged by GitHub Actions; bounty attempt marked closed_lost."
         }
       ],
       "asset_count": 6,
