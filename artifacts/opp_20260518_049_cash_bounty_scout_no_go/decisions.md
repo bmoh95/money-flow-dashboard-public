@@ -1,0 +1,5 @@
+- research_member: HOLD  — cash/platform bounty/direct-payout 후보 8건 검색 및 issue/PR/comment/payout/참여자격 preflight 확인.
+- research_lead: NO-GO OPPORTUNITY_COST — 5개 이상 검토했으나 지급 명확성+무경쟁+작은 범위+참여자격을 동시에 통과한 자동 PR 후보 없음.
+- planning_lead: NO-GO OPPORTUNITY_COST — 구현/claim/PR 승격 후보 없음. Space and Time coverage bounty는 작은 미점유 slice 확인 전까지 HOLD 수준으로만 기록.
+- redteam: NO-GO REDTEAM_REJECTED — 경쟁 PR 선점, assignee 타인, payout 불명확, 범위 과대, 토큰/권한/스팸 리스크를 확인.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 순수익 0원. 낮은 금액 때문이 아니라 승인/지급 확률과 경쟁 상태 때문에 중단.

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f8fafc"/>
+<rect x="42" y="42" width="1116" height="591" rx="34" fill="white" stroke="#dbe4ef" stroke-width="2"/>
+<rect x="88" y="78" width="168" height="42" rx="21" fill="#2563eb" opacity="0.95"/><text x="172.0" y="100" dominant-baseline="middle" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="white">마지막 체크</text>
+<text x="92" y="170" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="46" font-weight="800" fill="#111827" text-anchor="start">개인지방소득세 확인표</text>
+<rect x="92" y="238" width="1016" height="76" rx="18" fill="#eff6ff" stroke="#dbe4ef"/>
+<circle cx="134" cy="276" r="18" fill="#22c55e"/><path d="M125 276 L133 284 L146 268" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="174" y="287" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#111827" text-anchor="start">접수증</text>
+<text x="360" y="287" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="27" font-weight="700" fill="#475569" text-anchor="start">종합소득세 신고 접수 완료</text>
+<rect x="92" y="326" width="1016" height="76" rx="18" fill="#f8fafc" stroke="#dbe4ef"/>
+<circle cx="134" cy="364" r="18" fill="#22c55e"/><path d="M125 364 L133 372 L146 356" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="174" y="375" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#111827" text-anchor="start">지방세</text>
+<text x="360" y="375" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="27" font-weight="700" fill="#475569" text-anchor="start">개인지방소득세 신고 상태</text>
+<rect x="92" y="414" width="1016" height="76" rx="18" fill="#eff6ff" stroke="#dbe4ef"/>
+<circle cx="134" cy="452" r="18" fill="#22c55e"/><path d="M125 452 L133 460 L146 444" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="174" y="463" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#111827" text-anchor="start">납부/환급</text>
+<text x="360" y="463" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="27" font-weight="700" fill="#475569" text-anchor="start">금액·기한·계좌 안내</text>
+<rect x="92" y="502" width="1016" height="76" rx="18" fill="#f8fafc" stroke="#dbe4ef"/>
+<circle cx="134" cy="540" r="18" fill="#22c55e"/><path d="M125 540 L133 548 L146 532" fill="none" stroke="white" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="174" y="551" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#111827" text-anchor="start">저장</text>
+<text x="360" y="551" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="27" font-weight="700" fill="#475569" text-anchor="start">접수증·납부서 PDF 또는 캡처</text>
+<text x="92" y="615" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#64748b" text-anchor="start">복잡한 경우에는 세무사·관할 지자체 안내로 다시 확인하세요.</text>
+</svg>
