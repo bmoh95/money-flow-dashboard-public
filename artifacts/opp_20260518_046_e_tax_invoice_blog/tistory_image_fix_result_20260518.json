@@ -1,11 +1,11 @@
 {
-  "time": "2026-05-18T13:13:40+09:00",
+  "time": "2026-05-18T13:35:49+09:00",
   "status": "UPDATED_VERIFIED",
   "url": "https://beemo.tistory.com/37",
   "http": 200,
   "title_found": true,
   "image_hits": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbXSsCN%2FdJMcaipPSW3%2FAAAAAAAAAAAAAAAAAAAAAGwGrD8RtUK6mBrKj3VPANb0Va20m-hvSOeisnGUoVDo%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DKDhJoH2rGc4uCqy0epEMG9H3Jk0%253D",
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FmBqKq%2FdJMcadWkvjI%2FAAAAAAAAAAAAAAAAAAAAAAxyUcVDFgweIusMerw9igS1-UqahHPSbjteNLwLwH8x%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DVylUlWT55zIX3ALj%252FvevqC3zT%252FI%253D",
   "category": "돈관리·구매체크/세금·장부",
   "categoryId": "1295942",
   "files": [
@@ -16,25 +16,25 @@
   "uploads": [
     {
       "name": "01-tax-invoice-title-v2.png",
-      "url": "https://blog.kakaocdn.net/dna/bXSsCN/dJMcaipPSW3/AAAAAAAAAAAAAAAAAAAAAGwGrD8RtUK6mBrKj3VPANb0Va20m-hvSOeisnGUoVDo/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=KDhJoH2rGc4uCqy0epEMG9H3Jk0%3D",
-      "key": "bXSsCN/dJMcaipPSW3/AAAAAAAAAAAAAAAAAAAAAGwGrD8RtUK6mBrKj3VPANb0Va20m-hvSOeisnGUoVDo",
+      "url": "https://blog.kakaocdn.net/dna/mBqKq/dJMcadWkvjI/AAAAAAAAAAAAAAAAAAAAAAxyUcVDFgweIusMerw9igS1-UqahHPSbjteNLwLwH8x/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=VylUlWT55zIX3ALj%2FvevqC3zT%2FI%3D",
+      "key": "mBqKq/dJMcadWkvjI/AAAAAAAAAAAAAAAAAAAAAAxyUcVDFgweIusMerw9igS1-UqahHPSbjteNLwLwH8x",
       "filename": "img.png",
-      "size": 75511
+      "size": 75503
     },
     {
       "name": "02-tax-invoice-flow-v2.png",
-      "url": "https://blog.kakaocdn.net/dna/bTxHha/dJMcaickWxQ/AAAAAAAAAAAAAAAAAAAAAPAFbdkE-G439Ekyn7B0aSw4cWivTSQK_u9Vs6iEPPTi/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=ZBqFAg27Aaiqx6WzCEWko60HdtE%3D",
-      "key": "bTxHha/dJMcaickWxQ/AAAAAAAAAAAAAAAAAAAAAPAFbdkE-G439Ekyn7B0aSw4cWivTSQK_u9Vs6iEPPTi",
+      "url": "https://blog.kakaocdn.net/dna/b5zuxZ/dJMcadWkvjJ/AAAAAAAAAAAAAAAAAAAAAAH1BQJ4RyKkLE_TebKabjlb0ipU4GDt5eRbOUgDQtmc/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=KGrL49K%2BZLBX5jamKylcEG1uKMo%3D",
+      "key": "b5zuxZ/dJMcadWkvjJ/AAAAAAAAAAAAAAAAAAAAAAH1BQJ4RyKkLE_TebKabjlb0ipU4GDt5eRbOUgDQtmc",
       "filename": "img.png",
-      "size": 68753
+      "size": 69007
     },
     {
       "name": "03-tax-invoice-checklist-v2.png",
-      "url": "https://blog.kakaocdn.net/dna/vG2GB/dJMcaipPSW8/AAAAAAAAAAAAAAAAAAAAAHwYdv2Jy-SGt1HxfWKIntRRgQxoCSy3QaDGCbJoCZyZ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=OyVQZF7iMD7cMjO8G9ysR6ZBMeQ%3D",
-      "key": "vG2GB/dJMcaipPSW8/AAAAAAAAAAAAAAAAAAAAAHwYdv2Jy-SGt1HxfWKIntRRgQxoCSy3QaDGCbJoCZyZ",
+      "url": "https://blog.kakaocdn.net/dna/cRZBTc/dJMcadWkvjK/AAAAAAAAAAAAAAAAAAAAAEaJZvxuzDssRUqxvtlmi0uu5LlSCKc_yj9sSze9q6W0/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=GRP9sKumnQbfOfDpF094gVeNRns%3D",
+      "key": "cRZBTc/dJMcadWkvjK/AAAAAAAAAAAAAAAAAAAAAEaJZvxuzDssRUqxvtlmi0uu5LlSCKc_yj9sSze9q6W0",
       "filename": "img.png",
-      "size": 66269
+      "size": 66494
     }
   ],
-  "thumbnail": "kage@bXSsCN/dJMcaipPSW3/AAAAAAAAAAAAAAAAAAAAAGwGrD8RtUK6mBrKj3VPANb0Va20m-hvSOeisnGUoVDo/img.png"
+  "thumbnail": "kage@mBqKq/dJMcadWkvjI/AAAAAAAAAAAAAAAAAAAAAAxyUcVDFgweIusMerw9igS1-UqahHPSbjteNLwLwH8x/img.png"
 }

@@ -1,0 +1,15 @@
+commit d03d05be16f749df7667de7b534478a46cc969c2
+Author:     beemo <beemo@beemoui-Macmini.local>
+AuthorDate: Mon May 18 12:04:42 2026 +0900
+Commit:     beemo <beemo@beemoui-Macmini.local>
+CommitDate: Mon May 18 12:04:42 2026 +0900
+
+    Remove unused android webview beta logo
+---
+ .../android-webview-beta/android-webview-beta.png       | Bin 35286 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+diff --git a/website/static/img/browser-logos/android-webview-beta/android-webview-beta.png b/website/static/img/browser-logos/android-webview-beta/android-webview-beta.png
+deleted file mode 100644
+index 1b15e0d..0000000
+Binary files a/website/static/img/browser-logos/android-webview-beta/android-webview-beta.png and /dev/null differ

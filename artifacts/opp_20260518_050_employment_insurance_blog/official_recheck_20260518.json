@@ -1,0 +1,20 @@
+[
+  {
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?pblancId=PBLN_000000000117022",
+    "http": 200,
+    "title": "기업마당>정책정보>지원사업 공고",
+    "ok": true
+  },
+  {
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A05007&CappBizCD=14900000543",
+    "http": 200,
+    "title": "자영업자 고용보험 가입 | 민원안내 및 신청 | 정부24",
+    "ok": true
+  },
+  {
+    "url": "https://www.work24.go.kr/cm/c/f/1100/selecSystInfo.do?currentPageNo=1&recordCountPerPage=10&systId=SI00000306&systClId=SC00000346",
+    "http": 200,
+    "title": "고용정책 상세_제도안내 | 고용정책 목록 | 정책/제도 | 고객센터",
+    "ok": true
+  }
+]
