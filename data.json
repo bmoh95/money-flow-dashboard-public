@@ -702,6 +702,33 @@
       "summary": "즉시 매출 0원. 무료 검증 자산으로만 진행, 판매 CTA 없음."
     },
     {
+      "time": "2026-05-18T11:59:01+09:00",
+      "opportunity_id": null,
+      "event": "decision",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "소상공인 전기요금 특별지원 2026 후보는 공식 현재 공고 확인 전 과장/오정보 위험이 커서 제외."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "opportunity_id": null,
+      "event": "decision",
+      "agent": "research_lead",
+      "decision": "HOLD",
+      "reason_code": "DUPLICATE",
+      "summary": "원천세·지급명세서 가산세 후보는 기존 세금/장부 글과 겹쳐 좁은 angle 재설계 전 보류."
+    },
+    {
+      "time": "2026-05-18T11:59:01+09:00",
+      "opportunity_id": null,
+      "event": "decision",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "신규 GitHub/Open-source bounty 후보는 즉시 작고 확실한 지급/PR 경로 확인 부족으로 제외."
+    },
+    {
       "time": "2026-05-18T10:46:02+09:00",
       "run_id": "2026-05-18_1046_money-flow",
       "agent": "research_lead",
