@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T09:41:09+09:00",
+  "updated_at": "2026-05-18T09:47:42+09:00",
   "last_run": {
-    "run_id": "2026-05-18_0937_money-flow",
-    "started_at": "2026-05-18T09:41:09+09:00",
-    "finished_at": "2026-05-18T09:41:09+09:00",
+    "run_id": "2026-05-18_0945_money-flow",
+    "started_at": "2026-05-18T09:47:42+09:00",
+    "finished_at": "2026-05-18T09:47:42+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,13 +16,13 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 5,
+    "candidates_discovered": 10,
     "opportunities_advanced": 0,
     "opportunities_rejected": 1,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
@@ -30,56 +30,56 @@
         "agent": "research_lead",
         "decision": "NO-GO",
         "reason_code": "DUPLICATE",
-        "summary": "A등급 근거가 있는 후보는 있었지만 기존 claim/PR, 지급조건 불명확, 고사용자부담, 기존 세금 글 중복으로 GO 없음."
+        "summary": "10건 모두 기존 PR/claim 과밀, L3 아웃리치 필요, crypto/BTC·비밀지시 공개 요구 등으로 승인·지급 가능성 부족."
       },
       {
         "agent": "planning_member",
         "decision": "NO-GO",
         "reason_code": "OPPORTUNITY_COST",
-        "summary": "기획 승격 후보 없음. 외부 pitch/comment/claim 없이 research rejection으로 기록."
+        "summary": "preflight/plan 승격 후보 없음. 코딩·/attempt·/opire try·claim·PR 제출하지 않음."
       },
       {
         "agent": "planning_lead",
         "decision": "NO-GO",
         "reason_code": "LOW_QUALITY",
-        "summary": "억지 초안 제작 시 중복 세금 글 또는 낮은 승인확률 bounty가 되어 품질 기준 80 미달 예상."
+        "summary": "중복 PR에 같은 구현을 추가하면 maintainer 관점 품질/차별성 기준 미달."
       },
       {
         "agent": "execution_member",
         "decision": "NO-GO",
         "reason_code": "NO_APPROVAL",
-        "summary": "Scout-only cron: 로컬 기록만 생성. 외부 게시·로그인·제출·PR 없음."
+        "summary": "Scout-only cron: 외부 댓글, claim, PR, 계정/지갑/결제 행동 없음."
       },
       {
         "agent": "execution_lead",
         "decision": "NO-GO",
-        "reason_code": "NO_CHANNEL",
-        "summary": "launch-ready asset 없음. 신규 제작을 시작하지 않는 것이 품질/ROI상 유리."
+        "reason_code": "NO_APPROVAL",
+        "summary": "제출 대상 없음. L3/L4 경계 준수."
       },
       {
         "agent": "redteam",
         "decision": "NO-GO",
         "reason_code": "REDTEAM_REJECTED",
-        "summary": "실패 모드: 이미 제출된 PR과 경쟁, Algora/issue 조건 불명확, paid writing 긴 리드타임, 기존 세금 콘텐츠 중복."
+        "summary": "실패 모드: 기존 중복 PR 선점, 비공식/crypto 지급, pre-prompt 공개 요구, 마케팅 외부활동, repo 활동 저하."
       },
       {
         "agent": "roi",
         "decision": "NO-GO",
         "reason_code": "OPPORTUNITY_COST",
-        "summary": "위험조정 기준 순수익 0원. 70% 순마진 후보가 없어 작업 투입 중단."
+        "summary": "위험조정 기대 순수익 0원. 70% 순마진 cash/platform 후보 없음."
       }
     ],
-    "summary": "New-work scout checked 5 candidates across bounty/writing/blog; all NO-GO. No external action.",
-    "final_report": "주인님, Money Flow 신규 scout 결과입니다.\n\n**완료**\n- 신규 후보 5건 검토: bounty 3건, paid writing 1건, 블로그 검증 1건.\n- GO 0건, NO-GO 5건. 외부 게시·제출·PR·claim 없음.\n- `opp_20260518_041_diverse_scout_no_go` 기록 및 대시보드 갱신 완료.\n\n**시장성 판단**\n- 기존 PR/claim 선점, 지급조건 불명확, paid writing 리드타임 과다, 기존 세금 글과 중복으로 진행 가치 낮음.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 70% 순마진 후보 없음.\n\n**대기**\n- 대시보드 갱신 및 GitHub Pages data.json 검증 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "Cash/platform bounty scout checked 10 candidates; all NO-GO. No coding/attempt/claim/comment/PR submission.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 10건 검토.\n- GO 0건, NO-GO 10건. 코딩·/attempt·/opire try·claim·PR 제출 없음.\n- `opp_20260518_042_cash_bounty_scout_no_go` 기록 및 대시보드/GitHub Pages mirror 갱신.\n\n**NO-GO 이유**\n- 기존 중복 PR/claim 과밀, BTC·crypto 지급 리스크, pre-conversation instructions 공개 요구, 외부 마케팅성 작업, 낮은 repo 활동성.\n\n**대기**\n- 필요 승인 없음."
   },
   "metrics": {
-    "total": 41,
+    "total": 42,
     "active": 0,
     "approval_needed": 1,
     "launched": 20,
     "closed_won": 0,
     "closed_lost": 0,
-    "rejected": 21
+    "rejected": 22
   },
   "active_opportunities": [],
   "approval_needed": [
@@ -272,16 +272,8 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
-        },
-        {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
-        }
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/4"
       ]
     }
   ],
@@ -475,16 +467,8 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
-        },
-        {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
-        }
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/4"
       ]
     }
   ],
@@ -493,7 +477,7 @@
     "고위험": 5,
     "기회비용": 12,
     "지급 불명확": 2,
-    "중복": 2
+    "중복": 3
   },
   "roi": {
     "expected_base_net_total": 769960,
@@ -501,78 +485,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "기획",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "기회비용",
-      "summary": "preflight/plan 승격 후보 없음. 코딩·claim·PR 제출하지 않음."
-    },
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "기획 검수",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "기회비용",
-      "summary": "승인/지급 확률 우선 기준에서 작업 투입 금지."
-    },
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "제작",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "승인 없음",
-      "summary": "Scout-only cron: 외부 claim/comment/PR 없음."
-    },
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "승인 없음",
-      "summary": "제출 대상 없음. 안전 경계 준수."
-    },
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "리스크 검토 탈락",
-      "summary": "실패 모드: 과밀 경쟁, 이미 제출된 PR, 유료 API/실서버/벤치마크 요구, 낮은 차별성, 지급 확률 약함."
-    },
-    {
-      "time": "2026-05-18T06:25:12+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260518_038_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "기회비용",
-      "summary": "위험조정 기대 순수익 0원. 작업 투입 대비 승인 가능성이 부족함."
-    },
-    {
-      "time": "2026-05-18T07:32:21+09:00",
-      "agent": "리서치",
-      "opportunity_id": "opp_20260518_039_cash_bounty_scout_no_go",
-      "event": "discovered",
-      "decision": "HOLD",
-      "reason_code": null,
-      "summary": "cash/platform bounty/direct-payout 후보 10건 검색 및 issue/open PR/comment/payout preflight 확인."
-    },
-    {
-      "time": "2026-05-18T07:32:21+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260518_039_cash_bounty_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "지급 불명확",
-      "summary": "10건 모두 중복 PR, symbolic/non-cash 고지, 위험한 prompt 공개 요구, 또는 지급/채널 불명확으로 승인·지급 odds 부족."
-    },
     {
       "time": "2026-05-18T07:32:21+09:00",
       "agent": "기획",
@@ -770,6 +682,78 @@
       "decision": "NO-GO",
       "reason_code": "기회비용",
       "summary": "위험조정 기준 순수익 0원. 70% 순마진 후보가 없어 작업 투입 중단."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "discovered",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "cash/platform bounty/direct-payout 후보 10건 검색, open 상태·PR 가능성·경쟁 PR·payout rail·위험요구 확인."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "중복",
+      "summary": "10건 모두 기존 PR/claim 과밀, L3 아웃리치 필요, crypto/BTC·비밀지시 공개 요구 등으로 승인·지급 가능성 부족."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "기획",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "기회비용",
+      "summary": "preflight/plan 승격 후보 없음. 코딩·/attempt·/opire try·claim·PR 제출하지 않음."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "품질 낮음",
+      "summary": "중복 PR에 같은 구현을 추가하면 maintainer 관점 품질/차별성 기준 미달."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "제작",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "승인 없음",
+      "summary": "Scout-only cron: 외부 댓글, claim, PR, 계정/지갑/결제 행동 없음."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "승인 없음",
+      "summary": "제출 대상 없음. L3/L4 경계 준수."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "리스크 검토 탈락",
+      "summary": "실패 모드: 기존 중복 PR 선점, 비공식/crypto 지급, pre-prompt 공개 요구, 마케팅 외부활동, repo 활동 저하."
+    },
+    {
+      "time": "2026-05-18T09:47:42+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "기회비용",
+      "summary": "위험조정 기대 순수익 0원. 70% 순마진 cash/platform 후보 없음."
     }
   ],
   "board_columns": [
@@ -1434,16 +1418,8 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/01-thumbnail-freelancer-simple-book.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/02-cost-table-card.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_006_freelancer_simple_book_blog/assets/03-ox-flow-checklist.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/5",
-          "type": "tistory_post"
-        },
-        {
-          "name": "Tistory 중복 공개 글(정리 대기)",
-          "url": "https://beemo.tistory.com/4",
-          "type": "duplicate_tistory_post"
-        }
+        "https://beemo.tistory.com/5",
+        "https://beemo.tistory.com/4"
       ]
     },
     {
@@ -1626,46 +1602,14 @@
       ],
       "asset_count": 8,
       "assets": [
-        {
-          "name": "학원 여름방학 특강 안내문 무료 검증 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/blog_validation_brief.md"
-        },
-        {
-          "name": "학원 여름방학 특강 안내문, 문자로 보낼 때 덜 어색한 예시 8개",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/draft_academy_summer_class_messages_20260515.md"
-        },
-        {
-          "name": "학원 여름방학 특강 안내문, 문자로 보낼 때 덜 어색한 예시 8개",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_007_academy_summer_class_blog/draft_academy_summer_class_messages_20260516_revised.md"
-        },
-        {
-          "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/academy_summer_class_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/academy_summer_class_tistory_preview.html"
-        },
-        {
-          "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/01-thumbnail-academy-summer-class.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/01-thumbnail-academy-summer-class.svg"
-        },
-        {
-          "name": "문자 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/02-sms-example-academy.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/02-sms-example-academy.svg"
-        },
-        {
-          "name": "체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/03-checklist-academy.svg",
-          "viewer": "artifacts/opp_20260515_007_academy_summer_class_blog/03-checklist-academy.svg"
-        },
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/7",
-          "path": "https://beemo.tistory.com/7"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/blog_validation_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260515.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/draft_academy_summer_class_messages_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/academy_summer_class_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/01-thumbnail-academy-summer-class.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/02-sms-example-academy.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_007_academy_summer_class_blog/assets/03-checklist-academy.svg",
+        "https://beemo.tistory.com/7"
       ]
     },
     {
@@ -1851,36 +1795,12 @@
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260515.md",
-        {
-          "name": "종합소득세 신고 전, 쇼핑몰·배달 매출자료 정리 순서",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_008_store_tax_sales_blog/draft_store_tax_sales_docs_20260516_revised.md"
-        },
-        {
-          "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/store_tax_sales_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/store_tax_sales_tistory_preview.html"
-        },
-        {
-          "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/01-thumbnail-store-tax-sales.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/01-thumbnail-store-tax-sales.svg"
-        },
-        {
-          "name": "자료 위치 카드",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/02-doc-location-card.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/02-doc-location-card.svg"
-        },
-        {
-          "name": "누락 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/03-missing-checklist.svg",
-          "viewer": "artifacts/opp_20260515_008_store_tax_sales_blog/03-missing-checklist.svg"
-        },
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/8",
-          "path": "https://beemo.tistory.com/8"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/draft_store_tax_sales_docs_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/store_tax_sales_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/01-thumbnail-store-tax-sales.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/02-doc-location-card.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_008_store_tax_sales_blog/assets/03-missing-checklist.svg",
+        "https://beemo.tistory.com/8"
       ]
     },
     {
@@ -2067,36 +1987,12 @@
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260515.md",
-        {
-          "name": "펜션 예약취소 안내문 수정 Markdown",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260515_009_pension_cancel_refund_blog/draft_pension_cancel_refund_messages_20260516_revised.md"
-        },
-        {
-          "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/pension_cancel_refund_tistory_preview.html",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/pension_cancel_refund_tistory_preview.html"
-        },
-        {
-          "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/01-thumbnail-pension-cancel-refund.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/01-thumbnail-pension-cancel-refund.svg"
-        },
-        {
-          "name": "취소규정 문자 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/02-sms-example-pension.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/02-sms-example-pension.svg"
-        },
-        {
-          "name": "취소·환불 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/03-checklist-pension-refund.svg",
-          "viewer": "artifacts/opp_20260515_009_pension_cancel_refund_blog/03-checklist-pension-refund.svg"
-        },
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/9",
-          "path": "https://beemo.tistory.com/9"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/draft_pension_cancel_refund_messages_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/pension_cancel_refund_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/01-thumbnail-pension-cancel-refund.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/02-sms-example-pension.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260515_009_pension_cancel_refund_blog/assets/03-checklist-pension-refund.svg",
+        "https://beemo.tistory.com/9"
       ]
     },
     {
@@ -2261,35 +2157,12 @@
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/blog_validation_brief.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516.md",
-        {
-          "name": "헬스장 휴무·정지 안내문 수정 Markdown",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516_revised.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260516_010_gym_vacation_freeze_blog/draft_gym_vacation_freeze_messages_20260516_revised.md"
-        },
-        {
-          "name": "Tistory 미리보기 HTML",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/gym_vacation_freeze_tistory_preview.html",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/gym_vacation_freeze_tistory_preview.html"
-        },
-        {
-          "name": "썸네일 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/01-thumbnail-gym-vacation.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/01-thumbnail-gym-vacation.svg"
-        },
-        {
-          "name": "문자/카톡 예시 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/02-sms-example-gym.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/02-sms-example-gym.svg"
-        },
-        {
-          "name": "휴무 공지 체크리스트 이미지",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg",
-          "viewer": "artifacts/opp_20260516_010_gym_vacation_freeze_blog/03-checklist-gym-freeze.svg"
-        },
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/6"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/draft_gym_vacation_freeze_messages_20260516_revised.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/gym_vacation_freeze_tistory_preview.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/01-thumbnail-gym-vacation.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/02-sms-example-gym.svg",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_010_gym_vacation_freeze_blog/assets/03-checklist-gym-freeze.svg",
+        "https://beemo.tistory.com/6"
       ]
     },
     {
@@ -2452,10 +2325,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/01-thumbnail-studycafe-exam.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/02-sms-seat-noise-studycafe.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_011_studycafe_exam_rules_blog/assets/03-checklist-studycafe-exam.svg",
-        {
-          "name": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/10"
-        }
+        "https://beemo.tistory.com/10"
       ]
     },
     {
@@ -3387,11 +3257,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/01-thumbnail-cafe-summer-menu.png",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/02-menu-notice-cafe-summer.png",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_016_cafe_summer_menu_blog/assets/03-checklist-cafe-summer.png",
-        {
-          "url": "https://beemo.tistory.com/16",
-          "title": "Tistory 공개 글",
-          "type": "public_post"
-        },
+        "https://beemo.tistory.com/16",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_cafe_tistory_20260516_1906.py",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/update_cafe_post16_images_20260516_1909.py"
       ]
@@ -3781,12 +3647,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_018_childcare_vacation_survey_blog/assets/03-checklist-childcare-vacation.png",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/process_childcare_20260516_1827.py",
-        {
-          "name": "https://beemo.tistory.com/18",
-          "title": "공개 글",
-          "path": "https://beemo.tistory.com/18",
-          "viewer": "https://beemo.tistory.com/18"
-        },
+        "https://beemo.tistory.com/18",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/direct_publish_childcare_tistory_20260516_1941.py"
       ]
     },
@@ -3935,12 +3796,7 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.svg",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260516_019_oneday_class_booking_blog/assets/03-checklist-oneday-class-booking.png",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/process_oneday_20260516_1849.py",
-        {
-          "name": "https://beemo.tistory.com/15",
-          "title": "공개 글",
-          "path": "https://beemo.tistory.com/15",
-          "viewer": "https://beemo.tistory.com/15"
-        }
+        "https://beemo.tistory.com/15"
       ]
     },
     {
@@ -7086,6 +6942,162 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_041_diverse_scout_no_go/roi.md"
+      ]
+    },
+    {
+      "key": "MF-42",
+      "id": "opp_20260518_042_cash_bounty_scout_no_go",
+      "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
+      "type": "바운티",
+      "status": "종료/폐기",
+      "raw_status": "research_rejected",
+      "column": "종료/폐기",
+      "priority": "낮음",
+      "quality": 20,
+      "expected_base_net": 0,
+      "margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "GitHub/Algora/Opire/IssueHunt/Ubiquity bounty issuers",
+      "channel": "GitHub issue + fork PR + bounty/platform payout",
+      "current_owner": "시장성 검토",
+      "next_action": "다음 scout는 공식 cash/platform 지급, 동일 목적 open PR 0건, prompt/secret 공개 요구 없음, 2~4시간 내 테스트 가능한 후보만 GO 검토.",
+      "risk_flags": [
+        "duplicate_open_prs",
+        "crowded_attempts",
+        "crypto_or_btc_payment",
+        "preconversation_instruction_disclosure_request",
+        "external_marketing_required",
+        "stale_or_low_activity_repo"
+      ],
+      "stop_reason": "중복",
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/speakers-in-tech/conference-data/issues/4",
+          "grade": "A",
+          "summary": "Algora bounty label, issue open. NO-GO: open PRs #291/#296/#301/#303/#305 등 ScalaDays 중복 제출이 다수라 새 PR 승인·지급 odds 낮음.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/flydelabs/flyde/issues/112",
+          "grade": "A",
+          "summary": "Algora bounty label, issue open, PR endpoint 정상. NO-GO: 같은 파일 이동/import 수정 PR #256/#259/#260/#261/#263/#265/#266이 이미 열려 있어 경쟁 과밀.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/prompt-benchmarks/issues/45",
+          "grade": "A",
+          "summary": "Algora bounty label, issue open. NO-GO: 자동 생성 docs를 prompt에 넣는 동일 목적 PR #58~#69가 다수 열려 있어 늦은 중복.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+          "grade": "A",
+          "summary": "Opire $100 bounty, issue open. NO-GO: /opire try/attempt 및 동일 hook PR #1481/#1597/#1600/#1602/#1604/#1606 등 다수. 승인 odds 낮음.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/sindresorhus/awesome-lint/issues/37",
+          "grade": "A",
+          "summary": "IssueHunt $60 funded, issue open. NO-GO: PR #225가 이미 열려 있고 #228/#234 등 유사 closed PR 및 댓글 경쟁 존재.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/business-development/issues/90",
+          "grade": "A",
+          "summary": "Ubiquity Price 200 USD issue, open. NO-GO: 마케팅/아웃리치 성격이라 GitHub 댓글 게시 등 L3 외부활동 필요, 최근 PR #208~#212 등 선행 제출 다수.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/ClankerNation/OpenAgents/issues/29",
+          "grade": "A",
+          "summary": "$8.1k label issue, open. NO-GO: BTC payment claim 댓글, crypto/wallet 성격, 이슈가 pre-conversation instructions 전문을 파일에 붙이라는 위험 요구를 포함. 사용자 정책상 wallet/비밀지시 노출 불가.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/ClankerNation/OpenAgents/issues/41",
+          "grade": "A",
+          "summary": "$7.4k label issue, open. NO-GO: BTC claim/payment 정황, pre-task instructions 전문 공개 요구, repo 전반 고액 crypto-eligible 이슈 다수로 지급/평판 리스크 큼.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/egoist/bili/issues/184",
+          "grade": "A",
+          "summary": "IssueHunt $60 funded, issue open. NO-GO: PR #636이 동일 Rollup FATAL watch fix로 이미 열려 있고 repo 활동이 낮아 늦은 중복 위험 큼.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        },
+        {
+          "url": "https://github.com/gajus/flow-runtime/issues/180",
+          "grade": "A",
+          "summary": "IssueHunt $40 funded, issue open. NO-GO: PR #292/#296 등 같은 undefined type parameter fix가 이미 제출됨.",
+          "checked_at": "2026-05-18T09:47:42+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "research_member",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 10건 검색, open 상태·PR 가능성·경쟁 PR·payout rail·위험요구 확인."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "DUPLICATE",
+          "summary": "10건 모두 기존 PR/claim 과밀, L3 아웃리치 필요, crypto/BTC·비밀지시 공개 요구 등으로 승인·지급 가능성 부족."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "planning_member",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "preflight/plan 승격 후보 없음. 코딩·/attempt·/opire try·claim·PR 제출하지 않음."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "LOW_QUALITY",
+          "summary": "중복 PR에 같은 구현을 추가하면 maintainer 관점 품질/차별성 기준 미달."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "execution_member",
+          "decision": "NO-GO",
+          "reason_code": "NO_APPROVAL",
+          "summary": "Scout-only cron: 외부 댓글, claim, PR, 계정/지갑/결제 행동 없음."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "execution_lead",
+          "decision": "NO-GO",
+          "reason_code": "NO_APPROVAL",
+          "summary": "제출 대상 없음. L3/L4 경계 준수."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "실패 모드: 기존 중복 PR 선점, 비공식/crypto 지급, pre-prompt 공개 요구, 마케팅 외부활동, repo 활동 저하."
+        },
+        {
+          "time": "2026-05-18T09:47:42+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "위험조정 기대 순수익 0원. 70% 순마진 cash/platform 후보 없음."
+        }
+      ],
+      "asset_count": 4,
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-18_0945_money-flow/research.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_042_cash_bounty_scout_no_go/roi.md"
       ]
     }
   ]
