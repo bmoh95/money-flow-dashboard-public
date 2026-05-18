@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T19:14:39+09:00",
+  "updated_at": "2026-05-18T20:20:37+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1907_money-flow",
-    "started_at": "2026-05-18T19:14:39+09:00",
-    "finished_at": "2026-05-18T19:14:39+09:00",
+    "run_id": "2026-05-18_2016_money-flow",
+    "started_at": "2026-05-18T20:20:37+09:00",
+    "finished_at": "2026-05-18T20:20:37+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,10 +20,10 @@
     "opportunities_advanced": 0,
     "opportunities_rejected": 6,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_058_cash_bounty_scout_no_go/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_058_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_058_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_058_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
@@ -35,16 +35,16 @@
       }
     ],
     "summary": "Cash/platform bounty scout checked 6 candidates; no GO. Existing PR monitor unchanged. No coding/claim/comment/PR submission.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 6건 preflight 완료.\n- GO 0건, 전원 NO-GO 기록. 코딩·claim·댓글·PR 제출 없음.\n- 기존 PR #1576 모니터 확인: 상태 변화 없음.\n- 새 기록: `opp_20260518_058_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: watney, claude-builders 2건.\n- 보안/정책 차단: UnsafeLabs #310은 system prompt/generation_context 공개 요구.\n- 지급/검증 리스크: labmain custom USD1, n8n 실서비스 검증 부담.\n- 범위 과대: kyo gRPC $500은 장기 대형 구현.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 6건 preflight 완료.\n- GO 0건, 전원 NO-GO 기록. 코딩·claim·댓글·PR 제출 없음.\n- 기존 PR #1576 모니터 확인: 상태 변화 없음.\n- 새 기록: `opp_20260518_059_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: Algora #238, claude-builders #1/#2.\n- 현금 지급 근거 없음/타인 배정: RatLoopz #196, vLLM-Omni #2645.\n- 토큰·계정 부담: RustChain #443은 RTC/Discord 흐름.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
   },
   "metrics": {
-    "total": 58,
+    "total": 59,
     "active": 3,
     "approval_needed": 1,
     "launched": 27,
     "closed_won": 0,
     "closed_lost": 1,
-    "rejected": 28
+    "rejected": 29
   },
   "active_opportunities": [
     {
@@ -1928,7 +1928,7 @@
     "HIGH_RISK": 7,
     "OPPORTUNITY_COST": 14,
     "PAYMENT_UNCLEAR": 2,
-    "DUPLICATE": 6,
+    "DUPLICATE": 7,
     "HIGH_USER_INPUT": 2,
     "AUTH_BLOCKED": 1
   },
@@ -1938,50 +1938,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T17:49:45+09:00",
-      "run_id": "2026-05-18_1749_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "이미지 생성·HTML 렌더링·Tistory category/visual QA 전이므로 redteam_hold.",
-      "links": []
-    },
-    {
-      "time": "2026-05-18T17:49:45+09:00",
-      "run_id": "2026-05-18_1749_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason_code": "REDTEAM_REJECTED",
-      "summary": "세무/가산세 해석 단정 위험. 공개 전 공식 문구 재검수 필요.",
-      "links": []
-    },
-    {
-      "time": "2026-05-18T17:49:45+09:00",
-      "run_id": "2026-05-18_1749_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason_code": null,
-      "summary": "직접 매출 0원이나 클러스터 유입/재사용 가치 있음. 게시 후 추적 필요.",
-      "links": []
-    },
-    {
-      "time": "2026-05-18T17:49:45+09:00",
-      "run_id": "2026-05-18_1749_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "사업자등록 정정·업종추가 체크 글 탈락: 통신판매업 신고/온라인 판매 시작 글과 독자 상황이 많이 겹침. 같은 온라인 판매자 등록 흐름 반복 위험.",
-      "links": []
-    },
     {
       "time": "2026-05-18T17:49:45+09:00",
       "run_id": "2026-05-18_1749_money-flow",
@@ -2333,6 +2289,86 @@
         "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
         "https://github.com/getkyo/kyo/issues/390",
         "https://github.com/labmain/ai-agent-pay-demo/issues/4"
+      ],
+      "agent": "roi",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "위험조정 기준 기대 순가치 0원."
+    },
+    {
+      "time": "2026-05-18T20:20:37+09:00",
+      "run_id": "2026-05-18_2016_money-flow",
+      "opportunity_id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/algora-io/algora/issues/238",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/RatLoopz/sahidawa-india/issues/196",
+        "https://github.com/vllm-project/vllm-omni/issues/2645",
+        "https://github.com/Scottcjn/rustchain-bounties/issues/443"
+      ],
+      "agent": "research_member",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "6개 bounty/direct-payout 후보 수집 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-18T20:20:37+09:00",
+      "run_id": "2026-05-18_2016_money-flow",
+      "opportunity_id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/algora-io/algora/issues/238",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/RatLoopz/sahidawa-india/issues/196",
+        "https://github.com/vllm-project/vllm-omni/issues/2645",
+        "https://github.com/Scottcjn/rustchain-bounties/issues/443"
+      ],
+      "agent": "research_lead",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "자동 구현/PR 후보 없음: 중복·지급·자격·토큰/외부 검증 리스크."
+    },
+    {
+      "time": "2026-05-18T20:20:37+09:00",
+      "run_id": "2026-05-18_2016_money-flow",
+      "opportunity_id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/algora-io/algora/issues/238",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/RatLoopz/sahidawa-india/issues/196",
+        "https://github.com/vllm-project/vllm-omni/issues/2645",
+        "https://github.com/Scottcjn/rustchain-bounties/issues/443"
+      ],
+      "agent": "redteam",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "중복 PR, 지급 불명확, 타인 배정, 토큰/계정/검증 부담으로 실행 차단."
+    },
+    {
+      "time": "2026-05-18T20:20:37+09:00",
+      "run_id": "2026-05-18_2016_money-flow",
+      "opportunity_id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/algora-io/algora/issues/238",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/RatLoopz/sahidawa-india/issues/196",
+        "https://github.com/vllm-project/vllm-omni/issues/2645",
+        "https://github.com/Scottcjn/rustchain-bounties/issues/443"
       ],
       "agent": "roi",
       "event": "decision",
@@ -15216,6 +15252,161 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_058_cash_bounty_scout_no_go/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_058_cash_bounty_scout_no_go/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-59",
+      "opportunity_id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "id": "opp_20260518_059_cash_bounty_scout_no_go",
+      "title": "현금성 GitHub bounty scout 6건 전원 GO 없음",
+      "status": "종료/폐기",
+      "status_label": "종료/폐기",
+      "raw_status": "research_rejected",
+      "column": "종료/폐기",
+      "type": "바운티",
+      "priority": "보통",
+      "tags": [
+        "바운티",
+        "중복/선점"
+      ],
+      "quality": 35,
+      "expected_base_net": 0,
+      "base_net_margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "GitHub/Algora/Opire/GSSOC/RustChain issue owners",
+      "channel": "GitHub issue + fork PR + bounty/platform/manual payout",
+      "current_owner": "research_lead",
+      "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
+      "risk_flags": [
+        "중복/선점",
+        "근거 부족",
+        "지급 불명확",
+        "사용자 부담 큼",
+        "리스크 탈락",
+        "기회비용 낮음"
+      ],
+      "stop_reason": "중복/선점",
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/algora-io/algora/issues/238",
+          "grade": "A",
+          "summary": "Issue open, assignee 없음. PR route exists. Open PRs #267 and #266 already directly address #238, plus active bounties-page PRs #268/#269. / Algora-related repo issue; title/body does not show a visible bounty amount or reward bot on the issue itself.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+          "grade": "A",
+          "summary": "Issue open, assignee 없음. Open PR list has #1628/#1627/#1625 and many earlier submissions for same changelog generator. / Opire-powered $50; /opire try + PR; payment on merge per issue body.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+          "grade": "A",
+          "summary": "Issue open, assignee 없음. Open PR #1626 already targets #2; repo has very high submission velocity and comments/PR crowding. / Opire-powered $75; /opire try + PR; payment on merge per issue body.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        },
+        {
+          "url": "https://github.com/RatLoopz/sahidawa-india/issues/196",
+          "grade": "A",
+          "summary": "Issue open but assigned to shreyamahesh07-git. Labels gssoc-2026. No bounty bot/payment rail; PR route exists but assignment blocks autonomous bounty PR. / No cash/platform bounty visible; appears GSSOC contribution issue.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        },
+        {
+          "url": "https://github.com/vllm-project/vllm-omni/issues/2645",
+          "grade": "A",
+          "summary": "Issue open but many assignees and claimers/PRs in body table. Requires hardware/model recipe validation and likely significant manual GPU context. / No cash bounty visible; help wanted/good first issue only.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        },
+        {
+          "url": "https://github.com/Scottcjn/rustchain-bounties/issues/443",
+          "grade": "A",
+          "summary": "Issue open. Requires Discord membership and potentially wallet/token ecosystem; not safe autonomous cash bounty. Existing repo has heavy bounty PR/comment automation volume. / 5 RTC token reward plus optional social bonus; not cash/platform USD payout.",
+          "checked_at": "2026-05-18T20:20:37+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T20:20:37+09:00",
+          "agent": "research_member",
+          "decision": "HOLD",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 6건 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-18T20:20:37+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "DUPLICATE",
+          "summary": "자동 PR 후보 없음: 중복/선점, 지급 불명확, 타인 배정, token/account 또는 외부 검증 부담."
+        },
+        {
+          "time": "2026-05-18T20:20:37+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "품질/승인 odds 80점 이상 후보 없음."
+        },
+        {
+          "time": "2026-05-18T20:20:37+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "중복·지급·자격·사용자 부담 리스크가 자동 제출을 차단."
+        },
+        {
+          "time": "2026-05-18T20:20:37+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "위험조정 기대 순수익 0원."
+        }
+      ],
+      "asset_count": 4,
+      "asset_links": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "assets": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_059_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_059_cash_bounty_scout_no_go/roi.md"
         }
       ]
     }
