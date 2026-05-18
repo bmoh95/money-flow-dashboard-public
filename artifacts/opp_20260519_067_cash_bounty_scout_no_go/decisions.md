@@ -1,0 +1,8 @@
+- Research Lead: watney-ai/open-source-bounties#1 → NO-GO / DUPLICATE — 지급 경로는 비교적 명확하지만 경쟁 PR 과밀로 승인/지급 가능성 낮음.
+- Research Lead: gbabaisaac/mergefund-hackathon-kit#1 → NO-GO / DUPLICATE — 중복·경쟁 PR 과밀 + payout amount/rail 불명확.
+- Research Lead: algora-io/algora#238 → NO-GO / PAYMENT_UNCLEAR — cash/platform bounty로 확인되지 않으며 로그인 재현 부담이 있음.
+- Research Lead: costajohnt/bounty-hunter#14 → NO-GO / DUPLICATE — 이미 직접 해결 PR 다수. 추가 PR은 승인 확률 낮음.
+- Research Lead: tianmind-studio/expert-review-panel#4 → NO-GO / NO_EVIDENCE — paid task 증거 부족 + 중복 PR 존재.
+- Research Lead: trpc/trpc#4734 → NO-GO / PAYMENT_UNCLEAR — 현금성 bounty가 아닌 accepted PR 후보에 가까워 이 scout의 자동 PR 기준 미달.
+- Research Lead: archestra-ai/archestra#4225 → NO-GO / HIGH_RISK — 타인 배정 + 보안 민감 범위 + 중복 이력.
+- Red Team: GO 후보 없음. 자동 PR/claim/comment 없음.
