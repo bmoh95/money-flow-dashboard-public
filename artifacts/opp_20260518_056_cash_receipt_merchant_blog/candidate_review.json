@@ -1,0 +1,85 @@
+{
+  "run_id": "2026-05-18_1749_money-flow",
+  "checked_at": "2026-05-18T17:49:45+09:00",
+  "candidates": [
+    {
+      "name": "현금영수증 가맹점 가입 대상·기한·가산세 무료 검증 글",
+      "category": "Korean blog/free validation",
+      "decision": "GO",
+      "reason": "국세청 공식근거(A)와 검색 comparable 10건(B)이 있고, 이미 만든 전자세금계산서/통신판매업/사업용계좌 글과 중복되지 않는 현금영수증 실무 pain."
+    },
+    {
+      "name": "사업자등록 정정·업종추가 체크 글",
+      "category": "Korean blog/free validation",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "reason": "통신판매업 신고/온라인 판매 시작 글과 독자 상황이 많이 겹침. 같은 온라인 판매자 등록 흐름 반복 위험."
+    },
+    {
+      "name": "Algora/GitHub bounty 신규 scout",
+      "category": "bounty/direct payout",
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "reason": "이번 검색은 플랫폼 메인/중개 페이지 수준만 확인. 최근 열린 이슈의 할당·중복 PR·payout route가 명확한 새 후보 특정 실패."
+    },
+    {
+      "name": "소상공인 정책자금 대리대출 서류 체크 글",
+      "category": "support/admin blog",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "reason": "대출·정책자금은 조건 변동과 금융성 오해 리스크가 높고 2026 검색 결과에 저품질 SEO가 많아 공식 공고 확인 부담이 큼."
+    }
+  ],
+  "sample_posts": [
+    {
+      "title": "현금영수증 가맹점 가입 대상자 및 가입 방법 (feat. 미가입 가산세)",
+      "url": "https://m.blog.naver.com/pgrtax/222548207963",
+      "pattern": "세무사 블로그형. 대상→방법→가산세 순서, 문단 짧음."
+    },
+    {
+      "title": "홈택스 현금영수증 가맹점 가입방법 (2026최신)",
+      "url": "https://taxguide.im/blog/hometax-cash-receipt-merchant-registration",
+      "pattern": "서비스 가이드형. 단계별 화면 설명, CTA는 중간 강함."
+    },
+    {
+      "title": "국세청 가맹점가입 안내",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2470&cntntsId=7795",
+      "pattern": "공식 문서형. 가입대상·가입기한·미가입 불이익 근거."
+    },
+    {
+      "title": "현금영수증가맹점 가입과 세금감면 관계",
+      "url": "https://benetax.tistory.com/79",
+      "pattern": "실무 해설형. 단정적 문장 많아 주의."
+    },
+    {
+      "title": "현금영수증 가맹점 가입방법과 미가입 가산세는?",
+      "url": "https://hyper-world.co.kr/",
+      "pattern": "검색형 요약. 제목은 강하지만 구체 예시는 약함."
+    },
+    {
+      "title": "현금영수증 가맹점 가입 방법: 대상 사업자, 가입기한, 신청방법",
+      "url": "https://bolta.io/insight/cash-receipt-merchant-registration-howto",
+      "pattern": "B2B 인사이트형. 표/리스트 중심."
+    },
+    {
+      "title": "현금영수증 가맹점 가입 대상자, 기한, 가산세",
+      "url": "http://www.semuwang.com/",
+      "pattern": "세무사 설명형. 법적 근거는 있으나 독자 상황별 판단 부족."
+    },
+    {
+      "title": "현금영수증 가맹점 가입 방법 완벽 정리",
+      "url": "https://www.chungoose.kr/blog/",
+      "pattern": "완벽정리 SEO형. 본문 길고 반복 가능성 있음."
+    },
+    {
+      "title": "영세매출만 있는 사업장도 현금영수증 미가맹 가산세를 내야 하나",
+      "url": "https://ai.bznav.com/contents/2387101",
+      "pattern": "질문형 콘텐츠. 예외·상황 판단에 힌트."
+    },
+    {
+      "title": "현금영수증 가맹점 가입 방법 및 미가입 가산세",
+      "url": "https://aff.hyunpost.com/",
+      "pattern": "일반 정보형. 차별성 낮음."
+    }
+  ]
+}

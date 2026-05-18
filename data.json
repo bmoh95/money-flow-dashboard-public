@@ -1,42 +1,60 @@
 {
-  "updated_at": "2026-05-18T17:48:30+09:00",
+  "updated_at": "2026-05-18T17:49:45+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1746_money-flow",
-    "started_at": "2026-05-18T17:48:30+09:00",
-    "finished_at": "2026-05-18T17:48:30+09:00",
+    "run_id": "2026-05-18_1749_money-flow",
+    "started_at": "2026-05-18T17:49:45+09:00",
+    "finished_at": "2026-05-18T17:49:45+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
+      "research_lead",
+      "planning_member",
+      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 0,
-    "assets_created": [],
+    "candidates_discovered": 4,
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 3,
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
+    ],
     "approval_needed": [],
     "decisions": [
       {
+        "agent": "research_lead",
+        "decision": "GO",
+        "summary": "현금영수증 가맹점 가입 무료 검증 글 GO"
+      },
+      {
         "agent": "redteam",
-        "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
         "decision": "HOLD",
-        "reason_code": "HIGH_RISK",
-        "summary": "Tistory Profile 2 직접 API 재시도 결과, 이미지 업로드는 성공했으나 하루 공개 발행 15개 제한 403이 계속됨. 로그인 실패가 아니라 플랫폼 quota 대기."
+        "reason_code": "REDTEAM_REJECTED",
+        "summary": "공개 전 이미지/세무문구/Tistory QA 필요"
       }
     ],
-    "summary": "Backlog quota recheck completed. No material state change; public publish still blocked by Tistory daily quota.",
-    "final_report": "[SILENT]"
+    "summary": "Scout reviewed 4 candidates, created one new free-validation blog opportunity and draft, left it in redteam_hold for backlog visual/CMS QA.",
+    "final_report": "주인님, Money Flow 신규 발굴 결과입니다."
   },
   "metrics": {
-    "total": 55,
-    "active": 2,
+    "total": 56,
+    "active": 3,
     "approval_needed": 1,
     "launched": 26,
     "closed_won": 0,
     "closed_lost": 1,
-    "rejected": 29
+    "rejected": 30
   },
   "active_opportunities": [
     {
@@ -406,6 +424,162 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_055_cash_bounty_preflight_hold/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_055_cash_bounty_preflight_hold/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-56",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "title": "현금영수증 가맹점 가입 대상·기한·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "리스크 보류"
+      ],
+      "quality": 82,
+      "expected_base_net": 28000,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "현금/계좌이체 결제가 있는 작은 매장·학원·공방·미용실·온라인 겸업 개인사업자",
+      "channel": "Tistory 무료 검증 글 → 세금·장부 카테고리 유입/내부링크 확장",
+      "current_owner": "redteam",
+      "next_action": "backlog job에서 SVG/PNG 이미지 3장 생성, 세무 단정 문구 재검수, Tistory 카테고리 `돈관리·구매체크 > 세금·장부` 지정 후 공개 QA.",
+      "risk_flags": [
+        "tax_advice_risk",
+        "free_validation_only",
+        "needs_image_generation",
+        "needs_tistory_visual_qa",
+        "category_tax_bookkeeping"
+      ],
+      "stop_reason": "리스크 보류",
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2470&cntntsId=7795",
+          "grade": "A",
+          "summary": "국세청 현금영수증 가맹점가입 공식 안내. 가입 대상·기한·미가입 불이익 근거.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D+%EA%B0%80%EB%A7%B9%EC%A0%90+%EA%B0%80%EC%9E%85+%EB%8C%80%EC%83%81+%EA%B8%B0%ED%95%9C+%EA%B0%80%EC%82%B0%EC%84%B8+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/서비스/블로그 comparable 10건 확인. 검색 수요와 반복 pain 존재.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "후보 4개 검토. 현금영수증 가맹점 가입 글이 공식 근거와 독자 pain, 기존 글과의 비중복성이 가장 좋음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 있음. 무료 글이며 세무 단정 회피 조건으로 진행."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "질문 3개 + 상황표 + 공식 확인 순서로 범위 축소."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 82점. 최근 반복 포맷을 피했고, 작은 사업자 사용성이 있음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "style brief, sample memo, blog draft, image plan, plan/evidence/roi 생성."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성·HTML 렌더링·Tistory category/visual QA 전이므로 redteam_hold."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무/가산세 해석 단정 위험. 공개 전 공식 문구 재검수 필요."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "직접 매출 0원이나 클러스터 유입/재사용 가치 있음. 게시 후 추적 필요."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
+      ],
+      "asset_links": [
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/style_brief.md"
+        },
+        {
+          "label": "sample_memo.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/sample_memo.md"
+        },
+        {
+          "label": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/blog_draft.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_review.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/plan.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
         }
       ]
     }
@@ -781,6 +955,162 @@
           "viewer": "viewer.html?file=artifacts/opp_20260518_055_cash_bounty_preflight_hold/roi.md"
         }
       ]
+    },
+    {
+      "key": "MF-56",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "title": "현금영수증 가맹점 가입 대상·기한·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "리스크 보류"
+      ],
+      "quality": 82,
+      "expected_base_net": 28000,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "현금/계좌이체 결제가 있는 작은 매장·학원·공방·미용실·온라인 겸업 개인사업자",
+      "channel": "Tistory 무료 검증 글 → 세금·장부 카테고리 유입/내부링크 확장",
+      "current_owner": "redteam",
+      "next_action": "backlog job에서 SVG/PNG 이미지 3장 생성, 세무 단정 문구 재검수, Tistory 카테고리 `돈관리·구매체크 > 세금·장부` 지정 후 공개 QA.",
+      "risk_flags": [
+        "tax_advice_risk",
+        "free_validation_only",
+        "needs_image_generation",
+        "needs_tistory_visual_qa",
+        "category_tax_bookkeeping"
+      ],
+      "stop_reason": "리스크 보류",
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2470&cntntsId=7795",
+          "grade": "A",
+          "summary": "국세청 현금영수증 가맹점가입 공식 안내. 가입 대상·기한·미가입 불이익 근거.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D+%EA%B0%80%EB%A7%B9%EC%A0%90+%EA%B0%80%EC%9E%85+%EB%8C%80%EC%83%81+%EA%B8%B0%ED%95%9C+%EA%B0%80%EC%82%B0%EC%84%B8+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/서비스/블로그 comparable 10건 확인. 검색 수요와 반복 pain 존재.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "후보 4개 검토. 현금영수증 가맹점 가입 글이 공식 근거와 독자 pain, 기존 글과의 비중복성이 가장 좋음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 있음. 무료 글이며 세무 단정 회피 조건으로 진행."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "질문 3개 + 상황표 + 공식 확인 순서로 범위 축소."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 82점. 최근 반복 포맷을 피했고, 작은 사업자 사용성이 있음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "style brief, sample memo, blog draft, image plan, plan/evidence/roi 생성."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성·HTML 렌더링·Tistory category/visual QA 전이므로 redteam_hold."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무/가산세 해석 단정 위험. 공개 전 공식 문구 재검수 필요."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "직접 매출 0원이나 클러스터 유입/재사용 가치 있음. 게시 후 추적 필요."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
+      ],
+      "asset_links": [
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/style_brief.md"
+        },
+        {
+          "label": "sample_memo.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/sample_memo.md"
+        },
+        {
+          "label": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/blog_draft.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_review.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/plan.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
+        }
+      ]
     }
   ],
   "rejection_summary": {
@@ -788,214 +1118,17 @@
     "인증 필요": 1,
     "중복": 5,
     "플랫폼/리스크": 6,
-    "HIGH_USER_INPUT": 2,
+    "사용자 부담 높음": 2,
     "지급 불명확": 2,
-    "차별성 약함": 1
+    "차별성 약함": 1,
+    "리스크 보류": 1
   },
   "roi": {
-    "expected_base_net_total": 800361,
+    "expected_base_net_total": 828361,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T15:50:32+09:00",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260518_052_online_sales_registration_blog",
-      "event": "launched",
-      "decision": "GO",
-      "reason": null,
-      "summary": "Money Flow 무료 검증 글 Tistory 공개 및 검증 완료."
-    },
-    {
-      "time": "2026-05-18T15:50:32+09:00",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260518_052_online_sales_registration_blog",
-      "event": "status_changed",
-      "decision": "GO",
-      "reason": null,
-      "summary": "redteam_hold에서 tracking으로 전환."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "discovered",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 후보 4개 중 간이→일반과세 전환통지서 무료 검증 글 발견."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": null,
-      "summary": "4개 후보 검토. 간이→일반과세 전환통지서 후보가 공식 근거와 시즌성, 독자 pain이 가장 명확함."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": null,
-      "summary": "A/B 근거 확보. 구매자가 아니라 무료 검증 독자 명확. 유료 CTA 없이 세무 단정 회피 조건으로 진행."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": null,
-      "summary": "전환 안내를 받은 직후 5개 체크로 scope 축소. 이미지 3장 계획 포함."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": null,
-      "summary": "품질 84점. 정의 설명글보다 실무 체크 중심이라 차별성 충분. 반복 안내문 포맷 아님."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": null,
-      "summary": "style brief, sample memo, blog draft, image plan, evidence, ROI 파일 생성."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason": "근거 부족",
-      "summary": "게시 전 이미지 3장 생성, 렌더링, Tistory 카테고리/대표이미지 QA가 필요하므로 redteam_hold로 넘김."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason": "리스크 보류",
-      "summary": "세무 판단 단정·과세유형 예외 리스크. 공식 확인 문구는 넣었지만 공개 전 재검수 필요."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "roi",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason": null,
-      "summary": "무료 검증 자산으로 전략 가치는 있으나 직접 매출 0원. backlog 게시 후 유입 추적 필요."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason": "차별성 약함",
-      "summary": "노란우산공제 소득공제/해지 전 체크리스트 무료 글 탈락: 독자 수요는 있으나 가입 권유/금융성 판단으로 오해될 위험이 있고 이미 유사 설명글이 과밀하다. 이번 실행의 최고 후보보다 차별성이 약하다."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason": "HIGH_USER_INPUT",
-      "summary": "중고 노트북/태블릿 단기 리셀 후보 탈락: 실물 매입, 하자검수, 택배/환불/사기 리스크가 필요해 자동화·저관여 기준에 맞지 않는다."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason": "지급 불명확",
-      "summary": "신규 GitHub/Algora micro-bounty scout 탈락: 이번 실행에서는 할당 규칙, 중복 PR, 지급 레일이 명확한 새 이슈를 특정하지 못했다. 낮은 금액 자체가 아니라 지급 확실성 부족으로 탈락."
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: style_brief.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: blog_draft.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: image_plan.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: candidate_review.json"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: plan.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: evidence.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: decisions.md"
-    },
-    {
-      "time": "2026-05-18T16:43:48+09:00",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": null,
-      "summary": "신규 scout 로컬 자산 생성: roi.md"
-    },
     {
       "time": "2026-05-18T16:51:55+09:00",
       "agent": "research_member",
@@ -1067,6 +1200,204 @@
       "decision": "HOLD",
       "reason": "플랫폼/리스크",
       "summary": "Tistory 일일 공개 발행 한도 15개로 403 차단. 로그인 실패 아님, 이미지 업로드 성공."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "discovered",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 후보 4개 중 현금영수증 가맹점 가입 무료 검증 글 발견."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "후보 4개 검토. 현금영수증 가맹점 가입 글이 공식 근거와 독자 pain, 기존 글과의 비중복성이 가장 좋음."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "A/B 근거 있음. 무료 글이며 세무 단정 회피 조건으로 진행."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "질문 3개 + 상황표 + 공식 확인 순서로 범위 축소."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "품질 82점. 최근 반복 포맷을 피했고, 작은 사업자 사용성이 있음."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "style brief, sample memo, blog draft, image plan, plan/evidence/roi 생성."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason": "근거 부족",
+      "summary": "이미지 생성·HTML 렌더링·Tistory category/visual QA 전이므로 redteam_hold."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason": "리스크 보류",
+      "summary": "세무/가산세 해석 단정 위험. 공개 전 공식 문구 재검수 필요."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "roi",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason": null,
+      "summary": "직접 매출 0원이나 클러스터 유입/재사용 가치 있음. 게시 후 추적 필요."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "중복",
+      "summary": "사업자등록 정정·업종추가 체크 글 탈락: 통신판매업 신고/온라인 판매 시작 글과 독자 상황이 많이 겹침. 같은 온라인 판매자 등록 흐름 반복 위험."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "지급 불명확",
+      "summary": "Algora/GitHub bounty 신규 scout 탈락: 이번 검색은 플랫폼 메인/중개 페이지 수준만 확인. 최근 열린 이슈의 할당·중복 PR·payout route가 명확한 새 후보 특정 실패."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "플랫폼/리스크",
+      "summary": "소상공인 정책자금 대리대출 서류 체크 글 탈락: 대출·정책자금은 조건 변동과 금융성 오해 리스크가 높고 2026 검색 결과에 저품질 SEO가 많아 공식 공고 확인 부담이 큼."
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: style_brief.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: sample_memo.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: blog_draft.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: image_plan.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: candidate_review.json"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: plan.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: evidence.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: decisions.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "신규 scout 로컬 자산 생성: roi.md"
+    },
+    {
+      "time": "2026-05-18T17:49:45+09:00",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "event": "status_changed",
+      "decision": "HOLD",
+      "reason": "리스크 보류",
+      "summary": "초안 생성 완료, 이미지/CMS QA 전 redteam_hold로 이관."
     }
   ],
   "board_columns": [
@@ -9525,7 +9856,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "HIGH_USER_INPUT"
+        "사용자 부담 높음"
       ],
       "quality": 82,
       "expected_base_net": 1,
@@ -9543,7 +9874,7 @@
         "friend_mention_required",
         "github_sponsors_profile_required"
       ],
-      "stop_reason": "HIGH_USER_INPUT",
+      "stop_reason": "사용자 부담 높음",
       "evidence": [
         {
           "url": "https://github.com/OWASP-BLT/BLT/issues/6119",
@@ -9986,7 +10317,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "HIGH_USER_INPUT"
+        "사용자 부담 높음"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -10002,7 +10333,7 @@
         "friend_mention_required",
         "sponsors_profile_may_be_required"
       ],
-      "stop_reason": "HIGH_USER_INPUT",
+      "stop_reason": "사용자 부담 높음",
       "evidence": [
         {
           "url": "https://github.com/OWASP-BLT/BLT/issues/6119",
@@ -11567,6 +11898,162 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_055_cash_bounty_preflight_hold/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_055_cash_bounty_preflight_hold/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-56",
+      "opportunity_id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "id": "opp_20260518_056_cash_receipt_merchant_blog",
+      "title": "현금영수증 가맹점 가입 대상·기한·가산세 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "리스크 보류"
+      ],
+      "quality": 82,
+      "expected_base_net": 28000,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "현금/계좌이체 결제가 있는 작은 매장·학원·공방·미용실·온라인 겸업 개인사업자",
+      "channel": "Tistory 무료 검증 글 → 세금·장부 카테고리 유입/내부링크 확장",
+      "current_owner": "redteam",
+      "next_action": "backlog job에서 SVG/PNG 이미지 3장 생성, 세무 단정 문구 재검수, Tistory 카테고리 `돈관리·구매체크 > 세금·장부` 지정 후 공개 QA.",
+      "risk_flags": [
+        "tax_advice_risk",
+        "free_validation_only",
+        "needs_image_generation",
+        "needs_tistory_visual_qa",
+        "category_tax_bookkeeping"
+      ],
+      "stop_reason": "리스크 보류",
+      "evidence": [
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2470&cntntsId=7795",
+          "grade": "A",
+          "summary": "국세청 현금영수증 가맹점가입 공식 안내. 가입 대상·기한·미가입 불이익 근거.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%ED%98%84%EA%B8%88%EC%98%81%EC%88%98%EC%A6%9D+%EA%B0%80%EB%A7%B9%EC%A0%90+%EA%B0%80%EC%9E%85+%EB%8C%80%EC%83%81+%EA%B8%B0%ED%95%9C+%EA%B0%80%EC%82%B0%EC%84%B8+%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "세무사/서비스/블로그 comparable 10건 확인. 검색 수요와 반복 pain 존재.",
+          "checked_at": "2026-05-18T17:49:45+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "후보 4개 검토. 현금영수증 가맹점 가입 글이 공식 근거와 독자 pain, 기존 글과의 비중복성이 가장 좋음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 있음. 무료 글이며 세무 단정 회피 조건으로 진행."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "질문 3개 + 상황표 + 공식 확인 순서로 범위 축소."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 82점. 최근 반복 포맷을 피했고, 작은 사업자 사용성이 있음."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "style brief, sample memo, blog draft, image plan, plan/evidence/roi 생성."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "이미지 생성·HTML 렌더링·Tistory category/visual QA 전이므로 redteam_hold."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "세무/가산세 해석 단정 위험. 공개 전 공식 문구 재검수 필요."
+        },
+        {
+          "time": "2026-05-18T17:49:45+09:00",
+          "agent": "roi",
+          "decision": "HOLD",
+          "summary": "직접 매출 0원이나 클러스터 유입/재사용 가치 있음. 게시 후 추적 필요."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
+      ],
+      "asset_links": [
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/style_brief.md"
+        },
+        {
+          "label": "sample_memo.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/sample_memo.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/sample_memo.md"
+        },
+        {
+          "label": "blog_draft.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/blog_draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/blog_draft.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_review.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/assets/candidate_review.json",
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/plan.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_056_cash_receipt_merchant_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260518_056_cash_receipt_merchant_blog/roi.md"
         }
       ]
     }
