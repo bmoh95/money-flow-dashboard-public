@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T04:27:48+09:00",
+  "updated_at": "2026-05-19T05:33:35+09:00",
   "last_run": {
-    "run_id": "2026-05-19_0422_money-flow",
-    "started_at": "2026-05-19T04:27:48+09:00",
-    "finished_at": "2026-05-19T04:27:48+09:00",
+    "run_id": "2026-05-19_0529_money-flow",
+    "started_at": "2026-05-19T05:33:35+09:00",
+    "finished_at": "2026-05-19T05:33:35+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,14 +16,14 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 8,
+    "candidates_discovered": 12,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 8,
+    "opportunities_rejected": 12,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_069_cash_bounty_scout_no_go/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_069_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_069_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_069_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
@@ -31,20 +31,20 @@
         "agent": "research_lead",
         "decision": "NO-GO",
         "reason_code": "OPPORTUNITY_COST",
-        "summary": "8개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
+        "summary": "12개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
       }
     ],
-    "summary": "Cash/platform bounty scout checked 8 candidates; no GO.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 8건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_069_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 직접 경쟁 PR/attempt 과밀: ZIO #9844, Claude Builders #3, UnsafeLabs #763.\n- 지급/claim 불명확 또는 비현금성: Archestra #3511, Cal.com #10805, agent_dart #13.\n- 선행조건·범위 과대: BAWES #29.\n- 데모/요구사항 없음: y4aniv/sandbox #1.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "summary": "Cash/platform bounty scout checked 12 candidates; no GO.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 12건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_070_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 참여자격 차단: Ubiquity #47/#433/#90.\n- 중복 PR 과밀: Kleo #56, Auki #62, UnsafeLabs #852, codingo #2.\n- 지급 불명확/무지급: Ubiquity research #83, Polar #86/#87.\n- 무경쟁이나 테스트 부담 큼: GS13 #188.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
   },
   "metrics": {
-    "total": 69,
+    "total": 70,
     "active": 4,
     "approval_needed": 1,
     "launched": 28,
     "closed_won": 0,
     "closed_lost": 2,
-    "rejected": 37
+    "rejected": 38
   },
   "active_opportunities": [
     {
@@ -2074,7 +2074,7 @@
   "rejection_summary": {
     "WEAK_DIFFERENTIATION": 1,
     "HIGH_RISK": 8,
-    "OPPORTUNITY_COST": 16,
+    "OPPORTUNITY_COST": 17,
     "PAYMENT_UNCLEAR": 2,
     "DUPLICATE": 12,
     "HIGH_USER_INPUT": 2,
@@ -2087,76 +2087,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T02:13:53+09:00",
-      "run_id": "2026-05-19_0204_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260518_057_unsafe_ems_micro_bounty",
-      "event": "closed",
-      "from_status": "launched",
-      "to_status": "closed_lost",
-      "decision": "NO-GO",
-      "reason_code": "LOW_QUALITY",
-      "summary": "PR #1576 closed unmerged: changes did not fully resolve issue; bounty attempt closed_lost.",
-      "links": [
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1576"
-      ]
-    },
-    {
-      "time": "2026-05-19T03:19:51+09:00",
-      "run_id": "2026-05-19_0315_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_067_cash_bounty_scout_no_go",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
-      "decision": "HOLD",
-      "reason_code": null,
-      "summary": "cash/platform bounty/direct-payout 후보 7건 검색 및 preflight 확인.",
-      "links": [
-        "https://github.com/watney-ai/open-source-bounties/issues/1",
-        "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
-        "https://github.com/algora-io/algora/issues/238",
-        "https://github.com/costajohnt/bounty-hunter/issues/14",
-        "https://github.com/tianmind-studio/expert-review-panel/issues/4",
-        "https://github.com/trpc/trpc/issues/4734",
-        "https://github.com/archestra-ai/archestra/issues/4225"
-      ]
-    },
-    {
-      "time": "2026-05-19T03:19:51+09:00",
-      "run_id": "2026-05-19_0315_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260519_067_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "7개 후보 모두 자동 PR 기준 미달: 중복 PR, 지급 불명확, 참여자격/보안 리스크.",
-      "links": [
-        "https://github.com/watney-ai/open-source-bounties/issues/1",
-        "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
-        "https://github.com/algora-io/algora/issues/238",
-        "https://github.com/costajohnt/bounty-hunter/issues/14",
-        "https://github.com/tianmind-studio/expert-review-panel/issues/4",
-        "https://github.com/trpc/trpc/issues/4734",
-        "https://github.com/archestra-ai/archestra/issues/4225"
-      ]
-    },
-    {
-      "time": "2026-05-19T03:19:51+09:00",
-      "run_id": "2026-05-19_0315_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260519_067_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "REDTEAM_REJECTED",
-      "summary": "Duplicate or unclear/high-risk submissions would reduce approval odds.",
-      "links": []
-    },
     {
       "time": "2026-05-19T03:19:51+09:00",
       "run_id": "2026-05-19_0315_money-flow",
@@ -2546,6 +2476,110 @@
         "https://github.com/BAWES-Universe/studenthub-staff/issues/29",
         "https://github.com/AstroxNetwork/agent_dart/issues/13",
         "https://github.com/y4aniv/sandbox/issues/1"
+      ],
+      "agent": "roi",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "위험조정 기준 기대 순가치 0원."
+    },
+    {
+      "time": "2026-05-19T05:33:35+09:00",
+      "run_id": "2026-05-19_0529_money-flow",
+      "opportunity_id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/ubiquity/uusd.ubq.fi/issues/47",
+        "https://github.com/ubiquity/pay.ubq.fi/issues/433",
+        "https://github.com/ubiquity/ubiquibot/issues/701",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/ubiquity/research/issues/83",
+        "https://github.com/polarsource/examples/issues/86",
+        "https://github.com/polarsource/examples/issues/87",
+        "https://github.com/Kleo-Network/kleo-connect/issues/56",
+        "https://github.com/aukilabs/hagall/issues/62",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+        "https://github.com/codingo/dooked/issues/2",
+        "https://github.com/evilew/GS13-Outdated/issues/188"
+      ],
+      "agent": "research_member",
+      "event": "evidence_added",
+      "from_status": "discovered",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "12개 bounty/direct-payout 후보 수집 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T05:33:35+09:00",
+      "run_id": "2026-05-19_0529_money-flow",
+      "opportunity_id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/ubiquity/uusd.ubq.fi/issues/47",
+        "https://github.com/ubiquity/pay.ubq.fi/issues/433",
+        "https://github.com/ubiquity/ubiquibot/issues/701",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/ubiquity/research/issues/83",
+        "https://github.com/polarsource/examples/issues/86",
+        "https://github.com/polarsource/examples/issues/87",
+        "https://github.com/Kleo-Network/kleo-connect/issues/56",
+        "https://github.com/aukilabs/hagall/issues/62",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+        "https://github.com/codingo/dooked/issues/2",
+        "https://github.com/evilew/GS13-Outdated/issues/188"
+      ],
+      "agent": "research_lead",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "12건 모두 자격·중복·지급·연락·테스트 리스크로 자동 구현/PR 후보 없음."
+    },
+    {
+      "time": "2026-05-19T05:33:35+09:00",
+      "run_id": "2026-05-19_0529_money-flow",
+      "opportunity_id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/ubiquity/uusd.ubq.fi/issues/47",
+        "https://github.com/ubiquity/pay.ubq.fi/issues/433",
+        "https://github.com/ubiquity/ubiquibot/issues/701",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/ubiquity/research/issues/83",
+        "https://github.com/polarsource/examples/issues/86",
+        "https://github.com/polarsource/examples/issues/87",
+        "https://github.com/Kleo-Network/kleo-connect/issues/56",
+        "https://github.com/aukilabs/hagall/issues/62",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+        "https://github.com/codingo/dooked/issues/2",
+        "https://github.com/evilew/GS13-Outdated/issues/188"
+      ],
+      "agent": "redteam",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "중복 PR, 자격 차단, 지급 불명확, 외부 연락/테스트 burden이 실행 차단."
+    },
+    {
+      "time": "2026-05-19T05:33:35+09:00",
+      "run_id": "2026-05-19_0529_money-flow",
+      "opportunity_id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "links": [
+        "https://github.com/ubiquity/uusd.ubq.fi/issues/47",
+        "https://github.com/ubiquity/pay.ubq.fi/issues/433",
+        "https://github.com/ubiquity/ubiquibot/issues/701",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/ubiquity/research/issues/83",
+        "https://github.com/polarsource/examples/issues/86",
+        "https://github.com/polarsource/examples/issues/87",
+        "https://github.com/Kleo-Network/kleo-connect/issues/56",
+        "https://github.com/aukilabs/hagall/issues/62",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+        "https://github.com/codingo/dooked/issues/2",
+        "https://github.com/evilew/GS13-Outdated/issues/188"
       ],
       "agent": "roi",
       "event": "decision",
@@ -17556,6 +17590,198 @@
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_069_cash_bounty_scout_no_go/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260519_069_cash_bounty_scout_no_go/roi.md"
+        }
+      ]
+    },
+    {
+      "key": "MF-70",
+      "opportunity_id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "id": "opp_20260519_070_cash_bounty_scout_no_go",
+      "title": "현금성 GitHub bounty scout 12건 — GO 없음",
+      "status": "종료/폐기",
+      "status_label": "종료/폐기",
+      "raw_status": "research_rejected",
+      "column": "종료/폐기",
+      "type": "바운티",
+      "priority": "보통",
+      "tags": [
+        "바운티",
+        "기회비용 낮음"
+      ],
+      "quality": 43,
+      "expected_base_net": 0,
+      "base_net_margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "GitHub/Ubiquity/Polar/manual USD bounty issuers",
+      "channel": "GitHub issue + fork PR + bounty/manual payout",
+      "current_owner": "research_lead",
+      "next_action": "다음 scout에서 core/admin 제한 없는 platform-mediated bounty, 직접 경쟁 PR 0~1개, acceptance가 1~2파일로 좁은 후보만 자동 구현 검토.",
+      "risk_flags": [
+        "중복/선점",
+        "지급 불명확",
+        "사용자 부담 큼",
+        "고위험",
+        "근거 부족",
+        "리스크 탈락",
+        "기회비용 낮음"
+      ],
+      "stop_reason": "기회비용 낮음",
+      "approval_required": false,
+      "approval_reason": null,
+      "evidence": [
+        {
+          "url": "https://github.com/ubiquity/uusd.ubq.fi/issues/47",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Issue open, assignee 없음, repo accepts PRs. Recent UbiquityOS comments repeatedly say “You must be a core team member, or an administrator to start this task”. Open PR #48 and multiple closed attempts #51/#52/#55/#56. / Ubiquity labels show Price: 75 USD, Time <2 Hours.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/pay.ubq.fi/issues/433",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. UbiquityOS bot repeatedly blocks external /start with core/admin requirement. Many closed duplicate PRs #461/#463/#464/#466/#467/#468/#469. Requires production Supabase schema parity. / Ubiquity labels show Price: 37.5 USD, Time <1 Hour.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/ubiquibot/issues/701",
+          "grade": "A",
+          "summary": "NO-GO / NO_EVIDENCE — Issue open, no assignee. Requirements are vague and bot/app QA requires Ubiquibot QA app/local workflow context. Comments show maintainers discussing app-install/test setup, not a simple micro-fix. / Ubiquity labels show Price: 50 USD, Time <2 Hours.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/business-development/issues/90",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Issue open, no assignee. Bot comments block external start: must be core/admin. PR search shows many closed attempts #200/#204/#210/#214/#216; work is marketing/research rather than code. / Ubiquity labels show Price: 200 USD.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/research/issues/83",
+          "grade": "A",
+          "summary": "NO-GO / PAYMENT_UNCLEAR — Issue open, no comments, no visible USD/claim route despite search match. Research/review deliverable requires subjective maintainer acceptance. / No visible price label; only Priority label.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/polarsource/examples/issues/86",
+          "grade": "A",
+          "summary": "NO-GO / PAYMENT_UNCLEAR — Issue open but assigned to abhinav-m22; open PR #90 already submitted. Comments confirm contributor proceeds without bounty. / Maintainer explicitly says there is no bounty.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/polarsource/examples/issues/87",
+          "grade": "A",
+          "summary": "NO-GO / PAYMENT_UNCLEAR — Issue open but assigned to abhinav-m22; open PR #91 already submitted. Comments confirm no bounty. / Maintainer explicitly says there is no bounty.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/Kleo-Network/kleo-connect/issues/56",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, no assignee. PR search shows many open duplicate README PRs #79/#84/#85/#89/#95; latest comments include multiple submissions. / Issue body says Reward: 25 USD; payout route not platform-mediated and commenters mention PayPal/Stripe privately.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/aukilabs/hagall/issues/62",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Issue open, no assignee. Open PRs #63/#65/#66 and prior closed #64 directly target the issue; comments include several claims. Scope is Go/WebSocket/ROS2 integration with tests. / Issue title says Bounty |50 USD; payout appears manual/private.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/852",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_RISK — Issue open, no assignee. Labels include AI only allowed - no humans. Multiple closed PRs #962/#1148/#1237/#1404/#1670 and active attempts/comments. / Labels include $50 and bounty; comments include wallet/PayPal claim attempts.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/codingo/dooked/issues/2",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Issue open, no assignee. Open PRs #8/#10/#12/#13 already implement same feature; comment asks maintainer whether new submissions are still accepted. External Twitter contact would be customer/contact outreach. / Label says bounty on merge; comments mention $200/PayPal, but issue asks to contact maintainer on Twitter before taking it.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        },
+        {
+          "url": "https://github.com/evilew/GS13-Outdated/issues/188",
+          "grade": "A",
+          "summary": "NO-GO / OPPORTUNITY_COST — Issue open, no assignee, no competing PR found. However it is a BYOND/SS13 gameplay bug with random reproduction over seconds-minutes, requires domain-specific testing and explanation. PayPal details needed after acceptance. / Issue body says 50 USD via PayPal after tested/documented/explained fix.",
+          "checked_at": "2026-05-19T05:33:35+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T05:33:35+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "cash/platform bounty/direct-payout 후보 12건 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-19T05:33:35+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "12건 모두 자동 PR 기준 미달: 자격 차단, 중복 PR, 지급 불명확, 외부 연락, 테스트 부담."
+        },
+        {
+          "time": "2026-05-19T05:33:35+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "품질/승인 odds 80점 이상 후보 없음."
+        },
+        {
+          "time": "2026-05-19T05:33:35+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "중복 제출, 자격 차단, 지급 불명확, 연락/테스트 burden이 실행 차단."
+        },
+        {
+          "time": "2026-05-19T05:33:35+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "위험조정 기대 순수익 0원."
+        }
+      ],
+      "asset_count": 4,
+      "asset_links": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "assets": [
+        {
+          "label": "research.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/research.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/research.md"
+        },
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_070_cash_bounty_scout_no_go/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260519_070_cash_bounty_scout_no_go/roi.md"
         }
       ]
     }
