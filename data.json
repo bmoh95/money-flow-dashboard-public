@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-18T17:05:24+09:00",
+  "updated_at": "2026-05-18T17:48:30+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1703_money-flow",
-    "started_at": "2026-05-18T17:04:35+09:00",
-    "finished_at": "2026-05-18T17:05:24+09:00",
+    "run_id": "2026-05-18_1746_money-flow",
+    "started_at": "2026-05-18T17:48:30+09:00",
+    "finished_at": "2026-05-18T17:48:30+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -15,34 +15,19 @@
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
     "opportunities_rejected": 0,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/01-vat-switch-thumb.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/02-vat-switch-message.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/03-vat-switch-checklist.svg",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/01-vat-switch-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/02-vat-switch-message.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/03-vat-switch-checklist.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/blog_draft_softened.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/vat_switch_tistory_body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/vat_switch_preview.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260518_054_vat_simplified_to_general_blog/assets/tistory_publish_result_20260518_vat.json"
-    ],
+    "assets_created": [],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "execution_lead",
-        "decision": "GO",
-        "summary": "로컬 이미지/HTML QA 통과"
-      },
-      {
         "agent": "redteam",
+        "opportunity_id": "opp_20260518_054_vat_simplified_to_general_blog",
         "decision": "HOLD",
         "reason_code": "HIGH_RISK",
-        "summary": "Tistory daily public quota blocked publishing"
+        "summary": "Tistory Profile 2 직접 API 재시도 결과, 이미지 업로드는 성공했으나 하루 공개 발행 15개 제한 403이 계속됨. 로그인 실패가 아니라 플랫폼 quota 대기."
       }
     ],
-    "summary": "Backlog processor completed VAT-switch blog assets and QA; public Tistory publish blocked by daily public-post quota, not auth.",
-    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다."
+    "summary": "Backlog quota recheck completed. No material state change; public publish still blocked by Tistory daily quota.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
     "total": 55,
@@ -799,7 +784,7 @@
     }
   ],
   "rejection_summary": {
-    "OPPORTUNITY_COST": 14,
+    "기회비용": 14,
     "인증 필요": 1,
     "중복": 5,
     "플랫폼/리스크": 6,
@@ -5945,7 +5930,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 42,
       "expected_base_net": 0,
@@ -5962,7 +5947,7 @@
         "secret_or_payment_provider_testing_risk",
         "broad_acceptance_criteria"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
@@ -6080,7 +6065,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 44,
       "expected_base_net": 0,
@@ -6097,7 +6082,7 @@
         "external_instance_or_secret_testing_burden",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/quik-sms/quik/issues/422",
@@ -6226,7 +6211,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 43,
       "expected_base_net": 0,
@@ -6243,7 +6228,7 @@
         "broad_acceptance_criteria",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/ubiquity/ubiquity-dollar/issues/972",
@@ -6384,7 +6369,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 41,
       "expected_base_net": 0,
@@ -6401,7 +6386,7 @@
         "prompt_exposure_risk",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
@@ -6536,7 +6521,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 41,
       "expected_base_net": 0,
@@ -6553,7 +6538,7 @@
         "external_tool_or_hardware_validation",
         "low_reward_for_review_load"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/algora-io/algora/issues/238",
@@ -7165,7 +7150,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -7183,7 +7168,7 @@
         "outreach_spam_risk",
         "low_reward_ev"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/tscircuit/pcb-viewer/issues/163",
@@ -7495,7 +7480,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 30,
       "expected_base_net": 0,
@@ -7514,7 +7499,7 @@
         "large_scope_or_low_reward",
         "subjective_acceptance"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/pschanely/CrossHair/issues/115",
@@ -7671,7 +7656,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -7689,7 +7674,7 @@
         "low_reward_ev",
         "outreach_spam_risk"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/highlight/highlight/issues/8635",
@@ -7843,7 +7828,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 38,
       "expected_base_net": 0,
@@ -7861,7 +7846,7 @@
         "subjective_acceptance",
         "stale_or_uncertain_payout"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/devpool-directory/devpool-directory/issues/5030",
@@ -7991,7 +7976,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -8008,7 +7993,7 @@
         "unclear_assignment_or_external_coordination",
         "broad_or_subjective_scope"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
@@ -8144,7 +8129,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 30,
       "expected_base_net": 0,
@@ -8161,7 +8146,7 @@
         "oauth_or_external_api_demo_burden",
         "broad_or_subjective_scope"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/611",
@@ -8303,7 +8288,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 25,
       "expected_base_net": 0,
@@ -8321,7 +8306,7 @@
         "low_approval_odds",
         "broad_scope_small_payout"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
@@ -10331,7 +10316,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 38,
       "expected_base_net": 0,
@@ -10348,7 +10333,7 @@
         "broad_feature_scope",
         "approval_odds_low"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
@@ -10717,7 +10702,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "OPPORTUNITY_COST"
+        "기회비용"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -10735,7 +10720,7 @@
         "REDTEAM_REJECTED",
         "OPPORTUNITY_COST"
       ],
-      "stop_reason": "OPPORTUNITY_COST",
+      "stop_reason": "기회비용",
       "evidence": [
         {
           "url": "https://github.com/tscircuit/pcb-viewer/issues/163",
