@@ -1,0 +1,162 @@
+{
+  "run_id": "2026-05-18_1643_money-flow",
+  "checked_at": "2026-05-18T16:43:48+09:00",
+  "candidates": [
+    {
+      "name": "간이과세자 → 일반과세자 전환통지서 받았을 때 무료 검증 글",
+      "type": "blog_validation",
+      "decision": "GO",
+      "reason_code": null,
+      "evidence": [
+        "A: 국세청 부가가치세 기본정보 페이지 접근 확인 (부가가치세 개요)",
+        "B: 검색 결과에서 전환통지서/7월/부가세 관련 comparable 10건 확보"
+      ],
+      "why": "7월 전환 시즌 전 독자 pain이 명확하고, 기존 Money Flow의 반복 안내문/SMS 포맷이 아니라 세금·행정 확인 글이다. 공식 근거가 있고 무료 검증 글로 안전하다."
+    },
+    {
+      "name": "노란우산공제 소득공제/해지 전 체크리스트 무료 글",
+      "type": "blog_validation",
+      "decision": "NO-GO",
+      "reason_code": "WEAK_DIFFERENTIATION",
+      "evidence": [
+        "B: 검색 결과 8건. 세무·보험성 상담/가입 유도 글 다수"
+      ],
+      "why": "독자 수요는 있으나 가입 권유/금융성 판단으로 오해될 위험이 있고 이미 유사 설명글이 과밀하다. 이번 실행의 최고 후보보다 차별성이 약하다."
+    },
+    {
+      "name": "중고 노트북/태블릿 단기 리셀 후보",
+      "type": "resale",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "evidence": [
+        "B/C: 검색 결과 6건. 실거래·검수·가격협상 필요"
+      ],
+      "why": "실물 매입, 하자검수, 택배/환불/사기 리스크가 필요해 자동화·저관여 기준에 맞지 않는다."
+    },
+    {
+      "name": "신규 GitHub/Algora micro-bounty scout",
+      "type": "bounty",
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "evidence": [
+        "C: 일반 검색 결과 0건. 특정 현재 배정 가능 이슈/지급조건 확인 부족"
+      ],
+      "why": "이번 실행에서는 할당 규칙, 중복 PR, 지급 레일이 명확한 새 이슈를 특정하지 못했다. 낮은 금액 자체가 아니라 지급 확실성 부족으로 탈락."
+    }
+  ],
+  "chosen": "opp_20260518_054_vat_simplified_to_general_blog",
+  "official_checks": {
+    "nts_vat": {
+      "ok": true,
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7693&mi=2272",
+      "status": 200,
+      "title": "부가가치세 개요",
+      "len": 165576
+    }
+  },
+  "samples": {
+    "vat": [
+      {
+        "title": "(국세청 우편물) 간이과세자 전환통지서 안내 -장단점, 부가세 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fm.blog.naver.com%2Fh_boribori%2F223874436316&rut=fe00f500e9268d89fe6c81a98f047876f92dfe659ac9992ab7291dc486205873"
+      },
+      {
+        "title": "7월, 간이과세자에서 일반과세자로 전환 통지서를 받았다면? 꼭 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fserini89.com%2Fentry%2F7%25EC%259B%2594%2D%25EA%25B0%2584%25EC%259D%25B4%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%25EC%2597%2590%25EC%2584%259C%2D%25EC%259D%25BC%25EB%25B0%2598%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%25EB%25A1%259C%2D%25EC%25A0%2584%25ED%2599%2598%2D%25ED%2586%25B5%25EC%25A7%2580%25EC%2584%259C%25EB%25A5%25BC%2D%25EB%25B0%259B%25EC%2595%2598%25EB%258B%25A4%25EB%25A9%25B4%2D%25EA%25BC%25AD%2D%25EC%2595%258C%25EC%2595%2584%25EC%2595%25BC%2D%25ED%2595%25A0%2D%25EB%258C%2580%25EC%259D%2591%2D%25EB%25B0%25A9%25EB%25B2%2595&rut=f822a1bd44485d8e5b1a5fb484cb0b5331f49f6d351a30df38f4c156d6187339"
+      },
+      {
+        "title": "간이과세자 vs 일반과세자 전환 타이밍 정리",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fqnehdtkswjdqh.tistory.com%2Fentry%2F%25EA%25B0%2584%25EC%259D%25B4%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%2Dvs%2D%25EC%259D%25BC%25EB%25B0%2598%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%2D%25EC%25A0%2584%25ED%2599%2598%2D%25ED%2583%2580%25EC%259D%25B4%25EB%25B0%258D%2D%25EC%25A0%2595%25EB%25A6%25AC&rut=2ded8efd6da59e5e67eebe499995172b57fdb71c0e78ac61d9b36bc0c7c65b88"
+      },
+      {
+        "title": "간이과세자 일반과세자 전환, 언제 될까요? - 에이펙스 세무회계",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fblog.apexacc.kr%2Fvat%2Dconversion%2F&rut=b635c64bca3a2e3ad4c8fe93307f36fee00c95de533ed4218c723aaf715ed6dd"
+      },
+      {
+        "title": "간이과세자 일반과세자 전환 시 부가세 신고 방법 총정리",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbiz.moneyroan.com%2Fvat%2Dreporting%2Dwhen%2Dchanging%2Dto%2Da%2Dtaxpayer%2F&rut=383f2d37f5d52e95c75265c3fdd04bd1cdd6a1b5511a461e234012da934eebe4"
+      },
+      {
+        "title": "간이과세자 일반과세자 전환 Vs 간이과세자 전환통지서는 - 브런치",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbrunch.co.kr%2F%40silrity%2F96&rut=aca1020865053bf99a7543e7a44b48a6228de3cc45077d17949f304bc5eb2801"
+      },
+      {
+        "title": "간이과세자 일반과세자 전환 기준 — 2026년 매출 얼마부터인가요",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpremiertaxblog.com%2Fvat%2Dsimplified%2Dgeneral%2Dtaxpayer%2Dconversion%2F&rut=b45a1dea1b4869c9dbe4dbe27d872d9862d971d40775b6cf29e775a1f0faf0bd"
+      },
+      {
+        "title": "간이과세자에서 일반과세자로! 전환 A to Z 완벽 가이드 (2024년 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fone.steadyman7.com%2F%25EA%25B0%2584%25EC%259D%25B4%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%25EC%2597%2590%25EC%2584%259C%2D%25EC%259D%25BC%25EB%25B0%2598%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%25EB%25A1%259C%2D%25EC%25A0%2584%25ED%2599%2598%2Da%2Dto%2Dz%2D%25EC%2599%2584%25EB%25B2%25BD%2D%25EA%25B0%2580%25EC%259D%25B4%25EB%2593%259C%2D2024%2F&rut=fb093f79ffdbe98296334ee4ddc2f930032eb46cadfa0660db8b1dd7e131718a"
+      },
+      {
+        "title": "간이과세자 → 일반과세자로 바뀌었다면?",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpartner.yogiyo.co.kr%2Fcontent%2Fview%2F%25EB%25B6%2580%25EA%25B0%2580%25EC%2584%25B8%2D%25EB%25B6%2580%25EA%25B0%2580%25EA%25B0%2580%25EC%25B9%2598%25EC%2584%25B8%2D%25EA%25B0%2584%25EC%259D%25B4%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%2D%25EC%259D%25BC%25EB%25B0%2598%25EA%25B3%25BC%25EC%2584%25B8%25EC%259E%2590%2D%25EA%25B3%25BC%25EC%2584%25B8%25EC%259C%25A0%25ED%2598%2595%25EB%25B3%2580%25EA%25B2%25BD%2D%25EA%25B3%25BC%25EC%2584%25B8%25EC%259C%25A0%25ED%2598%2595%25EB%25B3%2580%25EA%25B2%25BD%25EC%258B%259C%25EC%258B%25A0%25EA%25B3%25A0%25EB%25B0%25A9%25EB%25B2%2595&rut=d7bc3527fd9c6396921c2029e54d041be0bffb15977cd3d9f7537392779af591"
+      },
+      {
+        "title": "⚠️간이과세자와 일반과세자, 세금차이 빠르게 알려드림｜세무 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DjJ81oW7xg_E&rut=ef0afb0101416f42088f00edad39e650a0aca1a78d8da179311ba82b74667f6a"
+      }
+    ],
+    "umbrella": [
+      {
+        "title": "[2026년 종합소득세] 개인사업자 절세 필수품 '노란우산공제 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fm.blog.naver.com%2Ffromherein%2F224257175628&rut=071cbe6710cc0ee2aad182d59243d46d09d754b76a42994e1a29658ff57abf9f"
+      },
+      {
+        "title": "개인사업자 절세 공략법! 노란우산공제와 개인사업자 소득공제 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwebizwithyou.tistory.com%2Fentry%2F%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25EC%25A0%2588%25EC%2584%25B8%2D%25EA%25B3%25B5%25EB%259E%25B5%25EB%25B2%2595%2D%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%25EC%2599%2580%2D%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25EC%2586%258C%25EB%2593%259D%25EA%25B3%25B5%25EC%25A0%259C%2D%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590%2D%25EC%25A0%2595%25EB%25A6%25AC&rut=4734a334402d02a4459d62fff6eb05c9fea99ab391d229f36614f5edea3f4251"
+      },
+      {
+        "title": "노란우산공제 혜택으로 개인사업자 절세하기｜소득공제·복지 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fsellinblog.co.kr%2F2025%2F11%2F26%2F%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%2D%25ED%2598%259C%25ED%2583%259D%25EC%259C%25BC%25EB%25A1%259C%2D%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25EC%25A0%2588%25EC%2584%25B8%25ED%2595%2598%25EA%25B8%25B0%25EF%25BD%259C%25EC%2586%258C%2F&rut=0831129210de05783fa7c303f100edfdbe802de1192984f22e18449d5690634f"
+      },
+      {
+        "title": "개인사업자 필수! 노란우산공제 한눈에 정리 - 절세·혜택·가입 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbydplanner.com%2Fentry%2F%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25ED%2595%2584%25EC%2588%2598%2D%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%2D%25ED%2595%259C%25EB%2588%2588%25EC%2597%2590%2D%25EC%25A0%2595%25EB%25A6%25AC%2D%25E2%2580%2593%2D%25EC%25A0%2588%25EC%2584%25B8%25C2%25B7%25ED%2598%259C%25ED%2583%259D%25C2%25B7%25EA%25B0%2580%25EC%259E%2585%2D%25EA%25BF%2580%25ED%258C%2581&rut=7a48e52f235666d460e48c22db0d064107b2245dc3963cc4087521ea6bcaec2e"
+      },
+      {
+        "title": "노란우산공제 소득공제 완벽 가이드 2026 | 자영업자 프리랜서 연 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fblue%2Dknot.com%2Fentry%2F%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%2D%25EC%2586%258C%25EB%2593%259D%25EA%25B3%25B5%25EC%25A0%259C%2D%25EC%2599%2584%25EB%25B2%25BD%2D%25EA%25B0%2580%25EC%259D%25B4%25EB%2593%259C%2D2026%2D%25EC%259E%2590%25EC%2598%2581%25EC%2597%2585%25EC%259E%2590%2D%25ED%2594%2584%25EB%25A6%25AC%25EB%259E%259C%25EC%2584%259C%2D%25EC%2597%25B0%2D%25EC%25B5%259C%25EB%258C%2580%2D500%25EB%25A7%258C%25EC%259B%2590%2D%25EC%25A0%2588%25EC%2584%25B8&rut=a9b9c83034cff6d52178e5e9784907f7fe75e2df492a5bf9ca34d3e188d0daba"
+      },
+      {
+        "title": "노란우산공제 종합소득세 신고 시 소득공제 신청 방법과 개인 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fmokomokoari.com%2Fentry%2F%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%2D%25EC%25A2%2585%25ED%2595%25A9%25EC%2586%258C%25EB%2593%259D%25EC%2584%25B8%2D%25EC%258B%25A0%25EA%25B3%25A0%2D%25EC%258B%259C%2D%25EC%2586%258C%25EB%2593%259D%25EA%25B3%25B5%25EC%25A0%259C%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EB%25B0%25A9%25EB%25B2%2595%25EA%25B3%25BC%2D%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25EC%25A0%2588%25EC%2584%25B8%2D%25ED%2598%259C%25ED%2583%259D&rut=0a47b3c871027e3f6d35ce676b87d3fd24daffdaca95882b716ec17a8174489c"
+      },
+      {
+        "title": "노란우산공제란? 가입방법, 소득공제 한도, 이율 (2025년)",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fdongdongblog.co.kr%2Fentry%2F%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%25EB%259E%2580%2D%25EA%25B0%2580%25EC%259E%2585%25EB%25B0%25A9%25EB%25B2%2595%2D%25EC%2586%258C%25EB%2593%259D%25EA%25B3%25B5%25EC%25A0%259C%2D%25ED%2595%259C%25EB%258F%2584%2D%25EC%259D%25B4%25EC%259C%25A8%2D2025%25EB%2585%2584&rut=e0919932b2450c929eab8240c9451a4d9df74eb98f6508db4a1e10064577c384"
+      },
+      {
+        "title": "종합소득세 개인사업자 노란우산공제 최대한 활용하는 법",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Feconomy.broadmap.info%2F%25EC%25A2%2585%25ED%2595%25A9%25EC%2586%258C%25EB%2593%259D%25EC%2584%25B8%2D%25EA%25B0%259C%25EC%259D%25B8%25EC%2582%25AC%25EC%2597%2585%25EC%259E%2590%2D%25EB%2585%25B8%25EB%259E%2580%25EC%259A%25B0%25EC%2582%25B0%25EA%25B3%25B5%25EC%25A0%259C%2D%25EC%25B5%259C%25EB%258C%2580%25ED%2595%259C%2D%25ED%2599%259C%25EC%259A%25A9%2F&rut=89370e1bf49ce8d71b74cca7335153f044013de8bc8161d103db1d73854fa959"
+      }
+    ],
+    "resale": [
+      {
+        "title": "중고+리셀 병행 전략 '25 : 실사용 후 되팔기·수익 구조 체크리스트",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Faruma14.tistory.com%2F122&rut=90eff87ba677c99f12946131e6d13506a180f298785d3b9ef9f5c042a60c8880"
+      },
+      {
+        "title": "당근, 번개, 중고나라를",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fresellmap.com%2F&rut=5c6f168b244b578e4302e792c6fae393417f70148276ae8fd0c37ada7b561ee0"
+      },
+      {
+        "title": "중고 It 기기 사기 안 당하는 법 꿀팁 거래 체크리스트 (필수 ...",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fm.blog.naver.com%2Fwldhks0620%2F223898932264&rut=62c83415348b148e16a2244afa37fb2a5bc6454df7be18d0f8fcedb801eda3bf"
+      },
+      {
+        "title": "중고거래 리셀 부업 완전 가이드 - 시세 차익으로 수익 만들기 전략",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbooka%2Dmoneylog.com%2Fentry%2F%25EC%25A4%2591%25EA%25B3%25A0%25EA%25B1%25B0%25EB%259E%2598%2D%25EB%25A6%25AC%25EC%2585%2580%2D%25EB%25B6%2580%25EC%2597%2585%2D%25EC%2599%2584%25EC%25A0%2584%2D%25EA%25B0%2580%25EC%259D%25B4%25EB%2593%259C%2D%25EC%258B%259C%25EC%2584%25B8%2D%25EC%25B0%25A8%25EC%259D%25B5%25EC%259C%25BC%25EB%25A1%259C%2D%25EC%2588%2598%25EC%259D%25B5%2D%25EB%25A7%258C%25EB%2593%25A4%25EA%25B8%25B0%2D%25EC%25A0%2584%25EB%259E%25B5&rut=31721719da6b32abc466d9c61672b8f6893fc2b9dcc24eaffe0401f640fb3d4f"
+      },
+      {
+        "title": "중고 시세 조사 완벽 가이드 2026: 적정 가격 찾는 5단계",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fsellygenie.com%2Fko%2Fblog%2Fjunggo%2Dsise%2Djosa%2Dguide&rut=81524cf6dc01b2753229cc43360de9f4f8d2277e5552afaada0a2e6835463a5b"
+      },
+      {
+        "title": "중고거래로 돈 버는 법: 리셀 가치 높은 품목과 판매 템플릿",
+        "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fbrightlifetips.com%2F%25EC%25A4%2591%25EA%25B3%25A0%25EA%25B1%25B0%25EB%259E%2598%25EB%25A1%259C%2D%25EB%258F%2588%2D%25EB%25B2%2584%25EB%258A%2594%2D%25EB%25B2%2595%2D%25EB%25A6%25AC%25EC%2585%2580%2D%25EA%25B0%2580%25EC%25B9%2598%2D%25EB%2586%2592%25EC%259D%2580%2D%25ED%2592%2588%25EB%25AA%25A9%25EA%25B3%25BC%2D%25ED%258C%2590%25EB%25A7%25A4%2D%25ED%2585%259C%2F&rut=df7ba0be289e0a51f71e878cd0cd14b696d5d4ab0c5c303b9b102a777ab2f937"
+      }
+    ],
+    "bounty": []
+  }
+}
