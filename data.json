@@ -1,125 +1,51 @@
 {
-  "updated_at": "2026-05-18T11:12:41+09:00",
+  "updated_at": "2026-05-18T11:22:13+09:00",
   "last_run": {
-    "run_id": "2026-05-18_1112_money-flow",
-    "started_at": "2026-05-18T11:12:41+09:00",
-    "finished_at": "2026-05-18T11:12:41+09:00",
+    "run_id": "2026-05-18_1122_money-flow",
+    "started_at": "2026-05-18T11:22:13+09:00",
+    "finished_at": "2026-05-18T11:22:13+09:00",
     "trigger": "manual",
     "agents_executed": [
-      "research_member",
-      "research_lead",
-      "planning_member",
-      "execution_member",
       "execution_lead",
-      "redteam",
-      "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 4,
+    "candidates_discovered": 0,
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/assets/owasp-blt-6186-delete-android16.patch"
+      "https://github.com/OWASP-BLT/BLT/pull/6446",
+      "/Users/beemo/.hermes/scripts/github_bounty_pr_6446_monitor.py"
     ],
-    "approval_needed": [
-      {
-        "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
-        "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
-        "reason": "GitHub fork/push/PR submission is L3 external action."
-      }
-    ],
+    "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-05-18T11:12:41+09:00",
-        "agent": "research_lead",
+        "time": "2026-05-18T11:22:13+09:00",
+        "agent": "execution_lead",
         "decision": "GO",
         "reason_code": null,
-        "summary": "Low amount no longer blocks; safe quick static deletion candidate selected."
+        "summary": "자동 fork/push/PR 제출 완료: PR #6446."
       },
       {
-        "time": "2026-05-18T11:12:41+09:00",
-        "agent": "execution_lead",
-        "decision": "HOLD",
-        "reason_code": "NO_APPROVAL",
-        "summary": "Local patch ready; external PR requires user approval."
+        "time": "2026-05-18T11:22:13+09:00",
+        "agent": "ledger_dashboard_manager",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "PR #6446 material-state monitor 생성."
       }
     ],
-    "summary": "Revived one previously low-margin micro-bounty into ready_for_approval with local patch prepared.",
-    "final_report": "주인님, 저비용 때문에 NO-GO 했던 bounty를 재검토해 1건 되살렸습니다.\n\n**완료**\n- OWASP-BLT `$1` micro-bounty를 `ready_for_approval`로 승격.\n- 로컬 브랜치/패치 준비 완료: `android_16x16.png` 1개 삭제.\n- 낮은 금액은 더 이상 탈락 사유로 쓰지 않았습니다.\n\n**대기**\n- 외부 GitHub PR 제출은 승인 필요."
+    "summary": "Submitted OWASP BLT micro-bounty PR #6446 and created monitor.",
+    "final_report": "PR #6446 submitted and monitor created."
   },
   "metrics": {
     "total": 45,
-    "active": 2,
-    "approval_needed": 2,
-    "launched": 20,
+    "active": 1,
+    "approval_needed": 1,
+    "launched": 21,
     "closed_won": 0,
     "closed_lost": 0,
     "rejected": 23
   },
   "active_opportunities": [
-    {
-      "key": "MF-1",
-      "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
-      "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
-      "status": "승인 대기",
-      "raw_status": "ready_for_approval",
-      "type": "바운티",
-      "priority": "높음",
-      "stop_reason": null,
-      "quality": 82,
-      "expected_base_net": 1,
-      "next_action": "승인 시 OWASP-BLT fork/push 후 #6186 대상 PR 제출.",
-      "buyer_or_payer": "OWASP-BLT maintainer / GitHub Sponsors micro-bounty",
-      "channel": "GitHub issue + fork PR",
-      "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts"
-      ],
-      "evidence": [
-        {
-          "url": "https://github.com/OWASP-BLT/BLT/issues/6119",
-          "grade": "A",
-          "summary": "Parent issue states first successful deletion PR earns $1 via GitHub Sponsors; paid/sponsors labels visible.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        },
-        {
-          "url": "https://github.com/OWASP-BLT/BLT/issues/6186",
-          "grade": "A",
-          "summary": "Open good-first-deletion subissue for deleting android_16x16.png static asset.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        },
-        {
-          "url": "local:worktrees/BLT",
-          "grade": "B",
-          "summary": "Local reference search found no usage; local one-file deletion patch prepared.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-18T11:12:41+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Low amount no longer blocks; safe quick static deletion candidate selected."
-        },
-        {
-          "time": "2026-05-18T11:12:41+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "NO_APPROVAL",
-          "summary": "Local patch ready; external PR requires user approval."
-        }
-      ],
-      "assets": [
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/assets/owasp-blt-6186-delete-android16.patch",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
-      ]
-    },
     {
       "key": "MF-3",
       "opportunity_id": "opp_20260518_043_business_account_blog",
@@ -229,69 +155,6 @@
     }
   ],
   "approval_needed": [
-    {
-      "key": "MF-1",
-      "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
-      "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
-      "status": "승인 대기",
-      "raw_status": "ready_for_approval",
-      "type": "바운티",
-      "priority": "높음",
-      "stop_reason": null,
-      "quality": 82,
-      "expected_base_net": 1,
-      "next_action": "승인 시 OWASP-BLT fork/push 후 #6186 대상 PR 제출.",
-      "buyer_or_payer": "OWASP-BLT maintainer / GitHub Sponsors micro-bounty",
-      "channel": "GitHub issue + fork PR",
-      "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts"
-      ],
-      "evidence": [
-        {
-          "url": "https://github.com/OWASP-BLT/BLT/issues/6119",
-          "grade": "A",
-          "summary": "Parent issue states first successful deletion PR earns $1 via GitHub Sponsors; paid/sponsors labels visible.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        },
-        {
-          "url": "https://github.com/OWASP-BLT/BLT/issues/6186",
-          "grade": "A",
-          "summary": "Open good-first-deletion subissue for deleting android_16x16.png static asset.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        },
-        {
-          "url": "local:worktrees/BLT",
-          "grade": "B",
-          "summary": "Local reference search found no usage; local one-file deletion patch prepared.",
-          "checked_at": "2026-05-18T11:12:41+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-18T11:12:41+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Low amount no longer blocks; safe quick static deletion candidate selected."
-        },
-        {
-          "time": "2026-05-18T11:12:41+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "NO_APPROVAL",
-          "summary": "Local patch ready; external PR requires user approval."
-        }
-      ],
-      "assets": [
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/assets/owasp-blt-6186-delete-android16.patch",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
-      ]
-    },
     {
       "key": "MF-27",
       "opportunity_id": "opp_20260515_006_freelancer_simple_book_blog",
@@ -492,14 +355,14 @@
       "key": "MF-1",
       "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
       "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
-      "status": "승인 대기",
-      "raw_status": "ready_for_approval",
+      "status": "운영/수익",
+      "raw_status": "tracking",
       "type": "바운티",
       "priority": "높음",
       "stop_reason": null,
       "quality": 82,
       "expected_base_net": 1,
-      "next_action": "승인 시 OWASP-BLT fork/push 후 #6186 대상 PR 제출.",
+      "next_action": "PR #6446 리뷰/머지/지급 상태 모니터링.",
       "buyer_or_payer": "OWASP-BLT maintainer / GitHub Sponsors micro-bounty",
       "channel": "GitHub issue + fork PR",
       "risk_flags": [
@@ -541,6 +404,20 @@
           "decision": "HOLD",
           "reason_code": "NO_APPROVAL",
           "summary": "Local patch ready; external PR requires user approval."
+        },
+        {
+          "time": "2026-05-18T11:22:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "자동 fork/push/PR 제출 완료: PR #6446."
+        },
+        {
+          "time": "2026-05-18T11:22:13+09:00",
+          "agent": "ledger_dashboard_manager",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "PR #6446 material-state monitor 생성."
         }
       ],
       "assets": [
@@ -548,7 +425,8 @@
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
+        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md",
+        "https://github.com/OWASP-BLT/BLT/pull/6446"
       ]
     },
     {
@@ -673,54 +551,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-18T09:47:42+09:00",
-      "run_id": "2026-05-18_0945_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
-      "decision": "HOLD",
-      "reason_code": null,
-      "summary": "cash/platform bounty/direct-payout 후보 10건 검색, open 상태·PR 가능성·경쟁 PR·payout rail·위험요구 확인.",
-      "links": [
-        "https://github.com/speakers-in-tech/conference-data/issues/4",
-        "https://github.com/flydelabs/flyde/issues/112",
-        "https://github.com/tscircuit/prompt-benchmarks/issues/45",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-        "https://github.com/sindresorhus/awesome-lint/issues/37",
-        "https://github.com/ubiquity/business-development/issues/90",
-        "https://github.com/ClankerNation/OpenAgents/issues/29",
-        "https://github.com/ClankerNation/OpenAgents/issues/41",
-        "https://github.com/egoist/bili/issues/184",
-        "https://github.com/gajus/flow-runtime/issues/180"
-      ]
-    },
-    {
-      "time": "2026-05-18T09:47:42+09:00",
-      "run_id": "2026-05-18_0945_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260518_042_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "10건 모두 기존 PR/claim 과밀, L3 아웃리치 필요, crypto/BTC·비밀지시 공개 요구 등으로 승인·지급 가능성 부족.",
-      "links": [
-        "https://github.com/speakers-in-tech/conference-data/issues/4",
-        "https://github.com/flydelabs/flyde/issues/112",
-        "https://github.com/tscircuit/prompt-benchmarks/issues/45",
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
-        "https://github.com/sindresorhus/awesome-lint/issues/37",
-        "https://github.com/ubiquity/business-development/issues/90",
-        "https://github.com/ClankerNation/OpenAgents/issues/29",
-        "https://github.com/ClankerNation/OpenAgents/issues/41",
-        "https://github.com/egoist/bili/issues/184",
-        "https://github.com/gajus/flow-runtime/issues/180"
-      ]
-    },
     {
       "time": "2026-05-18T09:47:42+09:00",
       "run_id": "2026-05-18_0945_money-flow",
@@ -1140,6 +970,36 @@
       "links": [
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/assets/owasp-blt-6186-delete-android16.patch"
       ]
+    },
+    {
+      "time": "2026-05-18T11:22:13+09:00",
+      "run_id": "2026-05-18_1122_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
+      "event": "launched",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "자동 fork/push/PR 제출 완료: OWASP-BLT/BLT PR #6446.",
+      "links": [
+        "https://github.com/OWASP-BLT/BLT/pull/6446"
+      ]
+    },
+    {
+      "time": "2026-05-18T11:22:13+09:00",
+      "run_id": "2026-05-18_1122_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
+      "event": "status_changed",
+      "from_status": "ready_for_approval",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "PR monitor e2e37f117d26 생성 및 대시보드 갱신.",
+      "links": [
+        "https://github.com/OWASP-BLT/BLT/pull/6446"
+      ]
     }
   ],
   "board_columns": [
@@ -1157,14 +1017,14 @@
       "key": "MF-1",
       "opportunity_id": "opp_20260518_045_owasp_blt_android16_micro_bounty",
       "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
-      "status": "승인 대기",
-      "raw_status": "ready_for_approval",
+      "status": "운영/수익",
+      "raw_status": "tracking",
       "type": "바운티",
       "priority": "높음",
       "stop_reason": null,
       "quality": 82,
       "expected_base_net": 1,
-      "next_action": "승인 시 OWASP-BLT fork/push 후 #6186 대상 PR 제출.",
+      "next_action": "PR #6446 리뷰/머지/지급 상태 모니터링.",
       "buyer_or_payer": "OWASP-BLT maintainer / GitHub Sponsors micro-bounty",
       "channel": "GitHub issue + fork PR",
       "risk_flags": [
@@ -1206,6 +1066,20 @@
           "decision": "HOLD",
           "reason_code": "NO_APPROVAL",
           "summary": "Local patch ready; external PR requires user approval."
+        },
+        {
+          "time": "2026-05-18T11:22:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "자동 fork/push/PR 제출 완료: PR #6446."
+        },
+        {
+          "time": "2026-05-18T11:22:13+09:00",
+          "agent": "ledger_dashboard_manager",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "PR #6446 material-state monitor 생성."
         }
       ],
       "assets": [
@@ -1213,7 +1087,8 @@
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
         "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
-        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
+        "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md",
+        "https://github.com/OWASP-BLT/BLT/pull/6446"
       ]
     },
     {
@@ -7370,7 +7245,7 @@
       "status": "운영/수익",
       "raw_status": "tracking",
       "type": "바운티",
-      "priority": "보통",
+      "priority": "높음",
       "stop_reason": null,
       "quality": 82,
       "expected_base_net": 35000,
