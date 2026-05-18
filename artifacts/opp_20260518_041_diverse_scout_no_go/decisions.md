@@ -1,0 +1,8 @@
+- research_member: HOLD  — 신규 scout 후보 5건 검토: bounty 3건, paid writing 1건, Korean blog validation 1건.
+- research_lead: NO-GO DUPLICATE — A등급 근거가 있는 후보는 있었지만 기존 claim/PR, 지급조건 불명확, 고사용자부담, 기존 세금 글 중복으로 GO 없음.
+- planning_member: NO-GO OPPORTUNITY_COST — 기획 승격 후보 없음. 외부 pitch/comment/claim 없이 research rejection으로 기록.
+- planning_lead: NO-GO LOW_QUALITY — 억지 초안 제작 시 중복 세금 글 또는 낮은 승인확률 bounty가 되어 품질 기준 80 미달 예상.
+- execution_member: NO-GO NO_APPROVAL — Scout-only cron: 로컬 기록만 생성. 외부 게시·로그인·제출·PR 없음.
+- execution_lead: NO-GO NO_CHANNEL — launch-ready asset 없음. 신규 제작을 시작하지 않는 것이 품질/ROI상 유리.
+- redteam: NO-GO REDTEAM_REJECTED — 실패 모드: 이미 제출된 PR과 경쟁, Algora/issue 조건 불명확, paid writing 긴 리드타임, 기존 세금 콘텐츠 중복.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기준 순수익 0원. 70% 순마진 후보가 없어 작업 투입 중단.

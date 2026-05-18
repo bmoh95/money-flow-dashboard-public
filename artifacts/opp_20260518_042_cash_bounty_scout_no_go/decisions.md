@@ -1,0 +1,8 @@
+- research_member: HOLD  — cash/platform bounty/direct-payout 후보 10건 검색, open 상태·PR 가능성·경쟁 PR·payout rail·위험요구 확인.
+- research_lead: NO-GO DUPLICATE — 10건 모두 기존 PR/claim 과밀, L3 아웃리치 필요, crypto/BTC·비밀지시 공개 요구 등으로 승인·지급 가능성 부족.
+- planning_member: NO-GO OPPORTUNITY_COST — preflight/plan 승격 후보 없음. 코딩·/attempt·/opire try·claim·PR 제출하지 않음.
+- planning_lead: NO-GO LOW_QUALITY — 중복 PR에 같은 구현을 추가하면 maintainer 관점 품질/차별성 기준 미달.
+- execution_member: NO-GO NO_APPROVAL — Scout-only cron: 외부 댓글, claim, PR, 계정/지갑/결제 행동 없음.
+- execution_lead: NO-GO NO_APPROVAL — 제출 대상 없음. L3/L4 경계 준수.
+- redteam: NO-GO REDTEAM_REJECTED — 실패 모드: 기존 중복 PR 선점, 비공식/crypto 지급, pre-prompt 공개 요구, 마케팅 외부활동, repo 활동 저하.
+- roi: NO-GO OPPORTUNITY_COST — 위험조정 기대 순수익 0원. 70% 순마진 cash/platform 후보 없음.
