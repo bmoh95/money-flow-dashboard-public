@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T07:55:08+09:00",
+  "updated_at": "2026-05-19T09:00:52+09:00",
   "last_run": {
-    "run_id": "2026-05-19_0751_money-flow",
-    "started_at": "2026-05-19T07:55:08+09:00",
-    "finished_at": "2026-05-19T07:55:08+09:00",
+    "run_id": "2026-05-19_0856_money-flow",
+    "started_at": "2026-05-19T09:00:52+09:00",
+    "finished_at": "2026-05-19T09:00:52+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -13,32 +13,32 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 8,
-    "opportunities_advanced": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 1,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_073_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_073_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_073_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260519_073_cash_bounty_scout_no_go",
+        "opportunity_id": "opp_20260519_074_cash_bounty_scout_no_go",
         "decision": "NO-GO",
-        "reason_code": "DUPLICATE"
+        "reason_code": "HIGH_RISK"
       }
     ],
-    "summary": "bounty/direct-payout 후보 8개 preflight; GO 없음.",
-    "final_report": "주인님, Money Flow bounty scout 결과입니다. 후보 8개 검토, GO 0개, NO-GO 8개."
+    "summary": "bounty/direct-payout 후보 8개 preflight; 신규 GO 없음; PR monitor checked.",
+    "final_report": "주인님, Money Flow bounty scout 결과입니다. 후보 8개 검토, 신규 GO 0개. PR #1710은 Algora claim/reward 링크가 감지되어 모니터링 갱신."
   },
   "metrics": {
-    "total": 73,
+    "total": 74,
     "active": 4,
     "approval_needed": 1,
     "launched": 30,
     "closed_won": 0,
     "closed_lost": 2,
-    "rejected": 39
+    "rejected": 40
   },
   "active_opportunities": [
     {
@@ -1257,10 +1257,10 @@
     "중복/경쟁 과다": 13,
     "기회비용": 17,
     "AUTH_BLOCKED": 1,
-    "고위험": 8,
+    "고위험": 9,
     "사용자 관여 과다": 2,
     "지급 불명확": 2,
-    "WEAK_DIFFERENTIATION": 1,
+    "차별성 약함": 1,
     "LOW_QUALITY": 1
   },
   "roi": {
@@ -1269,121 +1269,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T06:42:54+09:00",
-      "run_id": "2026-05-19_0634_money-flow",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "links": [
-        "https://github.com/archestra-ai/archestra/issues/4758",
-        "https://github.com/archestra-ai/archestra/issues/4030",
-        "https://github.com/tscircuit/jlcsearch/issues/92",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
-        "https://github.com/arakoodev/EdgeChains/issues/290",
-        "https://github.com/tscircuit/circuitjson.com/issues/79",
-        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
-        "https://github.com/rohitdash08/FinMind/issues/124",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ],
-      "agent": "planning_lead",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Quality 86; 2파일+테스트 최소 변경 승인."
-    },
-    {
-      "time": "2026-05-19T06:42:54+09:00",
-      "run_id": "2026-05-19_0634_money-flow",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "links": [
-        "https://github.com/archestra-ai/archestra/issues/4758",
-        "https://github.com/archestra-ai/archestra/issues/4030",
-        "https://github.com/tscircuit/jlcsearch/issues/92",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
-        "https://github.com/arakoodev/EdgeChains/issues/290",
-        "https://github.com/tscircuit/circuitjson.com/issues/79",
-        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
-        "https://github.com/rohitdash08/FinMind/issues/124",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ],
-      "agent": "execution_lead",
-      "event": "launched",
-      "from_status": "execution",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "PR submitted: https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-    },
-    {
-      "time": "2026-05-19T06:42:54+09:00",
-      "run_id": "2026-05-19_0634_money-flow",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "links": [
-        "https://github.com/archestra-ai/archestra/issues/4758",
-        "https://github.com/archestra-ai/archestra/issues/4030",
-        "https://github.com/tscircuit/jlcsearch/issues/92",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
-        "https://github.com/arakoodev/EdgeChains/issues/290",
-        "https://github.com/tscircuit/circuitjson.com/issues/79",
-        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
-        "https://github.com/rohitdash08/FinMind/issues/124",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ],
-      "agent": "redteam",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "CI/duplicate/payout-profile residual risk accepted with monitor."
-    },
-    {
-      "time": "2026-05-19T06:42:54+09:00",
-      "run_id": "2026-05-19_0634_money-flow",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "links": [
-        "https://github.com/archestra-ai/archestra/issues/4758",
-        "https://github.com/archestra-ai/archestra/issues/4030",
-        "https://github.com/tscircuit/jlcsearch/issues/92",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/803",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
-        "https://github.com/arakoodev/EdgeChains/issues/290",
-        "https://github.com/tscircuit/circuitjson.com/issues/79",
-        "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
-        "https://github.com/aqualinkorg/aqualink-app/issues/1162",
-        "https://github.com/rohitdash08/FinMind/issues/124",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ],
-      "agent": "roi",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Base expected net $35 on $50 bounty."
-    },
-    {
-      "time": "2026-05-19T06:44:20+09:00",
-      "run_id": "2026-05-19_0634_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "event": "status_changed",
-      "from_status": "launched",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "PR #1710 checks completed successfully; awaiting maintainer/review/merge.",
-      "links": [
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ]
-    },
     {
       "time": "2026-05-19T06:50:37+09:00",
       "run_id": "2026-05-19_0646_money-flow",
@@ -1747,6 +1632,89 @@
       "reason_code": "OPPORTUNITY_COST",
       "summary": "No new implementation; preserve time for better low-competition bounty.",
       "links": []
+    },
+    {
+      "time": "2026-05-19T09:00:52+09:00",
+      "run_id": "2026-05-19_0856_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260519_074_cash_bounty_scout_no_go",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "researching",
+      "decision": null,
+      "reason_code": null,
+      "summary": "cash/platform bounty 후보 8개 검색.",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/304",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/804",
+        "https://github.com/watney-ai/open-source-bounties/issues/1",
+        "https://github.com/DDjohnson21/agent-testbed/issues/18",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+        "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
+        "https://github.com/SolFoundry/solfoundry/issues/854",
+        "https://github.com/sindresorhus/fkill-cli/issues/6"
+      ]
+    },
+    {
+      "time": "2026-05-19T09:00:52+09:00",
+      "run_id": "2026-05-19_0856_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260519_074_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "시스템프롬프트 공개 요구, 중복/경쟁 과다, 지급 불명확, token 후보로 구현 전 중단.",
+      "links": [
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/304",
+        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/804",
+        "https://github.com/watney-ai/open-source-bounties/issues/1",
+        "https://github.com/DDjohnson21/agent-testbed/issues/18",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1"
+      ]
+    },
+    {
+      "time": "2026-05-19T09:00:52+09:00",
+      "run_id": "2026-05-19_0856_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260519_074_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "UnsafeLabs prompt-disclosure bounties and subjective/duplicate tasks are unsafe/low-approval.",
+      "links": []
+    },
+    {
+      "time": "2026-05-19T09:00:52+09:00",
+      "run_id": "2026-05-19_0856_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260519_074_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "No new implementation; existing PR #1710 has better near-term value.",
+      "links": []
+    },
+    {
+      "time": "2026-05-19T09:00:52+09:00",
+      "run_id": "2026-05-19_0856_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
+      "event": "status_changed",
+      "from_status": "launched",
+      "to_status": "launched",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "PR #1710 monitor: Algora issue table now includes claim/reward link for our PR while PR checks remain successful.",
+      "links": [
+        "https://algora.io/claims/8iomhARHkGxxgsBp",
+        "https://algora.io/claims/HFQSBjM95GtmTW12"
+      ]
     }
   ],
   "board_columns": [
@@ -1770,7 +1738,7 @@
       "priority": "보통",
       "tags": [
         "디지털 상품",
-        "WEAK_DIFFERENTIATION"
+        "차별성 약함"
       ],
       "quality": 68,
       "expected_base_net": 7920,
@@ -13250,8 +13218,8 @@
       "expected_price": 50,
       "buyer_or_payer": "UnsafeLabs/Stacylia via Algora bounty",
       "channel": "GitHub issue /attempt + fork PR + /claim",
-      "current_owner": "execution_lead",
-      "next_action": "PR #1710 checks passed; maintainer/review/merge/Algora award 상태 모니터링.",
+      "current_owner": "roi",
+      "next_action": "PR #1710은 Algora claim/reward link 노출됨. merge/reward 확정 및 payout profile 필요 여부 계속 모니터링.",
       "risk_flags": [
         "PAYOUT_PROFILE_MAY_BE_REQUIRED",
         "DUPLICATE_RISK"
@@ -13322,6 +13290,12 @@
           "grade": "A",
           "summary": "Submitted PR #1710 with /claim #745 in body; checks initially in progress.",
           "checked_at": "2026-05-19T06:42:54+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/745",
+          "grade": "A",
+          "summary": "Algora bot table now lists PR #1710 with Reward claim/action link; PR remains open with checks passing.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
         }
       ],
       "decision_history": [
@@ -13373,6 +13347,13 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "PR #1710 GitHub checks completed successfully: check, track."
+        },
+        {
+          "time": "2026-05-19T09:00:52+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "PR #1710 bounty issue now exposes Algora claim/reward link; keep monitoring merge/payment, no user action yet."
         }
       ],
       "asset_links": [
@@ -13399,6 +13380,14 @@
         {
           "label": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds",
           "path": "https://github.com/bmoh95/Bounty-Hunters/tree/fix-laravel-password-bcrypt-rounds"
+        },
+        {
+          "label": "https://algora.io/claims/8iomhARHkGxxgsBp",
+          "path": "https://algora.io/claims/8iomhARHkGxxgsBp"
+        },
+        {
+          "label": "https://algora.io/claims/HFQSBjM95GtmTW12",
+          "path": "https://algora.io/claims/HFQSBjM95GtmTW12"
         }
       ],
       "approval_required": false
@@ -13648,6 +13637,129 @@
         {
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_073_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-74",
+      "id": "opp_20260519_074_cash_bounty_scout_no_go",
+      "title": "Cash/platform bounty scout: no safe GO after preflight",
+      "status": "종료/폐기",
+      "raw_status": "research_rejected",
+      "type": "바운티",
+      "priority": "보통",
+      "tags": [
+        "바운티",
+        "고위험"
+      ],
+      "quality": null,
+      "expected_base_net": 0,
+      "margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "GitHub/Algora/IssueHunt/직접 bounty 후보별 상이",
+      "channel": "GitHub issue/fork PR/bounty platform",
+      "current_owner": "research_lead",
+      "next_action": "다음 scout에서 신규 cash/platform bounty 재검색. UnsafeLabs PR #1710은 Algora claim/review 상태 모니터링.",
+      "risk_flags": [
+        "SYSTEM_PROMPT_DISCLOSURE_REQUEST",
+        "DUPLICATE_RISK",
+        "PAYMENT_UNCLEAR",
+        "TOKEN_WALLET_RISK",
+        "HIGH_COMPETITION"
+      ],
+      "evidence": [
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/304",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_RISK — Algora $1 route exists, but issue explicitly requires PR body/system prompt disclosure and contributor_meta session_init; many prior rewarded/closed PRs already solved it.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/804",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_RISK — Algora $200 route exists, but requires full initialization payload in .audit.json, short demo video, and completion of other issues; several attempts/solutions already present.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/watney-ai/open-source-bounties/issues/1",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open typo bounty, but at least seven duplicate PRs already open/closed and payer comments are chaotic; Ko-fi/Liberapay payout route requires external payment follow-up.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/DDjohnson21/agent-testbed/issues/18",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Open simple issue, but competing PRs #23/#24 are already open and #25 closed; no visible cash/platform payout terms in issue body.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Cash-style bounty, but about 900 comments and broad subjective artifact acceptance; approval odds too weak for automatic PR.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/gbabaisaac/mergefund-hackathon-kit/issues/1",
+          "grade": "A",
+          "summary": "NO-GO / PAYMENT_UNCLEAR — Looks like bounty-labeled UI task, but no reward amount, payout rail, claim rules, or platform bot evidence visible.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/SolFoundry/solfoundry/issues/854",
+          "grade": "A",
+          "summary": "NO-GO / PAYMENT_UNCLEAR — Reward is 600K $FNDRY token, not cash/platform; scope is broad extension work with unclear payout/eligibility.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        },
+        {
+          "url": "https://github.com/sindresorhus/fkill-cli/issues/6",
+          "grade": "A",
+          "summary": "HOLD / PAYMENT_UNCLEAR — Funded-on-IssueHunt label exists, but issue is old and payout/claim status requires IssueHunt-side verification before implementation.",
+          "checked_at": "2026-05-19T09:00:52+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T09:00:52+09:00",
+          "agent": "research_member",
+          "decision": "NO-GO",
+          "reason_code": "NO_EVIDENCE",
+          "summary": "bounty/direct-payout 후보 8개 검색·검토."
+        },
+        {
+          "time": "2026-05-19T09:00:52+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_RISK",
+          "summary": "명확한 현금/platform 후보 중 자동 PR 가능 후보 없음; 시스템프롬프트 공개/중복/지급불명/token 문제."
+        },
+        {
+          "time": "2026-05-19T09:00:52+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "system prompt/session_init 요구와 과밀 경쟁 후보는 자동 제출 금지."
+        },
+        {
+          "time": "2026-05-19T09:00:52+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "새 구현보다 기존 PR #1710 모니터링 기대값이 높음."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_074_cash_bounty_scout_no_go/roi.md"
         }
       ],
       "approval_required": false
