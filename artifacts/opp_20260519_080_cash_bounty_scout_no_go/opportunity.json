@@ -1,0 +1,128 @@
+{
+  "opportunity_id": "opp_20260519_080_cash_bounty_scout_no_go",
+  "title": "현금성 GitHub bounty scout 7건 — GO 없음",
+  "type": "bounty",
+  "status": "research_rejected",
+  "created_at": "2026-05-19T13:31:16+09:00",
+  "updated_at": "2026-05-19T13:31:16+09:00",
+  "source_run_id": "2026-05-19_1327_money-flow",
+  "current_owner": "research_lead",
+  "buyer_or_payer": "GitHub/Opire/Algora/Ubiquity bounty issue owners",
+  "channel": "GitHub issue + fork PR + bounty/platform payout",
+  "evidence": [
+    {
+      "url": "https://github.com/Bu1ldTh3Futur3/bounty-hunter-test/issues/1",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음, PR route exists. Comments already contain many /attempt and PR references (#50/#51/#52 etc.); open PR list has 20 PRs with several exact currency-formatting fixes. / GitHub issue has /bounty $50 and $50 label; direct platform/bounty route appears visible but claim mechanics not fully documented in body.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/1",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음, forks/PR route exists. Open PR list shows competing “Add verified changelog generator” and multiple bounty PRs; acceptance requires tested sample output on a real repo and README. / Issue body says $50 powered by Opire, /opire try, payment released automatically on merge.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. Existing open PR titled “[BOUNTY 5] TEMPLATE: CLAUDE.md for a Next.js + SQL…” targets the same acceptance area. Output is subjective/template quality, not deterministic micro-fix. / Issue body says $75 powered by Opire, /opire try, payment released automatically on merge.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Issue open, assignee 없음. Open PRs include “Add extended promotional component filter”, “feat: add extended promotional component column”, and “Add is_extended_promotional column to components” already addressing the same request. / Issue has /bounty $75 and $75 label; likely platform bounty.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/834",
+      "grade": "A",
+      "summary": "HOLD / OPPORTUNITY_COST — Issue open, assignee 없음. Comments already include /opire try and multiple claims. Acceptance includes localStorage persistence, storage-event cross-tab sync, reset option, fallback validation, exact PR title. Repo has parallel active PRs and prior submitted PR in same org was closed as incomplete. / Labels include $40, 💎 Bounty, AI Agent friendly; comments include /opire try. Cash/platform possible.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/853",
+      "grade": "A",
+      "summary": "NO-GO / OPPORTUNITY_COST — Issue open, assignee 없음. Multiple attempts/claims. Acceptance requires Effect Schema validation, startup exit table, --validate-config CLI flag, docs/output behavior; easy to under-implement. / Labels include $35, 💎 Bounty, AI Agent friendly; comments include /opire try and payment route mentions.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    },
+    {
+      "url": "https://github.com/ubiquity/ubiquity-dollar/issues/972",
+      "grade": "A",
+      "summary": "NO-GO / HIGH_USER_INPUT — Issue open, assignee 없음, but bot comments warn “You must be a core team member, or an administrator to start this task.” Existing PR #1008/#1009 comments and open PR “fix: Skip storage layout check…” already target it. / Labels show Price: 300 USD and Ubiquity task metadata.",
+      "checked_at": "2026-05-19T13:31:16+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 42,
+    "user_involvement": 1,
+    "cash_distance": 2,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "DUPLICATE",
+    "HIGH_USER_INPUT",
+    "REDTEAM_REJECTED",
+    "OPPORTUNITY_COST"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T13:31:16+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "cash/platform bounty/direct-payout 후보 7건 검색 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T13:31:16+09:00",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "다수 후보가 이미 exact competing PR/attempt로 선점되어 자동 PR 제외."
+    },
+    {
+      "time": "2026-05-19T13:31:16+09:00",
+      "agent": "planning_lead",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "품질/승인 odds 80점 이상 후보 없음."
+    },
+    {
+      "time": "2026-05-19T13:31:16+09:00",
+      "agent": "redteam",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "중복 제출, 참여자격 제한, broad acceptance, 불완전 PR 위험이 실행 차단."
+    },
+    {
+      "time": "2026-05-19T13:31:16+09:00",
+      "agent": "roi",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "위험조정 기대 순수익 0원."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_080_cash_bounty_scout_no_go/research.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_080_cash_bounty_scout_no_go/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_080_cash_bounty_scout_no_go/decisions.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_080_cash_bounty_scout_no_go/roi.md"
+  ],
+  "next_action": "다음 bounty scout에서 경쟁 PR 0건, participant eligibility clear, deterministic small diff/test, cash/platform payout visible 후보를 우선 재검색.",
+  "stop_reason_code": "DUPLICATE"
+}
