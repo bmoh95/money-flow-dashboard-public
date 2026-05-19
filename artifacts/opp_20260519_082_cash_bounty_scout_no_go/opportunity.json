@@ -1,0 +1,121 @@
+{
+  "opportunity_id": "opp_20260519_082_cash_bounty_scout_no_go",
+  "title": "Cash/platform bounty scout — no safe PR candidate",
+  "type": "bounty",
+  "status": "research_rejected",
+  "created_at": "2026-05-19T15:49:11+09:00",
+  "updated_at": "2026-05-19T15:49:11+09:00",
+  "source_run_id": "2026-05-19_1543_money-flow",
+  "current_owner": "research_lead",
+  "buyer_or_payer": "GitHub/Algora/Opire/direct bounty payers",
+  "channel": "GitHub bounty issues / platform PR claims",
+  "evidence": [
+    {
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+      "grade": "A",
+      "summary": "SecureBananaLabs/bug-bounty #76 Technical Poem Generation — NO-GO DUPLICATE: Large reward for trivial POEM.md creates extreme competition/quality-spam risk; active attempts/comments already present, approval odds poor despite clear cash rail.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/Dokploy/dokploy/issues/1413",
+      "grade": "A",
+      "summary": "Dokploy/dokploy #1413 Organisation and Teams Management — NO-GO DUPLICATE: Broad org/team management epic; useful slices are already claimed/submitted in comments, remaining scope is not a small verified diff.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/QuantumSavory/QuantumSavory.jl/issues/138",
+      "grade": "A",
+      "summary": "QuantumSavory/QuantumSavory.jl #138 Interactive example — HOLD HIGH_USER_INPUT: Needs proposal/interactive example design and likely domain-specific Julia/quantum networking work; claim process asks name/context and proposal before implementation.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/ubiquity/business-development/issues/90",
+      "grade": "A",
+      "summary": "ubiquity/business-development #90 GitHub Based Marketing — NO-GO HIGH_RISK: External marketing/outreach/growth task risks spam/platform-policy friction and may require wallet/profile flow; not suitable for autonomous PR work.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/midnightntwrk/contributor-hub/issues/312",
+      "grade": "A",
+      "summary": "midnightntwrk/contributor-hub #312 Compact contracts tutorial — NO-GO PAYMENT_UNCLEAR: Content/tutorial bounty has unclear current payout route and existing submissions; high workload and not cash-close for this scout.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/UnsafeLabs/Bounty-Hunters/issues/573",
+      "grade": "A",
+      "summary": "UnsafeLabs/Bounty-Hunters #573 EMS PRF label — NO-GO DUPLICATE: Already attempted by this account and closed by automation; rework/retry would likely repeat low-approval loop without maintainer signal.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    },
+    {
+      "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/29",
+      "grade": "A",
+      "summary": "SecureBananaLabs/bug-bounty #29 Admin Panel — NO-GO OPPORTUNITY_COST: Scope is a full admin system, not a micro-bounty; high build/review burden and active competition make approval odds weak for this lane.",
+      "checked_at": "2026-05-19T15:49:11+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 0,
+    "user_involvement": 1,
+    "cash_distance": 2,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "중복/선점",
+    "범위 과대",
+    "지급 불명확",
+    "외부 마케팅 위험"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T15:49:11+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "cash/platform bounty/direct-payout 후보 7건 검색 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T15:49:11+09:00",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "자동 PR 기준 통과 후보 없음: 경쟁/중복·범위 과대·지급 불명확."
+    },
+    {
+      "time": "2026-05-19T15:49:11+09:00",
+      "agent": "redteam",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "외부 마케팅/지갑성 토큰/과밀한 AI bounty 및 기존 실패 재시도 위험 확인."
+    },
+    {
+      "time": "2026-05-19T15:49:11+09:00",
+      "agent": "roi",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "이번 후보들의 위험조정 기대 순수익은 0원. 구현/PR 미실행."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_082_cash_bounty_scout_no_go/research.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_082_cash_bounty_scout_no_go/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_082_cash_bounty_scout_no_go/decisions.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_082_cash_bounty_scout_no_go/roi.md"
+  ],
+  "next_action": "다음 현금성 bounty scout에서 경쟁 낮고 payout rail 명확한 micro-bounty를 계속 검색. 기존 UnsafeLabs closed PR은 maintainer 신호 없으면 재시도하지 않음.",
+  "stop_reason_code": "DUPLICATE"
+}
