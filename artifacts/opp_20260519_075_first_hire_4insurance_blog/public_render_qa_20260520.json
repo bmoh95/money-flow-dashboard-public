@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-05-20T05:37:49+09:00",
+  "post_url": "https://beemo.tistory.com/58",
+  "mobile_url": "https://beemo.tistory.com/m/58",
+  "http": 200,
+  "mobile_http": 200,
+  "title_found": true,
+  "mobile_title_found": true,
+  "category_label_found": true,
+  "category_id": "1295942",
+  "body_image_hits": 3,
+  "mobile_body_image_hits": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FwhafF%2FdJMcagS7xQR%2FAAAAAAAAAAAAAAAAAAAAAEhNw8EnFQQip3Td8DYQ0-nSLkNNKZcUsH6P2xSLHpcF%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3Dgwj4prA4PW0j%252FtDNuD7n0wbzk4k%253D",
+  "mobile_og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FwhafF%2FdJMcagS7xQR%2FAAAAAAAAAAAAAAAAAAAAAEhNw8EnFQQip3Td8DYQ0-nSLkNNKZcUsH6P2xSLHpcF%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3Dgwj4prA4PW0j%252FtDNuD7n0wbzk4k%253D",
+  "og_not_default": true,
+  "mobile_og_not_default": true,
+  "raw_markdown_hits": 0,
+  "source_link_hits": 5,
+  "browser_render_qa": {
+    "desktop_cycles": 3,
+    "body_images_loaded": 3,
+    "body_images_natural_size": "1200x675 each",
+    "img_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "caption_to_next_px": [
+      20,
+      20,
+      20
+    ],
+    "vision_result": "top/middle/bottom public-page screenshots passed; minor small footer text noted but non-blocking",
+    "mobile_dom_check": "title/category/body images/og present; no raw Markdown"
+  }
+}
