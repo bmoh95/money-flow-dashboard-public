@@ -1,0 +1,120 @@
+{
+  "opportunity_id": "opp_20260519_083_food_hygiene_training_blog",
+  "title": "음식점 기존영업자 식품위생교육 10분 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-19T16:10:14+09:00",
+  "updated_at": "2026-05-19T16:10:14+09:00",
+  "source_run_id": "2026-05-19_1605_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "음식점·카페·휴게음식점 운영 소상공인 독자; 간접 블로그 유입 검증",
+  "channel": "Tistory free validation blog (standing approval after QA; this scout does not publish)",
+  "evidence": [
+    {
+      "url": "https://www.foodservice.or.kr/",
+      "grade": "A",
+      "summary": "한국외식업중앙회 공식 사이트. 외식업 위생교육 및 기존영업자 관련 안내 확인용.",
+      "checked_at": "2026-05-19T16:10:14+09:00"
+    },
+    {
+      "url": "https://www.ifoodedu.or.kr/",
+      "grade": "A",
+      "summary": "온라인 식품위생교육 사이트. 기존영업자/온라인 교육 흐름 확인용.",
+      "checked_at": "2026-05-19T16:10:14+09:00"
+    },
+    {
+      "url": "https://www.foodsafetykorea.go.kr/",
+      "grade": "A",
+      "summary": "식품안전나라 공공 포털. 식품영업·위생 관련 공식 안내/검색 출처.",
+      "checked_at": "2026-05-19T16:10:14+09:00"
+    },
+    {
+      "url": "https://search.naver.com/search.naver?where=blog&query=%EC%8B%9D%ED%92%88%EC%9C%84%EC%83%9D%EA%B5%90%EC%9C%A1%20%EA%B8%B0%EC%A1%B4%EC%98%81%EC%97%85%EC%9E%90",
+      "grade": "B",
+      "summary": "블로그 검색 comparable. 기존영업자/온라인 수료증/과태료 질문형 글 다수로 독자 수요 확인.",
+      "checked_at": "2026-05-19T16:10:14+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 83,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "HIGH_RISK",
+    "CATEGORY_NEEDS_CHECK",
+    "PUBLIC_VISUAL_QA_PENDING",
+    "ANTI_REPETITION_QA_PENDING"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "후보 4개 검토: 음식점 위생교육 무료 검증 글 1개 GO, bounty/service/contest 3개 NO-GO."
+    },
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 교육기관·공공 포털 근거가 있고 독자/채널 명확. 기존 원산지 표시 글과 문제 행동이 다름."
+    },
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "실수 사례→4단계 체크 구조. 품질 83점, 과태료 단정은 제거."
+    },
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "reason_code": "NO_APPROVAL",
+      "summary": "본문/계획/이미지 계획 초안 완료. 이미지 생성·Tistory QA·게시 처리는 backlog job으로 이관."
+    },
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "업종별 교육기관·기한·과태료 단정 리스크. 공식 문구와 렌더링 QA 전 tracking 금지."
+    },
+    {
+      "time": "2026-05-19T16:10:14+09:00",
+      "agent": "roi",
+      "decision": "HOLD",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "직접 수익 0원이나 음식점 운영행정 검색 유입 자산으로 보존. 추가 비용 0원."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/style_brief.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/image_plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/body.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/redteam.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/roi.md"
+  ],
+  "next_action": "Backlog job: 공식 위생교육 문구/과태료 표현 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+  "stop_reason_code": "HIGH_RISK"
+}
