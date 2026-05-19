@@ -1,0 +1,243 @@
+{
+  "opportunity_id": "opp_20260519_072_food_origin_delivery_blog",
+  "title": "음식점 원산지 표시판·배달앱 메뉴 원산지 체크 무료 검증 글",
+  "type": "other",
+  "status": "tracking",
+  "created_at": "2026-05-19T06:50:37+09:00",
+  "updated_at": "2026-05-19T16:37:22+09:00",
+  "source_run_id": "2026-05-19_0646_money-flow",
+  "current_owner": "roi",
+  "buyer_or_payer": "배달앱·포장 판매를 같이 하는 작은 음식점/분식집/카페 운영자",
+  "channel": "Tistory 무료 검증 글 → 업종별 안내문/매장 운영 콘텐츠군 검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.mafra.go.kr/bbs/mafra/68/323578/artclView.do",
+      "grade": "A",
+      "summary": "농림축산식품부 음식점/배달음식 원산지 표시 관련 공식 보도자료 검색 결과 확인. 공개 전 본문 문구 재확인 필요.",
+      "checked_at": "2026-05-19T06:50:37+09:00"
+    },
+    {
+      "url": "https://www.naqs.go.kr/hp/fileManage/bbsDownload.do?fileGroupId=1712107310",
+      "grade": "A",
+      "summary": "국립농산물품질관리원 음식점 원산지 표시 자료 다운로드 결과 확인. 대상·표시방법은 최신 파일로 재확인 필요.",
+      "checked_at": "2026-05-19T06:50:37+09:00"
+    },
+    {
+      "url": "https://search.naver.com/search.naver?query=%EC%9D%8C%EC%8B%9D%EC%A0%90%20%EC%9B%90%EC%82%B0%EC%A7%80%20%ED%91%9C%EC%8B%9C%20%EB%B0%B0%EB%8B%AC%EC%95%B1",
+      "grade": "B",
+      "summary": "음식점 원산지 표시방법, 표시판 작성, 배달앱 원산지 표기 관련 comparable 블로그/Q&A 다수 확인.",
+      "checked_at": "2026-05-19T06:50:37+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 1,
+    "optimistic_units": 3
+  },
+  "scores": {
+    "quality": 84,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 32000,
+    "optimistic_net": 96000,
+    "base_net_margin_pct": 100
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "free_validation_only",
+    "tistory_published_verified",
+    "public_visual_qa_passed",
+    "category_verified",
+    "official_wording_softened"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4개 후보 검토. 음식점 원산지 표시/배달앱 체크 글이 중복이 적고 독자 pain이 명확함."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A/B 근거 확보. 법령 단정 없이 공식 재확인형 운영 체크 글로 진행."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "매장·포장·배달앱 원산지 표시 변경 루틴 무료 글로 scope 축소. 이미지 3장 계획 포함."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 84점. 최근 세금 글 반복을 피한 실수 사례 중심 구조."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "본문 초안, 스타일 브리프, 이미지 계획 작성 완료."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "로컬 초안 사용 가능. 공개 전 공식문구·이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "원산지 표시 법령/품목 오해와 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-19T06:50:37+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 매출은 없으나 음식점 운영 검색 유입 자산으로 비용 대비 기대값 양호."
+    },
+    {
+      "time": "2026-05-19T16:37:05+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "지원 이미지 3장 SVG/PNG 제작, 원산지 표시 법령 단정·과태료 숫자 단정 문구 완화, Tistory HTML 생성."
+    },
+    {
+      "time": "2026-05-19T16:37:05+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "이미지 contact sheet, 로컬 HTML, 공개 Tistory DOM/vision QA 통과. 이미지 3장 naturalWidth 1200, caption 간격 7px, 다음 요소 간격 20~24px 확인."
+    },
+    {
+      "time": "2026-05-19T16:37:05+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "summary": "공식자료 재확인형 문구로 완화했고 법률/품목 단정 없음. 판매 CTA 없음. 카테고리 매장 운영·플레이스 확인."
+    },
+    {
+      "time": "2026-05-19T16:37:05+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "무료 검증 글 공개로 tracking 전환. 기준 재사용/검색유입 기대 순가치 32,000원 유지, 실제 수익 0원."
+    },
+    {
+      "time": "2026-05-19T16:37:22+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "지원 이미지 3장 SVG/PNG 제작, 원산지 표시 법령 단정·과태료 숫자 단정 문구 완화, Tistory HTML 생성."
+    },
+    {
+      "time": "2026-05-19T16:37:22+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "이미지 contact sheet, 로컬 HTML, 공개 Tistory DOM/vision QA 통과. 이미지 3장 naturalWidth 1200, caption 간격 7px, 다음 요소 간격 20~24px 확인."
+    },
+    {
+      "time": "2026-05-19T16:37:22+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "summary": "공식자료 재확인형 문구로 완화했고 법률/품목 단정 없음. 판매 CTA 없음. 카테고리 매장 운영·플레이스 확인."
+    },
+    {
+      "time": "2026-05-19T16:37:22+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "무료 검증 글 공개로 tracking 전환. 기준 재사용/검색유입 기대 순가치 32,000원 유지, 실제 수익 0원."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/body.md",
+      "title": "body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/style_brief.md",
+      "title": "style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/image_plan.md",
+      "title": "image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/plan.md",
+      "title": "plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/evidence.md",
+      "title": "evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/roi.md",
+      "title": "roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/01-origin-thumb.svg",
+      "title": "01-origin-thumb.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/02-origin-flow.svg",
+      "title": "02-origin-flow.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/03-origin-checklist.svg",
+      "title": "03-origin-checklist.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/01-origin-thumb.png",
+      "title": "01-origin-thumb.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/02-origin-flow.png",
+      "title": "02-origin-flow.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/03-origin-checklist.png",
+      "title": "03-origin-checklist.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/body_revised.md",
+      "title": "body_revised.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/origin_tistory_body.html",
+      "title": "origin_tistory_body.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/local_render.html",
+      "title": "local_render.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/contact_sheet.html",
+      "title": "contact_sheet.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/title.txt",
+      "title": "title.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/tags.txt",
+      "title": "tags.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_072_food_origin_delivery_blog/assets/tistory_publish_result_20260519_food_origin.json",
+      "title": "tistory_publish_result_20260519_food_origin.json"
+    },
+    {
+      "url": "https://beemo.tistory.com/56",
+      "title": "Tistory public post"
+    }
+  ],
+  "next_action": "Tistory 무료 검증 글 공개 완료. 유입/조회 반응 추적.",
+  "stop_reason_code": null
+}
