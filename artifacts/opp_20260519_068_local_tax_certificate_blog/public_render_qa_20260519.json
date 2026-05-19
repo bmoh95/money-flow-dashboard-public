@@ -1,0 +1,23 @@
+{
+  "checked_at": "2026-05-19T13:24:33+09:00",
+  "url": "https://beemo.tistory.com/54?v=qa202605191321",
+  "status": "public_visual_qa_passed",
+  "dom": {
+    "image_count": 3,
+    "all_images_complete": true,
+    "natural_size": "1200x675 each",
+    "img_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "caption_to_next_h2_px": [
+      24,
+      24,
+      24
+    ],
+    "category_verified": "세금·장부",
+    "og_image_present": true
+  },
+  "vision": "본문 이미지 3장 가독성, 고딕체 느낌, 겹침/잘림 없음, 캡션·헤딩 간격 정상."
+}
