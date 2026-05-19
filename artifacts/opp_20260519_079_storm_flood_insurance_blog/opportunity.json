@@ -1,0 +1,125 @@
+{
+  "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+  "title": "소상공인 풍수해·지진재해보험 가입 전 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-19T13:04:04+09:00",
+  "updated_at": "2026-05-19T13:04:04+09:00",
+  "source_run_id": "2026-05-19_1259_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "장마·태풍 전 상가/공장 운영 소상공인 독자; 간접 블로그 유입 검증",
+  "channel": "Tistory free validation blog (standing approval after QA; this scout does not publish)",
+  "evidence": [
+    {
+      "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
+      "grade": "A",
+      "summary": "행정안전부 풍수해·지진재해보험 운영 공식 안내. 소상공인 상가·공장, 시설·집기비품, 재고자산 등 대상·상품 구분 확인.",
+      "checked_at": "2026-05-19T13:04:04+09:00"
+    },
+    {
+      "url": "https://safekorea.go.kr/idsiSFK/neo/sfk/cs/contents/insurance/SDIJKM2101.html?menuSeq=303",
+      "grade": "A",
+      "summary": "국민안전24 보험 안내. 공식 안내 출처로 독자 확인 링크에 적합.",
+      "checked_at": "2026-05-19T13:04:04+09:00"
+    },
+    {
+      "url": "https://blog.naver.com/sojeongtong/224254179270",
+      "grade": "B",
+      "summary": "소상공인 풍수해보험 블로그 comparable. 지원율 후킹이 강하나 광고성 리스크 있어 문체는 참고만.",
+      "checked_at": "2026-05-19T13:04:04+09:00"
+    },
+    {
+      "url": "https://zippoom.com/블로그/소상공인-풍수해보험-가입-방법-필요서류/1287",
+      "grade": "B",
+      "summary": "가입방법/조건/서류형 comparable. 실무 검색 수요 확인용.",
+      "checked_at": "2026-05-19T13:04:04+09:00"
+    },
+    {
+      "url": "https://direct.hi.co.kr/service.do?m=c587727700",
+      "grade": "A",
+      "summary": "보험사 소상공인 풍수해지진재해보험 상품 안내. 특정 보험사 추천은 금지하고 보장범위 확인 예시로만 사용.",
+      "checked_at": "2026-05-19T13:04:04+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 84,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "HIGH_RISK",
+    "CATEGORY_NEEDS_CHECK",
+    "PUBLIC_VISUAL_QA_PENDING"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "후보 4개 검토: 블로그 보험 체크 글 1개 GO, bounty/writing/contest 3개 NO-GO."
+    },
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 공식 근거와 시즌성 수요 확인. 기존 Money Flow 주제와 중복 낮음."
+    },
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "광고성 보험 추천이 아닌 대상 판단 3문항 구조로 차별화. 품질 84점."
+    },
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "reason_code": "NO_APPROVAL",
+      "summary": "본문/계획 초안은 완료. 이미지 생성·Tistory 렌더링 QA·카테고리 검증은 backlog job으로 이관."
+    },
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "보험/지원율 단정 리스크. 공식 문구 재확인과 이미지·공개 QA 전 tracking 금지."
+    },
+    {
+      "time": "2026-05-19T13:04:04+09:00",
+      "agent": "roi",
+      "decision": "HOLD",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "직접 수익 0원이나 시즌성 무료 검증 자산으로 보존. 추가 비용 0원."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/style_brief.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/image_plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/body.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/redteam.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
+  ],
+  "next_action": "Backlog job: 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+  "stop_reason_code": "HIGH_RISK"
+}
