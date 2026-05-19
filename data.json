@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T23:02:09+09:00",
+  "updated_at": "2026-05-19T23:04:29+09:00",
   "last_run": {
     "run_id": "2026-05-19_2249_money-flow",
     "started_at": "2026-05-19T23:01:26+09:00",
-    "finished_at": "2026-05-19T23:01:56+09:00",
+    "finished_at": "2026-05-19T23:04:22+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -34,7 +34,8 @@
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-19_2249_money-flow/dashboard_verify.json"
     ],
     "approval_needed": [],
     "decisions": [
