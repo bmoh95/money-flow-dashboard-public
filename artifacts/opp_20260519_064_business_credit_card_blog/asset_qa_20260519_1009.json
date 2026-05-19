@@ -1,0 +1,37 @@
+{
+  "created_at": "2026-05-19T10:12:25+09:00",
+  "pngs": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/01-business-card-thumb.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/02-business-card-flow.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/03-business-card-checklist.png"
+  ],
+  "sizes": [
+    {
+      "file": "01-business-card-thumb.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/01-business-card-thumb.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "02-business-card-flow.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/02-business-card-flow.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "03-business-card-checklist.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/03-business-card-checklist.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    }
+  ],
+  "official_recheck": {
+    "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2475&cntntsId=7799",
+    "status_code": 200,
+    "ok": true,
+    "text_hits": {
+      "사업용 신용카드": true,
+      "가족카드": true,
+      "등록": true,
+      "조회": true,
+      "공제": true
+    }
+  },
+  "risk_wording_softened": true,
+  "html_created": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/business_card_tistory_body.html",
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/contact_sheet.html"
+}
