@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f0fdfa"/>
+
+<rect x="54" y="48" width="1092" height="579" rx="42" fill="#ffffff"/>
+<rect x="86" y="82" width="272" height="44" rx="22" fill="#ecfeff"/>
+<text x="116" y="112" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#0e7490" text-anchor="start" >가입 전 3단계</text>
+<text x="90" y="196" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#102a43" text-anchor="start" >대상 → 담보 → 문의처</text>
+<g>
+  <rect x="90" y="298" width="300" height="154" rx="28" fill="#f0fdfa" stroke="#99f6e4" stroke-width="4"/>
+  <text x="240" y="350" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="34" font-weight="800" fill="#0f766e" text-anchor="middle" >1</text>
+  <text x="240" y="396" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#102a43" text-anchor="middle" >상가·공장인지</text>
+  <text x="240" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#587079" text-anchor="middle" >대상부터 확인</text>
+</g>
+<path d="M410 376 H470" stroke="#5ab8b0" stroke-width="9" stroke-linecap="round"/>
+<path d="M470 376 l-18 -16 M470 376 l-18 16" stroke="#5ab8b0" stroke-width="9" stroke-linecap="round"/>
+<g>
+  <rect x="500" y="298" width="300" height="154" rx="28" fill="#eff6ff" stroke="#bfdbfe" stroke-width="4"/>
+  <text x="650" y="350" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="34" font-weight="800" fill="#2563eb" text-anchor="middle" >2</text>
+  <text x="650" y="396" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#102a43" text-anchor="middle" >시설·집기·재고</text>
+  <text x="650" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#587079" text-anchor="middle" >무엇이 걸리는지</text>
+</g>
+<path d="M820 376 H880" stroke="#5ab8b0" stroke-width="9" stroke-linecap="round"/>
+<path d="M880 376 l-18 -16 M880 376 l-18 16" stroke="#5ab8b0" stroke-width="9" stroke-linecap="round"/>
+<g>
+  <rect x="910" y="298" width="206" height="154" rx="28" fill="#fff7ed" stroke="#fed7aa" stroke-width="4"/>
+  <text x="1013" y="350" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="34" font-weight="800" fill="#ea580c" text-anchor="middle" >3</text>
+  <text x="1013" y="396" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#102a43" text-anchor="middle" >공식 안내</text>
+  <text x="1013" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#587079" text-anchor="middle" >상담으로 확인</text>
+</g>
+<rect x="90" y="506" width="1026" height="70" rx="24" fill="#f8fafc"/>
+<text x="604" y="552" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="700" fill="#465a64" text-anchor="middle" >지원율·보험료·보상액은 지역·상품·현장 상황에 따라 달라질 수 있어요</text>
+
+</svg>

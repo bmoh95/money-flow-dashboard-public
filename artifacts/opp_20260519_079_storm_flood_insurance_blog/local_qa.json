@@ -1,0 +1,45 @@
+{
+  "checked_at": "2026-05-19T22:56:39+09:00",
+  "qa": [
+    {
+      "file": "01-storm-insurance-thumb.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "02-storm-insurance-message.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "03-storm-insurance-checklist.png",
+      "sips": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png\n  pixelWidth: 1200\n  pixelHeight: 675\n"
+    },
+    {
+      "file": "02-storm-insurance-message.svg",
+      "text_nodes": 12,
+      "font_family_on_text_nodes": 12,
+      "ok": true
+    },
+    {
+      "file": "01-storm-insurance-thumb.svg",
+      "text_nodes": 6,
+      "font_family_on_text_nodes": 6,
+      "ok": true
+    },
+    {
+      "file": "03-storm-insurance-checklist.svg",
+      "text_nodes": 12,
+      "font_family_on_text_nodes": 12,
+      "ok": true
+    },
+    {
+      "html_checks": {
+        "img_count": 3,
+        "official_links": 2,
+        "raw_markdown_artifacts": false,
+        "risky_words_present": []
+      }
+    }
+  ],
+  "category": "업종별 안내문 > 매장 운영·플레이스",
+  "category_id": "1295940"
+}

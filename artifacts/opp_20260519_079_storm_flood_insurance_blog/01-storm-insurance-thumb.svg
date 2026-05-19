@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#eaf8f5"/>
+
+<rect x="54" y="48" width="1092" height="579" rx="42" fill="#ffffff" opacity="0.96"/>
+<rect x="82" y="80" width="318" height="46" rx="23" fill="#d9f3ef"/>
+<text x="112" y="112" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#126c65" text-anchor="start" >장마 전 10분 체크</text>
+<text x="100" y="220" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="62" font-weight="800" fill="#102a43" text-anchor="start" >우리 가게</text>
+<text x="100" y="294" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="62" font-weight="800" fill="#102a43" text-anchor="start" >풍수해보험</text>
+<text x="100" y="368" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="62" font-weight="800" fill="#102a43" text-anchor="start" >먼저 볼 것</text>
+<text x="102" y="480" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="30" font-weight="700" fill="#31515c" text-anchor="start" >상가·공장·재고부터 가볍게 확인</text>
+<path d="M795 128 C865 162 927 162 997 128 L997 294 C997 398 923 478 896 506 C868 477 795 399 795 294 Z" fill="#d9f3ef" stroke="#0f766e" stroke-width="8"/>
+<path d="M864 284 l38 38 l78 -100" fill="none" stroke="#0f766e" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M720 430 h265 v86 h-265 z" fill="#f6fbfb" stroke="#0f766e" stroke-width="5"/>
+<path d="M748 430 v-70 h60 v70 M833 430 v-112 h70 v112 M930 430 v-54 h42 v54" fill="#ffffff" stroke="#0f766e" stroke-width="5"/>
+<path d="M745 120 C710 170 696 202 696 230 c0 39 30 66 66 66 s66-27 66-66 c0-28-15-60-51-110 c-8-12-24-12-32 0z" fill="#87d6cf" opacity="0.78"/>
+<path d="M1002 92 C975 133 963 160 963 183 c0 31 24 53 54 53 s54-22 54-53 c0-23-12-50-42-91 c-7-10-21-10-27 0z" fill="#b7e8e3" opacity="0.9"/>
+<text x="100" y="590" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#5f6f75" text-anchor="start" >※ 가입 가능 여부·보장 범위는 공식 안내와 상담으로 확인</text>
+
+</svg>
