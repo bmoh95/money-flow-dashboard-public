@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-19T18:07:47+09:00",
+  "updated_at": "2026-05-19T19:13:45+09:00",
   "last_run": {
-    "run_id": "2026-05-19_1800_money-flow",
-    "started_at": "2026-05-19T18:07:47+09:00",
-    "finished_at": "2026-05-19T18:07:47+09:00",
+    "run_id": "2026-05-19_1910_money-flow",
+    "started_at": "2026-05-19T19:13:45+09:00",
+    "finished_at": "2026-05-19T19:13:45+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -17,29 +17,29 @@
     "opportunities_advanced": 0,
     "opportunities_rejected": 1,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_085_cash_bounty_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_085_cash_bounty_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_085_cash_bounty_scout_no_go/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260519_085_cash_bounty_scout_no_go",
+        "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
         "decision": "NO-GO",
         "reason_code": "DUPLICATE"
       }
     ],
-    "summary": "Bounty/direct-payout 후보 10개 preflight; 중복 PR/assignment/external outreach/payment risk 때문에 신규 GO 없음.",
+    "summary": "Bounty/direct-payout 후보 10개 preflight; 중복 PR/assignment/external marketing/privacy risk 때문에 신규 GO 없음.",
     "final_report": "주인님, Money Flow bounty scout 결과입니다. 현금성 후보 10개를 preflight했고 GO 없이 전부 NO-GO/HOLD입니다."
   },
   "metrics": {
-    "total": 85,
+    "total": 86,
     "active": 4,
     "approval_needed": 1,
     "launched": 32,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 49
+    "rejected": 50
   },
   "active_opportunities": [
     {
@@ -1641,7 +1641,7 @@
     }
   ],
   "rejection_summary": {
-    "중복/경쟁 과다": 19,
+    "중복/경쟁 과다": 20,
     "기회비용": 17,
     "고위험": 11,
     "인증 막힘": 1,
@@ -1656,97 +1656,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T14:39:53+09:00",
-      "run_id": "2026-05-19_1435_money-flow",
-      "opportunity_id": "opp_20260519_081_cash_bounty_scout_no_go",
-      "links": [
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/304",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/306",
-        "https://github.com/BAWES-Universe/studenthub-staff/issues/27",
-        "https://github.com/BAWES-Universe/studenthub-staff/issues/28",
-        "https://github.com/BAWES-Universe/studenthub-staff/issues/29",
-        "https://github.com/DefGuard/client/issues/833",
-        "https://github.com/Kreyren/git-workspace/issues/1",
-        "https://github.com/sindresorhus/fkill-cli/issues/6",
-        "https://github.com/OWASP-BLT/BLT-Sammich/issues/64"
-      ],
-      "agent": "roi",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "위험조정 기준 기대 순가치 0원."
-    },
-    {
-      "time": "2026-05-19T15:49:11+09:00",
-      "run_id": "2026-05-19_1543_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_082_cash_bounty_scout_no_go",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "현금성 bounty/direct-payout 후보 7건 검색 및 preflight 확인.",
-      "links": [
-        "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
-        "https://github.com/Dokploy/dokploy/issues/1413",
-        "https://github.com/QuantumSavory/QuantumSavory.jl/issues/138",
-        "https://github.com/ubiquity/business-development/issues/90",
-        "https://github.com/midnightntwrk/contributor-hub/issues/312",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/573",
-        "https://github.com/SecureBananaLabs/bug-bounty/issues/29"
-      ]
-    },
-    {
-      "time": "2026-05-19T15:49:11+09:00",
-      "run_id": "2026-05-19_1543_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260519_082_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "자동 PR 기준 통과 후보 없음: 경쟁/중복·범위 과대·지급 불명확.",
-      "links": [
-        "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
-        "https://github.com/Dokploy/dokploy/issues/1413",
-        "https://github.com/QuantumSavory/QuantumSavory.jl/issues/138",
-        "https://github.com/ubiquity/business-development/issues/90",
-        "https://github.com/midnightntwrk/contributor-hub/issues/312",
-        "https://github.com/UnsafeLabs/Bounty-Hunters/issues/573",
-        "https://github.com/SecureBananaLabs/bug-bounty/issues/29"
-      ]
-    },
-    {
-      "time": "2026-05-19T15:49:11+09:00",
-      "run_id": "2026-05-19_1543_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260519_082_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "research_rejected",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "REDTEAM_REJECTED",
-      "summary": "외부 마케팅/토큰성 작업/과밀한 AI bounty 및 기존 실패 재시도 위험 확인.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T15:49:11+09:00",
-      "run_id": "2026-05-19_1543_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260519_082_cash_bounty_scout_no_go",
-      "event": "decision",
-      "from_status": "research_rejected",
-      "to_status": "research_rejected",
-      "decision": "NO-GO",
-      "reason_code": "OPPORTUNITY_COST",
-      "summary": "이번 후보들의 위험조정 기대 순수익은 0원. 구현/PR 미실행.",
-      "links": []
-    },
     {
       "time": "2026-05-19T16:10:14+09:00",
       "run_id": "2026-05-19_1605_money-flow",
@@ -2140,6 +2049,88 @@
       "run_id": "2026-05-19_1800_money-flow",
       "agent": "roi",
       "opportunity_id": "opp_20260519_085_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "신규 구현/PR 없음; 기대 순수익 0.",
+      "links": []
+    },
+    {
+      "time": "2026-05-19T19:13:45+09:00",
+      "run_id": "2026-05-19_1910_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "researching",
+      "decision": null,
+      "reason_code": null,
+      "summary": "cash/platform bounty 후보 10개 검색.",
+      "links": [
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+        "https://github.com/tscircuit/winterspec/issues/30",
+        "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+        "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+        "https://github.com/outerbase/starbasedb/issues/71",
+        "https://github.com/rohitdash08/FinMind/issues/121",
+        "https://github.com/rohitdash08/FinMind/issues/76",
+        "https://github.com/ubiquity/business-development/issues/90",
+        "https://github.com/archestra-ai/archestra/issues/3218"
+      ]
+    },
+    {
+      "time": "2026-05-19T19:13:45+09:00",
+      "run_id": "2026-05-19_1910_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "기존 PR/attempt 과밀 및 assignment 필요로 구현 전 중단.",
+      "links": [
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+        "https://github.com/tscircuit/winterspec/issues/30",
+        "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+        "https://github.com/SecureBananaLabs/bug-bounty/issues/76"
+      ]
+    },
+    {
+      "time": "2026-05-19T19:13:45+09:00",
+      "run_id": "2026-05-19_1910_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "품질 80+ 계획/구현으로 넘길 standing-approval 후보 없음.",
+      "links": []
+    },
+    {
+      "time": "2026-05-19T19:13:45+09:00",
+      "run_id": "2026-05-19_1910_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "research_rejected",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "중복 PR crowding, assignment 조건, 외부 마케팅/민감 기능 범위로 리스크 차단.",
+      "links": []
+    },
+    {
+      "time": "2026-05-19T19:13:45+09:00",
+      "run_id": "2026-05-19_1910_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
       "event": "decision",
       "from_status": "researching",
       "to_status": "research_rejected",
@@ -19462,6 +19453,167 @@
         {
           "label": "roi.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_085_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null
+    },
+    {
+      "key": "MF-86",
+      "id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "opportunity_id": "opp_20260519_086_cash_bounty_scout_no_go",
+      "title": "Cash/platform bounty scout: 10 candidates rejected or held at preflight",
+      "status": "종료/폐기",
+      "status_label": "종료/폐기",
+      "raw_status": "research_rejected",
+      "column": "종료/폐기",
+      "type": "바운티",
+      "priority": "보통",
+      "tags": [
+        "바운티",
+        "중복/경쟁 과다"
+      ],
+      "quality": null,
+      "expected_base_net": 0,
+      "base_net_margin_pct": 0,
+      "margin_pct": 0,
+      "expected_price": 0,
+      "buyer_or_payer": "Algora/Opire/Ubiquity 후보별 상이",
+      "channel": "GitHub issue + fork PR + platform claim/comment",
+      "current_owner": "시장성 검토",
+      "next_action": "다음 scout는 최근 생성·낮은 PR 경쟁·assignment 불필요·cash/platform 지급 명확한 micro-bounty를 우선 검색.",
+      "risk_flags": [
+        "DUPLICATE_PR_CROWDING",
+        "ASSIGNMENT_REQUIRED",
+        "EXTERNAL_MARKETING",
+        "BROAD_SECURITY_OR_PRIVACY_SCOPE"
+      ],
+      "stop_reason": "중복/경쟁 과다",
+      "evidence": [
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/2",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Opire $75 cash/platform; merge auto-release claimed. Open/no assignee and claim route visible, but 388 comments and many duplicate open PRs (#1673/#1676/#1681/#1686/#1687/#1692 etc.). Template quality race is saturated; no duplicate PR.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/3",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Opire $100 cash/platform; merge auto-release claimed. Open/no assignee and clear acceptance criteria, but 546 comments and many open PRs (#1675/#1680/#1682/#1688/#1689/#1691). Security hook duplicates already cover required patterns; approval odds poor.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/winterspec/issues/30",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Algora $8 cash/platform. Issue open and bounty up-for-grabs, but PR list has many active duplicate fixes (#128-#148) targeting the exact plain-object return error. Small bounty accepted in principle, rejected due to competition, not amount.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/tscircuit/schematic-trace-solver/issues/29",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Algora $100 cash/platform. Open/no assignee, but 90+ comments and many active PRs (#349/#350/#351/#352/#353/#355/#357/#358/#362/#363/#364/#365). Requires reproduction and geometry test depth; no new PR.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/SecureBananaLabs/bug-bounty/issues/76",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Algora $430 cash/platform. Open/no assignee, AI-friendly and simple file task, but numerous active poem PRs (#284/#285/#287/#290/#294/#298) and attempts. Creative low-effort bounty likely spam-saturated; no submission.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/outerbase/starbasedb/issues/71",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Algora $250 cash/platform. Open/no assignee and payout visible, but many prior attempts/PRs and target is broad 75% meaningful coverage across project. Not a quick micro-bounty; duplicate/large scope.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/rohitdash08/FinMind/issues/121",
+          "grade": "A",
+          "summary": "NO-GO / DUPLICATE — Algora $500 cash/platform. Open/no assignee, but comments show PR #147 already ready for review plus multiple attempts. Production-ready feature with tests/docs is broad and already contested.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/rohitdash08/FinMind/issues/76",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Algora $500 cash/platform. Open but assigned to kumargope and maintainer explicitly approved that contributor. GDPR deletion/audit workflow is sensitive broad backend work; no automatic implementation.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/ubiquity/business-development/issues/90",
+          "grade": "A",
+          "summary": "NO-GO / HIGH_USER_INPUT — Ubiquity label Price: 200 USD. Issue open with price label, but task is growth/marketing outreach/content seeding around GitHub. Requires external marketing/customer contact beyond standing bounty PR approval.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        },
+        {
+          "url": "https://github.com/archestra-ai/archestra/issues/3218",
+          "grade": "A",
+          "summary": "HOLD / HIGH_USER_INPUT — Algora $150 cash/platform. Open but assigned to joeyorlando and junaiddshaukat; Algora instructions require core-team assignment before starting. Broad enterprise connector/ACL feature; no coding before eligibility.",
+          "checked_at": "2026-05-19T19:13:45+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-19T19:13:45+09:00",
+          "agent": "research_member",
+          "decision": "NO-GO",
+          "reason_code": "DUPLICATE",
+          "summary": "cash/platform bounty/direct-payout 후보 10개 검색 및 preflight 확인."
+        },
+        {
+          "time": "2026-05-19T19:13:45+09:00",
+          "agent": "research_lead",
+          "decision": "NO-GO",
+          "reason_code": "DUPLICATE",
+          "summary": "작고 빠른 후보는 모두 기존 PR/attempt 과밀 또는 할당 조건 미충족."
+        },
+        {
+          "time": "2026-05-19T19:13:45+09:00",
+          "agent": "planning_lead",
+          "decision": "NO-GO",
+          "reason_code": "HIGH_USER_INPUT",
+          "summary": "Ubiquity/Archestra/FinMind 일부는 외부 마케팅·할당·민감 개인정보 범위로 자동 진행 불가."
+        },
+        {
+          "time": "2026-05-19T19:13:45+09:00",
+          "agent": "redteam",
+          "decision": "NO-GO",
+          "reason_code": "REDTEAM_REJECTED",
+          "summary": "중복 제출, assignment 미충족, 스팸성 creative bounty, 민감 기능 범위가 지급 가능성을 낮춤."
+        },
+        {
+          "time": "2026-05-19T19:13:45+09:00",
+          "agent": "roi",
+          "decision": "NO-GO",
+          "reason_code": "OPPORTUNITY_COST",
+          "summary": "GO 후보 없음; 구현/PR 기대 순수익 0."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/roi.md"
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/evidence.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_086_cash_bounty_scout_no_go/roi.md"
         }
       ],
       "approval_required": false,
