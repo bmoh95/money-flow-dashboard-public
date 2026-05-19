@@ -1,0 +1,139 @@
+{
+  "opportunity_id": "opp_20260519_088_cash_bounty_scout_no_go",
+  "title": "Cash/platform bounty scout: 9 candidates preflighted, no safe PR",
+  "type": "bounty",
+  "status": "research_rejected",
+  "created_at": "2026-05-19T20:20:08+09:00",
+  "updated_at": "2026-05-19T20:20:08+09:00",
+  "source_run_id": "2026-05-19_2014_money-flow",
+  "current_owner": "research_lead",
+  "buyer_or_payer": "Algora/Opire/tscircuit/Space and Time 후보별 상이",
+  "channel": "GitHub issue + fork PR + Algora/Opire claim/comment",
+  "evidence": [
+    {
+      "url": "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Opire $200 cash/platform. Issue open, no assignee, Opire claim route visible via `/opire try`, but 312 comments and repeated `/opire try` attempts. Requires real n8n/Claude execution screenshot and workflow validation; competition/scope too high for safe automatic PR.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/pcb-viewer/issues/163",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Algora $3 cash/platform. $3 micro-bounty is acceptable in principle; Algora route clear. Rejected because active attempts exist and PR search shows many open duplicate/spam PRs (#848-#858 plus earlier #169). Approval odds poor.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/3d-viewer/issues/93",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Algora $5 cash/platform. Open/no assignee, payout route clear. Multiple attempts and solution comments already propose the same global model cache/in-flight promise approach; small code fix now crowded and likely duplicate.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/prompt-benchmarks/issues/45",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Algora $5 cash/platform. Open/no assignee and $5 micro-bounty route clear, but many open PRs (#52/#54/#56/#57/#61/#63/#65/#66/#67/#68) already target the exact prompt-docs change.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/docs/issues/603",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Bounty mentioned, payout route unclear/wallet comments present. Open but existing PRs #607/#612/#615/#619 and comments include wallet-style claims. Content/tutorial bounty is crowded and payout/claim hygiene is worse than Algora cash PR path.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/docs/issues/602",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Bounty mentioned, payout route unclear/wallet comments present. Open but existing PRs #608/#611/#614/#617 and wallet comments. Content fallback not allowed while bounty candidates exist; no duplicate docs PR.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
+      "grade": "A",
+      "summary": "HOLD / HIGH_USER_INPUT — Algora $200+$229 cash/platform per covered line. Open/no assignee; Algora route clear and parallel work allowed. However it is broad Rust coverage work with 167 comments and existing attempt approved by maintainer; requires significant repo profiling/test design before a small safe PR.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/557",
+      "grade": "A",
+      "summary": "NO-GO / HIGH_USER_INPUT — Algora $100+ cash/platform performance bounty. Open/no assignee; payout route clear. Requires cutting a long Rust test suite runtime with before/after benchmark evidence; existing attempts and high local compute/time burden make it unsuitable for this quick scout lane.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    },
+    {
+      "url": "https://github.com/tscircuit/jlcsearch/issues/92",
+      "grade": "A",
+      "summary": "NO-GO / DUPLICATE — Algora $75 cash/platform. Open/no assignee but comments show a submitted PR already awarded $75 to another contributor. Issue remains open/stale; no PR.",
+      "checked_at": "2026-05-19T20:20:08+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": null,
+    "user_involvement": 1,
+    "cash_distance": 2,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "DUPLICATE_PR_CROWDING",
+    "ACTIVE_ATTEMPTS",
+    "WALLET_OR_PAYOUT_AMBIGUITY",
+    "BROAD_TEST_PERFORMANCE_SCOPE"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T20:20:08+09:00",
+      "agent": "research_member",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "cash/platform bounty/direct-payout 후보 9개 검색 및 preflight 확인."
+    },
+    {
+      "time": "2026-05-19T20:20:08+09:00",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "소액 micro-bounty는 금액 때문에 배제하지 않았으나 경쟁 PR/attempt 과밀로 승인 가능성 낮음."
+    },
+    {
+      "time": "2026-05-19T20:20:08+09:00",
+      "agent": "planning_lead",
+      "decision": "NO-GO",
+      "reason_code": "HIGH_USER_INPUT",
+      "summary": "Space and Time 후보는 넓은 Rust 테스트/벤치마크 범위로 빠른 제출 부적합."
+    },
+    {
+      "time": "2026-05-19T20:20:08+09:00",
+      "agent": "redteam",
+      "decision": "NO-GO",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "중복 제출, stale/open-but-awarded issue, wallet comments, 광범위 성능작업이 지급 가능성을 낮춤."
+    },
+    {
+      "time": "2026-05-19T20:20:08+09:00",
+      "agent": "roi",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "구현/PR 제출로 전환할 standing-approval 후보 없음; 기준 기대 순수익 0."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_088_cash_bounty_scout_no_go/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_088_cash_bounty_scout_no_go/decisions.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_088_cash_bounty_scout_no_go/roi.md"
+  ],
+  "next_action": "다음 scout는 newly opened, comments<10, no active attempts, Algora/Opire cash route clear, PR count low인 typo/test/doc micro-bounty를 우선 검색.",
+  "stop_reason_code": "DUPLICATE"
+}
