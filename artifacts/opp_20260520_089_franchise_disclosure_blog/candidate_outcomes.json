@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "프랜차이즈 계약 전 정보공개서 체크 무료 검증 글",
+    "type": "blog_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "공정거래위원회 가맹사업거래/가맹정보제공시스템과 생활법령 A근거가 있고, 예비 창업자 pain이 명확함. 최근 세금·지원금 글 반복을 피하고 “계약서보다 먼저 줄 긋는 순서”로 차별화.",
+    "links": [
+      "https://franchise.ftc.go.kr/",
+      "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=647&ccfNo=2&cciNo=1&cnpClsNo=2",
+      "https://law.go.kr/admRulLsInfoP.do?admRulId=34702&efYd=0"
+    ]
+  },
+  {
+    "candidate": "무인점포 분실물·CCTV 안내 체크 글",
+    "type": "service_operations_blog",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_RISK",
+    "summary": "무인점포 운영자 수요는 있으나 분실물 처리·CCTV 공개·개인정보보호법 리스크가 높고, 정확한 법률 검토 없이는 문구 예시가 위험함. 오늘 신규 초안으로는 부적합.",
+    "links": [
+      "https://www.easylaw.go.kr/CSP/CnpClsMain.laf?csmSeq=1888&ccfNo=2&cciNo=1&cnpClsNo=1&menuType=onhunqna"
+    ]
+  },
+  {
+    "candidate": "스마트스토어 정산보류·정산일 확인표",
+    "type": "calculator_blog",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "검색 수요와 comparable 글은 많지만 기존 스마트스토어 리뷰/통신판매업 글과 같은 온라인 판매자 업종으로 겹침. 플랫폼 정책·정산 조건 변동 부담도 큼.",
+    "links": [
+      "https://duckduckgo.com/html/?q=스마트스토어+정산+보류+사유+정산일+블로그"
+    ]
+  },
+  {
+    "candidate": "오마이뉴스 시민기자 원고료 pitch",
+    "type": "paid_writing",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "summary": "공식 가이드와 원고료 사례는 있으나 회원가입/개인정보/정산/편집 승인 부담이 큼. 자동 수익화 scout의 저관여 조건에 맞지 않음.",
+    "links": [
+      "https://www.ohmynews.com/NWS_Web/company/guide_write.aspx"
+    ]
+  }
+]
