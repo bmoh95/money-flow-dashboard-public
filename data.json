@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T05:37:49+09:00",
+  "updated_at": "2026-05-20T05:39:25+09:00",
   "last_run": {
     "run_id": "2026-05-20_0532_money-flow",
     "started_at": "2026-05-20T05:37:49+09:00",
-    "finished_at": "2026-05-20T05:37:49+09:00",
+    "finished_at": "2026-05-20T05:39:25+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -30,8 +30,8 @@
         "to_status": "tracking"
       }
     ],
-    "summary": "Backlog item first-hire 4insurance Tistory post verified public and moved from redteam_hold to tracking.",
-    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_075_first_hire_4insurance_blog` 공개 URL 검증 완료: https://beemo.tistory.com/58\n- 이미지 3장/카테고리/OG/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n\n**시장성 판단**\n- 첫 직원 채용 사장님 대상 무료 검증 글입니다. 4대보험 대상·기한 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 재사용·검색유입 가치 34,000원 상당 / 추가 비용 0원.\n\n**대기**\n- 대시보드와 GitHub Pages mirror 갱신·검증 진행.\n\n**필요 승인**\n- 없음.\n"
+    "summary": "Backlog first-hire Tistory post verified public, moved to tracking, and GitHub Pages dashboard data verified.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_075_first_hire_4insurance_blog` 공개 URL 검증 완료: https://beemo.tistory.com/58\n- 이미지 3장/카테고리/OG/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n- 대시보드와 GitHub Pages mirror `data.json` HTTPS 검증 완료.\n\n**시장성 판단**\n- 첫 직원 채용 사장님 대상 무료 검증 글입니다. 4대보험 대상·기한 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 재사용·검색유입 가치 34,000원 상당 / 추가 비용 0원.\n\n**대기**\n- 남은 보류 큐 5개는 다음 backlog run에서 oldest-first 처리.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 92,
@@ -1988,18 +1988,6 @@
   "recent_events": [
     {
       "time": "2026-05-19T19:21:20+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A/B 근거, 독자와 채널 명확. 세무 조언 위험은 범위 제한으로 관리.",
-      "links": [
-        "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=21e8ce1222b24853f1ed9c839862b569"
-      ]
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
       "agent": "기획 검수",
       "opportunity_id": "opp_20260519_087_business_car_log_blog",
       "event": "decision",
@@ -2662,6 +2650,19 @@
       "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산을 기록.",
       "links": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/opportunity.json"
+      ]
+    },
+    {
+      "time": "2026-05-20T05:39:25+09:00",
+      "agent": "대시보드",
+      "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
+      "event": "dashboard_updated",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "GitHub Pages mirror pushed and HTTPS data.json verified with first-hire item in tracking.",
+      "links": [
+        "https://bmoh95.github.io/money-flow-dashboard-public/",
+        "https://bmoh95.github.io/money-flow-dashboard-public/data.json"
       ]
     }
   ],
