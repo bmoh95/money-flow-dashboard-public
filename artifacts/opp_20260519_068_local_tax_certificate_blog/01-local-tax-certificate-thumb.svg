@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+    <rect width="1200" height="675" fill="#EEF6FF"/>
+    <rect x="46" y="48" width="1108" height="579" rx="42" fill="#ffffff" opacity="0.78"/>
+    <circle cx="1045" cy="135" r="82" fill="#BFDBFE" opacity="0.55"/>
+    <circle cx="1010" cy="548" r="122" fill="#60A5FA" opacity="0.12"/>
+    <text x="82" y="116" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="800" fill="#2563EB">개인사업자 서류 체크</text>
+    <path d="M82 138 L330 138" stroke="#2563EB" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+    <text x="82" y="182" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">지방세 납세증명서</text><text x="82" y="246" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">제출 전 4가지</text>
+    
+        <rect x="650" y="267" width="430" height="66" rx="20" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+        <circle cx="688" cy="300" r="19" fill="#2563EB"/>
+        <text x="688" y="310" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="800" fill="white">1</text>
+        <text x="724" y="310" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172554">서류 이름 확인</text>
+        <rect x="650" y="349" width="430" height="66" rx="20" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+        <circle cx="688" cy="382" r="19" fill="#2563EB"/>
+        <text x="688" y="392" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="800" fill="white">2</text>
+        <text x="724" y="392" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172554">국세·지방세 구분</text>
+        <rect x="650" y="431" width="430" height="66" rx="20" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+        <circle cx="688" cy="464" r="19" fill="#2563EB"/>
+        <text x="688" y="474" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="800" fill="white">3</text>
+        <text x="724" y="474" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172554">PDF/종이 제출</text>
+        <rect x="650" y="513" width="430" height="66" rx="20" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+        <circle cx="688" cy="546" r="19" fill="#2563EB"/>
+        <text x="688" y="556" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="800" fill="white">4</text>
+        <text x="724" y="556" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172554">제출일 기준</text>
+    <text x="82" y="606" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#667085">제출처 이름부터 확인하고, 발급은 공식 페이지에서 다시 확인하세요</text>
+    </svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+    <rect width="1200" height="675" fill="#EEF6FF"/>
+    <rect x="46" y="48" width="1108" height="579" rx="42" fill="#ffffff" opacity="0.78"/>
+    <circle cx="1045" cy="135" r="82" fill="#BFDBFE" opacity="0.55"/>
+    <circle cx="1010" cy="548" r="122" fill="#60A5FA" opacity="0.12"/>
+    <text x="82" y="116" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="800" fill="#2563EB">발급 전에 먼저 나누기</text>
+    <path d="M82 138 L330 138" stroke="#2563EB" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+    <text x="82" y="182" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">이름 비슷한</text><text x="82" y="246" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">서류 3개 구분</text>
+    
+            <rect x="98" y="330" width="220" height="150" rx="28" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+            <circle cx="143" cy="378" r="24" fill="#2563EB"/>
+            <text x="143" y="388" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="white">국</text>
+            <text x="133" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#172554">국세</text><path d="M330 405 L356 405" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/><path d="M350 391 L368 405 L350 419" fill="none" stroke="#60A5FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="363" y="330" width="220" height="150" rx="28" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+            <circle cx="408" cy="378" r="24" fill="#2563EB"/>
+            <text x="408" y="388" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="white">지</text>
+            <text x="398" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#172554">지방세</text><path d="M595 405 L621 405" stroke="#60A5FA" stroke-width="8" stroke-linecap="round"/><path d="M615 391 L633 405 L615 419" fill="none" stroke="#60A5FA" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="628" y="330" width="220" height="150" rx="28" fill="white" stroke="#BFDBFE" stroke-width="3"/>
+            <circle cx="673" cy="378" r="24" fill="#2563EB"/>
+            <text x="673" y="388" text-anchor="middle" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="white">과</text>
+            <text x="663" y="430" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#172554">세목별</text>
+    <text x="82" y="606" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#667085">제출처 이름부터 확인하고, 발급은 공식 페이지에서 다시 확인하세요</text>
+    </svg>

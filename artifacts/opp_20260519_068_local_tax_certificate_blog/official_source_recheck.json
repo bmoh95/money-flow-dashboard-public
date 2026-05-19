@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056",
+    "status": 200,
+    "final_url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=13100000056",
+    "ok": true,
+    "snippet": " <!DOCTYPE html> <html lang=\"ko\"> <head> <meta charset=\"euc-kr\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"> <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"> <meta property=\"og:image\" content=\"http://www.korea.go.kr/images/etc/og_image_600.png\"/> <link rel=\"shortcut icon\" type=\"image/png\" href=\"/images/etc/favicon.png\" /> <link rel=\"shortcut icon\" type=\"image/png\" href=\"/images/etc/favicon1.png\" /> <link rel=\"stylesheet\" href=\"/2017/lib/css/default.css\"> <link rel"
+  },
+  {
+    "url": "https://plus.gov.kr/search/searchdtl/?srvcId=13100000056&typeSn=01",
+    "status": 200,
+    "final_url": "https://plus.gov.kr/search/searchdtl/?srvcId=13100000056&typeSn=01",
+    "ok": true,
+    "snippet": "<!DOCTYPE html><html lang=\"ko\" data-capo=\"\"><head><meta charset=\"utf-8\"> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=yes\"> <title>ìë¹ì¤ ìì¸ ìë´ | ì ë¶24</title> <script src=\"https://www.googletagmanager.com/gtag/js?id=G-K0JRNEEQMR\" async></script> <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/prod/iw-ai.css?time=1778761843464\"> <link rel=\"stylesheet\" type=\"text/css\" href=\"/static/css/prod/iw-ai-custom.css?time=1778761843464\"> <link r"
+  }
+]

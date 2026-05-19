@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+    <rect width="1200" height="675" fill="#EEF6FF"/>
+    <rect x="46" y="48" width="1108" height="579" rx="42" fill="#ffffff" opacity="0.78"/>
+    <circle cx="1045" cy="135" r="82" fill="#BFDBFE" opacity="0.55"/>
+    <circle cx="1010" cy="548" r="122" fill="#60A5FA" opacity="0.12"/>
+    <text x="82" y="116" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="800" fill="#2563EB">다시 떼는 일을 줄이기</text>
+    <path d="M82 138 L330 138" stroke="#2563EB" stroke-width="7" stroke-linecap="round" opacity="0.55"/>
+    <text x="82" y="182" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">발급 전</text><text x="82" y="246" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="54" font-weight="800" fill="#172554">마지막 체크</text>
+    
+            <rect x="112" y="250" width="970" height="48" rx="16" fill="white" opacity="0.94"/>
+            <path d="M145 273 L158 287 L184 261" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="210" y="286" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#172554">제출처가 적은 정확한 서류명</text>
+            <rect x="112" y="308" width="970" height="48" rx="16" fill="white" opacity="0.94"/>
+            <path d="M145 331 L158 345 L184 319" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="210" y="344" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#172554">국세인지 지방세인지 먼저 구분</text>
+            <rect x="112" y="366" width="970" height="48" rx="16" fill="white" opacity="0.94"/>
+            <path d="M145 389 L158 403 L184 377" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="210" y="402" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#172554">PDF 업로드인지 종이 제출인지</text>
+            <rect x="112" y="424" width="970" height="48" rx="16" fill="white" opacity="0.94"/>
+            <path d="M145 447 L158 461 L184 435" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="210" y="460" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#172554">대표 본인 신청인지 대리 신청인지</text>
+            <rect x="112" y="482" width="970" height="48" rx="16" fill="white" opacity="0.94"/>
+            <path d="M145 505 L158 519 L184 493" fill="none" stroke="#2563EB" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="210" y="518" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#172554">발급일·유효기간 조건 확인</text>
+    <text x="82" y="606" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#667085">제출처 이름부터 확인하고, 발급은 공식 페이지에서 다시 확인하세요</text>
+    </svg>
