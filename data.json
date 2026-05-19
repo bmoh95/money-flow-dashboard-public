@@ -14,7 +14,7 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 7,
-    "opportunities_advanced": 1,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 1,
     "assets_created": [
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_077_cash_bounty_scout_no_go/evidence.md",
@@ -29,7 +29,7 @@
         "reason_code": "DUPLICATE"
       }
     ],
-    "summary": "bounty/direct-payout 후보 7개 preflight; 신규 GO 없음; PR monitor checked.",
+    "summary": "bounty/direct-payout 후보 7개 preflight; 신규 GO 없음; 기존 PR monitor 실제 상태 변화 없음.",
     "final_report": "주인님, Money Flow bounty scout 결과입니다. 후보 7개 검토, 신규 GO 0개."
   },
   "metrics": {
@@ -2149,21 +2149,6 @@
       "reason_code": "OPPORTUNITY_COST",
       "summary": "신규 구현 없음; 기대 순수익 0.",
       "links": []
-    },
-    {
-      "time": "2026-05-19T11:13:55+09:00",
-      "run_id": "2026-05-19_1109_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260519_071_unsafe_laravel_bounty_pr",
-      "event": "status_changed",
-      "from_status": "launched",
-      "to_status": "launched",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "PR #1710 material state changed.",
-      "links": [
-        "https://github.com/UnsafeLabs/Bounty-Hunters/pull/1710"
-      ]
     }
   ],
   "board_columns": [
