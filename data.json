@@ -3,7 +3,7 @@
   "last_run": {
     "run_id": "2026-05-20_0154_money-flow",
     "started_at": "2026-05-20T01:54:27+09:00",
-    "finished_at": "2026-05-20T02:03:15+09:00",
+    "finished_at": "2026-05-20T02:04:09+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -63,7 +63,7 @@
       }
     ],
     "summary": "New-work scout reviewed 4 candidates and created one free-validation blog draft package for 소상공인확인서 제출 전 체크.",
-    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 3개 NO-GO.\n- `opp_20260520_003_sme_confirmation_blog` 로컬 초안/계획/샘플 브리프 작성 완료.\n\n**시장성 판단**\n- GO: 정부24·중소기업현황정보시스템 A근거 + comparable 블로그 수요 있음.\n- 단순 발급법이 아니라 “제출 전 서류명·유효기간·파일형식 실수 방지”로 차별화.\n\n**예상 순마진**\n- 보수 0원 / 기준 25,000원 상당 재사용 가치 / 낙관 75,000원 상당.\n\n**대기**\n- 이미지 3장 생성·공식문구 재확인·Tistory 렌더 QA는 backlog job으로 이관.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료 예정.\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 3개 NO-GO.\n- `opp_20260520_003_sme_confirmation_blog` 로컬 초안/계획/샘플 브리프 작성 완료.\n\n**시장성 판단**\n- GO: 정부24·중소기업현황정보시스템 A근거 + comparable 블로그 수요 있음.\n- 단순 발급법이 아니라 “제출 전 서류명·유효기간·파일형식 실수 방지”로 차별화.\n\n**예상 순마진**\n- 보수 0원 / 기준 25,000원 상당 재사용 가치 / 낙관 75,000원 상당.\n\n**대기**\n- 이미지 3장 생성·공식문구 재확인·Tistory 렌더 QA는 backlog job으로 이관.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 91,
