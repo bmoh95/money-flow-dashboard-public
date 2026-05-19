@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#FFF7E8"/>
+<rect x="48" y="48" width="1104" height="579" rx="38" fill="#fffdf9"/>
+<circle cx="1020" cy="142" r="96" fill="#FFE1BD"/>
+<circle cx="112" cy="552" r="42" fill="#FFE1BD" opacity="0.75"/>
+<text x="96" y="118" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#C76B1A">음식점 원산지 표시</text>
+<line x1="96" y1="142" x2="390" y2="142" stroke="#C76B1A" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+<text x="96" y="204" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="58" font-weight="800" fill="#172033">배달앱</text><text x="96" y="270" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="58" font-weight="800" fill="#172033">원산지</text><text x="96" y="336" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="58" font-weight="800" fill="#172033">같이 봐야 하는 이유</text>
+<text x="96" y="436" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="700" fill="#586174">매장·포장·앱 화면을 따로 점검</text>
+<text x="952" y="167" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="72" font-weight="700" text-anchor="middle">🍜</text>
+<rect x="690" y="320" width="390" height="68" rx="22" fill="#ffffff" stroke="#C76B1A" stroke-opacity="0.22"/>
+<circle cx="730" cy="354" r="15" fill="#C76B1A"/>
+<path d="M722 354 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="363" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">메뉴판만 보면 빠짐</text>
+<rect x="690" y="408" width="390" height="68" rx="22" fill="#ffffff" stroke="#C76B1A" stroke-opacity="0.22"/>
+<circle cx="730" cy="442" r="15" fill="#C76B1A"/>
+<path d="M722 442 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="451" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">재료 변경일 메모</text>
+<rect x="690" y="496" width="390" height="68" rx="22" fill="#ffffff" stroke="#C76B1A" stroke-opacity="0.22"/>
+<circle cx="730" cy="530" r="15" fill="#C76B1A"/>
+<path d="M722 530 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="539" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">공식 안내로 마지막 확인</text>
+
+<text x="96" y="604" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="23" font-weight="700" fill="#6b7280">무료 검증 글 · 판매 CTA 없음</text>
+</svg>

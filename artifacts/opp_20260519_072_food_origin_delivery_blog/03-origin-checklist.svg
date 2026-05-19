@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#EEF7F2"/>
+<rect x="48" y="48" width="1104" height="579" rx="38" fill="#fffdf9"/>
+<circle cx="1020" cy="142" r="96" fill="#D8EFE4"/>
+<circle cx="112" cy="552" r="42" fill="#D8EFE4" opacity="0.75"/>
+<text x="96" y="118" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#28805B">마감 전 5분 점검</text>
+<line x1="96" y1="142" x2="390" y2="142" stroke="#28805B" stroke-width="5" stroke-linecap="round" opacity="0.55"/>
+<text x="96" y="204" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="58" font-weight="800" fill="#172033">원산지 표시</text><text x="96" y="270" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="58" font-weight="800" fill="#172033">변경 루틴</text>
+<text x="96" y="370" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="26" font-weight="700" fill="#586174">예쁜 표보다 놓치지 않는 순서</text>
+<text x="952" y="167" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="72" font-weight="700" text-anchor="middle">✅</text>
+<rect x="690" y="320" width="390" height="68" rx="22" fill="#ffffff" stroke="#28805B" stroke-opacity="0.22"/>
+<circle cx="730" cy="354" r="15" fill="#28805B"/>
+<path d="M722 354 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="363" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">새 메뉴 등록 전 확인</text>
+<rect x="690" y="408" width="390" height="68" rx="22" fill="#ffffff" stroke="#28805B" stroke-opacity="0.22"/>
+<circle cx="730" cy="442" r="15" fill="#28805B"/>
+<path d="M722 442 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="451" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">거래처 변경 시 수정</text>
+<rect x="690" y="496" width="390" height="68" rx="22" fill="#ffffff" stroke="#28805B" stroke-opacity="0.22"/>
+<circle cx="730" cy="530" r="15" fill="#28805B"/>
+<path d="M722 530 l6 7 l13 -17" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="760" y="539" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="28" font-weight="700" fill="#263244">월 1회 손님 화면 점검</text>
+
+<text x="96" y="604" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="23" font-weight="700" fill="#6b7280">실제 표시 전 최신 공식 자료를 다시 확인하세요.</text>
+</svg>
