@@ -34,8 +34,8 @@
         "summary": "9개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
       }
     ],
-    "summary": "Cash/platform bounty scout checked 9 candidates; no GO. Existing bounty PR monitors checked; material changes: 1.",
-    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 9건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_081_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- system-prompt 공개 요구/경쟁 PR: UnsafeLabs #304/#306.\n- 선점 PR·prerequisite·범위 과대: BAWES #27/#28/#29.\n- 지급 불명확·이미 구현 중·assignment gate: DefGuard #833, fkill-cli #6, OWASP #64.\n- 기존 claim PR 존재: Kreyren IssueHunt #1.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
+    "summary": "Cash/platform bounty scout checked 9 candidates; no GO. Existing bounty PR #1710 closed with unresolved automated review.",
+    "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 9건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_081_cash_bounty_scout_no_go`\n- 기존 bounty PR 모니터: UnsafeLabs #1710은 CLOSED, 자동 검수 코멘트가 “issue를 완전히 해결하지 못함”으로 확인됨.\n\n**NO-GO 이유**\n- system-prompt 공개 요구/경쟁 PR: UnsafeLabs #304/#306.\n- 선점 PR·prerequisite·범위 과대: BAWES #27/#28/#29.\n- 지급 불명확·이미 구현 중·assignment gate: DefGuard #833, fkill-cli #6, OWASP #64.\n- 기존 claim PR 존재: Kreyren IssueHunt #1.\n\n**대기**\n- 승인 요청 없음. #1710은 재작업하지 않고 더 안전한 무경쟁 cash/platform micro-bounty를 계속 탐색.\n"
   },
   "metrics": {
     "total": 81,
