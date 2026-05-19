@@ -34,7 +34,7 @@
         "summary": "7개 bounty/direct-payout 후보 모두 자동 PR 기준 미달"
       }
     ],
-    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. Existing bounty PR monitors checked; material changes: 1.",
+    "summary": "Cash/platform bounty scout checked 7 candidates; no GO. Existing bounty PR monitors checked; no material changes.",
     "final_report": "주인님, Money Flow bounty scout 실행 결과입니다.\n\n**완료**\n- 현금성 bounty/direct-payout 후보 7건 preflight 완료.\n- GO 0건. 코딩·claim·댓글·PR 제출 없음.\n- 새 기록: `opp_20260519_080_cash_bounty_scout_no_go`\n\n**NO-GO 이유**\n- 중복/선점 PR 과밀: Bu1ldTh3Futur3 #1, claude-builders #1/#2, tscircuit #92.\n- 범위 과대·경쟁 있음: UnsafeLabs #834/#853.\n- 참여자격 차단: Ubiquity #972 core/admin 필요.\n\n**대기**\n- 승인 요청 없음. 다음 scout에서 무경쟁 cash/platform micro-bounty 계속 탐색.\n"
   },
   "metrics": {
