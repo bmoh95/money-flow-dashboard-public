@@ -1,0 +1,161 @@
+{
+  "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+  "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-20T02:03:15+09:00",
+  "updated_at": "2026-05-20T02:03:15+09:00",
+  "source_run_id": "2026-05-20_0154_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "정책자금·지원사업·입점/계약 서류를 준비하는 개인사업자/소상공인",
+  "channel": "Tistory 무료 검증 글 → 세금·장부/행정서류 콘텐츠군 내부링크·검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+      "grade": "A",
+      "summary": "정부24 “중소기업 및 소상공인확인 신청” 공식 민원 안내. 서류명/신청 채널 근거.",
+      "checked_at": "2026-05-20T02:03:15+09:00"
+    },
+    {
+      "url": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+      "grade": "A",
+      "summary": "중소기업현황정보시스템 공식 사이트. 중소기업/소상공인 확인서 신청·자료제출 안내 근거.",
+      "checked_at": "2026-05-20T02:03:15+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+      "grade": "B",
+      "summary": "발급방법/유효기간/제출서류 comparable 블로그 다수 확인. 검색 의도는 “발급법”보다 “지원사업 제출 전 실수 방지”로 좁힐 여지 있음.",
+      "checked_at": "2026-05-20T02:03:15+09:00"
+    },
+    {
+      "url": "https://beemo.tistory.com/rss",
+      "grade": "B",
+      "summary": "최근 5개 공개글과 비교. “확인할 5가지/헷갈리는 4가지” 구조 반복을 피하기 위해 질문-판단표 구조로 기획.",
+      "checked_at": "2026-05-20T02:03:15+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 1,
+    "optimistic_units": 3
+  },
+  "scores": {
+    "quality": 88,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 25000,
+    "optimistic_net": 75000,
+    "base_net_margin_pct": 100
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "free_validation_only",
+    "official_wording_recheck_required",
+    "image_generation_required",
+    "tistory_rendered_qa_required",
+    "anti_repetition_checked"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4개 후보 검토. 소상공인확인서 제출 전 체크 글이 공식 근거와 독자 pain이 가장 명확함."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A/B 근거 확보. generic 발급법 경쟁은 있으나 제출처 실수 방지 angle로 진행."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 88점. 최근 글 반복을 피하려고 질문 4개 판단표 구조로 설계."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "유효기간/제출처별 요구사항 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 매출은 0원이지만 행정서류 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+      "title": "evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+      "title": "plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+      "title": "decisions.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+      "title": "roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+      "title": "body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+      "title": "body.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+      "title": "style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+      "title": "sample_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+      "title": "image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+      "title": "candidate_outcomes.json"
+    }
+  ],
+  "next_action": "Backlog job: 공식 발급처/유효기간 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+  "stop_reason_code": "HIGH_RISK"
+}

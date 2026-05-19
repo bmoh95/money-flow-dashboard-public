@@ -1,13 +1,14 @@
 {
-  "updated_at": "2026-05-20T01:51:16+09:00",
+  "updated_at": "2026-05-20T02:03:15+09:00",
   "last_run": {
-    "run_id": "2026-05-20_0137_money-flow",
-    "started_at": "2026-05-20T01:37:22+09:00",
-    "finished_at": "2026-05-20T01:51:16+09:00",
+    "run_id": "2026-05-20_0154_money-flow",
+    "started_at": "2026-05-20T01:54:27+09:00",
+    "finished_at": "2026-05-20T02:03:15+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
       "research_lead",
+      "planning_member",
       "planning_lead",
       "execution_member",
       "execution_lead",
@@ -15,30 +16,58 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 78,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
+    "candidates_discovered": 4,
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/assets/preflight.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/assets/filter_report_final.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/title.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/tags.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/category.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
+        "candidate": "소상공인확인서/중소기업확인서 제출 전 체크 무료 검증 글",
+        "decision": "GO",
+        "reason_code": null
+      },
+      {
+        "candidate": "희망리턴패키지 점포철거비 지원 체크 글",
         "decision": "NO-GO",
-        "reason_code": "PAYMENT_UNCLEAR"
+        "reason_code": "HIGH_RISK"
+      },
+      {
+        "candidate": "사업자등록증명·폐업사실증명 차이 체크 글",
+        "decision": "NO-GO",
+        "reason_code": "DUPLICATE"
+      },
+      {
+        "candidate": "오마이뉴스 시민기자 paid writing pitch",
+        "decision": "NO-GO",
+        "reason_code": "HIGH_USER_INPUT"
+      },
+      {
+        "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+        "decision": "HOLD",
+        "reason_code": "HIGH_RISK"
       }
     ],
-    "summary": "Bounty/direct-payout scout retried search after guard warnings; final pool warning-free, but no eligible unclaimed cash/platform PR route found. Skiplist updated.",
-    "final_report": "주인님, Money Flow bounty scout 결과입니다. 현금성 후보 78개를 최종 필터링하고 rescue 후보 18개를 deep preflight했지만 GO 후보는 없었습니다."
+    "summary": "New-work scout reviewed 4 candidates and created one free-validation blog draft package for 소상공인확인서 제출 전 체크.",
+    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 3개 NO-GO.\n- `opp_20260520_003_sme_confirmation_blog` 로컬 초안/계획/샘플 브리프 작성 완료.\n\n**시장성 판단**\n- GO: 정부24·중소기업현황정보시스템 A근거 + comparable 블로그 수요 있음.\n- 단순 발급법이 아니라 “제출 전 서류명·유효기간·파일형식 실수 방지”로 차별화.\n\n**예상 순마진**\n- 보수 0원 / 기준 25,000원 상당 재사용 가치 / 낙관 75,000원 상당.\n\n**대기**\n- 이미지 3장 생성·공식문구 재확인·Tistory 렌더 QA는 backlog job으로 이관.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료 예정.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 90,
-    "active": 4,
+    "total": 91,
+    "active": 5,
     "approval_needed": 1,
     "launched": 32,
     "closed_won": 0,
@@ -423,7 +452,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
+        "공개 발행 한도"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -443,7 +472,7 @@
         "tistory_profile2_session_verified",
         "PUBLICATION_BLOCKED_DAILY_LIMIT"
       ],
-      "stop_reason": "PUBLICATION_BLOCKED_DAILY_LIMIT",
+      "stop_reason": "공개 발행 한도",
       "evidence": [
         {
           "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
@@ -591,103 +620,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -723,103 +752,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -1130,6 +1159,242 @@
         {
           "label": "image_plan.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/image_plan.md"
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null
+    },
+    {
+      "key": "MF-91",
+      "id": "opp_20260520_003_sme_confirmation_blog",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "보통",
+      "tags": [
+        "기타",
+        "고위험"
+      ],
+      "quality": 88,
+      "expected_base_net": 25000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "정책자금·지원사업·입점/계약 서류를 준비하는 개인사업자/소상공인",
+      "channel": "Tistory 무료 검증 글 → 세금·장부/행정서류 콘텐츠군 내부링크·검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 공식 발급처/유효기간 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+      "risk_flags": [
+        "free_validation_only",
+        "official_wording_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "anti_repetition_checked"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+          "grade": "A",
+          "summary": "정부24 “중소기업 및 소상공인확인 신청” 공식 민원 안내. 서류명/신청 채널 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+          "grade": "A",
+          "summary": "중소기업현황정보시스템 공식 사이트. 중소기업/소상공인 확인서 신청·자료제출 안내 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "발급방법/유효기간/제출서류 comparable 블로그 다수 확인. 검색 의도는 “발급법”보다 “지원사업 제출 전 실수 방지”로 좁힐 여지 있음.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 5개 공개글과 비교. “확인할 5가지/헷갈리는 4가지” 구조 반복을 피하기 위해 질문-판단표 구조로 기획.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "4개 후보 검토. 소상공인확인서 제출 전 체크 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 확보. generic 발급법 경쟁은 있으나 제출처 실수 방지 angle로 진행."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 88점. 최근 글 반복을 피하려고 질문 4개 판단표 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "유효기간/제출처별 요구사항 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "직접 매출은 0원이지만 행정서류 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
         }
       ],
       "approval_required": false,
@@ -1787,7 +2052,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
+        "공개 발행 한도"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -1807,7 +2072,7 @@
         "tistory_profile2_session_verified",
         "PUBLICATION_BLOCKED_DAILY_LIMIT"
       ],
-      "stop_reason": "PUBLICATION_BLOCKED_DAILY_LIMIT",
+      "stop_reason": "공개 발행 한도",
       "evidence": [
         {
           "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
@@ -1955,103 +2220,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -2087,103 +2352,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -2498,170 +2763,261 @@
       ],
       "approval_required": false,
       "approval_reason": null
+    },
+    {
+      "key": "MF-91",
+      "id": "opp_20260520_003_sme_confirmation_blog",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "보통",
+      "tags": [
+        "기타",
+        "고위험"
+      ],
+      "quality": 88,
+      "expected_base_net": 25000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "정책자금·지원사업·입점/계약 서류를 준비하는 개인사업자/소상공인",
+      "channel": "Tistory 무료 검증 글 → 세금·장부/행정서류 콘텐츠군 내부링크·검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 공식 발급처/유효기간 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+      "risk_flags": [
+        "free_validation_only",
+        "official_wording_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "anti_repetition_checked"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+          "grade": "A",
+          "summary": "정부24 “중소기업 및 소상공인확인 신청” 공식 민원 안내. 서류명/신청 채널 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+          "grade": "A",
+          "summary": "중소기업현황정보시스템 공식 사이트. 중소기업/소상공인 확인서 신청·자료제출 안내 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "발급방법/유효기간/제출서류 comparable 블로그 다수 확인. 검색 의도는 “발급법”보다 “지원사업 제출 전 실수 방지”로 좁힐 여지 있음.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 5개 공개글과 비교. “확인할 5가지/헷갈리는 4가지” 구조 반복을 피하기 위해 질문-판단표 구조로 기획.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "4개 후보 검토. 소상공인확인서 제출 전 체크 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 확보. generic 발급법 경쟁은 있으나 제출처 실수 방지 angle로 진행."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 88점. 최근 글 반복을 피하려고 질문 4개 판단표 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "유효기간/제출처별 요구사항 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "직접 매출은 0원이지만 행정서류 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null
     }
   ],
   "rejection_summary": {
     "중복/경쟁 과다": 21,
     "기회비용": 17,
-    "고위험": 12,
+    "고위험": 13,
     "사용자 관여 과다": 2,
     "지급 불명확": 3,
-    "PUBLICATION_BLOCKED_DAILY_LIMIT": 1,
+    "공개 발행 한도": 1,
     "채널 없음": 1,
     "차별성 약함": 1,
     "품질 낮음": 2
   },
   "roi": {
-    "expected_base_net_total": 981161,
+    "expected_base_net_total": 1006161,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "run_id": "2026-05-19_1915_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "신규 후보 3개 중 차량 운행기록부 무료 검증 글을 persistent work item으로 선택.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "run_id": "2026-05-19_1915_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A/B 근거, 독자와 채널 명확. 세무 조언 위험은 범위 제한으로 관리.",
-      "links": [
-        "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=21e8ce1222b24853f1ed9c839862b569"
-      ]
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "run_id": "2026-05-19_1915_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 84점. 무료 검증 글 계획 승인.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "run_id": "2026-05-19_1915_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "로컬 블로그 초안, Tistory HTML, 이미지 계획 생성.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "run_id": "2026-05-19_1915_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "세무 사실 QA와 이미지/Tistory 렌더 QA 전 launch 금지. backlog로 이관.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:45:32+09:00",
-      "run_id": "2026-05-19_1939_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지원 이미지 3장, 완화 본문, Tistory HTML/로컬 preview 생성",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/01-first-hire-thumb.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/02-first-hire-flow.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/03-first-hire-checklist.svg",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/01-first-hire-thumb.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/02-first-hire-flow.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/03-first-hire-checklist.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/body_revised.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/first_hire_tistory_body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/local_render.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/contact_sheet.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/title.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/tags.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/tistory_publish_result_20260519_first_hire.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/style_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/image_plan.md"
-      ]
-    },
-    {
-      "time": "2026-05-19T19:45:32+09:00",
-      "run_id": "2026-05-19_1939_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "로컬 이미지/HTML QA 통과, Tistory 이미지 업로드 성공. 공개 발행은 일일 한도 403으로 차단",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:45:32+09:00",
-      "run_id": "2026-05-19_1939_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "PUBLICATION_BLOCKED_DAILY_LIMIT. 로그인 실패 아님, 내일 재시도 필요",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T20:20:08+09:00",
-      "run_id": "2026-05-19_2014_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260519_088_cash_bounty_scout_no_go",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
-      "decision": null,
-      "reason_code": null,
-      "summary": "cash/platform bounty 후보 9개 검색.",
-      "links": [
-        "https://github.com/claude-builders-bounty/claude-builders-bounty/issues/5",
-        "https://github.com/tscircuit/pcb-viewer/issues/163",
-        "https://github.com/tscircuit/3d-viewer/issues/93",
-        "https://github.com/tscircuit/prompt-benchmarks/issues/45",
-        "https://github.com/tscircuit/docs/issues/603",
-        "https://github.com/tscircuit/docs/issues/602",
-        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/560",
-        "https://github.com/spaceandtimefdn/sxt-proof-of-sql/issues/557",
-        "https://github.com/tscircuit/jlcsearch/issues/92"
-      ]
-    },
     {
       "time": "2026-05-19T20:20:08+09:00",
       "run_id": "2026-05-19_2014_money-flow",
@@ -3021,6 +3377,159 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/assets/preflight.json",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/assets/filter_report_final.json"
       ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "4 candidates reviewed; 소상공인확인서 free validation selected as best new work item.",
+      "links": [
+        "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000019",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+        "https://www.ohmynews.com/NWS_Web/company/guide_write.aspx",
+        "https://www.sbiz.or.kr/nhrp/main.do"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "evidence_added",
+      "from_status": "researching",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Government24/SMINFO official evidence and 10 comparable sample patterns captured.",
+      "links": [
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+        "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+        "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://beemo.tistory.com/rss"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A/B evidence found; buyer/channel clear; failure risk is generic competition, mitigated by 제출 전 실수 방지 angle.",
+      "links": [
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+        "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+        "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://beemo.tistory.com/rss"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Plan, reader, channel, image jobs, ROI assumptions defined.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Quality score 88/100; anti-repetition pass completed against last 5 public posts.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Local blog draft package created: body.md/body.html/style brief/image plan/sample brief.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/title.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/tags.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/category.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Local draft is usable; not publish-ready until official wording, images, and rendered QA pass.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html"
+      ]
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "Blocked from launch by official wording/menu volatility, 유효기간 단정 risk, and missing image/Tistory QA.",
+      "links": []
+    },
+    {
+      "time": "2026-05-20T02:03:15+09:00",
+      "run_id": "2026-05-20_0154_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Direct revenue 0, but low-cost reusable admin-doc validation asset; base strategic value 25,000 KRW equivalent.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -19430,7 +19939,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
+        "공개 발행 한도"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -19450,7 +19959,7 @@
         "tistory_profile2_session_verified",
         "PUBLICATION_BLOCKED_DAILY_LIMIT"
       ],
-      "stop_reason": "PUBLICATION_BLOCKED_DAILY_LIMIT",
+      "stop_reason": "공개 발행 한도",
       "evidence": [
         {
           "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
@@ -19598,103 +20107,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -19730,103 +20239,103 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md"
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
+          "label": "sample_addendum.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
+          "label": "anti_repetition_check.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
+          "label": "01-storm-insurance-thumb.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
+          "label": "02-storm-insurance-message.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
+          "label": "03-storm-insurance-checklist.svg",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
+          "label": "01-storm-insurance-thumb.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
+          "label": "02-storm-insurance-message.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
+          "label": "03-storm-insurance-checklist.png",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
+          "label": "body_revised.md",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
+          "label": "storm_flood_tistory_body.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
+          "label": "local_render.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
+          "label": "contact_sheet.html",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
+          "label": "local_qa.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
+          "label": "title.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
+          "label": "tags.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
+          "label": "category.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt",
           "viewer": null
         },
         {
-          "label": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
+          "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json",
           "viewer": null
@@ -21635,6 +22144,242 @@
         {
           "label": "filter_report_final.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_002_bounty_rescue_scout_no_go/assets/filter_report_final.json"
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null
+    },
+    {
+      "key": "MF-91",
+      "id": "opp_20260520_003_sme_confirmation_blog",
+      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+      "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "보통",
+      "tags": [
+        "기타",
+        "고위험"
+      ],
+      "quality": 88,
+      "expected_base_net": 25000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "정책자금·지원사업·입점/계약 서류를 준비하는 개인사업자/소상공인",
+      "channel": "Tistory 무료 검증 글 → 세금·장부/행정서류 콘텐츠군 내부링크·검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 공식 발급처/유효기간 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+      "risk_flags": [
+        "free_validation_only",
+        "official_wording_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "anti_repetition_checked"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+          "grade": "A",
+          "summary": "정부24 “중소기업 및 소상공인확인 신청” 공식 민원 안내. 서류명/신청 채널 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+          "grade": "A",
+          "summary": "중소기업현황정보시스템 공식 사이트. 중소기업/소상공인 확인서 신청·자료제출 안내 근거.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C+%EB%B0%9C%EA%B8%89+%EC%A0%9C%EC%B6%9C+%EC%A0%84+%EC%B2%B4%ED%81%AC+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "발급방법/유효기간/제출서류 comparable 블로그 다수 확인. 검색 의도는 “발급법”보다 “지원사업 제출 전 실수 방지”로 좁힐 여지 있음.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 5개 공개글과 비교. “확인할 5가지/헷갈리는 4가지” 구조 반복을 피하기 위해 질문-판단표 구조로 기획.",
+          "checked_at": "2026-05-20T02:03:15+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "4개 후보 검토. 소상공인확인서 제출 전 체크 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A/B 근거 확보. generic 발급법 경쟁은 있으나 제출처 실수 방지 angle로 진행."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "품질 88점. 최근 글 반복을 피하려고 질문 4개 판단표 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "유효기간/제출처별 요구사항 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T02:03:15+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "직접 매출은 0원이지만 행정서류 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
         }
       ],
       "approval_required": false,

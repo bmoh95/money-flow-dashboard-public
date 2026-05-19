@@ -1,0 +1,43 @@
+[
+  {
+    "candidate": "소상공인확인서/중소기업확인서 제출 전 체크 무료 검증 글",
+    "type": "blog_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "공식 민원/시스템 근거와 comparable 블로그 수요가 있고, 기존 지방세 납세증명서 글과 묶이는 행정서류 콘텐츠군. 단순 발급법 대신 “제출처가 요구한 서류명 확인”으로 차별화.",
+    "links": [
+      "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+      "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do"
+    ]
+  },
+  {
+    "candidate": "희망리턴패키지 점포철거비 지원 체크 글",
+    "type": "support_program_blog",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_RISK",
+    "summary": "수요는 강하지만 지원한도·모집상태·제외요건이 연도별로 변동되고, 최근 폐업/지원금 글과 구조가 반복될 위험이 큼. 공식 공고 재확인 없이는 새 초안 제작 보류.",
+    "links": [
+      "https://www.sbiz.or.kr/nhrp/main.do"
+    ]
+  },
+  {
+    "candidate": "사업자등록증명·폐업사실증명 차이 체크 글",
+    "type": "blog_validation",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "정부24 공식 민원과 검색 수요는 있으나 기존 폐업/지방세 증명서 콘텐츠와 너무 가까움. 오늘은 같은 서류형 반복을 줄이기 위해 후순위.",
+    "links": [
+      "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000019"
+    ]
+  },
+  {
+    "candidate": "오마이뉴스 시민기자 paid writing pitch",
+    "type": "paid_writing",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "summary": "공식 가이드에 원고료 언급은 있으나 가입/개인정보/세금·정산·편집 승인 부담이 있고 채택 확률이 낮다. 자동 수익화 후보로는 사용자 관여가 큼.",
+    "links": [
+      "https://www.ohmynews.com/NWS_Web/company/guide_write.aspx"
+    ]
+  }
+]
