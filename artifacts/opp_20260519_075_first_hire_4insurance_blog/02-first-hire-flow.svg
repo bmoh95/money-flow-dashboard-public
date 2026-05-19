@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f8fafc"/>
+<rect x="48" y="48" width="1104" height="579" rx="34" fill="#f0fdf4" stroke="#dbeafe" stroke-width="2"/>
+<rect x="72" y="72" width="1056" height="531" rx="28" fill="#ffffff"/>
+<circle cx="1048" cy="142" r="58" fill="#16a34a" opacity="0.09"/>
+<circle cx="1090" cy="214" r="32" fill="#22c55e" opacity="0.11"/>
+<text x="94" y="122" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#16a34a" text-anchor="start">시간순으로 보면 덜 헷갈립니다</text>
+<line x1="94" y1="140" x2="370" y2="140" stroke="#16a34a" stroke-width="5" stroke-linecap="round" opacity=".28"/>
+<text x="94" y="215" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="46" font-weight="800" fill="#111827" text-anchor="start">채용일 메모</text>
+<text x="94" y="274" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="46" font-weight="800" fill="#111827" text-anchor="start">→ 사업장 확인</text>
+<text x="94" y="333" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="46" font-weight="800" fill="#111827" text-anchor="start">→ 직원 취득</text>
+<text x="96" y="395" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#475569" text-anchor="start">화면 용어보다 먼저 순서를 잡습니다</text>
+<circle cx="610" cy="282" r="40" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+<text x="610" y="276" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#14532d" text-anchor="middle">채용일</text>
+<text x="610" y="306" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">근로계약 시작일</text>
+<line x1="654" y1="282" x2="684" y2="282" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="728" cy="282" r="40" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+<text x="728" y="276" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#14532d" text-anchor="middle">조건</text>
+<text x="728" y="306" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">요일·시간·급여</text>
+<line x1="772" y1="282" x2="802" y2="282" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="846" cy="282" r="40" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+<text x="846" y="276" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#14532d" text-anchor="middle">사업장</text>
+<text x="846" y="306" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">성립신고 확인</text>
+<line x1="890" y1="282" x2="920" y2="282" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+<circle cx="964" cy="282" r="40" fill="#dcfce7" stroke="#86efac" stroke-width="2"/>
+<text x="964" y="276" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#14532d" text-anchor="middle">직원</text>
+<text x="964" y="306" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#166534" text-anchor="middle">자격취득 확인</text>
+<rect x="610" y="390" width="430" height="78" rx="20" fill="#ffffff" stroke="#bbf7d0" stroke-width="2"/>
+<text x="642" y="438" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#14532d" text-anchor="start">대표자 본인과 직원 판단은 분리</text>
+<line x1="94" y1="536" x2="535" y2="536" stroke="#e2e8f0" stroke-width="2"/>
+<text x="94" y="568" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#64748b" text-anchor="start">대상·기한은 업종과 근로조건에 따라 공식 확인이 필요합니다.</text>
+</svg>

@@ -1,0 +1,7 @@
+{
+  "status": "PUBLICATION_BLOCKED_DAILY_LIMIT",
+  "url": null,
+  "reason": "Tistory returned 403: 하루에 새롭게 공개 발행할 수 있는 글은 최대 15개까지입니다.",
+  "uploaded_images": 3,
+  "note": "Not AUTH_BLOCKED. Profile 2 session and image attach API worked; public post creation blocked by daily quota."
+}

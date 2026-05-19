@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+<rect width="1200" height="675" fill="#f8fafc"/>
+<rect x="48" y="48" width="1104" height="579" rx="34" fill="#f5f3ff" stroke="#dbeafe" stroke-width="2"/>
+<rect x="72" y="72" width="1056" height="531" rx="28" fill="#ffffff"/>
+<circle cx="1048" cy="142" r="58" fill="#7c3aed" opacity="0.09"/>
+<circle cx="1090" cy="214" r="32" fill="#22c55e" opacity="0.11"/>
+<text x="94" y="122" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#7c3aed" text-anchor="start">신고 전 5분 체크</text>
+<line x1="94" y1="140" x2="280" y2="140" stroke="#7c3aed" stroke-width="5" stroke-linecap="round" opacity=".28"/>
+<text x="94" y="218" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="52" font-weight="800" fill="#111827" text-anchor="start">누르기 전에</text>
+<text x="94" y="284" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="52" font-weight="800" fill="#111827" text-anchor="start">이 다섯 가지만</text>
+<text x="94" y="350" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="52" font-weight="800" fill="#111827" text-anchor="start">다시 봅니다</text>
+<text x="96" y="414" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#475569" text-anchor="start">개인정보는 안전하게 따로 관리하세요</text>
+<rect x="630" y="190" width="430" height="48" rx="18" fill="#fff" stroke="#ddd6fe" stroke-width="2"/>
+<circle cx="660" cy="214" r="15" fill="#7c3aed"/>
+<path d="M652 214 l6 6 l12 -15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="690" y="222" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#2e1065" text-anchor="start">채용일·시작일</text>
+<rect x="630" y="254" width="430" height="48" rx="18" fill="#fff" stroke="#ddd6fe" stroke-width="2"/>
+<circle cx="660" cy="278" r="15" fill="#7c3aed"/>
+<path d="M652 278 l6 6 l12 -15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="690" y="286" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#2e1065" text-anchor="start">주 근로시간</text>
+<rect x="630" y="318" width="430" height="48" rx="18" fill="#fff" stroke="#ddd6fe" stroke-width="2"/>
+<circle cx="660" cy="342" r="15" fill="#7c3aed"/>
+<path d="M652 342 l6 6 l12 -15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="690" y="350" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#2e1065" text-anchor="start">급여 기준</text>
+<rect x="630" y="382" width="430" height="48" rx="18" fill="#fff" stroke="#ddd6fe" stroke-width="2"/>
+<circle cx="660" cy="406" r="15" fill="#7c3aed"/>
+<path d="M652 406 l6 6 l12 -15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="690" y="414" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#2e1065" text-anchor="start">사업장 성립</text>
+<rect x="630" y="446" width="430" height="48" rx="18" fill="#fff" stroke="#ddd6fe" stroke-width="2"/>
+<circle cx="660" cy="470" r="15" fill="#7c3aed"/>
+<path d="M652 470 l6 6 l12 -15" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="690" y="478" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#2e1065" text-anchor="start">접수·보완요청</text>
+<line x1="94" y1="536" x2="535" y2="536" stroke="#e2e8f0" stroke-width="2"/>
+<text x="94" y="568" font-family="Apple SD Gothic Neo, Nanum Gothic, Noto Sans CJK KR, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#64748b" text-anchor="start">블로그만 믿고 확정하지 말고 공단·공식 안내에서 재확인하세요.</text>
+</svg>

@@ -1,0 +1,217 @@
+{
+  "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
+  "title": "첫 직원 채용 후 4대보험 사업장 성립신고 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-19T09:58:08+09:00",
+  "updated_at": "2026-05-19T19:45:32+09:00",
+  "source_run_id": "2026-05-19_0953_money-flow",
+  "current_owner": "execution_lead",
+  "buyer_or_payer": "첫 직원·알바를 처음 채용한 개인사업자/작은 매장 운영자",
+  "channel": "Tistory 무료 검증 글 → 세금·장부/직원운영 콘텐츠군 검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.4insure.or.kr/pbiz/main/main.do",
+      "grade": "A",
+      "summary": "4대사회보험 정보연계센터 공식 사이트. 사업장/가입자 민원 신고 경로와 서식 확인 가능.",
+      "checked_at": "2026-05-19T09:58:08+09:00"
+    },
+    {
+      "url": "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?ccfNo=3&cciNo=4&cnpClsNo=1&csmSeq=632",
+      "grade": "A",
+      "summary": "찾기쉬운 생활법령의 4대 사회보험 및 취업규칙 신고 공식 설명 페이지.",
+      "checked_at": "2026-05-19T09:58:08+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=%EC%B2%AB%20%EC%A7%81%EC%9B%90%20%EC%B1%84%EC%9A%A9%204%EB%8C%80%EB%B3%B4%ED%97%98%20%EC%82%AC%EC%97%85%EC%9E%A5%20%EC%84%B1%EB%A6%BD%EC%8B%A0%EA%B3%A0%20%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90%20%EB%B8%94%EB%A1%9C%EA%B7%B8",
+      "grade": "B",
+      "summary": "첫 직원 채용, 사업장 성립신고, 4대보험 취득신고 관련 comparable 블로그/세무·노무 글 다수 확인.",
+      "checked_at": "2026-05-19T09:58:08+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 1,
+    "optimistic_units": 3
+  },
+  "scores": {
+    "quality": 85,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 34000,
+    "optimistic_net": 102000,
+    "base_net_margin_pct": 100
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "labor_admin_wording_risk",
+    "free_validation_only",
+    "category_required",
+    "official_wording_softened",
+    "local_visual_qa_passed",
+    "tistory_image_upload_succeeded",
+    "PUBLICATION_BLOCKED_DAILY_LIMIT"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4개 후보 검토. 첫 직원 4대보험 신고 글이 중복이 적고 독자 pain이 명확함."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A/B 근거 확보. 공식 확인형 운영 체크 글로 진행."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "첫 직원 채용일 타임라인 무료 글로 scope 축소. 이미지 3장 계획 포함."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 85점. 최근 세금 글 반복을 피한 질문/타임라인 구조."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "본문 초안, 스타일 브리프, 이미지 계획 작성 완료."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "로컬 초안 사용 가능. 공개 전 공식문구·이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "4대보험 신고기한/가입대상 오해와 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-19T09:58:08+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 매출은 없으나 첫 채용/직원 운영 검색 유입 자산으로 비용 대비 기대값 양호."
+    },
+    {
+      "time": "2026-05-19T19:45:32+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "지원 이미지 3장 SVG/PNG 제작, 본문을 개인정보·근로조건·기한 단정 리스크 완화 문구로 재작성, Tistory HTML 생성."
+    },
+    {
+      "time": "2026-05-19T19:45:32+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "summary": "이미지 contact sheet/로컬 렌더링 QA 통과. Profile 2 Tistory 세션과 이미지 attach API는 성공했으나 공개 발행 POST가 일일 한도 403으로 차단."
+    },
+    {
+      "time": "2026-05-19T19:45:32+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "summary": "발행 자체는 안전하나 Tistory 공개 발행 일일 한도 해제 전 tracking 전환 금지. AUTH_BLOCKED 아님."
+    },
+    {
+      "time": "2026-05-19T19:45:32+09:00",
+      "agent": "roi",
+      "decision": "HOLD",
+      "summary": "무료 검증 글 자산은 완성. 실제 공개 전 수익/유입 추적 불가."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/body.md",
+      "title": "body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/style_brief.md",
+      "title": "style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/image_plan.md",
+      "title": "image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/plan.md",
+      "title": "plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/evidence.md",
+      "title": "evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/roi.md",
+      "title": "roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/01-first-hire-thumb.svg",
+      "title": "01-first-hire-thumb.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/02-first-hire-flow.svg",
+      "title": "02-first-hire-flow.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/03-first-hire-checklist.svg",
+      "title": "03-first-hire-checklist.svg"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/01-first-hire-thumb.png",
+      "title": "01-first-hire-thumb.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/02-first-hire-flow.png",
+      "title": "02-first-hire-flow.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/03-first-hire-checklist.png",
+      "title": "03-first-hire-checklist.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/body_revised.md",
+      "title": "body_revised.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/first_hire_tistory_body.html",
+      "title": "first_hire_tistory_body.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/local_render.html",
+      "title": "local_render.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/contact_sheet.html",
+      "title": "contact_sheet.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/title.txt",
+      "title": "title.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/tags.txt",
+      "title": "tags.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/tistory_publish_result_20260519_first_hire.json",
+      "title": "tistory_publish_result_20260519_first_hire.json"
+    }
+  ],
+  "next_action": "Tistory 공개 발행 일일 한도(15개) 해제 후 같은 패키지로 재게시 시도. 로그인 실패가 아니며 Profile 2 이미지 업로드는 성공.",
+  "stop_reason_code": "HIGH_RISK"
+}
