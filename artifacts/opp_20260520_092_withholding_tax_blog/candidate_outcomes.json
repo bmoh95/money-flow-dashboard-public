@@ -1,0 +1,34 @@
+[
+  {
+    "candidate": "원천세 매월 10일·반기별 납부승인 체크 무료 검증 글",
+    "type": "free_validation_blog",
+    "classification": "강한 후보",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "국세청 원천징수 개요/신고납부기한과 정부24 반기별 납부승인 민원 A근거가 있고, 첫 알바·프리랜서 비용 지급 직후의 검색 의도가 뚜렷함. 최근 4대보험 글과 겹치지 않도록 “세금 떼고 다음달 10일 전 확인” 사례형 구조로 차별화."
+  },
+  {
+    "candidate": "현금성 GitHub bounty/direct-payout PR 후보",
+    "type": "bounty",
+    "classification": "보류/버림",
+    "decision": "NO-GO",
+    "reason_code": "PAYMENT_UNCLEAR",
+    "summary": "GitHub search 2회와 bounty_candidate_filter 실행. 1차 15건은 hard-block/high-comment/source-diversity 경고, 2차 24건은 rescue candidate 0건이고 전원 visible cash/platform hint 없음. 이 scout에서는 PR/제출도 금지되어 persistent GO 후보 없음."
+  },
+  {
+    "candidate": "소상공인·세금 paid writing pitch",
+    "type": "writing",
+    "classification": "보류/버림",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "검색 결과가 세금 정보글/원고료 세무 처리 설명으로 흘렀고, 기고료·권리·투고 안내가 명확한 A/B급 매체 채널을 확인하지 못함. 사용자 외부 제출/연락 금지 조건에서도 부적합."
+  },
+  {
+    "candidate": "임금명세서·근로계약서 무료 체크 글",
+    "type": "free_validation_blog",
+    "classification": "보류/버림",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "고용/노무 pain은 크지만 기존 최저임금·첫 직원 4대보험 글과 인접하고 법률 자문처럼 보일 리스크가 높음. 오늘은 세금 납부기한이라는 다른 독자 질문을 우선."
+  }
+]

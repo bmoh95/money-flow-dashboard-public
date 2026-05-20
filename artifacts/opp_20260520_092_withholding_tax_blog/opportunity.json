@@ -1,0 +1,129 @@
+{
+  "opportunity_id": "opp_20260520_092_withholding_tax_blog",
+  "title": "원천세 다음달 10일·반기별 납부승인 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-20T19:24:21+09:00",
+  "updated_at": "2026-05-20T19:24:21+09:00",
+  "source_run_id": "2026-05-20_1912_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "처음 알바비·프리랜서 외주비를 지급한 개인사업자/소상공인 독자",
+  "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부",
+  "evidence": [
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2289&cntntsId=7701",
+      "grade": "A",
+      "summary": "국세청 원천징수 개요: 원천징수의무자/대상 소득/신고납부 흐름 근거.",
+      "checked_at": "2026-05-20T19:24:21+09:00"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2414&cntntsId=7702",
+      "grade": "A",
+      "summary": "국세청 원천세 신고납부기한: 다음달 10일 및 반기별 납부대상 흐름 확인.",
+      "checked_at": "2026-05-20T19:24:21+09:00"
+    },
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000219",
+      "grade": "A",
+      "summary": "정부24 원천징수세액 반기별 납부승인 민원: 별도 신청/세무서 처리/수수료 없음 확인.",
+      "checked_at": "2026-05-20T19:24:21+09:00"
+    },
+    {
+      "url": "runs/2026-05-20_1912_money-flow/research_raw.json",
+      "grade": "B",
+      "summary": "원천세 반기신고·프리랜서 원천징수 comparable 글 다수 검색 노출 확인.",
+      "checked_at": "2026-05-20T19:24:21+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 90,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "free_validation_only",
+    "no_sales_cta",
+    "NEEDS_FACT_QA",
+    "NEEDS_IMAGE_QA",
+    "PUBLIC_VISUAL_QA_PENDING",
+    "ANTI_REPETITION_QA_PENDING"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4 candidates reviewed; 원천세 topic selected as strongest free-validation blog candidate."
+    },
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A-grade official evidence and clear reader pain; tax nuance risk noted."
+    },
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "Quality 90/100 with anti-repetition structure and no sales CTA."
+    },
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "summary": "Local draft ready; image/source/category/rendered QA still required before publication."
+    },
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "summary": "Tax nuance and visual QA blockers require backlog handling; final redteam_hold."
+    },
+    {
+      "time": "2026-05-20T19:24:21+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "Direct revenue 0, low cost, reusable free-validation asset; accepted as strategic blog lane."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/draft.md",
+      "title": "블로그 초안 Markdown"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/body.html",
+      "title": "Tistory용 HTML 초안"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/style_brief.md",
+      "title": "스타일 브리프"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/image_plan.md",
+      "title": "이미지 계획"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/candidate_outcomes.json",
+      "title": "후보 검토 결과"
+    }
+  ],
+  "next_action": "Backlog job: 국세청/정부24 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 세금·장부 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+  "stop_reason_code": "HIGH_RISK"
+}
