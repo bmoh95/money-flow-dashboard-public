@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "file": "01-eitc-deadline-thumb.png",
+      "size": 113806,
+      "width": 1200,
+      "height": 675
+    },
+    {
+      "file": "02-eligibility-flow.png",
+      "size": 115492,
+      "width": 1200,
+      "height": 675
+    },
+    {
+      "file": "03-apply-check-card.png",
+      "size": 155182,
+      "width": 1200,
+      "height": 675
+    },
+    {
+      "file": "contact_sheet_eitc.png",
+      "size": 148648,
+      "width": 1600,
+      "height": 366
+    }
+  ],
+  "font": "Apple SD Gothic Neo",
+  "qa_notes": "1200x675 PNG, explicit Gothic font, deliberate line breaks, no full-width divider through title, footer clearance included."
+}

@@ -1,0 +1,70 @@
+{
+  "sampled_at": "2026-05-20T22:40:29+09:00",
+  "last_5_public_posts_checked": [
+    "개인사업자 차량비, 운행기록부부터 봐야 헷갈리지 않습니다",
+    "음식점 위생교육, 올해 들었는지 헷갈릴 때 보는 순서",
+    "장마 오기 전에, 소상공인 풍수해보험 먼저 볼 것들",
+    "스타벅스 5·18 ‘탱크데이’ 논란 정리: 확인된 사실과 남은 쟁점",
+    "옛 전남도청 정식 개관 정리: 5·18 상징 공간에서 확인할 사실"
+  ],
+  "comparable_patterns": [
+    {
+      "title": "2026 근로장려금 지급일 & 신청 기간 총정리 — 반기·정기·기한 후 신청",
+      "url": "https://grantinfo.co.kr/2026-근로장려금-지급일-신청기간-반기-정기/",
+      "pattern": "기간·지급일·기한후를 한 번에 묶는 키워드 포괄형. 제목 클릭 긴장감은 강하지만 광고/SEO 톤이 강함."
+    },
+    {
+      "title": "국세청 · 근로·자녀장려금 신청기간 및 방법",
+      "url": "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977",
+      "pattern": "정기신청 2026.5.1.~6.1, 기한 후 2026.6.2.~12.1 공식 기준."
+    },
+    {
+      "title": "2026 근로장려금 신청기간 자격 지급일 가구별 정리",
+      "url": "https://driht.tistory.com/entry/2026-근로장려금-신청기간-자격-지급일-가구별-정리?category=1230692",
+      "pattern": "가구별/조건형 Tistory 글. 제목에 “가구별”을 넣어 대상자 불안을 건드림."
+    },
+    {
+      "title": "2026 근로장려금 기한 후 신청 6월~12월 95% 지급",
+      "url": "https://www.k-welfare.com/2026-eitc-late-application-95-percent-guide/",
+      "pattern": "감액률을 제목에 직접 넣어 클릭 긴장감 강함."
+    },
+    {
+      "title": "2026 근로장려금 신청기간·자격·지급일 총정리 (국세청 기준)",
+      "url": "https://ondpolicy.com/4",
+      "pattern": "국세청 기준을 제목에 넣어 신뢰를 보강."
+    },
+    {
+      "title": "근로장려금 정기신청 완벽 가이드 2026 | 5월 1일부터 6월 2일 마감",
+      "url": "https://blue-knot.com/entry/근로장려금-정기신청-완벽-가이드-2026-5월-1일부터-6월-2일-마감-신청-방법-총정리",
+      "pattern": "마감형 제목. 단, “완벽 가이드”는 AI/SEO 느낌이 강해 피함."
+    },
+    {
+      "title": "2026 근로장려금 대상·기간·금액·신청방법 - 한방에 정리",
+      "url": "https://govnuri.com/entry/2026-근로장려금-대상·기간·금액·신청방법-한방에-정리",
+      "pattern": "대상·금액·신청방법 묶음. 표 중심 구조가 많음."
+    },
+    {
+      "title": "근로장려금 기한 후 신청 감액 비율 및 지급일 총정리",
+      "url": "https://yeoyuroun.blogspot.com/2026/05/work-incentives.html",
+      "pattern": "기한후·감액·지급일 집중. 독자가 놓친 뒤 찾는 검색 의도."
+    },
+    {
+      "title": "2026 근로장려금 5월 정기신청 완벽 가이드 | 최대 330만원 신청 방법",
+      "url": "https://www.k-welfare.com/2026-earned-income-tax-credit-may-application/",
+      "pattern": "최대 금액을 앞세우는 클릭형. 본문에서는 “최대” 오해를 줄여야 함."
+    },
+    {
+      "title": "자주묻는 Q&A (2026.5월 정기신청) - 국세상담센터",
+      "url": "https://call.nts.go.kr/call/qna/selectQnaInfo.do?mi=13043&ctgId=CTG12129",
+      "pattern": "공식 Q&A형. 독자가 헷갈리는 예외를 다룰 때 근거로 유용."
+    }
+  ],
+  "attention_classification": "폭발 후보",
+  "anti_repetition_pass": {
+    "same_heading_skeleton_as_recent": false,
+    "first_4_paragraphs_similar": false,
+    "image_layout_repeated": false,
+    "new_reader_use_case": "5월 정기신청을 놓치면 기한 후 95% 지급으로 줄어드는지, 내가 신청 가능성이 있는지 빠르게 가르는 체크 글.",
+    "chosen_structure": "마감 경고 → 나도 해당 4문장 → 정기/기한후/지급시기 → 공식 확인 순서"
+  }
+}

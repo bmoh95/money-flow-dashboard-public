@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-05-21T02:52:56+09:00",
+  "ok": true,
+  "results": {
+    "intro": {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7781&mi=2450",
+      "http": 200,
+      "needles_found": {
+        "165만 원": true,
+        "285만 원": true,
+        "330만 원": true
+      },
+      "length": 151391
+    },
+    "eligibility": {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783",
+      "http": 200,
+      "needles_found": {
+        "2.4억원": true,
+        "1.7억원": true,
+        "부채는 차감하지": true
+      },
+      "length": 155703
+    },
+    "period": {
+      "url": "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977",
+      "http": 200,
+      "needles_found": {
+        "26.5.1.~6.1": true,
+        "26.6.2.~12.1": true,
+        "사업": true,
+        "종교인": true
+      },
+      "length": 154380
+    },
+    "payment": {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784",
+      "http": 200,
+      "needles_found": {
+        "95% 지급": true,
+        "4개월 이내": true,
+        "9월 말": true
+      },
+      "length": 153161
+    }
+  }
+}

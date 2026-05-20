@@ -1,0 +1,116 @@
+{
+  "checked_at": "2026-05-21T02:52:56+09:00",
+  "run_id": "2026-05-21_0242_money-flow",
+  "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+  "post_url": "https://beemo.tistory.com/63",
+  "mobile_url": "https://beemo.tistory.com/m/63",
+  "attention_cash_gate": {
+    "classification": "폭발 후보",
+    "basis": "5월 정기신청 마감, 6월 기한 후 신청 95% 지급, 직접 금전 영향, 국세청 A급 근거.",
+    "direct_revenue_krw": 0,
+    "decision": "GO"
+  },
+  "manage_posts_json": {
+    "id": "63",
+    "title": "근로·자녀장려금 5월 신청, 놓치면 95%로 줄어듭니다",
+    "categoryId": "1295942",
+    "visibility": "PUBLIC",
+    "published": "2026-05-20 23:30",
+    "slogan": "근로자녀장려금-5월-신청-놓치면-95로-줄어듭니다"
+  },
+  "fact_recheck": {
+    "checked_at": "2026-05-21T02:52:56+09:00",
+    "ok": true,
+    "results": {
+      "intro": {
+        "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7781&mi=2450",
+        "http": 200,
+        "needles_found": {
+          "165만 원": true,
+          "285만 원": true,
+          "330만 원": true
+        },
+        "length": 151391
+      },
+      "eligibility": {
+        "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783",
+        "http": 200,
+        "needles_found": {
+          "2.4억원": true,
+          "1.7억원": true,
+          "부채는 차감하지": true
+        },
+        "length": 155703
+      },
+      "period": {
+        "url": "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977",
+        "http": 200,
+        "needles_found": {
+          "26.5.1.~6.1": true,
+          "26.6.2.~12.1": true,
+          "사업": true,
+          "종교인": true
+        },
+        "length": 154380
+      },
+      "payment": {
+        "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784",
+        "http": 200,
+        "needles_found": {
+          "95% 지급": true,
+          "4개월 이내": true,
+          "9월 말": true
+        },
+        "length": 153161
+      }
+    }
+  },
+  "public": {
+    "http": 200,
+    "title_found": true,
+    "category_found": true,
+    "body_image_hits": 3,
+    "raw_markdown_hits": 0,
+    "source_link_hits": 4,
+    "og_image_sanitized": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png",
+    "twitter_image_sanitized": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png",
+    "og_not_default": true
+  },
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "category_found": true,
+    "body_image_hits": 3,
+    "og_image_sanitized": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png",
+    "og_not_default": true
+  },
+  "home_list_thumbnail": {
+    "http": 200,
+    "browser_vision_passed": true,
+    "note": "2026-05-21 browser vision confirmed the first home-list post uses a real designed thumbnail, not gray/default T placeholder."
+  },
+  "category_page": {
+    "http": 200,
+    "browser_or_manage_category_confirmed": true
+  },
+  "browser_render_qa": {
+    "desktop_cycles_this_run": 1,
+    "mobile_cycles_this_run": 1,
+    "prior_desktop_cycles": 2,
+    "body_images_loaded": 3,
+    "body_images_natural_size": "1200x675 each",
+    "desktop_img_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "desktop_caption_to_next_h2_px": [
+      24,
+      24,
+      24
+    ],
+    "vision_desktop": "PASS: first screen/title/category/body/images/spacing/raw-markdown check passed.",
+    "vision_home_list": "PASS: real thumbnail visible on blog home list.",
+    "vision_mobile": "PASS: mobile page category/images/body/links render; no blocking defect."
+  }
+}

@@ -2,13 +2,13 @@
   "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
   "title": "근로·자녀장려금 5월 정기신청·기한후 95% 체크 무료 검증 글",
   "type": "other",
-  "status": "redteam_hold",
+  "status": "tracking",
   "created_at": "2026-05-20T22:40:29+09:00",
-  "updated_at": "2026-05-20T22:40:29+09:00",
+  "updated_at": "2026-05-21T02:52:56+09:00",
   "source_run_id": "2026-05-20_2229_money-flow",
-  "current_owner": "redteam",
+  "current_owner": "roi",
   "buyer_or_payer": "근로·사업·종교인 소득이 있고 2026년 5월 장려금 대상 여부와 감액 위험이 궁금한 독자",
-  "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부",
+  "channel": "Tistory 무료 검증 글 공개 완료 → https://beemo.tistory.com/63",
   "evidence": [
     {
       "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7781&mi=2450",
@@ -66,10 +66,17 @@
     "free_validation_only",
     "no_sales_cta",
     "ATTENTION_EXPLOSIVE_CANDIDATE",
-    "NEEDS_FACT_QA",
-    "NEEDS_IMAGE_QA",
-    "PUBLIC_VISUAL_QA_PENDING",
-    "CATEGORY_REQUIRED"
+    "attention_cash_gate_passed",
+    "fact_qa_passed",
+    "official_sources_verified",
+    "category_verified_1295942",
+    "tistory_published",
+    "public_url_verified",
+    "public_render_qa_passed",
+    "public_visual_qa_passed",
+    "mobile_render_qa_passed",
+    "og_image_verified",
+    "tistory_list_thumbnail_real_verified"
   ],
   "decision_history": [
     {
@@ -108,6 +115,41 @@
       "agent": "roi",
       "decision": "GO",
       "summary": "Direct revenue 0, low cost, high-attention reusable free-validation asset; accepted as blog lane."
+    },
+    {
+      "time": "2026-05-21T02:52:56+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사 통과: 5월 정기신청 마감·기한후 95% 지급·직접 금전 영향으로 폭발 후보."
+    },
+    {
+      "time": "2026-05-21T02:52:56+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 근거 중심, 최대금액 과장 금지, 무료 검증 글 구조 유지. 품질 95/100 유지."
+    },
+    {
+      "time": "2026-05-21T02:52:56+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개/모바일/홈 목록 URL 확인. 이미지 3장, 카테고리, OG/list 썸네일, 출처 링크, raw Markdown 부재, 이미지 간격 QA 통과."
+    },
+    {
+      "time": "2026-05-21T02:52:56+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "자격·지급액 단정 리스크는 국세청 확인형 표현과 공식 링크로 완화. 렌더 QA 후 tracking 전환 허용."
+    },
+    {
+      "time": "2026-05-21T02:52:56+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출은 0원이지만 신청 마감형 고Attention 무료 검증 자산으로 추적 가치 있음."
     }
   ],
   "assets": [
@@ -134,8 +176,82 @@
     {
       "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/official_evidence_eitc.json",
       "title": "공식 근거 스냅샷"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/title.txt",
+      "title": "title.txt",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/title.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/tags.txt",
+      "title": "tags.txt",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/tags.txt"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/body_tistory_ready.html",
+      "title": "body_tistory_ready.html",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/body_tistory_ready.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/sample_brief.json",
+      "title": "sample_brief.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/sample_brief.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/fact_recheck_20260521.json",
+      "title": "fact_recheck_20260521.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/fact_recheck_20260521.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/image_generation_result.json",
+      "title": "image_generation_result.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/image_generation_result.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/contact_sheet_eitc.png",
+      "title": "contact_sheet_eitc.png",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/contact_sheet_eitc.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/01-eitc-deadline-thumb.png",
+      "title": "01-eitc-deadline-thumb.png",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/01-eitc-deadline-thumb.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/02-eligibility-flow.png",
+      "title": "02-eligibility-flow.png",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/02-eligibility-flow.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/03-apply-check-card.png",
+      "title": "03-apply-check-card.png",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/03-apply-check-card.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/public_render_qa_20260521_eitc.json",
+      "title": "public_render_qa_20260521_eitc.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/public_render_qa_20260521_eitc.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/public_render_qa_20260521_eitc.md",
+      "title": "public_render_qa_20260521_eitc.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_093_eitc_deadline_blog/public_render_qa_20260521_eitc.md"
+    },
+    {
+      "title": "Tistory public post",
+      "url": "https://beemo.tistory.com/63"
+    },
+    {
+      "title": "Tistory mobile post",
+      "url": "https://beemo.tistory.com/m/63"
     }
   ],
-  "next_action": "Backlog job: 국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 세금·장부 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
-  "stop_reason_code": "HIGH_RISK"
+  "next_action": "공개 글 검색 유입/반응을 추적. 다음 backlog redteam_hold 항목은 Attention/Cash Gate 재심사 후 처리.",
+  "stop_reason_code": null,
+  "metrics": {
+    "public_url": "https://beemo.tistory.com/63",
+    "published_at": "2026-05-20T23:30:00+09:00",
+    "public_render_qa_checked_at": "2026-05-21T02:52:56+09:00",
+    "attention_classification": "폭발 후보"
+  }
 }
