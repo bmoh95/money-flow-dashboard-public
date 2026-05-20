@@ -1,0 +1,34 @@
+[
+  {
+    "candidate": "현금성 GitHub/Algora/IssueHunt bounty PR",
+    "type": "bounty",
+    "classification": "보류/버림",
+    "decision": "NO-GO",
+    "reason_code": "PAYMENT_UNCLEAR",
+    "summary": "22:02 deterministic bounty gate가 8건 deep-preflight에서 GO/HOLD 0건. 이번 quick GH 검색 2개도 결과 0건. 상위 후보는 지급경로 불명, closed/archived, duplicate PR, 경쟁 queue 문제라 새 PR 자동제출 불가."
+  },
+  {
+    "candidate": "근로·자녀장려금 5월 정기신청·기한후 감액 무료 검증 글",
+    "type": "free_validation_blog",
+    "classification": "폭발 후보",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "국세청 A근거로 정기신청 2026.5.1~6.1, 기한후 2026.6.2~12.1, 기한후 95% 지급, 자격/재산 기준을 확인. 현재 마감성·직접 금전효과·검색 결과 다수로 attention demand 강함."
+  },
+  {
+    "candidate": "ARC Prize/Kaggle AI contest prize submission",
+    "type": "contest",
+    "classification": "보류/버림",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "summary": "공식 contest/prize 채널은 있으나 경쟁·기술 난도·계정/규칙 확인·장기 실험 부담이 커서 현재 Money Flow의 낮은 사용자 관여/빠른 현금화 조건에 부적합."
+  },
+  {
+    "candidate": "종합소득세 마감 후 기한후신고·가산세 글",
+    "type": "free_validation_blog",
+    "classification": "강한 후보",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "5월 세금 마감성은 강하지만 기존 지방소득세/쇼핑몰 매출자료/간편장부/노란우산공제 등 종소세 인접 글이 많아 신선도가 낮음. 오늘은 미기존 주제인 근로·자녀장려금을 우선."
+  }
+]

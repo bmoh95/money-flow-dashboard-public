@@ -1,0 +1,141 @@
+{
+  "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+  "title": "근로·자녀장려금 5월 정기신청·기한후 95% 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-20T22:40:29+09:00",
+  "updated_at": "2026-05-20T22:40:29+09:00",
+  "source_run_id": "2026-05-20_2229_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "근로·사업·종교인 소득이 있고 2026년 5월 장려금 대상 여부와 감액 위험이 궁금한 독자",
+  "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부",
+  "evidence": [
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?cntntsId=7781&mi=2450",
+      "grade": "A",
+      "summary": "국세청 근로장려금 소개: 가구별 최대지급액과 제도 개요 확인.",
+      "checked_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2452&cntntsId=7783",
+      "grade": "A",
+      "summary": "국세청 신청자격: 총소득 기준, 재산 2.4억 원 미만, 1.7억~2.4억 50% 지급 등 확인.",
+      "checked_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "url": "https://nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=40397&cntntsId=238977",
+      "grade": "A",
+      "summary": "국세청 신청기간: 정기신청 2026.5.1~6.1, 기한 후 2026.6.2~12.1 확인.",
+      "checked_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2453&cntntsId=7784",
+      "grade": "A",
+      "summary": "국세청 심사 및 지급: 정기신청분 9월 말, 기한후 신청분 4개월 이내, 기한후 95% 지급 확인.",
+      "checked_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "url": "runs/2026-05-20_2229_money-flow/research_raw.json",
+      "grade": "B",
+      "summary": "Comparable posts 10개와 최근 public posts 중복 검토.",
+      "checked_at": "2026-05-20T22:40:29+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 95,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "free_validation_only",
+    "no_sales_cta",
+    "ATTENTION_EXPLOSIVE_CANDIDATE",
+    "NEEDS_FACT_QA",
+    "NEEDS_IMAGE_QA",
+    "PUBLIC_VISUAL_QA_PENDING",
+    "CATEGORY_REQUIRED"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4 candidates reviewed; EITC/child grant deadline topic selected as strongest attention-demand candidate."
+    },
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A-grade official evidence, deadline pressure, and direct money impact pass research gate."
+    },
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "Quality 95/100; avoids maximum-payment clickbait and routine tax-summary structure."
+    },
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "summary": "Local draft ready; image/source/category/rendered QA still required before publication."
+    },
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "Eligibility nuance and visual QA blockers require backlog handling; final redteam_hold."
+    },
+    {
+      "time": "2026-05-20T22:40:29+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "Direct revenue 0, low cost, high-attention reusable free-validation asset; accepted as blog lane."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/draft.md",
+      "title": "블로그 초안 Markdown"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/body.html",
+      "title": "Tistory용 HTML 초안"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/style_brief.md",
+      "title": "스타일 브리프"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/image_plan.md",
+      "title": "이미지 계획"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/candidate_outcomes.json",
+      "title": "후보 검토 결과"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/official_evidence_eitc.json",
+      "title": "공식 근거 스냅샷"
+    }
+  ],
+  "next_action": "Backlog job: 국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 세금·장부 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+  "stop_reason_code": "HIGH_RISK"
+}
