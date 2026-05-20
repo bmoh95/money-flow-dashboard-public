@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "사업자등록 정정신고 주소·상호 변경 5분 체크 무료 검증 글",
+    "type": "blog_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "정부24/국세청 A급 근거가 있고, 가게 이전·상호 변경 직후 소상공인이 먼저 확인해야 하는 pain이 명확함. 최근 음식점/보험/뉴스 글과 주제가 다르고 세금·장부 카테고리의 실무형 유입 자산.",
+    "links": [
+      "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+      "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+      "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01"
+    ]
+  },
+  {
+    "candidate": "통신판매업 변경신고만 따로 파는/문구화하는 체크팩",
+    "type": "digital_product",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "온라인 판매 신고/통신판매업 registration lane은 기존 `online_sales_registration_blog`와 겹치고, 사용자는 콘텐츠 판매를 중지한 상태. 본 글 안의 해당자 참고 항목으로만 처리.",
+    "links": [
+      "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01"
+    ]
+  },
+  {
+    "candidate": "간판 설치 전 옥외광고물 허가·신고 체크 글",
+    "type": "blog_validation",
+    "decision": "HOLD",
+    "reason_code": "HIGH_RISK",
+    "summary": "정부24/법령 근거는 있으나 지자체 조례·광고물 종류·심의 여부 차이가 커서 오늘 신규 persistent 후보로 만들기에는 법령/지역 리스크와 backlog 부담이 더 큼.",
+    "links": [
+      "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=13100000152"
+    ]
+  },
+  {
+    "candidate": "소상공인 수도요금 감면 신청 정리 글",
+    "type": "blog_validation",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "지자체별 대상·기간·신청처 차이가 커 전국형 Tistory 글의 정확도가 낮음. 지역을 특정하지 않으면 채널/독자 fit이 약함.",
+    "links": [
+      "https://i121.seoul.go.kr/cs/cyber/front/cgcalc/NR_chargeReduceInfo.do?_m=m1_6"
+    ]
+  }
+]

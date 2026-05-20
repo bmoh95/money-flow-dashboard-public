@@ -1,0 +1,185 @@
+{
+  "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+  "title": "사업자등록 정정신고 주소·상호 변경 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-20T16:09:57+09:00",
+  "updated_at": "2026-05-20T16:09:57+09:00",
+  "source_run_id": "2026-05-20_1600_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "가게 이전·상호 변경·업종 추가 후 사업자등록 정정 순서를 확인해야 하는 개인사업자·소상공인 독자",
+  "channel": "Tistory 무료 검증 글 → 돈관리·구매체크/세금·장부 검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+      "grade": "A",
+      "summary": "정부24 “사업자등록 정정신고, 법인이 아닌 단체의 고유번호 정정신고”. 신청방법 인터넷/방문, 수수료 없음, 상호·사이버몰명/도메인 변경은 즉시(근무시간 내 3시간), 사업장 이전 등은 총 2일, 제출서류는 사업자등록증·임대차계약서 사본(임차 시)·정정사항 서류로 안내.",
+      "checked_at": "2026-05-20T16:09:57+09:00"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+      "grade": "A",
+      "summary": "국세청 사업자등록 정정 공식 안내 페이지. 사업자등록 안내 내 정정 항목으로 정부24/홈택스 글의 공식 보강 근거.",
+      "checked_at": "2026-05-20T16:09:57+09:00"
+    },
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+      "grade": "A",
+      "summary": "정부24 통신판매업 변경신고. 상호·주소·전화번호·전자우편·도메인 등 신고사항 변경 시 수수료 없음, 국내 주된 사무소 총 3일, 변경사항 증명서류/신고증 원본 등 안내. 해당자만 참고로 제한.",
+      "checked_at": "2026-05-20T16:09:57+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+      "grade": "B",
+      "summary": "사업자등록 주소변경/정정신고 comparable 글 다수. 기존 글은 홈택스 화면 따라하기 또는 세무서비스 CTA가 많아, “이사 직후 먼저 볼 3가지” 구조로 차별화 가능.",
+      "checked_at": "2026-05-20T16:09:57+09:00"
+    },
+    {
+      "url": "https://beemo.tistory.com/rss",
+      "grade": "B",
+      "summary": "최근 공개글 5개와 비교. 음식점 위생교육/풍수해보험/뉴스 중심이라, 이번 글은 세금·장부 admin lane이지만 “이사/상호 변경 첫 순서”라는 새 상황 예시로 반복을 줄임.",
+      "checked_at": "2026-05-20T16:09:57+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 1,
+    "optimistic_units": 3
+  },
+  "scores": {
+    "quality": 87,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 35000,
+    "optimistic_net": 100000,
+    "base_net_margin_pct": 100
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "tax_admin_wording_risk",
+    "free_validation_only",
+    "official_source_recheck_required",
+    "image_generation_required",
+    "tistory_rendered_qa_required",
+    "category_required",
+    "anti_repetition_checked",
+    "no_sales_cta"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "4개 후보 검토. 사업자등록 정정신고 글이 공식 근거와 독자 pain이 가장 명확함."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 공식 근거 확보. 세무/민원 단정 리스크는 공식 링크·비단정·무료검증으로 통제."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 87점. 최근 글 반복을 피하려고 이사 직후→3가지 확인 구조로 설계."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "세무/민원 문구 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출은 0원이지만 세금·장부/admin 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+      "title": "evidence.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+      "title": "plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+      "title": "decisions.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+      "title": "roi.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+      "title": "body.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+      "title": "body.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+      "title": "style_brief.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+      "title": "sample_brief.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+      "title": "image_plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+      "title": "candidate_outcomes.json"
+    }
+  ],
+  "next_action": "Backlog job: 정부24/국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+  "stop_reason_code": "HIGH_RISK"
+}

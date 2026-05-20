@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T12:57:06+09:00",
+  "updated_at": "2026-05-20T16:09:57+09:00",
   "last_run": {
-    "run_id": "2026-05-20_1242_money-flow",
-    "started_at": "2026-05-20T12:42:01+09:00",
-    "finished_at": "2026-05-20T12:57:06+09:00",
+    "run_id": "2026-05-20_1600_money-flow",
+    "started_at": "2026-05-20T16:00:00+09:00",
+    "finished_at": "2026-05-20T16:09:57+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,60 +20,60 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/style_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/sample_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/image_plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/title.txt",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/tags.txt",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/category.txt",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/body.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/candidate_outcomes.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1242_money-flow/research.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1242_money-flow/planning.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1242_money-flow/execution.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1242_money-flow/redteam.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1242_money-flow/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/opportunity.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/title.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/tags.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/category.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/planning.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/execution.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/redteam.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/opportunity.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "candidate": "매장 CCTV 안내판 3칸 체크 무료 검증 글",
+        "candidate": "사업자등록 정정신고 주소·상호 변경 5분 체크 무료 검증 글",
         "decision": "GO",
         "reason_code": null
       },
       {
-        "candidate": "CCTV 안내판 문구 PDF/스티커 유료 템플릿",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_RISK"
-      },
-      {
-        "candidate": "상가 임대차 권리금/계약갱신요구권 체크 글",
-        "decision": "NO-GO",
-        "reason_code": "HIGH_RISK"
-      },
-      {
-        "candidate": "Bountysource/core #1148 spam reporting bounty 재검토",
+        "candidate": "통신판매업 변경신고만 따로 파는/문구화하는 체크팩",
         "decision": "NO-GO",
         "reason_code": "DUPLICATE"
       },
       {
-        "opportunity_id": "opp_20260520_090_cctv_notice_blog",
+        "candidate": "간판 설치 전 옥외광고물 허가·신고 체크 글",
+        "decision": "HOLD",
+        "reason_code": "HIGH_RISK"
+      },
+      {
+        "candidate": "소상공인 수도요금 감면 신청 정리 글",
+        "decision": "NO-GO",
+        "reason_code": "NO_CHANNEL"
+      },
+      {
+        "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
         "decision": "HOLD",
         "reason_code": "HIGH_RISK"
       }
     ],
-    "summary": "New-work scout reviewed 4 candidates and created one free-validation blog draft package for 매장 CCTV 안내판.",
-    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 3개 NO-GO.\n- `opp_20260520_090_cctv_notice_blog` 로컬 초안/HTML/이미지 계획/근거 정리 완료. 상태는 `검증 보류`입니다.\n\n**시장성 판단**\n- GO: 개인정보 포털·개인정보보호위원회·국가법령정보센터 A급 근거 있음. 매장 CCTV 안내판 pain이 명확하고 최근 세금/지원금 글과 주제가 다릅니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 전략가치 30,000원 상당 / 추가 비용 0원.\n\n**대기**\n- backlog job에서 공식문구 재확인 → 이미지 3장 생성/QA → Tistory 렌더 QA/게시 처리.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "New-work scout reviewed 4 candidates and created one free-validation blog draft package for 사업자등록 정정신고.",
+    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 2개 NO-GO, 1개 HOLD.\n- `opp_20260520_091_biz_registration_change_blog` 로컬 초안/HTML/이미지 계획/근거 정리 완료. 상태는 `검증 보류`입니다.\n\n**시장성 판단**\n- GO: 정부24·국세청 A급 근거 있음. 사업장 이전/상호 변경 pain이 명확하고 최근 음식점·보험 글과 주제가 다릅니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 전략가치 35,000원 상당 / 추가 비용 0원.\n\n**대기**\n- backlog job에서 공식문구 재확인 → 이미지 3장 생성/QA → Tistory 렌더 QA/게시 처리.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료 예정.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 93,
-    "active": 5,
+    "total": 94,
+    "active": 6,
     "approval_needed": 1,
     "launched": 34,
     "closed_won": 0,
@@ -1100,6 +1100,261 @@
       "approval_reason": null,
       "created_at": "2026-05-20T12:56:21+09:00",
       "updated_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "key": "MF-94",
+      "id": "opp_20260520_091_biz_registration_change_blog",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "title": "사업자등록 정정신고 주소·상호 변경 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "고위험",
+        "검증 보류"
+      ],
+      "quality": 87,
+      "expected_base_net": 35000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "가게 이전·상호 변경·업종 추가 후 사업자등록 정정 순서를 확인해야 하는 개인사업자·소상공인 독자",
+      "channel": "Tistory 무료 검증 글 → 돈관리·구매체크/세금·장부 검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 정부24/국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "risk_flags": [
+        "tax_admin_wording_risk",
+        "free_validation_only",
+        "official_source_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "category_required",
+        "anti_repetition_checked",
+        "no_sales_cta"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+          "grade": "A",
+          "summary": "정부24 “사업자등록 정정신고, 법인이 아닌 단체의 고유번호 정정신고”. 신청방법 인터넷/방문, 수수료 없음, 상호·사이버몰명/도메인 변경은 즉시(근무시간 내 3시간), 사업장 이전 등은 총 2일, 제출서류는 사업자등록증·임대차계약서 사본(임차 시)·정정사항 서류로 안내.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+          "grade": "A",
+          "summary": "국세청 사업자등록 정정 공식 안내 페이지. 사업자등록 안내 내 정정 항목으로 정부24/홈택스 글의 공식 보강 근거.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+          "grade": "A",
+          "summary": "정부24 통신판매업 변경신고. 상호·주소·전화번호·전자우편·도메인 등 신고사항 변경 시 수수료 없음, 국내 주된 사무소 총 3일, 변경사항 증명서류/신고증 원본 등 안내. 해당자만 참고로 제한.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "사업자등록 주소변경/정정신고 comparable 글 다수. 기존 글은 홈택스 화면 따라하기 또는 세무서비스 CTA가 많아, “이사 직후 먼저 볼 3가지” 구조로 차별화 가능.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 비교. 음식점 위생교육/풍수해보험/뉴스 중심이라, 이번 글은 세금·장부 admin lane이지만 “이사/상호 변경 첫 순서”라는 새 상황 예시로 반복을 줄임.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "4개 후보 검토. 사업자등록 정정신고 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 근거 확보. 세무/민원 단정 리스크는 공식 링크·비단정·무료검증으로 통제."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87점. 최근 글 반복을 피하려고 이사 직후→3가지 확인 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "세무/민원 문구 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 매출은 0원이지만 세금·장부/admin 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null,
+      "created_at": "2026-05-20T16:09:57+09:00",
+      "updated_at": "2026-05-20T16:09:57+09:00"
     }
   ],
   "approval_needed": [
@@ -2397,12 +2652,267 @@
       "approval_reason": null,
       "created_at": "2026-05-20T12:56:21+09:00",
       "updated_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "key": "MF-94",
+      "id": "opp_20260520_091_biz_registration_change_blog",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "title": "사업자등록 정정신고 주소·상호 변경 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "고위험",
+        "검증 보류"
+      ],
+      "quality": 87,
+      "expected_base_net": 35000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "가게 이전·상호 변경·업종 추가 후 사업자등록 정정 순서를 확인해야 하는 개인사업자·소상공인 독자",
+      "channel": "Tistory 무료 검증 글 → 돈관리·구매체크/세금·장부 검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 정부24/국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "risk_flags": [
+        "tax_admin_wording_risk",
+        "free_validation_only",
+        "official_source_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "category_required",
+        "anti_repetition_checked",
+        "no_sales_cta"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+          "grade": "A",
+          "summary": "정부24 “사업자등록 정정신고, 법인이 아닌 단체의 고유번호 정정신고”. 신청방법 인터넷/방문, 수수료 없음, 상호·사이버몰명/도메인 변경은 즉시(근무시간 내 3시간), 사업장 이전 등은 총 2일, 제출서류는 사업자등록증·임대차계약서 사본(임차 시)·정정사항 서류로 안내.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+          "grade": "A",
+          "summary": "국세청 사업자등록 정정 공식 안내 페이지. 사업자등록 안내 내 정정 항목으로 정부24/홈택스 글의 공식 보강 근거.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+          "grade": "A",
+          "summary": "정부24 통신판매업 변경신고. 상호·주소·전화번호·전자우편·도메인 등 신고사항 변경 시 수수료 없음, 국내 주된 사무소 총 3일, 변경사항 증명서류/신고증 원본 등 안내. 해당자만 참고로 제한.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "사업자등록 주소변경/정정신고 comparable 글 다수. 기존 글은 홈택스 화면 따라하기 또는 세무서비스 CTA가 많아, “이사 직후 먼저 볼 3가지” 구조로 차별화 가능.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 비교. 음식점 위생교육/풍수해보험/뉴스 중심이라, 이번 글은 세금·장부 admin lane이지만 “이사/상호 변경 첫 순서”라는 새 상황 예시로 반복을 줄임.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "4개 후보 검토. 사업자등록 정정신고 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 근거 확보. 세무/민원 단정 리스크는 공식 링크·비단정·무료검증으로 통제."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87점. 최근 글 반복을 피하려고 이사 직후→3가지 확인 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "세무/민원 문구 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 매출은 0원이지만 세금·장부/admin 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null,
+      "created_at": "2026-05-20T16:09:57+09:00",
+      "updated_at": "2026-05-20T16:09:57+09:00"
     }
   ],
   "rejection_summary": {
     "중복/경쟁 과다": 21,
     "기회비용": 17,
-    "고위험": 14,
+    "고위험": 15,
     "사용자 관여 과다": 2,
     "지급 불명확": 3,
     "채널 없음": 1,
@@ -2410,152 +2920,11 @@
     "품질 낮음": 2
   },
   "roi": {
-    "expected_base_net_total": 1072161,
+    "expected_base_net_total": 1107161,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-20T02:03:15+09:00",
-      "run_id": "2026-05-20_0154_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Quality score 88/100; anti-repetition pass completed against last 5 public posts.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md"
-      ]
-    },
-    {
-      "time": "2026-05-20T02:03:15+09:00",
-      "run_id": "2026-05-20_0154_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Local blog draft package created: body.md/body.html/style brief/image plan/sample brief.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/style_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/sample_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/image_plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/title.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/tags.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/category.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/roi.md"
-      ]
-    },
-    {
-      "time": "2026-05-20T02:03:15+09:00",
-      "run_id": "2026-05-20_0154_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Local draft is usable; not publish-ready until official wording, images, and rendered QA pass.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/body.html"
-      ]
-    },
-    {
-      "time": "2026-05-20T02:03:15+09:00",
-      "run_id": "2026-05-20_0154_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "Blocked from launch by official wording/menu volatility, 유효기간 단정 risk, and missing image/Tistory QA.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T02:03:15+09:00",
-      "run_id": "2026-05-20_0154_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Direct revenue 0, but low-cost reusable admin-doc validation asset; base strategic value 25,000 KRW equivalent.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T05:14:14+09:00",
-      "run_id": "2026-05-20_0508_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260520_089_franchise_disclosure_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "프랜차이즈 정보공개서 체크 글 후보 발견. 4개 후보 중 최우선.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T05:14:14+09:00",
-      "run_id": "2026-05-20_0508_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260520_089_franchise_disclosure_blog",
-      "event": "evidence_added",
-      "from_status": "researching",
-      "to_status": "researching",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공정위 가맹사업거래, 생활법령, 법령정보, comparable 검색 근거 추가.",
-      "links": [
-        "https://franchise.ftc.go.kr/",
-        "https://www.easylaw.go.kr/CSP/CnpClsMainBtr.laf?csmSeq=647&ccfNo=2&cciNo=1&cnpClsNo=2",
-        "https://law.go.kr/admRulLsInfoP.do?admRulId=34702&efYd=0",
-        "https://duckduckgo.com/html/?q=프랜차이즈+정보공개서+확인+방법+창업+전+체크+블로그",
-        "https://beemo.tistory.com/rss"
-      ]
-    },
-    {
-      "time": "2026-05-20T05:14:14+09:00",
-      "run_id": "2026-05-20_0508_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260520_089_franchise_disclosure_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A/B 근거와 buyer/channel fit 확인. 법률 단정 리스크는 관리 조건.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T05:14:14+09:00",
-      "run_id": "2026-05-20_0508_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260520_089_franchise_disclosure_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 86점. 숫자형 반복을 피한 상담-서류-줄긋기 구조로 승인.",
-      "links": []
-    },
     {
       "time": "2026-05-20T05:14:14+09:00",
       "run_id": "2026-05-20_0508_money-flow",
@@ -2904,6 +3273,167 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "Direct revenue 0, but low-cost reusable 매장운영/개인정보 validation asset; base strategic value 30,000 KRW equivalent.",
+      "links": []
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "4 candidates reviewed; 사업자등록 정정신고 free validation selected as best new work item.",
+      "links": [
+        "https://i121.seoul.go.kr/cs/cyber/front/cgcalc/NR_chargeReduceInfo.do?_m=m1_6",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=13100000152",
+        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "evidence_added",
+      "from_status": "researching",
+      "to_status": "researching",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Government24/NTS official evidence and 12 comparable sample patterns captured.",
+      "links": [
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+        "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://beemo.tistory.com/rss"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A/B evidence found; buyer/channel clear; admin overclaim risk mitigated by official-source caveats and no paid template.",
+      "links": [
+        "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+        "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+        "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+        "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+        "https://beemo.tistory.com/rss"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Plan, reader, channel, image jobs, ROI assumptions defined.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Quality score 87/100; anti-repetition pass completed against last 5 public posts.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "asset_created",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Local blog draft package created: body.md/body.html/style brief/image plan/sample brief.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/title.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/tags.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/category.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/research.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/planning.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/execution.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/redteam.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-20_1600_money-flow/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/opportunity.json"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Local draft is usable; not publish-ready until official wording, images, and rendered QA pass.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html"
+      ]
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "Blocked from launch by 세무/민원 wording risk, 업종별 예외, and missing image/Tistory QA.",
+      "links": []
+    },
+    {
+      "time": "2026-05-20T16:09:57+09:00",
+      "run_id": "2026-05-20_1600_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Direct revenue 0, but low-cost reusable 세금·장부/admin validation asset; base strategic value 35,000 KRW equivalent.",
       "links": []
     }
   ],
@@ -22634,6 +23164,261 @@
       "approval_reason": null,
       "created_at": "2026-05-20T12:56:21+09:00",
       "updated_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "key": "MF-94",
+      "id": "opp_20260520_091_biz_registration_change_blog",
+      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+      "title": "사업자등록 정정신고 주소·상호 변경 무료 검증 글",
+      "status": "검증 보류",
+      "status_label": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "고위험",
+        "검증 보류"
+      ],
+      "quality": 87,
+      "expected_base_net": 35000,
+      "base_net_margin_pct": 100,
+      "margin_pct": 100,
+      "expected_price": 0,
+      "buyer_or_payer": "가게 이전·상호 변경·업종 추가 후 사업자등록 정정 순서를 확인해야 하는 개인사업자·소상공인 독자",
+      "channel": "Tistory 무료 검증 글 → 돈관리·구매체크/세금·장부 검색 유입",
+      "current_owner": "리스크 검토",
+      "next_action": "Backlog job: 정부24/국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "risk_flags": [
+        "tax_admin_wording_risk",
+        "free_validation_only",
+        "official_source_recheck_required",
+        "image_generation_required",
+        "tistory_rendered_qa_required",
+        "category_required",
+        "anti_repetition_checked",
+        "no_sales_cta"
+      ],
+      "stop_reason": "고위험",
+      "evidence": [
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+          "grade": "A",
+          "summary": "정부24 “사업자등록 정정신고, 법인이 아닌 단체의 고유번호 정정신고”. 신청방법 인터넷/방문, 수수료 없음, 상호·사이버몰명/도메인 변경은 즉시(근무시간 내 3시간), 사업장 이전 등은 총 2일, 제출서류는 사업자등록증·임대차계약서 사본(임차 시)·정정사항 서류로 안내.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+          "grade": "A",
+          "summary": "국세청 사업자등록 정정 공식 안내 페이지. 사업자등록 안내 내 정정 항목으로 정부24/홈택스 글의 공식 보강 근거.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+          "grade": "A",
+          "summary": "정부24 통신판매업 변경신고. 상호·주소·전화번호·전자우편·도메인 등 신고사항 변경 시 수수료 없음, 국내 주된 사무소 총 3일, 변경사항 증명서류/신고증 원본 등 안내. 해당자만 참고로 제한.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D+%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0+%EC%A3%BC%EC%86%8C+%EB%B3%80%EA%B2%BD+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+          "grade": "B",
+          "summary": "사업자등록 주소변경/정정신고 comparable 글 다수. 기존 글은 홈택스 화면 따라하기 또는 세무서비스 CTA가 많아, “이사 직후 먼저 볼 3가지” 구조로 차별화 가능.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/rss",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 비교. 음식점 위생교육/풍수해보험/뉴스 중심이라, 이번 글은 세금·장부 admin lane이지만 “이사/상호 변경 첫 순서”라는 새 상황 예시로 반복을 줄임.",
+          "checked_at": "2026-05-20T16:09:57+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "4개 후보 검토. 사업자등록 정정신고 글이 공식 근거와 독자 pain이 가장 명확함."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 근거 확보. 세무/민원 단정 리스크는 공식 링크·비단정·무료검증으로 통제."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87점. 최근 글 반복을 피하려고 이사 직후→3가지 확인 구조로 설계."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "세무/민원 문구 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+        },
+        {
+          "time": "2026-05-20T16:09:57+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 매출은 0원이지만 세금·장부/admin 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "assets": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/evidence.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/decisions.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/roi.md"
+        },
+        {
+          "label": "body.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/body.md"
+        },
+        {
+          "label": "body.html",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/body.html",
+          "url": null,
+          "viewer": null
+        },
+        {
+          "label": "style_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/style_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/style_brief.md"
+        },
+        {
+          "label": "sample_brief.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/sample_brief.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/sample_brief.md"
+        },
+        {
+          "label": "image_plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/image_plan.md",
+          "url": null,
+          "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
+          "url": null,
+          "viewer": null
+        }
+      ],
+      "approval_required": false,
+      "approval_reason": null,
+      "created_at": "2026-05-20T16:09:57+09:00",
+      "updated_at": "2026-05-20T16:09:57+09:00"
     }
   ]
 }
