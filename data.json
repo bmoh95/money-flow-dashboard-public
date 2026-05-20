@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-21T02:00:25+09:00",
+  "updated_at": "2026-05-21T02:05:38+09:00",
   "last_run": {
     "run_id": "2026-05-21_0148_money-flow",
     "started_at": "2026-05-21T01:48:08+09:00",
-    "finished_at": "2026-05-21T02:00:25+09:00",
+    "finished_at": "2026-05-21T02:05:38+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -50,7 +50,7 @@
       }
     ],
     "summary": "New-work scout reviewed 4 candidates and created one high-attention free-validation blog draft, held for backlog QA.",
-    "final_report": "주인님, Money Flow 신규 스카우트 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `MF-94` 청년미래적금 6월 갈아타기/청년도약계좌 먼저 해지 금지 무료 검증 글 리서치·기획·초안 생성 완료.\n\n**시장성 판단**\n- GO: 금융위 A근거, 6월 최초 가입, 기존 계좌 먼저 해지 시 전환 불가 리스크로 클릭 긴장감이 강한 `폭발 후보`입니다.\n- bounty는 fresh 검색·gate 모두 GO 0건, ARC Prize는 장기·고경쟁, 희망리턴패키지는 최신 공식 한도 확인 부족으로 제외했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 비용 0원 / 무료 검색 유입 검증 자산.\n\n**대기**\n- `MF-94`는 검증 보류: backlog job에서 PNG 3장·공식 문구 재확인·Tistory 렌더 QA 필요.\n- 대시보드 갱신: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 신규 스카우트 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `MF-94` 청년미래적금 6월 갈아타기/청년도약계좌 먼저 해지 금지 무료 검증 글 리서치·기획·초안 생성 완료.\n- 대시보드 GitHub Pages mirror 갱신 및 공개 `data.json`/artifact 검증 완료.\n\n**시장성 판단**\n- GO: 금융위 A근거, 6월 최초 가입, 기존 계좌 먼저 해지 시 전환 불가 리스크로 클릭 긴장감이 강한 `폭발 후보`입니다.\n- bounty는 fresh 검색·gate 모두 GO 0건, ARC Prize는 장기·고경쟁, 희망리턴패키지는 최신 공식 한도 확인 부족으로 제외했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 비용 0원 / 무료 검색 유입 검증 자산.\n\n**대기**\n- `MF-94`는 검증 보류: backlog job에서 PNG 3장·공식 문구 재확인·Tistory 렌더 QA 필요.\n- 대시보드: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 공개 대시보드: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 97,
