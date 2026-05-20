@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-05-21T06:29:21+09:00",
+  "url": "https://beemo.tistory.com/64",
+  "mobile_url": "https://beemo.tistory.com/m/64",
+  "status": "PUBLIC_RENDERED_QA_PASSED",
+  "cycles_completed": 2,
+  "article_images": 3,
+  "image_files": [
+    "01-youth-future-thumb.png",
+    "02-switch-order-flow.png",
+    "03-contribution-check-card.png"
+  ],
+  "dom_checks": {
+    "public_http": 200,
+    "mobile_http": 200,
+    "title_found": true,
+    "image_hits": 3,
+    "thumbnail_http": 200,
+    "category_id": "1295941",
+    "category_ok": true,
+    "visibility": "PUBLIC",
+    "home_title_found": true,
+    "home_thumb_hint": true,
+    "raw_markdown_found": false,
+    "default_og_placeholder": false
+  },
+  "visual_checks": [
+    "contact sheet: Gothic Korean font, no clipping, no overlap, no divider/footer collision",
+    "public desktop rendered page: first screen, captions, and 3 body images readable",
+    "mobile rendered page: title, summary list, images, and table readable; no blocking defect"
+  ],
+  "risk_mitigation": [
+    "financial-product advice limited to official-source reading and order warning",
+    "no sales CTA or 가입 권유 language",
+    "official links included and category nonzero verified through manage/posts.json"
+  ],
+  "notes": "Mobile small helper text is taste-level only; not a blocker because body/captions repeat the important caveats."
+}
