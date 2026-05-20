@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T09:32:19+09:00",
+  "updated_at": "2026-05-20T09:39:27+09:00",
   "last_run": {
     "run_id": "2026-05-20_0925_money-flow",
     "started_at": "2026-05-20T09:32:19+09:00",
-    "finished_at": "2026-05-20T09:32:19+09:00",
+    "finished_at": "2026-05-20T09:39:27+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -31,8 +31,8 @@
         "to_status": "tracking"
       }
     ],
-    "summary": "Backlog item storm-flood insurance Tistory post published, verified, and moved from redteam_hold to tracking.",
-    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_079_storm_flood_insurance_blog` 공개 게시 완료: https://beemo.tistory.com/60\n- 이미지 3장/카테고리/OG·목록 썸네일/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n\n**시장성 판단**\n- 장마 전 상가·공장 운영 소상공인 대상 무료 검증 글입니다. 보험 권유·지원율 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 순마진 산정 없음 / 추가 비용 0원. 검색 유입 검증 자산으로 추적합니다.\n\n**대기**\n- 대시보드와 GitHub Pages mirror 갱신·검증 진행.\n\n**필요 승인**\n- 없음.\n"
+    "summary": "Backlog item storm-flood insurance Tistory post published, verified, moved to tracking, and GitHub Pages dashboard mirror verified with signed URL values redacted.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_079_storm_flood_insurance_blog` 공개 게시 완료: https://beemo.tistory.com/60\n- 이미지 3장/카테고리/OG·목록 썸네일/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n- 대시보드 GitHub Pages mirror 검증 완료: https://bmoh95.github.io/money-flow-dashboard-public/\n- 공개 산출물의 Tistory 이미지 서명 URL 값은 `[REDACTED]` 처리했습니다.\n\n**시장성 판단**\n- 장마 전 상가·공장 운영 소상공인 대상 무료 검증 글입니다. 보험 권유·지원율 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 순마진 산정 없음 / 추가 비용 0원. 검색 유입 검증 자산으로 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 92,
