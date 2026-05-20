@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T16:09:57+09:00",
+  "updated_at": "2026-05-20T16:10:53+09:00",
   "last_run": {
     "run_id": "2026-05-20_1600_money-flow",
     "started_at": "2026-05-20T16:00:00+09:00",
-    "finished_at": "2026-05-20T16:09:57+09:00",
+    "finished_at": "2026-05-20T16:10:53+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -69,7 +69,7 @@
       }
     ],
     "summary": "New-work scout reviewed 4 candidates and created one free-validation blog draft package for 사업자등록 정정신고.",
-    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 2개 NO-GO, 1개 HOLD.\n- `opp_20260520_091_biz_registration_change_blog` 로컬 초안/HTML/이미지 계획/근거 정리 완료. 상태는 `검증 보류`입니다.\n\n**시장성 판단**\n- GO: 정부24·국세청 A급 근거 있음. 사업장 이전/상호 변경 pain이 명확하고 최근 음식점·보험 글과 주제가 다릅니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 전략가치 35,000원 상당 / 추가 비용 0원.\n\n**대기**\n- backlog job에서 공식문구 재확인 → 이미지 3장 생성/QA → Tistory 렌더 QA/게시 처리.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료 예정.\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 신규 발굴 결과입니다.\n\n**완료**\n- 후보 4개 검토, 1개 GO, 2개 NO-GO, 1개 HOLD.\n- `opp_20260520_091_biz_registration_change_blog` 로컬 초안/HTML/이미지 계획/근거 정리 완료. 상태는 `검증 보류`입니다.\n\n**시장성 판단**\n- GO: 정부24·국세청 A급 근거 있음. 사업장 이전/상호 변경 pain이 명확하고 최근 음식점·보험 글과 주제가 다릅니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 전략가치 35,000원 상당 / 추가 비용 0원.\n\n**대기**\n- backlog job에서 공식문구 재확인 → 이미지 3장 생성/QA → Tistory 렌더 QA/게시 처리.\n- 대시보드/GitHub Pages mirror 갱신 및 HTTPS data.json 검증 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 94,
