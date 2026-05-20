@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-05-20T13:07:52+09:00",
+  "run_id": "2026-05-20_1303_money-flow",
+  "opportunity_id": "opp_20260519_083_food_hygiene_training_blog",
+  "title": "음식점 위생교육, 올해 들었는지 헷갈릴 때 보는 순서",
+  "category": "업종별 안내문/매장 운영·플레이스",
+  "png_dimensions": {
+    "01-food-hygiene-thumb.png": {
+      "width": 1200,
+      "height": 675
+    },
+    "02-food-hygiene-message.png": {
+      "width": 1200,
+      "height": 675
+    },
+    "03-food-hygiene-flow.png": {
+      "width": 1200,
+      "height": 675
+    }
+  },
+  "image_count": 3,
+  "source_link_count": 4,
+  "raw_markdown_hits": 0,
+  "contains_sales_cta": false,
+  "official_wording_softened": true,
+  "privacy_wording_softened": true,
+  "anti_repetition_passed": true,
+  "local_files": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/01-food-hygiene-thumb.svg",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/02-food-hygiene-message.svg",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/03-food-hygiene-flow.svg",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/01-food-hygiene-thumb.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/02-food-hygiene-message.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_083_food_hygiene_training_blog/assets/03-food-hygiene-flow.png"
+  ]
+}
