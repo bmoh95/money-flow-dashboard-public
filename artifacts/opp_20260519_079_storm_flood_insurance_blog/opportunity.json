@@ -2,13 +2,13 @@
   "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
   "title": "소상공인 풍수해·지진재해보험 가입 전 체크 무료 검증 글",
   "type": "other",
-  "status": "redteam_hold",
+  "status": "tracking",
   "created_at": "2026-05-19T13:04:04+09:00",
-  "updated_at": "2026-05-19T23:01:26+09:00",
+  "updated_at": "2026-05-20T09:32:19+09:00",
   "source_run_id": "2026-05-19_1259_money-flow",
-  "current_owner": "redteam",
+  "current_owner": "roi",
   "buyer_or_payer": "장마·태풍 전 상가/공장 운영 소상공인 독자; 간접 블로그 유입 검증",
-  "channel": "Tistory free validation blog (standing approval; public publish blocked by daily quota precheck on 2026-05-19)",
+  "channel": "Tistory 무료 검증 글 공개 완료 → https://beemo.tistory.com/60",
   "evidence": [
     {
       "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
@@ -75,7 +75,15 @@
     "local_visual_qa_passed",
     "local_render_qa_passed",
     "tistory_profile2_session_verified",
-    "PUBLICATION_BLOCKED_DAILY_LIMIT"
+    "official_wording_softened",
+    "tistory_published",
+    "public_url_verified",
+    "public_render_qa_passed",
+    "public_visual_qa_passed",
+    "mobile_render_qa_passed",
+    "og_image_verified",
+    "tistory_list_thumbnail_real_verified",
+    "no_sales_cta"
   ],
   "decision_history": [
     {
@@ -154,6 +162,27 @@
       "decision": "HOLD",
       "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
       "summary": "무료 검증 자산은 완성. 공개 전 실제 유입/수익 추적은 0원."
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개 URL/모바일 URL 확인. body 이미지 3장, 카테고리, OG/list 썸네일, 출처 링크, raw Markdown 부재, 이미지 간격 QA 통과."
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "일일 발행 한도 blocker 해소. 보험 권유/지원율 단정 리스크는 공식 확인형 표현으로 완화되어 tracking 전환 허용."
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 공개 완료. 직접 매출은 0원이지만 장마 전 소상공인 검색 유입 자산으로 추적."
     }
   ],
   "assets": [
@@ -248,8 +277,36 @@
       "label": "tistory_publish_result_20260519_storm_flood.json",
       "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
       "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260520_storm_flood.json",
+      "title": "tistory_publish_result_20260520_storm_flood.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260520_storm_flood.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.json",
+      "title": "public_render_qa_20260520.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/public_render_qa_20260520.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.md",
+      "title": "public_render_qa_20260520.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/public_render_qa_20260520.md"
+    },
+    {
+      "title": "Tistory public post",
+      "url": "https://beemo.tistory.com/60"
+    },
+    {
+      "title": "Tistory mobile post",
+      "url": "https://beemo.tistory.com/m/60"
     }
   ],
-  "next_action": "Tistory 공개 발행 일일 한도(2026-05-19 공개글 15/15) 해제 후 `runs/publish_storm_flood_tistory_20260519.py` 재실행. AUTH_BLOCKED 아님; Profile 2 세션/카테고리는 확인됨. 제목 중복 확인 후 게시.",
-  "stop_reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT"
+  "next_action": "공개 글 유입/검색 반응을 추적하고, 다음 backlog redteam_hold 항목을 oldest-first로 처리.",
+  "stop_reason_code": null,
+  "metrics": {
+    "public_url": "https://beemo.tistory.com/60",
+    "published_at": "2026-05-20T09:26:00+09:00",
+    "public_render_qa_checked_at": "2026-05-20T09:32:19+09:00"
+  }
 }

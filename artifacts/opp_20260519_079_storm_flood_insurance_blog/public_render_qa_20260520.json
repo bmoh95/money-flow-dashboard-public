@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-05-20T09:32:19+09:00",
+  "run_id": "2026-05-20_0925_money-flow",
+  "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+  "post_url": "https://beemo.tistory.com/60",
+  "mobile_url": "https://beemo.tistory.com/m/60",
+  "http": 200,
+  "mobile_http": 200,
+  "home_http": 200,
+  "title_found": true,
+  "mobile_title_found": true,
+  "category_label_found": true,
+  "category_id": "1295940",
+  "body_image_hits": 3,
+  "mobile_body_image_hits": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbKzD2j%2FdJMcacwqyxp%2FAAAAAAAAAAAAAAAAAAAAAOCM9Fl7UloDOkbpOfuI5UWSyp6kZhiFZztU8qm0oVuB%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D[REDACTED]%26allow_referer%3D[REDACTED]%26signature%3D[REDACTED]",
+  "twitter_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbKzD2j%2FdJMcacwqyxp%2FAAAAAAAAAAAAAAAAAAAAAOCM9Fl7UloDOkbpOfuI5UWSyp6kZhiFZztU8qm0oVuB%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D[REDACTED]%26allow_referer%3D[REDACTED]%26signature%3D[REDACTED]",
+  "mobile_og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbKzD2j%2FdJMcacwqyxp%2FAAAAAAAAAAAAAAAAAAAAAOCM9Fl7UloDOkbpOfuI5UWSyp6kZhiFZztU8qm0oVuB%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D[REDACTED]%26allow_referer%3D[REDACTED]%26signature%3D[REDACTED]",
+  "og_not_default": true,
+  "twitter_not_default": true,
+  "mobile_og_not_default": true,
+  "home_list_thumbnail_real": true,
+  "raw_markdown_hits": 0,
+  "source_link_hits": 2,
+  "browser_render_qa": {
+    "desktop_cycles": 1,
+    "mobile_cycles": 1,
+    "body_images_loaded": 3,
+    "body_images_natural_size": "1200x675 each",
+    "desktop_img_to_caption_px": [
+      8,
+      8,
+      8
+    ],
+    "desktop_caption_to_next_h2_px": [
+      26,
+      26,
+      26
+    ],
+    "mobile_img_to_caption_px": [
+      8,
+      8,
+      8
+    ],
+    "vision_result": "desktop public-page screenshot passed: Korean Gothic-looking text, no crop/overlap/collision; first card spacing adequate; footer small but non-blocking",
+    "raw_work_notes": "none found"
+  }
+}

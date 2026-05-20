@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T05:39:25+09:00",
+  "updated_at": "2026-05-20T09:32:19+09:00",
   "last_run": {
-    "run_id": "2026-05-20_0532_money-flow",
-    "started_at": "2026-05-20T05:37:49+09:00",
-    "finished_at": "2026-05-20T05:39:25+09:00",
+    "run_id": "2026-05-20_0925_money-flow",
+    "started_at": "2026-05-20T09:32:19+09:00",
+    "finished_at": "2026-05-20T09:32:19+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,303 +17,33 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/public_render_qa_20260520.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/public_render_qa_20260520.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_075_first_hire_4insurance_blog/assets/opportunity.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260520_storm_flood.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/opportunity.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
+        "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
         "decision": "GO",
         "reason_code": null,
         "to_status": "tracking"
       }
     ],
-    "summary": "Backlog first-hire Tistory post verified public, moved to tracking, and GitHub Pages dashboard data verified.",
-    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_075_first_hire_4insurance_blog` 공개 URL 검증 완료: https://beemo.tistory.com/58\n- 이미지 3장/카테고리/OG/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n- 대시보드와 GitHub Pages mirror `data.json` HTTPS 검증 완료.\n\n**시장성 판단**\n- 첫 직원 채용 사장님 대상 무료 검증 글입니다. 4대보험 대상·기한 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 재사용·검색유입 가치 34,000원 상당 / 추가 비용 0원.\n\n**대기**\n- 남은 보류 큐 5개는 다음 backlog run에서 oldest-first 처리.\n\n**필요 승인**\n- 없음.\n"
+    "summary": "Backlog item storm-flood insurance Tistory post published, verified, and moved from redteam_hold to tracking.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260519_079_storm_flood_insurance_blog` 공개 게시 완료: https://beemo.tistory.com/60\n- 이미지 3장/카테고리/OG·목록 썸네일/모바일/출처 링크/본문 렌더 QA 통과. 상태를 `tracking`으로 전환했습니다.\n\n**시장성 판단**\n- 장마 전 상가·공장 운영 소상공인 대상 무료 검증 글입니다. 보험 권유·지원율 단정은 피하고 공식 확인형으로 완화했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 기준 순마진 산정 없음 / 추가 비용 0원. 검색 유입 검증 자산으로 추적합니다.\n\n**대기**\n- 대시보드와 GitHub Pages mirror 갱신·검증 진행.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 92,
-    "active": 5,
+    "active": 4,
     "approval_needed": 1,
-    "launched": 33,
+    "launched": 34,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 54
   },
   "active_opportunities": [
-    {
-      "key": "MF-79",
-      "id": "opp_20260519_079_storm_flood_insurance_blog",
-      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
-      "title": "소상공인 풍수해·지진재해보험 가입 전 체크 무료 검증 글",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "일일 발행 한도",
-        "검증 보류"
-      ],
-      "quality": 84,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "장마·태풍 전 상가/공장 운영 소상공인 독자; 간접 블로그 유입 검증",
-      "channel": "Tistory free validation blog (standing approval; public publish blocked by daily quota precheck on 2026-05-19)",
-      "current_owner": "리스크 검토",
-      "next_action": "Tistory 공개 발행 일일 한도(2026-05-19 공개글 15/15) 해제 후 `runs/publish_storm_flood_tistory_20260519.py` 재실행. AUTH_BLOCKED 아님; Profile 2 세션/카테고리는 확인됨. 제목 중복 확인 후 게시.",
-      "risk_flags": [
-        "free_validation_only",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
-        "local_render_qa_passed",
-        "tistory_profile2_session_verified",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
-      ],
-      "stop_reason": "일일 발행 한도",
-      "evidence": [
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
-          "grade": "A",
-          "summary": "행정안전부 풍수해·지진재해보험 운영 공식 안내. 소상공인 상가·공장, 시설·집기비품, 재고자산 등 대상·상품 구분 확인.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://safekorea.go.kr/idsiSFK/neo/sfk/cs/contents/insurance/SDIJKM2101.html?menuSeq=303",
-          "grade": "A",
-          "summary": "국민안전24 보험 안내. 공식 안내 출처로 독자 확인 링크에 적합.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://blog.naver.com/sojeongtong/224254179270",
-          "grade": "B",
-          "summary": "소상공인 풍수해보험 블로그 comparable. 지원율 후킹이 강하나 광고성 리스크 있어 문체는 참고만.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://zippoom.com/블로그/소상공인-풍수해보험-가입-방법-필요서류/1287",
-          "grade": "B",
-          "summary": "가입방법/조건/서류형 comparable. 실무 검색 수요 확인용.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://direct.hi.co.kr/service.do?m=c587727700",
-          "grade": "A",
-          "summary": "보험사 소상공인 풍수해지진재해보험 상품 안내. 특정 보험사 추천은 금지하고 보장범위 확인 예시로만 사용.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
-          "grade": "A",
-          "summary": "Backlog recheck: 소상공인 상가·공장 건물, 시설·집기비품, 재고자산 문맥 확인. 보험료/보장/지원율 단정 표현은 본문에서 제거.",
-          "checked_at": "2026-05-19T23:01:26+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "후보 4개 검토: 블로그 보험 체크 글 1개 GO, bounty/writing/contest 3개 NO-GO."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 근거와 시즌성 수요 확인. 기존 Money Flow 주제와 중복 낮음."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "광고성 보험 추천이 아닌 대상 판단 3문항 구조로 차별화. 품질 84점."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "NO_APPROVAL",
-          "summary": "본문/계획 초안은 완료. 이미지 생성·Tistory 렌더링 QA·카테고리 검증은 backlog job으로 이관."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "HIGH_RISK",
-          "summary": "보험/지원율 단정 리스크. 공식 문구 재확인과 이미지·공개 QA 전 tracking 금지."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "OPPORTUNITY_COST",
-          "summary": "직접 수익 0원이나 시즌성 무료 검증 자산으로 보존. 추가 비용 0원."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 근거 재확인 및 comparable 샘플 보강. 보험 추천/지원율 과장 대신 대상 확인형 무료 글로 유지."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "지원 이미지 3장 SVG/PNG 제작, 본문 문구 완화, Tistory용 HTML/로컬 렌더 파일 생성."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "contact sheet와 로컬 렌더링 QA 통과. Profile 2 Tistory 세션·카테고리 확인. 당일 공개글 15/15로 공개 POST 전 차단."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "보험/지원율 단정 리스크는 완화됨. 공개 URL/OG/모바일 QA 전 tracking 전환 금지. AUTH_BLOCKED 아님."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "무료 검증 자산은 완성. 공개 전 실제 유입/수익 추적은 0원."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/evidence.md",
-          "title": "evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/style_brief.md",
-          "title": "style_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/image_plan.md",
-          "title": "image_plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/body.md",
-          "title": "body.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/plan.md",
-          "title": "plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/redteam.md",
-          "title": "redteam.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md",
-          "title": "roi.md"
-        },
-        {
-          "label": "sample_addendum.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md"
-        },
-        {
-          "label": "anti_repetition_check.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md"
-        },
-        {
-          "label": "01-storm-insurance-thumb.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg"
-        },
-        {
-          "label": "02-storm-insurance-message.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg"
-        },
-        {
-          "label": "03-storm-insurance-checklist.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg"
-        },
-        {
-          "label": "01-storm-insurance-thumb.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png"
-        },
-        {
-          "label": "02-storm-insurance-message.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png"
-        },
-        {
-          "label": "03-storm-insurance-checklist.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png"
-        },
-        {
-          "label": "body_revised.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md"
-        },
-        {
-          "label": "storm_flood_tistory_body.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html"
-        },
-        {
-          "label": "local_render.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html"
-        },
-        {
-          "label": "contact_sheet.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html"
-        },
-        {
-          "label": "local_qa.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json"
-        },
-        {
-          "label": "title.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt"
-        },
-        {
-          "label": "tags.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt"
-        },
-        {
-          "label": "category.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt"
-        },
-        {
-          "label": "tistory_publish_result_20260519_storm_flood.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json"
-        }
-      ],
-      "approval_required": false,
-      "created_at": "2026-05-19T13:04:04+09:00",
-      "updated_at": "2026-05-19T23:01:26+09:00"
-    },
     {
       "key": "MF-83",
       "id": "opp_20260519_083_food_hygiene_training_blog",
@@ -1123,277 +853,6 @@
   ],
   "priority_queue": [
     {
-      "key": "MF-79",
-      "id": "opp_20260519_079_storm_flood_insurance_blog",
-      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
-      "title": "소상공인 풍수해·지진재해보험 가입 전 체크 무료 검증 글",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "일일 발행 한도",
-        "검증 보류"
-      ],
-      "quality": 84,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "장마·태풍 전 상가/공장 운영 소상공인 독자; 간접 블로그 유입 검증",
-      "channel": "Tistory free validation blog (standing approval; public publish blocked by daily quota precheck on 2026-05-19)",
-      "current_owner": "리스크 검토",
-      "next_action": "Tistory 공개 발행 일일 한도(2026-05-19 공개글 15/15) 해제 후 `runs/publish_storm_flood_tistory_20260519.py` 재실행. AUTH_BLOCKED 아님; Profile 2 세션/카테고리는 확인됨. 제목 중복 확인 후 게시.",
-      "risk_flags": [
-        "free_validation_only",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
-        "local_render_qa_passed",
-        "tistory_profile2_session_verified",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
-      ],
-      "stop_reason": "일일 발행 한도",
-      "evidence": [
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
-          "grade": "A",
-          "summary": "행정안전부 풍수해·지진재해보험 운영 공식 안내. 소상공인 상가·공장, 시설·집기비품, 재고자산 등 대상·상품 구분 확인.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://safekorea.go.kr/idsiSFK/neo/sfk/cs/contents/insurance/SDIJKM2101.html?menuSeq=303",
-          "grade": "A",
-          "summary": "국민안전24 보험 안내. 공식 안내 출처로 독자 확인 링크에 적합.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://blog.naver.com/sojeongtong/224254179270",
-          "grade": "B",
-          "summary": "소상공인 풍수해보험 블로그 comparable. 지원율 후킹이 강하나 광고성 리스크 있어 문체는 참고만.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://zippoom.com/블로그/소상공인-풍수해보험-가입-방법-필요서류/1287",
-          "grade": "B",
-          "summary": "가입방법/조건/서류형 comparable. 실무 검색 수요 확인용.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://direct.hi.co.kr/service.do?m=c587727700",
-          "grade": "A",
-          "summary": "보험사 소상공인 풍수해지진재해보험 상품 안내. 특정 보험사 추천은 금지하고 보장범위 확인 예시로만 사용.",
-          "checked_at": "2026-05-19T13:04:04+09:00"
-        },
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
-          "grade": "A",
-          "summary": "Backlog recheck: 소상공인 상가·공장 건물, 시설·집기비품, 재고자산 문맥 확인. 보험료/보장/지원율 단정 표현은 본문에서 제거.",
-          "checked_at": "2026-05-19T23:01:26+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "후보 4개 검토: 블로그 보험 체크 글 1개 GO, bounty/writing/contest 3개 NO-GO."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 근거와 시즌성 수요 확인. 기존 Money Flow 주제와 중복 낮음."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "광고성 보험 추천이 아닌 대상 판단 3문항 구조로 차별화. 품질 84점."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "NO_APPROVAL",
-          "summary": "본문/계획 초안은 완료. 이미지 생성·Tistory 렌더링 QA·카테고리 검증은 backlog job으로 이관."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "HIGH_RISK",
-          "summary": "보험/지원율 단정 리스크. 공식 문구 재확인과 이미지·공개 QA 전 tracking 금지."
-        },
-        {
-          "time": "2026-05-19T13:04:04+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "OPPORTUNITY_COST",
-          "summary": "직접 수익 0원이나 시즌성 무료 검증 자산으로 보존. 추가 비용 0원."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 근거 재확인 및 comparable 샘플 보강. 보험 추천/지원율 과장 대신 대상 확인형 무료 글로 유지."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "지원 이미지 3장 SVG/PNG 제작, 본문 문구 완화, Tistory용 HTML/로컬 렌더 파일 생성."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "contact sheet와 로컬 렌더링 QA 통과. Profile 2 Tistory 세션·카테고리 확인. 당일 공개글 15/15로 공개 POST 전 차단."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "보험/지원율 단정 리스크는 완화됨. 공개 URL/OG/모바일 QA 전 tracking 전환 금지. AUTH_BLOCKED 아님."
-        },
-        {
-          "time": "2026-05-19T23:01:26+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
-          "summary": "무료 검증 자산은 완성. 공개 전 실제 유입/수익 추적은 0원."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/evidence.md",
-          "title": "evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/style_brief.md",
-          "title": "style_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/image_plan.md",
-          "title": "image_plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/body.md",
-          "title": "body.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/plan.md",
-          "title": "plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/redteam.md",
-          "title": "redteam.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/roi.md",
-          "title": "roi.md"
-        },
-        {
-          "label": "sample_addendum.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/sample_addendum.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/sample_addendum.md"
-        },
-        {
-          "label": "anti_repetition_check.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/anti_repetition_check.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/anti_repetition_check.md"
-        },
-        {
-          "label": "01-storm-insurance-thumb.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.svg"
-        },
-        {
-          "label": "02-storm-insurance-message.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.svg"
-        },
-        {
-          "label": "03-storm-insurance-checklist.svg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.svg",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.svg"
-        },
-        {
-          "label": "01-storm-insurance-thumb.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/01-storm-insurance-thumb.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/01-storm-insurance-thumb.png"
-        },
-        {
-          "label": "02-storm-insurance-message.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/02-storm-insurance-message.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/02-storm-insurance-message.png"
-        },
-        {
-          "label": "03-storm-insurance-checklist.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/03-storm-insurance-checklist.png",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/03-storm-insurance-checklist.png"
-        },
-        {
-          "label": "body_revised.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/body_revised.md",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/body_revised.md"
-        },
-        {
-          "label": "storm_flood_tistory_body.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/storm_flood_tistory_body.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/storm_flood_tistory_body.html"
-        },
-        {
-          "label": "local_render.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_render.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_render.html"
-        },
-        {
-          "label": "contact_sheet.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/contact_sheet.html",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/contact_sheet.html"
-        },
-        {
-          "label": "local_qa.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/local_qa.json",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/local_qa.json"
-        },
-        {
-          "label": "title.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/title.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/title.txt"
-        },
-        {
-          "label": "tags.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tags.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tags.txt"
-        },
-        {
-          "label": "category.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/category.txt",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/category.txt"
-        },
-        {
-          "label": "tistory_publish_result_20260519_storm_flood.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
-          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json"
-        }
-      ],
-      "approval_required": false,
-      "created_at": "2026-05-19T13:04:04+09:00",
-      "updated_at": "2026-05-19T23:01:26+09:00"
-    },
-    {
       "key": "MF-83",
       "id": "opp_20260519_083_food_hygiene_training_blog",
       "opportunity_id": "opp_20260519_083_food_hygiene_training_blog",
@@ -1977,7 +1436,6 @@
     "중복": 21,
     "사용자 부담 큼": 2,
     "품질 낮음": 2,
-    "일일 발행 한도": 1,
     "채널 없음": 1
   },
   "roi": {
@@ -1986,36 +1444,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "agent": "기획 검수",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 84점. 무료 검증 글 계획 승인.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "agent": "제작",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "로컬 블로그 초안, Tistory HTML, 이미지 계획 생성.",
-      "links": []
-    },
-    {
-      "time": "2026-05-19T19:21:20+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260519_087_business_car_log_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason_code": "고위험",
-      "summary": "세무 사실 QA와 이미지/Tistory 렌더 QA 전 launch 금지. backlog로 이관.",
-      "links": []
-    },
     {
       "time": "2026-05-19T19:45:32+09:00",
       "agent": "제작",
@@ -2653,16 +2081,53 @@
       ]
     },
     {
-      "time": "2026-05-20T05:39:25+09:00",
-      "agent": "대시보드",
-      "opportunity_id": "opp_20260519_075_first_hire_4insurance_blog",
-      "event": "dashboard_updated",
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+      "event": "launched",
       "decision": "GO",
       "reason_code": null,
-      "summary": "GitHub Pages mirror pushed and HTTPS data.json verified with first-hire item in tracking.",
+      "summary": "Tistory 공개 글과 모바일 URL 검증 완료. 이미지 3장/카테고리/OG/list 썸네일/raw Markdown/출처 링크 QA 통과.",
       "links": [
-        "https://bmoh95.github.io/money-flow-dashboard-public/",
-        "https://bmoh95.github.io/money-flow-dashboard-public/data.json"
+        "https://beemo.tistory.com/60",
+        "https://beemo.tistory.com/m/60",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.json"
+      ]
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "PUBLICATION_BLOCKED_DAILY_LIMIT 해소. 보험 권유·지원율 단정 리스크는 공식 확인형 표현으로 완화되어 tracking 허용.",
+      "links": [
+        "https://beemo.tistory.com/60"
+      ]
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 공개로 직접 매출 0원, 장마 전 검색유입/재사용 가치를 추적.",
+      "links": [
+        "https://beemo.tistory.com/60"
+      ]
+    },
+    {
+      "time": "2026-05-20T09:32:19+09:00",
+      "agent": "대시보드",
+      "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
+      "event": "status_changed",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산을 기록.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/opportunity.json"
       ]
     }
   ],
@@ -16281,16 +15746,15 @@
       "id": "opp_20260519_079_storm_flood_insurance_blog",
       "opportunity_id": "opp_20260519_079_storm_flood_insurance_blog",
       "title": "소상공인 풍수해·지진재해보험 가입 전 체크 무료 검증 글",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "운영/수익",
+      "status_label": "운영/수익",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
-        "일일 발행 한도",
-        "검증 보류"
+        "운영중"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -16298,9 +15762,9 @@
       "margin_pct": null,
       "expected_price": 0,
       "buyer_or_payer": "장마·태풍 전 상가/공장 운영 소상공인 독자; 간접 블로그 유입 검증",
-      "channel": "Tistory free validation blog (standing approval; public publish blocked by daily quota precheck on 2026-05-19)",
-      "current_owner": "리스크 검토",
-      "next_action": "Tistory 공개 발행 일일 한도(2026-05-19 공개글 15/15) 해제 후 `runs/publish_storm_flood_tistory_20260519.py` 재실행. AUTH_BLOCKED 아님; Profile 2 세션/카테고리는 확인됨. 제목 중복 확인 후 게시.",
+      "channel": "Tistory 무료 검증 글 공개 완료 → https://beemo.tistory.com/60",
+      "current_owner": "수익성 검토",
+      "next_action": "공개 글 유입/검색 반응을 추적하고, 다음 backlog redteam_hold 항목을 oldest-first로 처리.",
       "risk_flags": [
         "free_validation_only",
         "insurance_wording_softened",
@@ -16308,9 +15772,17 @@
         "local_visual_qa_passed",
         "local_render_qa_passed",
         "tistory_profile2_session_verified",
-        "PUBLICATION_BLOCKED_DAILY_LIMIT"
+        "official_wording_softened",
+        "tistory_published",
+        "public_url_verified",
+        "public_render_qa_passed",
+        "public_visual_qa_passed",
+        "mobile_render_qa_passed",
+        "og_image_verified",
+        "tistory_list_thumbnail_real_verified",
+        "no_sales_cta"
       ],
-      "stop_reason": "일일 발행 한도",
+      "stop_reason": null,
       "evidence": [
         {
           "url": "https://www.mois.go.kr/frt/sub/a06/b11/insuranceProducts/screen.do",
@@ -16426,6 +15898,27 @@
           "decision": "HOLD",
           "reason_code": "PUBLICATION_BLOCKED_DAILY_LIMIT",
           "summary": "무료 검증 자산은 완성. 공개 전 실제 유입/수익 추적은 0원."
+        },
+        {
+          "time": "2026-05-20T09:32:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Tistory 공개 URL/모바일 URL 확인. body 이미지 3장, 카테고리, OG/list 썸네일, 출처 링크, raw Markdown 부재, 이미지 간격 QA 통과."
+        },
+        {
+          "time": "2026-05-20T09:32:19+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "일일 발행 한도 blocker 해소. 보험 권유/지원율 단정 리스크는 공식 확인형 표현으로 완화되어 tracking 전환 허용."
+        },
+        {
+          "time": "2026-05-20T09:32:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글 공개 완료. 직접 매출은 0원이지만 장마 전 소상공인 검색 유입 자산으로 추적."
         }
       ],
       "assets": [
@@ -16541,11 +16034,34 @@
           "label": "tistory_publish_result_20260519_storm_flood.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260519_storm_flood.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260519_storm_flood.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/tistory_publish_result_20260520_storm_flood.json",
+          "title": "tistory_publish_result_20260520_storm_flood.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/tistory_publish_result_20260520_storm_flood.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.json",
+          "title": "public_render_qa_20260520.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/public_render_qa_20260520.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_079_storm_flood_insurance_blog/assets/public_render_qa_20260520.md",
+          "title": "public_render_qa_20260520.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260519_079_storm_flood_insurance_blog/public_render_qa_20260520.md"
+        },
+        {
+          "title": "Tistory public post",
+          "url": "https://beemo.tistory.com/60"
+        },
+        {
+          "title": "Tistory mobile post",
+          "url": "https://beemo.tistory.com/m/60"
         }
       ],
       "approval_required": false,
       "created_at": "2026-05-19T13:04:04+09:00",
-      "updated_at": "2026-05-19T23:01:26+09:00"
+      "updated_at": "2026-05-20T09:32:19+09:00"
     },
     {
       "key": "MF-80",
