@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-05-20T16:37:22+09:00",
+  "run_id": "2026-05-20_1625_money-flow",
+  "opportunity_id": "opp_20260519_083_food_hygiene_training_blog",
+  "public_url": "https://beemo.tistory.com/61",
+  "mobile_url": "https://beemo.tistory.com/m/61",
+  "public_http": 200,
+  "mobile_http": 200,
+  "home_http": 200,
+  "title_found_public": true,
+  "title_found_mobile": true,
+  "category_text_found_public": true,
+  "category_id_manage_posts": "1295940",
+  "category_verified_profile2_manage_posts": true,
+  "visibility_profile2_manage_posts": "PUBLIC",
+  "image_src_hits_public_html": 27,
+  "body_image_count_expected": 3,
+  "png_dimensions": {
+    "01-food-hygiene-thumb.png": {
+      "width": 1200,
+      "height": 675
+    },
+    "02-food-hygiene-message.png": {
+      "width": 1200,
+      "height": 675
+    },
+    "03-food-hygiene-flow.png": {
+      "width": 1200,
+      "height": 675
+    }
+  },
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F5jJrM%2FdJMcafmolII%2FAAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DQ8%252BR9HG38Ft03CuWM1mp63nBPMg%253D",
+  "twitter_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F5jJrM%2FdJMcafmolII%2FAAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DQ8%252BR9HG38Ft03CuWM1mp63nBPMg%253D",
+  "og_not_default": true,
+  "twitter_not_default": true,
+  "home_list_thumbnail_real_candidate": true,
+  "raw_markdown_hits": 0,
+  "source_link_hits": 3,
+  "contains_sales_cta": false,
+  "browser_dom_gap_qa": {
+    "figure_margins": "22px 0px 20px",
+    "img_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "caption_to_next_px": [
+      24,
+      20,
+      24
+    ],
+    "image_natural_size_all": "1200x675",
+    "image_render_size_all": "740x416"
+  },
+  "browser_vision_qa": {
+    "public_first_screen_passed": true,
+    "contact_sheet_passed": true,
+    "korean_gothic_font_passed": true,
+    "line_title_footer_collision_passed": true,
+    "badge_centering_passed": true,
+    "image_diversity_passed": true
+  },
+  "result": "PASS"
+}
