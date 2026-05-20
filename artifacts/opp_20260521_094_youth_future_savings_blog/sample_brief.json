@@ -1,0 +1,16 @@
+{
+  "topic": "청년미래적금 6월 최초 가입·청년도약계좌 갈아타기",
+  "samples_count": 12,
+  "observed_patterns": [
+    "검색 결과 대부분이 총정리/완벽정리/비교/갈아타기 키워드로 제목을 구성한다.",
+    "독자가 실제로 궁금해하는 핵심은 수령액보다 “도약계좌를 먼저 해지해도 되는지”와 “6월에만 가능한지”다.",
+    "SEO 글은 금리·수익률 숫자를 크게 내세우지만, 공식 보도자료상 금리는 추후 확정이라 단정하면 위험하다.",
+    "좋은 차별점은 해지 순서, 6월 최초 가입 기간, 기여금 0/6/12% 판단표를 첫 화면에 넣는 것."
+  ],
+  "anti_repetition_against_last_5": {
+    "same_heading_skeleton": false,
+    "same_first_paragraph_rhythm": false,
+    "same_image_layout_planned": false,
+    "new_reader_use_case": "청년도약계좌 기존 가입자가 6월 전환 전에 먼저 해지하지 않도록 막는 판단표/순서 글"
+  }
+}

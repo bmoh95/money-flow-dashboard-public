@@ -1,0 +1,50 @@
+[
+  {
+    "candidate": "현금성 GitHub/Algora/IssueHunt/Polar 작은 PR 바운티",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "evidence_grade": "A/B",
+    "summary": "01:20 deterministic bounty gate GO/HOLD 0건. 이번 run의 fresh gh search 4개 query도 후보 0건, filter rescue 0건.",
+    "links": [
+      "bounty_scout/gate_last_summary.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_0148_money-flow/filter_report.json"
+    ]
+  },
+  {
+    "candidate": "청년미래적금 6월 최초 가입·청년도약계좌 갈아타기 무료 검증 글",
+    "type": "blog_free_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "attention_classification": "폭발 후보",
+    "evidence_grade": "A/B",
+    "summary": "6월 최초 가입 기간, 도약계좌를 먼저 해지하면 전환 신청 불가, 정부기여금 6%/12%라는 직접 금전 이슈가 있어 제목 긴장감과 즉시 효용이 강함.",
+    "links": [
+      "https://www.fsc.go.kr/no010101/86767",
+      "https://www.yna.co.kr/view/AKR20260423103200002"
+    ]
+  },
+  {
+    "candidate": "ARC Prize 2026 AI contest 참가",
+    "type": "contest",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "evidence_grade": "A",
+    "summary": "$2M prize pool and official schedule are real, but cash distance가 길고 경쟁·연구개발 부담이 커서 이 cron의 작은 현금성/저부담 목표와 맞지 않음.",
+    "links": [
+      "https://arcprize.org/competitions/2026"
+    ]
+  },
+  {
+    "candidate": "희망리턴패키지 점포철거비 지원 글",
+    "type": "blog_free_validation",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "attention_classification": "강한 후보",
+    "evidence_grade": "A/C",
+    "summary": "폐업·철거비는 손익 임팩트가 크지만 공식 사이트가 반복 redirect되고 최신 한도/공고 확인이 불충분함. 오래된 PDF만으로 2026 금액을 단정할 수 없어 보류.",
+    "links": [
+      "https://www.sbiz.or.kr/nhrp/main.do"
+    ]
+  }
+]

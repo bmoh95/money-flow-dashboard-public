@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-20T22:40:29+09:00",
+  "updated_at": "2026-05-21T02:00:25+09:00",
   "last_run": {
-    "run_id": "2026-05-20_2229_money-flow",
-    "started_at": "2026-05-20T22:29:29+09:00",
-    "finished_at": "2026-05-20T22:40:29+09:00",
+    "run_id": "2026-05-21_0148_money-flow",
+    "started_at": "2026-05-21T01:48:08+09:00",
+    "finished_at": "2026-05-21T02:00:25+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,29 +20,29 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/draft.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/body.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/image_plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260520_093_eitc_deadline_blog"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/draft.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/body.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260521_094_youth_future_savings_blog"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+        "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
         "decision": "GO",
         "reason_code": null,
         "from_status": "researching",
         "to_status": "planning"
       },
       {
-        "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+        "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
         "decision": "GO",
         "reason_code": null,
         "from_status": "planning",
         "to_status": "execution"
       },
       {
-        "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+        "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
         "decision": "HOLD",
         "reason_code": "HIGH_RISK",
         "from_status": "execution",
@@ -50,11 +50,11 @@
       }
     ],
     "summary": "New-work scout reviewed 4 candidates and created one high-attention free-validation blog draft, held for backlog QA.",
-    "final_report": "주인님, Money Flow 신규 스카우트 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `MF-93` 근로·자녀장려금 5월 신청/기한후 95% 무료 검증 글 리서치·기획·초안 생성 완료.\n\n**시장성 판단**\n- GO: 국세청 A근거, 현재 신청기한, 기한후 95% 지급 이슈로 클릭 긴장감이 강한 `폭발 후보`입니다.\n- bounty는 GO 0건, contest는 장기·고부담, 종소세 기한후 글은 기존 세금글과 중복이라 제외했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 비용 0원 / 무료 검색 유입 검증 자산.\n\n**대기**\n- `MF-93`은 검증 보류: backlog job에서 PNG 3장·공식 문구 재확인·Tistory 렌더 QA 필요.\n- 대시보드 갱신: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 신규 스카우트 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `MF-94` 청년미래적금 6월 갈아타기/청년도약계좌 먼저 해지 금지 무료 검증 글 리서치·기획·초안 생성 완료.\n\n**시장성 판단**\n- GO: 금융위 A근거, 6월 최초 가입, 기존 계좌 먼저 해지 시 전환 불가 리스크로 클릭 긴장감이 강한 `폭발 후보`입니다.\n- bounty는 fresh 검색·gate 모두 GO 0건, ARC Prize는 장기·고경쟁, 희망리턴패키지는 최신 공식 한도 확인 부족으로 제외했습니다.\n\n**예상 순마진**\n- 직접 수익 0원 / 비용 0원 / 무료 검색 유입 검증 자산.\n\n**대기**\n- `MF-94`는 검증 보류: backlog job에서 PNG 3장·공식 문구 재확인·Tistory 렌더 QA 필요.\n- 대시보드 갱신: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 96,
-    "active": 6,
+    "total": 97,
+    "active": 7,
     "approval_needed": 1,
     "launched": 36,
     "closed_won": 0,
@@ -103,6 +103,13 @@
       "status": "검증 보류",
       "next_action": "Backlog job: 국세청 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 세금·장부 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
       "quality": 95
+    },
+    {
+      "id": "opp_20260521_094_youth_future_savings_blog",
+      "title": "청년미래적금 6월 갈아타기·청년도약계좌 먼저 해지 금지 무료 검증 글",
+      "status": "검증 보류",
+      "next_action": "Backlog job: 금융위/서민금융진흥원 최신 안내 재확인 → PNG 이미지 3장 생성/QA → Tistory 돈관리 categoryId 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "quality": 98
     }
   ],
   "approval_needed": [
@@ -1271,10 +1278,134 @@
       "approval_required": false,
       "updated_at": "2026-05-20T22:40:29+09:00",
       "created_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "id": "opp_20260521_094_youth_future_savings_blog",
+      "key": "MF-94",
+      "raw_status": "redteam_hold",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "title": "청년미래적금 6월 갈아타기·청년도약계좌 먼저 해지 금지 무료 검증 글",
+      "type": "무료 검증",
+      "raw_type": "other",
+      "priority": "높음",
+      "stop_reason": "위험/검증 필요",
+      "quality": 98,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "owner": "리스크 검토",
+      "buyer_or_payer": "청년도약계좌 보유자, 청년미래적금 6월 가입 대상 청년, 중소기업 재직자, 청년 소상공인 독자",
+      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크 계열",
+      "next_action": "Backlog job: 금융위/서민금융진흥원 최신 안내 재확인 → PNG 이미지 3장 생성/QA → Tistory 돈관리 categoryId 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "risk_flags": [
+        "free_validation_only",
+        "no_sales_cta",
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "NEEDS_FACT_QA",
+        "NEEDS_IMAGE_QA",
+        "PUBLIC_VISUAL_QA_PENDING",
+        "CATEGORY_REQUIRED",
+        "FINANCIAL_ADVICE_DISCLAIMER_REQUIRED"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.fsc.go.kr/no010101/86767",
+          "grade": "A",
+          "summary": "금융위원회 2026-04-23 보도자료: 6월 가입, 갈아타기 절차, 먼저 해지 금지, 기여금 구간 확인.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260423103200002",
+          "grade": "B",
+          "summary": "연합뉴스 2026-04-23 보도: 월 50만원·3년·예상 수령액 보도. 금리 6% 가정임을 별도 주의.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "Comparable posts/search result 12개 title-pattern sampling and anti-repetition pass.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "4 candidates reviewed; 청년미래적금 6월 갈아타기 selected as strongest attention-demand candidate."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A-grade official evidence, upcoming first enrollment, and direct money/order risk pass research gate."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "Quality 98/100; avoids yield overclaim and recent-post repetition."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "summary": "Local draft ready; image/source/category/rendered QA still required before publication."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "Financial-product nuance and visual QA blockers require backlog handling; final redteam_hold."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "Direct revenue 0, low cost, high-attention reusable free-validation asset; accepted as blog lane."
+        }
+      ],
+      "assets": [
+        {
+          "title": "블로그 초안 Markdown",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/draft.md"
+        },
+        {
+          "title": "Tistory용 HTML 초안",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/body.html"
+        },
+        {
+          "title": "스타일 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/style_brief.md"
+        },
+        {
+          "title": "이미지 계획",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/image_plan.md"
+        },
+        {
+          "title": "후보 검토 결과",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/candidate_outcomes.json"
+        },
+        {
+          "title": "공식 근거 스냅샷",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/official_evidence_youth_future_savings.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/official_evidence_youth_future_savings.json"
+        }
+      ],
+      "approval_required": false,
+      "updated_at": "2026-05-21T02:00:25+09:00",
+      "created_at": "2026-05-21T02:00:25+09:00"
     }
   ],
   "rejection_summary": {
-    "위험/검증 필요": 15,
+    "위험/검증 필요": 16,
     "기회비용 높음": 17,
     "지급 불명": 3,
     "중복": 21,
@@ -1288,78 +1419,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-20T00:35:08+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260520_001_cash_bounty_scout_no_safe_route",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "위험/검증 필요",
-      "summary": "UnsafeLabs 후보는 system prompt/session initialization disclosure 요구로 차단."
-    },
-    {
-      "time": "2026-05-20T00:35:08+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260520_001_cash_bounty_scout_no_safe_route",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "신규 구현/PR 없음; 기대 순수익 0."
-    },
-    {
-      "time": "2026-05-20T00:35:08+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260518_055_cash_bounty_preflight_hold",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "위험/검증 필요",
-      "summary": "UnsafeLabs #854 HOLD를 prompt/provenance disclosure risk로 research_rejected 전환."
-    },
-    {
-      "time": "2026-05-20T01:51:16+09:00",
-      "agent": "리서치",
-      "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
-      "event": "discovered",
-      "decision": null,
-      "reason_code": null,
-      "summary": "Bounty/direct-payout raw pool collected from forced rescue seeds and platform/search lanes."
-    },
-    {
-      "time": "2026-05-20T01:51:16+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "지급 불명",
-      "summary": "No eligible unclaimed cash/platform PR route after deep preflight."
-    },
-    {
-      "time": "2026-05-20T01:51:16+09:00",
-      "agent": "기획 검수",
-      "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "근거 부족",
-      "summary": "No candidate advanced to planning/local patch spike."
-    },
-    {
-      "time": "2026-05-20T01:51:16+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "리스크 반려",
-      "summary": "Blocked by payout ambiguity, duplicate PRs, eligibility gates, wallet payout, anti-AI policy, or closed/rewarded status."
-    },
-    {
-      "time": "2026-05-20T01:51:16+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260520_002_bounty_rescue_scout_no_go",
-      "event": "decision",
-      "decision": "NO-GO",
-      "reason_code": "기회비용 높음",
-      "summary": "Expected base net 0; no external submission."
-    },
     {
       "time": "2026-05-20T01:51:16+09:00",
       "agent": "대시보드",
@@ -2003,6 +2062,78 @@
       "time": "2026-05-20T22:40:29+09:00",
       "agent": "수익성 검토",
       "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Direct revenue 0 but low-cost high-attention free-validation asset; accepted as strategic blog lane."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "discovered",
+      "decision": null,
+      "reason_code": null,
+      "summary": "New scout candidate: 청년미래적금 6월 갈아타기·청년도약계좌 먼저 해지 금지 무료 검증 글."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "evidence_added",
+      "decision": null,
+      "reason_code": null,
+      "summary": "A-grade 금융위 evidence, B-grade media/comparable post samples, and attention gate collected."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "6월 first-enrollment and do-not-pre-close risk pass buyer, channel, official evidence, and attention demand gates."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Quality score 98/100; financial overclaim and recent-post repetition avoided."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "제작",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "asset_created",
+      "decision": null,
+      "reason_code": null,
+      "summary": "Local draft, HTML, style brief, image plan, candidate outcomes, and official evidence snapshot created."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": "위험/검증 필요",
+      "summary": "Publication blocked until official wording recheck, images, Tistory category, and rendered QA."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": "위험/검증 필요",
+      "summary": "Financial-product nuance and visual QA risks require backlog processing before launch."
+    },
+    {
+      "time": "2026-05-21T02:00:25+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
       "event": "decision",
       "decision": "GO",
       "reason_code": null,
@@ -18653,6 +18784,130 @@
       "approval_required": false,
       "updated_at": "2026-05-20T22:40:29+09:00",
       "created_at": "2026-05-20T22:40:29+09:00"
+    },
+    {
+      "id": "opp_20260521_094_youth_future_savings_blog",
+      "key": "MF-94",
+      "raw_status": "redteam_hold",
+      "status": "검증 보류",
+      "column": "검증 보류",
+      "title": "청년미래적금 6월 갈아타기·청년도약계좌 먼저 해지 금지 무료 검증 글",
+      "type": "무료 검증",
+      "raw_type": "other",
+      "priority": "높음",
+      "stop_reason": "위험/검증 필요",
+      "quality": 98,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "owner": "리스크 검토",
+      "buyer_or_payer": "청년도약계좌 보유자, 청년미래적금 6월 가입 대상 청년, 중소기업 재직자, 청년 소상공인 독자",
+      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크 계열",
+      "next_action": "Backlog job: 금융위/서민금융진흥원 최신 안내 재확인 → PNG 이미지 3장 생성/QA → Tistory 돈관리 categoryId 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+      "risk_flags": [
+        "free_validation_only",
+        "no_sales_cta",
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "NEEDS_FACT_QA",
+        "NEEDS_IMAGE_QA",
+        "PUBLIC_VISUAL_QA_PENDING",
+        "CATEGORY_REQUIRED",
+        "FINANCIAL_ADVICE_DISCLAIMER_REQUIRED"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.fsc.go.kr/no010101/86767",
+          "grade": "A",
+          "summary": "금융위원회 2026-04-23 보도자료: 6월 가입, 갈아타기 절차, 먼저 해지 금지, 기여금 구간 확인.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        },
+        {
+          "url": "https://www.yna.co.kr/view/AKR20260423103200002",
+          "grade": "B",
+          "summary": "연합뉴스 2026-04-23 보도: 월 50만원·3년·예상 수령액 보도. 금리 6% 가정임을 별도 주의.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "Comparable posts/search result 12개 title-pattern sampling and anti-repetition pass.",
+          "checked_at": "2026-05-21T02:00:25+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "summary": "4 candidates reviewed; 청년미래적금 6월 갈아타기 selected as strongest attention-demand candidate."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "A-grade official evidence, upcoming first enrollment, and direct money/order risk pass research gate."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "summary": "Quality 98/100; avoids yield overclaim and recent-post repetition."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "execution_lead",
+          "decision": "HOLD",
+          "summary": "Local draft ready; image/source/category/rendered QA still required before publication."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "redteam",
+          "decision": "HOLD",
+          "reason_code": "HIGH_RISK",
+          "summary": "Financial-product nuance and visual QA blockers require backlog handling; final redteam_hold."
+        },
+        {
+          "time": "2026-05-21T02:00:25+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "Direct revenue 0, low cost, high-attention reusable free-validation asset; accepted as blog lane."
+        }
+      ],
+      "assets": [
+        {
+          "title": "블로그 초안 Markdown",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/draft.md"
+        },
+        {
+          "title": "Tistory용 HTML 초안",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/body.html",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/body.html"
+        },
+        {
+          "title": "스타일 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/style_brief.md"
+        },
+        {
+          "title": "이미지 계획",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/image_plan.md"
+        },
+        {
+          "title": "후보 검토 결과",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/candidate_outcomes.json"
+        },
+        {
+          "title": "공식 근거 스냅샷",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/official_evidence_youth_future_savings.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/official_evidence_youth_future_savings.json"
+        }
+      ],
+      "approval_required": false,
+      "updated_at": "2026-05-21T02:00:25+09:00",
+      "created_at": "2026-05-21T02:00:25+09:00"
     }
   ]
 }
