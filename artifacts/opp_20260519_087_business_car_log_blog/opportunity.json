@@ -1,0 +1,240 @@
+{
+  "opportunity_id": "opp_20260519_087_business_car_log_blog",
+  "title": "개인사업자 업무용승용차 운행기록부 10분 체크 무료 검증 글",
+  "type": "other",
+  "status": "tracking",
+  "created_at": "2026-05-19T19:21:20+09:00",
+  "updated_at": "2026-05-20T20:14:46+09:00",
+  "source_run_id": "2026-05-19_1915_money-flow",
+  "current_owner": "roi",
+  "buyer_or_payer": "차량 비용처리가 헷갈리는 개인사업자·소상공인 독자",
+  "channel": "Tistory 무료 검증 글(돈관리·구매체크 > 세금·장부)",
+  "evidence": [
+    {
+      "url": "https://www.nts.go.kr/comm/nttFileDownload.do?fileKey=21e8ce1222b24853f1ed9c839862b569",
+      "grade": "A",
+      "summary": "국세청 업무용승용차 관련 비용 Q&A PDF. 운행기록부/업무사용비율/관련 비용 세무처리 쟁점 확인.",
+      "checked_at": "2026-05-19T19:21:20+09:00"
+    },
+    {
+      "url": "DuckDuckGo: 개인사업자 업무용승용차 운행기록부 비용처리 블로그",
+      "grade": "B",
+      "summary": "네이버/티스토리/세무사 블로그 다수. 반복 검색 수요와 콘텐츠 경쟁 확인.",
+      "checked_at": "2026-05-19T19:21:20+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 88,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "anti_repetition_passed",
+    "category_verified",
+    "fact_qa_passed",
+    "free_validation_only",
+    "local_visual_qa_passed",
+    "no_sales_cta",
+    "official_wording_softened",
+    "public_url_verified",
+    "public_visual_qa_passed",
+    "tistory_published_verified",
+    "tracking_public_post",
+    "uploaded_png_thumbnail_verified"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "신규 후보 3개 검토. 차량 운행기록부 후보가 중복 낮고 A/B 근거 있음."
+    },
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "독자/채널/근거 명확. 세무 조언 위험은 자료정리 글로 제한."
+    },
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 84점. 실수 사례→판단 질문→기록 예시 구조로 반복 포맷 회피."
+    },
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "reason_code": "REDTEAM_REJECTED",
+      "summary": "초안은 생성했으나 이미지 생성/Tistory 렌더 QA 전 launch 불가."
+    },
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "세무 한도·개별 판단 오해 방지를 위해 국세청 원문 재확인과 이미지 QA 필요."
+    },
+    {
+      "time": "2026-05-19T19:21:20+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출은 없지만 무료 검증 자산으로 비용 낮고 재사용성 있음."
+    },
+    {
+      "time": "2026-05-20T20:14:46+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "지원 PNG 이미지 3장, 세무 문구 완화본, Tistory HTML/Markdown, 로컬 렌더 QA 산출물 생성."
+    },
+    {
+      "time": "2026-05-20T20:14:46+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "로컬/공개 렌더 QA 통과. 본문 이미지 3장 로드, 이미지-캡션-H2 간격 7px/24px, raw Markdown 없음."
+    },
+    {
+      "time": "2026-05-20T20:14:46+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "차량비 비용처리 단정 제거, 국세청 안내 확인 흐름으로 제한. 세무대리인 확인 권장 문구 포함."
+    },
+    {
+      "time": "2026-05-20T20:14:46+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익 0원 무료 검증 자산. 비용 0원, 검색 반응 추적 대상으로 전환."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/style_brief.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/blog_draft.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tistory_body.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/image_plan.md",
+    {
+      "name": "01-vehicle-cost-thumb.png",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/01-vehicle-cost-thumb.png",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/01-vehicle-cost-thumb.png"
+    },
+    {
+      "name": "02-vehicle-log-fields.png",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/02-vehicle-log-fields.png",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/02-vehicle-log-fields.png"
+    },
+    {
+      "name": "03-vehicle-checklist.png",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/03-vehicle-checklist.png",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/03-vehicle-checklist.png"
+    },
+    {
+      "name": "vehicle_image_contact_sheet.png",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/vehicle_image_contact_sheet.png",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/vehicle_image_contact_sheet.png"
+    },
+    {
+      "name": "contact_sheet.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/contact_sheet.html",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/contact_sheet.html"
+    },
+    {
+      "name": "local_render.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_render.html",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/local_render.html"
+    },
+    {
+      "name": "local_render_local_images.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_render_local_images.html",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/local_render_local_images.html"
+    },
+    {
+      "name": "blog_draft_revised.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/blog_draft_revised.md",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/blog_draft_revised.md"
+    },
+    {
+      "name": "tistory_body.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tistory_body.html",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/tistory_body.html"
+    },
+    {
+      "name": "tistory_body_revised.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tistory_body_revised.html",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/tistory_body_revised.html"
+    },
+    {
+      "name": "fact_qa.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/fact_qa.md",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/fact_qa.md"
+    },
+    {
+      "name": "anti_repetition_qa.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/anti_repetition_qa.md",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/anti_repetition_qa.md"
+    },
+    {
+      "name": "local_asset_qa.json",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_asset_qa.json",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/local_asset_qa.json"
+    },
+    {
+      "name": "title.txt",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/title.txt",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/title.txt"
+    },
+    {
+      "name": "tags.txt",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tags.txt",
+      "url": "artifacts/opp_20260519_087_business_car_log_blog/tags.txt"
+    },
+    {
+      "name": "Tistory 공개 글",
+      "url": "https://beemo.tistory.com/62"
+    },
+    {
+      "name": "Tistory 모바일 글",
+      "url": "https://beemo.tistory.com/m/62"
+    },
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/01-vehicle-cost-thumb.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/02-vehicle-log-fields.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/03-vehicle-checklist.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/vehicle_image_contact_sheet.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/contact_sheet.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_render.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_render_local_images.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/blog_draft_revised.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tistory_body_revised.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/fact_qa.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/anti_repetition_qa.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/local_asset_qa.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/title.txt",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/tags.txt"
+  ],
+  "next_action": "Tistory 공개 글 조회·검색 유입 반응 추적. paid CTA 없이 무료 검증 상태 유지.",
+  "stop_reason_code": null
+}

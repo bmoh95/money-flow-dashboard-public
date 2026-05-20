@@ -1,0 +1,31 @@
+{
+  "time": "2026-05-20T20:00:54+09:00",
+  "image_files": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/01-vehicle-cost-thumb.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/02-vehicle-log-fields.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_087_business_car_log_blog/assets/03-vehicle-checklist.png"
+  ],
+  "dimensions": {
+    "01-vehicle-cost-thumb.png": [
+      1200,
+      675
+    ],
+    "02-vehicle-log-fields.png": [
+      1200,
+      675
+    ],
+    "03-vehicle-checklist.png": [
+      1200,
+      675
+    ]
+  },
+  "font": "/System/Library/Fonts/AppleSDGothicNeo.ttc",
+  "checks": {
+    "korean_gothic_font_used": true,
+    "all_1200x675": true,
+    "three_distinct_image_jobs": true,
+    "no_tax_amount_hard_claims_in_body": true,
+    "official_link_clickable": true,
+    "no_sales_cta": true
+  }
+}
