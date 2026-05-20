@@ -1,0 +1,191 @@
+{
+  "opportunity_id": "opp_20260520_090_cctv_notice_blog",
+  "title": "매장 CCTV 안내판 3칸 체크 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-20T12:56:21+09:00",
+  "updated_at": "2026-05-20T12:56:21+09:00",
+  "source_run_id": "2026-05-20_1242_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "CCTV를 설치·교체하거나 안내판을 점검해야 하는 매장·공방·학원·사무실 소상공인 독자",
+  "channel": "Tistory 무료 검증 글 → 업종별 안내문/매장 운영 검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=86",
+      "grade": "A",
+      "summary": "개인정보 포털 “CCTV 설치 및 운영” 공식 안내. 공개 장소 CCTV는 설치목적, 촬영장소·범위, 관리책임자 연락처 등이 기재된 안내판 설치, 녹음/임의조작 금지, 운영관리 방침 공개를 안내.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "url": "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9870",
+      "grade": "A",
+      "summary": "개인정보보호위원회 고정형 영상정보처리기기(CCTV) 설치운영 가이드라인 게시글. 민간/공공 가이드라인 PDF 확인 근거.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "url": "https://www.law.go.kr/lsLinkCommonInfo.do?lspttninfSeq=66991&chrClsCd=010202",
+      "grade": "A",
+      "summary": "국가법령정보센터 개인정보 보호법 시행령 제25조. 운영·관리 방침에 설치 목적, 위치/촬영 범위, 관리책임자, 촬영시간/보관기간 등 포함 사항 근거.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "url": "https://korea.kr/news/policyNewsView.do?newsId=148944434",
+      "grade": "A",
+      "summary": "정책브리핑. 공개 장소 CCTV 설치 시 안내판 부착, 녹음·임의조작 금지, 개인영상정보 열람 대응 관련 행동수칙 소개.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=%EB%A7%A4%EC%9E%A5+CCTV+%EC%95%88%EB%82%B4%ED%8C%90+%EB%AC%B8%EA%B5%AC+%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4+%EB%B8%94%EB%A1%9C%EA%B7%B8",
+      "grade": "B",
+      "summary": "CCTV 안내판/설치기준 comparable 글 다수. 대부분 과태료·설치업체 CTA 중심이라, “문 앞 안내판 3칸부터 채우기”로 차별화 가능.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    },
+    {
+      "url": "https://beemo.tistory.com/rss",
+      "grade": "B",
+      "summary": "최근 5개 공개글과 비교. 장마/뉴스/4대보험/지원서류와 다른 매장운영·개인정보 주제이고, 실수 사례→안내판 빈칸 구조로 반복 완화.",
+      "checked_at": "2026-05-20T12:56:21+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 1,
+    "optimistic_units": 3
+  },
+  "scores": {
+    "quality": 86,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 30000,
+    "optimistic_net": 90000,
+    "base_net_margin_pct": 100
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "legal_privacy_wording_risk",
+    "free_validation_only",
+    "official_source_recheck_required",
+    "image_generation_required",
+    "tistory_rendered_qa_required",
+    "category_required",
+    "anti_repetition_checked",
+    "no_sales_cta"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "4개 후보 검토. CCTV 안내판 3칸 글이 공식 근거와 독자 pain이 가장 명확함."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 공식 근거 확보. 개인정보 법령 리스크는 공식 링크·비단정·무료검증으로 통제."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글 scope, 이미지 3장 계획, 보수/base/낙관 ROI 정의."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 86점. 최근 글 반복을 피하려고 실수 장면→안내판 3칸 구조로 설계."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "본문 초안, HTML, 스타일 브리프, 이미지 계획, 샘플 브리프 작성 완료."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "로컬 초안 사용 가능. 공개 전 공식문구 재확인·이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "개인정보/법령 문구 단정 위험과 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-20T12:56:21+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출은 0원이지만 매장운영/개인정보 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/evidence.md",
+      "title": "evidence.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/plan.md",
+      "title": "plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/decisions.md",
+      "title": "decisions.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/decisions.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/roi.md",
+      "title": "roi.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/body.md",
+      "title": "body.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/body.html",
+      "title": "body.html"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/style_brief.md",
+      "title": "style_brief.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/sample_brief.md",
+      "title": "sample_brief.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/sample_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/image_plan.md",
+      "title": "image_plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/candidate_outcomes.json",
+      "title": "candidate_outcomes.json"
+    }
+  ],
+  "next_action": "Backlog job: 개인정보 포털/PIPC 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
+  "stop_reason_code": "HIGH_RISK"
+}

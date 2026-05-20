@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "매장 CCTV 안내판 3칸 체크 무료 검증 글",
+    "type": "blog_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "개인정보 포털/PIPC/국가법령정보센터 공식 근거가 있고, 소규모 매장·학원·공방 운영자가 바로 쓰는 안내판 점검 pain이 명확함. 최근 세금·지원금 글과 다른 개인정보/매장운영 lane.",
+    "links": [
+      "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=86",
+      "https://www.pipc.go.kr/np/cop/bbs/selectBoardArticle.do?bbsId=BS217&mCode=D010030000&nttId=9870",
+      "https://www.law.go.kr/lsLinkCommonInfo.do?lspttninfSeq=66991&chrClsCd=010202"
+    ]
+  },
+  {
+    "candidate": "CCTV 안내판 문구 PDF/스티커 유료 템플릿",
+    "type": "digital_product",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_RISK",
+    "summary": "법정 문구·업종별 예외를 상품으로 판매하면 오해/책임 리스크가 커짐. 사용자가 콘텐츠 판매를 중지한 상태이므로 무료 글 검증으로만 피벗.",
+    "links": [
+      "https://www.privacy.go.kr/front/contents/cntntsView.do?contsNo=86"
+    ]
+  },
+  {
+    "candidate": "상가 임대차 권리금/계약갱신요구권 체크 글",
+    "type": "blog_validation",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_RISK",
+    "summary": "공식 법령 근거는 있으나 분쟁·계약 해석으로 독자별 사정 차이가 크고 법률 자문처럼 읽힐 위험이 큼. 오늘 후보 중 안전성과 즉시 사용성이 낮음.",
+    "links": [
+      "https://www.law.go.kr/"
+    ]
+  },
+  {
+    "candidate": "Bountysource/core #1148 spam reporting bounty 재검토",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "직전 bounty scout가 경쟁 PR/지급 불확실성 후보로 이미 HOLD/NO-GO 처리. 새 작업 scout에서 같은 PR 후보를 또 persistent화하지 않음.",
+    "links": [
+      "https://github.com/bountysource/core/issues/1148"
+    ]
+  }
+]
