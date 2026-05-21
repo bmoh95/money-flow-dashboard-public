@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-05-21T16:34:10+09:00",
+  "opportunity_id": "opp_20260520_092_withholding_tax_blog",
+  "post_url": "https://beemo.tistory.com/65",
+  "mobile_url": "https://beemo.tistory.com/m/65",
+  "status": "PASS",
+  "normal_http": 200,
+  "mobile_http": 200,
+  "title_found": true,
+  "category_found": true,
+  "snippet_hits": {
+    "소득 지급일이 속하는 달의 다음 달 10일": true,
+    "원천징수세액 반기별 납부승인": true,
+    "지방소득세 특별징수": true,
+    "이 글은 세무 대행이나 개별 신고 판단이 아니라 일반적인 확인 순서입니다.": true
+  },
+  "expected_alt_hits": {
+    "알바비 외주비 지급 후 원천세 10일 체크": true,
+    "원천세 지급 후 확인 순서": true,
+    "개인사업자 세금 메모 네 칸": true
+  },
+  "body_image_tag_count": 9,
+  "figure_count": 3,
+  "caption_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FKEGjK%2FdJMcabqLQ10%2FAAAAAAAAAAAAAAAAAAAAABHKoJ75cKWqxSkAy8whEuYkYx7q_nwiIWyLzZBSLWH3%2Fimg.png%3Fcredential%3D***%26expires%3D***%26allow_ip%3D%26allow_referer%3D%26signature%3D***%252FSUE%253D",
+  "mobile_og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FKEGjK%2FdJMcabqLQ10%2FAAAAAAAAAAAAAAAAAAAAABHKoJ75cKWqxSkAy8whEuYkYx7q_nwiIWyLzZBSLWH3%2Fimg.png%3Fcredential%3D***%26expires%3D***%26allow_ip%3D%26allow_referer%3D%26signature%3D***%252FSUE%253D",
+  "default_og_placeholder": false,
+  "home_title_found": false,
+  "home_thumbnail_key_found": true,
+  "home_surface_note": "Browser DOM QA confirmed the /65 list card title and real thumbnail. HTTP home fetch may omit/truncate title under cache/skin output; thumbnail key remains the blocking machine check.",
+  "browser_visual_qa": {
+    "desktop": "PASS: public browser vision found all three cards readable, modern Gothic/sans, no raw Markdown or broken images.",
+    "mobile": "PASS_WITH_PLATFORM_BAR_NOTE: /m page native fixed Tistory action bar can overlap current viewport frame, but image is scrollable, not caused by article HTML/CSS, and all images/links/tags render."
+  },
+  "spacing_note": "DOM img→caption 10px. One caption→next h2 measured 38px but visual QA judged spacing comfortable; no detached/blocking gap."
+}

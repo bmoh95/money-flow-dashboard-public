@@ -2,13 +2,13 @@
   "opportunity_id": "opp_20260520_092_withholding_tax_blog",
   "title": "원천세 다음달 10일·반기별 납부승인 체크 무료 검증 글",
   "type": "other",
-  "status": "redteam_hold",
+  "status": "tracking",
   "created_at": "2026-05-20T19:24:21+09:00",
-  "updated_at": "2026-05-20T19:24:21+09:00",
+  "updated_at": "2026-05-21T16:34:10+09:00",
   "source_run_id": "2026-05-20_1912_money-flow",
-  "current_owner": "redteam",
+  "current_owner": "roi",
   "buyer_or_payer": "처음 알바비·프리랜서 외주비를 지급한 개인사업자/소상공인 독자",
-  "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부",
+  "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부 (public: https://beemo.tistory.com/65)",
   "evidence": [
     {
       "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2289&cntntsId=7701",
@@ -43,7 +43,7 @@
     "optimistic_units": 0
   },
   "scores": {
-    "quality": 90,
+    "quality": 91,
     "user_involvement": 0,
     "cash_distance": 4,
     "payout_certainty": null
@@ -57,12 +57,16 @@
   "approval_required": false,
   "approval_reason": null,
   "risk_flags": [
+    "attention_gate_strong",
+    "category_verified",
+    "fact_qa_passed",
     "free_validation_only",
+    "modern_gothic_image_qa_passed",
     "no_sales_cta",
-    "NEEDS_FACT_QA",
-    "NEEDS_IMAGE_QA",
-    "PUBLIC_VISUAL_QA_PENDING",
-    "ANTI_REPETITION_QA_PENDING"
+    "og_thumbnail_verified",
+    "public_render_qa_passed",
+    "public_visual_qa_passed",
+    "tistory_published"
   ],
   "decision_history": [
     {
@@ -100,6 +104,30 @@
       "agent": "roi",
       "decision": "GO",
       "summary": "Direct revenue 0, low cost, reusable free-validation asset; accepted as strategic blog lane."
+    },
+    {
+      "time": "2026-05-21T16:34:10+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "Attention/Cash Gate 재심사: 다음달 10일 납부기한·지방소득세 누락 리스크가 있어 강한 후보. 현금성 bounty 대안보다 backlog 개선 가치가 높음."
+    },
+    {
+      "time": "2026-05-21T16:34:10+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "공식 근거 재확인, modern Gothic PNG 3장 업로드, 카테고리 세금·장부, 공개/모바일/홈 썸네일 렌더 QA 통과."
+    },
+    {
+      "time": "2026-05-21T16:34:10+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "summary": "세무 단정·이미지 폰트·OG/모바일 썸네일 리스크를 비단정 문구와 공개 렌더 QA로 해소."
+    },
+    {
+      "time": "2026-05-21T16:34:10+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 순매출은 측정 전 0원. 무료 검색 유입 검증 자산으로 tracking 전환."
     }
   ],
   "assets": [
@@ -122,8 +150,28 @@
     {
       "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/candidate_outcomes.json",
       "title": "후보 검토 결과"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/public_render_qa_20260521_1624_withholding_tax.json",
+      "title": "public_render_qa_20260521_1624_withholding_tax.json"
+    },
+    {
+      "url": "https://beemo.tistory.com/65",
+      "title": "Tistory public post"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/01-withholding-tax-thumb-modern.png",
+      "title": "대표 썸네일 PNG"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/02-withholding-tax-flow-modern.png",
+      "title": "확인 순서 PNG"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/03-withholding-tax-memo-modern.png",
+      "title": "세금 메모 PNG"
     }
   ],
-  "next_action": "Backlog job: 국세청/정부24 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 세금·장부 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
-  "stop_reason_code": "HIGH_RISK"
+  "next_action": "공개 글 조회/댓글/검색 유입을 추적합니다. 직접 수익 추정은 실제 유입·전환 데이터가 생긴 뒤에만 계산합니다.",
+  "stop_reason_code": null
 }
