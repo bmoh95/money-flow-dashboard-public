@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-05-21T13:11:00+09:00",
+  "method": "contact_sheet_browser_vision",
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/contact_sheet_electricity_support.png",
+  "cards_checked": [
+    "01-electricity-support-thumb.png",
+    "02-official-check-flow.png",
+    "03-title-risk-check-card.png"
+  ],
+  "result": "PASS",
+  "notes": "Initial 02 card internal spacing and 03 card column gap were corrected. Final pass: no Korean text clipping, overlap, spacing collision, footer collision, or visible font fallback."
+}

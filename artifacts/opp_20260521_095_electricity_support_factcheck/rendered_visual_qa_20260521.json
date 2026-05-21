@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-21T13:15:00+09:00",
+  "url": "https://beemo.tistory.com/66?mfqa=render1",
+  "mobile_url": "https://beemo.tistory.com/m/66?mfqa=mobile1",
+  "result": "PASS",
+  "visual_qa": {
+    "desktop_public_page": "PASS: title, category, body, three images, captions, emphasis text, and official source links rendered correctly; no raw Markdown/work notes visible.",
+    "home_list_thumbnail": "PASS: actual generated thumbnail visible on home list, not default gray/T placeholder; minor crop acceptable because core title/symbol remain visible.",
+    "mobile_page": "PASS: category, tags, official links, three body images, and text spacing rendered correctly. Tistory default floating action bar may overlay viewport while scrolling, but images themselves load with correct dimensions and can be scrolled into view."
+  },
+  "dom_checks": {
+    "body_image_count": 3,
+    "all_images_complete": true,
+    "natural_size": "1200x675 for all three generated images",
+    "img_to_caption_px": [7, 7, 7],
+    "caption_to_next_px": [26, 20, 20],
+    "og_image_default_placeholder": false,
+    "mobile_og_default_placeholder": false,
+    "home_thumbnail_visible": true,
+    "category_verified": "돈관리·구매체크 / categoryId 1295941",
+    "forbidden_reader_artifacts": []
+  },
+  "links_checked": [
+    "https://www.sbiz24.kr/eleclanding/",
+    "https://www.sbiz24.kr/"
+  ]
+}
