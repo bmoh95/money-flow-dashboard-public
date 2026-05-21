@@ -7,4 +7,4 @@
 - Execution Member: GO — 로컬 초안, HTML, 스타일 브리프 작성 완료.
 - Execution Lead: GO — 본문은 사용 가능하나 이미지/공식문구 재확인/Tistory QA 전에는 공개 불가.
 - Red Team: HOLD — 종료/신규정책 혼동 위험, 이미지 미생성, 렌더링 QA 미완료.
-- ROI: GO — 직접매출 0원이나 free-validation 검색 자산으로 낮은 비용 대비 기대값 있음.
+- ROI: HOLD — 직접매출 0원. free-validation 검색 자산 가능성은 있으나 실제 유입·전환 전까지 원화 기대값은 0원으로 둠.

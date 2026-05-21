@@ -1,0 +1,207 @@
+{
+  "opportunity_id": "opp_20260519_064_business_credit_card_blog",
+  "title": "개인사업자 사업용 신용카드 홈택스 등록 전 체크 무료 검증 글",
+  "type": "other",
+  "status": "tracking",
+  "created_at": "2026-05-19T00:33:02+09:00",
+  "updated_at": "2026-05-21T12:13:57+09:00",
+  "source_run_id": "2026-05-19_0028_money-flow",
+  "current_owner": "roi",
+  "buyer_or_payer": "신규 개인사업자·작은 매장/쇼핑몰 운영자",
+  "channel": "Tistory 무료 검증 글 → 세금·장부 콘텐츠군 내부링크/검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2475&cntntsId=7799",
+      "grade": "A",
+      "summary": "국세청 사업용 신용카드 개요. 등록 경로, 본인명의 카드, 다음달 조회, 공제/불공제 확인 근거.",
+      "checked_at": "2026-05-19T00:33:02+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=%EC%82%AC%EC%97%85%EC%9A%A9%20%EC%8B%A0%EC%9A%A9%EC%B9%B4%EB%93%9C%20%EB%93%B1%EB%A1%9D%20%EB%B8%94%EB%A1%9C%EA%B7%B8%20%EA%B0%9C%EC%9D%B8%EC%82%AC%EC%97%85%EC%9E%90%20%ED%99%88%ED%83%9D%EC%8A%A4",
+      "grade": "B",
+      "summary": "등록방법/절세/매입세액 공제 comparable 검색 결과 다수 확인.",
+      "checked_at": "2026-05-19T00:33:02+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 86,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 2
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "category_verified",
+    "free_validation_only",
+    "official_source_rechecked",
+    "public_visual_qa_passed",
+    "tax_advice_risk",
+    "tax_wording_softened",
+    "tistory_published"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "4개 후보 검토. 사업용 신용카드 등록 글이 중복이 가장 낮고 공식 근거·독자 pain이 명확함."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A/B 근거 확보. 세무 단정 회피와 무료 검증 조건으로 진행."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "등록/조회/공제확인 분리형 글로 scope 축소. 이미지 3장 계획 포함."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 86점. 등록방법 반복보다 실수 방지 angle이 명확함."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "본문 초안, 스타일 브리프, 이미지 계획 작성 완료."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "로컬 초안 사용 가능. 공개 전 이미지·렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "세무조언 리스크와 이미지/Tistory QA 미완료로 backlog 처리 필요."
+    },
+    {
+      "time": "2026-05-19T00:33:02+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 매출은 없으나 세금·장부 콘텐츠군의 무료 검증 자산으로 비용 대비 기대값 양호."
+    },
+    {
+      "time": "2026-05-19T10:16:10+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "지원 이미지 3장, 완화 본문, Tistory HTML, QA 파일 제작 완료."
+    },
+    {
+      "time": "2026-05-19T10:16:10+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "이미지 한글/간격/폰트 QA 통과, 공개 페이지 DOM 이미지 gap 및 naturalWidth 확인."
+    },
+    {
+      "time": "2026-05-19T10:16:10+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "summary": "세무 단정 표현 완화, 국세청 공식 페이지 재확인, 카테고리/대표 이미지 검증 완료."
+    },
+    {
+      "time": "2026-05-19T10:16:10+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "무료 검증 글로 게시 완료. 직접 매출 0원이나 세금·장부 콘텐츠군 검색 자산으로 tracking 전환."
+    },
+    {
+      "time": "2026-05-21T12:13:57+09:00",
+      "agent": "roi_correction",
+      "decision": "HOLD",
+      "reason_code": "UNMEASURED_SEARCH_VALUE",
+      "summary": "기존 30,000원/90,000원은 실제 유입·전환 데이터가 아닌 전략가치 가정이어서 ROI에서 제거. 무료 검색 자산은 측정 전 0원으로 기록."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/body.md",
+      "title": "body.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/style_brief.md",
+      "title": "style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/image_plan.md",
+      "title": "image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/plan.md",
+      "title": "plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/evidence.md",
+      "title": "evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/roi.md",
+      "title": "roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/01-business-card-thumb.png",
+      "title": "썸네일 PNG",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/02-business-card-flow.png",
+      "title": "흐름 카드 PNG",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/03-business-card-checklist.png",
+      "title": "체크리스트 PNG",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/business_card_tistory_body.html",
+      "title": "Tistory 본문 HTML",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/body_softened.md",
+      "title": "완화 본문 Markdown",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/asset_qa_20260519_1009.json",
+      "title": "이미지/공식근거 QA",
+      "kind": "file"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260519_064_business_credit_card_blog/assets/tistory_publish_result_20260519_business_card.json",
+      "title": "Tistory 게시 검증 결과",
+      "kind": "file"
+    },
+    {
+      "url": "https://beemo.tistory.com/51",
+      "title": "Tistory 공개 글",
+      "kind": "public_post"
+    }
+  ],
+  "next_action": "공개 글 유입/검색 반응 추적. 반복 세무 단정 표현 여부는 추후 업데이트 때 재확인.",
+  "stop_reason_code": null,
+  "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
+}

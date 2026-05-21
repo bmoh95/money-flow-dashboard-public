@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-21T12:05:40+09:00",
+  "updated_at": "2026-05-21T12:15:51+09:00",
   "last_run": {
     "run_id": "2026-05-21_1148_money-flow",
     "started_at": "2026-05-21T11:53:09+09:00",
@@ -420,9 +420,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 86,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -587,7 +587,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-20T12:56:21+09:00",
-      "created_at": "2026-05-20T12:56:21+09:00"
+      "created_at": "2026-05-20T12:56:21+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     },
     {
       "id": "opp_20260520_091_biz_registration_change_blog",
@@ -916,9 +917,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 91,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -1053,7 +1054,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-21T12:05:40+09:00",
-      "created_at": "2026-05-21T12:05:40+09:00"
+      "created_at": "2026-05-21T12:05:40+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     }
   ],
   "approval_needed": [
@@ -1651,9 +1653,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 86,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -1818,7 +1820,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-20T12:56:21+09:00",
-      "created_at": "2026-05-20T12:56:21+09:00"
+      "created_at": "2026-05-20T12:56:21+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     },
     {
       "id": "opp_20260520_091_biz_registration_change_blog",
@@ -2147,9 +2150,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 91,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -2284,7 +2287,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-21T12:05:40+09:00",
-      "created_at": "2026-05-21T12:05:40+09:00"
+      "created_at": "2026-05-21T12:05:40+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     }
   ],
   "rejection_summary": {
@@ -2297,7 +2301,7 @@
     "NO_CHANNEL": 1
   },
   "roi": {
-    "expected_base_net_total": 1137161,
+    "expected_base_net_total": 1047160,
     "actual_revenue_total": 0,
     "actual_net_total": 0
   },
@@ -14516,9 +14520,9 @@
       ],
       "stop_reason": null,
       "quality": 86,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "수익성 검토",
       "owner": "수익성 검토",
@@ -14698,7 +14702,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-19T10:16:10+09:00",
-      "created_at": "2026-05-19T00:33:02+09:00"
+      "created_at": "2026-05-19T00:33:02+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     },
     {
       "id": "opp_20260519_065_cash_bounty_scout_no_go",
@@ -19808,9 +19813,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 86,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -19975,7 +19980,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-20T12:56:21+09:00",
-      "created_at": "2026-05-20T12:56:21+09:00"
+      "created_at": "2026-05-20T12:56:21+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     },
     {
       "id": "opp_20260520_091_biz_registration_change_blog",
@@ -20758,9 +20764,9 @@
       ],
       "stop_reason": "고위험",
       "quality": 91,
-      "expected_base_net": 30000,
+      "expected_base_net": 0,
       "base_net_margin_pct": 100,
-      "margin_pct": 100,
+      "margin_pct": 0,
       "expected_price": 0,
       "current_owner": "리스크 검토",
       "owner": "리스크 검토",
@@ -20895,7 +20901,8 @@
       ],
       "approval_required": false,
       "updated_at": "2026-05-21T12:05:40+09:00",
-      "created_at": "2026-05-21T12:05:40+09:00"
+      "created_at": "2026-05-21T12:05:40+09:00",
+      "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
     }
   ]
 }

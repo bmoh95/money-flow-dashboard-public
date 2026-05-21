@@ -1,0 +1,169 @@
+{
+  "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
+  "title": "2026 소상공인 전기요금 20만원 지원 오해 차단 무료 검증 글",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-21T12:05:40+09:00",
+  "updated_at": "2026-05-21T12:13:57+09:00",
+  "source_run_id": "2026-05-21_1148_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "2026년 소상공인 전기요금 지원/환급 글을 보고 신청 여부를 확인하려는 개인사업자·매장 운영자",
+  "channel": "Tistory 무료 검증 글 → 돈관리·구매체크/매장 운영 콘텐츠군 검색 유입",
+  "evidence": [
+    {
+      "url": "https://www.sbiz24.kr/eleclanding/",
+      "grade": "A",
+      "summary": "공식 소상공인 전기요금 특별지원 랜딩. `2025년 12월 31일부로 지원 종료` 문구 확인.",
+      "checked_at": "2026-05-21T12:05:40+09:00"
+    },
+    {
+      "url": "https://www.sbiz24.kr/",
+      "grade": "A",
+      "summary": "공식 페이지가 신청·지원내역 조회처로 안내한 소상공인24.",
+      "checked_at": "2026-05-21T12:05:40+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/lite/?q=%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8+%EC%A0%84%EA%B8%B0%EC%9A%94%EA%B8%88+%ED%8A%B9%EB%B3%84%EC%A7%80%EC%9B%90+2026+%EC%8B%A0%EC%B2%AD+%EB%A7%88%EA%B0%90+%EA%B3%B5%EC%8B%9D",
+      "grade": "B",
+      "summary": "2026년 신청/환급/마감형 제목 다수 확인. 검색 수요와 오해 신호로만 사용.",
+      "checked_at": "2026-05-21T12:05:40+09:00"
+    },
+    {
+      "url": "https://beemo.tistory.com/rss",
+      "grade": "B",
+      "summary": "최근 10개 공개글 확인. 세금/지원금 글 반복을 피하려고 fact-check 구조로 기획.",
+      "checked_at": "2026-05-21T12:05:40+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 91,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "free_validation_only",
+    "attention_gate_explosive",
+    "official_wording_recheck_required",
+    "image_generation_required",
+    "tistory_rendered_qa_required",
+    "anti_repetition_checked"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "5개 후보 비교. 공식 종료 안내와 2026 지원금 오해 검색 신호가 큰 전기요금 특별지원 fact-check를 선택."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A근거(공식 종료 문구)와 B/C 검색 수요 확인. 신청법이 아닌 오해 차단 글로 안전하게 진행."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "공식 확인 3단계, 위험 제목 판별, 이미지 3장 계획 수립."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 91점. 최근 세금/지원금 글 반복을 피하기 위해 verdict-first fact-check 구조 채택."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "로컬 body.md/body.html/style_brief/image_plan 작성 완료."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "초안은 사용 가능. 공개 전 이미지 생성, 공식 문구 재확인, Tistory 렌더링 QA 필요."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "HIGH_RISK",
+      "summary": "종료된 사업과 2026 신규 바우처를 혼동할 위험, 이미지 미생성, 공개 렌더 QA 미완료로 redteam_hold."
+    },
+    {
+      "time": "2026-05-21T12:05:40+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 수익은 0원이나 오해 차단형 검색 유입/free-validation 자산으로 기대값 양호."
+    },
+    {
+      "time": "2026-05-21T12:13:57+09:00",
+      "agent": "roi_correction",
+      "decision": "HOLD",
+      "reason_code": "UNMEASURED_SEARCH_VALUE",
+      "summary": "기존 30,000원/90,000원은 실제 유입·전환 데이터가 아닌 전략가치 가정이어서 ROI에서 제거. 무료 검색 자산은 측정 전 0원으로 기록."
+    }
+  ],
+  "assets": [
+    {
+      "title": "evidence.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/evidence.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/evidence.md"
+    },
+    {
+      "title": "plan.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/plan.md"
+    },
+    {
+      "title": "decisions.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/decisions.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/decisions.md"
+    },
+    {
+      "title": "roi.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/roi.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/roi.md"
+    },
+    {
+      "title": "body.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/body.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/body.md"
+    },
+    {
+      "title": "body.html",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/body.html"
+    },
+    {
+      "title": "style_brief.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/style_brief.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/style_brief.md"
+    },
+    {
+      "title": "image_plan.md",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/image_plan.md",
+      "viewer": "viewer.html?file=artifacts/opp_20260521_095_electricity_support_factcheck/image_plan.md"
+    }
+  ],
+  "next_action": "Backlog job: 공식 종료 문구 재확인 → PNG 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
+  "stop_reason_code": "HIGH_RISK",
+  "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
+}

@@ -4,7 +4,7 @@
   "type": "other",
   "status": "redteam_hold",
   "created_at": "2026-05-20T12:56:21+09:00",
-  "updated_at": "2026-05-20T12:56:21+09:00",
+  "updated_at": "2026-05-21T12:13:57+09:00",
   "source_run_id": "2026-05-20_1242_money-flow",
   "current_owner": "redteam",
   "buyer_or_payer": "CCTV를 설치·교체하거나 안내판을 점검해야 하는 매장·공방·학원·사무실 소상공인 독자",
@@ -51,8 +51,8 @@
     "expected_price": 0,
     "platform_fee_pct": 0,
     "conservative_units": 0,
-    "base_units": 1,
-    "optimistic_units": 3
+    "base_units": 0,
+    "optimistic_units": 0
   },
   "scores": {
     "quality": 86,
@@ -62,9 +62,9 @@
   },
   "margin": {
     "conservative_net": 0,
-    "base_net": 30000,
-    "optimistic_net": 90000,
-    "base_net_margin_pct": 100
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": 0
   },
   "approval_required": false,
   "approval_reason": null,
@@ -134,6 +134,13 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "직접 매출은 0원이지만 매장운영/개인정보 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+    },
+    {
+      "time": "2026-05-21T12:13:57+09:00",
+      "agent": "roi_correction",
+      "decision": "HOLD",
+      "reason_code": "UNMEASURED_SEARCH_VALUE",
+      "summary": "기존 30,000원/90,000원은 실제 유입·전환 데이터가 아닌 전략가치 가정이어서 ROI에서 제거. 무료 검색 자산은 측정 전 0원으로 기록."
     }
   ],
   "assets": [
@@ -187,5 +194,6 @@
     }
   ],
   "next_action": "Backlog job: 개인정보 포털/PIPC 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
-  "stop_reason_code": "HIGH_RISK"
+  "stop_reason_code": "HIGH_RISK",
+  "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
 }
