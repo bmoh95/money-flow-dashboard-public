@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-05-21T19:53:12+09:00",
+  "result": "PASS",
+  "post_url": "https://beemo.tistory.com/68",
+  "mobile_url": "https://beemo.tistory.com/m/68",
+  "cycles": [
+    {
+      "cycle": 1,
+      "public_desktop": "PASS",
+      "notes": "본문 독자용 렌더 정상. 카테고리 업종별 안내문/매장 운영·플레이스 정상. 이미지 3개 로드/가독성 PASS. raw markdown/work-note 없음. 공식 출처 링크 4개 클릭 가능.",
+      "dom_metrics": {
+        "figures": 3,
+        "img_to_caption_px": [7, 7, 7],
+        "caption_to_next_px": [26, 24, 24],
+        "image_natural_size": "1200x675 for all three body images"
+      }
+    },
+    {
+      "cycle": 2,
+      "mobile_and_list": "PASS",
+      "notes": "모바일 Tistory native bottom action bar는 플랫폼 동작으로 확인. 스크롤/본문 읽기 가능, 이미지 붕괴/잘림 없음. 홈 목록 최신글 카드에 실제 대표 썸네일 노출, 회색 T/default opengraph 아님."
+    }
+  ],
+  "blocking_defects": [],
+  "final_status": "public_visual_qa_passed"
+}

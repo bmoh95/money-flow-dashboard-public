@@ -1,0 +1,7 @@
+{
+  "checked_at": "2026-05-21T19:49:00+09:00",
+  "result": "PASS",
+  "method": "browser_vision_contact_sheet",
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/contact_sheet_cctv_notice.png",
+  "summary": "3개 카드 모두 공개 업로드 전 blocking visual defect 없음. 현대적 고딕/산세리프 느낌, 글자 겹침/잘림 없음, 3번 footer/divider 간격 정상, 모바일 썸네일 핵심 가독성 PASS."
+}

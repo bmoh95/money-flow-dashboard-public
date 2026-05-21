@@ -2,11 +2,11 @@
   "opportunity_id": "opp_20260520_090_cctv_notice_blog",
   "title": "매장 CCTV 안내판 3칸 체크 무료 검증 글",
   "type": "other",
-  "status": "redteam_hold",
+  "status": "tracking",
   "created_at": "2026-05-20T12:56:21+09:00",
-  "updated_at": "2026-05-21T12:13:57+09:00",
+  "updated_at": "2026-05-22T05:43:07+09:00",
   "source_run_id": "2026-05-20_1242_money-flow",
-  "current_owner": "redteam",
+  "current_owner": "roi",
   "buyer_or_payer": "CCTV를 설치·교체하거나 안내판을 점검해야 하는 매장·공방·학원·사무실 소상공인 독자",
   "channel": "Tistory 무료 검증 글 → 업종별 안내문/매장 운영 검색 유입",
   "evidence": [
@@ -55,7 +55,7 @@
     "optimistic_units": 0
   },
   "scores": {
-    "quality": 86,
+    "quality": 90,
     "user_involvement": 0,
     "cash_distance": 4,
     "payout_certainty": null
@@ -71,12 +71,15 @@
   "risk_flags": [
     "legal_privacy_wording_risk",
     "free_validation_only",
-    "official_source_recheck_required",
-    "image_generation_required",
-    "tistory_rendered_qa_required",
-    "category_required",
     "anti_repetition_checked",
-    "no_sales_cta"
+    "no_sales_cta",
+    "official_wording_softened",
+    "tistory_published_verified",
+    "public_url_verified",
+    "public_visual_qa_passed",
+    "category_verified",
+    "uploaded_png_thumbnail_verified",
+    "source_links_verified"
   ],
   "decision_history": [
     {
@@ -141,6 +144,41 @@
       "decision": "HOLD",
       "reason_code": "UNMEASURED_SEARCH_VALUE",
       "summary": "기존 30,000원/90,000원은 실제 유입·전환 데이터가 아닌 전략가치 가정이어서 ROI에서 제거. 무료 검색 자산은 측정 전 0원으로 기록."
+    },
+    {
+      "time": "2026-05-22T05:43:07+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사: 직접 현금 후보는 아니나 개인정보/CCTV 운영 리스크가 독자 손해와 연결되는 강한 후보이며 기존 품질개선 backlog라 처리 허용."
+    },
+    {
+      "time": "2026-05-22T05:43:07+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식근거 재확인, PNG 3장, 카테고리, 공개 렌더/OG/모바일/브라우저 시각 QA가 저장 artifacts 기준 PASS."
+    },
+    {
+      "time": "2026-05-22T05:43:07+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "법률 단정·이미지·Tistory 렌더링 blockers 해소. 판매 CTA 없음, L4 없음, 공식 링크 확인."
+    },
+    {
+      "time": "2026-05-22T05:43:07+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 매출은 0원. 검색 유입은 측정 전 0원 처리하고 매장운영/개인정보 콘텐츠군 전략 자산으로 tracking."
+    },
+    {
+      "time": "2026-05-22T05:43:07+09:00",
+      "agent": "ledger_dashboard_manager",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "중단된 게시/QA 결과를 ledger에 reconcile: redteam_hold -> tracking, public URL https://beemo.tistory.com/68."
     }
   ],
   "assets": [
@@ -191,9 +229,74 @@
     {
       "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/candidate_outcomes.json",
       "title": "candidate_outcomes.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/01-cctv-notice-thumb.png",
+      "title": "CCTV 안내판 썸네일 PNG",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/01-cctv-notice-thumb.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/02-cctv-dont-flow.png",
+      "title": "CCTV 운영 금지 흐름 PNG",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/02-cctv-dont-flow.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/03-cctv-policy-check.png",
+      "title": "CCTV 운영방침 체크 PNG",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/03-cctv-policy-check.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/contact_sheet_cctv_notice.png",
+      "title": "CCTV 이미지 QA contact sheet",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/contact_sheet_cctv_notice.png"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/source_recheck_20260521_cctv.json",
+      "title": "공식 근거 재확인 JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/source_recheck_20260521_cctv.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/local_image_qa_20260521_cctv.json",
+      "title": "로컬 이미지 QA JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/local_image_qa_20260521_cctv.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/public_render_qa_20260521_cctv.json",
+      "title": "공개 렌더 QA JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/public_render_qa_20260521_cctv.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/browser_public_render_qa_20260521_cctv.json",
+      "title": "브라우저 시각 QA JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/browser_public_render_qa_20260521_cctv.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/public_reverify_20260522_cctv.json",
+      "title": "공개 재검증 JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/public_reverify_20260522_cctv.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/tistory_publish_summary_20260522_cctv.safe.json",
+      "title": "Tistory 게시 요약 안전 JSON",
+      "viewer": "artifacts/opp_20260520_090_cctv_notice_blog/tistory_publish_summary_20260522_cctv.safe.json"
+    },
+    {
+      "url": "https://beemo.tistory.com/68",
+      "title": "Tistory 공개 글"
     }
   ],
   "next_action": "Backlog job: 개인정보 포털/PIPC 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
-  "stop_reason_code": "HIGH_RISK",
-  "strategic_value_note": "검색 유입 가능성은 아직 가설입니다. 실제 방문수·RPM·클릭·전환 데이터가 없으므로 원화 가치 산정은 보류하고 ROI는 0원으로 처리합니다."
+  "stop_reason_code": null,
+  "strategic_value_note": "검색 유입 가설/전략 자산입니다. 실제 방문수·RPM·클릭·전환 데이터 전까지 원화 가치는 0원으로 기록합니다.",
+  "tistory": {
+    "post_id": "68",
+    "url": "https://beemo.tistory.com/68",
+    "mobile_url": "https://beemo.tistory.com/m/68",
+    "published_at": "2026-05-21T19:50:20+09:00",
+    "reverified_at": "2026-05-22T05:43:07+09:00",
+    "category": "업종별 안내문/매장 운영·플레이스",
+    "public_visual_qa_passed": true,
+    "content_qa_passed": true,
+    "thumbnail_qa_passed": true
+  }
 }

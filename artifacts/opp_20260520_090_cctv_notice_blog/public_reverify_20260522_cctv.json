@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-05-22T05:43:07+09:00",
+  "result": "PASS",
+  "opportunity_id": "opp_20260520_090_cctv_notice_blog",
+  "post_id": "68",
+  "url": "https://beemo.tistory.com/68",
+  "mobile_url": "https://beemo.tistory.com/m/68",
+  "title": "매장 CCTV 달기 전, 안내판 3칸부터 채워보세요",
+  "attention_cash_gate": {
+    "classification": "강한 후보",
+    "cash_gate": "direct_cash_backlog_absent; existing published backlog reconciliation",
+    "reason": "CCTV 안내판은 즉시 현금 후보는 아니지만 개인정보·영상정보 운영 리스크가 직접 독자 손해와 연결되고, 기존 보류 글의 공식근거/이미지/렌더 QA가 이미 완료된 명확한 품질 개선 작업입니다.",
+    "blog_auto_update_allowed": true
+  },
+  "dom_checks": {
+    "category": "업종별 안내문/매장 운영·플레이스",
+    "category_ok": true,
+    "body_images": 3,
+    "image_natural_size": "1200x675 all body images",
+    "figures": [
+      {
+        "image_to_caption_px": 7,
+        "caption_to_next_px": 26
+      },
+      {
+        "image_to_caption_px": 7,
+        "caption_to_next_px": 24
+      },
+      {
+        "image_to_caption_px": 7,
+        "caption_to_next_px": 24
+      }
+    ],
+    "official_links": 4,
+    "og_default_placeholder": false,
+    "forbidden_reader_artifacts": []
+  },
+  "browser_visual_qa": {
+    "result": "PASS",
+    "summary": "본문 이미지 3장 로드/가독성 정상, 캡션·문단·제목 간격 자연스러움, raw markdown/work-note 없음."
+  },
+  "source_recheck": {
+    "current_run": "privacy.go.kr and law.go.kr returned 200 with CCTV/영상정보처리기기 key terms; PIPC/korea.kr were already A-grade rechecked in saved 2026-05-21 artifact and current curl hit connection resets, not source contradiction.",
+    "saved_artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/source_recheck_20260521_cctv.json"
+  },
+  "blocking_defects": []
+}

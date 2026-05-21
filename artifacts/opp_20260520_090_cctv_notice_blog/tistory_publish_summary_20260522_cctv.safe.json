@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-05-22T05:43:07+09:00",
+  "result": "PUBLISHED_VERIFIED_RECONCILED",
+  "opportunity_id": "opp_20260520_090_cctv_notice_blog",
+  "post_id": "68",
+  "url": "https://beemo.tistory.com/68",
+  "mobile_url": "https://beemo.tistory.com/m/68",
+  "visibility": "PUBLIC",
+  "category": "업종별 안내문/매장 운영·플레이스",
+  "category_id": "1295940",
+  "thumbnail": "kage@KJCtX/dJMcaf7I8Yd/AAAAAAAAAAAAAAAAAAAAAJKpgnu0gagZpAmGw04VfYn-Dc_NVpdD14KCiA11HVxU/img.png",
+  "uploads": [
+    {
+      "name": "01-cctv-notice-thumb.png",
+      "filename": "img.png",
+      "key_prefix": "KJCtX/dJMcaf7I8Yd"
+    },
+    {
+      "name": "02-cctv-dont-flow.png",
+      "filename": "img.png",
+      "key_prefix": "cqFmDt/dJMcaf7I8Ye"
+    },
+    {
+      "name": "03-cctv-policy-check.png",
+      "filename": "img.png",
+      "key_prefix": "bSWi56/dJMcaak3J8a"
+    }
+  ],
+  "note": "Signed Kakao CDN credential/signature query parameters intentionally omitted from public artifact."
+}
