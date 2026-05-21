@@ -1,0 +1,80 @@
+[
+  {
+    "candidate": "cash_bounty_direct_pr",
+    "type": "bounty",
+    "attention_or_cash_class": "direct_cash_checked",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "Fresh bounty scout checked 10 deep-preflight candidates after 79 raw/filter candidates; GO 0, HOLD 0. Rescue pool still dominated by closed/locked/archived/duplicate or unclear cash-route issues.",
+    "evidence": [
+      "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/gate_last_summary.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_0750_money-flow/filter_report_final.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_0750_money-flow/bounty_deep_preflight.json"
+    ]
+  },
+  {
+    "candidate": "실손24_의원_약국_참여병원_먼저확인",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "강한 후보",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "실손보험금 청구라는 직접 돈/권리 문제이고, “의원·약국도 된다”는 확대 메시지와 달리 실제 연계율·참여기관 확인이 필요해 독자 오해를 줄일 수 있음. 검색 결과 18개 샘플과 공식 실손24 참여병원 검색 근거 확인.",
+    "evidence": [
+      "https://www.fsc.go.kr/no010101/85456",
+      "https://www.silson24.or.kr/claim/web/serviceHospitalList",
+      "https://korea.kr/multi/visualNewsView.do?newsId=148953070"
+    ]
+  },
+  {
+    "candidate": "2026_6월_자동차세_연납_할인_정기분_구분",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "강한 후보",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "6월 16~30일 연납 신청과 약 2.51% 공제는 공식 근거가 있으나 아직 3주 이상 남아 있고 최근 세금/지원금 글과 구조가 겹침. 6월 중순 직전 재검토가 더 적합.",
+    "evidence": [
+      "https://www.seocho.go.kr/site/tax/03/10303010000002023050810.jsp"
+    ]
+  },
+  {
+    "candidate": "한전_에너지캐시백_여름_전기요금_절감",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "강한 후보",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "전기요금 절감이라 계절성은 있으나 공식 페이지가 동적이고 마감/손실기한이 실손24의 보험금 청구 오해보다 약함. 6월 폭염/요금 이슈 발생 시 재검토.",
+    "evidence": [
+      "https://en-ter.co.kr/ec/main/main.do"
+    ]
+  },
+  {
+    "candidate": "민생지원금_소비쿠폰_신청일_팩트체크",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "폭발성은 있으나 위험",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "summary": "클릭 수요는 커 보이나 검색 결과가 SEO/AI성 글 중심이고 공식 지급·신청 근거가 불명확. 루머성 제목으로 자동 생성 금지.",
+    "evidence": [
+      {
+        "title": "2026 민생회복 소비쿠폰 완벽 총정리 | 최대 60만 원, 신청일 ...",
+        "url": "https://ljw5669.tistory.com/entry/2026-%EB%AF%BC%EC%83%9D%ED%9A%8C%EB%B3%B5-%EC%86%8C%EB%B9%84%EC%BF%A0%ED%8F%B0-%EC%99%84%EB%B2%BD-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EC%B5%9C%EB%8C%80-60%EB%A7%8C-%EC%9B%90-%EC%8B%A0%EC%B2%AD%EC%9D%BC%C2%B7%EC%A7%80%EA%B8%89%EC%9D%BC%C2%B7%EC%9E%90%EA%B2%A9%EC%A1%B0%EA%B1%B4-%ED%95%9C%EB%88%88%EC%97%90"
+      },
+      {
+        "title": "2026 민생회복 소비쿠폰 (3차 고유가 피해지원금) 신청 방법·일정 ...",
+        "url": "https://firstcot.kr/9497"
+      },
+      {
+        "title": "2026 민생지원금 3차 민생회복 소비쿠폰 신청일 지급일 사용처 ...",
+        "url": "https://blog.naver.com/aldoninfo/224247395415"
+      },
+      {
+        "title": "2026 민생지원금 신청방법 및 지역별 지급 대상 총정리 (+최대 60만원)",
+        "url": "https://www.kjchoi.co.kr/2026/03/2026-livelihood-support-fund-guide.html"
+      },
+      {
+        "title": "민생회복 소비쿠폰 사용처, 25만원 신청 기간과 2026 지자체별 ...",
+        "url": "https://wonderful-info.com/%EB%AF%BC%EC%83%9D%ED%9A%8C%EB%B3%B5-%EC%86%8C%EB%B9%84%EC%BF%A0%ED%8F%B0-%EC%82%AC%EC%9A%A9%EC%B2%98-25%EB%A7%8C%EC%9B%90-%EC%8B%A0%EC%B2%AD-%EA%B8%B0%EA%B0%84%EA%B3%BC-2026-%EC%A7%80%EC%9E%90/"
+      }
+    ]
+  }
+]
