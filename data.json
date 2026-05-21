@@ -1,65 +1,77 @@
 {
-  "updated_at": "2026-05-21T16:34:10+09:00",
+  "updated_at": "2026-05-21T18:50:05+09:00",
   "last_run": {
-    "run_id": "2026-05-21_1624_money-flow-backlog",
-    "started_at": "2026-05-21T16:34:10+09:00",
-    "finished_at": "2026-05-21T16:34:10+09:00",
+    "run_id": "2026-05-21_1846_money-flow",
+    "started_at": "2026-05-21T18:50:05+09:00",
+    "finished_at": "2026-05-21T18:50:05+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
       "research_lead",
+      "planning_member",
+      "planning_lead",
+      "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
+    "candidates_discovered": 5,
     "opportunities_advanced": 1,
-    "opportunities_rejected": 0,
+    "opportunities_rejected": 1,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/public_render_qa_20260521_1624_withholding_tax.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260520_092_withholding_tax_blog",
+        "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
         "agent": "research_lead",
         "decision": "GO",
         "reason_code": null,
-        "summary": "Attention/Cash Gate 강한 후보"
+        "summary": "에너지바우처 5/25 잔액조회 무료 검증 글 attention 폭발 후보"
       },
       {
-        "opportunity_id": "opp_20260520_092_withholding_tax_blog",
-        "agent": "execution_lead",
+        "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+        "agent": "planning_lead",
         "decision": "GO",
         "reason_code": null,
-        "summary": "공개 렌더·이미지·OG QA 통과"
+        "summary": "기획 품질 87, scout-only로 제작/발행은 다음 lane"
       },
       {
-        "opportunity_id": "opp_20260520_092_withholding_tax_blog",
-        "agent": "redteam",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "redteam_hold 해제"
+        "opportunity_id": null,
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "NO_CHANNEL",
+        "summary": "현금성 bounty/direct-payout 후보는 safe GO 없음"
       },
       {
-        "opportunity_id": "opp_20260520_092_withholding_tax_blog",
-        "agent": "roi",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "0원 전략 자산 tracking"
+        "opportunity_id": null,
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "NO_EVIDENCE",
+        "summary": "민생회복 소비쿠폰은 공식 근거 부족으로 자동 생성 금지"
       }
     ],
-    "summary": "Backlog item finalized: withholding-tax Tistory free-validation post passed public rendered QA and moved redteam_hold to tracking.",
-    "final_report": ""
+    "summary": "Created one high-attention free-validation blog opportunity for Energy Voucher 2026-05-25 usage deadline; no bounty GO.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교 후 새 작업 1개 생성: `opp_20260521_097_energy_voucher_deadline_blog`.\n- 바운티 gate 최근 결과 확인: GO 0개라 PR 자동제출 없음.\n- 새 후보: `에너지바우처 5월 25일 전 잔액조회` 무료 검증 글 기획 패키지 작성.\n\n**시장성 판단**\n- GO: 에너지바우처 공식 페이지 기준 2026년 5월 25일까지 동절기 사용기한/잔액조회 근거 확인.\n- Attention Gate: `폭발 후보` — 며칠 남지 않은 사용기한이라 “남은 잔액 놓치나?” 클릭 동기가 강함.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n- 무료 검색 유입 검증 자산으로만 추적합니다.\n\n**대기**\n- 대시보드 갱신: `/Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 다음 lane 작업: 초안·이미지 3장·Tistory 렌더/OG QA.\n\n**필요 승인**\n- 없음. 외부 게시/제출은 이번 scout에서 하지 않았습니다.\n"
   },
   "metrics": {
-    "total": 99,
-    "active": 5,
+    "total": 100,
+    "active": 6,
     "approval_needed": 1,
     "launched": 40,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 54
+    "rejected": 58
   },
   "active_opportunities": [
     {
@@ -1275,6 +1287,248 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json"
+        }
+      ]
+    },
+    {
+      "key": "MF-100",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "title": "에너지바우처 5월 25일 전 잔액조회 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음"
+      ],
+      "quality": 87,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "에너지바우처 수급 가구, 가족 보호자, 복지 지원 검색 독자",
+      "channel": "Tistory 무료 검증 글 → 지원금/생활비 절감 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "backlog/execution lane: 공식 5/25 문구 재확인 후 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
+      "risk_flags": [
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음",
+        "공식 마감 확인",
+        "반복 방지 확인",
+        "중복 위험 점검",
+        "이미지 제작 필요",
+        "렌더 QA 필요",
+        "카테고리 확인 필요"
+      ],
+      "stop_reason": null,
+      "evidence": [
+        {
+          "url": "https://www.energyv.or.kr/",
+          "grade": "A",
+          "summary": "에너지바우처 공식 홈페이지. 2025년도 사용기간과 2026년 5월 25일 동절기 사용기한 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/support_info.do",
+          "grade": "A",
+          "summary": "에너지바우처 안내 페이지. 사용기간 2025.7.1~2026.5.25 및 2025년도 총 지원금액 안내.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/balance_inquiry.do",
+          "grade": "A",
+          "summary": "잔액조회 페이지. 잔액조회 가능기간과 요금차감 고지서 기준 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=2026%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%205%EC%9B%94%2025%EC%9D%BC%20%EC%9E%94%EC%95%A1%EC%A1%B0%ED%9A%8C",
+          "grade": "B",
+          "summary": "5월25일/잔액조회/소멸 전 검색 결과 다수. 검색 수요 신호로만 사용.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 반복 비교. 기존 전기요금 지원 종료 글과 제도 구분 필요.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5개 후보 비교 후 에너지바우처 5/25 사용기한을 최고 attention 후보로 선정.",
+          "agent_label": "리서치",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 사용기한·잔액조회 근거와 손실회피 클릭 동기 확인.",
+          "agent_label": "시장성 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "plan/evidence/style/sample/image assets 작성.",
+          "agent_label": "기획",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87. 기존 전기요금 글과 제도 혼동 방지 문구 필수.",
+          "agent_label": "기획 검수",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 작업 scout-only 범위에서 planning package 완료. 제작/발행은 다음 lane.",
+          "agent_label": "제작",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 현금지원 단정·개인정보 입력 유도·제도 혼동만 차단하면 진행 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익은 0원. 검색 유입 가설/전략 자산으로 추적.",
+          "agent_label": "수익성 검토",
+          "reason_label": null
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "title": "plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "title": "roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "title": "sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "title": "style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "title": "image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "title": "source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "label": "Decisions — opp_20260521_097_energy_voucher_deadline_blog",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "label": "샘플 브리프 — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "label": "스타일 브리프 — 에너지바우처 5월 25일",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "label": "이미지 계획 — 에너지바우처 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "label": "source_snapshot_20260521_energy_voucher.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "label": "후보 비교 결과",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
         }
       ]
     }
@@ -2496,16 +2750,260 @@
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json"
         }
       ]
+    },
+    {
+      "key": "MF-100",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "title": "에너지바우처 5월 25일 전 잔액조회 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음"
+      ],
+      "quality": 87,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "에너지바우처 수급 가구, 가족 보호자, 복지 지원 검색 독자",
+      "channel": "Tistory 무료 검증 글 → 지원금/생활비 절감 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "backlog/execution lane: 공식 5/25 문구 재확인 후 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
+      "risk_flags": [
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음",
+        "공식 마감 확인",
+        "반복 방지 확인",
+        "중복 위험 점검",
+        "이미지 제작 필요",
+        "렌더 QA 필요",
+        "카테고리 확인 필요"
+      ],
+      "stop_reason": null,
+      "evidence": [
+        {
+          "url": "https://www.energyv.or.kr/",
+          "grade": "A",
+          "summary": "에너지바우처 공식 홈페이지. 2025년도 사용기간과 2026년 5월 25일 동절기 사용기한 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/support_info.do",
+          "grade": "A",
+          "summary": "에너지바우처 안내 페이지. 사용기간 2025.7.1~2026.5.25 및 2025년도 총 지원금액 안내.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/balance_inquiry.do",
+          "grade": "A",
+          "summary": "잔액조회 페이지. 잔액조회 가능기간과 요금차감 고지서 기준 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=2026%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%205%EC%9B%94%2025%EC%9D%BC%20%EC%9E%94%EC%95%A1%EC%A1%B0%ED%9A%8C",
+          "grade": "B",
+          "summary": "5월25일/잔액조회/소멸 전 검색 결과 다수. 검색 수요 신호로만 사용.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 반복 비교. 기존 전기요금 지원 종료 글과 제도 구분 필요.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5개 후보 비교 후 에너지바우처 5/25 사용기한을 최고 attention 후보로 선정.",
+          "agent_label": "리서치",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 사용기한·잔액조회 근거와 손실회피 클릭 동기 확인.",
+          "agent_label": "시장성 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "plan/evidence/style/sample/image assets 작성.",
+          "agent_label": "기획",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87. 기존 전기요금 글과 제도 혼동 방지 문구 필수.",
+          "agent_label": "기획 검수",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 작업 scout-only 범위에서 planning package 완료. 제작/발행은 다음 lane.",
+          "agent_label": "제작",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 현금지원 단정·개인정보 입력 유도·제도 혼동만 차단하면 진행 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익은 0원. 검색 유입 가설/전략 자산으로 추적.",
+          "agent_label": "수익성 검토",
+          "reason_label": null
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "title": "plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "title": "roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "title": "sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "title": "style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "title": "image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "title": "source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "label": "Decisions — opp_20260521_097_energy_voucher_deadline_blog",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "label": "샘플 브리프 — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "label": "스타일 브리프 — 에너지바우처 5월 25일",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "label": "이미지 계획 — 에너지바우처 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "label": "source_snapshot_20260521_energy_voucher.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "label": "후보 비교 결과",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
+        }
+      ]
     }
   ],
   "rejection_summary": {
-    "DUPLICATE": 21,
-    "OPPORTUNITY_COST": 17,
-    "HIGH_RISK": 9,
-    "HIGH_USER_INPUT": 1,
-    "PAYMENT_UNCLEAR": 3,
-    "NO_CHANNEL": 1,
-    "LOW_QUALITY": 2
+    "차별성 약함": 1,
+    "고위험": 13,
+    "기회비용": 17,
+    "지급 불명확": 3,
+    "중복": 21,
+    "사용자 부담 큼": 2,
+    "품질 낮음": 2,
+    "이목 수요 낮음": 1,
+    "채널 없음": 1
   },
   "roi": {
     "expected_base_net_total": 1047161,
@@ -2514,741 +3012,364 @@
   },
   "recent_events": [
     {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Deadline/current benefit topic passes buyer, channel, official evidence, and attention demand gates.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Quality score 95/100; anti-clickbait and anti-repetition structure selected.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": null,
-      "reason_code": null,
-      "summary": "Local draft, HTML, style brief, image plan, and candidate outcomes created.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/draft.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/body.html"
-      ]
-    },
-    {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "Publication blocked until official wording recheck, images, Tistory category, and rendered QA.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "Eligibility nuance and visual QA risks require backlog processing before launch.",
-      "links": []
-    },
-    {
-      "time": "2026-05-20T22:40:29+09:00",
-      "run_id": "2026-05-20_2229_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Direct revenue 0 but low-cost high-attention free-validation asset; accepted as strategic blog lane.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": null,
-      "reason_code": null,
-      "summary": "New scout candidate: 청년미래적금 6월 갈아타기·청년도약계좌 먼저 해지 금지 무료 검증 글.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "evidence_added",
-      "from_status": "discovered",
-      "to_status": "researching",
-      "decision": null,
-      "reason_code": null,
-      "summary": "A-grade 금융위 evidence, B-grade media/comparable post samples, and attention gate collected.",
-      "links": [
-        "https://www.fsc.go.kr/no010101/86767",
-        "https://www.yna.co.kr/view/AKR20260423103200002"
-      ]
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "6월 first-enrollment and do-not-pre-close risk pass buyer, channel, official evidence, and attention demand gates.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Quality score 98/100; financial overclaim and recent-post repetition avoided.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
-      "decision": null,
-      "reason_code": null,
-      "summary": "Local draft, HTML, style brief, image plan, candidate outcomes, and official evidence snapshot created.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/draft.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/body.html"
-      ]
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "Publication blocked until official wording recheck, images, Tistory category, and rendered QA.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "Financial-product nuance and visual QA risks require backlog processing before launch.",
-      "links": []
-    },
-    {
-      "time": "2026-05-21T02:00:25+09:00",
-      "run_id": "2026-05-21_0148_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Direct revenue 0 but low-cost high-attention free-validation asset; accepted as strategic blog lane.",
-      "links": []
-    },
-    {
       "time": "2026-05-21T02:52:56+09:00",
-      "run_id": "2026-05-21_0242_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 통과: 폭발 후보. 5월 정기신청 마감·95% 감액·직접 금전 영향이 명확.",
-      "links": [
-        "https://beemo.tistory.com/63"
-      ]
-    },
-    {
-      "time": "2026-05-21T02:52:56+09:00",
-      "run_id": "2026-05-21_0242_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
       "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 공개 글, 모바일 URL, 홈 목록 썸네일, 카테고리, 이미지 3장, 출처 링크, raw Markdown 부재 QA 통과.",
-      "links": [
-        "https://beemo.tistory.com/63",
-        "https://beemo.tistory.com/m/63",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/public_render_qa_20260521_eitc.json"
-      ]
+      "reason": null,
+      "summary": "Tistory 공개 글, 모바일 URL, 홈 목록 썸네일, 카테고리, 이미지 3장, 출처 링크, raw Markdown 부재 QA 통과."
     },
     {
       "time": "2026-05-21T02:52:56+09:00",
-      "run_id": "2026-05-21_0242_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "자격·지급액 단정 리스크는 국세청 확인형 표현과 공식 링크로 완화. 공개 렌더 QA 통과로 tracking 허용.",
-      "links": [
-        "https://beemo.tistory.com/63"
-      ]
+      "reason": null,
+      "summary": "자격·지급액 단정 리스크는 국세청 확인형 표현과 공식 링크로 완화. 공개 렌더 QA 통과로 tracking 허용."
     },
     {
       "time": "2026-05-21T02:52:56+09:00",
-      "run_id": "2026-05-21_0242_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검증 글 공개로 직접 매출 0원. 마감형 검색 유입과 콘텐츠군 강화 자산으로 추적.",
-      "links": [
-        "https://beemo.tistory.com/63"
-      ]
+      "reason": null,
+      "summary": "무료 검증 글 공개로 직접 매출 0원. 마감형 검색 유입과 콘텐츠군 강화 자산으로 추적."
     },
     {
       "time": "2026-05-21T02:52:56+09:00",
-      "run_id": "2026-05-21_0242_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "대시보드",
       "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산을 기록.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/opportunity.json"
-      ]
+      "reason": null,
+      "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산을 기록."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "https://www.fsc.go.kr/no010101/86884",
-        "https://www.fsc.go.kr/no010101/86767"
-      ],
-      "agent": "research_lead",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Attention/Cash Gate 재심사 통과: 6월 가입 전 선해지 금지·기여금/금리 오해가 강한 폭발 후보."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/public_render_qa_20260521_youth_future.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/contact_sheet_youth_future.png"
-      ],
-      "agent": "execution_member",
       "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "공식 근거 재확인, 이미지 3장/contact sheet, Tistory payload, 공개 렌더 QA 자산 생성."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "https://beemo.tistory.com/64",
-        "https://beemo.tistory.com/m/64"
-      ],
-      "agent": "execution_lead",
       "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "Tistory 공개 페이지 렌더 QA 통과: 이미지 3장, 카테고리, OG/모바일/목록 썸네일, 공식 출처 링크 확인."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "https://beemo.tistory.com/64"
-      ],
-      "agent": "redteam",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "금융상품 권유·확정수익 단정 리스크는 공식자료 확인형 문구와 주의문으로 완화."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "https://beemo.tistory.com/64"
-      ],
-      "agent": "roi",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "무료 검증 글 공개. 직접 매출 0원, 6월 전 검색/주의 이슈 자산으로 추적."
     },
     {
       "time": "2026-05-21T06:29:21+09:00",
-      "run_id": "2026-05-21_0607_money-flow",
+      "agent": "대시보드",
       "opportunity_id": "opp_20260521_094_youth_future_savings_blog",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/opportunity.json"
-      ],
-      "agent": "ledger_dashboard_manager",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
+      "reason": null,
       "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산 기록."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "discovered",
-      "from_status": null,
-      "to_status": "researching",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "5개 후보 비교 후 전기요금 특별지원 2026 오해 정리 후보 발견.",
-      "links": [
-        "https://www.sbiz24.kr/eleclanding/"
-      ]
+      "reason": null,
+      "summary": "5개 후보 비교 후 전기요금 특별지원 2026 오해 정리 후보 발견."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "evidence_added",
-      "from_status": "researching",
-      "to_status": "researching",
       "decision": null,
-      "reason_code": null,
-      "summary": "공식 종료 문구와 2026 검색 오해 신호 근거 저장.",
-      "links": [
-        "https://www.sbiz24.kr/eleclanding/"
-      ]
+      "reason": null,
+      "summary": "공식 종료 문구와 2026 검색 오해 신호 근거 저장."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention Gate 폭발 후보. 직접 금전 혜택 오해/손실 회피 이슈와 A근거 확보.",
-      "links": []
+      "reason": null,
+      "summary": "Attention Gate 폭발 후보. 직접 금전 혜택 오해/손실 회피 이슈와 A근거 확보."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "planning_member",
+      "agent": "기획",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 확인 3단계와 위험 제목 판별 구조로 plan.md 작성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/plan.md"
-      ]
+      "reason": null,
+      "summary": "공식 확인 3단계와 위험 제목 판별 구조로 plan.md 작성."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "planning_lead",
+      "agent": "기획 검수",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 91점. 반복적인 신청방법 글 대신 verdict-first fact-check로 차별화.",
-      "links": []
+      "reason": null,
+      "summary": "품질 91점. 반복적인 신청방법 글 대신 verdict-first fact-check로 차별화."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "asset_created",
-      "from_status": "execution",
-      "to_status": "execution",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "body.md/body.html/style_brief/image_plan/evidence/roi 자산 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/body.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/body.html"
-      ]
+      "reason": null,
+      "summary": "body.md/body.html/style_brief/image_plan/evidence/roi 자산 생성."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "execution",
-      "to_status": "execution",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "로컬 초안은 사용 가능. 공개 전 이미지/공식문구/Tistory QA 필요.",
-      "links": []
+      "reason": null,
+      "summary": "로컬 초안은 사용 가능. 공개 전 이미지/공식문구/Tistory QA 필요."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "execution",
-      "to_status": "redteam_hold",
       "decision": "HOLD",
-      "reason_code": "HIGH_RISK",
-      "summary": "종료 사업과 2026 신규 정책 혼동 위험, 이미지 미생성, 렌더 QA 미완료.",
-      "links": []
+      "reason": "고위험",
+      "summary": "종료 사업과 2026 신규 정책 혼동 위험, 이미지 미생성, 렌더 QA 미완료."
     },
     {
       "time": "2026-05-21T12:05:40+09:00",
-      "run_id": "2026-05-21_1148_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원, base 순가치 3만원 상당의 검색 유입/free-validation 자산.",
-      "links": []
+      "reason": null,
+      "summary": "직접 수익 0원, base 순가치 3만원 상당의 검색 유입/free-validation 자산."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "research_lead",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 통과: 공식 종료 문구와 2026 신청 검색 혼선이 커 폭발 후보로 분류.",
-      "links": [
-        "https://www.sbiz24.kr/eleclanding/"
-      ]
+      "reason": null,
+      "summary": "Attention/Cash Gate 재심사 통과: 공식 종료 문구와 2026 신청 검색 혼선이 커 폭발 후보로 분류."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "execution_member",
       "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 근거 재확인, PNG 3장/contact sheet, Tistory 본문, 로컬 이미지 QA 자산 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/contact_sheet_electricity_support.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/assets/local_image_qa_20260521.json"
-      ]
+      "reason": null,
+      "summary": "공식 근거 재확인, PNG 3장/contact sheet, Tistory 본문, 로컬 이미지 QA 자산 생성."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "execution_lead",
       "event": "launched",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 공개 발행 및 렌더 QA 통과: 이미지 3장, 카테고리, OG/홈/모바일 썸네일, 공식 링크 확인.",
-      "links": [
-        "https://beemo.tistory.com/66",
-        "https://beemo.tistory.com/m/66"
-      ]
+      "reason": null,
+      "summary": "Tistory 공개 발행 및 렌더 QA 통과: 이미지 3장, 카테고리, OG/홈/모바일 썸네일, 공식 링크 확인."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "redteam",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "허위 확정/신청 유도 리스크를 공식 종료 문구와 확인 순서 중심으로 완화. 판매 CTA 없음.",
-      "links": [
-        "https://beemo.tistory.com/66"
-      ]
+      "reason": null,
+      "summary": "허위 확정/신청 유도 리스크를 공식 종료 문구와 확인 순서 중심으로 완화. 판매 CTA 없음."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "roi",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 추적. KRW 기대수익 산정 없음.",
-      "links": [
-        "https://beemo.tistory.com/66"
-      ]
+      "reason": null,
+      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 추적. KRW 기대수익 산정 없음."
     },
     {
       "time": "2026-05-21T13:17:13+09:00",
-      "run_id": "2026-05-21_1301_money-flow",
+      "agent": "대시보드",
       "opportunity_id": "opp_20260521_095_electricity_support_factcheck",
-      "agent": "ledger_dashboard_manager",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산 기록.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_095_electricity_support_factcheck/opportunity.json"
-      ]
+      "reason": null,
+      "summary": "opportunity.json 상태를 tracking으로 전환하고 공개 URL/QA 자산 기록."
     },
     {
       "time": "2026-05-21T15:26:51+09:00",
-      "run_id": "2026-05-21_1514_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
       "decision": null,
-      "reason_code": null,
-      "summary": "2026 2학기 국가장학금 1차 신청 무료 검증 글 후보 발견.",
-      "links": [
-        "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=20890",
-        "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01&ttab1=1"
-      ]
+      "reason": null,
+      "summary": "2026 2학기 국가장학금 1차 신청 무료 검증 글 후보 발견."
     },
     {
       "time": "2026-05-21T15:26:51+09:00",
-      "run_id": "2026-05-21_1514_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 일정·마감·재학생 1차 원칙이 확인되어 attention 폭발 후보로 GO.",
-      "links": [
-        "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=20890",
-        "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01&ttab1=1"
-      ]
+      "reason": null,
+      "summary": "공식 일정·마감·재학생 1차 원칙이 확인되어 attention 폭발 후보로 GO."
     },
     {
       "time": "2026-05-21T15:26:51+09:00",
-      "run_id": "2026-05-21_1514_money-flow",
-      "agent": "planning_member",
+      "agent": "기획",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "evidence/plan/style/sample/image assets created.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/sample_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/style_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/image_plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/source_snapshot_20260521_national_scholarship.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/candidate_outcomes.json"
-      ]
+      "reason": null,
+      "summary": "evidence/plan/style/sample/image assets created."
     },
     {
       "time": "2026-05-21T15:26:51+09:00",
-      "run_id": "2026-05-21_1514_money-flow",
-      "agent": "planning_lead",
+      "agent": "기획 검수",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 88로 기획 통과. scout-only라 발행은 backlog lane으로 넘김.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/plan.md"
-      ]
+      "reason": null,
+      "summary": "품질 88로 기획 통과. scout-only라 발행은 backlog lane으로 넘김."
     },
     {
       "time": "2026-05-21T15:26:51+09:00",
-      "run_id": "2026-05-21_1514_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 순매출 0원, 검색 유입 가설로 추적.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/roi.md"
-      ]
+      "reason": null,
+      "summary": "직접 순매출 0원, 검색 유입 가설로 추적."
     },
     {
       "time": "2026-05-21T16:34:10+09:00",
-      "run_id": "2026-05-21_1624_money-flow-backlog",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260520_092_withholding_tax_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 통과: 원천세 다음달 10일·지방소득세 리스크가 있는 강한 후보.",
-      "links": [
-        "https://beemo.tistory.com/65"
-      ]
+      "reason": null,
+      "summary": "Attention/Cash Gate 재심사 통과: 원천세 다음달 10일·지방소득세 리스크가 있는 강한 후보."
     },
     {
       "time": "2026-05-21T16:34:10+09:00",
-      "run_id": "2026-05-21_1624_money-flow-backlog",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260520_092_withholding_tax_blog",
       "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 렌더/모바일/OG/홈 썸네일 QA 결과 파일 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/public_render_qa_20260521_1624_withholding_tax.json"
-      ]
+      "reason": null,
+      "summary": "공개 렌더/모바일/OG/홈 썸네일 QA 결과 파일 생성."
     },
     {
       "time": "2026-05-21T16:34:10+09:00",
-      "run_id": "2026-05-21_1624_money-flow-backlog",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260520_092_withholding_tax_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "세무 단정·이미지 폰트·렌더링 리스크 해소. Red Team hold 해제.",
-      "links": [
-        "https://beemo.tistory.com/65"
-      ]
+      "reason": null,
+      "summary": "세무 단정·이미지 폰트·렌더링 리스크 해소. Red Team hold 해제."
     },
     {
       "time": "2026-05-21T16:34:10+09:00",
-      "run_id": "2026-05-21_1624_money-flow-backlog",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260520_092_withholding_tax_blog",
       "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 순매출은 측정 전 0원으로 유지하고 무료 검색 유입 검증 자산으로 추적.",
-      "links": []
+      "reason": null,
+      "summary": "직접 순매출은 측정 전 0원으로 유지하고 무료 검색 유입 검증 자산으로 추적."
     },
     {
       "time": "2026-05-21T16:34:10+09:00",
-      "run_id": "2026-05-21_1624_money-flow-backlog",
-      "agent": "ledger_dashboard_manager",
+      "agent": "대시보드",
       "opportunity_id": "opp_20260520_092_withholding_tax_blog",
       "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "tracking",
       "decision": "GO",
-      "reason_code": null,
-      "summary": "원천세 무료 검증 글을 tracking으로 전환.",
-      "links": [
-        "https://beemo.tistory.com/65"
-      ]
+      "reason": null,
+      "summary": "원천세 무료 검증 글을 tracking으로 전환."
+    },
+    {
+      "time": "2026-05-21T18:50:05+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "event": "discovered",
+      "decision": null,
+      "reason": null,
+      "summary": "에너지바우처 5월 25일 사용기한 무료 검증 글 후보 발견."
+    },
+    {
+      "time": "2026-05-21T18:50:05+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "공식 사용기한·잔액조회 근거가 확인되어 attention 폭발 후보로 GO."
+    },
+    {
+      "time": "2026-05-21T18:50:05+09:00",
+      "agent": "기획",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": null,
+      "summary": "evidence/plan/style/sample/image assets created."
+    },
+    {
+      "time": "2026-05-21T18:50:05+09:00",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "품질 87로 기획 통과. scout-only라 제작/발행은 다음 lane."
+    },
+    {
+      "time": "2026-05-21T18:50:05+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": null,
+      "summary": "직접 순매출 0원, 검색 유입 가설로 추적."
     }
   ],
   "board_columns": [
@@ -3763,19 +3884,19 @@
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260515_003_changelog_bounty/changelog.sh"
         },
         {
-          "label": "SKILL.md",
+          "label": "Generate Changelog Skill",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/SKILL.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/SKILL.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260515_003_changelog_bounty/SKILL.md"
         },
         {
-          "label": "README.md",
+          "label": "Changelog Generator Bounty Submission Draft",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/README.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/README.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260515_003_changelog_bounty/README.md"
         },
         {
-          "label": "sample-output.md",
+          "label": "Changelog",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/sample-output.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/sample-output.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260515_003_changelog_bounty/sample-output.md"
@@ -13286,25 +13407,25 @@
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/owasp-blt-6186-delete-android16.patch"
         },
         {
-          "label": "research.md",
+          "label": "Research — OWASP BLT $1 deletion micro-bounty revival",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md"
         },
         {
-          "label": "plan.md",
+          "label": "Plan — OWASP BLT Android 16px logo deletion micro-bounty",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md"
         },
         {
-          "label": "decisions.md",
+          "label": "Decisions — OWASP BLT Android 16px micro-bounty",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md"
         },
         {
-          "label": "roi.md",
+          "label": "ROI — OWASP BLT $1 deletion micro-bounty",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
@@ -24634,14 +24755,13 @@
       "raw_status": "tracking",
       "column": "운영/수익",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
-        "무료 검증",
-        "판매 문구 없음",
-        "NEEDS_FACT_QA",
-        "NEEDS_IMAGE_QA",
-        "고위험"
+        "attention_gate_strong",
+        "카테고리 확인",
+        "fact_qa_passed",
+        "무료 검증"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -24649,17 +24769,17 @@
       "margin_pct": null,
       "expected_price": 0,
       "buyer_or_payer": "처음 알바비·프리랜서 외주비를 지급한 개인사업자/소상공인 독자",
-      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부",
+      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부 (public: https://beemo.tistory.com/65)",
       "current_owner": "수익성 검토",
       "owner": "수익성 검토",
       "next_action": "공개 글 조회/댓글/검색 유입을 추적합니다. 직접 수익 추정은 실제 유입·전환 데이터가 생긴 뒤에만 계산합니다.",
       "risk_flags": [
         "attention_gate_strong",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
-        "free_validation_only",
+        "무료 검증",
         "modern_gothic_image_qa_passed",
-        "no_sales_cta",
+        "판매 문구 없음",
         "og_thumbnail_verified",
         "public_render_qa_passed",
         "public_visual_qa_passed",
@@ -24740,6 +24860,38 @@
           "summary": "Direct revenue 0, low cost, reusable free-validation asset; accepted as strategic blog lane.",
           "agent_label": "수익성 검토",
           "reason_label": null
+        },
+        {
+          "time": "2026-05-21T16:34:10+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "summary": "Attention/Cash Gate 재심사: 다음달 10일 납부기한·지방소득세 누락 리스크가 있어 강한 후보. 현금성 bounty 대안보다 backlog 개선 가치가 높음.",
+          "agent_label": "시장성 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T16:34:10+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "summary": "공식 근거 재확인, modern Gothic PNG 3장 업로드, 카테고리 세금·장부, 공개/모바일/홈 썸네일 렌더 QA 통과.",
+          "agent_label": "제작 검수",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T16:34:10+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "summary": "세무 단정·이미지 폰트·OG/모바일 썸네일 리스크를 비단정 문구와 공개 렌더 QA로 해소.",
+          "agent_label": "리스크 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T16:34:10+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "summary": "직접 순매출은 측정 전 0원. 무료 검색 유입 검증 자산으로 tracking 전환.",
+          "agent_label": "수익성 검토",
+          "reason_label": null
         }
       ],
       "assets": [
@@ -24816,9 +24968,34 @@
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_092_withholding_tax_blog/candidate_outcomes.json"
         },
         {
-          "label": "Tistory 공개 글",
-          "url": "https://beemo.tistory.com/65",
-          "path": "https://beemo.tistory.com/65"
+          "label": "public_render_qa_20260521_1624_withholding_tax.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/public_render_qa_20260521_1624_withholding_tax.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260520_092_withholding_tax_blog/public_render_qa_20260521_1624_withholding_tax.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_092_withholding_tax_blog/public_render_qa_20260521_1624_withholding_tax.json"
+        },
+        {
+          "label": "65",
+          "path": "https://beemo.tistory.com/65",
+          "viewer": "artifacts/opp_20260520_092_withholding_tax_blog/65",
+          "url": "https://beemo.tistory.com/65"
+        },
+        {
+          "label": "01-withholding-tax-thumb-modern.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/01-withholding-tax-thumb-modern.png",
+          "viewer": "artifacts/opp_20260520_092_withholding_tax_blog/01-withholding-tax-thumb-modern.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_092_withholding_tax_blog/01-withholding-tax-thumb-modern.png"
+        },
+        {
+          "label": "02-withholding-tax-flow-modern.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/02-withholding-tax-flow-modern.png",
+          "viewer": "artifacts/opp_20260520_092_withholding_tax_blog/02-withholding-tax-flow-modern.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_092_withholding_tax_blog/02-withholding-tax-flow-modern.png"
+        },
+        {
+          "label": "03-withholding-tax-memo-modern.png",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/modern_fix_20260521/03-withholding-tax-memo-modern.png",
+          "viewer": "artifacts/opp_20260520_092_withholding_tax_blog/03-withholding-tax-memo-modern.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260520_092_withholding_tax_blog/03-withholding-tax-memo-modern.png"
         }
       ]
     },
@@ -26132,6 +26309,248 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json",
           "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json"
+        }
+      ]
+    },
+    {
+      "key": "MF-100",
+      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "id": "opp_20260521_097_energy_voucher_deadline_blog",
+      "title": "에너지바우처 5월 25일 전 잔액조회 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음"
+      ],
+      "quality": 87,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "에너지바우처 수급 가구, 가족 보호자, 복지 지원 검색 독자",
+      "channel": "Tistory 무료 검증 글 → 지원금/생활비 절감 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "backlog/execution lane: 공식 5/25 문구 재확인 후 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
+      "risk_flags": [
+        "폭발 후보",
+        "이목 수요 높음",
+        "무료 검증",
+        "판매 문구 없음",
+        "공식 마감 확인",
+        "반복 방지 확인",
+        "중복 위험 점검",
+        "이미지 제작 필요",
+        "렌더 QA 필요",
+        "카테고리 확인 필요"
+      ],
+      "stop_reason": null,
+      "evidence": [
+        {
+          "url": "https://www.energyv.or.kr/",
+          "grade": "A",
+          "summary": "에너지바우처 공식 홈페이지. 2025년도 사용기간과 2026년 5월 25일 동절기 사용기한 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/support_info.do",
+          "grade": "A",
+          "summary": "에너지바우처 안내 페이지. 사용기간 2025.7.1~2026.5.25 및 2025년도 총 지원금액 안내.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://www.energyv.or.kr/info/balance_inquiry.do",
+          "grade": "A",
+          "summary": "잔액조회 페이지. 잔액조회 가능기간과 요금차감 고지서 기준 확인.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://duckduckgo.com/html/?q=2026%20%EC%97%90%EB%84%88%EC%A7%80%EB%B0%94%EC%9A%B0%EC%B2%98%205%EC%9B%94%2025%EC%9D%BC%20%EC%9E%94%EC%95%A1%EC%A1%B0%ED%9A%8C",
+          "grade": "B",
+          "summary": "5월25일/잔액조회/소멸 전 검색 결과 다수. 검색 수요 신호로만 사용.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/",
+          "grade": "B",
+          "summary": "최근 공개글 5개와 반복 비교. 기존 전기요금 지원 종료 글과 제도 구분 필요.",
+          "checked_at": "2026-05-21T18:50:05+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5개 후보 비교 후 에너지바우처 5/25 사용기한을 최고 attention 후보로 선정.",
+          "agent_label": "리서치",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 사용기한·잔액조회 근거와 손실회피 클릭 동기 확인.",
+          "agent_label": "시장성 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "plan/evidence/style/sample/image assets 작성.",
+          "agent_label": "기획",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 87. 기존 전기요금 글과 제도 혼동 방지 문구 필수.",
+          "agent_label": "기획 검수",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 작업 scout-only 범위에서 planning package 완료. 제작/발행은 다음 lane.",
+          "agent_label": "제작",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "새 현금지원 단정·개인정보 입력 유도·제도 혼동만 차단하면 진행 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": null
+        },
+        {
+          "time": "2026-05-21T18:50:05+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익은 0원. 검색 유입 가설/전략 자산으로 추적.",
+          "agent_label": "수익성 검토",
+          "reason_label": null
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "title": "plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "title": "roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "title": "sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "title": "style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "title": "image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "title": "source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
+        }
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/plan.md"
+        },
+        {
+          "label": "Decisions — opp_20260521_097_energy_voucher_deadline_blog",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 에너지바우처 5월 25일 무료 검증 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/roi.md"
+        },
+        {
+          "label": "샘플 브리프 — 에너지바우처 5월 25일 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/sample_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/sample_brief.md"
+        },
+        {
+          "label": "스타일 브리프 — 에너지바우처 5월 25일",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/style_brief.md"
+        },
+        {
+          "label": "이미지 계획 — 에너지바우처 사용기한",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/image_plan.md"
+        },
+        {
+          "label": "source_snapshot_20260521_energy_voucher.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/source_snapshot_20260521_energy_voucher.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
+        },
+        {
+          "label": "후보 비교 결과",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
         }
       ]
     }
