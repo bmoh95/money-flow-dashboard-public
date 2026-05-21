@@ -1,58 +1,40 @@
 {
-  "updated_at": "2026-05-21T22:11:24+09:00",
+  "updated_at": "2026-05-21T23:41:35+09:00",
   "last_run": {
-    "run_id": "2026-05-21_2202_money-flow",
-    "started_at": "2026-05-21T22:02:00+09:00",
-    "finished_at": "2026-05-21T22:11:24+09:00",
+    "run_id": "2026-05-21_2332_money-flow",
+    "started_at": "2026-05-21T23:32:00+09:00",
+    "finished_at": "2026-05-21T23:41:35+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
-      "research_lead",
-      "planning_member",
-      "planning_lead",
+      "execution_member",
+      "execution_lead",
       "redteam",
       "roi",
-      "ledger"
+      "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 5,
-    "opportunities_advanced": 1,
-    "opportunities_rejected": 3,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 0,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/body_post34_published_payload.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/assets/01-silmido-remains-thumb.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/assets/02-silmido-timeline.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/assets/03-silmido-check-card.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/qa/browser_visual_qa_post34.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_2332_money-flow/post34_silmido_remains/qa/contact_sheet_visual_qa_post34.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_blog_full_inventory_1779349445/existing_post_quality_status.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "candidate": "bounty/direct-payout scout",
-        "decision": "NO-GO",
-        "reason_code": "NO_CHANNEL"
-      },
-      {
-        "candidate": "희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검",
+        "candidate": "existing_tistory_post_34",
         "decision": "GO",
         "reason_code": null,
-        "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline"
-      },
-      {
-        "candidate": "희망두배 신규 신청 5월29 루머",
-        "decision": "HOLD",
-        "reason_code": "NO_EVIDENCE"
-      },
-      {
-        "candidate": "종합소득세 5월31",
-        "decision": "NO-GO",
-        "reason_code": "OPPORTUNITY_COST"
-      },
-      {
-        "candidate": "민생회복/소비쿠폰 소문",
-        "decision": "NO-GO",
-        "reason_code": "NO_EVIDENCE"
+        "summary": "Existing public Tistory post upgraded and verified."
       }
     ],
-    "summary": "후보 5개 비교, 1개 GO 기획 패키지 생성: opp_20260521_098_seoul_youth_account_privacy_deadline",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO 기획 패키지 생성.\n- `opp_20260521_098_seoul_youth_account_privacy_deadline`: 희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검 글감 기획 완료.\n- 바운티/direct-payout gate는 10건 deep-preflight 후 GO/HOLD 0건으로 통과 후보 없음.\n\n**시장성 판단**\n- GO: 공식 5/31 마감, 기존 참가자의 주소·연락처·전출 조치라는 손실/권리 리스크가 있어 `폭발 후보`.\n- 보류/탈락: 신규 신청 5/29 글은 공식 근거 부족, 종합소득세는 기회비용/중복, 소비쿠폰은 근거 부족.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n- 검색 유입 가설/전략 자산으로만 기록.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음. scout-only라 외부 발행은 하지 않았습니다.\n"
+    "summary": "기존 Tistory post 34 본문/이미지/카테고리/출처/공개 렌더링 QA 완료.",
+    "final_report": "주인님, 기존 게시물 품질 개선 결과입니다.\n\n**완료**\n- post 34 `실미도 공작원 유해 발굴 재개` 본문 전면 개선 완료.\n- 기존 본문 백업, 공식/신뢰 출처 재확인, 현대 고딕 카드 이미지 3장 생성·업로드 완료.\n- 공개 URL 검증 완료: https://beemo.tistory.com/34\n- 완료 상태 파일 갱신: 완료 post `2, 3, 40, 34`.\n\n**실패**\n- 없음.\n\n**대기**\n- 다음 우선순위 후보: post 1 `환영합니다!`.\n"
   },
   "metrics": {
     "total": 101,
