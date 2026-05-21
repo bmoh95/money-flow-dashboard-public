@@ -55,7 +55,7 @@
       }
     ],
     "summary": "Created one high-attention free-validation blog opportunity for 2026 2학기 국가장학금 1차 신청; no bounty GO.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교 후 새 작업 1개 생성: `opp_20260521_096_national_scholarship_deadline_blog`.\n- 바운티 후보 13개 deep-preflight: GO 0개라 PR 자동제출 없음.\n- 새 후보: `2026 2학기 국가장학금 1차 신청` 무료 검증 글 기획 패키지 작성.\n- 바운티 skiplist 보강: false-positive/중복-heavy repo 3개 soft block.\n\n**시장성 판단**\n- GO: 한국장학재단 공식 공지 기준 5/22 신청 시작, 6/22 마감, 재학생 1차 원칙 확인.\n- Attention Gate: `폭발 후보` — 재학생/학부모가 “놓치면 손해인가?”를 바로 느낄 주제.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n- 무료 검색 유입 검증 자산으로만 추적합니다.\n\n**대기**\n- 대시보드 갱신: `/Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 다음 lane 작업: 초안·이미지 3장·Tistory 렌더/OG QA.\n\n**필요 승인**\n- 없음. 외부 게시/제출은 이번 scout에서 하지 않았습니다.\n"
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교 후 새 작업 1개 생성: `opp_20260521_096_national_scholarship_deadline_blog`.\n- 바운티 후보 13개 deep-preflight: GO 0개라 PR 자동제출 없음.\n- 새 후보: `2026 2학기 국가장학금 1차 신청` 무료 검증 글 기획 패키지 작성.\n- 바운티 skiplist 보강: false-positive/중복-heavy repo 3개 soft block.\n\n**시장성 판단**\n- GO: 한국장학재단 공식 공지 기준 5/22 신청 시작, 6/22 마감, 재학생 1차 원칙 확인.\n- Attention Gate: `폭발 후보` — 재학생/학부모가 “놓치면 손해인가?”를 바로 느낄 주제.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n- 무료 검색 유입 검증 자산으로만 추적합니다.\n\n**대기**\n- 대시보드 갱신/공개 미러 확인: `https://bmoh95.github.io/money-flow-dashboard-public/`\n- 다음 lane 작업: 초안·이미지 3장·Tistory 렌더/OG QA.\n\n**필요 승인**\n- 없음. 외부 게시/제출은 이번 scout에서 하지 않았습니다.\n"
   },
   "metrics": {
     "total": 99,
