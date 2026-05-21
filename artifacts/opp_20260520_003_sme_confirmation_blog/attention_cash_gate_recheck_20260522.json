@@ -1,0 +1,88 @@
+{
+  "checked_at": "2026-05-22T08:58:13+09:00",
+  "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
+  "cash_gate": {
+    "latest_bounty_run": "2026-05-22_0750_money-flow",
+    "raw_candidates": 79,
+    "deep_checked": 10,
+    "go_count": 0,
+    "hold_count": 0,
+    "warnings": [
+      "hard_blocked_share_too_high_retry_search"
+    ],
+    "decision": "no safe direct-cash alternative selected in this backlog run; do not revive UnsafeLabs/system-prompt-disclosure paths"
+  },
+  "attention_gate": {
+    "classification": "보류/버림",
+    "decision": "NO-GO for automatic Tistory publish/update",
+    "reason_code": "LOW_ATTENTION_DEMAND",
+    "scores": {
+      "visible_search_or_trend": 8,
+      "direct_money_loss_benefit": 11,
+      "imminent_deadline": 0,
+      "title_tension": 7,
+      "first_screen_practical_payoff": 10,
+      "non_repetition_current_fit": 4
+    },
+    "total": 40,
+    "summary": "공식 발급/제출 근거는 A급이나, 현재 확인된 공식 마감·혜택 소멸·정책 변화 신호가 없고 검색 결과도 발급방법/지원금 SEO성 롱테일 중심입니다. 직접 매출은 0원이며 최신 bounty lane도 safe GO/HOLD가 없지만, 이미 planning 상태의 실손24·에너지바우처·국가장학금 같은 고주의 후보보다 Attention/Cash 기대값이 낮아 자동 공개를 중단합니다."
+  },
+  "official_checks": [
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=14200000055",
+      "status": 200,
+      "content_type": "text/html;charset=euc-kr",
+      "title": "߼ұ һȮ û | οȳ û | 24",
+      "snippet": "--> jQuery.noConflict(); var gpki$ = jQuery; jQuery.noConflict(); var j$ = jQuery; --> var mobileYn_isHead=\"N\"; --> jQuery.noConflict(); var jquery$ = jQuery; --> /* input[type=text]{ime-mode:active;} */ .page-util .fa{vertical-align:middle;} /* input[type=text] {ime-mode:active;} */ .page-util .fa {vertical-align:middle;} .ui-datepicker-title select {width:44% !important;} .ui-dialog-titlebar-close{display:none;} .ui-widget-header {border:0;background:white} ߼ұ һȮ û | οȳ û | 24 --> --> .greetingWrap {overflow: hidden; position: relative; width: 100%; margin: 40px 0; padding: 25px 30px; border: 1px solid #d3d3d3; background: url(..//2018/img/mw/bg_minwon_greeting.png) no-repeat top right; ba"
+    },
+    {
+      "url": "https://sminfo.mss.go.kr/cm/sv/CSV001R0.do",
+      "status": 200,
+      "content_type": "text/html;charset=utf-8",
+      "title": "중소기업현황정보시스템",
+      "snippet": "중소기업현황정보시스템 --> --> function fnSubmit(url, cmMenuId, flag) { var frm = document.topFrm; frm.cmMenuId.value = cmMenuId; frm.method = \"post\"; frm.action = (flag ? \"https://sminfo.mss.go.kr\" : \"http://sminfo.mss.go.kr\") + url; frm.target = \"_self\"; frm.submit(); } function fnLeftSubmit_old(url, cmMenuId, selectMenuId, parMenuId) { //alert(\"url: \" + url + \"\\n\" + \"cmMenuId: \" + cmMenuId + \"\\n\" + \"selectMenuId: \" + selectMenuId + \"\\n\"); //return false; var frm = document.leftMenuFrm; frm.cmMenuId.value = cmMenuId; frm.selectMenuId.value = selectMenuId; frm.parMenuId.value = parMenuId; frm.method = \"post\"; frm.action = url; frm.target = \"_self\"; frm.submit(); } function fnLeftSubmit(url, cmMenuId, "
+    }
+  ],
+  "search_results": [
+    {
+      "title": "소상공인확인서 발급방법 2026 완벽정리 — 지원금 신청 전 5 ...",
+      "url": "https://blog.naver.com/poliflo/224288417686"
+    },
+    {
+      "title": "2026 소상공인확인서 발급, 모르면 지원금 못 받습니다 (초간단 ...",
+      "url": "https://knowgovinfo.com/2026-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C-%EB%B0%9C%EA%B8%89/"
+    },
+    {
+      "title": "2026 소상공인 도약지원사업 신청방법 총정리 (마감 5/6 연장! 최대 ...",
+      "url": "https://mystory73954.tistory.com/18"
+    },
+    {
+      "title": "sminfo.mss.go.kr",
+      "url": "https://sminfo.mss.go.kr/"
+    },
+    {
+      "title": "2026년 소상공인 확인서 발급 방법 및 조건: 지원금 신청 필수 ...",
+      "url": "https://valuepick.kr/money/2026-small-business-certificate-guide/"
+    },
+    {
+      "title": "소상공인확인서 발급방법 총정리｜신청·출력·유효기간·발급 ...",
+      "url": "https://www.jsrrsj.co.kr/2026/02/2026_10.html"
+    },
+    {
+      "title": "「2026년 소상공인 도약 지원 사업」 모집 공고",
+      "url": "https://www.bizinfo.go.kr/cmm/fms/fileDown.do?atchFileId=FILE_000000000749023&fileSn=0"
+    },
+    {
+      "title": "2026 소상공인 지원금 신청방법 총정리 | 대상 조회 안 하면 못 ...",
+      "url": "https://groundche.com/small-business-support-2026/"
+    },
+    {
+      "title": "소상공인확인서 발급 방법, 2026년 기준, 스마트상점 신청 기간 ...",
+      "url": "https://nice-info.com/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8%ED%99%95%EC%9D%B8%EC%84%9C-%EB%B0%9C%EA%B8%89-%EB%B0%A9%EB%B2%95-2026%EB%85%84-%EA%B8%B0%EC%A4%80-%EC%8A%A4%EB%A7%88%ED%8A%B8%EC%83%81%EC%A0%90-%EC%8B%A0/"
+    },
+    {
+      "title": "중소기업 (소상공인)확인서 | 발급 | 증명서 발급 | 중소벤처24",
+      "url": "https://www.smes.go.kr/main/pageApplyCertificateSme"
+    }
+  ]
+}

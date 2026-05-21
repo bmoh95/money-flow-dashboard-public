@@ -2,11 +2,11 @@
   "opportunity_id": "opp_20260520_003_sme_confirmation_blog",
   "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
   "type": "other",
-  "status": "redteam_hold",
+  "status": "planning_rejected",
   "created_at": "2026-05-20T02:03:15+09:00",
-  "updated_at": "2026-05-20T02:03:15+09:00",
+  "updated_at": "2026-05-22T08:58:13+09:00",
   "source_run_id": "2026-05-20_0154_money-flow",
-  "current_owner": "redteam",
+  "current_owner": "research_lead",
   "buyer_or_payer": "정책자금·지원사업·입점/계약 서류를 준비하는 개인사업자/소상공인",
   "channel": "Tistory 무료 검증 글 → 세금·장부/행정서류 콘텐츠군 내부링크·검색 유입",
   "evidence": [
@@ -39,29 +39,31 @@
     "expected_price": 0,
     "platform_fee_pct": 0,
     "conservative_units": 0,
-    "base_units": 1,
-    "optimistic_units": 3
+    "base_units": 0,
+    "optimistic_units": 0
   },
   "scores": {
     "quality": 88,
     "user_involvement": 0,
     "cash_distance": 4,
-    "payout_certainty": 2
+    "payout_certainty": 0
   },
   "margin": {
     "conservative_net": 0,
-    "base_net": 25000,
-    "optimistic_net": 75000,
-    "base_net_margin_pct": 100
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
   },
   "approval_required": false,
   "approval_reason": null,
   "risk_flags": [
+    "LOW_ATTENTION_DEMAND",
+    "OPPORTUNITY_COST",
     "free_validation_only",
-    "official_wording_recheck_required",
-    "image_generation_required",
-    "tistory_rendered_qa_required",
-    "anti_repetition_checked"
+    "long_tail_admin_topic",
+    "no_current_deadline",
+    "no_measured_revenue",
+    "do_not_auto_publish"
   ],
   "decision_history": [
     {
@@ -112,6 +114,27 @@
       "agent": "roi",
       "decision": "GO",
       "summary": "직접 매출은 0원이지만 행정서류 콘텐츠군의 낮은 비용 무료 검증 자산으로 기대값 양호."
+    },
+    {
+      "time": "2026-05-22T08:58:13+09:00",
+      "agent": "research_lead",
+      "decision": "NO-GO",
+      "reason_code": "LOW_ATTENTION_DEMAND",
+      "summary": "Attention/Cash Gate 재심사 결과 현재 자동 공개할 이목·마감·현금성 근거 부족."
+    },
+    {
+      "time": "2026-05-22T08:58:13+09:00",
+      "agent": "redteam",
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "routine 행정 롱테일 글로 이미지/Tistory QA 비용 대비 우선순위 낮음. 고주의 planning 후보가 더 적합."
+    },
+    {
+      "time": "2026-05-22T08:58:13+09:00",
+      "agent": "roi",
+      "decision": "NO-GO",
+      "reason_code": "LOW_ATTENTION_DEMAND",
+      "summary": "무료 글은 측정 전 순매출 0원으로 기록. 검색 유입 가설만으로 KRW 가치 환산 금지."
     }
   ],
   "assets": [
@@ -154,8 +177,18 @@
     {
       "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
       "title": "candidate_outcomes.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/attention_cash_gate_recheck_20260522.md",
+      "title": "Attention/Cash Gate 재심사",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_003_sme_confirmation_blog/attention_cash_gate_recheck_20260522.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/attention_cash_gate_recheck_20260522.json",
+      "title": "Attention/Cash Gate source snapshot",
+      "viewer": "viewer.html?file=artifacts/opp_20260520_003_sme_confirmation_blog/attention_cash_gate_recheck_20260522.json"
     }
   ],
-  "next_action": "Backlog job: 공식 발급처/유효기간 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환.",
-  "stop_reason_code": "HIGH_RISK"
+  "next_action": "자동 공개/이미지 제작 중단. 신규 공식 지원사업 마감·혜택 소멸·검색 급등 신호가 생기면 scout lane에서 새 후보로 재심사.",
+  "stop_reason_code": "LOW_ATTENTION_DEMAND"
 }
