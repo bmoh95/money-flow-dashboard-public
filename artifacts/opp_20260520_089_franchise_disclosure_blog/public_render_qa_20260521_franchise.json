@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-05-21T23:10:55+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "url": "https://beemo.tistory.com/69",
+  "mobile_url": "https://beemo.tistory.com/m/69",
+  "post_id": "69",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 12,
+  "upload_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FcrfogL%2FdJMcad27E4j%2FAAAAAAAAAAAAAAAAAAAAAEcdvaaM7snaOL9wclaS3rOo8rYrtPK9pHFrmGQcvZfd%2Fimg.png%3Fcredential%3D***%26expires%3D***%26allow_ip%3D%26allow_referer%3D%26signature%3D***",
+  "twitter_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FcrfogL%2FdJMcad27E4j%2FAAAAAAAAAAAAAAAAAAAAAEcdvaaM7snaOL9wclaS3rOo8rYrtPK9pHFrmGQcvZfd%2Fimg.png%3Fcredential%3D***%26expires%3D***%26allow_ip%3D%26allow_referer%3D%26signature%3D***",
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 48520,
+  "category_id": "1295940",
+  "category_name": "업종별 안내문/매장 운영·플레이스",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FcrfogL%2FdJMcad27E4j%2FAAAAAAAAAAAAAAAAAAAAAEcdvaaM7snaOL9wclaS3rOo8rYrtPK9pHFrmGQcvZfd%2Fimg.png%3Fcredential%3D***%26expires%3D***%26allow_ip%3D%26allow_referer%3D%26signature%3D***",
+    "body_len": 22532
+  },
+  "home_http": 200,
+  "home_title_found": true,
+  "home_thumb_hint": true,
+  "official_links_ok": true,
+  "snippet_hits": {
+    "14일": true,
+    "7일": true,
+    "인근가맹점 현황문서": true,
+    "이 글은 법률 자문이나 특정 브랜드 평가가 아닙니다": true
+  },
+  "forbidden_reader_artifacts": []
+}

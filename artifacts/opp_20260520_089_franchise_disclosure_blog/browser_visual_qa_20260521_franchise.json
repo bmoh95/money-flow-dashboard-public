@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-05-21T23:13:30+09:00",
+  "status": "PASS",
+  "opportunity_id": "opp_20260520_089_franchise_disclosure_blog",
+  "post_url": "https://beemo.tistory.com/69",
+  "mobile_url": "https://beemo.tistory.com/m/69",
+  "browser_visual_qa": {
+    "desktop_top": {
+      "status": "PASS",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_f7fea06ad0fb4cb3a0b3fb05f42ce389.png",
+      "note": "Title/category/first screen value, first card image, caption/heading spacing and no raw Markdown/work-note leakage passed."
+    },
+    "desktop_middle": {
+      "status": "PASS",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_b37f803b05634d7c9e902fc408bd3d59.png",
+      "note": "14-day flow card readable, no broken/collapsed image, spacing acceptable."
+    },
+    "desktop_lower": {
+      "status": "PASS",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_f472cd09319c4e3caab5603b60302903.png",
+      "note": "Checklist card, official links, warning box, lower article content passed."
+    },
+    "mobile": {
+      "status": "PASS_WITH_PLATFORM_BAR_NOTE",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_be79d24b790c4b92ab82f3760f9d4bc1.png",
+      "note": "Native Tistory floating UI can overlap the current frame, but the first card is readable when scrolled near top and users can scroll around it. Not an article HTML/CSS blocker."
+    },
+    "home_list_thumbnail": {
+      "status": "PASS",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_8ad2ee9a525a44e0b1189f6cb1fdcca6.png",
+      "note": "Homepage/list shows a real thumbnail, not a gray/default placeholder; crop acceptable."
+    }
+  },
+  "dom_image_gap_measurements": [
+    {
+      "i": 1,
+      "alt": "계약서보다 먼저 정보공개서 확인",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 675,
+      "renderedWidth": 740,
+      "renderedHeight": 416,
+      "img_to_caption_px": 7,
+      "caption_to_next_h2_px": 269,
+      "note": "다음 H2 사이에 요약 박스가 있어 직접 caption→H2 gap이 큼; 시각 QA 통과."
+    },
+    {
+      "i": 2,
+      "alt": "정보공개서 제공 후 14일 7일 흐름",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 675,
+      "renderedWidth": 740,
+      "renderedHeight": 416,
+      "img_to_caption_px": 7,
+      "caption_to_next_h2_px": 24
+    },
+    {
+      "i": 3,
+      "alt": "정보공개서 줄 긋기 비용 기간 상권 이력",
+      "complete": true,
+      "naturalWidth": 1200,
+      "naturalHeight": 675,
+      "renderedWidth": 740,
+      "renderedHeight": 416,
+      "img_to_caption_px": 7,
+      "caption_to_next_h2_px": 24
+    }
+  ],
+  "blocking_defects": []
+}

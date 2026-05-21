@@ -1,0 +1,24 @@
+{
+  "status": "PUBLISHED_VERIFIED",
+  "url": "https://beemo.tistory.com/69",
+  "post_id": "69",
+  "action": "created_new",
+  "thumbnail": "kage@crfogL/dJMcad27E4j/AAAAAAAAAAAAAAAAAAAAAEcdvaaM7snaOL9wclaS3rOo8rYrtPK9pHFrmGQcvZfd/img.png",
+  "category_id_requested": "1295940",
+  "category_name_requested": "매장 운영·플레이스",
+  "uploads": [
+    {
+      "filename": "img.png",
+      "key": "crfogL/dJMcad27E4j/AAAAAAAAAAAAAAAAAAAAAEcdvaaM7snaOL9wclaS3rOo8rYrtPK9pHFrmGQcvZfd"
+    },
+    {
+      "filename": "img.png",
+      "key": "r1cTU/dJMcahqZ6Os/AAAAAAAAAAAAAAAAAAAAANiYxaMNT1ag-xi-lfIpTsllOomgeTHXKGtgIM97g98W"
+    },
+    {
+      "filename": "img.png",
+      "key": "bU0AOz/dJMcahqZ6Ot/AAAAAAAAAAAAAAAAAAAAAKmPoHb_GmHWyJEWFEtdVrFGVfBhELkyz0w-7nFXz4Ok"
+    }
+  ],
+  "qa_file": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_089_franchise_disclosure_blog/assets/public_render_qa_20260521_franchise.json"
+}

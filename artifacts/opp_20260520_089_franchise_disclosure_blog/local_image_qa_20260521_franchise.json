@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-05-21T23:09:00+09:00",
+  "result": "PASS",
+  "method": "browser_vision contact sheet after correction",
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_089_franchise_disclosure_blog/assets/contact_sheet_franchise_disclosure.png",
+  "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_7c339e580fb245588c128419a4e15d23.png",
+  "notes": [
+    "All three images readable with clean modern Korean Gothic/sans typography.",
+    "No garbled/cropped Korean text, no collisions, comfortable internal spacing.",
+    "Distinct roles: thumbnail, 14-day flow, checklist."
+  ]
+}
