@@ -1,0 +1,170 @@
+{
+  "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
+  "title": "2026 2학기 국가장학금 1차 신청 재학생 마감 체크 무료 검증 글",
+  "type": "other",
+  "status": "planning",
+  "created_at": "2026-05-21T15:26:51+09:00",
+  "updated_at": "2026-05-21T15:26:51+09:00",
+  "source_run_id": "2026-05-21_1514_money-flow",
+  "current_owner": "planning_lead",
+  "buyer_or_payer": "2026년 2학기 국가장학금 신청 대상 대학 재학생·복학생·신입생 및 학부모",
+  "channel": "Tistory 무료 검증 글 → 돈관리·구매체크 검색 유입 실험",
+  "evidence": [
+    {
+      "url": "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=20890",
+      "grade": "A",
+      "summary": "한국장학재단 공지. 학생 신청 '26.5.22 09시~6.22 18시, 서류·가구원동의 '26.5.22~6.29, 재학생 1차 원칙 확인.",
+      "checked_at": "2026-05-21T15:26:51+09:00"
+    },
+    {
+      "url": "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01&ttab1=1",
+      "grade": "A",
+      "summary": "한국장학재단 국가장학금 I유형 페이지. 2026년 2학기 신청일정과 재학생 1차 원칙 확인.",
+      "checked_at": "2026-05-21T15:26:51+09:00"
+    },
+    {
+      "url": "https://duckduckgo.com/html/?q=2026%202%ED%95%99%EA%B8%B0%20%EA%B5%AD%EA%B0%80%EC%9E%A5%ED%95%99%EA%B8%88%201%EC%B0%A8%20%EC%8B%A0%EC%B2%AD%20%EA%B8%B0%EA%B0%84%20%EC%9E%AC%ED%95%99%EC%83%9D",
+      "grade": "B",
+      "summary": "신청기간/재학생 필수/6월22일 마감형 결과 다수 확인. 검색·클릭 수요 신호로만 사용.",
+      "checked_at": "2026-05-21T15:26:51+09:00"
+    },
+    {
+      "url": "https://beemo.tistory.com/",
+      "grade": "B",
+      "summary": "최근 공개글 5개와 구조 반복 비교. 이번 글은 날짜표+재학생 원칙 질문형으로 차별화 예정.",
+      "checked_at": "2026-05-21T15:26:51+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 88,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "ATTENTION_EXPLOSIVE_CANDIDATE",
+    "attention_gate_explosive",
+    "free_validation_only",
+    "no_sales_cta",
+    "anti_repetition_checked",
+    "official_deadline_verified",
+    "image_generation_required",
+    "tistory_rendered_qa_required",
+    "category_id_verify_required"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "4개 후보 비교 후 국가장학금 1차 신청을 최고 attention 후보로 선정."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 공식 일정과 재학생 1차 원칙, 검색 수요 확인."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "plan/evidence/style/sample/image assets 작성."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 88. 발행 전 공식 문구 재확인과 이미지/렌더 QA 필요."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "execution_member",
+      "decision": "HOLD",
+      "reason_code": null,
+      "summary": "새 작업 scout-only lane이라 외부 게시와 완성 제작은 이 lane에서 하지 않음."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "출시 전 지급액 보장·소득구간 단정·카테고리 오류만 차단하면 진행 가능."
+    },
+    {
+      "time": "2026-05-21T15:26:51+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익은 0원. 검색 유입 가설/전략 자산으로 추적."
+    }
+  ],
+  "assets": [
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/evidence.md",
+      "title": "evidence.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/evidence.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/plan.md",
+      "title": "plan.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/decisions.md",
+      "title": "decisions.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/decisions.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/roi.md",
+      "title": "roi.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/roi.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/sample_brief.md",
+      "title": "sample_brief.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/sample_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/style_brief.md",
+      "title": "style_brief.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/style_brief.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/image_plan.md",
+      "title": "image_plan.md",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/image_plan.md"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/source_snapshot_20260521_national_scholarship.json",
+      "title": "source_snapshot_20260521_national_scholarship.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/source_snapshot_20260521_national_scholarship.json"
+    },
+    {
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/candidate_outcomes.json",
+      "title": "candidate_outcomes.json",
+      "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json"
+    }
+  ],
+  "next_action": "backlog lane: 공식 문구 재확인 후 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
+  "stop_reason_code": null
+}

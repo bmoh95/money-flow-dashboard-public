@@ -1,0 +1,86 @@
+[
+  {
+    "candidate": "cash_bounty_direct_pr",
+    "type": "bounty",
+    "attention_or_cash_class": "direct_cash_checked",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "Bounty scout checked 13 candidates; GO 0, HOLD 1. Top pools were closed/duplicate/broad/crowded or lacked safe payout/acceptance route.",
+    "evidence": [
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_1514_money-flow/bounty_scout_summary.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_1514_money-flow/bounty_deep_preflight.json"
+    ]
+  },
+  {
+    "candidate": "2026_2학기_국가장학금_1차_재학생_마감_체크",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "폭발 후보",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "2026-05-19 공식 공지, 2026-05-22 신청 시작, 2026-06-22 신청 마감. 재학생 1차 원칙/구제 2회 제한으로 손익·권리 긴장감이 분명함.",
+    "evidence": [
+      "https://www.kosaf.go.kr/ko/notice.do?mode=view&seqNo=20890",
+      "https://www.kosaf.go.kr/ko/scholar.do?pg=scholarship05_12_01_01&ttab1=1"
+    ]
+  },
+  {
+    "candidate": "카드포인트_통합조회_현금화_공식경로_사칭주의",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "강한 후보",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "직접 돈/사칭 리스크가 있어 강하지만 신규 마감·정책 변화가 약해 이번 폭발 후보보다 낮음. 후속 evergreen 실험 후보로 보류.",
+    "evidence": [
+      {
+        "title": "여신금융협회 - crefia.or.kr",
+        "url": "https://gongsi.crefia.or.kr/portal/financialConInfo/cardPoint"
+      },
+      {
+        "title": "여신금융협회 카드포인트 통합조회 계좌입금",
+        "url": "http://www.cardpoint.or.kr/"
+      },
+      {
+        "title": "여신금융협회 카드포인트 현금화: 앱 없이 바로 계좌입금 받는 ...",
+        "url": "https://www.infotoday.kr/2026/05/Card-Point-Cash-Conversion-Guide-Instant-Bank-Transfer-Without-App.html"
+      },
+      {
+        "title": "카드포인트 통합조회 현금화: 3분 만에 계좌로 입금 받는 순서 ...",
+        "url": "https://kaokaloan.com/card-point-cash-back-guide-2026/"
+      },
+      {
+        "title": "여신금융협회 카드 포인트 통합 조회 입금 방법 : 네이버 블로그",
+        "url": "https://m.blog.naver.com/jjaara25/223911105593"
+      }
+    ]
+  },
+  {
+    "candidate": "2026_6월_자동차세_위택스_납부_연납_구분",
+    "type": "free_validation_blog",
+    "attention_or_cash_class": "강한 후보",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "6월 납부 시즌성은 있으나 세무/행정 루틴성이 크고 최근 포스트의 세금·지원금 구조와 겹침. 6월 중순 직전 재평가.",
+    "evidence": [
+      {
+        "title": "자동차세 6월 연납 신청 방법 | 6월 16~30일 위택스 절약 정리 (2026)",
+        "url": "https://life-guru-tip.com/car-tax-prepayment-june-2026/"
+      },
+      {
+        "title": "2026년 자동차세 연납 신청 방법과 위택스 납부 절차 정리 (연납 ...",
+        "url": "https://blog.naver.com/bigtiger001/224162320327"
+      },
+      {
+        "title": "자동차세 연납 vs 1기분 — 2026 할인 금액 계산법·6월 위택스 신청 ...",
+        "url": "https://officework-ai.tistory.com/entry/car-tax-2026-annual-payment-guide"
+      },
+      {
+        "title": "자동차세 연납 놓쳤다면…6월 정기분 전에 확인할 납부 방법",
+        "url": "https://www.christiandaily.co.kr/news/160073"
+      },
+      {
+        "title": "자동차세 납부 기간 및 할인 방법 2026 총정리 (연납 할인율·신청 ...",
+        "url": "https://infodrim.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8-%EB%82%A9%EB%B6%80-%EA%B8%B0%EA%B0%84-%EB%B0%8F-%ED%95%A0%EC%9D%B8-%EB%B0%A9%EB%B2%95-2026-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EC%97%B0%EB%82%A9-%ED%95%A0%EC%9D%B8%EC%9C%A8%C2%B7%EC%8B%A0%EC%B2%AD-%EC%A0%88%EC%B0%A8-4%EB%8B%A8%EA%B3%84%C2%B7%EC%9C%84%ED%83%9D%EC%8A%A4-%EB%82%A9%EB%B6%80%EA%B9%8C%EC%A7%80"
+      }
+    ]
+  }
+]
