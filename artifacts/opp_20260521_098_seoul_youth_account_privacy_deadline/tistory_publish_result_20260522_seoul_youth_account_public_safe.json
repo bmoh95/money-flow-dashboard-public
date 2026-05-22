@@ -1,0 +1,56 @@
+{
+  "checked_at": "2026-05-22T22:24:02+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "url_path": "https://beemo.tistory.com/75",
+  "post_id": "75",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 13,
+  "upload_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]%253D",
+  "twitter_image": "",
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 58211,
+  "category_id": "1295941",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]%253D"
+  },
+  "home_title_found": false,
+  "home_thumb_hint": true,
+  "official_links_found": true,
+  "forbidden_work_notes": false,
+  "action": "created_new",
+  "thumbnail": "kage@bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png",
+  "category_id_requested": "1295941",
+  "category_name_requested": "돈관리·구매체크",
+  "uploads": [
+    {
+      "name": "01-seoul-account-privacy-deadline-thumb.png",
+      "url_path": "https://blog.kakaocdn.net/dna/bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "key": "bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB",
+      "filename": "img.png",
+      "size": 86662
+    },
+    {
+      "name": "02-seoul-account-privacy-branch.png",
+      "url_path": "https://blog.kakaocdn.net/dna/c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "key": "c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W",
+      "filename": "img.png",
+      "size": 127340
+    },
+    {
+      "name": "03-seoul-account-privacy-action-check.png",
+      "url_path": "https://blog.kakaocdn.net/dna/vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "key": "vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-",
+      "filename": "img.png",
+      "size": 132682
+    }
+  ],
+  "public_url": "https://beemo.tistory.com/75",
+  "og_image_status": "non_default_thumbnail_verified"
+}

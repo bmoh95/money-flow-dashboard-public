@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-05-22T22:29:00+09:00",
+  "status": "PUBLIC_RENDER_QA_PASSED",
+  "public_url": "https://beemo.tistory.com/75",
+  "desktop_cycles": [
+    {
+      "cycle": 1,
+      "status": "PASS",
+      "summary": "First-screen value, title/category, first card image readability, caption spacing, raw-markdown absence passed.",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_ff2f156afa7d42dba20e57a3af4be570.png"
+    },
+    {
+      "cycle": 2,
+      "status": "PASS",
+      "summary": "Second card/table and third action-card/list sections passed rendered vision QA; no cropped/garbled Korean or spacing blockers.",
+      "screenshot_paths": [
+        "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_a7926d4cf5c24e18b24ea82da2c499eb.png",
+        "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_28878a36aa5e4ee3bdd47caf3b918ff1.png"
+      ]
+    }
+  ],
+  "dom_checks": {
+    "figure_count": 3,
+    "image_count": 3,
+    "images_complete": true,
+    "natural_dimensions_ok": true,
+    "desktop_gaps_px": [
+      {"figure": 1, "img_to_caption": 7, "caption_to_next": 24, "naturalWidth": 1200, "naturalHeight": 675},
+      {"figure": 2, "img_to_caption": 7, "caption_to_next": 24, "naturalWidth": 1200, "naturalHeight": 675},
+      {"figure": 3, "img_to_caption": 7, "caption_to_next": 20, "naturalWidth": 1200, "naturalHeight": 675}
+    ],
+    "category": "돈관리·구매체크",
+    "source_link_count": 3,
+    "raw_markdown_or_work_notes": false,
+    "og_image_default_placeholder": false
+  },
+  "mobile_qa": {
+    "status": "PASS",
+    "summary": "Initial vision flagged native Tistory action bar overlap, but centered-scroll recheck and DOM checks confirmed images are loaded/readable and overlay is platform behavior that can be scrolled around, not a content blocker.",
+    "initial_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_0b9605078e6b486fa30bdfb16d81c876.png",
+    "centered_recheck_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_958e8acd0f9f45adb39e5cc359bb90ac.png",
+    "image_count": 3,
+    "source_link_count": 3,
+    "raw_markdown_or_work_notes": false,
+    "og_image_default_placeholder": false
+  },
+  "blocking_defects": []
+}

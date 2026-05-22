@@ -1,183 +1,54 @@
 {
-  "updated_at": "2026-05-22T21:28:01+09:00",
+  "updated_at": "2026-05-22T22:30:19+09:00",
   "last_run": {
-    "run_id": "2026-05-22_2115_money-flow",
-    "started_at": "2026-05-22T21:15:00+09:00",
-    "finished_at": "2026-05-22T21:28:01+09:00",
+    "run_id": "2026-05-22_2216_money-flow",
+    "started_at": "2026-05-22T22:16:26+09:00",
+    "finished_at": "2026-05-22T22:30:19+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
       "research_lead",
-      "planning_member",
-      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 4,
-    "opportunities_advanced": 0,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/candidate_outcomes.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/filter_report.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/benefit_source_snapshots.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/scripts/bounty_candidate_filter.py",
-      "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/skiplist.json",
-      "skill:money-flow"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/body_tistory_ready.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/01-seoul-account-privacy-deadline-thumb.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/02-seoul-account-privacy-branch.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/03-seoul-account-privacy-action-check.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/public_render_qa_20260522_seoul_youth_account.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "research_lead",
-        "decision": "NO-GO",
-        "reason_code": "PAYMENT_UNCLEAR",
-        "summary": "Bounty scout filter produced 0 rescue candidates after PR exclusion."
-      },
-      {
-        "agent": "research_lead",
-        "decision": "HOLD",
-        "reason_code": "OPPORTUNITY_COST",
-        "summary": "Best blog candidate had A-grade source but weak immediate deadline and lower priority than active backlog."
-      },
-      {
-        "agent": "ledger_dashboard_manager",
+        "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
         "decision": "GO",
-        "reason_code": null,
-        "summary": "Patched bounty filter and skiplist to reduce future false positives."
+        "summary": "Attention/Cash Gate 통과: 기존 참가자 5/31 개인정보 점검 마감."
       },
       {
-        "agent": "ledger_dashboard_manager",
+        "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
         "decision": "GO",
-        "reason_code": null,
-        "summary": "money-flow skill patched with GitHub Search PR-exclusion bounty pitfall."
+        "summary": "Tistory 공개 발행 및 공개 렌더 QA 통과."
       }
     ],
-    "summary": "No new high-quality opportunity created; bounty filter/skiplist improved.",
-    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교, 새 opportunity는 만들지 않았습니다.\n- 바운티 필터가 PR을 rescue 후보로 잘못 살리는 문제를 고쳐 `pull_request`/`/pull/` 항목을 제외했습니다.\n- 실제 보상 없는 Opire boilerplate repo `amdiazzz/basketui`는 skiplist에 soft-block 추가했습니다.\n- `money-flow` 스킬에도 GitHub Search API의 PR 혼입 주의 규칙을 반영했습니다.\n\n**시장성 판단**\n- 현금성 bounty: 49개 재필터링 결과 GO/HOLD 0개.\n- 블로그 후보: 한전 고효율가전은 A급 근거는 있으나 임박 손실 훅이 약해 기존 active 후보보다 우선하지 않습니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n\n**대기**\n- 대시보드 갱신·공개 미러 확인 완료: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음.\n"
+    "summary": "희망두배·꿈나래통장 기존 참가자 5/31 개인정보 점검 글을 Tistory에 공개하고 tracking 전환.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260521_098_seoul_youth_account_privacy_deadline` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/75\n- 공식 소스 재확인, PNG 3장, 공개 렌더 QA 2회, 모바일/카테고리/썸네일 확인 완료.\n\n**시장성 판단**\n- GO: 5월31 공식 마감과 주소·연락처·전출 확인이 있는 기존 참가자 손실회피형 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 105,
-    "active": 5,
+    "active": 4,
     "approval_needed": 1,
-    "launched": 44,
+    "launched": 45,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 56
   },
   "active_opportunities": [
-    {
-      "id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
-      "key": "MF-098",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검",
-      "type": "기타",
-      "owner": "기획",
-      "buyer_or_payer": "기존 희망두배청년통장·꿈나래통장 참가자(검색 독자)",
-      "channel": "Tistory free-validation blog planning backlog",
-      "quality": 95,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog/execution lane에서 원고+3장 카드 이미지를 제작하고 Tistory quality gate 후 발행. 신규 신청 마감으로 오해되지 않게 첫 화면에 기존 참가자용 공지라고 명시.",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "검토 메모"
-      ],
-      "evidence": [
-        {
-          "url": "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834",
-          "grade": "A",
-          "summary": "공식 참가자 개인정보 자율점검 및 조치안내, 기간 ~2026.5.31.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        },
-        {
-          "url": "https://news.seoul.go.kr/welfare/archives/48102",
-          "grade": "A",
-          "summary": "희망두배 청년통장 공식 사업 페이지. 신규 신청기간은 6월 중 예정, 2년 720만원/3년 1080만원.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        },
-        {
-          "url": "https://news.seoul.go.kr/welfare/archives/798",
-          "grade": "A",
-          "summary": "꿈나래통장 공식 사업 페이지. 2026년 신청기간 6월 중 예정.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "공식 5/31 마감 참가자 공지를 발견. 기존 참가자 주소/연락처/전출 확인이라는 직접 리스크."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "A급 공식 근거와 attention gate 폭발 후보. 신규 신청 루머와 구분하면 안전."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "품질 95/100. 질문 3개 구조와 공식 링크 중심으로 차별화."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "오해 리스크는 제목/첫문단에서 기존 참가자용임을 명시하면 해소 가능."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "검색 유입 가설/전략 자산. 실제 순마진은 0원으로 기록."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md",
-          "title": "기획안",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md",
-          "title": "근거 메모",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md",
-          "title": "결정 로그",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md",
-          "title": "ROI 메모",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json",
-          "title": "샘플링·스타일 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json"
-        }
-      ],
-      "approval_required": false
-    },
     {
       "id": "opp_20260522_099_silson24_claim_check_blog",
       "key": "MF-099",
@@ -211,11 +82,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "검토 메모",
-        "반복 검수 완료",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -391,6 +258,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 마감",
         "검토 메모"
       ],
       "evidence": [
@@ -637,10 +505,7 @@
         "무료 검증",
         "공식 마감 확인",
         "판매문구 없음",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요",
-        "반복 검수 완료"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -983,117 +848,6 @@
   ],
   "priority_queue": [
     {
-      "id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
-      "key": "MF-098",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검",
-      "type": "기타",
-      "owner": "기획",
-      "buyer_or_payer": "기존 희망두배청년통장·꿈나래통장 참가자(검색 독자)",
-      "channel": "Tistory free-validation blog planning backlog",
-      "quality": 95,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog/execution lane에서 원고+3장 카드 이미지를 제작하고 Tistory quality gate 후 발행. 신규 신청 마감으로 오해되지 않게 첫 화면에 기존 참가자용 공지라고 명시.",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "검토 메모"
-      ],
-      "evidence": [
-        {
-          "url": "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834",
-          "grade": "A",
-          "summary": "공식 참가자 개인정보 자율점검 및 조치안내, 기간 ~2026.5.31.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        },
-        {
-          "url": "https://news.seoul.go.kr/welfare/archives/48102",
-          "grade": "A",
-          "summary": "희망두배 청년통장 공식 사업 페이지. 신규 신청기간은 6월 중 예정, 2년 720만원/3년 1080만원.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        },
-        {
-          "url": "https://news.seoul.go.kr/welfare/archives/798",
-          "grade": "A",
-          "summary": "꿈나래통장 공식 사업 페이지. 2026년 신청기간 6월 중 예정.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "공식 5/31 마감 참가자 공지를 발견. 기존 참가자 주소/연락처/전출 확인이라는 직접 리스크."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "A급 공식 근거와 attention gate 폭발 후보. 신규 신청 루머와 구분하면 안전."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "품질 95/100. 질문 3개 구조와 공식 링크 중심으로 차별화."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "오해 리스크는 제목/첫문단에서 기존 참가자용임을 명시하면 해소 가능."
-        },
-        {
-          "time": "2026-05-21T22:11:24+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "검색 유입 가설/전략 자산. 실제 순마진은 0원으로 기록."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md",
-          "title": "기획안",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md",
-          "title": "근거 메모",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md",
-          "title": "결정 로그",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/decisions.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md",
-          "title": "ROI 메모",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/roi.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json",
-          "title": "샘플링·스타일 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
       "id": "opp_20260522_100_high_oil_support_blog",
       "key": "MF-100",
       "raw_status": "planning",
@@ -1119,6 +873,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 마감",
         "검토 메모"
       ],
       "evidence": [
@@ -1246,10 +1001,7 @@
         "무료 검증",
         "공식 마감 확인",
         "판매문구 없음",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요",
-        "반복 검수 완료"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -1382,11 +1134,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "검토 메모",
-        "반복 검수 완료",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -1671,97 +1419,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-22T12:11:19+09:00",
-      "run_id": "2026-05-22_1206_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "planning_rejected",
-      "decision": "NO-GO",
-      "reason_code": "LOW_ATTENTION_DEMAND",
-      "summary": "무료 콘텐츠 예상 순매출을 0원으로 정정하고 KRW 검색가치 환산 제거.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/roi.md"
-      ]
-    },
-    {
-      "time": "2026-05-22T12:11:19+09:00",
-      "run_id": "2026-05-22_1206_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-      "event": "status_changed",
-      "from_status": "redteam_hold",
-      "to_status": "planning_rejected",
-      "decision": "NO-GO",
-      "reason_code": "LOW_ATTENTION_DEMAND",
-      "summary": "저이목 장기 롱테일 후보를 active backlog에서 제거.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/opportunity.json"
-      ]
-    },
-    {
-      "time": "2026-05-22T12:11:19+09:00",
-      "run_id": "2026-05-22_1206_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-      "event": "asset_created",
-      "from_status": "planning_rejected",
-      "to_status": "planning_rejected",
-      "decision": null,
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 문서와 source snapshot 저장.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/attention_cash_gate_recheck_20260522_biz_registration.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/attention_cash_gate_recheck_20260522_biz_registration.json"
-      ]
-    },
-    {
-      "time": "2026-05-22T12:16:23+09:00",
-      "run_id": "2026-05-22_1206_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": null,
-      "reason_code": null,
-      "summary": "Patched money-flow skill: public mirror pushes must scan/sanitize existing dashboard/stage artifacts for raw or percent-encoded signed Tistory/Kakao URL query params before git push.",
-      "links": [
-        "skill:money-flow"
-      ]
-    },
-    {
-      "time": "2026-05-22T12:51:46+09:00",
-      "run_id": "2026-05-22_1218_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": "quality_backlog",
-      "to_status": "public_update_prepared",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "post 46 기존 본문 백업, 신뢰 출처 재확인, 독자용 HTML 및 Apple SD Gothic Neo 카드 이미지 3장 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar"
-      ]
-    },
-    {
-      "time": "2026-05-22T12:51:46+09:00",
-      "run_id": "2026-05-22_1218_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": null,
-      "event": "launched",
-      "from_status": "public_update_prepared",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "post 46 Tistory 업데이트 및 공개 URL 3-cycle HTTP QA 통과.",
-      "links": [
-        "https://beemo.tistory.com/46"
-      ]
-    },
     {
       "time": "2026-05-22T12:51:46+09:00",
       "run_id": "2026-05-22_1218_money-flow",
@@ -2270,6 +1927,96 @@
       "summary": "money-flow skill patched: GitHub Search API /search/issues returns PRs, so bounty filters must exclude pull_request metadata and /pull/ URLs.",
       "links": [
         "skill:money-flow"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사: 5/31 공식 마감·기존 참가자 주소/연락처/전출 조치로 폭발 후보 유지.",
+      "links": [
+        "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "본문 HTML과 1200x675 Pretendard PNG 3장 생성, Tistory 공개 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/75"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 2회, 모바일 재검증, categoryId 1295941, OG/이미지 3장/공식 링크 확인.",
+      "links": [
+        "https://beemo.tistory.com/75"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "신규 신청 마감 오해·중도해지 단정·매칭지원금 보장 표현 없음. 판매 CTA 없음.",
+      "links": [
+        "https://beemo.tistory.com/75"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
+      "links": [
+        "https://beemo.tistory.com/75"
+      ]
+    },
+    {
+      "time": "2026-05-22T22:30:19+09:00",
+      "run_id": "2026-05-22_2216_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+      "event": "status_changed",
+      "from_status": "planning",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
+      "links": [
+        "https://beemo.tistory.com/75"
       ]
     }
   ],
@@ -6474,8 +6221,7 @@
         "published_free_validation"
       ],
       "risk_labels": [
-        "검토 메모",
-        "판매문구 없음"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -6712,7 +6458,6 @@
         "card_collision_qa_required_added"
       ],
       "risk_labels": [
-        "판매문구 없음",
         "검토 메모",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -11754,9 +11499,8 @@
       ],
       "risk_labels": [
         "무료 검증",
-        "판매문구 없음",
-        "공식 링크 포함",
         "검토 메모",
+        "공식 링크 포함",
         "공개 URL 확인",
         "시각 QA 통과",
         "카테고리 확인",
@@ -19596,7 +19340,6 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "반복 검수 완료",
         "판매문구 없음",
         "Tistory 게시 확인",
         "공개 URL 확인",
@@ -20815,14 +20558,11 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "반복 검수 완료",
-        "카테고리 확인",
         "검토 메모",
+        "카테고리 확인",
         "무료 검증",
-        "이미지 필요",
         "판매문구 없음",
         "출처 링크 확인",
-        "렌더 QA 필요",
         "PNG 썸네일 확인"
       ],
       "evidence": [
@@ -21093,11 +20833,8 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "반복 검수 완료",
+        "검토 메모",
         "공식 마감 확인",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -21400,11 +21137,7 @@
         "무료 검증",
         "판매문구 없음",
         "공식 마감 확인",
-        "반복 검수 완료",
         "검토 메모",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -21653,40 +21386,62 @@
     {
       "id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "key": "MF-098",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검",
+      "raw_status": "tracking",
+      "status": "운영/추적",
+      "column": "운영/수익",
+      "title": "희망두배·꿈나래통장 참가자, 5월31 전에 주소 바뀐 적 있으면 꼭 보세요",
       "type": "기타",
-      "owner": "기획",
+      "owner": "수익성 검토",
       "buyer_or_payer": "기존 희망두배청년통장·꿈나래통장 참가자(검색 독자)",
-      "channel": "Tistory free-validation blog planning backlog",
-      "quality": 95,
+      "channel": "Tistory 무료 검증 글 → 기존 참가자 5/31 개인정보 점검 검색 유입 실험",
+      "quality": 93,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "backlog/execution lane에서 원고+3장 카드 이미지를 제작하고 Tistory quality gate 후 발행. 신규 신청 마감으로 오해되지 않게 첫 화면에 기존 참가자용 공지라고 명시.",
+      "next_action": "공개글 검색 유입/반응 추적. 5월 31일 점검 기한 이후 stale 여부와 신규 모집 공고 여부 재검토.",
       "stop_reason": "",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE"
+        "OFFICIAL_DEADLINE",
+        "official_deadline_verified",
+        "tistory_published_verified",
+        "public_url_verified",
+        "public_visual_qa_passed",
+        "category_verified",
+        "uploaded_png_thumbnail_verified",
+        "source_links_verified",
+        "mobile_public_qa_passed",
+        "anti_repetition_passed",
+        "no_paid_cta",
+        "official_source_links_included"
       ],
       "risk_labels": [
         "폭발 후보",
-        "검토 메모"
+        "공식 마감",
+        "공식 마감 확인",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "모바일 QA 통과",
+        "반복 검수 통과",
+        "검토 메모",
+        "공식 링크 포함"
       ],
       "evidence": [
         {
           "url": "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834",
           "grade": "A",
           "summary": "공식 참가자 개인정보 자율점검 및 조치안내, 기간 ~2026.5.31.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
+          "checked_at": "2026-05-22T22:30:19+09:00"
         },
         {
           "url": "https://news.seoul.go.kr/welfare/archives/48102",
           "grade": "A",
-          "summary": "희망두배 청년통장 공식 사업 페이지. 신규 신청기간은 6월 중 예정, 2년 720만원/3년 1080만원.",
-          "checked_at": "2026-05-21T22:11:24+09:00"
+          "summary": "이전 배경 링크는 재확인 시 약하게 응답해 본문 근거에서 제외. 공식 자산형성지원사업 페이지로 대체.",
+          "checked_at": "2026-05-22T22:30:19+09:00"
         },
         {
           "url": "https://news.seoul.go.kr/welfare/archives/798",
@@ -21725,6 +21480,41 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "검색 유입 가설/전략 자산. 실제 순마진은 0원으로 기록."
+        },
+        {
+          "time": "2026-05-22T22:30:19+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Attention/Cash Gate 재심사 통과: 5/31 공식 마감, 기존 참가자 주소/연락처/전출 조치로 폭발 후보 유지."
+        },
+        {
+          "time": "2026-05-22T22:30:19+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 소스 재확인, 본문 HTML, Pretendard PNG 3장 생성, Tistory 공개 발행 완료."
+        },
+        {
+          "time": "2026-05-22T22:30:19+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 렌더 QA 2회, 모바일 재검증, categoryId 1295941, 이미지 3장/OG/공식 링크 확인."
+        },
+        {
+          "time": "2026-05-22T22:30:19+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신규 신청 마감 오해, 중도해지 단정, 매칭지원금 보장 표현을 차단. 판매 CTA 없음."
+        },
+        {
+          "time": "2026-05-22T22:30:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -21757,6 +21547,96 @@
           "title": "샘플링·스타일 브리프",
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json",
           "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/sample_brief.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/title.txt",
+          "title": "Tistory title",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/title.txt",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/title.txt"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/tags.txt",
+          "title": "Tistory tags",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/tags.txt",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/tags.txt"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/style_brief.md",
+          "title": "style_brief.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/style_brief.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/style_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/image_plan.md",
+          "title": "image_plan.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/image_plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/image_plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/draft.md",
+          "title": "draft.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/draft.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/body_tistory_ready.html",
+          "title": "body_tistory_ready.html",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/body_tistory_ready.html",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/body_tistory_ready.html"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/01-seoul-account-privacy-deadline-thumb.png",
+          "title": "대표 이미지 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/01-seoul-account-privacy-deadline-thumb.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/01-seoul-account-privacy-deadline-thumb.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/02-seoul-account-privacy-branch.png",
+          "title": "갈림길 카드 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/02-seoul-account-privacy-branch.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/02-seoul-account-privacy-branch.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/03-seoul-account-privacy-action-check.png",
+          "title": "확인 메뉴 카드 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/03-seoul-account-privacy-action-check.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/03-seoul-account-privacy-action-check.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/seoul_youth_account_contact_sheet.jpg",
+          "title": "이미지 contact sheet",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/seoul_youth_account_contact_sheet.jpg",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/seoul_youth_account_contact_sheet.jpg"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/image_local_qa_20260522_seoul_youth_account.json",
+          "title": "image_local_qa.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/image_local_qa_20260522_seoul_youth_account.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/image_local_qa_20260522_seoul_youth_account.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/source_recheck_20260522_seoul_youth_account.json",
+          "title": "source_recheck.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/source_recheck_20260522_seoul_youth_account.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/source_recheck_20260522_seoul_youth_account.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/tistory_publish_result_20260522_seoul_youth_account_public_safe.json",
+          "title": "Tistory publish result (safe)",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/tistory_publish_result_20260522_seoul_youth_account_public_safe.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/tistory_publish_result_20260522_seoul_youth_account_public_safe.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/public_render_qa_20260522_seoul_youth_account.json",
+          "title": "public_render_qa.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/public_render_qa_20260522_seoul_youth_account.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260521_098_seoul_youth_account_privacy_deadline/public_render_qa_20260522_seoul_youth_account.json"
+        },
+        {
+          "path": "https://beemo.tistory.com/75",
+          "title": "Tistory public post",
+          "url": "https://beemo.tistory.com/75",
+          "viewer": "https://beemo.tistory.com/75"
         }
       ],
       "approval_required": false
@@ -21794,11 +21674,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "검토 메모",
-        "반복 검수 완료",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -21974,6 +21850,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 마감",
         "검토 메모"
       ],
       "evidence": [
@@ -22220,10 +22097,7 @@
         "무료 검증",
         "공식 마감 확인",
         "판매문구 없음",
-        "이미지 필요",
-        "렌더 QA 필요",
-        "카테고리 확인 필요",
-        "반복 검수 완료"
+        "검토 메모"
       ],
       "evidence": [
         {

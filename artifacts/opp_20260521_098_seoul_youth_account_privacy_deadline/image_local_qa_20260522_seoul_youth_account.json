@@ -1,0 +1,43 @@
+{
+  "checked_at": "2026-05-22T22:23:10+09:00",
+  "font": "Pretendard OTF: Regular/Medium/SemiBold/Bold",
+  "files": [
+    {
+      "file": "01-seoul-account-privacy-deadline-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 86662
+    },
+    {
+      "file": "02-seoul-account-privacy-branch.png",
+      "width": 1200,
+      "height": 675,
+      "size": 127340
+    },
+    {
+      "file": "03-seoul-account-privacy-action-check.png",
+      "width": 1200,
+      "height": 675,
+      "size": 132682
+    },
+    {
+      "file": "seoul_youth_account_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 83077
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate 2-3 line Korean breaks",
+    "short eyebrow divider only",
+    "footer clearance >16px",
+    "thumbnail/explainer/action-card jobs distinct"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/seoul_youth_account_contact_sheet.jpg",
+  "browser_vision_contact_sheet": {
+    "status": "PASS",
+    "summary": "All 3 cards use clean modern Gothic/sans Korean text; no cropped/garbled Korean, no title/list/footer collisions, roles are distinct. Minor note: contact-sheet filename labels cropped, card content unaffected.",
+    "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_d5545ad8230c4c84839846de145bbdbe.png"
+  }
+}
