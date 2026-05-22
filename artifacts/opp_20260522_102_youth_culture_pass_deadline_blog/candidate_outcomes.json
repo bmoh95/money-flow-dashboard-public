@@ -1,0 +1,36 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt/Opire/Polar micro bounty 재검색",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL/DUPLICATE/HIGH_RISK",
+    "evidence_grade": "A",
+    "summary": "동일 run의 bounty gate가 15개 raw/retry 파일을 수집하고 10개 deep preflight를 수행했으나 GO/HOLD 0개. 닫힘·잠김·아카이브·경쟁 PR·과도한 범위가 반복됨.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1755_money-flow/bounty_deep_preflight.json"
+  },
+  {
+    "candidate": "2026 청년문화예술패스 6월 30 발급 마감 체크 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "evidence_grade": "A/B",
+    "summary": "문체부 공식 보도자료가 2.25~6.30 발급, 2006~2007년생, 최대 20만원, 7.31 첫 사용 없으면 8.1부터 사용 불가를 명시. 검색 결과에 신청방법/사용처 글 다수.",
+    "attention_classification": "폭발 후보"
+  },
+  {
+    "candidate": "카드포인트 통합조회/계좌입금 글",
+    "type": "free_validation_blog",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A/B",
+    "summary": "여신금융협회 공식 채널과 검색 수요는 있으나 현재 마감·정책 변화가 약해 이번 슬롯에서는 6/30 청년문화예술패스보다 클릭 긴장감이 낮음."
+  },
+  {
+    "candidate": "서울 청년월세지원 결과/이의신청 후속 글",
+    "type": "free_validation_blog",
+    "decision": "NO-GO",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A/B",
+    "summary": "서울 청년월세 신규 신청은 직전 scout에서 5/19 종료로 확인. 후속 결과/이의신청 수요는 있으나 새 작업 생성 후보로는 청년문화예술패스보다 약함."
+  }
+]
