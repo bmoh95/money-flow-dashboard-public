@@ -1,0 +1,135 @@
+{
+  "samples": [
+    {
+      "pattern": "공식 공지 제목 그대로 + 마감일 표시",
+      "title": "[중요] 꿈나래통장/희망두배청년통장 참가자 개인정보 자율점검 및 조치안내(~5/31)",
+      "url": "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834",
+      "takeaway": "공식 제목은 길지만 마감일과 대상이 선명함. 블로그 제목은 참가자에게 더 직접적으로 줄여야 함."
+    },
+    {
+      "pattern": "정책 설명형",
+      "title": "희망두배 청년통장",
+      "url": "https://news.seoul.go.kr/welfare/archives/48102",
+      "takeaway": "신규 신청·지원금 설명은 많음. 기존 참가자 의무/주소 변경은 틈새가 있음."
+    },
+    {
+      "pattern": "정책 포털 상세",
+      "title": "서울시 희망두배 청년통장",
+      "url": "https://youth.seoul.go.kr/infoData/plcyInfo/view.do?plcyBizId=R2024041221740",
+      "takeaway": "조건·혜택 중심. 운영 중 점검 행동은 첫 화면에서 따로 뽑는 편이 좋음."
+    },
+    {
+      "pattern": "혜택 강조형 블로그",
+      "title": "서울시 희망두배 청년통장, 월 15만 저축으로 2배 이상! 조건부터...",
+      "url": "https://m.blog.naver.com/fintechplan/223894209040",
+      "takeaway": "혜택 숫자는 클릭을 만들지만 기존 참가자 리스크는 잘 안 다룸."
+    },
+    {
+      "pattern": "완벽가이드형 블로그",
+      "title": "2025 서울시 희망두배청년통장 완벽 가이드｜조건·신청·혜택...",
+      "url": "https://wisdominfo.co.kr/entry/2025-%EC%84%9C%EC%9A%B8%EC%8B%9C-%ED%9D%AC%EB%A7%9D%EB%91%90%EB%B0%B0%EC%B2%AD%EB%85%84%ED%86%B5%EC%9E%A5-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C%EF%BD%9C%EC%A1%B0%EA%B1%B4%C2%B7%EC%8B%A0%EC%B2%AD%C2%B7%ED%98%9C%ED%83%9D-%EC%B4%9D%EC%A0%95%EB%A6%AC",
+      "takeaway": "목차가 길고 일반적. 이번 글은 ‘3문항 먼저’로 차별화."
+    },
+    {
+      "pattern": "고수익 숫자형",
+      "title": "월 10만 원이 1,400만 원으로? 2025 서울 희망두배청년통장 신청...",
+      "url": "https://newwaveinsight.com/%ED%9D%AC%EB%A7%9D%EB%91%90%EB%B0%B0%EC%B2%AD%EB%85%84%ED%86%B5%EC%9E%A5/",
+      "takeaway": "과장 숫자형 제목은 주의. 공식 720/1080만원 범위만 사용."
+    },
+    {
+      "pattern": "중도해지 손실형",
+      "title": "희망두배 청년통장, 중도해지하면 손해일까? 매칭지원금 예외...",
+      "url": "https://blog.naver.com/gem_gem_gem/223890460699",
+      "takeaway": "손실 회피 질문은 클릭 강함. 주소 변경→중도해지 분기와 연결."
+    },
+    {
+      "pattern": "오류해결 경험형",
+      "title": "희망두배 청년통장 전출 중도해지 반려 오류해결 체크",
+      "url": "https://jhbn.tistory.com/entry/%ED%9D%AC%EB%A7%9D%EB%91%90%EB%B0%B0-%EC%B2%AD%EB%85%84%ED%86%B5%EC%9E%A5-%EC%A0%84%EC%B6%9C-%EC%A4%91%EB%8F%84%ED%95%B4%EC%A7%80-%EB%B0%98%EB%A0%A4-%EC%98%A4%EB%A5%98%ED%95%B4%EA%B2%B0-%EC%B2%B4%ED%81%AC",
+      "takeaway": "실제 분기/오류 해결형은 신뢰감. 이번 글도 ‘어디서 누르는지’ 중심."
+    },
+    {
+      "pattern": "해지 방법형",
+      "title": "희망두배 청년통장 해지 방법 및 조건 중복 완벽한 가이드",
+      "url": "https://lifeinformation.hejmoney.com/%ED%9D%AC%EB%A7%9D%EB%91%90%EB%B0%B0-%EC%B2%AD%EB%85%84%ED%86%B5%EC%9E%A5-%ED%95%B4%EC%A7%80-%EB%B0%A9%EB%B2%95-%EB%B0%8F-%EC%A1%B0%EA%B1%B4-%EC%A4%91%EB%B3%B5-%EC%99%84%EB%B2%BD%ED%95%9C-%EA%B0%80/",
+      "takeaway": "해지 글은 길어지기 쉬움. 신규 글은 자율점검 행동만 다룰 것."
+    },
+    {
+      "pattern": "문의답변 정리형",
+      "title": "희망두배 청년통장 중복가입 | 이사 | 중도해지 문의답변 정리",
+      "url": "https://tips.ispreading.com/%ED%9D%AC%EB%A7%9D%EB%91%90%EB%B0%B0-%EC%B2%AD%EB%85%84%ED%86%B5%EC%9E%A5-%EC%A4%91%EB%B3%B5%EA%B0%80%EC%9E%85-%EC%9D%B4%EC%82%AC-%EC%A4%91%EB%8F%84%ED%95%B4%EC%A7%80/",
+      "takeaway": "Q&A 구조 적합. 이번 글은 상황별 3분기 표가 좋음."
+    },
+    {
+      "pattern": "최근 블로그 내부 반복 체크",
+      "title": "학교 밖 청소년 교과서 지원 정리: 누가, 어디서, 어떻게 받을 수 있나",
+      "url": "https://beemo.tistory.com/40",
+      "takeaway": "최근 글과 같은 “정리: 누가/어디서/어떻게” 제목 피하기."
+    },
+    {
+      "pattern": "최근 블로그 내부 반복 체크",
+      "title": "근로·자녀장려금 5월 신청, 놓치면 95%로 줄어듭니다",
+      "url": "https://beemo.tistory.com/63",
+      "takeaway": "마감+손실형은 이미 있음. 이번 글은 참가자 전용 체크리스트로 톤 차별화."
+    }
+  ],
+  "style_brief": {
+    "target_reader": "이미 희망두배청년통장 또는 꿈나래통장에 참가 중인 사람. 특히 최근 이사, 연락처 변경, 서울 밖 전출, 가구원 변동이 있었던 참가자.",
+    "voice": "공식 공지를 대신 읽어주는 검증노트 말투. 겁주지 않고 “여기만 먼저 보세요” 식으로 짧게 안내.",
+    "avoid": [
+      "신규 신청자용 혜택 총정리로 흐르기",
+      "5/31을 신규 모집 마감으로 오해시키기",
+      "중도해지/매칭지원금 보장을 단정하기",
+      "완벽가이드·총정리식 긴 목차"
+    ],
+    "structure_variant": "질문 3개로 먼저 판단하기 → 상황별 조치 표 → 공식 페이지에서 누를 메뉴 → 마지막 확인",
+    "image_plan": [
+      {
+        "role": "thumbnail",
+        "text": "희망두배·꿈나래 참가자\n5월31 전 확인",
+        "visual": "민트/남색, 달력+체크 아이콘, 큰 제목 2줄"
+      },
+      {
+        "role": "explainer",
+        "text": "주소 변경? 연락처 변경?\n먼저 갈림길 보기",
+        "visual": "3분기 결정 흐름도"
+      },
+      {
+        "role": "action_card",
+        "text": "로그인 후 확인할 4칸\n주소·연락처·가구원·해지신청",
+        "visual": "체크리스트 카드"
+      }
+    ],
+    "category_recommendation": "뉴스·시사 팩트체크 또는 돈관리·구매체크. 발행 시 정책 공지 성격이면 뉴스·시사 팩트체크가 더 안전.",
+    "soft_cta": "공식 공지는 바뀔 수 있으니 로그인 화면과 공지 제목을 같이 확인하자는 수준. 판매/유료 CTA 없음."
+  },
+  "attention_gate": {
+    "classification": "폭발 후보",
+    "scores": {
+      "visible_search_or_trend_signal": 17,
+      "direct_money_loss_rights_impact": 19,
+      "deadline_or_imminent_value_loss": 20,
+      "title_tension": 18,
+      "first_screen_payoff": 19,
+      "not_bland_admin_summary": 16,
+      "total": 109
+    },
+    "why": "5/31 공식 마감이 있고, 주소/연락처/서울 밖 전출/중도해지 조치가 통장 유지와 연결된다. 단순 혜택 소개가 아니라 현재 참가자가 놓치면 불이익을 볼 수 있는 행동 체크다.",
+    "title_candidates": [
+      "희망두배·꿈나래통장 참가자, 5월31 전에 주소 바뀐 적 있으면 꼭 보세요",
+      "희망두배청년통장 5월31 자율점검, 신규 신청 마감이 아니라 참가자 확인입니다",
+      "꿈나래·희망두배 통장, 이사했다면 5월31 전 여기부터 확인하세요"
+    ]
+  },
+  "quality_gate": {
+    "buyer_clarity": 18,
+    "immediate_usability": 19,
+    "differentiation": 14,
+    "evidence_examples": 15,
+    "persuasiveness": 14,
+    "legal_platform_safety": 15,
+    "total": 95,
+    "decision": "GO",
+    "notes": "공식 공지와 서울시 사업 페이지만 근거로 삼고, 신규 신청/선정/해지 결과를 단정하지 않으면 안전함. 첫 화면 체크리스트·메뉴 경로로 즉시 효용 제공 가능."
+  }
+}

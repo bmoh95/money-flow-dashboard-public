@@ -1,0 +1,11 @@
+{
+  "normal_http": 200,
+  "mobile_http": 200,
+  "title_found": true,
+  "mobile_title_found": true,
+  "default_og": false,
+  "default_mobile_og": false,
+  "official_link_found": true,
+  "source_end_phrase_found": true,
+  "body_images_kakao_hits": 3
+}

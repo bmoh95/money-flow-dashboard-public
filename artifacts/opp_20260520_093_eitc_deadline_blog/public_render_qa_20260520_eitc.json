@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-05-20T23:39:24+09:00",
+  "run_id": "2026-05-20_2322_money-flow",
+  "opportunity_id": "opp_20260520_093_eitc_deadline_blog",
+  "post_url": "https://beemo.tistory.com/63",
+  "mobile_url": "https://beemo.tistory.com/m/63",
+  "http": 200,
+  "mobile_http": 200,
+  "home_http": 200,
+  "title_found": true,
+  "mobile_title_found": true,
+  "category_label_found": true,
+  "category_id": "1295942",
+  "body_image_hits": 3,
+  "mobile_body_image_hits": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DT9mJllDsBYU1KnLedEzqMJPXEsM%253D",
+  "twitter_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DT9mJllDsBYU1KnLedEzqMJPXEsM%253D",
+  "mobile_og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DT9mJllDsBYU1KnLedEzqMJPXEsM%253D",
+  "og_not_default": true,
+  "mobile_og_not_default": true,
+  "home_list_thumbnail_real": false,
+  "raw_markdown_hits": 0,
+  "source_link_hits": 4,
+  "browser_render_qa": {
+    "desktop_cycles": 2,
+    "mobile_cycles": 1,
+    "body_images_loaded": 3,
+    "body_images_natural_size": "1200x675 each",
+    "desktop_img_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "desktop_caption_to_next_h2_px": [
+      24,
+      24,
+      24
+    ],
+    "mobile_render_sample": "3 body images loaded, 1200x675 natural, category visible",
+    "vision_result": "desktop public-page screenshot passed: Korean Gothic-style card text, no crop/overlap/collision; image-caption-heading rhythm natural; OG/list thumbnail not default placeholder",
+    "raw_work_notes": "none found"
+  },
+  "attention_cash_gate": {
+    "classification": "폭발 후보",
+    "basis": "5월 정기신청 마감/6월 기한후 95% 감액, 직접 금전 영향, 국세청 A급 근거, 독자 질문이 \"나도 해당되나\"로 명확",
+    "direct_revenue": 0,
+    "reason_to_process_backlog": "Attention Gate 통과. 블로그 free-validation lane에서 bounty 대안보다 시급성 높음."
+  }
+}

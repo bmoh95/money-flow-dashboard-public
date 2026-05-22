@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-05-20T23:30:09+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "url": "https://beemo.tistory.com/63",
+  "post_id": "63",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 9,
+  "upload_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DT9mJllDsBYU1KnLedEzqMJPXEsM%253D",
+  "twitter_image": "",
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 74018,
+  "category_id": "1295942",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fdvb5tr%2FdJMcaicnep7%2FAAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DT9mJllDsBYU1KnLedEzqMJPXEsM%253D"
+  },
+  "thumbnail": "kage@dvb5tr/dJMcaicnep7/AAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1/img.png",
+  "category_id_requested": "1295942",
+  "uploads": [
+    {
+      "name": "01-eitc-deadline-thumb.png",
+      "url": "https://blog.kakaocdn.net/dna/dvb5tr/dJMcaicnep7/AAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=T9mJllDsBYU1KnLedEzqMJPXEsM%3D",
+      "key": "dvb5tr/dJMcaicnep7/AAAAAAAAAAAAAAAAAAAAAK3AiIbG9LpM_oBP7FfS0GGRV3aR0vSGq_t2mzb9x9C1",
+      "filename": "img.png",
+      "size": 113806
+    },
+    {
+      "name": "02-eligibility-flow.png",
+      "url": "https://blog.kakaocdn.net/dna/Wks7x/dJMcaglguZV/AAAAAAAAAAAAAAAAAAAAAKj3-5ol_BAYTKVb_B2JcJf-6KVT0MpDPgTn1H6r_CTH/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=HoAoyiuDe4SbQxvEF3EB8Zq31E0%3D",
+      "key": "Wks7x/dJMcaglguZV/AAAAAAAAAAAAAAAAAAAAAKj3-5ol_BAYTKVb_B2JcJf-6KVT0MpDPgTn1H6r_CTH",
+      "filename": "img.png",
+      "size": 115492
+    },
+    {
+      "name": "03-apply-check-card.png",
+      "url": "https://blog.kakaocdn.net/dna/dmVfj6/dJMcai4pgYG/AAAAAAAAAAAAAAAAAAAAAKRcPnBOrRN3Ovdx9Su09w_hC8cABVr_QgUF_gg-U0SJ/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=fatHKrbyLN3gJjs%2FgoI4WGLaiKI%3D",
+      "key": "dmVfj6/dJMcai4pgYG/AAAAAAAAAAAAAAAAAAAAAKRcPnBOrRN3Ovdx9Su09w_hC8cABVr_QgUF_gg-U0SJ",
+      "filename": "img.png",
+      "size": 155182
+    }
+  ]
+}

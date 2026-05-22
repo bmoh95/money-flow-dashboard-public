@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-05-21T06:20:21+09:00",
+  "files": [
+    {
+      "file": "01-youth-future-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 95643
+    },
+    {
+      "file": "02-switch-order-flow.png",
+      "width": 1200,
+      "height": 675,
+      "size": 114927
+    },
+    {
+      "file": "03-contribution-check-card.png",
+      "width": 1200,
+      "height": 675,
+      "size": 155967
+    },
+    {
+      "file": "contact_sheet_youth_future.png",
+      "width": 1600,
+      "height": 366,
+      "size": 145836
+    }
+  ],
+  "font": "Apple SD Gothic Neo",
+  "qa_notes": "1200x675 PNG, deliberate line breaks, bbox-centered badges/checks, no divider-title collision, footer clearance kept."
+}

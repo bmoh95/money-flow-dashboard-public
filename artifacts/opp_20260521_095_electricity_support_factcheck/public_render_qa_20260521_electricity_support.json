@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-21T13:10:08+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "url": "https://beemo.tistory.com/66",
+  "post_id": "66",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 9,
+  "upload_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fb2BTQZ%2FdJMcaf0W5RI%2FAAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DI%252Byqh0WNGDa1RjGmDhCPHDXB0%252BM%253D",
+  "twitter_image": "",
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 59490,
+  "category_id": "1295941",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fb2BTQZ%2FdJMcaf0W5RI%2FAAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DI%252Byqh0WNGDa1RjGmDhCPHDXB0%252BM%253D"
+  },
+  "home_title_found": true,
+  "home_thumb_hint": true,
+  "official_links_ok": true,
+  "forbidden_reader_artifacts": []
+}

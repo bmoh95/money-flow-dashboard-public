@@ -1,0 +1,61 @@
+[
+  {
+    "name": "현금성 GitHub/IssueHunt/Algora/Polar 바운티 스카우트",
+    "type": "bounty",
+    "attention_or_cash": "direct_cash",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "evidence_grade": "A",
+    "summary": "동일 run의 bounty gate가 10건 deep-preflight 했지만 GO/HOLD 0건. 폐쇄/잠김/아카이브/경쟁 PR/광범위 범위가 반복됨.",
+    "links": [
+      "bounty_scout_summary.json",
+      "bounty_deep_preflight.json"
+    ]
+  },
+  {
+    "name": "희망두배·꿈나래통장 참가자 5월31 개인정보 자율점검",
+    "type": "blog_free_validation",
+    "attention_or_cash": "폭발 후보",
+    "decision": "GO",
+    "reason_code": null,
+    "evidence_grade": "A",
+    "summary": "공식 자산형성지원사업 공지의 5/31 마감, 주소/연락처 변경과 중도해지 분기라는 즉시 손익·권리 리스크가 있음. 첫 화면에서 3문항 체크리스트 제공 가능.",
+    "links": [
+      "https://account.welfare.seoul.kr/web/contents/noticeMatch.lp?srchAct=view&boardCd=20260508131345206834"
+    ]
+  },
+  {
+    "name": "서울 희망두배 청년통장 2026 신규 신청 5월29 마감 루머 팩트체크",
+    "type": "blog_free_validation",
+    "attention_or_cash": "강한 후보",
+    "decision": "HOLD",
+    "reason_code": "NO_EVIDENCE",
+    "evidence_grade": "A/C 혼재",
+    "summary": "서울시 공식 페이지는 신청기간을 6월 중 예정으로 표시. 검색 결과의 5/29 단정 글은 C급 블로그 중심이라 신규 신청 글로 자동 발행하기엔 날짜 확정 근거가 부족함.",
+    "links": [
+      "https://news.seoul.go.kr/welfare/archives/48102"
+    ]
+  },
+  {
+    "name": "종합소득세 5월31 신고·납부 마감 체크",
+    "type": "blog_free_validation",
+    "attention_or_cash": "강한 후보",
+    "decision": "NO-GO",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A",
+    "summary": "마감·가산세 이슈는 강하지만 최근 세금·장부/장려금 글과 구조가 겹치고 경쟁 SERP가 포화. 이번 후보보다 새로움이 낮음.",
+    "links": [
+      "https://www.nts.go.kr/"
+    ]
+  },
+  {
+    "name": "민생회복/소비쿠폰 지급 소문 정리",
+    "type": "blog_free_validation",
+    "attention_or_cash": "폭발 가능하지만 위험",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "evidence_grade": "C/D",
+    "summary": "조회수 가능성은 크지만 공식 신청·지급·기한 근거가 없어 Money Flow 안전 게이트 탈락.",
+    "links": []
+  }
+]

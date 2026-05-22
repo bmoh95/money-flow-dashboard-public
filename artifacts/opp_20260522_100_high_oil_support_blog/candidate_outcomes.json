@@ -1,0 +1,46 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt/Algora/Opire direct-payout PR bounty scout",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "COMPETITIVE_PR",
+    "summary": "88 raw candidates were filtered; deep preflight found no safe tiny cash PR. Top rescue items were assigned, crowded by open PRs, stale IssueHunt, wallet/payment-dispute, or no visible cash route.",
+    "evidence": [
+      "runs/2026-05-22_1110_money-flow/filter_report.json",
+      "runs/2026-05-22_1110_money-flow/deep_bounty_preflight.md"
+    ]
+  },
+  {
+    "candidate": "고유가 피해지원금 2차 지급 신청·사용처·스미싱 주의 무료 검증 글",
+    "type": "blog_free_validation",
+    "decision": "GO",
+    "attention_class": "폭발 후보",
+    "summary": "A-grade official evidence: 2026-05-18~07-03 신청/지급, 국민 70%, 1인 10~25만원, 사용기한 08-31, URL 문자 스미싱 주의. Direct money + deadline + phishing risk gives immediate click demand.",
+    "evidence": [
+      "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906",
+      "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
+      "https://korea.kr/news/policyNewsView.do?newsId=148963458&pWise=main&pWiseMain=R1"
+    ]
+  },
+  {
+    "candidate": "정부24 혜택알리미로 5월 마감 혜택 놓치지 않는 법",
+    "type": "blog_free_validation",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "공식 카드뉴스성 자료와 검색 관심은 있으나, 이번 run에서는 고유가 피해지원금처럼 금액·기한·스미싱 위험이 더 직접적인 후보가 우위. 후속 글의 보조 섹션으로 활용 가능."
+  },
+  {
+    "candidate": "서울 청년월세 지원 신청 이후 결과/급여청구 확인 글",
+    "type": "blog_free_validation",
+    "decision": "NO-GO",
+    "reason_code": "LOW_ATTENTION_DEMAND",
+    "summary": "신청 마감 직후라 신규 신청 효용이 약하고, 결과 발표 전까지 즉시 행동 가치가 낮음. 직접 마감/가치 손실 후보보다 후순위."
+  },
+  {
+    "candidate": "6월 자동차세 정기분/연납 체크 글",
+    "type": "blog_free_validation",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "계절성은 있으나 5월 22일 현재 고유가 피해지원금 2차 지급처럼 이미 열려 있는 현금성 신청보다 긴급도가 낮음."
+  }
+]

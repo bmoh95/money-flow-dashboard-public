@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-05-21T09:43:13+09:00",
+  "files": [
+    {
+      "file": "01-withholding-tax-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 89080
+    },
+    {
+      "file": "02-withholding-tax-timeline.png",
+      "width": 1200,
+      "height": 675,
+      "size": 116773
+    },
+    {
+      "file": "03-withholding-tax-memo-card.png",
+      "width": 1200,
+      "height": 675,
+      "size": 121426
+    },
+    {
+      "file": "contact_sheet_withholding_tax.png",
+      "width": 1600,
+      "height": 366,
+      "size": 132585
+    }
+  ],
+  "font": "Apple SD Gothic Neo",
+  "qa_notes": "1200x675 PNG, deliberate line breaks, bbox-centered pills/checks, no title-divider collision, footer clearance kept, each image has a distinct thumbnail/timeline/memo job."
+}

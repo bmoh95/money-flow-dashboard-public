@@ -1,0 +1,54 @@
+{
+  "checked_at": "2026-05-21T13:10:08+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "url": "https://beemo.tistory.com/66",
+  "post_id": "66",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 9,
+  "upload_count": 3,
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fb2BTQZ%2FdJMcaf0W5RI%2FAAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DI%252Byqh0WNGDa1RjGmDhCPHDXB0%252BM%253D",
+  "twitter_image": "",
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 59490,
+  "category_id": "1295941",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2Fb2BTQZ%2FdJMcaf0W5RI%2FAAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1780239599%26allow_ip%3D%26allow_referer%3D%26signature%3DI%252Byqh0WNGDa1RjGmDhCPHDXB0%252BM%253D"
+  },
+  "home_title_found": true,
+  "home_thumb_hint": true,
+  "official_links_ok": true,
+  "forbidden_reader_artifacts": [],
+  "action": "created_new",
+  "thumbnail": "kage@b2BTQZ/dJMcaf0W5RI/AAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki/img.png",
+  "category_id_requested": "1295941",
+  "category_name_requested": "돈관리·구매체크",
+  "uploads": [
+    {
+      "name": "01-electricity-support-thumb.png",
+      "url": "https://blog.kakaocdn.net/dna/b2BTQZ/dJMcaf0W5RI/AAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=I%2Byqh0WNGDa1RjGmDhCPHDXB0%2BM%3D",
+      "key": "b2BTQZ/dJMcaf0W5RI/AAAAAAAAAAAAAAAAAAAAAJZJVkUmnx92e6U8STiFENuO3m8O6KjL3ELXOc3OYMki",
+      "filename": "img.png",
+      "size": 90950
+    },
+    {
+      "name": "02-official-check-flow.png",
+      "url": "https://blog.kakaocdn.net/dna/c6GivV/dJMcaf0W5RL/AAAAAAAAAAAAAAAAAAAAAI3P_q1qRjJJI3ZbOJMkVR9_X4f5lTIH2-VtWjyryfwt/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=iUw%2F9l2zArF%2Fh1M%2Fkb0IDMOuVRo%3D",
+      "key": "c6GivV/dJMcaf0W5RL/AAAAAAAAAAAAAAAAAAAAAI3P_q1qRjJJI3ZbOJMkVR9_X4f5lTIH2-VtWjyryfwt",
+      "filename": "img.png",
+      "size": 106213
+    },
+    {
+      "name": "03-title-risk-check-card.png",
+      "url": "https://blog.kakaocdn.net/dna/Avo4C/dJMcaf0W5RM/AAAAAAAAAAAAAAAAAAAAAKnqtDQEWMVR-Oz_oPQhbk0GsOIKyEGNBgR3tH11-GoO/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1780239599&allow_ip=&allow_referer=&signature=8A8Oc6iVQX4bM96mh7AMIWNEtYQ%3D",
+      "key": "Avo4C/dJMcaf0W5RM/AAAAAAAAAAAAAAAAAAAAAKnqtDQEWMVR-Oz_oPQhbk0GsOIKyEGNBgR3tH11-GoO",
+      "filename": "img.png",
+      "size": 131213
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+- research_lead: NO-GO — paid evidence/차별성 부족
+- redteam: NO-GO — 범용 AI 템플릿 위험

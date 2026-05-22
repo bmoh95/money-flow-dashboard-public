@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-05-21T09:43:13+09:00",
+  "current_recent_posts": [
+    "청년미래적금 6월 갈아타기, 청년도약계좌 먼저 해지하면 안 됩니다",
+    "근로·자녀장려금 5월 신청, 놓치면 95%로 줄어듭니다",
+    "개인사업자 차량비, 운행기록부부터 봐야 헷갈리지 않습니다",
+    "음식점 위생교육, 올해 들었는지 헷갈릴 때 보는 순서",
+    "장마 오기 전에, 소상공인 풍수해보험 먼저 볼 것들"
+  ],
+  "same_heading_skeleton_as_recent": false,
+  "first_4_paragraphs_similar": false,
+  "image_layout_repeated": false,
+  "new_reader_use_case": "첫 알바비·프리랜서 비용 지급 후 다음달 10일 전에 원천세/지방세/반기별 납부 승인 여부를 보는 순서",
+  "structure_choice": "실수 사례 → 3질문 → 타임라인 → 반기별 자동 아님 → 메모 카드",
+  "attention_gate": "강한 후보: 다음달 10일 신고·납부 기한, 원천징수/지방세 누락 리스크, 첫 고용·외주 지급자 직접 손익 영향. 현재 안전한 bounty backlog 대안 없음."
+}
