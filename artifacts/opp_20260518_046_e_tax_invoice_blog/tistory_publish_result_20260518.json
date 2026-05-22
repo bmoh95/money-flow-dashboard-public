@@ -5,27 +5,27 @@
   "http": 200,
   "title_found": true,
   "image_hits": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FF9AZ9%2FdJMcadorCsg%2FAAAAAAAAAAAAAAAAAAAAADklr8U4FjQbTdxEbWstlwqb1rrg8INwKk4XFGkRauKU%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3DREDACTED%26allow_referer%3DREDACTED%26signature%3DREDACTED",
+  "og_image": "[REDACTED_SIGNED_OG_IMAGE]",
   "category": "돈관리·구매체크/세금·장부",
   "categoryId": "1295942",
   "uploads": [
     {
       "name": "01-tax-invoice-title.png",
-      "url": "https://blog.kakaocdn.net/dna/F9AZ9/dJMcadorCsg/AAAAAAAAAAAAAAAAAAAAADklr8U4FjQbTdxEbWstlwqb1rrg8INwKk4XFGkRauKU/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/F9AZ9/dJMcadorCsg/AAAAAAAAAAAAAAAAAAAAADklr8U4FjQbTdxEbWstlwqb1rrg8INwKk4XFGkRauKU/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "F9AZ9/dJMcadorCsg/AAAAAAAAAAAAAAAAAAAAADklr8U4FjQbTdxEbWstlwqb1rrg8INwKk4XFGkRauKU",
       "filename": "img.png",
       "size": 102596
     },
     {
       "name": "02-tax-invoice-flow.png",
-      "url": "https://blog.kakaocdn.net/dna/d5HGDS/dJMcadWkmGI/AAAAAAAAAAAAAAAAAAAAAEn8H7Sad4-csoTl5PbuDvDstriFpKWBbyGHCUrgfk3I/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/d5HGDS/dJMcadWkmGI/AAAAAAAAAAAAAAAAAAAAAEn8H7Sad4-csoTl5PbuDvDstriFpKWBbyGHCUrgfk3I/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "d5HGDS/dJMcadWkmGI/AAAAAAAAAAAAAAAAAAAAAEn8H7Sad4-csoTl5PbuDvDstriFpKWBbyGHCUrgfk3I",
       "filename": "img.png",
       "size": 98499
     },
     {
       "name": "03-tax-invoice-checklist.png",
-      "url": "https://blog.kakaocdn.net/dna/blhIHv/dJMcadWkmGJ/AAAAAAAAAAAAAAAAAAAAAKrdOqk4iTOuDkH0zn8Uypucz4aazYdRKEX1E5JrlGnS/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/blhIHv/dJMcadWkmGJ/AAAAAAAAAAAAAAAAAAAAAKrdOqk4iTOuDkH0zn8Uypucz4aazYdRKEX1E5JrlGnS/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "blhIHv/dJMcadWkmGJ/AAAAAAAAAAAAAAAAAAAAAKrdOqk4iTOuDkH0zn8Uypucz4aazYdRKEX1E5JrlGnS",
       "filename": "img.png",
       "size": 93036

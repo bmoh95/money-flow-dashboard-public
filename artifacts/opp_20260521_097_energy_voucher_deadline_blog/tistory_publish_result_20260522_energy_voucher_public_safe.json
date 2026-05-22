@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-05-22T15:40:27+09:00",
+  "status": "PUBLISHED_VERIFIED",
+  "post_id": "72",
+  "http": 200,
+  "title_found": true,
+  "image_hits": 3,
+  "body_img_count": 13,
+  "upload_count": 3,
+  "thumbnail_http": 200,
+  "thumbnail_bytes": 63168,
+  "category_id": "1296092",
+  "category_ok": true,
+  "visibility": "PUBLIC",
+  "thumbnail": "kage@bnGtgW/dJMcabxvKLc/AAAAAAAAAAAAAAAAAAAAAAcECo-UAyxeZYYwGMWx6B-J-sQ09eUj56QyFb5mBXI3/img.png",
+  "category_id_requested": "1296092",
+  "category_name_requested": "뉴스·시사 팩트체크",
+  "public_url": "https://beemo.tistory.com/72",
+  "og_image_status": "non_default_daum_thumbnail_verified",
+  "twitter_image_status": "not_present",
+  "mobile": {
+    "http": 200,
+    "title_found": true,
+    "og_image_status": "non_default_daum_thumbnail_verified"
+  },
+  "uploads": [
+    {
+      "name": "01-energy-voucher-deadline-thumb.png",
+      "key": "bnGtgW/dJMcabxvKLc/AAAAAAAAAAAAAAAAAAAAAAcECo-UAyxeZYYwGMWx6B-J-sQ09eUj56QyFb5mBXI3",
+      "filename": "img.png",
+      "size": 53973,
+      "cdn_path": "https://blog.kakaocdn.net/dna/bnGtgW/dJMcabxvKLc/AAAAAAAAAAAAAAAAAAAAAAcECo-UAyxeZYYwGMWx6B-J-sQ09eUj56QyFb5mBXI3/img.png"
+    },
+    {
+      "name": "02-energy-voucher-balance-flow.png",
+      "key": "bhdDJZ/dJMcabxvKLd/AAAAAAAAAAAAAAAAAAAAACj-W_63h8u2zJobsBXVjKaZJfbsiO0FN6nUX-92v2ES",
+      "filename": "img.png",
+      "size": 72222,
+      "cdn_path": "https://blog.kakaocdn.net/dna/bhdDJZ/dJMcabxvKLd/AAAAAAAAAAAAAAAAAAAAACj-W_63h8u2zJobsBXVjKaZJfbsiO0FN6nUX-92v2ES/img.png"
+    },
+    {
+      "name": "03-energy-voucher-use-methods.png",
+      "key": "2ECti/dJMcadINhYw/AAAAAAAAAAAAAAAAAAAAAAayPMy37v4qctSBTGPOhMvt1ZwgXmPg4Cyyc-jDqUTr",
+      "filename": "img.png",
+      "size": 57217,
+      "cdn_path": "https://blog.kakaocdn.net/dna/2ECti/dJMcadINhYw/AAAAAAAAAAAAAAAAAAAAAAayPMy37v4qctSBTGPOhMvt1ZwgXmPg4Cyyc-jDqUTr/img.png"
+    }
+  ]
+}

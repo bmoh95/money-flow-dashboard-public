@@ -10,21 +10,21 @@
   "uploaded_images": [
     {
       "name": "01-food-hygiene-thumb.png",
-      "url": "https://blog.kakaocdn.net/dna/5jJrM/dJMcafmolII/AAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/5jJrM/dJMcafmolII/AAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "5jJrM/dJMcafmolII/AAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ",
       "filename": "img.png",
       "size": 80684
     },
     {
       "name": "02-food-hygiene-message.png",
-      "url": "https://blog.kakaocdn.net/dna/d33xID/dJMcaaZEuAU/AAAAAAAAAAAAAAAAAAAAAFoETp08JCfByfUAjCH1O8-eRAi0GlHnMmyDDd1l0QZH/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/d33xID/dJMcaaZEuAU/AAAAAAAAAAAAAAAAAAAAAFoETp08JCfByfUAjCH1O8-eRAi0GlHnMmyDDd1l0QZH/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "d33xID/dJMcaaZEuAU/AAAAAAAAAAAAAAAAAAAAAFoETp08JCfByfUAjCH1O8-eRAi0GlHnMmyDDd1l0QZH",
       "filename": "img.png",
       "size": 87844
     },
     {
       "name": "03-food-hygiene-flow.png",
-      "url": "https://blog.kakaocdn.net/dna/bgNcn8/dJMcadILayI/AAAAAAAAAAAAAAAAAAAAANutaGeVxQGBB6dZf5GELYUdWI9RfxNPS0Rejdgeso9W/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/bgNcn8/dJMcadILayI/AAAAAAAAAAAAAAAAAAAAANutaGeVxQGBB6dZf5GELYUdWI9RfxNPS0Rejdgeso9W/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "bgNcn8/dJMcadILayI/AAAAAAAAAAAAAAAAAAAAANutaGeVxQGBB6dZf5GELYUdWI9RfxNPS0Rejdgeso9W",
       "filename": "img.png",
       "size": 78125
@@ -44,8 +44,8 @@
   "http": 200,
   "title_found": true,
   "image_hits": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F5jJrM%2FdJMcafmolII%2FAAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
-  "twitter_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F5jJrM%2FdJMcafmolII%2FAAAAAAAAAAAAAAAAAAAAAIyeM_lKtxpH-4Ug5rNez1f2HbRg-cvY0mFGwtkkxYbZ%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
+  "og_image": "[REDACTED_SIGNED_OG_IMAGE]",
+  "twitter_image": "[REDACTED_SIGNED_OG_IMAGE]",
   "og_not_default": true,
   "twitter_not_default": true,
   "category_id": "1295940",

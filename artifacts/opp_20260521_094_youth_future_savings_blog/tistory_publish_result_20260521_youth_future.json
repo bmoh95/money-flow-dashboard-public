@@ -8,7 +8,7 @@
   "image_hits": 3,
   "body_img_count": 9,
   "upload_count": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FH5srX%2FdJMb99NbMNn%2FAAAAAAAAAAAAAAAAAAAAAODQdb1qu3q9jONiCefq-gTf_lEsu3ZfQfiNXiiGKoOc%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
+  "og_image": "[REDACTED_SIGNED_OG_IMAGE]",
   "twitter_image": "",
   "thumbnail_http": 200,
   "thumbnail_bytes": 62953,
@@ -18,7 +18,7 @@
   "mobile": {
     "http": 200,
     "title_found": true,
-    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FH5srX%2FdJMb99NbMNn%2FAAAAAAAAAAAAAAAAAAAAAODQdb1qu3q9jONiCefq-gTf_lEsu3ZfQfiNXiiGKoOc%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED"
+    "og_image": "[REDACTED_SIGNED_OG_IMAGE]"
   },
   "home_title_found": true,
   "home_thumb_hint": true,
@@ -29,21 +29,21 @@
   "uploads": [
     {
       "name": "01-youth-future-thumb.png",
-      "url": "https://blog.kakaocdn.net/dna/H5srX/dJMb99NbMNn/AAAAAAAAAAAAAAAAAAAAAODQdb1qu3q9jONiCefq-gTf_lEsu3ZfQfiNXiiGKoOc/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/H5srX/dJMb99NbMNn/AAAAAAAAAAAAAAAAAAAAAODQdb1qu3q9jONiCefq-gTf_lEsu3ZfQfiNXiiGKoOc/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "H5srX/dJMb99NbMNn/AAAAAAAAAAAAAAAAAAAAAODQdb1qu3q9jONiCefq-gTf_lEsu3ZfQfiNXiiGKoOc",
       "filename": "img.png",
       "size": 95643
     },
     {
       "name": "02-switch-order-flow.png",
-      "url": "https://blog.kakaocdn.net/dna/cdo9rA/dJMb99NbMNo/AAAAAAAAAAAAAAAAAAAAAELMXyAEZDHd0i905p4cmxHg8YiDKyW-PjrLxXTFO4xz/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/cdo9rA/dJMb99NbMNo/AAAAAAAAAAAAAAAAAAAAAELMXyAEZDHd0i905p4cmxHg8YiDKyW-PjrLxXTFO4xz/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "cdo9rA/dJMb99NbMNo/AAAAAAAAAAAAAAAAAAAAAELMXyAEZDHd0i905p4cmxHg8YiDKyW-PjrLxXTFO4xz",
       "filename": "img.png",
       "size": 114927
     },
     {
       "name": "03-contribution-check-card.png",
-      "url": "https://blog.kakaocdn.net/dna/PVxhi/dJMb99NbMNp/AAAAAAAAAAAAAAAAAAAAAKTFOgLWKrJRZrx1iYt7CpX_VZOgqAAm-kB2iG4afKEX/img.png?credential=REDACTED&expires=REDACTED&allow_ip=REDACTED&allow_referer=REDACTED&signature=REDACTED",
+      "url": "https://blog.kakaocdn.net/dna/PVxhi/dJMb99NbMNp/AAAAAAAAAAAAAAAAAAAAAKTFOgLWKrJRZrx1iYt7CpX_VZOgqAAm-kB2iG4afKEX/img.png?[REDACTED_SIGNED_QUERY]",
       "key": "PVxhi/dJMb99NbMNp/AAAAAAAAAAAAAAAAAAAAAKTFOgLWKrJRZrx1iYt7CpX_VZOgqAAm-kB2iG4afKEX",
       "filename": "img.png",
       "size": 155967

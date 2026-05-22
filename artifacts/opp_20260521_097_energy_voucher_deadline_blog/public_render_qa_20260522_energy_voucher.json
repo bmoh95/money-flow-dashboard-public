@@ -1,0 +1,53 @@
+{
+  "checked_at": "2026-05-22T15:47:44+09:00",
+  "public_url": "https://beemo.tistory.com/72",
+  "post_id": "72",
+  "category": "뉴스·시사 팩트체크",
+  "category_id": "1296092",
+  "dom_cycle": {
+    "body_images": 3,
+    "all_complete": true,
+    "natural_dimensions": "1200x675 for all body images",
+    "image_to_caption_px": [
+      7,
+      7,
+      7
+    ],
+    "caption_to_next_px": [
+      24,
+      24,
+      24
+    ],
+    "raw_markdown_or_work_notes": false,
+    "official_links_clickable": true,
+    "og_image_non_default": true,
+    "mobile_og_checked": true
+  },
+  "render_cycles": [
+    {
+      "cycle": 1,
+      "url": "https://beemo.tistory.com/72?qa_cycle=1_1535",
+      "vision": "PASS: public first screen, category, body images, spacing, no raw Markdown/work notes.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_3a499ef83d114b1f9563b3a868e0c3b1.png"
+    },
+    {
+      "cycle": 2,
+      "url": "https://beemo.tistory.com/72?qa_cycle=2_1535",
+      "vision": "PASS: middle/lower article, image 2/3 readability, heading/caption spacing, source links.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_1accb6b293b446a1823b9b850b6b9aa5.png"
+    },
+    {
+      "cycle": "home_list",
+      "url": "https://beemo.tistory.com/?qa_home=1535",
+      "vision": "PASS: real representative thumbnail visible; list crop acceptable and title readable.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_ba38a77d909a46b2aaddccb854fd736b.png"
+    },
+    {
+      "cycle": "mobile",
+      "url": "https://beemo.tistory.com/m/72?qa_mobile=1535",
+      "vision": "PASS: native Tistory floating bar only; content scrollable, body images visible, tags/category present.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_657abbca117d4c90b75f1cfd85358866.png"
+    }
+  ],
+  "blocking_defects": []
+}
