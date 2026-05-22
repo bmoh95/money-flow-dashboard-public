@@ -1,0 +1,25 @@
+{
+  "checked_at": "2026-05-23T05:59:00+09:00",
+  "status": "PUBLISHED_VERIFIED_RECONCILED",
+  "note": "Initial create succeeded, then duplicate-safe update retry hit HTTP 405 on /manage/post/{id}.json. Public post was reconciled from manage/posts.json and rendered QA; no duplicate retry needed.",
+  "action": "created_new_then_reconciled",
+  "public_url": "https://beemo.tistory.com/78",
+  "post_id": "78",
+  "title": "서울커리업 구직지원금 2차, 6월 5일 전 대상 체크",
+  "category_id": "1295941",
+  "category_name": "돈관리·구매체크",
+  "visibility": "PUBLIC",
+  "upload_count": 3,
+  "public_checks": {
+    "http": 200,
+    "title_found": true,
+    "body_img_count": 13,
+    "source_links_found": true,
+    "forbidden_work_notes": false,
+    "og_image_status": "non_default_thumbnail_verified",
+    "mobile_http": 200,
+    "mobile_title_found": true,
+    "mobile_og_image_status": "non_default_thumbnail_verified"
+  },
+  "signed_query_params_redacted_in_this_artifact": true
+}

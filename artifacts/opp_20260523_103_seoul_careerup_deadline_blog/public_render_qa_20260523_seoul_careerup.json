@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-05-23T05:59:00+09:00",
+  "public_url": "https://beemo.tistory.com/78",
+  "post_id": "78",
+  "title": "서울커리업 구직지원금 2차, 6월 5일 전 대상 체크",
+  "category": "돈관리·구매체크",
+  "category_id": "1295941",
+  "status": "public_visual_qa_passed",
+  "desktop_render": {
+    "title_found": true,
+    "category_found": true,
+    "body_work_notes_forbidden_hits": [],
+    "source_links_found": [
+      {
+        "text": "서울특별시 · 2026년 서울커리업 구직지원금 지원 대상자 2차 모집 공고",
+        "href": "https://job.seoul.go.kr/hmpg/comm/file/fileDownLoad.do?file_no=51BCDF67CEFC0474E063C0A8A028CA8E"
+      },
+      {
+        "text": "서울커리업 프로젝트 · 구직지원금 신청 안내",
+        "href": "https://project.seoulcareerup.or.kr/swm/jobseek/main.do?menu_no=02020100"
+      }
+    ],
+    "figures": [
+      {
+        "alt": "서울커리업 구직지원금 2차 6월 5일 대상 체크",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 675,
+        "computedHeight": "416.25px",
+        "imgToCaptionPx": 7,
+        "captionToNextPx": 24
+      },
+      {
+        "alt": "서울커리업 구직지원금 2차 신청 대상 5초 판정표",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 675,
+        "computedHeight": "416.25px",
+        "imgToCaptionPx": 7,
+        "captionToNextPx": 24
+      },
+      {
+        "alt": "서울커리업 구직지원금 신청 전 공고문 회원가입 서류 온라인 신청 순서",
+        "complete": true,
+        "naturalWidth": 1200,
+        "naturalHeight": 675,
+        "computedHeight": "416.25px",
+        "imgToCaptionPx": 7,
+        "captionToNextPx": 20
+      }
+    ],
+    "vision_verdict": "PASS: 제목/카테고리/본문/이미지 3장/이미지 내부 한글/캡션 간격 정상, raw markdown 또는 작업노트 누출 없음."
+  },
+  "mobile_render": {
+    "mobile_url": "https://beemo.tistory.com/m/78",
+    "title_found": true,
+    "body_images_loaded": true,
+    "native_actionbar_initial_note": "첫 모바일 캡처에서 네이티브 액션바 겹침이 보였으나 centered-scroll 재검사에서 핵심 이미지 텍스트를 지속적으로 가리는 blocker가 아님을 확인.",
+    "centered_scroll_verdict": "PASS",
+    "vision_verdict": "PASS: 첫 카드 핵심 텍스트가 모두 읽히며 Tistory 액션바는 지속 blocking issue가 아님."
+  },
+  "og_thumbnail": {
+    "og_image_status": "non_default_thumbnail_verified",
+    "thumbnail_http": 200,
+    "thumbnail_bytes": 63915,
+    "signed_query_params_redacted_in_this_artifact": true
+  },
+  "source_grounding": {
+    "official_recheck_file": "source_recheck_20260523_seoul_careerup.json",
+    "required_hits_passed": true,
+    "sales_cta_absent": true,
+    "free_validation_only": true
+  }
+}

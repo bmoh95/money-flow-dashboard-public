@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-05-23T05:54:03+09:00",
+  "font": "Pretendard OTF explicit regular/medium/semibold/bold; Apple SD Gothic Neo fallback only",
+  "files": [
+    {
+      "file": "01-seoul-careerup-deadline-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 97833
+    },
+    {
+      "file": "02-seoul-careerup-eligibility-check.png",
+      "width": 1200,
+      "height": 675,
+      "size": 123811
+    },
+    {
+      "file": "03-seoul-careerup-apply-order.png",
+      "width": 1200,
+      "height": 675,
+      "size": 115838
+    },
+    {
+      "file": "seoul_careerup_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 82850
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate Korean line breaks",
+    "distinct jobs: thumbnail/eligibility/action order",
+    "short dividers only",
+    "footer clearance",
+    "no sales CTA"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_103_seoul_careerup_deadline_blog/assets/seoul_careerup_contact_sheet.jpg"
+}
