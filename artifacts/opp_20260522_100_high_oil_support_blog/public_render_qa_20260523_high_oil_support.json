@@ -1,0 +1,42 @@
+{
+  "checked_at": "2026-05-23T02:35:00+09:00",
+  "status": "public_render_qa_passed",
+  "public_url": "https://beemo.tistory.com/76",
+  "post_id": "76",
+  "cycles": [
+    {
+      "name": "http_manage_mobile_og_verify",
+      "status": "passed",
+      "source": "tistory_publish_result_20260523_high_oil_support_public_safe.json",
+      "checks": [
+        "public HTTP 200",
+        "title found",
+        "categoryId != 0",
+        "3 uploaded body image filenames found",
+        "non-default og:image and twitter/mobile OG",
+        "official source links present",
+        "forbidden work-note strings absent"
+      ]
+    },
+    {
+      "name": "desktop_browser_visual_qa",
+      "status": "passed",
+      "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_b8a53719ae9a438396f6b12092f55f70.png",
+      "notes": "Title/category/date visible; first-screen hook strong; all three body cards readable; captions/table/summary boxes render cleanly; no raw Markdown or work notes."
+    },
+    {
+      "name": "mobile_browser_visual_qa_centered_recheck",
+      "status": "passed",
+      "initial_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_94f7d42094c9469b9bd00e62d1bb8577.png",
+      "centered_recheck_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_b64e1c1f790b471a92c495ab8712fc01.png",
+      "notes": "Initial mobile vision saw native fixed action bar near the first image. Centered-scroll recheck plus DOM image metrics confirmed the first figure is loaded, expanded, and readable; the bar is fixed viewport/platform UI rather than a content/image collapse blocker."
+    }
+  ],
+  "dom_image_check": {
+    "article_images": 3,
+    "all_complete": true,
+    "all_natural_size_nonzero": true,
+    "expected_dimensions": "1200x675 source PNGs"
+  },
+  "blocking_defects": []
+}

@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-05-23T02:31:52+09:00",
+  "font": "Pretendard OTF: Regular/Medium/SemiBold/Bold",
+  "files": [
+    {
+      "file": "01-high-oil-url-warning-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 94889
+    },
+    {
+      "file": "02-high-oil-amount-deadline-map.png",
+      "width": 1200,
+      "height": 675,
+      "size": 109129
+    },
+    {
+      "file": "03-high-oil-apply-use-check.png",
+      "width": 1200,
+      "height": 675,
+      "size": 127548
+    },
+    {
+      "file": "high_oil_support_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 82901
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "manual 2-line Korean breaks",
+    "thumbnail/amount/action jobs distinct",
+    "footer clearance >16px",
+    "no full-width divider crossing title"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/high_oil_support_contact_sheet.jpg"
+}

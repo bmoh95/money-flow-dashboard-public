@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-22T22:30:19+09:00",
+  "updated_at": "2026-05-23T02:39:20+09:00",
   "last_run": {
-    "run_id": "2026-05-22_2216_money-flow",
-    "started_at": "2026-05-22T22:16:26+09:00",
-    "finished_at": "2026-05-22T22:30:19+09:00",
+    "run_id": "2026-05-23_0227_money-flow",
+    "started_at": "2026-05-23T02:27:44+09:00",
+    "finished_at": "2026-05-23T02:39:20+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,33 +17,33 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/body_tistory_ready.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/01-seoul-account-privacy-deadline-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/02-seoul-account-privacy-branch.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/03-seoul-account-privacy-action-check.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_098_seoul_youth_account_privacy_deadline/assets/public_render_qa_20260522_seoul_youth_account.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/body_tistory_ready.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/01-high-oil-url-warning-thumb.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/02-high-oil-amount-deadline-map.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/03-high-oil-apply-use-check.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/public_render_qa_20260523_high_oil_support.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+        "opportunity_id": "opp_20260522_100_high_oil_support_blog",
         "decision": "GO",
-        "summary": "Attention/Cash Gate 통과: 기존 참가자 5/31 개인정보 점검 마감."
+        "summary": "Attention/Cash Gate 통과: 7/3 마감·10~60만원 손익·스미싱 주의."
       },
       {
-        "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
+        "opportunity_id": "opp_20260522_100_high_oil_support_blog",
         "decision": "GO",
         "summary": "Tistory 공개 발행 및 공개 렌더 QA 통과."
       }
     ],
-    "summary": "희망두배·꿈나래통장 기존 참가자 5/31 개인정보 점검 글을 Tistory에 공개하고 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260521_098_seoul_youth_account_privacy_deadline` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/75\n- 공식 소스 재확인, PNG 3장, 공개 렌더 QA 2회, 모바일/카테고리/썸네일 확인 완료.\n\n**시장성 판단**\n- GO: 5월31 공식 마감과 주소·연락처·전출 확인이 있는 기존 참가자 손실회피형 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "고유가 피해지원금 2차 스미싱 주의 글을 Tistory에 공개하고 tracking 전환.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260522_100_high_oil_support_blog` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/76\n- 공식 소스 재확인, PNG 3장, 공개 렌더 QA 3회, 홈 썸네일/모바일/카테고리 확인 완료.\n\n**시장성 판단**\n- GO: 7월 3일 신청 마감, 10~60만원 손익, URL 문자 스미싱 주의가 있는 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 105,
-    "active": 4,
+    "active": 3,
     "approval_needed": 1,
-    "launched": 45,
+    "launched": 46,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 56
@@ -67,21 +67,11 @@
       "next_action": "backlog/execution lane: FSC·실손24 공식 문구 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "attention_gate_strong",
-        "free_validation_only",
-        "no_sales_cta",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_insurance_advice"
+        "강한 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "무료 검증",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
@@ -233,127 +223,6 @@
       "approval_required": false
     },
     {
-      "id": "opp_20260522_100_high_oil_support_blog",
-      "key": "MF-100",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "고유가 피해지원금 2차 신청·스미싱 주의 무료 검증 글",
-      "type": "기타",
-      "owner": "기획",
-      "buyer_or_payer": "Tistory 검색 독자 / 고유가 피해지원금 신청 가능자 (직접 payer 없음)",
-      "channel": "Tistory free validation blog",
-      "quality": 92,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog/execution lane: 샘플 리듬 반영 원고 작성 → 이미지 3장 생성/QA → Tistory 품질 게이트 후 공개 발행",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE",
-        "SMISHING_RISK",
-        "FREE_VALIDATION_ONLY",
-        "NO_SALES_CTA"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "공식 마감",
-        "검토 메모"
-      ],
-      "evidence": [
-        {
-          "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906",
-          "grade": "A",
-          "summary": "행정안전부 보도자료: 5월 18일부터 7월 3일까지 국민 70%에 1인 10~25만원 지급, 신청/사용처/스미싱 주의 설명.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        },
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
-          "grade": "A",
-          "summary": "행정안전부 고유가 피해지원금 공식 업무 페이지.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        },
-        {
-          "url": "https://korea.kr/news/policyNewsView.do?newsId=148963458&pWise=main&pWiseMain=R1",
-          "grade": "A",
-          "summary": "정책브리핑: 1차 지급 개시, 취약계층 우선 지급, 공식 정책 맥락.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "Bounty lane checked first; high-attention official cash-benefit topic selected as fallback."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "A-grade official evidence, direct money impact, 2026-07-03 deadline, smishing warning."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "Planning package quality 92/100; distinct first-screen utility and image plan."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "Proceed only with official links and anti-smishing wording; no unofficial lookup URLs."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "No speculative KRW valuation; strategic free-validation asset only."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md",
-          "title": "실행 계획",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md",
-          "title": "근거",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md",
-          "title": "샘플 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md",
-          "title": "스타일 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md",
-          "title": "이미지 계획",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
-          "title": "후보 비교",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
       "id": "opp_20260522_101_gg_interview_allowance_blog",
       "key": "MF-101",
       "raw_status": "planning",
@@ -371,15 +240,10 @@
       "next_action": "6월 공식 공고/FAQ 게시 여부를 재확인한 뒤 Tistory 초안과 카드 이미지 3장을 제작한다. 사용자 승인이 아니라 다음 실행 lane의 자동 작업.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_STRONG_CANDIDATE",
-        "OFFICIAL_NOTICE_PENDING",
-        "free_validation_only",
-        "no_sales_cta"
+        "검토 메모"
       ],
       "risk_labels": [
-        "검토 메모",
-        "무료 검증",
-        "판매문구 없음"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -490,21 +354,11 @@
       "next_action": "Backlog/Execution lane에서 본문과 PNG 3장을 제작하고 Tistory 공개 전 품질·렌더 QA를 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_gate_explosive",
-        "free_validation_only",
-        "official_deadline_verified",
-        "no_sales_cta",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked"
+        "폭발 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
@@ -625,14 +479,7 @@
       "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -848,127 +695,6 @@
   ],
   "priority_queue": [
     {
-      "id": "opp_20260522_100_high_oil_support_blog",
-      "key": "MF-100",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "고유가 피해지원금 2차 신청·스미싱 주의 무료 검증 글",
-      "type": "기타",
-      "owner": "기획",
-      "buyer_or_payer": "Tistory 검색 독자 / 고유가 피해지원금 신청 가능자 (직접 payer 없음)",
-      "channel": "Tistory free validation blog",
-      "quality": 92,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog/execution lane: 샘플 리듬 반영 원고 작성 → 이미지 3장 생성/QA → Tistory 품질 게이트 후 공개 발행",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE",
-        "SMISHING_RISK",
-        "FREE_VALIDATION_ONLY",
-        "NO_SALES_CTA"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "공식 마감",
-        "검토 메모"
-      ],
-      "evidence": [
-        {
-          "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906",
-          "grade": "A",
-          "summary": "행정안전부 보도자료: 5월 18일부터 7월 3일까지 국민 70%에 1인 10~25만원 지급, 신청/사용처/스미싱 주의 설명.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        },
-        {
-          "url": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
-          "grade": "A",
-          "summary": "행정안전부 고유가 피해지원금 공식 업무 페이지.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        },
-        {
-          "url": "https://korea.kr/news/policyNewsView.do?newsId=148963458&pWise=main&pWiseMain=R1",
-          "grade": "A",
-          "summary": "정책브리핑: 1차 지급 개시, 취약계층 우선 지급, 공식 정책 맥락.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "Bounty lane checked first; high-attention official cash-benefit topic selected as fallback."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "A-grade official evidence, direct money impact, 2026-07-03 deadline, smishing warning."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "Planning package quality 92/100; distinct first-screen utility and image plan."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "Proceed only with official links and anti-smishing wording; no unofficial lookup URLs."
-        },
-        {
-          "time": "2026-05-22T11:27:37+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "No speculative KRW valuation; strategic free-validation asset only."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md",
-          "title": "실행 계획",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md",
-          "title": "근거",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md",
-          "title": "샘플 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md",
-          "title": "스타일 브리프",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md",
-          "title": "이미지 계획",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
-          "title": "후보 비교",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
       "id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "key": "MF-102",
       "raw_status": "planning",
@@ -986,21 +712,11 @@
       "next_action": "Backlog/Execution lane에서 본문과 PNG 3장을 제작하고 Tistory 공개 전 품질·렌더 QA를 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_gate_explosive",
-        "free_validation_only",
-        "official_deadline_verified",
-        "no_sales_cta",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked"
+        "폭발 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
@@ -1119,21 +835,11 @@
       "next_action": "backlog/execution lane: FSC·실손24 공식 문구 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "attention_gate_strong",
-        "free_validation_only",
-        "no_sales_cta",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_insurance_advice"
+        "강한 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "무료 검증",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
@@ -1302,15 +1008,10 @@
       "next_action": "6월 공식 공고/FAQ 게시 여부를 재확인한 뒤 Tistory 초안과 카드 이미지 3장을 제작한다. 사용자 승인이 아니라 다음 실행 lane의 자동 작업.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_STRONG_CANDIDATE",
-        "OFFICIAL_NOTICE_PENDING",
-        "free_validation_only",
-        "no_sales_cta"
+        "검토 메모"
       ],
       "risk_labels": [
-        "검토 메모",
-        "무료 검증",
-        "판매문구 없음"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -1420,9 +1121,54 @@
   },
   "recent_events": [
     {
+      "time": "2026-05-22T12:16:23+09:00",
+      "run_id": "2026-05-22_1206_money-flow",
+      "agent": "장부/대시보드",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": null,
+      "reason_code": null,
+      "summary": "Patched money-flow skill: public mirror pushes must scan/sanitize existing dashboard/stage artifacts for raw or percent-encoded signed Tistory/Kakao URL query params before git push.",
+      "links": [
+        "skill:money-flow"
+      ]
+    },
+    {
       "time": "2026-05-22T12:51:46+09:00",
       "run_id": "2026-05-22_1218_money-flow",
-      "agent": "redteam",
+      "agent": "제작",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": "quality_backlog",
+      "to_status": "public_update_prepared",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "post 46 기존 본문 백업, 신뢰 출처 재확인, 독자용 HTML 및 Apple SD Gothic Neo 카드 이미지 3장 생성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar"
+      ]
+    },
+    {
+      "time": "2026-05-22T12:51:46+09:00",
+      "run_id": "2026-05-22_1218_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": null,
+      "event": "launched",
+      "from_status": "public_update_prepared",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "post 46 Tistory 업데이트 및 공개 URL 3-cycle HTTP QA 통과.",
+      "links": [
+        "https://beemo.tistory.com/46"
+      ]
+    },
+    {
+      "time": "2026-05-22T12:51:46+09:00",
+      "run_id": "2026-05-22_1218_money-flow",
+      "agent": "리스크 검토",
       "opportunity_id": null,
       "event": "decision",
       "from_status": "tracking",
@@ -1437,7 +1183,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "discovered",
       "from_status": null,
@@ -1452,7 +1198,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "decision",
       "from_status": "discovered",
@@ -1467,7 +1213,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "planning_member",
+      "agent": "기획",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "asset_created",
       "from_status": "planning",
@@ -1486,7 +1232,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "planning_lead",
+      "agent": "기획 검수",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "decision",
       "from_status": "planning",
@@ -1501,7 +1247,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "decision",
       "from_status": "planning",
@@ -1514,7 +1260,7 @@
     {
       "time": "2026-05-22T14:50:27+09:00",
       "run_id": "2026-05-22_1434_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260522_101_gg_interview_allowance_blog",
       "event": "decision",
       "from_status": "planning",
@@ -1527,7 +1273,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "decision",
       "from_status": "planning",
@@ -1543,7 +1289,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "asset_created",
       "from_status": "planning",
@@ -1558,7 +1304,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1573,7 +1319,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1588,7 +1334,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1603,7 +1349,7 @@
     {
       "time": "2026-05-22T15:47:44+09:00",
       "run_id": "2026-05-22_1535_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "status_changed",
       "from_status": "planning",
@@ -1618,7 +1364,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "discovered",
       "from_status": null,
@@ -1633,7 +1379,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "research_member",
+      "agent": "리서치",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": null,
@@ -1649,7 +1395,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": "researching",
@@ -1665,7 +1411,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "planning_member",
+      "agent": "기획",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": null,
@@ -1681,7 +1427,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "planning_lead",
+      "agent": "기획 검수",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": null,
@@ -1697,7 +1443,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": null,
@@ -1713,7 +1459,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "decision",
       "from_status": null,
@@ -1729,7 +1475,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "asset_created",
       "from_status": null,
@@ -1742,7 +1488,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "asset_created",
       "from_status": null,
@@ -1755,7 +1501,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "asset_created",
       "from_status": null,
@@ -1768,7 +1514,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "asset_created",
       "from_status": null,
@@ -1781,7 +1527,7 @@
     {
       "time": "2026-05-22T18:04:35+09:00",
       "run_id": "2026-05-22_1755_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260522_102_youth_culture_pass_deadline_blog",
       "event": "asset_created",
       "from_status": null,
@@ -1794,7 +1540,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
       "from_status": "planning",
@@ -1810,7 +1556,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "asset_created",
       "from_status": "planning",
@@ -1825,7 +1571,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1840,7 +1586,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1855,7 +1601,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "decision",
       "from_status": "execution",
@@ -1870,7 +1616,7 @@
     {
       "time": "2026-05-22T19:05:55+09:00",
       "run_id": "2026-05-22_1853_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
       "event": "status_changed",
       "from_status": "planning",
@@ -1885,13 +1631,13 @@
     {
       "time": "2026-05-22T21:22:10+09:00",
       "run_id": "2026-05-22_2115_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": null,
       "event": "decision",
       "from_status": null,
       "to_status": null,
       "decision": "NO-GO",
-      "reason_code": "PAYMENT_UNCLEAR",
+      "reason_code": "지급 불명확",
       "summary": "새 작업 scout: bounty 49개 재필터링 후 GO/HOLD 0개, 블로그 대안은 active backlog 대비 기회비용으로 새 opportunity 생성 안 함.",
       "links": [
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/candidate_outcomes.json",
@@ -1901,7 +1647,7 @@
     {
       "time": "2026-05-22T21:22:10+09:00",
       "run_id": "2026-05-22_2115_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": null,
       "event": "asset_created",
       "from_status": null,
@@ -1917,7 +1663,7 @@
     {
       "time": "2026-05-22T21:28:01+09:00",
       "run_id": "2026-05-22_2115_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": null,
       "event": "asset_created",
       "from_status": null,
@@ -1932,7 +1678,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "research_lead",
+      "agent": "시장성 검토",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "decision",
       "from_status": "planning",
@@ -1947,7 +1693,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "execution_member",
+      "agent": "제작",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "asset_created",
       "from_status": "planning",
@@ -1962,7 +1708,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "execution_lead",
+      "agent": "제작 검수",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "decision",
       "from_status": "execution",
@@ -1977,7 +1723,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "redteam",
+      "agent": "리스크 검토",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "decision",
       "from_status": "execution",
@@ -1992,7 +1738,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "roi",
+      "agent": "수익성 검토",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "decision",
       "from_status": "execution",
@@ -2007,7 +1753,7 @@
     {
       "time": "2026-05-22T22:30:19+09:00",
       "run_id": "2026-05-22_2216_money-flow",
-      "agent": "ledger_dashboard_manager",
+      "agent": "장부/대시보드",
       "opportunity_id": "opp_20260521_098_seoul_youth_account_privacy_deadline",
       "event": "status_changed",
       "from_status": "planning",
@@ -2017,6 +1763,112 @@
       "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
       "links": [
         "https://beemo.tistory.com/75"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사: 7/3 공식 신청 마감, 10~60만원 손익, URL 스미싱 주의로 폭발 후보 유지.",
+      "links": [
+        "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906",
+        "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "제작",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "본문 HTML과 1200x675 PNG 3장 생성, Tistory 공개 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/76"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "출시",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "launched",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개 URL 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/76"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 3회, 홈 썸네일, 모바일 centered-scroll QA, categoryId 1295941, OG/이미지 3장 확인.",
+      "links": [
+        "https://beemo.tistory.com/76"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "지원금 수령 보장·비공식 대상조회 URL·유료 CTA 없음.",
+      "links": [
+        "https://beemo.tistory.com/76"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
+      "links": [
+        "https://beemo.tistory.com/76"
+      ]
+    },
+    {
+      "time": "2026-05-23T02:39:20+09:00",
+      "run_id": "2026-05-23_0227_money-flow",
+      "agent": "장부/대시보드",
+      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
+      "event": "status_changed",
+      "from_status": "planning",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
+      "links": [
+        "https://beemo.tistory.com/76"
       ]
     }
   ],
@@ -2482,9 +2334,7 @@
       "next_action": "폐기. 같은 'full system prompt 공개' 조건의 UnsafeLabs/Bounty-Hunters 바운티는 자동 스킵 후보로 재사용.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "system_prompt_disclosure_required",
-        "policy_and_security_risk",
-        "low_trust_bounty_terms"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -2559,10 +2409,7 @@
       "next_action": "폐기. 민감 AWS/IAM/S3·신분증 업로드 복구형 바운티는 사전 권한/안전 범위가 명확하지 않으면 자동 제외.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "sensitive_aws_security_scope",
-        "civil_id_upload_flow",
-        "requires_secret_owner_coordination",
-        "high_operational_liability"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -2651,14 +2498,7 @@
       "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -2889,12 +2729,8 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 학원 상담·마감·보강 안내 문구 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "avoid_education_outcome_guarantees",
-        "crowded_free_templates",
-        "school_context_varies",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -3120,13 +2956,8 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 쇼핑몰·배달 매출자료 정리표 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "platform_ui_changes",
-        "seasonal_window",
-        "tax_advice_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -3352,14 +3183,8 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "consumer_law_wording_softened",
-        "paid_conversion_unproven",
-        "platform_policy_variance",
-        "platform_policy_wording_softened",
-        "seasonal_keyword_competition",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -3585,13 +3410,7 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "center_policy_variance",
-        "center_policy_variance_noted",
-        "crowded_free_message_examples",
-        "paid_conversion_unproven",
-        "refund_contract_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -3795,13 +3614,8 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 스터디카페 운영 공지·문자 템플릿 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "crowded_free_notice_templates",
-        "paid_conversion_unproven",
-        "public_url_verified",
-        "refund_freeze_wording_softened",
-        "store_policy_variance",
-        "store_policy_variance_noted",
-        "tistory_published"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -4004,9 +3818,7 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 세탁소·빨래방 접수/클레임/수거배달 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "crowded_free_notice_templates",
-        "store_policy_variance",
-        "paid_conversion_unproven"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -4214,8 +4026,7 @@
       "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업체별 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -4423,9 +4234,7 @@
       "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업종별 휴무 공지 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "monitor_search_response",
-        "naver_ui_change_risk_softened"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -4627,14 +4436,8 @@
       "next_action": "공개 글 유입/검색 반응만 추적. 이미지·대표이미지·OG 검증은 완료됨.",
       "stop_reason": "",
       "risk_flags": [
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_logged_in_profile2_confirmed",
-        "tistory_published",
-        "public_url_verified",
-        "tistory_thumbnail_verified",
-        "image_typography_fixed",
-        "monitor_search_response"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -4921,12 +4724,7 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색/유입 반응을 추적하고, 유료 전환은 사용자 판매 재개 전까지 보류.",
       "stop_reason": "",
       "risk_flags": [
-        "allergy_wording_softened",
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_profile2_direct_api_publish_verified",
-        "tistory_visual_qa_passed_public",
-        "tistory_thumbnail_png_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -5219,14 +5017,10 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 공개 URL/제목/본문 PNG 3장/og:image 확인됨. 검색 유입·반응 추적 단계.",
       "stop_reason": "",
       "risk_flags": [
-        "free_template_competition",
-        "medical_wording_softened",
-        "personal_data_placeholder_removed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published",
-        "tracking_search_response",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -5496,16 +5290,8 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 방학 안내문·긴급보육 안내 자료 보강 여부만 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "institution_policy_variation",
-        "free_template_competition",
-        "seasonal_window_short",
-        "personal_data_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified",
-        "institution_policy_wording_softened"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -5748,13 +5534,8 @@
       "stop_reason": "",
       "risk_flags": [
         "무료 대체재가 많아 유료 전환은 검증 후 판단",
-        "refund_deposit_wording_softened",
-        "platform_policy_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified"
+        "검토 메모",
+        "공개 URL 확인"
       ],
       "risk_labels": [
         "무료 대체재가 많아 유료 전환은 검증 후 판단",
@@ -5982,17 +5763,8 @@
       "next_action": "공개 게시 완료. 무료 검증 글로 유입/반응 추적.",
       "stop_reason": "",
       "risk_flags": [
-        "activation_lock_wording_softened",
-        "apple_official_fact_check_done",
-        "body_images_3_verified",
-        "public_body_images_3_dom_verified",
-        "public_url_verified",
-        "thumbnail_og_verified",
-        "tistory_list_thumbnail_real_verified",
-        "tistory_published",
-        "tistory_thumbnail_png_ready",
-        "tistory_visual_qa_passed_local",
-        "used_trade_scam_wording_softened",
+        "검토 메모",
+        "공개 URL 확인",
         "중고거래 법률/사기 단정 표현 주의",
         "콘텐츠 판매 중지 상태: 무료 블로그만 허용"
       ],
@@ -6214,14 +5986,12 @@
       "next_action": "계산기 본문 삽입 및 공개 렌더링 검증 완료. 이후 조회/유입 변화 추적.",
       "stop_reason": "",
       "risk_flags": [
-        "calculator_asset_ready",
-        "calculator_embedded_verified",
-        "free_calculator_competition",
-        "no_paid_cta",
-        "published_free_validation"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "검토 메모"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -6437,27 +6207,14 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 유의미한 반응이 생기면 폐업 자료 체크시트/계산 보조 도구 개선 여부를 재평가.",
       "stop_reason": "",
       "risk_flags": [
-        "no_paid_cta",
-        "long_term_seo_asset",
-        "tax_wording_softened",
-        "official_source_check_completed",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "uploaded_png_thumbnail_verified",
-        "published_free_validation",
-        "public_visual_qa_failed_then_fixed",
-        "korean_title_linebreak_fixed",
-        "tistory_images_reuploaded_verified",
-        "tistory_image_spacing_fixed",
-        "visual_spacing_qa_required_added",
-        "internal_card_spacing_fixed",
-        "internal_spacing_qa_required_added",
-        "title_line_collision_fixed",
-        "footer_border_collision_fixed",
-        "card_collision_qa_required_added"
+        "판매문구 없음",
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
+        "판매문구 없음",
         "검토 메모",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -6691,11 +6448,7 @@
       "next_action": "다음 cash bounty scout에서 경쟁 PR이 적고 payout rail이 명확한 micro-bounty를 재탐색. 이번 후보들은 코딩/claim/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_payout_rails",
-        "system_prompt_disclosure_risk",
-        "secret_or_payment_provider_testing_risk",
-        "broad_acceptance_criteria"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -6821,11 +6574,7 @@
       "next_action": "다음 bounty scout에서 linked PR이 없고 payout rail·acceptance criteria가 명확한 cash/platform micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_or_wallet_payout",
-        "broad_acceptance_criteria",
-        "external_instance_or_secret_testing_burden",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -6962,11 +6711,7 @@
       "next_action": "다음 bounty scout에서 최근 생성·경쟁 PR 없음·cash/platform payout 명확·검증 로컬 가능 조건의 micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "wallet_or_payment_user_burden",
-        "external_marketing_reputation_risk",
-        "broad_acceptance_criteria",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7115,11 +6860,7 @@
       "next_action": "다음 bounty scout에서 최근 생성·경쟁 PR 없음·cash/platform payout 명확·로컬 검증 가능 조건의 micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_payment_rail",
-        "content_or_video_user_burden",
-        "prompt_exposure_risk",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7262,11 +7003,7 @@
       "next_action": "다음 scout에서 comments<5, open competing PR 없음, cash/platform payout 명확, 로컬 테스트 가능한 micro-bounty를 우선 재검색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "subjective_acceptance",
-        "token_or_unclear_payout",
-        "external_tool_or_hardware_validation",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7421,11 +7158,7 @@
       "next_action": "다음 scout에서 comments<5, competing PR 없음, cash/platform payout과 claim rules가 명확하고 로컬 테스트 가능한 micro-bounty를 우선 재검색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "instruction_leakage_required",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "bot_like_bounty_repo",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7575,11 +7308,7 @@
       "next_action": "다음 scout에서 CONTRIBUTING/README payout warning을 먼저 확인하고, comments<5·competing PR 없음·cash/platform payout 명확 후보만 preflight/plan으로 승격. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "symbolic_bounty_repo",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "finalized_existing_pr",
-        "demo_or_external_service_burden"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7729,11 +7458,7 @@
       "next_action": "다음 scout에서는 IssueHunt/Algora/Opire 중 comments<5, competing PR 없음, cash/platform payout 명확, maintainer 경고 없는 후보만 preflight/plan 승격.",
       "stop_reason": "지급 불명확",
       "risk_flags": [
-        "symbolic_bounty_repo",
-        "crypto_or_unclear_payout",
-        "crowded_competing_prs",
-        "internal_or_existing_solution",
-        "maintainer_friction"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -7871,12 +7596,7 @@
       "next_action": "다음 scout에서 comments<5라도 open PR/issue comments로 선점 여부를 먼저 필터링하고, cash/platform payout 명확 후보만 GO 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_rewarded_or_claimed",
-        "token_or_wallet_payout",
-        "role_restricted_start",
-        "outreach_spam_risk",
-        "low_reward_ev"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8020,13 +7740,7 @@
       "next_action": "다음 scout는 Algora/Polar/IssueHunt에서 cash/platform 지급이 명시되고 comments/PR 경쟁이 낮은 micro-doc 또는 focused test/code 후보를 우선 검색.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "symbolic_not_paid_warning",
-        "token_or_wallet_payout",
-        "prompt_disclosure_risk",
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "unclear_payout_or_stake_required",
-        "broad_scope"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8191,13 +7905,7 @@
       "next_action": "다음 scout는 최근 생성된 cash/platform micro-doc 또는 focused test/code bounty 중 comments/PR 경쟁이 낮고 PR route가 정상인 후보만 우선 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "competing_or_submitted_prs",
-        "token_or_wallet_payout",
-        "stake_required",
-        "prompt_disclosure_risk",
-        "pull_request_route_unusable",
-        "large_scope_or_low_reward",
-        "subjective_acceptance"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8362,12 +8070,7 @@
       "next_action": "다음 scout에서 comments/open PR 수가 낮고 assignment 없음 + cash/platform payout이 명확한 issue만 GO 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_claimed_or_assigned",
-        "wallet_or_assignment_unclear",
-        "large_scope",
-        "low_reward_ev",
-        "outreach_spam_risk"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8529,12 +8232,7 @@
       "next_action": "다음 scout에서 comments/open PR 수가 낮고 assignment 제한이 없으며 cash/platform payout과 acceptance criteria가 명확한 micro-bounty만 GO 검토. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "assignment_or_wallet_flow",
-        "unclear_acceptance_criteria",
-        "broad_scope",
-        "subjective_acceptance",
-        "stale_or_uncertain_payout"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8672,11 +8370,7 @@
       "next_action": "다음 bounty scout에서 comments/open PR 수가 낮고 assignment·wallet·민감정보 노출 요구가 없으며 cash/platform payout과 acceptance criteria가 명확한 후보만 GO 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "privacy_sensitive_contributor_headers",
-        "unclear_assignment_or_external_coordination",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8820,11 +8514,7 @@
       "next_action": "다음 bounty scout에서 comments/open PR 수가 낮고 wallet·stake·민감정보 노출 요구가 없으며 cash/platform payout과 acceptance criteria가 명확한 후보만 GO 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "sensitive_session_disclosure",
-        "oauth_or_external_api_demo_burden",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -8974,12 +8664,7 @@
       "next_action": "다음 scout는 comments<10, matching open PR≤1, cash/platform payout 명시, 로컬 테스트 가능 micro-bounty만 우선 필터링. GitHub API rate limit 회복 후 재검색.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "demo_or_paid_service_required",
-        "benchmark_environment_required",
-        "low_approval_odds",
-        "broad_scope_small_payout"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -9162,11 +8847,7 @@
       "next_action": "다음 scout는 CONTRIBUTING/README에 non-payment 또는 symbolic 고지가 없는 후보, matching open PR 0~1건, Algora/Opire 공식 댓글 또는 플랫폼 링크가 있는 후보만 우선 필터링.",
       "stop_reason": "지급 불명확",
       "risk_flags": [
-        "symbolic_or_unclear_payment",
-        "crowded_competing_prs",
-        "unsafe_prompt_disclosure_request",
-        "scope_too_large_for_reward",
-        "claim_path_unclear"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -9337,12 +9018,7 @@
       "next_action": "다음 scout는 공식 플랫폼 지급, matching open PR 0건, 미응답 claim 없음, 테스트 재현 가능, reward 대비 2~4시간 내 완료 가능 후보만 GO 검토.",
       "stop_reason": "중복",
       "risk_flags": [
-        "existing_claims_or_prs",
-        "unanswered_availability_confirmation",
-        "unofficial_pledge",
-        "ambiguous_payout",
-        "scope_too_large_for_reward",
-        "low_margin_micro_bounty"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -9519,11 +9195,7 @@
       "next_action": "다음 신규 scout는 공식 지급액/claim 상태/PR 경쟁이 명확한 bounty 또는 기존 블로그 축과 겹치지 않는 무료 검증 주제만 GO 검토.",
       "stop_reason": "중복",
       "risk_flags": [
-        "duplicate_pr_or_claim",
-        "unclear_payout_terms",
-        "high_editorial_burden",
-        "duplicate_tax_blog_angle",
-        "weak_cash_distance"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -9683,12 +9355,7 @@
       "next_action": "다음 scout는 공식 cash/platform 지급, 동일 목적 open PR 0건, prompt/secret 공개 요구 없음, 2~4시간 내 테스트 가능한 후보만 GO 검토.",
       "stop_reason": "중복",
       "risk_flags": [
-        "duplicate_open_prs",
-        "crowded_attempts",
-        "crypto_or_btc_payment",
-        "preconversation_instruction_disclosure_request",
-        "external_marketing_required",
-        "stale_or_low_activity_repo"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -9859,12 +9526,9 @@
       "next_action": "공개 글 유입/검색 반응 추적. 세무 기준 변경 가능성이 있어 추후 공식 안내 변동만 재확인.",
       "stop_reason": "",
       "risk_flags": [
-        "tax_information_must_be_softened",
-        "no_paid_cta_current_mode",
-        "tax_disclaimer_included",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모",
+        "시각 QA 통과",
+        "카테고리 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -10071,11 +9735,11 @@
       "next_action": "다음 scout에서 공식 cash/platform 지급, 무경쟁, 좁은 acceptance criteria 후보 재탐색",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "LOW_MARGIN",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED"
+        "중복",
+        "마진 약함",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "검토 메모"
       ],
       "risk_labels": [
         "중복",
@@ -10183,12 +9847,7 @@
       "next_action": "폐기. 향후 OWASP-BLT류는 assignee/friend mention/Sponsors profile/peer-review requirement를 PR 전 필수 체크.",
       "stop_reason": "사용자 부담 높음",
       "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "assigned_to_other_user",
-        "friend_mention_required",
-        "github_sponsors_profile_required"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -10315,13 +9974,9 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 국세청 기준 변경 시 업데이트.",
       "stop_reason": "",
       "risk_flags": [
-        "tax_disclaimer_included",
-        "no_paid_cta_current_mode",
-        "official_sources_rechecked",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation"
+        "검토 메모",
+        "시각 QA 통과",
+        "카테고리 확인"
       ],
       "risk_labels": [
         "검토 메모",
@@ -10637,10 +10292,7 @@
       "next_action": "PR #6447 리뷰/자동화 상태 모니터링. 친구 멘션/Sponsors 프로필 등 사용자·외부 조치는 자동 진행하지 않음.",
       "stop_reason": "사용자 부담 높음",
       "risk_flags": [
-        "micro_payout",
-        "new_contributor_gate",
-        "friend_mention_required",
-        "sponsors_profile_may_be_required"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -10743,18 +10395,14 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 종합소득세·지방소득세 확인 수요가 있으면 체크시트/계산 보조 자료 보강 여부를 재평가.",
       "stop_reason": "",
       "risk_flags": [
-        "tax_wording_softened",
-        "official_source_links_included",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 링크 포함",
         "공개 URL 확인",
         "시각 QA 통과",
         "카테고리 확인",
@@ -10963,11 +10611,7 @@
       "next_action": "다음 bounty scout에서 Space and Time coverage처럼 병렬 허용되는 후보는 작은 미점유 테스트 slice를 먼저 식별한 뒤 GO 재평가.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "crowded_competing_prs",
-        "assigned_to_other_user",
-        "unclear_payout",
-        "broad_feature_scope",
-        "approval_odds_low"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -11105,17 +10749,13 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고 고용보험료 지원 검색 수요가 유지되면 공식 조건 변경 여부만 주기 확인.",
       "stop_reason": "",
       "risk_flags": [
-        "official_source_links_included",
-        "benefit_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
-        "공식 링크 포함",
         "검토 메모",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -11345,12 +10985,12 @@
       "next_action": "다음 bounty scout에서 Space and Time류 병렬 coverage는 먼저 미점유 파일/라인을 coverage 리포트와 open PR file-list로 확인하고, 그 외에는 공식 cash/platform + 경쟁 PR 0건 후보만 구현 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "HIGH_RISK",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "위험 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -11487,20 +11127,16 @@
       "next_action": "공개 글 검색 유입/반응 추적. 직접 매출 없음.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "no_paid_cta",
-        "official_source_links_included",
-        "legal_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "판매문구 없음",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
-        "무료 검증",
         "검토 메모",
-        "공식 링크 포함",
+        "판매문구 없음",
         "공개 URL 확인",
         "시각 QA 통과",
         "카테고리 확인",
@@ -11723,11 +11359,11 @@
       "next_action": "다음 bounty scout는 공식 cash/platform + 경쟁 PR 0건 + 참여자격 제한 없음 + 좁은 acceptance 후보만 구현 검토. $1 micro-bounty도 계속 허용하되 선점 여부를 먼저 본다.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "HIGH_USER_INPUT",
-        "HIGH_RISK",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "사용자 부담 높음",
+        "위험 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -11857,19 +11493,12 @@
       "next_action": "공개 게시 완료. Tistory 유입/검색 반응 추적.",
       "stop_reason": "",
       "risk_flags": [
-        "tax_advice_risk",
-        "free_validation_only",
-        "tistory_upload_verified",
-        "local_visual_qa_passed",
-        "tax_caveat_softened",
-        "tistory_quota_rechecked",
-        "published_to_tistory",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모",
+        "시각 QA 통과",
+        "카테고리 확인"
       ],
       "risk_labels": [
         "검토 메모",
-        "무료 검증",
         "시각 QA 통과",
         "카테고리 확인"
       ],
@@ -12119,12 +11748,11 @@
       "next_action": "UnsafeLabs 계열은 prompt/provenance/session initialization 공개 요구가 사라지기 전까지 구현/PR 금지.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "AUTH_BLOCKED",
-        "DUPLICATE",
-        "REDTEAM_REJECTED",
-        "PAYMENT_UNCLEAR",
-        "SYSTEM_PROMPT_DISCLOSURE_REQUIRED",
-        "HIGH_RISK"
+        "인증 필요",
+        "중복",
+        "검토 메모",
+        "지급 불명확",
+        "위험 높음"
       ],
       "risk_labels": [
         "인증 필요",
@@ -12261,20 +11889,11 @@
       "next_action": "Tistory 공개 게시 완료. 공개 URL/본문 이미지 3장/OG 이미지/세금·장부 카테고리/이미지-캡션-본문 간격 QA 통과. 다음은 유입 추적.",
       "stop_reason": "",
       "risk_flags": [
-        "tax_advice_risk",
-        "free_validation_only",
-        "category_tax_bookkeeping",
-        "tax_caveat_softened",
-        "local_visual_qa_passed",
-        "dashboard_artifact_verified",
-        "tistory_upload_verified",
-        "public_published_verified",
-        "public_visual_qa_passed",
-        "tistory_category_verified"
+        "검토 메모",
+        "시각 QA 통과"
       ],
       "risk_labels": [
         "검토 메모",
-        "무료 검증",
         "시각 QA 통과"
       ],
       "evidence": [
@@ -12576,11 +12195,7 @@
       "next_action": "폐기. 재제출하지 않음; acceptance criteria 미충족 판정으로 현 PR 수익화 실패.",
       "stop_reason": "검토 메모",
       "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "demo_video_requirement_softened",
-        "algora_payout_profile_may_be_needed"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -12714,12 +12329,12 @@
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "HIGH_RISK",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "위험 높음",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -12850,12 +12465,12 @@
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "NO_EVIDENCE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "근거 부족",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -12986,24 +12601,15 @@
       "next_action": "공개 게시 완료. 2~4주 뒤 검색 유입/체류/관련 문의를 확인해 유사 세금·장부 글 확장 여부 판단.",
       "stop_reason": "",
       "risk_flags": [
-        "category_verified",
-        "dashboard_artifact_prepared",
-        "free_validation_only",
-        "local_visual_qa_passed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "published_free_validation",
-        "refund_terms_change_risk",
-        "tax_advice_risk",
-        "tax_caveat_softened",
-        "tistory_published",
-        "tistory_upload_verified",
-        "uploaded_png_thumbnail_verified"
+        "카테고리 확인",
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "카테고리 확인",
         "검토 메모",
-        "무료 검증",
         "공개 URL 확인",
         "시각 QA 통과",
         "PNG 썸네일 확인"
@@ -13321,12 +12927,12 @@
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_RISK",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "위험 높음",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -13457,11 +13063,11 @@
       "next_action": "다음 scout에서 #827은 contracts exported Schema 범위를 더 깊게 산정해 완전 커버 가능하면 재검토. 그 외에는 경쟁 PR 0건·작은 acceptance·cash/platform 후보만 자동 구현.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -13597,11 +13203,11 @@
       "next_action": "다음 scout에서는 댓글/PR 과밀이 낮고, /start 자격 제한이 없고, 외부 계정·지갑·개인정보 없이 테스트 가능한 cash/platform micro-bounty만 자동 구현 후보로 승격.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -13737,17 +13343,12 @@
       "next_action": "공개 글 유입/검색 반응 추적. 반복 세무 단정 표현 여부는 추후 업데이트 때 재확인.",
       "stop_reason": "",
       "risk_flags": [
-        "category_verified",
-        "free_validation_only",
-        "official_source_rechecked",
-        "public_visual_qa_passed",
-        "tax_advice_risk",
-        "tax_wording_softened",
-        "tistory_published"
+        "카테고리 확인",
+        "검토 메모",
+        "시각 QA 통과"
       ],
       "risk_labels": [
         "카테고리 확인",
-        "무료 검증",
         "검토 메모",
         "시각 QA 통과"
       ],
@@ -13953,12 +13554,11 @@
       "next_action": "다음 bounty scout는 댓글/PR 과밀이 낮고, /attempt 또는 claim 조건이 명확하며, wallet/Upwork/IssueHunt 별도 계정 없이 GitHub PR만으로 제출 가능한 cash/platform micro-bounty를 우선 탐색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "NO_CHANNEL",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "검토 메모",
+        "사용자 부담 높음",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -14094,12 +13694,11 @@
       "next_action": "다음 bounty scout는 경쟁 PR 0건, 작은 acceptance, cash/platform claim 명확, external account/profile 부담 없는 micro-bounty를 우선 탐색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "NO_CHANNEL",
-        "HIGH_USER_INPUT",
-        "HIGH_RISK",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "검토 메모",
+        "사용자 부담 높음",
+        "위험 높음",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -14235,9 +13834,7 @@
       "next_action": "다음 scout에서 cash/platform bounty 5건 이상 재검색. 현재 후보들은 재시도하지 않음 unless 경쟁/지급 상태 변화.",
       "stop_reason": "중복",
       "risk_flags": [
-        "duplicate_pr_competition",
-        "payment_unclear_candidates",
-        "security_sensitive_candidate_skipped"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -14361,18 +13958,13 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고 세금·행정서류 콘텐츠군 내부링크 보강 여부를 재평가.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "official_source_rechecked",
-        "wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
-        "무료 검증",
         "검토 메모",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -14638,12 +14230,12 @@
       "next_action": "다음 scout에서 comments/open PR 낮고 acceptance가 1~2파일로 좁으며 cash/platform claim 경로가 명확한 후보만 자동 구현 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_RISK",
-        "NO_EVIDENCE",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "위험 높음",
+        "근거 부족",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -14786,13 +14378,13 @@
       "next_action": "다음 scout에서 core/admin 제한 없는 platform-mediated bounty, 직접 경쟁 PR 0~1개, acceptance가 1~2파일로 좁은 후보만 자동 구현 검토.",
       "stop_reason": "기회비용",
       "risk_flags": [
-        "DUPLICATE",
-        "PAYMENT_UNCLEAR",
-        "HIGH_USER_INPUT",
-        "HIGH_RISK",
-        "NO_EVIDENCE",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "지급 불명확",
+        "사용자 부담 높음",
+        "위험 높음",
+        "근거 부족",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -14960,11 +14552,8 @@
       "next_action": "PR #1710 closed by repository automation: changes did not fully resolve the issue. UnsafeLabs repo CONTRIBUTING also states bounties are symbolic/research-only, so no rework/second PR.",
       "stop_reason": "검토 메모",
       "risk_flags": [
-        "DUPLICATE_RISK",
-        "PAYMENT_UNCLEAR",
-        "PAYOUT_PROFILE_MAY_BE_REQUIRED",
-        "PR_CLOSED_UNMERGED",
-        "RESEARCH_REPO_SYMBOLIC_BOUNTY"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -15198,18 +14787,16 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 유입/조회 반응 추적.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "official_wording_softened"
-      ],
-      "risk_labels": [
-        "무료 검증",
+        "검토 메모",
         "Tistory 게시 확인",
         "시각 QA 통과",
-        "카테고리 확인",
-        "검토 메모"
+        "카테고리 확인"
+      ],
+      "risk_labels": [
+        "검토 메모",
+        "Tistory 게시 확인",
+        "시각 QA 통과",
+        "카테고리 확인"
       ],
       "evidence": [
         {
@@ -15472,10 +15059,8 @@
       "next_action": "다음 bounty scout에서 새 cash/platform 후보 재검색. 기존 UnsafeLabs PR #1710은 모니터링 유지.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_RISK",
-        "PAYMENT_UNCLEAR",
-        "TOKEN_WALLET_RISK",
-        "HIGH_COMPETITION"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -15601,11 +15186,8 @@
       "next_action": "다음 scout에서 신규 cash/platform bounty 재검색. UnsafeLabs PR #1710은 Algora claim/review 상태 모니터링.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "SYSTEM_PROMPT_DISCLOSURE_REQUEST",
-        "DUPLICATE_RISK",
-        "PAYMENT_UNCLEAR",
-        "TOKEN_WALLET_RISK",
-        "HIGH_COMPETITION"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -15731,25 +15313,12 @@
       "next_action": "공개 URL 색인/유입을 추적하고, 다음 backlog redteam_hold 항목을 처리.",
       "stop_reason": "",
       "risk_flags": [
-        "labor_admin_wording_risk",
-        "free_validation_only",
-        "official_wording_softened",
-        "local_visual_qa_passed",
-        "tistory_image_upload_succeeded",
-        "labor_admin_wording_risk_mitigated",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "no_sales_cta"
+        "검토 메모",
+        "시각 QA 통과"
       ],
       "risk_labels": [
         "검토 메모",
-        "무료 검증",
-        "시각 QA 통과",
-        "판매문구 없음"
+        "시각 QA 통과"
       ],
       "evidence": [
         {
@@ -16057,10 +15626,8 @@
       "next_action": "다음 bounty scout에서 UnsafeLabs류 prompt-disclosure 후보는 빠르게 제외하고, Opire/Devpool 중 저경쟁·명확 claim 후보 위주 재검색.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "SYSTEM_PROMPT_DISCLOSURE_REQUEST",
-        "DUPLICATE_RISK",
-        "HIGH_COMPETITION",
-        "PAYMENT_UNCLEAR"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -16186,11 +15753,8 @@
       "next_action": "다음 scout는 Algora/Opire에서 recently-created, open PR 0~1개, no assignee, no prompt-disclosure 후보만 우선 필터링.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_RISK",
-        "HIGH_COMPETITION",
-        "SYSTEM_PROMPT_DISCLOSURE_REQUEST",
-        "ASSIGNEE_OR_ASSIGN_BLOCKER",
-        "PAYMENT_UNCLEAR"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -16317,11 +15881,10 @@
       "next_action": "다음 scout는 UnsafeLabs 계열을 낮은 우선순위로 내리고, open PR 0~1개인 verified cash/platform 후보만 검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_RISK",
-        "HIGH_COMPETITION",
-        "PAYMENT_UNCLEAR",
-        "HIGH_RISK",
-        "HIGH_USER_INPUT"
+        "검토 메모",
+        "지급 불명확",
+        "위험 높음",
+        "사용자 부담 높음"
       ],
       "risk_labels": [
         "검토 메모",
@@ -16456,28 +16019,14 @@
       "next_action": "공개 글 유입/검색 반응을 추적하고, 다음 backlog redteam_hold 항목을 oldest-first로 처리.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
-        "local_render_qa_passed",
-        "tistory_profile2_session_verified",
-        "official_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified",
-        "no_sales_cta"
-      ],
-      "risk_labels": [
-        "무료 검증",
         "검토 메모",
         "공개 URL 확인",
-        "시각 QA 통과",
-        "판매문구 없음"
+        "시각 QA 통과"
+      ],
+      "risk_labels": [
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과"
       ],
       "evidence": [
         {
@@ -16813,10 +16362,10 @@
       "next_action": "다음 bounty scout에서 경쟁 PR 0건, participant eligibility clear, deterministic small diff/test, cash/platform payout visible 후보를 우선 재검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -16951,10 +16500,10 @@
       "next_action": "다음 bounty scout에서 경쟁 PR 0건, participant eligibility clear, deterministic small diff/test, cash/platform payout visible 후보를 우선 재검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE",
-        "HIGH_USER_INPUT",
-        "REDTEAM_REJECTED",
-        "OPPORTUNITY_COST"
+        "중복",
+        "사용자 부담 높음",
+        "검토 메모",
+        "기회비용"
       ],
       "risk_labels": [
         "중복",
@@ -17232,23 +16781,18 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적. 교육기관·공식 기준 변경 시 문구 업데이트.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "official_wording_softened",
-        "food_hygiene_scope_general_restaurant_noted",
-        "anti_repetition_passed",
-        "no_sales_cta",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
-      ],
-      "risk_labels": [
-        "무료 검증",
         "검토 메모",
         "반복 검수 통과",
-        "판매문구 없음",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
+      ],
+      "risk_labels": [
+        "검토 메모",
+        "반복 검수 통과",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -17489,10 +17033,8 @@
       "next_action": "다음 scout는 prompt/context disclosure를 요구하지 않는 verified cash/platform micro-bounty를 우선 검색.",
       "stop_reason": "위험 높음",
       "risk_flags": [
-        "SYSTEM_PROMPT_DISCLOSURE_REQUIRED",
-        "DUPLICATE_RISK",
-        "HIGH_COMPETITION",
-        "PAYMENT_UNCLEAR"
+        "검토 메모",
+        "지급 불명확"
       ],
       "risk_labels": [
         "검토 메모",
@@ -17637,11 +17179,7 @@
       "next_action": "다음 scout는 기존 PR 과밀도가 낮고 assignment가 필요 없는 verified cash/platform micro-bounty를 우선 검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_PR_CROWDING",
-        "ASSIGNMENT_REQUIRED",
-        "SE_INTERVIEW_RESERVED",
-        "EXTERNAL_OUTREACH",
-        "PAYMENT_UNCLEAR_FOR_OPIRE_COPIES"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -17785,10 +17323,7 @@
       "next_action": "다음 scout는 최근 생성·낮은 PR 경쟁·assignment 불필요·cash/platform 지급 명확한 micro-bounty를 우선 검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_PR_CROWDING",
-        "ASSIGNMENT_REQUIRED",
-        "EXTERNAL_MARKETING",
-        "BROAD_SECURITY_OR_PRIVACY_SCOPE"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -17932,27 +17467,18 @@
       "next_action": "Tistory 공개 글 조회·검색 유입 반응 추적. paid CTA 없이 무료 검증 상태 유지.",
       "stop_reason": "이목 약함",
       "risk_flags": [
-        "anti_repetition_passed",
-        "category_verified",
-        "fact_qa_passed",
-        "free_validation_only",
-        "local_visual_qa_passed",
-        "long_tail_not_priority",
-        "low_attention_user_correction",
-        "no_sales_cta",
-        "official_wording_softened",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published_verified",
-        "tracking_public_post",
-        "uploaded_png_thumbnail_verified"
+        "반복 검수 통과",
+        "카테고리 확인",
+        "검토 메모",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "Tistory 게시 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "반복 검수 통과",
         "카테고리 확인",
         "검토 메모",
-        "무료 검증",
-        "판매문구 없음",
         "공개 URL 확인",
         "시각 QA 통과",
         "Tistory 게시 확인",
@@ -18295,10 +17821,7 @@
       "next_action": "다음 scout는 newly opened, comments<10, no active attempts, Algora/Opire cash route clear, PR count low인 typo/test/doc micro-bounty를 우선 검색.",
       "stop_reason": "중복",
       "risk_flags": [
-        "DUPLICATE_PR_CROWDING",
-        "ACTIVE_ATTEMPTS",
-        "WALLET_OR_PAYOUT_AMBIGUITY",
-        "BROAD_TEST_PERFORMANCE_SCOPE"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -18436,11 +17959,7 @@
       "next_action": "다음 bounty scout는 archived:false, comments<10, open PR count low, no prompt-disclosure requirement, cash/platform claim route clear인 doc/test/typo micro-bounty를 우선 검색.",
       "stop_reason": "검토 메모",
       "risk_flags": [
-        "NO_PR_ROUTE",
-        "DUPLICATE_PR_CROWDING",
-        "SYSTEM_PROMPT_DISCLOSURE_REQUIRED",
-        "WALLET_PAYOUT",
-        "ACTIVE_ATTEMPTS"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -18596,12 +18115,7 @@
       "next_action": "다음 bounty scout는 IssueHunt/Bountysource 검색에서 실제 funded amount + no duplicate PR 조건을 먼저 필터링하고, sponsor-link-only false positive를 제외.",
       "stop_reason": "지급 불명확",
       "risk_flags": [
-        "NO_CURRENT_REWARD",
-        "DUPLICATE_OPEN_PRS",
-        "ELIGIBILITY_REQUIRED",
-        "TOKEN_WALLET_PAYOUT",
-        "AI_PR_POLICY_BLOCK",
-        "REWARDED_OR_CLOSED"
+        "검토 메모"
       ],
       "risk_labels": [
         "검토 메모"
@@ -18805,18 +18319,13 @@
       "next_action": "자동 공개/이미지 제작 중단. 신규 공식 지원사업 마감·혜택 소멸·검색 급등 신호가 생기면 scout lane에서 새 후보로 재심사.",
       "stop_reason": "이목 약함",
       "risk_flags": [
-        "LOW_ATTENTION_DEMAND",
-        "OPPORTUNITY_COST",
-        "free_validation_only",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish"
+        "이목 약함",
+        "기회비용",
+        "검토 메모"
       ],
       "risk_labels": [
         "이목 약함",
         "기회비용",
-        "무료 검증",
         "검토 메모"
       ],
       "evidence": [
@@ -19011,28 +18520,20 @@
       "next_action": "공개 글 검색 유입/조회/댓글 반응 추적. 실제 트래픽·전환 데이터가 생기기 전까지 예상 순마진은 0원으로 유지.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "official_sources_verified",
-        "legal_contract_wording_softened",
-        "no_brand_evaluation",
-        "tistory_published_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "no_sales_cta",
-        "organic_content_valuation_zero"
-      ],
-      "risk_labels": [
-        "무료 검증",
         "검토 메모",
         "Tistory 게시 확인",
         "시각 QA 통과",
         "카테고리 확인",
         "PNG 썸네일 확인",
-        "출처 링크 확인",
-        "판매문구 없음"
+        "출처 링크 확인"
+      ],
+      "risk_labels": [
+        "검토 메모",
+        "Tistory 게시 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "evidence": [
         {
@@ -19325,22 +18826,16 @@
       "next_action": "Backlog job: 개인정보 포털/PIPC 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
       "stop_reason": "",
       "risk_flags": [
-        "legal_privacy_wording_risk",
-        "free_validation_only",
-        "anti_repetition_checked",
-        "no_sales_cta",
-        "official_wording_softened",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "검토 메모",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "risk_labels": [
         "검토 메모",
-        "무료 검증",
-        "판매문구 없음",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -19634,19 +19129,13 @@
       "next_action": "자동 공개/이미지 제작 중단. 신규 공식 마감·과태료/제재 이슈·제도 변경·검색 급등 신호가 생기면 scout lane에서 새 후보로 재심사.",
       "stop_reason": "이목 약함",
       "risk_flags": [
-        "LOW_ATTENTION_DEMAND",
-        "OPPORTUNITY_COST",
-        "free_validation_only",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish",
-        "preserved_local_draft"
+        "이목 약함",
+        "기회비용",
+        "검토 메모"
       ],
       "risk_labels": [
         "이목 약함",
         "기회비용",
-        "무료 검증",
         "검토 메모"
       ],
       "evidence": [
@@ -19854,23 +19343,15 @@
       "next_action": "공개 글 조회/댓글/검색 유입을 추적합니다. 직접 수익 추정은 실제 유입·전환 데이터가 생긴 뒤에만 계산합니다.",
       "stop_reason": "",
       "risk_flags": [
-        "attention_gate_strong",
-        "category_verified",
-        "fact_qa_passed",
-        "free_validation_only",
-        "modern_gothic_image_qa_passed",
-        "no_sales_cta",
-        "og_thumbnail_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "tistory_published"
+        "강한 후보",
+        "카테고리 확인",
+        "검토 메모",
+        "시각 QA 통과"
       ],
       "risk_labels": [
         "강한 후보",
         "카테고리 확인",
         "검토 메모",
-        "무료 검증",
-        "판매문구 없음",
         "시각 QA 통과"
       ],
       "evidence": [
@@ -20043,26 +19524,14 @@
       "next_action": "공개 글 검색 유입/반응을 추적. 다음 backlog redteam_hold 항목은 Attention/Cash Gate 재심사 후 처리.",
       "stop_reason": "",
       "risk_flags": [
-        "free_validation_only",
-        "no_sales_cta",
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_cash_gate_passed",
-        "fact_qa_passed",
-        "official_sources_verified",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified"
+        "검토 메모",
+        "폭발 후보",
+        "공개 URL 확인",
+        "시각 QA 통과"
       ],
       "risk_labels": [
-        "무료 검증",
-        "판매문구 없음",
-        "폭발 후보",
         "검토 메모",
+        "폭발 후보",
         "공개 URL 확인",
         "시각 QA 통과"
       ],
@@ -20314,22 +19783,16 @@
       "next_action": "Tracking: 5월 말 기관별 금리 세부 안내가 나오면 최신화 필요 여부만 재검토. 같은 유형 반복 발행은 Attention Gate 후 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "category_verified",
-        "financial_advice_disclaimer_present",
-        "free_validation_only",
-        "free_validation_published",
-        "no_sales_cta",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "uploaded_png_thumbnail_verified"
+        "폭발 후보",
+        "카테고리 확인",
+        "검토 메모",
+        "출처 링크 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "폭발 후보",
         "카테고리 확인",
         "검토 메모",
-        "무료 검증",
-        "판매문구 없음",
         "출처 링크 확인",
         "PNG 썸네일 확인"
       ],
@@ -20540,28 +20003,16 @@
       "next_action": "Tracking: 2026년 전기요금 관련 새 공식 공고가 나오면 제목/본문 최신화 여부만 재검토. 직접 매출은 산정하지 않고 검색 유입 가설로 관찰.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "anti_repetition_checked",
-        "attention_gate_explosive",
-        "category_verified",
-        "factcheck_source_verified",
-        "free_validation_only",
-        "free_validation_published",
-        "image_generation_required",
-        "no_sales_cta",
-        "official_wording_recheck_required",
-        "public_blog_published",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "tistory_rendered_qa_required",
-        "uploaded_png_thumbnail_verified"
+        "폭발 후보",
+        "검토 메모",
+        "카테고리 확인",
+        "출처 링크 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "폭발 후보",
         "검토 메모",
         "카테고리 확인",
-        "무료 검증",
-        "판매문구 없음",
         "출처 링크 확인",
         "PNG 썸네일 확인"
       ],
@@ -20809,32 +20260,8 @@
       "next_action": "공개글 검색 유입/반응 추적. 6월 22일 신청 마감 후 stale 여부 재검토.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_gate_explosive",
-        "free_validation_only",
-        "no_sales_cta",
-        "anti_repetition_checked",
-        "official_deadline_verified",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
-      ],
-      "risk_labels": [
         "폭발 후보",
-        "무료 검증",
-        "판매문구 없음",
         "검토 메모",
-        "공식 마감 확인",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -20843,7 +20270,22 @@
         "출처 링크 확인",
         "목록 썸네일 확인",
         "모바일 QA 통과",
-        "반복 검수 통과"
+        "반복 검수 통과",
+        "판매문구 없음"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "검토 메모",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "목록 썸네일 확인",
+        "모바일 QA 통과",
+        "반복 검수 통과",
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -21111,32 +20553,7 @@
       "next_action": "공개글 유입·검색 반응 추적. 5월 25일 이후에는 기한 지난 안내로 stale 처리 여부 재검토.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_gate_explosive",
-        "free_validation_only",
-        "no_sales_cta",
-        "official_deadline_verified",
-        "anti_repetition_checked",
-        "duplicate_risk_electricity_support_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
-      ],
-      "risk_labels": [
         "폭발 후보",
-        "무료 검증",
-        "판매문구 없음",
-        "공식 마감 확인",
         "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
@@ -21146,7 +20563,22 @@
         "출처 링크 확인",
         "목록 썸네일 확인",
         "모바일 QA 통과",
-        "반복 검수 통과"
+        "반복 검수 통과",
+        "판매문구 없음"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "검토 메모",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "목록 썸네일 확인",
+        "모바일 QA 통과",
+        "반복 검수 통과",
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -21401,24 +20833,9 @@
       "next_action": "공개글 검색 유입/반응 추적. 5월 31일 점검 기한 이후 stale 여부와 신규 모집 공고 여부 재검토.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE",
-        "official_deadline_verified",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta",
-        "official_source_links_included"
-      ],
-      "risk_labels": [
         "폭발 후보",
         "공식 마감",
-        "공식 마감 확인",
+        "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -21427,8 +20844,21 @@
         "출처 링크 확인",
         "모바일 QA 통과",
         "반복 검수 통과",
+        "판매문구 없음"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감",
         "검토 메모",
-        "공식 링크 포함"
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "모바일 QA 통과",
+        "반복 검수 통과",
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -21659,21 +21089,11 @@
       "next_action": "backlog/execution lane: FSC·실손24 공식 문구 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG QA까지 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "attention_gate_strong",
-        "free_validation_only",
-        "no_sales_cta",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_insurance_advice"
+        "강한 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "무료 검증",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
@@ -21827,44 +21247,66 @@
     {
       "id": "opp_20260522_100_high_oil_support_blog",
       "key": "MF-100",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "고유가 피해지원금 2차 신청·스미싱 주의 무료 검증 글",
+      "raw_status": "tracking",
+      "status": "운영/추적",
+      "column": "운영/수익",
+      "title": "고유가 피해지원금 2차, URL 문자부터 누르지 마세요",
       "type": "기타",
-      "owner": "기획",
+      "owner": "수익성 검토",
       "buyer_or_payer": "Tistory 검색 독자 / 고유가 피해지원금 신청 가능자 (직접 payer 없음)",
-      "channel": "Tistory free validation blog",
+      "channel": "Tistory 무료 검증 글 → 고유가 피해지원금 신청마감/스미싱 주의 검색 유입 실험",
       "quality": 92,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "backlog/execution lane: 샘플 리듬 반영 원고 작성 → 이미지 3장 생성/QA → Tistory 품질 게이트 후 공개 발행",
+      "next_action": "공개글 검색 유입/반응 추적. 7월 3일 신청 마감 또는 8월 31일 사용기한 이후 stale 여부 재검토.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "OFFICIAL_DEADLINE",
-        "SMISHING_RISK",
-        "FREE_VALIDATION_ONLY",
-        "NO_SALES_CTA"
+        "폭발 후보",
+        "공식 마감",
+        "스미싱 주의",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 근거 확인",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "모바일 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "목록 썸네일 확인",
+        "반복 검수 통과"
       ],
       "risk_labels": [
         "폭발 후보",
         "공식 마감",
-        "검토 메모"
+        "스미싱 주의",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 근거 확인",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "모바일 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
+        "목록 썸네일 확인",
+        "반복 검수 통과"
       ],
       "evidence": [
         {
           "url": "https://www.mois.go.kr/frt/bbs/type010/commonSelectBoardArticle.do?bbsId=BBSMSTR_000000000008&nttId=125906",
           "grade": "A",
           "summary": "행정안전부 보도자료: 5월 18일부터 7월 3일까지 국민 70%에 1인 10~25만원 지급, 신청/사용처/스미싱 주의 설명.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
+          "checked_at": "2026-05-23T02:39:20+09:00"
         },
         {
           "url": "https://www.mois.go.kr/frt/sub/a06/b07/highOilPriceSupport/screen.do",
           "grade": "A",
           "summary": "행정안전부 고유가 피해지원금 공식 업무 페이지.",
-          "checked_at": "2026-05-22T11:27:37+09:00"
+          "checked_at": "2026-05-23T02:39:20+09:00"
         },
         {
           "url": "https://korea.kr/news/policyNewsView.do?newsId=148963458&pWise=main&pWiseMain=R1",
@@ -21903,6 +21345,41 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "No speculative KRW valuation; strategic free-validation asset only."
+        },
+        {
+          "time": "2026-05-23T02:39:20+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Attention/Cash Gate 재심사 통과: 7/3 신청 마감, 10~60만원 손익, URL 문자 스미싱 위험으로 폭발 후보 유지."
+        },
+        {
+          "time": "2026-05-23T02:39:20+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 소스 재확인, 본문 HTML, Pretendard PNG 3장, Tistory 공개 발행 완료."
+        },
+        {
+          "time": "2026-05-23T02:39:20+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 렌더 QA 3회, 홈 썸네일, 모바일 centered-scroll QA, categoryId 1295941, 이미지 3장/OG 확인."
+        },
+        {
+          "time": "2026-05-23T02:39:20+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "지원금 수령 보장·비공식 대상조회 URL·유료 CTA 없음. 스미싱 회피와 공식 링크 중심으로 위험 낮음."
+        },
+        {
+          "time": "2026-05-23T02:39:20+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -21941,6 +21418,114 @@
           "title": "후보 비교",
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
           "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/plan.md",
+          "title": "실행 계획",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/plan.md",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/evidence.md",
+          "title": "근거",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/evidence.md",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/sample_brief.md",
+          "title": "샘플 브리프",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/sample_brief.md",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/sample_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/style_brief.md",
+          "title": "스타일 브리프",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/style_brief.md",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/style_brief.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_plan.md",
+          "title": "이미지 계획",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/image_plan.md",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/image_plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/title.txt",
+          "title": "Tistory title",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/title.txt",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/title.txt"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/tags.txt",
+          "title": "Tistory tags",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/tags.txt",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/tags.txt"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/draft.md",
+          "title": "draft.md",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/draft.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260522_100_high_oil_support_blog/draft.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/body_tistory_ready.html",
+          "title": "body_tistory_ready.html",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/body_tistory_ready.html",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/body_tistory_ready.html"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/01-high-oil-url-warning-thumb.png",
+          "title": "대표 이미지 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/01-high-oil-url-warning-thumb.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/01-high-oil-url-warning-thumb.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/02-high-oil-amount-deadline-map.png",
+          "title": "금액 구간 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/02-high-oil-amount-deadline-map.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/02-high-oil-amount-deadline-map.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/03-high-oil-apply-use-check.png",
+          "title": "신청 체크 PNG",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/03-high-oil-apply-use-check.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/03-high-oil-apply-use-check.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/high_oil_support_contact_sheet.jpg",
+          "title": "이미지 contact sheet",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/high_oil_support_contact_sheet.jpg",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/high_oil_support_contact_sheet.jpg"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/image_local_qa_20260523_high_oil_support.json",
+          "title": "image_local_qa.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/image_local_qa_20260523_high_oil_support.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/image_local_qa_20260523_high_oil_support.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/source_recheck_20260523_high_oil_support.json",
+          "title": "source_recheck_20260523_high_oil_support.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/source_recheck_20260523_high_oil_support.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/source_recheck_20260523_high_oil_support.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/tistory_publish_result_20260523_high_oil_support_public_safe.json",
+          "title": "Tistory publish result (safe)",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/tistory_publish_result_20260523_high_oil_support_public_safe.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/tistory_publish_result_20260523_high_oil_support_public_safe.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/public_render_qa_20260523_high_oil_support.json",
+          "title": "public_render_qa_20260523_high_oil_support.json",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/public_render_qa_20260523_high_oil_support.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260522_100_high_oil_support_blog/public_render_qa_20260523_high_oil_support.json"
+        },
+        {
+          "path": "https://beemo.tistory.com/76",
+          "title": "Tistory public post",
+          "url": "https://beemo.tistory.com/76",
+          "viewer": "https://beemo.tistory.com/76"
         }
       ],
       "approval_required": false
@@ -21963,15 +21548,10 @@
       "next_action": "6월 공식 공고/FAQ 게시 여부를 재확인한 뒤 Tistory 초안과 카드 이미지 3장을 제작한다. 사용자 승인이 아니라 다음 실행 lane의 자동 작업.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_STRONG_CANDIDATE",
-        "OFFICIAL_NOTICE_PENDING",
-        "free_validation_only",
-        "no_sales_cta"
+        "검토 메모"
       ],
       "risk_labels": [
-        "검토 메모",
-        "무료 검증",
-        "판매문구 없음"
+        "검토 메모"
       ],
       "evidence": [
         {
@@ -22082,21 +21662,11 @@
       "next_action": "Backlog/Execution lane에서 본문과 PNG 3장을 제작하고 Tistory 공개 전 품질·렌더 QA를 진행.",
       "stop_reason": "",
       "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "attention_gate_explosive",
-        "free_validation_only",
-        "official_deadline_verified",
-        "no_sales_cta",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked"
+        "폭발 후보",
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음",
         "검토 메모"
       ],
       "evidence": [
