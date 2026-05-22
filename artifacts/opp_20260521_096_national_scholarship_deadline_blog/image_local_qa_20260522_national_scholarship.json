@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-05-22T18:59:01+09:00",
+  "font": "Apple SD Gothic Neo TTC explicit indexes: regular 0, medium 2, semibold 4, bold 6",
+  "files": [
+    {
+      "file": "01-national-scholarship-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 84098
+    },
+    {
+      "file": "02-national-scholarship-timeline.png",
+      "width": 1200,
+      "height": 675,
+      "size": 124097
+    },
+    {
+      "file": "03-national-scholarship-checklist.png",
+      "width": 1200,
+      "height": 675,
+      "size": 141940
+    },
+    {
+      "file": "national_scholarship_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 81772
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate 2-3 line breaks",
+    "short eyebrow divider only",
+    "footer clearance",
+    "no raw/AI template repetition"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/national_scholarship_contact_sheet.jpg"
+}

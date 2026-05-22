@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-05-22T19:05:00+09:00",
+  "public_url": "https://beemo.tistory.com/74",
+  "post_id": "74",
+  "category": "돈관리·구매체크",
+  "category_id": "1295941",
+  "result": "PASS",
+  "dom_cycle": {
+    "body_images": 3,
+    "all_complete": true,
+    "natural_dimensions": "1200x675 for all body images",
+    "computed_body_image_height_px": [418.25, 418.25, 418.25],
+    "image_to_caption_px": [7, 7, 7],
+    "caption_to_next_px": [24, 24, 20],
+    "raw_markdown_or_work_notes": false,
+    "official_links_clickable": true,
+    "category_verified": true,
+    "og_image_non_default": true,
+    "mobile_og_checked": true
+  },
+  "render_cycles": [
+    {
+      "cycle": "local_contact_sheet",
+      "result": "PASS",
+      "summary": "Apple SD Gothic Neo 카드 3장 contact sheet 재검수 통과. 세 번째 체크리스트 하단 간격을 재생성 후 footer/list collision 해소.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_2615debccf334232bc36326ec95f4eed.png"
+    },
+    {
+      "cycle": "local_preview",
+      "result": "PASS",
+      "summary": "로컬 HTML 미리보기에서 첫 화면 가치, 문단/이미지/캡션 간격, raw Markdown/work note 누출 없음 확인.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_f489076949cf49ec8264c42e5477d5d7.png"
+    },
+    {
+      "cycle": 1,
+      "url": "https://beemo.tistory.com/74?qa_cycle=1_1853",
+      "result": "PASS",
+      "summary": "공개 첫 화면/상단: 제목, 카테고리, 이미지 1·2, 요약 박스, 문단/캡션 간격 통과.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_0c4ba3e8da914c719b81aa0786e9cb96.png"
+    },
+    {
+      "cycle": 2,
+      "url": "https://beemo.tistory.com/74?qa_cycle=1_1853",
+      "result": "PASS",
+      "summary": "공개 중하단: 이미지 3 체크리스트, 출처 링크, 종료 요약, workflow metadata 미노출 통과.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_a0f243709ad74f8dbc2f36859f069eee.png"
+    },
+    {
+      "cycle": "home_list",
+      "url": "https://beemo.tistory.com/?qa_home=1853",
+      "result": "PASS",
+      "summary": "홈/목록 최신글 카드에서 실제 대표 썸네일 노출, 기본 gray T/opengraph placeholder 아님.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_5944366b637046f1af248a54f0912dc5.png"
+    },
+    {
+      "cycle": "mobile",
+      "url": "https://beemo.tistory.com/m/74?qa_mobile=1853",
+      "result": "PASS",
+      "summary": "모바일 페이지에서 제목/카테고리/태그, 이미지 3장, 본문 스크롤성 확인. 첫 이미지는 중앙 스크롤 시 완전 가독; 하단 고정 액션바는 native Tistory platform behavior로 기록.",
+      "screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_2bb47a1fd550411aae7e21956957c829.png"
+    }
+  ],
+  "blocking_defects": []
+}
