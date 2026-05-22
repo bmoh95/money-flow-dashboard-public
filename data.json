@@ -1,43 +1,54 @@
 {
-  "updated_at": "2026-05-22T19:05:55+09:00",
+  "updated_at": "2026-05-22T21:22:10+09:00",
   "last_run": {
-    "run_id": "2026-05-22_1853_money-flow",
-    "started_at": "2026-05-22T18:53:47+09:00",
-    "finished_at": "2026-05-22T19:05:55+09:00",
+    "run_id": "2026-05-22_2115_money-flow",
+    "started_at": "2026-05-22T21:15:00+09:00",
+    "finished_at": "2026-05-22T21:22:10+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
       "research_lead",
+      "planning_member",
+      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "candidates_discovered": 4,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/body_tistory_ready.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/01-national-scholarship-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/02-national-scholarship-timeline.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/03-national-scholarship-checklist.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/public_render_qa_20260522_national_scholarship.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/filter_report.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/benefit_source_snapshots.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/scripts/bounty_candidate_filter.py",
+      "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/skiplist.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
-        "decision": "GO",
-        "summary": "Attention/Cash Gate 통과: 국가장학금 1차 신청 시작·마감·재학생 원칙."
+        "agent": "research_lead",
+        "decision": "NO-GO",
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "Bounty scout filter produced 0 rescue candidates after PR exclusion."
       },
       {
-        "opportunity_id": "opp_20260521_096_national_scholarship_deadline_blog",
+        "agent": "research_lead",
+        "decision": "HOLD",
+        "reason_code": "OPPORTUNITY_COST",
+        "summary": "Best blog candidate had A-grade source but weak immediate deadline and lower priority than active backlog."
+      },
+      {
+        "agent": "ledger_dashboard_manager",
         "decision": "GO",
-        "summary": "Tistory 공개 발행 및 공개 렌더 QA 통과."
+        "reason_code": null,
+        "summary": "Patched bounty filter and skiplist to reduce future false positives."
       }
     ],
-    "summary": "국가장학금 1차 신청 재학생 마감 체크 글을 Tistory에 공개하고 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260521_096_national_scholarship_deadline_blog` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/74\n- 공식 소스 재확인, PNG 3장, 공개 렌더 QA 2회, 홈 썸네일/모바일/카테고리 확인 완료.\n\n**시장성 판단**\n- GO: 5/22 신청 시작, 6/22 신청 마감, 재학생 1차 원칙이 있는 손실회피형 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "No new high-quality opportunity created; bounty filter/skiplist improved.",
+    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교, 새 opportunity는 만들지 않았습니다.\n- 바운티 필터가 PR을 rescue 후보로 잘못 살리는 문제를 고쳐 `pull_request`/`/pull/` 항목을 제외했습니다.\n- 실제 보상 없는 Opire boilerplate repo `amdiazzz/basketui`는 skiplist에 soft-block 추가했습니다.\n\n**시장성 판단**\n- 현금성 bounty: 49개 재필터링 결과 GO/HOLD 0개.\n- 블로그 후보: 한전 고효율가전은 A급 근거는 있으나 임박 손실 훅이 약해 기존 active 후보보다 우선하지 않습니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 105,
@@ -1654,34 +1665,6 @@
   },
   "recent_events": [
     {
-      "time": "2026-05-22T11:27:37+09:00",
-      "run_id": "2026-05-22_1110_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260522_100_high_oil_support_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "무료 검색 유입 가설로만 기록. 예상 순마진은 측정 전 0원.",
-      "links": []
-    },
-    {
-      "time": "2026-05-22T12:11:19+09:00",
-      "run_id": "2026-05-22_1206_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "planning_rejected",
-      "decision": "NO-GO",
-      "reason_code": "LOW_ATTENTION_DEMAND",
-      "summary": "Attention/Cash Gate 재심사: 공식 근거는 있으나 현재 마감/혜택소멸/트렌드 신호가 약해 자동 공개 중단.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/attention_cash_gate_recheck_20260522_biz_registration.md"
-      ]
-    },
-    {
       "time": "2026-05-22T12:11:19+09:00",
       "run_id": "2026-05-22_1206_money-flow",
       "agent": "redteam",
@@ -2248,6 +2231,38 @@
       "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
       "links": [
         "https://beemo.tistory.com/74"
+      ]
+    },
+    {
+      "time": "2026-05-22T21:22:10+09:00",
+      "run_id": "2026-05-22_2115_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "새 작업 scout: bounty 49개 재필터링 후 GO/HOLD 0개, 블로그 대안은 active backlog 대비 기회비용으로 새 opportunity 생성 안 함.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_2115_money-flow/filter_report.json"
+      ]
+    },
+    {
+      "time": "2026-05-22T21:22:10+09:00",
+      "run_id": "2026-05-22_2115_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "bounty_candidate_filter.py PR-result hard-exclude 패치 및 basketui soft-block skiplist 업데이트.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/scripts/bounty_candidate_filter.py",
+        "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/skiplist.json"
       ]
     }
   ],
