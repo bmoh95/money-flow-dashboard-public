@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-23T03:58:19+09:00",
+  "updated_at": "2026-05-23T04:00:31+09:00",
   "last_run": {
     "run_id": "2026-05-23_0346_money-flow",
     "started_at": "2026-05-23T03:46:03+09:00",
@@ -12,7 +12,8 @@
       "planning_lead",
       "redteam",
       "roi",
-      "ledger_dashboard_manager"
+      "ledger_dashboard_manager",
+      "skill_maintenance"
     ],
     "candidates_discovered": 5,
     "opportunities_advanced": 1,
@@ -34,8 +35,8 @@
         "summary": "서울커리업 구직지원금 2차 6/5 마감 글을 planning 상태로 생성."
       }
     ],
-    "summary": "Bounty 재점검은 GO 없음. 공식 마감·금액 근거가 강한 서울커리업 구직지원금 2차 free-validation planning package 생성 및 공개 대시보드 반영.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- bounty/direct-payout 후보 재점검: GO 없음.\n- 새 작업 1개 생성: `opp_20260523_103_seoul_careerup_deadline_blog`.\n- 계획서, 후보 비교, 공식 근거 스냅샷, 샘플/스타일 브리프 저장 완료.\n- 로컬/공개 대시보드 갱신 및 공개 모달 확인 완료: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**시장성 판단**\n- GO: `서울커리업 구직지원금 2차 6월 5일 마감`은 공식 A근거, 최대 90만원 혜택, 2,000명 조기마감 가능성이 있어 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.\n"
+    "summary": "Bounty 재점검은 GO 없음. 공식 마감·금액 근거가 강한 서울커리업 구직지원금 2차 free-validation planning package 생성, 공개 대시보드 반영, money-flow 스킬 보완 완료.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- bounty/direct-payout 후보 재점검: GO 없음.\n- 새 작업 1개 생성: `opp_20260523_103_seoul_careerup_deadline_blog`.\n- 계획서, 후보 비교, 공식 근거 스냅샷, 샘플/스타일 브리프 저장 완료.\n- 로컬/공개 대시보드 갱신 및 공개 모달 확인 완료: https://bmoh95.github.io/money-flow-dashboard-public/\n- 스킬 개선: `money-flow`에 Hermes venv Python/PDF 추출 주의점을 추가했습니다.\n\n**시장성 판단**\n- GO: `서울커리업 구직지원금 2차 6월 5일 마감`은 공식 A근거, 최대 90만원 혜택, 2,000명 조기마감 가능성이 있어 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 106,
@@ -1452,18 +1453,6 @@
   "recent_events": [
     {
       "time": "2026-05-22T15:47:44+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 추적 전환.",
-      "links": [
-        "https://beemo.tistory.com/72"
-      ]
-    },
-    {
-      "time": "2026-05-22T15:47:44+09:00",
       "agent": "대시보드",
       "opportunity_id": "opp_20260521_097_energy_voucher_deadline_blog",
       "event": "status_changed",
@@ -2040,6 +2029,16 @@
       "decision": "GO",
       "reason_code": null,
       "summary": "자산 생성: 검색 샘플 결과",
+      "links": []
+    },
+    {
+      "time": "2026-05-23T04:00:31+09:00",
+      "agent": "스킬 개선",
+      "opportunity_id": "opp_20260523_103_seoul_careerup_deadline_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "money-flow 스킬에 Hermes venv Python/PDF 추출 주의점 추가.",
       "links": []
     }
   ],
