@@ -1,15 +1,11 @@
 {
-  "updated_at": "2026-05-22T12:11:19+09:00",
+  "updated_at": "2026-05-22T12:51:46+09:00",
   "last_run": {
-    "run_id": "2026-05-22_1206_money-flow",
-    "started_at": "2026-05-22T12:11:15+09:00",
-    "finished_at": "2026-05-22T12:11:19+09:00",
+    "run_id": "2026-05-22_1218_money-flow",
+    "started_at": "2026-05-22T12:18:00+09:00",
+    "finished_at": "2026-05-22T12:51:46+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
-      "research_lead",
-      "planning_member",
-      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
@@ -18,30 +14,27 @@
     ],
     "candidates_discovered": 0,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/attention_cash_gate_recheck_20260522_biz_registration.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/attention_cash_gate_recheck_20260522_biz_registration.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/body_post46_published_payload.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/assets/01-sidecar-not-market-halt.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/assets/02-sidecar-five-minute-flow.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/assets/03-sidecar-news-checklist.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/qa/contact_sheet_visual_qa_post46.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/qa/browser_render_qa_post46.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-21_blog_full_inventory_1779349445/existing_post_quality_status.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-        "agent": "research_lead",
-        "decision": "NO-GO",
-        "reason_code": "LOW_ATTENTION_DEMAND",
-        "summary": "Attention/Cash Gate failed; no automatic publish."
-      },
-      {
-        "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
-        "agent": "roi",
-        "decision": "NO-GO",
-        "reason_code": "LOW_ATTENTION_DEMAND",
-        "summary": "Direct/base/optimistic net reset to 0."
+        "candidate": "existing_tistory_post_46",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "Existing public Tistory post 46 upgraded with trusted source links, three uploaded images, non-default OG thumbnail, and rendered QA."
       }
     ],
-    "summary": "Processed one held backlog item; rejected automatic publication due low attention demand/opportunity cost; no high-quality item advanced.",
-    "final_report": "[SILENT]"
+    "summary": "기존 Tistory post 46 본문/이미지/카테고리/출처/공개 렌더링 QA 완료.",
+    "final_report": "주인님, 기존 게시물 품질 개선 결과입니다.\n\n**완료**\n- post 46 `코스피 매도 사이드카 발동 정리`를 제도 설명 중심의 실용 글로 보강했습니다.\n- 기존 본문 백업, 기사/한국거래소/생활법령 출처 재확인, 현대 고딕 카드 이미지 3장 생성·교체 완료.\n- 공개 URL/OG/본문 이미지/카테고리/출처 링크 검증 완료: https://beemo.tistory.com/46\n- 완료 상태 파일 갱신: 완료 post `2, 3, 40, 34, 1, 52, 66, 46`.\n\n**실패**\n- 없음.\n\n**대기**\n- 다음 우선순위 후보: post 45 `간이과세자에서 일반과세자로 바뀐다는 안내`.\n"
   },
   "metrics": {
     "total": 103,
@@ -2214,6 +2207,51 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-22T12:51:46+09:00",
+      "run_id": "2026-05-22_1218_money-flow",
+      "agent": "redteam",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": "tracking",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 브라우저 QA: 이미지 3장 visible, OG 기본값 아님, 폰트/간격/작업노트 누출 모두 통과.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar/qa/browser_render_qa_post46.json"
+      ]
+    },
+    {
+      "time": "2026-05-22T12:51:46+09:00",
+      "run_id": "2026-05-22_1218_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": null,
+      "event": "launched",
+      "from_status": "public_update_prepared",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "post 46 Tistory 업데이트 및 공개 URL 3-cycle HTTP QA 통과.",
+      "links": [
+        "https://beemo.tistory.com/46"
+      ]
+    },
+    {
+      "time": "2026-05-22T12:51:46+09:00",
+      "run_id": "2026-05-22_1218_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": "quality_backlog",
+      "to_status": "public_update_prepared",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "post 46 기존 본문 백업, 신뢰 출처 재확인, 독자용 HTML 및 Apple SD Gothic Neo 카드 이미지 3장 생성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-22_1218_money-flow/post46_kospi_sidecar"
+      ]
+    },
     {
       "time": "2026-05-21T23:41:35+09:00",
       "agent": "제작 검수",
