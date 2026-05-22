@@ -1,0 +1,142 @@
+{
+  "checked_at": "2026-05-22T12:11:19+09:00",
+  "opportunity_id": "opp_20260520_091_biz_registration_change_blog",
+  "selected_backlog_count": 1,
+  "eligible_backlog_ids": [
+    "opp_20260520_091_biz_registration_change_blog"
+  ],
+  "cash_gate": {
+    "latest_bounty_run": "2026-05-22_1050_money-flow-bounty-gate",
+    "raw_candidates": 88,
+    "deep_checked": 8,
+    "go_count": 0,
+    "hold_count": 0,
+    "warnings": [
+      "hard_blocked_share_too_high_retry_search",
+      "same_repo_share_too_high"
+    ],
+    "decision": "no safe direct-cash backlog item selected; UnsafeLabs/system-prompt-disclosure path remains hard-blocked"
+  },
+  "attention_gate": {
+    "classification": "보류/버림",
+    "decision": "NO-GO for automatic Tistory publish/update",
+    "reason_code": "LOW_ATTENTION_DEMAND",
+    "scores": {
+      "visible_search_or_trend": 8,
+      "direct_money_loss_benefit": 10,
+      "imminent_deadline": 0,
+      "title_tension": 6,
+      "first_screen_practical_payoff": 12,
+      "non_repetition_current_fit": 5
+    },
+    "total": 41,
+    "summary": "정부24/국세청 A급 근거와 검색 pain은 있으나, 현재 새 마감·혜택 소멸·세법/민원 절차 변경·논란 신호가 없습니다. 주소·상호 변경은 실무적으로 유용하지만 독자가 지금 클릭해야 할 손익 긴장감이 약하고, 직접 수익은 0원입니다. 최근 planning/backlog에는 고유가 피해지원금처럼 금액·기한·스미싱 위험이 분명한 후보가 있어, 이미지 제작/Tistory QA 비용을 쓰지 않고 자동 공개를 중단합니다."
+  },
+  "official_checks": [
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?CappBizCD=12100000073",
+      "status": 200,
+      "content_type": "text/html;charset=euc-kr",
+      "title": "ڵ Ű, ƴ ü ȣ Ű | οȳ û | 24",
+      "snippet": "--> jQuery.noConflict(); var gpki$ = jQuery; jQuery.noConflict(); var j$ = jQuery; --> var mobileYn_isHead=\"N\"; --> jQuery.noConflict(); var jquery$ = jQuery; --> /* input[type=text]{ime-mode:active;} */ .page-util .fa{vertical-align:middle;} /* input[type=text] {ime-mode:active;} */ .page-util .fa {vertical-align:middle;} .ui-datepicker-title select {width:44% !important;} .ui-dialog-titlebar-close{display:none;} .ui-widget-header {border:0;background:white} ڵ Ű, ƴ ü ȣ Ű | οȳ û | 24 --> --> .greetingWrap {overflow: hidden; position: relative; width: 100%; margin: 40px 0; padding: 25px 30px; border: 1px solid #d3d3d3; background: url(..//2018/img/mw/bg_minwon_greeting.png) no-repeat top right; background-size: 320px auto; box-sizing: border-box;} .greetingWrap:after {content: ''; display: table; clear: both;} .greetingWrap * {box-sizing: border-box;} .greetingWrap .txtGroup {padding-righ"
+    },
+    {
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779",
+      "status": 200,
+      "content_type": "text/html;charset=UTF-8",
+      "title": "사업자등록 정정",
+      "snippet": "사업자등록 정정 --> --> 주메뉴 바로가기 본문으로 바로가기 이 누리집은 대한민국 공식 전자정부 누리집입니다. ENG LISH --> ENG LISH 화면크기 화면크기 축소 화면크기 원래대로 화면크기 확대 국세청 다시 대한민국! 새로운 국민의 나라 --> 다시 대한민국! 새로운 국민의 나라 --> 검색창 통합검색 검색어 입력창 검색 검색창 닫기 --> 전체메뉴 알림·소식 보도자료 국민체감 성과 신문기사 모음 보도설명 자료 정정자료 반론자료 설명자료 고시∙공고∙행정예고 고시 공고 훈령∙고시 행정예고 공지사항 국세청 소식 소식지(뉴스레터) 국세 사회공헌 국세청 동영상 모범∙아름다운 납세자 모범납세자 아름다운납세자 국선대리인 국민소통 국세청100배 활용하기 가이드맵 규제혁신 규제혁신 신문고 규제혁신 과제현황 심사중인 규제법안 부처별 보도자료 규제법령 정보 규제입증 요청 적극행정 제도소개 적극행정 국민추천 소극행정 신고 적극행정 자료실 납세자권익 24 국세신고안내 개인신고안내 신규사업자 신고 통합 안내 종합소득세 주택임대소득 종교인소득 부가가치세 사업장현황신고 원천세 연말정산 양도소득세 밑줄 쫙, 부동산세금 체크포인트 국세청이 알려주는 양도(종부)세 실수사례 양도소득세 월간 질의 TOP10 상속 · 증여 세금 상식 상속세 증여세 종합부동산세 세금납부 안내 법인신고안내 법인세 공익법인 부가가치세 원천세 연말정산 종교인소득 세금납부 안내 종합부동산세 국세정책/제도 세무조사 제도 세무조사 개요 법인사업자 정기조사 선정기준 개인사업자 정기조사 선정기준 세무조사 중점검증항목 주요서식 사업자등록 안내 사업자등록 안내 사업자등록 신청 제출서류 및 교부 사업자등록 정정 휴∙폐업 자주묻는 질문 답변 신종업종 세무 안내 1인미디어 창작자 SNS마켓 사업자 공유숙박 사업자 참고자료실 동영상자료실 근로∙자녀장"
+    },
+    {
+      "url": "https://www.gov.kr/mw/AA020InfoCappView.do?HighCtgCD=A09006&CappBizCD=11300000007&tp_seq=01",
+      "status": 200,
+      "content_type": "text/html;charset=euc-kr",
+      "title": "Ǹž Ű(ȣ, ּ, ȭȣ Ű ) | οȳ û | 24",
+      "snippet": "--> jQuery.noConflict(); var gpki$ = jQuery; jQuery.noConflict(); var j$ = jQuery; --> var mobileYn_isHead=\"N\"; --> jQuery.noConflict(); var jquery$ = jQuery; --> /* input[type=text]{ime-mode:active;} */ .page-util .fa{vertical-align:middle;} /* input[type=text] {ime-mode:active;} */ .page-util .fa {vertical-align:middle;} .ui-datepicker-title select {width:44% !important;} .ui-dialog-titlebar-close{display:none;} .ui-widget-header {border:0;background:white} Ǹž Ű(ȣ, ּ, ȭȣ Ű ) | οȳ û | 24 --> --> .greetingWrap {overflow: hidden; position: relative; width: 100%; margin: 40px 0; padding: 25px 30px; border: 1px solid #d3d3d3; background: url(..//2018/img/mw/bg_minwon_greeting.png) no-repeat top right; background-size: 320px auto; box-sizing: border-box;} .greetingWrap:after {content: ''; display: table; clear: both;} .greetingWrap * {box-sizing: border-box;} .greetingWrap .txtGroup {padding"
+    }
+  ],
+  "search_results": [
+    {
+      "title": "국세청>국세정책/제도>사업자등록 안내>사업자등록 정정",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779"
+    },
+    {
+      "title": "사업자 등록 정정 신고 하는 방법｜주소 변경 신고 안 하면 ...",
+      "url": "https://re-view01.tistory.com/entry/business-address-change-no-report-penalty-registration-update-2026"
+    },
+    {
+      "title": "사업자등록 정정 방법 - 상호·업종·주소 변경 신고 가이드 ...",
+      "url": "https://bizwiki.co.kr/guide/business-registration-change"
+    },
+    {
+      "title": "사업자등록 정정신고 방법 — 상호, 업종, 사업장 이전 등 변경 ...",
+      "url": "https://www.watax.kr/startup/business-registration-correction-guide"
+    },
+    {
+      "title": "사업자등록증 주소변경 방법｜홈택스, 세무서 절차 완벽 정리",
+      "url": "https://docuguide.co.kr/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D-%EC%A3%BC%EC%86%8C%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95/"
+    },
+    {
+      "title": "(개인, 법인) 사업자등록증 주소 변경 과태료 총정리 : 네이버 ...",
+      "url": "https://m.blog.naver.com/flowoffice/223897206462"
+    },
+    {
+      "title": "사업자등록증 변경 방법 — 주소·상호·업종 변경 시 홈택스 ...",
+      "url": "https://blog.minjae.kr/6539"
+    },
+    {
+      "title": "부가가치세법 시행령 - 국가법령정보센터",
+      "url": "https://law.go.kr/%EB%B2%95%EB%A0%B9/%EB%B6%80%EA%B0%80%EA%B0%80%EC%B9%98%EC%84%B8%EB%B2%95%EC%8B%9C%ED%96%89%EB%A0%B9/%EC%A0%9C14%EC%A1%B0"
+    },
+    {
+      "title": "사업자등록 정정신고, 상호 업종 주소 바뀌면 언제까지 해야 하나",
+      "url": "https://eventmoa.kr/k/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D-%EC%A0%95%EC%A0%95%EC%8B%A0%EA%B3%A0/"
+    },
+    {
+      "title": "사업자등록증 주소변경 과태료 기준과 절차",
+      "url": "https://tukutin.com/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D-%EC%A3%BC%EC%86%8C%EB%B3%80%EA%B2%BD-%EA%B3%BC%ED%83%9C%EB%A3%8C-%EA%B8%B0%EC%A4%80%EA%B3%BC-%EC%A0%88%EC%B0%A8/"
+    }
+  ],
+  "search_results_secondary": [
+    {
+      "title": "개인 법인 사업자 주소지 이전 변경 방법 (홈택스 필요 서류 ...",
+      "url": "https://m.blog.naver.com/tipforliving/223942481655"
+    },
+    {
+      "title": "국세청>국세정책/제도>사업자등록 안내>사업자등록 정정",
+      "url": "https://www.nts.go.kr/nts/cm/cntnts/cntntsView.do?mi=2446&cntntsId=7779"
+    },
+    {
+      "title": "사업자등록증 재발급·정정 정부24·홈택스 경로 비교",
+      "url": "https://mynextstep.tistory.com/entry/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D-%EC%9E%AC%EB%B0%9C%EA%B8%89%C2%B7%EC%A0%95%EC%A0%95-%EC%A0%95%EB%B6%8024%C2%B7%ED%99%88%ED%83%9D%EC%8A%A4-%EA%B2%BD%EB%A1%9C-%EB%B9%84%EA%B5%90"
+    },
+    {
+      "title": "사업자등록증 주소변경 방법｜홈택스, 세무서 절차 완벽 정리",
+      "url": "https://docuguide.co.kr/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D-%EC%A3%BC%EC%86%8C%EB%B3%80%EA%B2%BD-%EB%B0%A9%EB%B2%95/"
+    },
+    {
+      "title": "사업자등록증 주소변경 방법 및 서류 총정리 (+ 홈택스 5분 완정 ...",
+      "url": "https://www.aspiring-ceo.com/business-registration-address-change-guide/"
+    },
+    {
+      "title": "사업자등록 정정 방법 - 상호·업종·주소 변경 신고 가이드 ...",
+      "url": "https://bizwiki.co.kr/guide/business-registration-change"
+    },
+    {
+      "title": "사업자등록증의 정보를 수정하고 싶어요! (홈택스에서 사업자 ...",
+      "url": "https://guide.taxmedicenter.com/32/?bmode=view&idx=10129959"
+    },
+    {
+      "title": "홈택스로 사업자 등록증 정정 신고, 따라 하면 끝! » 코리아큐 ...",
+      "url": "https://koreaq.com/hometax-business-registration-correction-guide/"
+    },
+    {
+      "title": "사업자등록증 홈텍스로 주소변경하기",
+      "url": "https://www.infotree2024.com/%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D-%ED%99%88%ED%85%8D%EC%8A%A4%EB%A1%9C-%EC%A3%BC%EC%86%8C%EB%B3%80%EA%B2%BD%ED%95%98%EA%B8%B0/"
+    },
+    {
+      "title": "국세청 홈택스",
+      "url": "https://www.hometax.go.kr/websquare/websquare.html?w2xPath=/ui/pp/index_pp.xml"
+    }
+  ]
+}

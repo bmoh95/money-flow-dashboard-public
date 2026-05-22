@@ -10,3 +10,7 @@
 - Margin: direct margin not applicable; strategic equivalent base net margin 100% because no platform/tool cost.
 - User involvement: 0 for local draft; backlog publication covered only after QA by standing Tistory approval.
 - Cash distance: 4, long-term organic validation asset rather than immediate cash.
+
+## 2026-05-22T12:11:19+09:00 ROI correction
+
+Organic valuation rule 적용: 측정 전 보수/기준/낙관 순매출은 모두 0원. 기존 strategic-value KRW 환산은 사용하지 않음.
