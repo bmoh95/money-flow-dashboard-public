@@ -48,7 +48,7 @@
       }
     ],
     "summary": "No new high-quality opportunity created; bounty filter/skiplist improved.",
-    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교, 새 opportunity는 만들지 않았습니다.\n- 바운티 필터가 PR을 rescue 후보로 잘못 살리는 문제를 고쳐 `pull_request`/`/pull/` 항목을 제외했습니다.\n- 실제 보상 없는 Opire boilerplate repo `amdiazzz/basketui`는 skiplist에 soft-block 추가했습니다.\n\n**시장성 판단**\n- 현금성 bounty: 49개 재필터링 결과 GO/HOLD 0개.\n- 블로그 후보: 한전 고효율가전은 A급 근거는 있으나 임박 손실 훅이 약해 기존 active 후보보다 우선하지 않습니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.\n"
+    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교, 새 opportunity는 만들지 않았습니다.\n- 바운티 필터가 PR을 rescue 후보로 잘못 살리는 문제를 고쳐 `pull_request`/`/pull/` 항목을 제외했습니다.\n- 실제 보상 없는 Opire boilerplate repo `amdiazzz/basketui`는 skiplist에 soft-block 추가했습니다.\n\n**시장성 판단**\n- 현금성 bounty: 49개 재필터링 결과 GO/HOLD 0개.\n- 블로그 후보: 한전 고효율가전은 A급 근거는 있으나 임박 손실 훅이 약해 기존 active 후보보다 우선하지 않습니다.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원.\n\n**대기**\n- 대시보드 갱신·공개 미러 확인 완료: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 105,
