@@ -1,0 +1,77 @@
+{
+  "checked_at": "2026-05-23T03:55:13+09:00",
+  "topic": "2026 서울커리업 구직지원금 2차 모집 6월 5일 마감",
+  "official_sources": [
+    {
+      "url": "https://job.seoul.go.kr/hmpg/comm/file/fileDownLoad.do?file_no=51BCDF67CEFC0474E063C0A8A028CA8E",
+      "grade": "A",
+      "title": "서울특별시 공고 제2026-1505호, 2026년 서울커리업 구직지원금 지원 대상자 2차 모집 공고",
+      "facts": [
+        "공고일 2026.5.12.",
+        "접수기간 2026.5.12.(화) 09:00 ~ 2026.6.5.(금) 18:00.",
+        "접수기간 중이라도 접수 인원 2,000명 도달 시 조기 마감 가능.",
+        "선정인원 1,800명.",
+        "구직지원금 30만원×3개월, 취·창업성공금 포함 최대 90만원.",
+        "공고일 기준 서울시 거주 여성, 30세~49세, 혼인·임신·출산·육아로 경제활동을 중단한 여성, 중위소득 150% 이하 등 요건."
+      ],
+      "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-23_0346_money-flow/source_probe/careerup_pdf.pdf.txt"
+    },
+    {
+      "url": "https://project.seoulcareerup.or.kr/swm/jobseek/main.do",
+      "grade": "A",
+      "title": "서울커리업 프로젝트 공식 구직지원금 신청 페이지",
+      "facts": [
+        "서울커리업 홈페이지 공지사항 내 모집 중인 모집공고 확인 후 온라인 접수.",
+        "방문 및 이메일 접수 불가.",
+        "온라인 서울커리업포인트 지급.",
+        "메인 사업 페이지의 연령/대상 설명과 모집공고 세부조건이 다르게 보일 수 있어 2차 모집공고를 우선 확인해야 함."
+      ],
+      "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-23_0346_money-flow/source_probe/careerup_main.html"
+    }
+  ],
+  "fallback_sources_checked": [
+    {
+      "url": "https://account.gfgf.kr/main/freshman_main.do",
+      "grade": "A",
+      "summary": "경기도 청년 노동자 통장 공식 페이지/PDF. 8월 중 모집 예정이라 HOLD."
+    },
+    {
+      "url": "https://vacation.visitkorea.or.kr/",
+      "grade": "A",
+      "summary": "근로자 휴가지원사업 공식 PDF. 선착순이지만 기업 단위 신청으로 이번 후보보다 약함."
+    },
+    {
+      "url": "https://www.mnuri.kr/munhwa/cardIssueGuide.do",
+      "grade": "A",
+      "summary": "2026 문화누리카드 공식 발급 안내. 마감이 멀어 LOW_ATTENTION_DEMAND."
+    }
+  ],
+  "search_demand_sources": [
+    {
+      "url": "https://duckduckgo.com/html/?q=2026+%EC%84%9C%EC%9A%B8%EC%BB%A4%EB%A6%AC%EC%97%85+%EA%B5%AC%EC%A7%81%EC%A7%80%EC%9B%90%EA%B8%88+2%EC%B0%A8+%EC%8B%A0%EC%B2%AD+6%EC%9B%94+5%EC%9D%BC",
+      "grade": "B/C",
+      "summary": "신청방법·월 30만원·2차 모집형 비교 글/뉴스 제목 다수. 검색 수요 신호로만 사용."
+    }
+  ],
+  "sample_titles": [
+    "구직지원금 신청 < 구직지원금 < 서울커리업 프로젝트",
+    "2026년 서울커리업 구직지원금 지원 대상자 2차 모집 공고",
+    "2026 서울커리업 구직지원금 신청 총정리 (월 30만원·대상·방법)",
+    "경력이 끊겼어도 괜찮아요 — 서울커리업 구직지원금 2차 신청",
+    "아이 키우며 멈춘 일, 다시 시작할 기회! 서울커리업 2차 모집 안내",
+    "2026 서울커리업 구직지원금 2차 모집 : 네이버 블로그",
+    "서울시, 경력단절 여성 위한 서울커리업 2차 모집",
+    "경력단절 여성 지원금 2026. 서울커리업 구직지원금 2차 모집 신청",
+    "서울커리업 구직지원금 2026 — 신청자격·지원금액·신청방법",
+    "서울시 소식: 서울커리업 구직지원금 모집",
+    "구직지원금 경력단절여성 취업 신청 방법",
+    "2026 서울커리업 여성 구직지원금 90만원 신청 서류와 자격 조건"
+  ],
+  "recent_blog_titles_checked": [
+    "고유가 피해지원금 2차? 문자 링크 누르기 전 공식 페이지부터 보세요",
+    "2026 청년문화예술패스 6월 30 발급 마감 무료 검증 글",
+    "경기도 청년 면접수당 2차 모집 체크 글",
+    "실손24 보험금 청구 확인 글",
+    "서울 청년통장 개인정보 확인 마감 글"
+  ]
+}

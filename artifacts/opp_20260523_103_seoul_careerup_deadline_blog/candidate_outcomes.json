@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt/Opire/Polar micro bounty 구조화 재점검",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL/DUPLICATE/PAYMENT_UNCLEAR",
+    "evidence_grade": "A",
+    "summary": "직전 bounty gate(2026-05-23_0315)가 8개 deep preflight에서 GO/HOLD 0개를 기록. 상위 후보가 닫힘·잠김·아카이브·경쟁 PR·현금 보상 불명확으로 막힘.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/gate_last_summary.json"
+  },
+  {
+    "candidate": "서울커리업 구직지원금 2차 6월 5일 마감 체크 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "evidence_grade": "A/B",
+    "summary": "서울시 공식 모집공고가 5.12~6.5 18:00, 접수 2,000명 조기마감 가능, 선정 1,800명, 월 30만원×3개월 최대 90만원을 명시. 3040 양육/경력중단 여성에게 직접 금전 영향.",
+    "attention_classification": "폭발 후보"
+  },
+  {
+    "candidate": "경기도 청년 노동자 통장 2026 선발 계획 글",
+    "type": "free_validation_blog",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A",
+    "summary": "경기도 공식 공고로 2,100명, 8월 중 모집 예정, 중위소득 120% 이하 등이 확인되나 현재 5월 기준 당장 놓치는 마감은 아님. 실행 슬롯은 6/5 마감 후보가 우선."
+  },
+  {
+    "candidate": "2026 근로자 휴가지원사업 선착순 신청 글",
+    "type": "free_validation_blog",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A",
+    "summary": "공식 PDF로 정부 10만원·기업 10만원·근로자 20만원 적립, 10만명 선착순은 확인. 다만 기업 단위 신청이라 개인 독자 즉시 클릭/해결력이 서울커리업보다 약함."
+  },
+  {
+    "candidate": "2026 문화누리카드 15만원/11월 30일 발급 안내 글",
+    "type": "free_validation_blog",
+    "decision": "NO-GO",
+    "reason_code": "LOW_ATTENTION_DEMAND",
+    "evidence_grade": "A",
+    "summary": "공식 발급기간과 15만원 지원은 확인되나 11월 30일 마감까지 시간이 길고 이번 run의 급한 혜택 손실 이슈보다 클릭 긴장감이 낮음."
+  }
+]
