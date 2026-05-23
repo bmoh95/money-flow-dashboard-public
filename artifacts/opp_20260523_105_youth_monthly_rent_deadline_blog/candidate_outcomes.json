@@ -1,0 +1,48 @@
+[
+  {
+    "candidate": "GitHub IssueHunt/Funded open issues batch",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "PAYMENT_UNCLEAR",
+    "evidence_grade": "A/B",
+    "summary": "fresh GitHub search + filter + rescue preflight. Top candidates are old IssueHunt-style issues with unclear current payout/claim rail, broad scope, or stale maintainer context; no standing-L3 PR candidate.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/bounty_deep_preflight_20260523_1017.md"
+  },
+  {
+    "candidate": "2026 경기도 공공데이터·AI 활용 창업경진대회",
+    "type": "contest",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "evidence_grade": "A",
+    "summary": "공식 공모전/상금 후보는 있으나 아이디어·기획서·개발/팀/제출 부담이 커서 즉시 현금성 스몰 작업보다 불리.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/contest_candidate_search_results.json"
+  },
+  {
+    "candidate": "서울 희망두배 청년통장 신규 신청 6월 예정",
+    "type": "blog_validation",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "evidence_grade": "A",
+    "summary": "공식 사업 페이지는 강하지만 이미 희망두배·꿈나래 관련 5/31 개인정보 점검 글이 tracking 중. 신규 공고 확정 전에는 중복/오해 위험.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/seoul_hope_dream_search_results.json"
+  },
+  {
+    "candidate": "경기도 청년복지포인트 2026 모집 전 체크",
+    "type": "blog_validation",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "evidence_grade": "A",
+    "summary": "공식 2026 계획 PDF 기준 7월 모집. 120만원 혜택은 강하지만 오늘 기준 5/29 마감 청년월세보다 긴급도가 낮음.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/gg_youth_welfare_point_official_snapshots.json"
+  },
+  {
+    "candidate": "2026 청년월세 지원 5월29일 16시 마감 체크",
+    "type": "blog_validation",
+    "decision": "GO",
+    "reason_code": null,
+    "attention_gate": "폭발 후보",
+    "evidence_grade": "A",
+    "summary": "복지로 공식 블로그 기준 3/30~5/29 16시 신청, 19~34세 무주택 청년, 월 20만원×최대 24회. 마감 6일 전·최대 480만원·청약통장/기존 수혜자 예외 혼동이 있어 클릭 긴장감과 즉시 효용이 큼.",
+    "artifact": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/youth_monthly_rent_official_snapshots.json"
+  }
+]

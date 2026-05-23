@@ -1,0 +1,154 @@
+{
+  "opportunity_id": "opp_20260523_105_youth_monthly_rent_deadline_blog",
+  "title": "청년월세 지원, 5월29일 16시 전에 이것부터 확인하세요",
+  "type": "other",
+  "status": "planning",
+  "created_at": "2026-05-23T10:34:40+09:00",
+  "updated_at": "2026-05-23T10:34:40+09:00",
+  "source_run_id": "2026-05-23_1017_money-flow",
+  "current_owner": "execution_member",
+  "buyer_or_payer": "청년월세 지원 신청 마감 전 조건·서류를 확인하려는 19~34세 무주택 청년 검색 독자",
+  "channel": "Tistory 무료 검증 글 → 마감형 주거비 지원 검색 유입 실험",
+  "evidence": [
+    {
+      "url": "https://blog.bokjiro.go.kr/1828",
+      "grade": "A",
+      "summary": "복지로 공식 블로그. 2026 청년월세 지원 신청기간 3/30 09:00~5/29 16:00, 월 20만원×최대 24회.",
+      "checked_at": "2026-05-23T10:34:40+09:00"
+    },
+    {
+      "url": "https://www.bokjiro.go.kr/ssis-tbu/twataa/wlfareInfo/moveTWAT52011M.do?wlfareInfoId=WLF00004661",
+      "grade": "A",
+      "summary": "복지로 서비스 상세 링크. 요청 reset이 있어 execution lane에서 브라우저/공식 블로그 기준으로 재확인 필요.",
+      "checked_at": "2026-05-23T10:34:40+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 93,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1,
+    "attention_demand": "폭발 후보"
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "ATTENTION_EXPLOSIVE_CANDIDATE",
+    "OFFICIAL_DEADLINE",
+    "OFFICIAL_BENEFIT",
+    "official_source_verified",
+    "source_snapshot_saved",
+    "bounty_lane_checked",
+    "scout_only",
+    "anti_repetition_planned",
+    "no_paid_cta"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "summary": "복지로 공식 5/29 16시 마감 청년월세 지원 후보 발견. 직접 금전 영향과 임박 마감."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "summary": "A급 공식 근거, 중복 없음, attention gate 폭발 후보. 실패 요인은 경쟁 SEO 과밀/예외 오해."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "summary": "Tistory 무료 검증글 기획 패키지와 이미지 역할 정의."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "summary": "품질 93/100. 마감 시각·월세 제외 항목·기존 수혜 예외를 첫 화면 차별점으로 지정."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "summary": "scout-only lane handoff. 본문/발행은 하지 않고 제작 lane에 넘김.",
+      "reason_code": null
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "summary": "발행 전 재확인/이미지/렌더 QA 조건 명확. 승인 대기 아님."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "summary": "무조건 480만원·상시 신청·관리비 포함 오해를 금지하면 안전."
+    },
+    {
+      "time": "2026-05-23T10:34:40+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "summary": "직접 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
+    }
+  ],
+  "assets": [
+    {
+      "title": "기획안",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/plan.md"
+    },
+    {
+      "title": "근거 메모",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/evidence.md"
+    },
+    {
+      "title": "결정 로그",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/decisions.md"
+    },
+    {
+      "title": "ROI 메모",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/roi.md"
+    },
+    {
+      "title": "후보 비교",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/candidate_outcomes.json"
+    },
+    {
+      "title": "샘플링 브리프",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/sample_brief.json"
+    },
+    {
+      "title": "스타일 브리프",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/style_brief.md"
+    },
+    {
+      "title": "이미지 계획",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/image_plan.md"
+    },
+    {
+      "title": "공식 근거 스냅샷",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/youth_monthly_rent_official_snapshots.json"
+    },
+    {
+      "title": "바운티 preflight",
+      "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/bounty_deep_preflight_20260523_1017.md"
+    }
+  ],
+  "next_action": "backlog/execution lane에서 복지로 공식 근거 재확인 → 3장 Pretendard 카드 생성 → Tistory 무료 검증글 작성/품질 QA 후 standing L3로 공개 발행.",
+  "stop_reason_code": null
+}
