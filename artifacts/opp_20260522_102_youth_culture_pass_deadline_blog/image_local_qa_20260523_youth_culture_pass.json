@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-05-23T09:16:15+09:00",
+  "font": "Pretendard OTF explicit regular/medium/semibold/bold; Apple SD Gothic Neo fallback only",
+  "files": [
+    {
+      "file": "01-youth-culture-pass-deadline-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 95700
+    },
+    {
+      "file": "02-youth-culture-pass-timeline.png",
+      "width": 1200,
+      "height": 675,
+      "size": 106484
+    },
+    {
+      "file": "03-youth-culture-pass-check.png",
+      "width": 1200,
+      "height": 675,
+      "size": 111712
+    },
+    {
+      "file": "youth_culture_pass_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 81718
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate Korean line breaks",
+    "distinct jobs: thumbnail/timeline/action card",
+    "short dividers only",
+    "footer clearance",
+    "no sales CTA"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_102_youth_culture_pass_deadline_blog/assets/youth_culture_pass_contact_sheet.jpg"
+}
