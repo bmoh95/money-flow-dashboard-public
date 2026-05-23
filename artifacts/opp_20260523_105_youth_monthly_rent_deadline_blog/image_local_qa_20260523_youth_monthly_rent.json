@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-05-23T12:45:55+09:00",
+  "font": "Pretendard OTF explicit regular/medium/semibold/bold; Apple SD Gothic Neo fallback only",
+  "files": [
+    {
+      "file": "01-youth-monthly-rent-deadline-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 95747
+    },
+    {
+      "file": "02-youth-monthly-rent-eligibility.png",
+      "width": 1200,
+      "height": 675,
+      "size": 109841
+    },
+    {
+      "file": "03-youth-monthly-rent-before-apply.png",
+      "width": 1200,
+      "height": 675,
+      "size": 123138
+    },
+    {
+      "file": "youth_monthly_rent_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 80167
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate Korean line breaks",
+    "distinct jobs: thumbnail/eligibility/action card",
+    "short divider only",
+    "footer clearance",
+    "no sales CTA"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/youth_monthly_rent_contact_sheet.jpg"
+}

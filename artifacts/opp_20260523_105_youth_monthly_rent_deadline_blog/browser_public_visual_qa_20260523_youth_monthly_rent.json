@@ -1,0 +1,24 @@
+{
+  "checked_at": "2026-05-23T12:49:00+09:00",
+  "status": "PASS",
+  "public_url": "https://beemo.tistory.com/80",
+  "desktop_visual": {
+    "status": "PASS",
+    "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_791589d5d01646b3ae571c2e80d6c17d.png",
+    "notes": "Public Tistory page is polished: title/hook clear, first image readable, spacing around image/caption/body acceptable, no raw Markdown/broken image/font issue."
+  },
+  "mobile_visual": {
+    "status": "PASS_AFTER_CENTERED_RECHECK",
+    "initial_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_112a19c11019456f8f5842c094f0f6e2.png",
+    "centered_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_efa10988c0694b789245acc93b9e7c33.png",
+    "notes": "Initial vision flagged Tistory native fixed action bar overlap. Centered-scroll recheck shows first body image fully readable; overlap classified as native platform behavior, not a content blocker. Mobile DOM confirms 3 article images complete with 1200x675 natural dimensions and nonzero rendered size."
+  },
+  "dom_checks": {
+    "desktop_image_count": 3,
+    "desktop_img_to_caption_px": [7, 7, 7],
+    "desktop_caption_to_next_px": [24, 24, 20],
+    "official_links_verified": true,
+    "forbidden_work_notes": false,
+    "mobile_article_images_complete": true
+  }
+}

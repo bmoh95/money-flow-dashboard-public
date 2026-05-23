@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-05-23T12:44:00+09:00",
+  "status": "PASS",
+  "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_6c492708d68a459b82c529e5374c5791.png",
+  "summary": "Three Korean Tistory card images pass visual QA: clean modern Gothic/sans-serif, readable main text, no blocking collisions with borders/dividers, distinct roles (deadline summary, eligibility, application checklist). Minor note: smallest footer/row text may be harder at thumbnail size, but not blocking."
+}
