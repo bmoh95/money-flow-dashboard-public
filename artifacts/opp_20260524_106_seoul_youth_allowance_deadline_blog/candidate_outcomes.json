@@ -1,0 +1,48 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt/Algora micro-bounty rescue queue",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "attention_or_cash_class": "direct_cash_checked",
+    "evidence_grade": "A",
+    "summary": "현금성 후보 7개 deep preflight. GO/HOLD 0건. closed/locked/archived/competing PR/ambiguous scope blockers.",
+    "evidence_urls": []
+  },
+  {
+    "candidate": "서울시 청년수당 2026년 추가(2차) 모집 마감 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "attention_or_cash_class": "폭발 후보",
+    "evidence_grade": "A",
+    "summary": "서울시 공식 공고가 5/27 10:00~5/29 16:00, 월 50만원×최대 6개월, 6,000명 내외를 명시. 직접 혜택/초단기 신청창/자격 오해가 있어 클릭 긴장감 강함.",
+    "evidence_urls": [
+      "https://news.seoul.go.kr/gov/archives/578136",
+      "https://youth.seoul.go.kr/"
+    ]
+  },
+  {
+    "candidate": "희망두배 청년통장/꿈나래통장 신규 모집 대비 글",
+    "type": "free_validation_blog",
+    "decision": "HOLD",
+    "reason_code": "NO_EVIDENCE",
+    "attention_or_cash_class": "강한 후보 후보군",
+    "evidence_grade": "A/B",
+    "summary": "공식 서울시/자산형성 페이지는 존재하지만 이번 scout 기준 정확한 신규 모집 공고·세부 일정이 청년수당보다 덜 명확. 기존 개인정보 5/31 글과도 근접해 보류.",
+    "evidence_urls": [
+      "https://news.seoul.go.kr/welfare/archives/48102",
+      "https://account.welfare.seoul.kr/"
+    ]
+  },
+  {
+    "candidate": "자동차세 6월 정기분/연납 납부 체크 글",
+    "type": "consumer_tax_blog",
+    "decision": "NO-GO",
+    "reason_code": "LOW_ATTENTION_DEMAND",
+    "attention_or_cash_class": "보류/버림",
+    "evidence_grade": "B/C",
+    "summary": "6월 납부 시즌성은 있으나 현재 5/24 기준 임박 손실/공식 변경/강한 오해 포인트가 약함. 세금·행정 롱테일 반복 위험과 기회비용으로 자동 생성 금지.",
+    "evidence_urls": []
+  }
+]
