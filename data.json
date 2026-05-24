@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-24T10:55:23+09:00",
+  "updated_at": "2026-05-24T10:59:37+09:00",
   "last_run": {
     "run_id": "2026-05-24_1037_money-flow",
     "started_at": "2026-05-24T10:37:04+09:00",
@@ -39,8 +39,8 @@
         "summary": "Tistory 공개 발행/업데이트 및 공개 렌더/모바일 QA 통과."
       }
     ],
-    "summary": "서울시 청년수당 2차 5월29일 마감 글을 Tistory에 공개하고 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260524_106_seoul_youth_allowance_deadline_blog` Tistory 공개/QA 완료 후 tracking 전환.\n- Tistory: https://beemo.tistory.com/83\n- 서울시 공식 공고 재확인, PNG 3장 생성, 공개 렌더 QA 3회, 브라우저·모바일 centered QA 완료.\n- 제목 줄바꿈 지적 후 짧은 제목으로 수정 완료.\n\n**시장성 판단**\n- GO: 5월29일 16시 초단기 마감과 월50만원×최대6개월 혜택이 있는 청년지원금형 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "서울시 청년수당 2차 5월29일 마감 글을 Tistory에 공개하고 tracking 전환. 공개 대시보드 미러와 MF-106 모달 검증 완료.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260524_106_seoul_youth_allowance_deadline_blog` Tistory 공개/QA 완료 후 tracking 전환.\n- Tistory: https://beemo.tistory.com/83\n- 서울시 공식 공고 재확인, PNG 3장 생성, 공개 렌더 QA 3회, 브라우저·모바일 centered QA 완료.\n- 제목 줄바꿈 지적 후 짧은 제목으로 수정 완료.\n\n**시장성 판단**\n- GO: 5월29일 16시 초단기 마감과 월50만원×최대6개월 혜택이 있는 청년지원금형 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 및 GitHub Pages 공개 미러 검증 완료: https://bmoh95.github.io/money-flow-dashboard-public\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 110,

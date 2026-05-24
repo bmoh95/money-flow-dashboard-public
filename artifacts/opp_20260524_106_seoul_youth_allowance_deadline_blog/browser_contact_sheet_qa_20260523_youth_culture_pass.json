@@ -1,0 +1,6 @@
+{
+  "checked_at": "2026-05-23T09:18:00+09:00",
+  "status": "pass",
+  "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_cd6bbfb6d0dc4c8cb76e3343ed5fe2b5.png",
+  "summary": "Browser vision pass: 3 Tistory cards look like clean Pretendard/Gothic Korean sans-serif; no visible hangul breakage, overlap, vertical wrapping, crop, or internal spacing blocker. Roles distinct: thumbnail, timeline, checklist."
+}

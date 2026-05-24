@@ -1,0 +1,22 @@
+{
+  "checked_at": "2026-05-23T09:21:19+09:00",
+  "status": "pass",
+  "public_url": "https://beemo.tistory.com/79",
+  "desktop_browser_visual": {
+    "status": "pass",
+    "screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_eff6eb72758943abbab868ed679a9f04.png",
+    "summary": "Title/category/date, first-screen hook, three images, captions, table, official links, and paragraph spacing rendered normally. No raw markdown/work-note exposure."
+  },
+  "mobile_browser_visual": {
+    "initial_status": "native_action_bar_overlay_flagged",
+    "initial_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_fe1520b8bba54991b738b1ab698bed59.png",
+    "centered_recheck_status": "pass_platform_overlay_only",
+    "centered_screenshot_path": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_31e5897035be45a3aea42ca6eb26de79.png",
+    "summary": "Centered-scroll recheck shows first-card core text remains readable; overlap is Tistory native fixed action bar behavior, not our HTML/CSS or collapsed image defect."
+  },
+  "dom_gap_measurements": [
+    {"index": 0, "img_to_caption_px": 7, "caption_to_next_px": 24, "natural_width": 1200, "natural_height": 675, "complete": true},
+    {"index": 1, "img_to_caption_px": 7, "caption_to_next_px": 24, "natural_width": 1200, "natural_height": 675, "complete": true},
+    {"index": 2, "img_to_caption_px": 7, "caption_to_next_px": 20, "natural_width": 1200, "natural_height": 675, "complete": true}
+  ]
+}
