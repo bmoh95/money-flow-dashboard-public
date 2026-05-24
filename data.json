@@ -38,7 +38,7 @@
       }
     ],
     "summary": "2026 농식품바우처 신청·월별 소멸·사용처 글을 scout-only planning package로 생성.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260524_107_foodvoucher_monthly_benefit_blog` 신규 scout-only 기획 패키지 생성.\n- bounty/direct-payout lane은 최근 gate 기준 GO/HOLD 0건이라 자동 PR 후보 없음.\n- 후보 6개 비교, 근거/계획/샘플/스타일/이미지 계획/후보 비교 파일 작성 및 대시보드 갱신.\n\n**시장성 판단**\n- GO: 농식품바우처 공식 플랫폼에서 신청·사용기간, 월 4만~18.7만원, 당월 미사용 소멸, 사용처 확인 경로가 A급으로 확인된 `강한 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 제작/발행은 backlog lane에서 공식 페이지 재확인 후 진행.\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260524_107_foodvoucher_monthly_benefit_blog` 신규 scout-only 기획 패키지 생성.\n- bounty/direct-payout lane은 최근 gate 기준 GO/HOLD 0건이라 자동 PR 후보 없음.\n- 후보 6개 비교, 근거/계획/샘플/스타일/이미지 계획/후보 비교 파일 작성.\n- 로컬/공개 대시보드 갱신 및 MF-107 카드·상세 모달 확인.\n\n**시장성 판단**\n- GO: 농식품바우처 공식 플랫폼에서 신청·사용기간, 월 4만~18.7만원, 당월 미사용 소멸, 사용처 확인 경로가 A급으로 확인된 `강한 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 제작/발행은 backlog lane에서 공식 페이지 재확인 후 진행.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 110,
