@@ -1,33 +1,35 @@
 {
-  "updated_at": "2026-05-25T01:56:02+09:00",
+  "updated_at": "2026-05-25T03:06:43+09:00",
   "last_run": {
-    "run_id": "2026-05-25_0140_money-flow",
-    "started_at": "2026-05-25T01:40:06+09:00",
-    "finished_at": "2026-05-25T01:56:02+09:00",
+    "run_id": "2026-05-25_0300_money-flow-bounty-gate",
+    "started_at": "2026-05-25T03:00:00+09:00",
+    "finished_at": "2026-05-25T03:06:43+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
       "research_lead",
-      "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 1,
-    "opportunities_rejected": 0,
+    "candidates_discovered": 42,
+    "opportunities_advanced": 0,
+    "opportunities_rejected": 1,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_099_silson24_claim_check_blog/assets/public_reverify_20260525_silson24.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0300_money-flow-bounty-gate/bs10_nested_preflight.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0300_money-flow-bounty-gate/filter_report_after_skiplist.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-        "decision": "GO",
-        "summary": "Attention/Cash Gate 재심사 통과 및 이미 공개된 실손24 글 tracking 전환."
+        "opportunity_id": null,
+        "decision": "NO-GO",
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced."
       }
     ],
-    "summary": "실손24 공개글 ledger/dashboard reconcile 후 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260522_099_silson24_claim_check_blog` 장부 불일치 정리 완료: 이미 공개/QA된 Tistory 글을 재검증하고 tracking 전환했습니다.\n- Tistory: https://beemo.tistory.com/82\n- 공개 페이지 제목·이미지·OG 썸네일·공식 링크·작업노트 누락 재확인.\n\n**시장성 판단**\n- GO: 실손24 참여병원 확인은 보험금 청구 실패/오해 방지 효용이 있는 `강한 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 및 공개 미러 검증 완료: https://bmoh95.github.io/money-flow-dashboard-public\n\n**필요 승인**\n- 없음."
+    "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced.",
+    "final_report": "주인님, Money Flow bounty scout 결과입니다.\n\n**완료**\n- pre-run GO 후보 `dev-kp-eloper/BountyScout#10`은 실제 지급 이슈가 아니라 bounty-alert 메타 집계글로 재분류했습니다.\n- 내부 링크 6개 추가 preflight: Orchestration/AgentOrchestration 2건은 스타/crypto-eligible/경쟁 PR로 제외, MergeWork 2건은 MRWK·기존 claim/PR로 제외, OWASP-BLT 1건은 이 이슈 자체 지급 근거 없음, FAForever 1건은 닫힌/중복 이슈로 제외.\n- skiplist 보강: `dev-kp-eloper/BountyScout` 메타 집계 repo를 hard-block에 추가했습니다.\n- 로컬 대시보드와 공개 미러 갱신/검증 완료.\n\n**NO-GO 이유**\n- `PAYMENT_UNCLEAR`: 메타 집계글 또는 이슈 자체 지급 근거 불명확.\n- `DUPLICATE/COMPETITIVE_PR`: 이미 `/attempt`, `/claim`, 관련 PR 존재.\n- `HIGH_RISK/HIGH_USER_INPUT`: star-first, crypto-eligible, broad dashboard/보안성 범위.\n\n**대기**\n- 없음. 다음 scout는 BountyScout 메타 repo를 제외하고 실제 원본 bounty issue만 deep preflight합니다."
   },
   "metrics": {
     "total": 111,
@@ -1505,6 +1507,30 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-25T03:06:43+09:00",
+      "run_id": "2026-05-25_0300_money-flow-bounty-gate",
+      "agent": "시장성 검토",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "지급 불명확",
+      "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced.",
+      "links": [
+        "https://github.com/dev-kp-eloper/BountyScout/issues/10"
+      ]
+    },
+    {
+      "time": "2026-05-25T03:05:46+09:00",
+      "run_id": "2026-05-25_0300_money-flow-bounty-gate",
+      "agent": "시장성 검토",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "지급 불명확",
+      "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced.",
+      "links": [
+        "https://github.com/dev-kp-eloper/BountyScout/issues/10"
+      ]
+    },
     {
       "time": "2026-05-23T10:34:40+09:00",
       "run_id": "2026-05-23_1017_money-flow",
