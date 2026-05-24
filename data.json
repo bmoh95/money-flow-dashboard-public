@@ -1,35 +1,37 @@
 {
-  "updated_at": "2026-05-25T03:06:43+09:00",
+  "updated_at": "2026-05-25T06:13:05+09:00",
   "last_run": {
-    "run_id": "2026-05-25_0300_money-flow-bounty-gate",
-    "started_at": "2026-05-25T03:00:00+09:00",
-    "finished_at": "2026-05-25T03:06:43+09:00",
+    "run_id": "2026-05-25_0608_existing-post32-quality",
+    "started_at": "2026-05-25T06:12:23+09:00",
+    "finished_at": "2026-05-25T06:13:05+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
-      "research_lead",
+      "execution_member",
+      "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 42,
+    "candidates_discovered": 0,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0300_money-flow-bounty-gate/bs10_nested_preflight.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0300_money-flow-bounty-gate/filter_report_after_skiplist.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0608_existing-post32-quality/post32_us_china_factcheck/assets/contact_sheet_post32.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0608_existing-post32-quality/post32_us_china_factcheck/body_post32_published_payload.html",
+      "https://beemo.tistory.com/32",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0608_existing-post32-quality/post32_us_china_factcheck/qa/browser_visual_qa_post32.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": null,
-        "decision": "NO-GO",
-        "reason_code": "PAYMENT_UNCLEAR",
-        "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced."
+        "candidate": "existing_tistory_post_32",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "Existing public post upgraded with category, official-source rewrite, images, and rendered QA."
       }
     ],
-    "summary": "bounty gate false GO corrected: BountyScout meta alert hard-blocked; nested candidates preflighted; no safe cash/platform PR candidate advanced. Filter meta-pattern patched.",
-    "final_report": "주인님, Money Flow bounty scout 결과입니다.\n\n**완료**\n- pre-run GO 후보 `dev-kp-eloper/BountyScout#10`은 실제 지급 이슈가 아니라 bounty-alert 메타 집계글로 재분류했습니다.\n- 내부 링크 6개 추가 preflight: Orchestration/AgentOrchestration 2건은 스타/crypto-eligible/경쟁 PR로 제외, MergeWork 2건은 MRWK·기존 claim/PR로 제외, OWASP-BLT 1건은 이 이슈 자체 지급 근거 없음, FAForever 1건은 닫힌/중복 이슈로 제외.\n- skiplist 보강: `dev-kp-eloper/BountyScout` 메타 집계 repo를 hard-block에 추가했습니다.\n- 필터 보강: `Active Bounty Scan Results`/`Bounty Alert` 메타 집계글을 자동 meta/non-actionable로 제외하도록 `bounty_candidate_filter.py`를 수정했습니다.\n- 로컬 대시보드와 공개 미러 갱신/검증 완료.\n\n**NO-GO 이유**\n- `PAYMENT_UNCLEAR`: 메타 집계글 또는 이슈 자체 지급 근거 불명확.\n- `DUPLICATE/COMPETITIVE_PR`: 이미 `/attempt`, `/claim`, 관련 PR 존재.\n- `HIGH_RISK/HIGH_USER_INPUT`: star-first, crypto-eligible, broad dashboard/보안성 범위.\n\n**대기**\n- 없음. 다음 scout는 BountyScout 메타 repo를 제외하고 실제 원본 bounty issue만 deep preflight합니다."
+    "summary": "기존 Tistory post 32 품질/카테고리/이미지/출처/공개 렌더링 QA 완료.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- 기존 공개글 post 32를 `뉴스·시사 팩트체크` 카테고리로 정정하고, 공식 문서 기준의 짧은 판정형 글로 재작성했습니다.\n- Apple SD Gothic Neo 카드 이미지 3장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/출처 링크/브라우저 시각 QA 확인 완료: https://beemo.tistory.com/32\n\n**시장성 판단**\n- 이미 공개된 중요 시사 글의 품질·팩트·썸네일 개선이라 Attention Gate 통과. 새 롱테일 발행은 하지 않았습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 검색 유입 가설만 추적합니다.\n\n**대기**\n- 다음 backlog 후보는 별도 실행 때 재심사.\n\n**필요 승인**\n- 없음.\n"
   },
   "metrics": {
     "total": 111,
@@ -1508,6 +1510,22 @@
   },
   "recent_events": [
     {
+      "time": "2026-05-25T06:12:29+09:00",
+      "run_id": "2026-05-25_0608_existing-post32-quality",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "existing_tistory_post_32",
+      "event": "status_changed",
+      "from_status": "quality_backlog",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Existing public Tistory post 32 upgraded and QA verified.",
+      "links": [
+        "https://beemo.tistory.com/32",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0608_existing-post32-quality/post32_us_china_factcheck/post32_update_result.json"
+      ]
+    },
+    {
       "time": "2026-05-25T03:06:43+09:00",
       "run_id": "2026-05-25_0300_money-flow-bounty-gate",
       "agent": "시장성 검토",
@@ -1845,270 +1863,6 @@
       "summary": "Attention/Cash Gate 재심사: 서울시 공식 5월29일 16시 마감·월50만원×최대6개월로 폭발 후보 유지.",
       "links": [
         "https://news.seoul.go.kr/gov/archives/578136"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지원금 반복을 줄이고 제외조건 확인 중심 구조로 확정.",
-      "links": []
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "본문 HTML과 Pretendard PNG 3장 생성, Tistory 공개 발행/업데이트 완료.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 렌더 QA 3회, 제목 줄바꿈 수정, 데스크톱/모바일 centered QA, categoryId 1295941, OG/이미지/공식 링크 확인.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지급 보장·무조건 300만원·신청 대행·비공식 개인정보 입력 유도·판매 CTA 없음.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "status_changed",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:29:23+09:00",
-      "run_id": "2026-05-25_0129_existing-post-quality-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": "quality_backlog",
-      "to_status": "auth_blocked",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "post 45 기존 게시물 개선은 Tistory 관리 세션 로그인 리다이렉트로 중단. 공개 백업과 인증 진단 저장 완료.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0129_existing-post-quality-backlog/post45_general_tax/qa/auth_probe_post45.json"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Bounty-first scout 후 자동차세 6월 선납 체크 글을 보조 lane 후보로 발견.",
-      "links": [
-        "https://etax.seoul.go.kr/TaxTotScheAction.tran?gnb_id=0612&lnb_id=0612&gl_gubun=l"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "decision",
-      "from_status": "researching",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A급 ETAX 일정과 직접 비용절감 훅이 있어 Attention Gate 강한 후보.",
-      "links": [
-        "https://etax.seoul.go.kr/TaxTotScheAction.tran?gnb_id=0612&lnb_id=0612&gl_gubun=l",
-        "https://cdn.wetax.go.kr/static/guide/03%20%EC%8B%A0%EC%B2%AD/02_%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A7%A4%EB%89%B4%EC%96%BC_%EC%8B%A0%EC%B2%AD_%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8%20%EC%97%B0%EC%84%B8%EC%95%A1%EB%82%A9%EB%B6%80%20%EC%8B%A0%EC%B2%AD.pdf"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "planning_member",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Scout-only planning package/evidence/style brief 생성.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "정확 공제액 단정 금지와 공식 계산기 중심 구조로 품질 84점.",
-      "links": []
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지역/할인율 오해와 세무조언 리스크는 공식 확인형 문구로 통제 가능.",
-      "links": []
-    },
-    {
-      "time": "2026-05-25T01:48:54+09:00",
-      "run_id": "2026-05-25_0130_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원, 검색 유입 가설/전략 자산으로 기록.",
-      "links": []
-    },
-    {
-      "time": "2026-05-25T01:56:02+09:00",
-      "run_id": "2026-05-25_0140_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사: 보험금 청구 가능 여부와 참여병원 확인 필요가 분명한 강한 후보.",
-      "links": [
-        "https://www.fsc.go.kr/no010101/85456",
-        "https://www.silson24.or.kr/claim/web/serviceHospitalList"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:56:02+09:00",
-      "run_id": "2026-05-25_0140_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 Tistory 글/QA 산출물 재검증: 제목·이미지·OG·카테고리·공식 링크 통과.",
-      "links": [
-        "https://beemo.tistory.com/82"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:56:02+09:00",
-      "run_id": "2026-05-25_0140_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "자동 지급·보험상담·청구 보장 표현과 판매 CTA 없음.",
-      "links": [
-        "https://beemo.tistory.com/82"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:56:02+09:00",
-      "run_id": "2026-05-25_0140_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
-      "links": [
-        "https://beemo.tistory.com/82"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:56:02+09:00",
-      "run_id": "2026-05-25_0140_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260522_099_silson24_claim_check_blog",
-      "event": "status_changed",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "이미 완료된 공개/QA 결과를 ledger에 반영하고 planning에서 tracking으로 전환.",
-      "links": [
-        "https://beemo.tistory.com/82"
       ]
     }
   ],
