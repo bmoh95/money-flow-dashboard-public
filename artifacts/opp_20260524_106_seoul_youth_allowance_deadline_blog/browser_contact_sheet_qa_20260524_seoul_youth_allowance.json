@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-05-24T10:37:04+09:00",
+  "status": "pass",
+  "local_preview_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_c0ee7c9372ed49019baf45482dd52d93.png",
+  "contact_sheet_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_d3142e314a4e4897a9d7f9ce51bda9d0.png",
+  "findings": [
+    "발행 차단 결함 없음",
+    "한국어 카드 텍스트 정상 고딕 계열 렌더",
+    "제목/선/푸터/체크박스 충돌 없음",
+    "썸네일/5초체크/신청순서 이미지 역할 다양성 확인"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "checked_at": "2026-05-24T10:50:57+09:00",
+  "font": "Pretendard OTF explicit regular/medium/semibold/bold; Apple SD Gothic Neo fallback only",
+  "files": [
+    {
+      "file": "01-seoul-youth-allowance-deadline-thumb.png",
+      "width": 1200,
+      "height": 675,
+      "size": 99337
+    },
+    {
+      "file": "02-seoul-youth-allowance-quick-check.png",
+      "width": 1200,
+      "height": 675,
+      "size": 123510
+    },
+    {
+      "file": "03-seoul-youth-allowance-apply-order.png",
+      "width": 1200,
+      "height": 675,
+      "size": 114863
+    },
+    {
+      "file": "seoul_youth_allowance_contact_sheet.jpg",
+      "width": 1388,
+      "height": 328,
+      "size": 80874
+    }
+  ],
+  "local_checks": [
+    "1200x675 PNG",
+    "deliberate Korean line breaks",
+    "distinct jobs: thumbnail/quick-check/apply-order",
+    "short divider only",
+    "footer clearance",
+    "no sales CTA"
+  ],
+  "contact_sheet": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_106_seoul_youth_allowance_deadline_blog/assets/seoul_youth_allowance_contact_sheet.jpg"
+}

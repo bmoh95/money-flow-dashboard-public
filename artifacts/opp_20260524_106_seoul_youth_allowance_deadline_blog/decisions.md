@@ -1,9 +1,13 @@
-# 결정 기록
-
-- research_member GO: bounty/direct-payout 포함 4개 후보 비교 후 서울시 청년수당 2차를 최고 후보로 선정.
-- research_lead GO: 서울시 A급 공식 근거, 5/29 16시 마감, 월 50만원×최대 6개월, 6,000명 내외 확인.
-- planning_member GO: plan/evidence/style/sample/image package 작성.
-- planning_lead GO: 품질 89. 단, 지급 보장/비공식 링크 유도/자격 상담처럼 보이는 문장 금지.
-- execution_member GO: scout-only lane이므로 제작/발행은 backlog lane으로 넘기고 현재 단계는 planning 유지.
-- redteam GO: 오해·과장 차단 시 안전. 공식 경로만 안내.
-- roi GO: 직접 수익 0원, 검색 유입 가설/전략 자산.
+- 2026-05-24T07:15:01+09:00: research_member GO — bounty/direct-payout 포함 4개 후보 비교 후 서울시 청년수당 2차 마감 글을 최고 attention 후보로 선정.
+- 2026-05-24T07:15:01+09:00: research_lead GO — A급 서울시 공고에서 5/27~5/29 16시, 월50만원×최대6개월, 6,000명 내외 확인.
+- 2026-05-24T07:15:01+09:00: planning_member GO — plan/evidence/style/sample/image assets 작성.
+- 2026-05-24T07:15:01+09:00: planning_lead GO — 품질 89. 지급 보장·비공식 링크·자격 상담처럼 보이는 표현만 차단하면 진행 가능.
+- 2026-05-24T07:15:01+09:00: execution_member GO — 새 작업 scout-only lane이라 제작/발행은 backlog lane으로 넘기고 현재 단계는 기획으로 유지.
+- 2026-05-24T07:15:01+09:00: redteam GO — 과장·무조건 지급·대행 유도·개인정보 입력 유도만 차단하면 리스크 낮음.
+- 2026-05-24T07:15:01+09:00: roi GO — 직접 수익은 0원. 검색 유입 가설/전략 자산으로 추적.
+- 2026-05-24T10:55:23+09:00: research_lead GO — Attention/Cash Gate 재심사 통과: 5월29일 16시 초단기 마감, 월50만원×최대6개월, 6,000명 내외 공식 근거로 폭발 후보 유지.
+- 2026-05-24T10:55:23+09:00: planning_lead GO — 지원금 반복형을 피하고 5초 판정·제외조건·공식 경로 확인 구조로 재구성. 품질 93.
+- 2026-05-24T10:55:23+09:00: execution_member GO — 서울시 공식 공고 재확인, 본문 HTML, Pretendard PNG 3장 생성, Tistory 공개 발행/기존 URL 업데이트 완료.
+- 2026-05-24T10:55:23+09:00: execution_lead GO — 공개 렌더 QA 3회, 제목 줄바꿈 수정 후 브라우저/모바일 centered QA, categoryId 1295941, 이미지 3장/OG/공식 링크 확인.
+- 2026-05-24T10:55:23+09:00: redteam GO — 지급 보장·무조건 300만원·신청 대행·비공식 개인정보 입력 유도·판매 CTA를 차단.
+- 2026-05-24T10:55:23+09:00: roi GO — 직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking 전환.

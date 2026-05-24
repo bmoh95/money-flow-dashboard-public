@@ -1,0 +1,34 @@
+{
+  "checked_at": "2026-05-24T10:52:30+09:00",
+  "status": "pass",
+  "public_url": "https://beemo.tistory.com/83",
+  "desktop_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_e11d9fb663644051b83dea654844c46f.png",
+  "mobile_initial_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_b6a905e9ba1a441eb5da179936ccca1c.png",
+  "mobile_centered_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_34402bb9c9a84a46a5f7df8a2df1749c.png",
+  "desktop_dom": {
+    "title": "서울시 청년수당 2차, 5월29일 16시 전 제외조건 확인 :: 검증노트",
+    "category_ok": true,
+    "image_count": 3,
+    "all_images_loaded": true,
+    "image_dimensions": "1200x675 natural, 742x418 rendered desktop",
+    "image_to_caption_px": [7,7,7],
+    "caption_to_next_px": [24,24,20],
+    "source_link_count": 2,
+    "raw_markdown_or_work_notes": false
+  },
+  "mobile_dom": {
+    "title": "서울시 청년수당 2차, 5월29일 16시 전 제외조건 확인",
+    "image_count": 3,
+    "all_images_loaded": true,
+    "image_dimensions": "1200x675 natural, 698x394 rendered mobile route",
+    "native_action_bar_classified_as": "platform overlay, not blocking after centered-scroll recheck"
+  },
+  "findings": [
+    "제목 줄바꿈 어색함 수정 후 데스크톱 1줄 노출 확인",
+    "카테고리 돈관리·구매체크 확인",
+    "이미지 3장 로드 및 OG/모바일 OG non-default 확인",
+    "공식 링크 2개 확인",
+    "Tistory native action bar는 centered-scroll 재검증에서 첫 이미지 핵심 문구를 가리지 않음",
+    "작업노트/raw markdown 노출 없음"
+  ]
+}
