@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-25T10:21:10+09:00",
+  "updated_at": "2026-05-25T14:58:30+09:00",
   "last_run": {
-    "run_id": "2026-05-25_1016_existing-post84-quality",
-    "started_at": "2026-05-25T10:21:10+09:00",
-    "finished_at": "2026-05-25T10:21:10+09:00",
+    "run_id": "2026-05-25_1440_existing-post81-quality",
+    "started_at": "2026-05-25T14:58:30+09:00",
+    "finished_at": "2026-05-25T14:58:30+09:00",
     "trigger": "cron",
     "agents_executed": [
       "execution_member",
@@ -16,27 +16,27 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1016_existing-post84-quality/post84_cj_privacy_factcheck/assets/01-cj-privacy-verdict.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1016_existing-post84-quality/post84_cj_privacy_factcheck/assets/02-cj-privacy-no-share.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1016_existing-post84-quality/post84_cj_privacy_factcheck/assets/03-cj-privacy-account-check.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1016_existing-post84-quality/post84_cj_privacy_factcheck/body_post84_published_payload.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1016_existing-post84-quality/post84_cj_privacy_factcheck/qa/browser_visual_qa_post84.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1440_existing-post81-quality/post81_privacy_highrisk/assets/01-privacy-highrisk-verdict.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1440_existing-post81-quality/post81_privacy_highrisk/assets/02-privacy-targets.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1440_existing-post81-quality/post81_privacy_highrisk/assets/03-privacy-action.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1440_existing-post81-quality/post81_privacy_highrisk/body_post81_published_payload.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1440_existing-post81-quality/post81_privacy_highrisk/qa/browser_visual_qa_post81.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "attention_cash_gate",
         "decision": "GO",
-        "summary": "Post84 is an already-public high-attention 개인정보 유출 article; quality repair is standing-approved."
+        "summary": "Post81 is an already-public high-attention 개인정보 정책/권리 article; quality repair is standing-approved."
       },
       {
         "agent": "execution_lead",
         "decision": "GO",
-        "summary": "Tistory post84 updated; 3 public render QA cycles and mobile OG check passed."
+        "summary": "Tistory post81 updated; 3 public render QA cycles, mobile OG, category, source links and browser visual QA passed."
       }
     ],
-    "summary": "기존 Tistory post 84 개인정보 유출 글 품질/이미지/출처/공개 렌더링 QA 완료.",
-    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- 기존 공개글 post 84를 개인정보 유출 이슈용 판정형 글로 정리하고, 피해자 정보 재공유 금지/계정 점검 순서를 보강했습니다.\n- Apple SD Gothic Neo 카드 이미지 3장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/출처 링크/브라우저 시각 QA 확인 완료: https://beemo.tistory.com/84\n\n**시장성 판단**\n- 이미 공개된 중요 개인정보 유출 글의 품질·팩트·썸네일 개선이라 Attention Gate 통과. 새 롱테일 발행은 하지 않았습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 검색 유입 가설만 추적합니다.\n\n**대기**\n- 다음 backlog 후보는 별도 실행 때 재심사.\n\n**필요 승인**\n- 없음.\n"
+    "summary": "기존 Tistory post 81 개인정보 고위험 점검 글 품질/이미지/출처/공개 렌더링 QA 완료.",
+    "final_report": "주인님, 기존 게시물 1개 개선 완료입니다."
   },
   "metrics": {
     "total": 111,
@@ -1514,6 +1514,18 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-25T14:58:30+09:00",
+      "run_id": "2026-05-25_1440_existing-post81-quality",
+      "agent": "제작 검수",
+      "opportunity_id": "existing_post_81",
+      "event": "status_changed",
+      "decision": "GO",
+      "summary": "기존 Tistory post81 품질 개선 및 공개 URL QA 통과",
+      "links": [
+        "https://beemo.tistory.com/81"
+      ]
+    },
     {
       "time": "2026-05-25T06:12:29+09:00",
       "run_id": "2026-05-25_0608_existing-post32-quality",
