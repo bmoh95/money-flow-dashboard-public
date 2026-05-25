@@ -1,0 +1,54 @@
+{
+  "topic": "2026 경기도 청년 복지포인트 6월 1차 신청 전 체크",
+  "target_reader": "경기도 소재 중소·중견기업/소상공인/비영리법인 재직 19~39세 청년과 인사담당자",
+  "voice": "혜택을 과장하지 않고, 신청 전에 빠지는 조건/서류를 먼저 짚는 검증노트 말투",
+  "avoid": "신청 보장, 확정되지 않은 접수일 단정, 판매 CTA, 복지포인트 사용처 과장",
+  "image_plan": [
+    "썸네일: 연 120만원/6월 1차/대상 먼저 확인",
+    "판단 카드: 재직 6개월·주36시간·월급 기준·중복참여 제한",
+    "행동 카드: 공고 확인→서류→마이데이터 동의→신청 후 선발 기준"
+  ],
+  "sampled_posts": [
+    {
+      "title": "2026 경기도 청년복지포인트 신청방법 및 자격 요건 (연 120만원 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Ftrendofkorea.tistory.com%2Fentry%2F2026%2D%25EA%25B2%25BD%25EA%25B8%25B0%25EB%258F%2584%2D%25EC%25B2%25AD%25EB%2585%2584%25EB%25B3%25B5%25EC%25A7%2580%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8%2D%25EC%258B%25A0%25EC%25B2%25AD%25EB%25B0%25A9%25EB%25B2%2595%2D%25EB%25B0%258F%2D%25EC%259E%2590%25EA%25B2%25A9%2D%25EC%259A%2594%25EA%25B1%25B4%2D%25EC%2597%25B0%2D120%25EB%25A7%258C%25EC%259B%2590%2D%25ED%2598%259C%25ED%2583%259D%2D%25EC%25B4%259D%25EC%25A0%2595%25EB%25A6%25AC&rut=a6546864c2dfab2d58aa467c3eff9986d74e3e77fd132be53f03ce5cd001a42e"
+    },
+    {
+      "title": "연간 120만원 포인트 지급! 2026 경기도 청년 복지포인트 신청 자격 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fajaenews.com%2F2026%2Dgyeonggi%2Dyouth%2Dwelfare%2Dpoints%2Dfirst%2Drecruitment%2F&rut=252d192aafe784a343795d90f0c159ddc7b559d9ff61ab165d7e9075824e93cf"
+    },
+    {
+      "title": "경기도 청년복지포인트 신청 기간, 자격 요건, 서류, 2026년 120 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fnice%2Dinfo.com%2F%25EA%25B2%25BD%25EA%25B8%25B0%25EB%258F%2584%2D%25EC%25B2%25AD%25EB%2585%2584%25EB%25B3%25B5%25EC%25A7%2580%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EA%25B8%25B0%25EA%25B0%2584%2D%25EC%259E%2590%25EA%25B2%25A9%2D%25EC%259A%2594%25EA%25B1%25B4%2D%25EC%2584%259C%25EB%25A5%2598%2D2026%2F&rut=75dfa26766a4c413912a0d409c1929b7b85edbacd9eecf7aa1e7d49e7d2be61c"
+    },
+    {
+      "title": "경기도, '청년 복지포인트' 1차 참여자 1만 명 모집. 연간 120만 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fgnews.gg.go.kr%2Fbriefing%2Fbrief_gongbo_view.do%3FBS_CODE%3DS017%26number%3D66083&rut=7cc06b22c9afb82a7c01879c3264bb4d51413182ec55c3f923b54f60c16a45e4"
+    },
+    {
+      "title": "2026년 경기도 청년복지포인트 신청방법과 120만원 혜택 총정리",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fnananews.co.kr%2F2026%2F03%2F30%2F2026%25EB%2585%2584%2D%25EA%25B2%25BD%25EA%25B8%25B0%25EB%258F%2584%2D%25EC%25B2%25AD%25EB%2585%2584%25EB%25B3%25B5%25EC%25A7%2580%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8%2D%25EC%258B%25A0%25EC%25B2%25AD%25EB%25B0%25A9%25EB%25B2%2595%25EA%25B3%25BC%2D120%25EB%25A7%258C%25EC%259B%2590%2D%25ED%2598%259C%25ED%2583%259D%2F&rut=a55f7a0ae463ceb062bfe8871891f44b0f03dca3e7004c07d643e7e6b19e89cb"
+    },
+    {
+      "title": "경기도 청년 복지포인트 120만원 지원대상은? (1차 모집, 자격 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fm.blog.naver.com%2Fkswax%2F223896472515&rut=176bb8f869ac79b7110aee24ea1db6f32dfb64af46d75c2ce8baff24b88f6344"
+    },
+    {
+      "title": "경기도일자리재단 - 신청/발표 - 경기도「청년 복지포인트」1차 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.gjf.or.kr%2Fmain%2Fpst%2Fview.do%3Fpst_id%3Dnotice_ap%26pst_sn%3D200409&rut=9cad38a02c81a650f08f2be820a95c99a4a2611c84a75c9afc31d794cac6e6a2"
+    },
+    {
+      "title": "2026 경기도 청년 복지포인트 1차 모집 신청 방법 및 자격 조건 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Finfo%2Dfind2.com%2F2026%2D%25EA%25B2%25BD%25EA%25B8%25B0%25EB%258F%2584%2D%25EC%25B2%25AD%25EB%2585%2584%2D%25EB%25B3%25B5%25EC%25A7%2580%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8%2D1%25EC%25B0%25A8%2D%25EB%25AA%25A8%25EC%25A7%2591%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EB%25B0%25A9%25EB%25B2%2595%2D%25EB%25B0%258F%2D%25EC%259E%2590%25EA%25B2%25A9%2F&rut=46a1fdc9215f7b8c214d04154a9bdba6588e288997d4fdd25f6978598d6d927f"
+    },
+    {
+      "title": "경기도, 연 120만원 '복지포인트 지원' 청년 근로자 1만명 모집",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fwww.yna.co.kr%2Fview%2FAKR20250528038600061&rut=f543527ef67b171a58f311043e1221b64463dd006653286ad37eeb33811aeafc"
+    },
+    {
+      "title": "[2026 경기도 청년 복지포인트] 연 120만원 혜택! 3월 신청 기간 및 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fsoftlife.cc%2F2026%2F03%2F08%2F2026%2D%25EA%25B2%25BD%25EA%25B8%25B0%25EB%258F%2584%2D%25EC%25B2%25AD%25EB%2585%2584%2D%25EB%25B3%25B5%25EC%25A7%2580%25ED%258F%25AC%25EC%259D%25B8%25ED%258A%25B8%2D%25EC%2597%25B0%2D120%25EB%25A7%258C%25EC%259B%2590%2D%25ED%2598%259C%25ED%2583%259D%2D3%25EC%259B%2594%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EA%25B8%25B0%25EA%25B0%2584%2F&rut=7b55dd8d22bacda8017de94240ca17ab6805b886028aaae82ca6c0ea8ae33c7b"
+    }
+  ],
+  "anti_repetition": "최근 지원금 글(청년월세/문화패스/국가장학금)과 겹치지 않도록 “근로자 복지포인트 + 회사/재직/중복 제한” 판단표 구조로 분리."
+}
