@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-26T06:21:02+09:00",
+  "updated_at": "2026-05-26T06:26:35+09:00",
   "last_run": {
     "run_id": "2026-05-26_0614_money-flow",
     "started_at": "2026-05-26T06:14:43.993319+09:00",
@@ -36,7 +36,7 @@
       }
     ],
     "summary": "bounty/direct-payout 후보는 안전한 GO 없음. 서울시 공식 기후동행카드 페이백 근거 기반 무료 검증 글 1개를 scout-only planning으로 생성.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO, 3개 NO-GO/HOLD, 1개 PIVOT.\n- `opp_20260526_113_climate_card_payback_blog` planning 패키지 생성: 기후동행카드 6월 페이백 3만원/최대 9만원 체크 글.\n\n**시장성 판단**\n- GO: 서울시 공식 안내·FAQ에서 4.1~6.30, 월 3만원, 최대 9만원, 티머니 신청 필수 확인.\n- 6월 말 가치상실/신청 누락 위험이 있어 `폭발 후보`.\n- bounty 후보는 필터 결과 rescue 0개로 자동 PR 부적합.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설로만 추적.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO, 3개 NO-GO/HOLD, 1개 PIVOT.\n- `opp_20260526_113_climate_card_payback_blog` planning 패키지 생성: 기후동행카드 6월 페이백 3만원/최대 9만원 체크 글.\n\n**시장성 판단**\n- GO: 서울시 공식 안내·FAQ에서 4.1~6.30, 월 3만원, 최대 9만원, 티머니 신청 필수 확인.\n- 6월 말 가치상실/신청 누락 위험이 있어 `폭발 후보`.\n- bounty 후보는 필터 결과 rescue 0개로 자동 PR 부적합.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설로만 추적.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n- 공개 미러 검증 완료: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 113,
