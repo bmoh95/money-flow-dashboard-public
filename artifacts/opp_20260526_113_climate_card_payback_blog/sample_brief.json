@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-05-26T06:21:02+09:00",
+  "samples": [
+    {
+      "title": "서울시 · 고유가 극복 캠페인, 3만원 페이백으로 무제한 대중교통 이용!",
+      "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+      "pattern": "공식 안내형. 숫자·기간·대상·제외대상·참여방법을 한 페이지에 나열."
+    },
+    {
+      "title": "서울시 · 기후동행카드 페이백 FAQ",
+      "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
+      "pattern": "Q&A형. 6월 30일 충전, 후불 한도 미만, 환불/단기권 제외 같은 헷갈리는 케이스를 질문으로 처리."
+    },
+    {
+      "title": "서울시 · 기후동행카드 기본 안내/FAQ",
+      "url": "https://news.seoul.go.kr/traffic/climatecard",
+      "pattern": "상위 FAQ. 카드 사용범위·권종·현금영수증 등 배경 확인용."
+    },
+    {
+      "title": "티머니 · 기후동행카드 메뉴/할인 등록",
+      "url": "https://pay.tmoney.co.kr/",
+      "pattern": "실제 신청/카드등록 채널 신뢰 보강. 로그인·등록 절차는 독자 직접 확인으로만 안내."
+    },
+    {
+      "title": "기존 검증노트 지원금/마감형 글",
+      "url": "local-dashboard-last-posts",
+      "pattern": "반복 회피: 지원금 신청 글 구조 대신 “페이백 놓치는 조건 5초 판정→티머니 신청 순서”로 시작."
+    }
+  ],
+  "anti_repetition": "최근 청년지원금/세금 마감 글과 달리 교통비 페이백 이벤트의 제외조건·신청 누락 방지 중심으로 구성한다."
+}

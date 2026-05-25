@@ -1,47 +1,46 @@
 {
-  "updated_at": "2026-05-26T05:42:56+09:00",
+  "updated_at": "2026-05-26T06:21:02+09:00",
   "last_run": {
-    "run_id": "2026-05-26_0542_money-flow-backlog",
-    "started_at": "2026-05-26T05:42:56+09:00",
-    "finished_at": "2026-05-26T05:42:56+09:00",
+    "run_id": "2026-05-26_0614_money-flow",
+    "started_at": "2026-05-26T06:14:43.993319+09:00",
+    "finished_at": "2026-05-26T06:21:02+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "attention_cash_gate",
+      "research_member",
+      "research_lead",
+      "planning_member",
+      "planning_lead",
       "execution_member",
       "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 0,
+    "candidates_discovered": 5,
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/body.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/01-gg-youth-welfare-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/02-gg-youth-welfare-flow.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/03-gg-youth-welfare-docs.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/contact_sheet_gg_youth_welfare.png"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "attention_cash_gate",
+        "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
         "decision": "GO",
-        "summary": "폭발 후보이나 공식 개별 공고 확인 필요"
-      },
-      {
-        "agent": "execution_lead",
-        "decision": "HOLD",
-        "summary": "로컬 초안/이미지 완성, 공개 보류"
+        "summary": "기후동행카드 6월 페이백 글을 폭발 후보로 planning 생성."
       }
     ],
-    "summary": "경기도 청년 복지포인트 backlog 1건 로컬 초안/이미지 완성. 2026 1차 개별 접수 공고 미확인으로 공개 발행 보류.",
-    "final_report": "주인님, 경기도 청년 복지포인트 글은 로컬 제작 완료, 공식 개별 공고 확인 전 공개 보류입니다."
+    "summary": "bounty/direct-payout 후보는 안전한 GO 없음. 서울시 공식 기후동행카드 페이백 근거 기반 무료 검증 글 1개를 scout-only planning으로 생성.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO, 3개 NO-GO/HOLD, 1개 PIVOT.\n- `opp_20260526_113_climate_card_payback_blog` planning 패키지 생성: 기후동행카드 6월 페이백 3만원/최대 9만원 체크 글.\n\n**시장성 판단**\n- GO: 서울시 공식 안내·FAQ에서 4.1~6.30, 월 3만원, 최대 9만원, 티머니 신청 필수 확인.\n- 6월 말 가치상실/신청 누락 위험이 있어 `폭발 후보`.\n- bounty 후보는 필터 결과 rescue 0개로 자동 PR 부적합.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설로만 추적.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 112,
-    "active": 5,
+    "total": 113,
+    "active": 6,
     "approval_needed": 1,
     "launched": 51,
     "closed_won": 0,
@@ -74,7 +73,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 공고 대기",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -196,7 +194,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "공식 마감 확인",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -357,7 +358,9 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -532,8 +535,11 @@
       ],
       "risk_labels": [
         "검토 메모",
+        "비용 절감",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -640,7 +646,7 @@
       "base_net_margin_pct": null,
       "expected_price": 0,
       "next_action": "2026년 청년 복지포인트 1차 개별 접수 공고/FAQ가 공식 게시되면 날짜·서류를 반영해 Tistory 공개 발행과 rendered QA 진행.",
-      "stop_reason": "공식 공고 대기",
+      "stop_reason": "OFFICIAL_NOTICE_PENDING",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "OFFICIAL_NOTICE_PENDING",
@@ -653,12 +659,10 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "초안 준비",
         "판매문구 없음",
-        "이미지 준비"
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -842,6 +846,145 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
           "title": "roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/roi.md"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "id": "opp_20260526_113_climate_card_payback_blog",
+      "key": "MF-113",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
+      "type": "기타",
+      "owner": "planning_member",
+      "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
+      "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
+      "quality": 88,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "official_deadline_verified",
+        "money_saving",
+        "free_validation_only",
+        "no_sales_cta",
+        "tistory_rendered_qa_required",
+        "image_generation_required",
+        "tmoney_registration_required",
+        "avoid_login_guidance"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "비용 절감",
+        "무료 검증",
+        "판매문구 없음",
+        "렌더 QA 필요",
+        "이미지 필요",
+        "티머니 등록 확인",
+        "로그인 대행 금지"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+          "grade": "A",
+          "summary": "서울시 공식 기후동행카드 페이백 이벤트 안내. 2026년 4~6월, 4.1~6.30 기간 내, 월 3만원 페이백, 3개월 최대 9만원, 티머니 카드&페이 가입/카드등록/신청 필수 및 제외대상 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
+          "grade": "A",
+          "summary": "서울시 공식 페이백 FAQ. 6월 30일 충전 후 7월 29일까지 만료 이용 시 대상, 후불카드/한도 미만/환불·단기권 제외/홈페이지 신청 등 독자 오해 지점 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "공식/로컬 샘플 5개 기반 구조·반복 회피·이미지 계획 메모.",
+          "checked_at": "2026-05-26T06:21:02+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty/direct-payout pool은 rescue 0개. 보조 lane에서 서울시 공식 기후동행카드 페이백 4~6월/월 3만원/최대 9만원 후보 발견."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 안내와 FAQ가 있고 6월 30일 충전/이용 기준, 티머니 신청 필수, 제외조건으로 독자 손익 긴장감이 높음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only planning 패키지 생성. 초안/게시/이미지 제작은 backlog/execution lane으로 넘김."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "첫 화면에 5초 판정·신청 누락 조건·공식 확인 순서를 제시하면 품질 88점. 최근 지원금 글과 구조 차별 가능."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로그인/계좌/카드등록은 독자 직접 확인으로만 안내하고, 환급 보장·대행 표현을 피하면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
+          "title": "evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
+          "title": "plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
+          "title": "decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
+          "title": "roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "title": "sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/sample_brief.json"
         }
       ],
       "approval_required": false
@@ -1104,7 +1247,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 공고 대기",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -1226,7 +1368,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "공식 마감 확인",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -1387,7 +1532,9 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -1562,8 +1709,11 @@
       ],
       "risk_labels": [
         "검토 메모",
+        "비용 절감",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -1670,7 +1820,7 @@
       "base_net_margin_pct": null,
       "expected_price": 0,
       "next_action": "2026년 청년 복지포인트 1차 개별 접수 공고/FAQ가 공식 게시되면 날짜·서류를 반영해 Tistory 공개 발행과 rendered QA 진행.",
-      "stop_reason": "공식 공고 대기",
+      "stop_reason": "OFFICIAL_NOTICE_PENDING",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "OFFICIAL_NOTICE_PENDING",
@@ -1683,12 +1833,10 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "초안 준비",
         "판매문구 없음",
-        "이미지 준비"
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -1875,6 +2023,145 @@
         }
       ],
       "approval_required": false
+    },
+    {
+      "id": "opp_20260526_113_climate_card_payback_blog",
+      "key": "MF-113",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
+      "type": "기타",
+      "owner": "planning_member",
+      "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
+      "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
+      "quality": 88,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "official_deadline_verified",
+        "money_saving",
+        "free_validation_only",
+        "no_sales_cta",
+        "tistory_rendered_qa_required",
+        "image_generation_required",
+        "tmoney_registration_required",
+        "avoid_login_guidance"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "비용 절감",
+        "무료 검증",
+        "판매문구 없음",
+        "렌더 QA 필요",
+        "이미지 필요",
+        "티머니 등록 확인",
+        "로그인 대행 금지"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+          "grade": "A",
+          "summary": "서울시 공식 기후동행카드 페이백 이벤트 안내. 2026년 4~6월, 4.1~6.30 기간 내, 월 3만원 페이백, 3개월 최대 9만원, 티머니 카드&페이 가입/카드등록/신청 필수 및 제외대상 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
+          "grade": "A",
+          "summary": "서울시 공식 페이백 FAQ. 6월 30일 충전 후 7월 29일까지 만료 이용 시 대상, 후불카드/한도 미만/환불·단기권 제외/홈페이지 신청 등 독자 오해 지점 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "공식/로컬 샘플 5개 기반 구조·반복 회피·이미지 계획 메모.",
+          "checked_at": "2026-05-26T06:21:02+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty/direct-payout pool은 rescue 0개. 보조 lane에서 서울시 공식 기후동행카드 페이백 4~6월/월 3만원/최대 9만원 후보 발견."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 안내와 FAQ가 있고 6월 30일 충전/이용 기준, 티머니 신청 필수, 제외조건으로 독자 손익 긴장감이 높음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only planning 패키지 생성. 초안/게시/이미지 제작은 backlog/execution lane으로 넘김."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "첫 화면에 5초 판정·신청 누락 조건·공식 확인 순서를 제시하면 품질 88점. 최근 지원금 글과 구조 차별 가능."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로그인/계좌/카드등록은 독자 직접 확인으로만 안내하고, 환급 보장·대행 표현을 피하면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
+          "title": "evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
+          "title": "plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
+          "title": "decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
+          "title": "roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "title": "sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/sample_brief.json"
+        }
+      ],
+      "approval_required": false
     }
   ],
   "rejection_summary": {
@@ -1882,12 +2169,12 @@
     "위험 높음": 9,
     "기회비용": 17,
     "PAYMENT_UNCLEAR": 3,
-    "DUPLICATE": 21,
+    "중복": 21,
     "HIGH_USER_INPUT": 2,
     "LOW_QUALITY": 2,
     "이목 약함": 3,
     "NO_CHANNEL": 1,
-    "공식 공고 대기": 1
+    "OFFICIAL_NOTICE_PENDING": 1
   },
   "roi": {
     "expected_base_net_total": 951161,
@@ -1895,109 +2182,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지원금 반복을 줄이고 제외조건 확인 중심 구조로 확정.",
-      "links": []
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "본문 HTML과 Pretendard PNG 3장 생성, Tistory 공개 발행/업데이트 완료.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 렌더 QA 3회, 제목 줄바꿈 수정, 데스크톱/모바일 centered QA, categoryId 1295941, OG/이미지/공식 링크 확인.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "지급 보장·무조건 300만원·신청 대행·비공식 개인정보 입력 유도·판매 CTA 없음.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "roi",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-24T10:55:23+09:00",
-      "run_id": "2026-05-24_1037_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260524_106_seoul_youth_allowance_deadline_blog",
-      "event": "status_changed",
-      "from_status": "planning",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
-      "links": [
-        "https://beemo.tistory.com/83"
-      ]
-    },
-    {
-      "time": "2026-05-25T01:29:23+09:00",
-      "run_id": "2026-05-25_0129_existing-post-quality-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": "quality_backlog",
-      "to_status": "auth_blocked",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "post 45 기존 게시물 개선은 Tistory 관리 세션 로그인 리다이렉트로 중단. 공개 백업과 인증 진단 저장 완료.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0129_existing-post-quality-backlog/post45_general_tax/qa/auth_probe_post45.json"
-      ]
-    },
     {
       "time": "2026-05-25T01:48:54+09:00",
       "run_id": "2026-05-25_0130_money-flow",
@@ -2481,6 +2665,104 @@
       "links": [],
       "time": "2026-05-26T05:42:56+09:00",
       "run_id": "2026-05-26_0542_money-flow-backlog"
+    },
+    {
+      "time": "2026-05-26T05:48:57+09:00",
+      "run_id": "2026-05-26_0542_money-flow-backlog",
+      "agent": "skill_maintenance",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "asset_created",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "korean-blog-organic-writing skill에 macOS Pillow Apple Color Emoji 회피 규칙 추가",
+      "links": []
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "research_member",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "discovered",
+      "from_status": null,
+      "to_status": "discovered",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "기후동행카드 페이백 후보 발견; bounty lane은 rescue 0개.",
+      "links": [
+        "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card"
+      ]
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "researching",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "A급 공식 안내/FAQ와 6월 가치상실 훅으로 Attention Gate 폭발 후보.",
+      "links": [
+        "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+        "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback"
+      ]
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "planning_member",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Scout-only evidence/plan/sample/candidate outcomes 생성.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md"
+      ]
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "planning_lead",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "품질 88점. 최근 지원금 글과 달리 페이백 누락 방지 구조로 차별화.",
+      "links": []
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "환급 보장/로그인 대행 표현 금지 조건으로 리스크 통제 가능.",
+      "links": []
+    },
+    {
+      "time": "2026-05-26T06:21:02+09:00",
+      "run_id": "2026-05-26_0614_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익 0원, 검색 유입 가설로 기록.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -9496,7 +9778,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 공식 플랫폼 지급, matching open PR 0건, 미응답 claim 없음, 테스트 재현 가능, reward 대비 2~4시간 내 완료 가능 후보만 GO 검토.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "existing_claims_or_prs",
         "unanswered_availability_confirmation",
@@ -9674,7 +9956,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 신규 scout는 공식 지급액/claim 상태/PR 경쟁이 명확한 bounty 또는 기존 블로그 축과 겹치지 않는 무료 검증 주제만 GO 검토.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "duplicate_pr_or_claim",
         "unclear_payout_terms",
@@ -9835,7 +10117,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 공식 cash/platform 지급, 동일 목적 open PR 0건, prompt/secret 공개 요구 없음, 2~4시간 내 테스트 가능한 후보만 GO 검토.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "duplicate_open_prs",
         "crowded_attempts",
@@ -10205,7 +10487,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout에서 공식 cash/platform 지급, 무경쟁, 좁은 acceptance criteria 후보 재탐색",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "LOW_MARGIN",
@@ -11736,7 +12018,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout는 공식 cash/platform + 경쟁 PR 0건 + 참여자격 제한 없음 + 좁은 acceptance 후보만 구현 검토. $1 micro-bounty도 계속 허용하되 선점 여부를 먼저 본다.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "HIGH_USER_INPUT",
@@ -12656,7 +12938,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "HIGH_RISK",
@@ -12783,7 +13065,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "NO_EVIDENCE",
@@ -13217,7 +13499,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 공식 cash/platform, 경쟁 PR 0~1건, prompt/secret 공개 요구 없음, 작은 acceptance 후보만 구현 검토. $1 micro-bounty는 계속 허용.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "PAYMENT_UNCLEAR",
@@ -13476,7 +13758,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout에서는 댓글/PR 과밀이 낮고, /start 자격 제한이 없고, 외부 계정·지갑·개인정보 없이 테스트 가능한 cash/platform micro-bounty만 자동 구현 후보로 승격.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "PAYMENT_UNCLEAR",
@@ -13802,7 +14084,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout는 댓글/PR 과밀이 낮고, /attempt 또는 claim 조건이 명확하며, wallet/Upwork/IssueHunt 별도 계정 없이 GitHub PR만으로 제출 가능한 cash/platform micro-bounty를 우선 탐색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "PAYMENT_UNCLEAR",
@@ -13935,7 +14217,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout는 경쟁 PR 0건, 작은 acceptance, cash/platform claim 명확, external account/profile 부담 없는 micro-bounty를 우선 탐색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "NO_CHANNEL",
@@ -14068,7 +14350,7 @@
       "base_net_margin_pct": null,
       "expected_price": 0,
       "next_action": "다음 scout에서 cash/platform bounty 5건 이상 재검색. 현재 후보들은 재시도하지 않음 unless 경쟁/지급 상태 변화.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "duplicate_pr_competition",
         "payment_unclear_candidates",
@@ -15197,7 +15479,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout에서 새 cash/platform 후보 재검색. 기존 UnsafeLabs PR #1710은 모니터링 유지.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_RISK",
         "PAYMENT_UNCLEAR",
@@ -15849,7 +16131,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 Algora/Opire에서 recently-created, open PR 0~1개, no assignee, no prompt-disclosure 후보만 우선 필터링.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_RISK",
         "HIGH_COMPETITION",
@@ -15976,7 +16258,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 UnsafeLabs 계열을 낮은 우선순위로 내리고, open PR 0~1개인 verified cash/platform 후보만 검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_RISK",
         "HIGH_COMPETITION",
@@ -16433,7 +16715,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout에서 경쟁 PR 0건, participant eligibility clear, deterministic small diff/test, cash/platform payout visible 후보를 우선 재검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "HIGH_USER_INPUT",
@@ -16564,7 +16846,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 bounty scout에서 경쟁 PR 0건, participant eligibility clear, deterministic small diff/test, cash/platform payout visible 후보를 우선 재검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE",
         "HIGH_USER_INPUT",
@@ -16707,7 +16989,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 현금성 bounty scout에서 경쟁 낮고 payout rail 명확한 micro-bounty를 계속 검색. 기존 UnsafeLabs closed PR은 maintainer 신호 없으면 재시도하지 않음.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "중복/선점",
         "범위 과대",
@@ -17203,7 +17485,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 기존 PR 과밀도가 낮고 assignment가 필요 없는 verified cash/platform micro-bounty를 우선 검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_PR_CROWDING",
         "ASSIGNMENT_REQUIRED",
@@ -17348,7 +17630,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 최근 생성·낮은 PR 경쟁·assignment 불필요·cash/platform 지급 명확한 micro-bounty를 우선 검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_PR_CROWDING",
         "ASSIGNMENT_REQUIRED",
@@ -17810,7 +18092,7 @@
       "base_net_margin_pct": 0,
       "expected_price": 0,
       "next_action": "다음 scout는 newly opened, comments<10, no active attempts, Algora/Opire cash route clear, PR count low인 typo/test/doc micro-bounty를 우선 검색.",
-      "stop_reason": "DUPLICATE",
+      "stop_reason": "중복",
       "risk_flags": [
         "DUPLICATE_PR_CROWDING",
         "ACTIVE_ATTEMPTS",
@@ -19881,7 +20163,9 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "이미지 필요",
+        "판매문구 없음",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -20122,7 +20406,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "공식 마감 확인",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -20393,7 +20680,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "공식 마감 확인",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -20644,7 +20934,8 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "검토 메모"
+        "검토 메모",
+        "공식 마감 확인"
       ],
       "evidence": [
         {
@@ -20873,7 +21164,9 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -21376,7 +21669,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 공고 대기",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -21512,7 +21804,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "공식 마감 확인",
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -21765,6 +22060,7 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
+        "공식 마감 확인",
         "판매문구 없음"
       ],
       "evidence": [
@@ -21985,7 +22281,10 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "공식 마감 확인",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -22161,6 +22460,7 @@
       "risk_labels": [
         "폭발 후보",
         "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -22446,8 +22746,11 @@
       "risk_labels": [
         "폭발 후보",
         "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -22748,7 +23051,9 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -22923,8 +23228,11 @@
       ],
       "risk_labels": [
         "검토 메모",
+        "비용 절감",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "이미지 필요",
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -23031,7 +23339,7 @@
       "base_net_margin_pct": null,
       "expected_price": 0,
       "next_action": "2026년 청년 복지포인트 1차 개별 접수 공고/FAQ가 공식 게시되면 날짜·서류를 반영해 Tistory 공개 발행과 rendered QA 진행.",
-      "stop_reason": "공식 공고 대기",
+      "stop_reason": "OFFICIAL_NOTICE_PENDING",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "OFFICIAL_NOTICE_PENDING",
@@ -23044,12 +23352,10 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "초안 준비",
         "판매문구 없음",
-        "이미지 준비"
+        "렌더 QA 필요"
       ],
       "evidence": [
         {
@@ -23233,6 +23539,145 @@
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
           "title": "roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/roi.md"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "id": "opp_20260526_113_climate_card_payback_blog",
+      "key": "MF-113",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
+      "type": "기타",
+      "owner": "planning_member",
+      "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
+      "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
+      "quality": 88,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "official_deadline_verified",
+        "money_saving",
+        "free_validation_only",
+        "no_sales_cta",
+        "tistory_rendered_qa_required",
+        "image_generation_required",
+        "tmoney_registration_required",
+        "avoid_login_guidance"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "비용 절감",
+        "무료 검증",
+        "판매문구 없음",
+        "렌더 QA 필요",
+        "이미지 필요",
+        "티머니 등록 확인",
+        "로그인 대행 금지"
+      ],
+      "evidence": [
+        {
+          "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
+          "grade": "A",
+          "summary": "서울시 공식 기후동행카드 페이백 이벤트 안내. 2026년 4~6월, 4.1~6.30 기간 내, 월 3만원 페이백, 3개월 최대 9만원, 티머니 카드&페이 가입/카드등록/신청 필수 및 제외대상 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
+          "grade": "A",
+          "summary": "서울시 공식 페이백 FAQ. 6월 30일 충전 후 7월 29일까지 만료 이용 시 대상, 후불카드/한도 미만/환불·단기권 제외/홈페이지 신청 등 독자 오해 지점 확인.",
+          "checked_at": "2026-05-26T06:21:02+09:00",
+          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "공식/로컬 샘플 5개 기반 구조·반복 회피·이미지 계획 메모.",
+          "checked_at": "2026-05-26T06:21:02+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty/direct-payout pool은 rescue 0개. 보조 lane에서 서울시 공식 기후동행카드 페이백 4~6월/월 3만원/최대 9만원 후보 발견."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 공식 안내와 FAQ가 있고 6월 30일 충전/이용 기준, 티머니 신청 필수, 제외조건으로 독자 손익 긴장감이 높음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only planning 패키지 생성. 초안/게시/이미지 제작은 backlog/execution lane으로 넘김."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "첫 화면에 5초 판정·신청 누락 조건·공식 확인 순서를 제시하면 품질 88점. 최근 지원금 글과 구조 차별 가능."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로그인/계좌/카드등록은 독자 직접 확인으로만 안내하고, 환급 보장·대행 표현을 피하면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-26T06:21:02+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
+          "title": "evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
+          "title": "plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
+          "title": "decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/decisions.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
+          "title": "roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
+          "title": "candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+          "title": "sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/sample_brief.json"
         }
       ],
       "approval_required": false
