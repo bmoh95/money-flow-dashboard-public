@@ -1,11 +1,12 @@
 {
-  "updated_at": "2026-05-25T18:22:05+09:00",
+  "updated_at": "2026-05-25T21:31:30+09:00",
   "last_run": {
-    "run_id": "2026-05-25_1605_existing-post24-quality",
-    "started_at": "2026-05-25T17:52:09+09:00",
-    "finished_at": "2026-05-25T18:22:05+09:00",
+    "run_id": "2026-05-25_2116_existing-post22-quality",
+    "started_at": "2026-05-25T21:16:33+09:00",
+    "finished_at": "2026-05-25T21:31:30+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "attention_cash_gate",
       "execution_member",
       "execution_lead",
       "redteam",
@@ -16,42 +17,154 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1605_existing-post24-quality/post24_gtx_samseong_rebar/assets/01-gtx-rebar-verdict.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1605_existing-post24-quality/post24_gtx_samseong_rebar/assets/02-gtx-rebar-issue-map.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1605_existing-post24-quality/post24_gtx_samseong_rebar/assets/03-gtx-rebar-reader-check.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_1605_existing-post24-quality/post24_gtx_samseong_rebar/body_post24_published_payload.html"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/01-barakah-verdict.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/02-barakah-issue-map.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/03-barakah-reader-check.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/body_post22_published_payload.html"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "agent": "attention_cash_gate",
         "decision": "GO",
-        "summary": "Post24 is an already-public high-attention GTX safety controversy article; quality repair is standing-approved."
+        "summary": "existing high-attention public fact-check quality repair"
       },
       {
         "agent": "execution_lead",
         "decision": "GO",
-        "summary": "Tistory post24 updated; 3 public render QA cycles and mobile OG check passed."
+        "summary": "Tistory post22 updated and 3 rendered QA cycles passed"
       },
       {
         "agent": "browser_visual_qa",
         "decision": "GO",
-        "summary": "Public page first screen, all three cards, source links and layout passed browser/vision QA."
+        "summary": "First screen, 3 body images, category, source links and spacing passed browser/DOM QA."
       }
     ],
-    "summary": "기존 Tistory post 24 GTX 삼성역 철근 누락 글 품질/이미지/출처/공개 렌더링 QA 완료.",
+    "summary": "기존 Tistory post 22 바라카 원전 드론 화재 글 품질/이미지/출처/카테고리/공개 렌더링/브라우저 QA 완료.",
     "final_report": "주인님, 기존 게시물 1개 개선 완료입니다."
   },
   "metrics": {
-    "total": 111,
-    "active": 4,
+    "total": 112,
+    "active": 5,
     "approval_needed": 1,
     "launched": 51,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 56
+    "rejected": 53
   },
   "active_opportunities": [
+    {
+      "id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "key": "MF-112",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "경기도 청년 복지포인트 6월 1차 신청 무료 검증 글",
+      "type": "기타",
+      "owner": "기획 검수",
+      "buyer_or_payer": "경기도 소재 기업에 재직 중인 19~39세 청년 독자",
+      "channel": "Tistory 무료 검증 블로그 — 청년지원금/돈관리 검색 유입 실험",
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog lane: 2026 1차 개별 접수 공고/FAQ를 재확인한 뒤 초안과 카드 이미지 3장을 제작하고 Tistory QA까지 진행. 사용자 승인이 아니라 자동 실행 lane 작업.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "free_validation_only",
+        "no_sales_cta"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/",
+          "grade": "A",
+          "summary": "경기도 2026년 청년 노동자 지원사업 선발 계획 공고 스냅샷: 청년복지포인트 연 120만원, 재직/급여/근무시간 조건.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=S017&number=66083",
+          "grade": "B",
+          "summary": "전년도 공식 보도자료로 6월 1차 모집과 연 120만원 지원 패턴 확인. 2026 개별 접수 공고는 실행 전 재확인 필요.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "비교 글/검색 샘플 10개와 최근 글 반복 회피 브리프.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "경기도 청년 복지포인트 2026 선발계획/120만원 혜택/6월 모집 임박 후보 발견."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자는 독자/검색 유입, 채널은 Tistory. A급 공식 선발계획 근거와 직접 혜택 있음. 실제 접수 공고는 실행 전 재확인."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 86점. 5초 판정과 회사/재직/중복 제한으로 최근 청년지원금 글과 구조 차별화."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신청 보장·날짜 단정·대행 표현을 피하고 공식 공고 재확인 조건을 두면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설만 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "title": "plan.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "title": "roi.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md"
+        }
+      ],
+      "approval_required": false
+    },
     {
       "id": "opp_20260522_101_gg_interview_allowance_blog",
       "key": "MF-101",
@@ -901,6 +1014,118 @@
   ],
   "priority_queue": [
     {
+      "id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "key": "MF-112",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "경기도 청년 복지포인트 6월 1차 신청 무료 검증 글",
+      "type": "기타",
+      "owner": "기획 검수",
+      "buyer_or_payer": "경기도 소재 기업에 재직 중인 19~39세 청년 독자",
+      "channel": "Tistory 무료 검증 블로그 — 청년지원금/돈관리 검색 유입 실험",
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog lane: 2026 1차 개별 접수 공고/FAQ를 재확인한 뒤 초안과 카드 이미지 3장을 제작하고 Tistory QA까지 진행. 사용자 승인이 아니라 자동 실행 lane 작업.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "free_validation_only",
+        "no_sales_cta"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/",
+          "grade": "A",
+          "summary": "경기도 2026년 청년 노동자 지원사업 선발 계획 공고 스냅샷: 청년복지포인트 연 120만원, 재직/급여/근무시간 조건.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=S017&number=66083",
+          "grade": "B",
+          "summary": "전년도 공식 보도자료로 6월 1차 모집과 연 120만원 지원 패턴 확인. 2026 개별 접수 공고는 실행 전 재확인 필요.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "비교 글/검색 샘플 10개와 최근 글 반복 회피 브리프.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "경기도 청년 복지포인트 2026 선발계획/120만원 혜택/6월 모집 임박 후보 발견."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자는 독자/검색 유입, 채널은 Tistory. A급 공식 선발계획 근거와 직접 혜택 있음. 실제 접수 공고는 실행 전 재확인."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 86점. 5초 판정과 회사/재직/중복 제한으로 최근 청년지원금 글과 구조 차별화."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신청 보장·날짜 단정·대행 표현을 피하고 공식 공고 재확인 조건을 두면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설만 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "title": "plan.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "title": "roi.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md"
+        }
+      ],
+      "approval_required": false
+    },
+    {
       "id": "opp_20260522_101_gg_interview_allowance_blog",
       "key": "MF-101",
       "raw_status": "planning",
@@ -1519,6 +1744,41 @@
   },
   "recent_events": [
     {
+      "time": "2026-05-25T21:31:30+09:00",
+      "run_id": "2026-05-25_2116_existing-post22-quality",
+      "agent": "브라우저 시각 QA",
+      "event": "decision",
+      "decision": "GO",
+      "summary": "post22 공개 페이지 카드 3장·출처·카테고리 렌더링 확인 완료",
+      "links": [
+        "https://beemo.tistory.com/22"
+      ]
+    },
+    {
+      "time": "2026-05-25T21:16:41+09:00",
+      "run_id": "2026-05-25_2116_existing-post22-quality",
+      "agent": "제작 검수",
+      "event": "decision",
+      "decision": "GO",
+      "summary": "기존 Tistory post22 바라카 원전 글 품질/이미지/출처/카테고리 QA 완료",
+      "links": [
+        "https://beemo.tistory.com/22"
+      ]
+    },
+    {
+      "time": "2026-05-25T21:01:56.467965+09:00",
+      "run_id": "2026-05-25_2057_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "dashboard_updated",
+      "from_status": null,
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Local dashboard and embedded fallback refreshed for new scout opportunity.",
+      "links": []
+    },
+    {
       "time": "2026-05-25T18:22:05+09:00",
       "run_id": "2026-05-25_1605_existing-post24-quality",
       "agent": "제작 검수",
@@ -1921,6 +2181,118 @@
     "종료/폐기"
   ],
   "work_items": [
+    {
+      "id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "key": "MF-112",
+      "raw_status": "planning",
+      "status": "기획",
+      "column": "기획",
+      "title": "경기도 청년 복지포인트 6월 1차 신청 무료 검증 글",
+      "type": "기타",
+      "owner": "기획 검수",
+      "buyer_or_payer": "경기도 소재 기업에 재직 중인 19~39세 청년 독자",
+      "channel": "Tistory 무료 검증 블로그 — 청년지원금/돈관리 검색 유입 실험",
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "expected_price": 0,
+      "next_action": "backlog lane: 2026 1차 개별 접수 공고/FAQ를 재확인한 뒤 초안과 카드 이미지 3장을 제작하고 Tistory QA까지 진행. 사용자 승인이 아니라 자동 실행 lane 작업.",
+      "stop_reason": "",
+      "risk_flags": [
+        "ATTENTION_EXPLOSIVE_CANDIDATE",
+        "free_validation_only",
+        "no_sales_cta"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/",
+          "grade": "A",
+          "summary": "경기도 2026년 청년 노동자 지원사업 선발 계획 공고 스냅샷: 청년복지포인트 연 120만원, 재직/급여/근무시간 조건.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "https://gnews.gg.go.kr/briefing/brief_gongbo_view.do?BS_CODE=S017&number=66083",
+          "grade": "B",
+          "summary": "전년도 공식 보도자료로 6월 1차 모집과 연 120만원 지원 패턴 확인. 2026 개별 접수 공고는 실행 전 재확인 필요.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "비교 글/검색 샘플 10개와 최근 글 반복 회피 브리프.",
+          "checked_at": "2026-05-25T20:57:57.327824+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "경기도 청년 복지포인트 2026 선발계획/120만원 혜택/6월 모집 임박 후보 발견."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "구매자는 독자/검색 유입, 채널은 Tistory. A급 공식 선발계획 근거와 직접 혜택 있음. 실제 접수 공고는 실행 전 재확인."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "품질 86점. 5초 판정과 회사/재직/중복 제한으로 최근 청년지원금 글과 구조 차별화."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "신청 보장·날짜 단정·대행 표현을 피하고 공식 공고 재확인 조건을 두면 리스크 낮음."
+        },
+        {
+          "time": "2026-05-25T20:57:57.327824+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설만 기록."
+        }
+      ],
+      "assets": [
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "title": "evidence.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/evidence.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "title": "plan.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/plan.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "title": "roi.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/roi.md"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "title": "decisions.md",
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260525_112_gg_youth_welfare_point_blog/decisions.md"
+        }
+      ],
+      "approval_required": false
+    },
     {
       "id": "opp_20260514_001_beauty_noshow_kit",
       "key": "MF-001",

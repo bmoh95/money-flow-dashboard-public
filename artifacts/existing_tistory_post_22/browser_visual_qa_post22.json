@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-05-25T21:20:00+09:00",
+  "public_url": "https://beemo.tistory.com/22?qa_browser=1779700001",
+  "first_screen_vision_passed": true,
+  "middle_vision_passed": true,
+  "dom_render_passed": true,
+  "dom_summary": {
+    "category_news_factcheck": true,
+    "figure_count": 3,
+    "all_images_loaded_1200x675": true,
+    "source_links_present": true,
+    "source_section_visible": true,
+    "raw_markdown_or_worknotes_absent": true,
+    "title": "바라카 원전 드론 화재, 방사능 영향은 확인됐나 :: 검증노트"
+  },
+  "notes": "Browser vision confirmed first screen/card readability and no visible blocking defects. DOM verified all three body images loaded with naturalWidth 1200/naturalHeight 675, category and source links present."
+}

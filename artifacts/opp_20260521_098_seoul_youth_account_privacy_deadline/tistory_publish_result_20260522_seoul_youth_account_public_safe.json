@@ -31,21 +31,21 @@
   "uploads": [
     {
       "name": "01-seoul-account-privacy-deadline-thumb.png",
-      "url_path": "https://blog.kakaocdn.net/dna/bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png?credential=[REDACTED]",
       "key": "bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB",
       "filename": "img.png",
       "size": 86662
     },
     {
       "name": "02-seoul-account-privacy-branch.png",
-      "url_path": "https://blog.kakaocdn.net/dna/c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W/img.png?credential=[REDACTED]",
       "key": "c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W",
       "filename": "img.png",
       "size": 127340
     },
     {
       "name": "03-seoul-account-privacy-action-check.png",
-      "url_path": "https://blog.kakaocdn.net/dna/vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-/img.png?credential=[REDACTED]",
       "key": "vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-",
       "filename": "img.png",
       "size": 132682

@@ -1,0 +1,118 @@
+{
+  "post_id": "22",
+  "public_url": "https://beemo.tistory.com/22",
+  "title": "바라카 원전 드론 화재, 방사능 영향은 확인됐나",
+  "category": "뉴스·시사 팩트체크",
+  "qa_cycles": [
+    {
+      "cycle": 1,
+      "url": "https://beemo.tistory.com/22?qa_cycle=1_1779711396",
+      "status_code": 200,
+      "title_ok": true,
+      "category_news": true,
+      "figure_count": 3,
+      "img_count": 7,
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FsQUWw%2FdJMcagMrs9o%2FAAAAAAAAAAAAAAAAAAAAAP1LlvieYwHjdyV549AEe4MLU28afKb9X5oL9USv_Tnm%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%",
+      "twitter_image": "",
+      "og_not_default": true,
+      "source_links": [
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ],
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ]
+      ],
+      "raw_markdown_absent": true,
+      "checks_passed": true
+    },
+    {
+      "cycle": 2,
+      "url": "https://beemo.tistory.com/22?qa_cycle=2_1779711398",
+      "status_code": 200,
+      "title_ok": true,
+      "category_news": true,
+      "figure_count": 3,
+      "img_count": 7,
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FsQUWw%2FdJMcagMrs9o%2FAAAAAAAAAAAAAAAAAAAAAP1LlvieYwHjdyV549AEe4MLU28afKb9X5oL9USv_Tnm%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%",
+      "twitter_image": "",
+      "og_not_default": true,
+      "source_links": [
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ],
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ]
+      ],
+      "raw_markdown_absent": true,
+      "checks_passed": true
+    },
+    {
+      "cycle": 3,
+      "url": "https://beemo.tistory.com/22?qa_cycle=3_1779711400",
+      "status_code": 200,
+      "title_ok": true,
+      "category_news": true,
+      "figure_count": 3,
+      "img_count": 7,
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FsQUWw%2FdJMcagMrs9o%2FAAAAAAAAAAAAAAAAAAAAAP1LlvieYwHjdyV549AEe4MLU28afKb9X5oL9USv_Tnm%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%",
+      "twitter_image": "",
+      "og_not_default": true,
+      "source_links": [
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ],
+        [
+          "The National · 2026.05.17 · Drone strike causes fire at Barakah nuclear plant perimeter in Abu Dhabi",
+          "https://www.thenationalnews.com/news/uae/2026/05/17/drone-strike-causes-fire-at-barakah-nuclear-plant-perimeter-in-abu-dhabi/"
+        ],
+        [
+          "ENEC · Barakah Nuclear Energy Plant 공식 설명",
+          "https://www.enec.ae/barakah-plant/"
+        ]
+      ],
+      "raw_markdown_absent": true,
+      "checks_passed": true
+    }
+  ],
+  "mobile": {
+    "status_code": 200,
+    "title_ok": true,
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FsQUWw%2FdJMcagMrs9o%2FAAAAAAAAAAAAAAAAAAAAAP1LlvieYwHjdyV549AEe4MLU28afKb9X5oL9USv_Tnm%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]%252FtctpGzEL5ayQY%253D",
+    "twitter_image": "",
+    "img_count": 3,
+    "figure_count": 3,
+    "passed": true
+  },
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/01-barakah-verdict.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/02-barakah-issue-map.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_2116_existing-post22-quality/post22_barakah_drone_factcheck/assets/03-barakah-reader-check.png"
+  ]
+}
