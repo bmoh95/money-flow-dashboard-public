@@ -8,7 +8,7 @@
   "image_hits": 3,
   "body_img_count": 13,
   "upload_count": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3Fcredential%3D%5BREDACTED%5D",
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3FSIGNED_PARAMS_REDACTED",
   "twitter_image": "",
   "thumbnail_http": 200,
   "thumbnail_bytes": 58211,
@@ -18,7 +18,7 @@
   "mobile": {
     "http": 200,
     "title_found": true,
-    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3Fcredential%3D%5BREDACTED%5D"
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FbD08Vb%2FdJMcaak4Mml%2FAAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB%2Fimg.png%3FSIGNED_PARAMS_REDACTED"
   },
   "home_title_found": false,
   "home_thumb_hint": true,
@@ -31,21 +31,21 @@
   "uploads": [
     {
       "name": "01-seoul-account-privacy-deadline-thumb.png",
-      "url_path": "https://blog.kakaocdn.net/dna/bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png?credential=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB/img.png?SIGNED_PARAMS_REDACTED",
       "key": "bD08Vb/dJMcaak4Mml/AAAAAAAAAAAAAAAAAAAAAKTdlXRhYG0uQ2XARmXqFtQPtSV6chha8tqyV0cWL2aB",
       "filename": "img.png",
       "size": 86662
     },
     {
       "name": "02-seoul-account-privacy-branch.png",
-      "url_path": "https://blog.kakaocdn.net/dna/c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W/img.png?credential=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W/img.png?SIGNED_PARAMS_REDACTED",
       "key": "c3W8BY/dJMcagTadyo/AAAAAAAAAAAAAAAAAAAAAOMV81o2jyW-Bza3hW6PcP6tCUCGbMWN8sl3Ptg0I9_W",
       "filename": "img.png",
       "size": 127340
     },
     {
       "name": "03-seoul-account-privacy-action-check.png",
-      "url_path": "https://blog.kakaocdn.net/dna/vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-/img.png?credential=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-/img.png?SIGNED_PARAMS_REDACTED",
       "key": "vaFqN/dJMcaak4Mmp/AAAAAAAAAAAAAAAAAAAAACCLvmrXo2qNMf2v6cSYEgBgVCG31tcLjooD3n0_xDu-",
       "filename": "img.png",
       "size": 132682
