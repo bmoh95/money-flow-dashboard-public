@@ -35,8 +35,8 @@
         "summary": "근로자 휴가지원사업 무료 검증 글 planning 생성."
       }
     ],
-    "summary": "bounty/direct-payout 후보는 안전한 GO 없음. 공식 근로자 휴가지원사업을 high-attention 무료 검증 planning으로 생성.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO, 4개 NO-GO/HOLD.\n- `opp_20260526_115_worker_vacation_support_blog` planning 패키지 생성: 근로자 휴가지원사업 20만원→40만원/회사 신청 먼저 체크 글.\n\n**시장성 판단**\n- GO: 공식 모집공고에서 근로자 20만원+기업/정부 분담으로 40만원 포인트, 모집 10만명 내외, 기업 단위 신청 확인.\n- 여름휴가 전 “우리 회사도 신청되나?” 검색 긴장감이 있어 `폭발 후보`.\n- bounty 후보는 닫힘/아카이브/광범위로 자동 PR 부적합.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설로만 추적.\n\n**대기**\n- 대시보드 갱신 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html`\n\n**필요 승인**\n- 없음."
+    "summary": "bounty/direct-payout 후보는 안전한 GO 없음. 공식 근로자 휴가지원사업을 high-attention 무료 검증 planning으로 생성. Public GitHub Pages mirror verified fresh.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 5개 비교, 1개 GO, 4개 NO-GO/HOLD.\n- `opp_20260526_115_worker_vacation_support_blog` planning 패키지 생성: 근로자 휴가지원사업 20만원→40만원/회사 신청 먼저 체크 글.\n\n**시장성 판단**\n- GO: 공식 모집공고에서 근로자 20만원+기업/정부 분담으로 40만원 포인트, 모집 10만명 내외, 기업 단위 신청 확인.\n- 여름휴가 전 “우리 회사도 신청되나?” 검색 긴장감이 있어 `폭발 후보`.\n- bounty 후보는 닫힘/아카이브/광범위로 자동 PR 부적합.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설로만 추적.\n\n**대기**\n- 대시보드 갱신/공개 미러 확인 완료: `file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html` / https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 115,
