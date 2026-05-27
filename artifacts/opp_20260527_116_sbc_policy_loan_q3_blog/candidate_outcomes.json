@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Archestra bounty #4463/#4225",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "COMPETITIVE_PR",
+    "summary": "Algora $75/$80 bounty는 A급 payout 신호이나 둘 다 assignee 존재, high comment, awarded/competing PR 상태로 새 PR 승인 odds 낮음. standing L3 자동제출 불가."
+  },
+  {
+    "name": "근로·자녀장려금 5월 정기신청",
+    "type": "blog",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "공식 5/31 deadline과 95% 감액 훅은 강하지만 dashboard 기존 MF-96/tracking 글과 중복."
+  },
+  {
+    "name": "청년월세 지원 5/29 16시 마감",
+    "type": "blog",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "월 20만원×최대 24회 및 마감시각 훅은 폭발 후보이나 기존 tracking 기획/글과 중복."
+  },
+  {
+    "name": "소상공인 정책자금 3분기 대리대출 7/6 접수",
+    "type": "blog",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "공식 SEMAS 페이지에서 2분기 예산소진 마감과 3분기 7/6 10시 접수 확인. 소상공인 직접 손익/자금기회와 예산소진 리스크가 있어 강한 후보."
+  }
+]

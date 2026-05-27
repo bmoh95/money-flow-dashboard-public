@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-05-27T13:19:27+09:00",
+  "target_reader": "7월 정책자금 대리대출을 놓치면 안 되는 1인 소상공인·소규모 사업장 대표",
+  "voice": "대출 권유가 아니라 공식 일정/마감/자금명 구분을 먼저 잡아주는 검증노트 말투",
+  "avoid": [
+    "대출 승인 보장",
+    "대행/컨설팅 유도",
+    "정책자금 신청 링크만 던지는 글",
+    "2분기 접수 가능처럼 오해시키기"
+  ],
+  "image_plan": [
+    "썸네일: 2분기 마감 / 3분기 7월 6일 10시",
+    "설명 카드: 자금명별 접수 상태 구분",
+    "행동 카드: 신청 전 3가지 확인 순서"
+  ],
+  "anti_repetition": "최근 청년지원금/세금/보험 글과 겹치지 않게, 신청대상 설명보다 “2분기 마감→3분기 날짜→자금명 구분” 순서로 시작한다.",
+  "samples": [
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "소상공인정책자금",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fols.semas.or.kr%2F&rut=c437568e51a77153fea2ab24dd66b4aac2a17b520757909dddcea036a99f5b6b",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "2026 3분기 소상공인 정책자금 신청 일정·금리·한도 총정리",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Ftistory.deluxo.co.kr%2Fentry%2F2026%2D3%25EB%25B6%2584%25EA%25B8%25B0%2D%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EC%259D%25BC%25EC%25A0%2595",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "소상공인 정책자금 신청 2026 일정 및 변경사항 신청 방법",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fiwanttogetthis.com%2F%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EC%258B%25A0%25EC%25B2%25AD%2F&rut=87a7e1a7879cc46ed8a2600f0316c0fd0f48446c419e1f1f0ed9d3b48e2306dc",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "[2026년 최신] 소상공인 정책자금 대출 종류와 신청 시기 놓치지 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fcaptain%2Dahn.tistory.com%2Fentry%2F2026%25EB%2585%2584%2D%25EC%25B5%259C%25EC%258B%25A0%2D%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EB%258C%2580%25EC%25B6%259C%2D%25EC%25A2%",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "2026년 소상공인 정책자금 신청기간, 단 3분만에 선착순 마감 해결 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fm.blog.naver.com%2FPostView.naver%3FblogId%3Dgpgus1023%26logNo%3D224296393284&rut=49754a51934e6ccf2ba5ceed5557f7d706428549eb46b240c3d1384b57e2d661",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "2026 소상공인 정책자금대출 조건·금리·신청방법 총정리 - Alsnㅣ ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Falsn.kr%2FNews%2F11834%2F&rut=a049f7359401868fa77cb83d8fb63b868636bc909ad1ba27e94bde74fa35c904",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "2026년 소상공인 정책자금 대출 자격 요건, 신청 일정 핵심 정리",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Ffactinfo.co.kr%2F2026%25EB%2585%2584%2D%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EB%258C%2580%25EC%25B6%259C%2F&rut=0dccc1f004b35a6af0c6f804a248743241ccc5b91ed5bbf295d32583f2",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "소상공인 정책자금 신청 기간 일정 — 2026년 자금별·분기별 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fsmile%2Dnest.com%2F%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EC%258B%25A0%25EC%25B2%25AD%2D%25EA%25B8%25B0%25EA%25B0%2584%2D%25EC%259D%25BC%25EC%25A0%2595%2D2026%25EB%2585%25",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "2026 소상공인 정책자금 직접대출 vs 대리대출 필수 비교 (금리 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fpolimoney.story1000.com%2F2026%2F04%2Fsmall%2Dbusiness%2Dpolicy%2Dfund%2D2026.html&rut=6fe5e0c3d0167adcc193bcf506459f034a7f4daaea4d82911a5e288dcf10b3bf",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "2026 소상공인 정책자금 3분기 대리대출 7월 6일",
+      "title": "소상공인 정책자금 대리대출 완벽 가이드 | 2026년 승인율 높이는 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fkoabiz.co.kr%2F%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EB%258C%2580%25EB%25A6%25AC%25EB%258C%2580%25EC%25B6%259C%2F&rut=ca556d2184d49dd193f803af0fcad0066678bb9d6874938e1055",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "소상공인 정책자금 대리대출 예산소진 조기마감",
+      "title": "2026년 소상공인 정책자금 신청방법, 금리 및 직접·대리대출 구분 ...",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fdongdogn.tistory.com%2F98&rut=a2792e0face720b592d167dceb765b86932d169bc0507d6dfe1055d5a4d2fa42",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    },
+    {
+      "query": "소상공인 정책자금 대리대출 예산소진 조기마감",
+      "title": "소상공인 정책자금 대리대출 총정리 (2025년 최신)",
+      "url": "//duckduckgo.com/l/?uddg=https%3A%2F%2Fourcon.co.kr%2Fblog%2Fpolicy%2Dfund%2F%25EC%2586%258C%25EC%2583%2581%25EA%25B3%25B5%25EC%259D%25B8%2D%25EC%25A0%2595%25EC%25B1%2585%25EC%259E%2590%25EA%25B8%2588%2D%25EB%258C%2580%25EB%25A6%25AC%25EB%258C%2580%25EC%25B6%259C%2F&rut=1a34dd741796a22d16085d1d5ad0b",
+      "pattern": "일정/자금명/마감·예산소진을 전면에 둔 SEO형 제목"
+    }
+  ]
+}
