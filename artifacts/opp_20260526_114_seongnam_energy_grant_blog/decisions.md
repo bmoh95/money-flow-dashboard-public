@@ -1,0 +1,7 @@
+- 2026-05-26T15:40:37+09:00: research_lead GO — A-grade official deadline/value-loss evidence found; direct 10만원 benefit creates attention demand.
+- 2026-05-26T15:40:37+09:00: planning_lead GO — Scout-only planning package passes quality gate 86/100; no publication in this lane.
+- 2026-05-26T15:40:37+09:00: redteam GO — Risks are locality and official-detail drift; mitigate with official links/date and no universal claim.
+- 2026-05-26T15:40:37+09:00: roi GO — Organic valuation kept at 0 KRW; strategic search-inflow experiment only.
+- 2026-05-28T05:19:43+09:00: research_lead GO — Attention/Cash Gate 재심사 통과: 성남시 세대당 10만원, 6월12일 마감, 신청률 47.1% 공식 근거로 폭발 후보 유지.
+- 2026-05-28T05:19:43+09:00: execution_lead GO — Tistory 공개 발행, 3회 공개 렌더 QA, 이미지 3장/OG/모바일/카테고리/공식 링크 확인.
+- 2026-05-28T05:19:43+09:00: roi GO — 직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking 전환.
