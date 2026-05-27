@@ -1,68 +1,70 @@
 {
-  "updated_at": "2026-05-27T14:25:45+09:00",
+  "updated_at": "2026-05-27T19:54:18+09:00",
   "last_run": {
-    "run_id": "2026-05-27_1243_money-flow",
-    "started_at": "2026-05-27T12:43:01+09:00",
-    "finished_at": "2026-05-27T14:25:45+09:00",
+    "run_id": "2026-05-27_1837_money-flow",
+    "started_at": "2026-05-27T18:37:38+09:00",
+    "finished_at": "2026-05-27T19:54:18+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
       "research_lead",
       "planning_member",
       "planning_lead",
-      "execution_member",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 4,
+    "candidates_discovered": 3,
     "opportunities_advanced": 1,
-    "opportunities_rejected": 3,
+    "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/official_recheck_20260527.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/sample_brief.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-27_1243_money-flow/skill_update_candidate.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "name": "Archestra bounty #4463/#4225",
+        "name": "IssueHunt/GitHub bounty rescue queue",
         "type": "bounty",
         "decision": "NO-GO",
-        "reason_code": "COMPETITIVE_PR",
-        "summary": "Algora $75/$80 bounty는 A급 payout 신호이나 둘 다 assignee 존재, high comment, awarded/competing PR 상태로 새 PR 승인 odds 낮음. standing L3 자동제출 불가."
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "Top rescue 3개 중 2개는 closed, 1개는 locked + broad feature request. 현금성 PR 자동제출 조건 불충족.",
+        "evidence": [
+          "bounty_deep_preflight.md"
+        ]
       },
       {
-        "name": "근로·자녀장려금 5월 정기신청",
+        "name": "2026 대한민국 숙박세일페스타 6월 쿠폰",
         "type": "blog",
         "decision": "NO-GO",
-        "reason_code": "DUPLICATE",
-        "summary": "공식 5/31 deadline과 95% 감액 훅은 강하지만 dashboard 기존 MF-96/tracking 글과 중복."
+        "reason_code": "NO_EVIDENCE",
+        "summary": "공식 ktostay 페이지는 봄편 4/8~5/10 종료만 확인. 6월 쿠폰 A급 근거 없음.",
+        "evidence": [
+          "https://ktostay.visitkorea.or.kr/"
+        ]
       },
       {
-        "name": "청년월세 지원 5/29 16시 마감",
-        "type": "blog",
-        "decision": "NO-GO",
-        "reason_code": "DUPLICATE",
-        "summary": "월 20만원×최대 24회 및 마감시각 훅은 폭발 후보이나 기존 tracking 기획/글과 중복."
-      },
-      {
-        "name": "소상공인 정책자금 3분기 대리대출 7/6 접수",
+        "name": "2026 대한민국 수산대전 6월 온누리상품권 환급",
         "type": "blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "공식 SEMAS 페이지에서 2분기 예산소진 마감과 3분기 7/6 10시 접수 확인. 소상공인 직접 손익/자금기회와 예산소진 리스크가 있어 강한 후보."
+        "summary": "공식 수산대전 페이지에서 6/10~6/14 환급행사와 진행중 행사 확인, 수원시 공식 보도자료에서 최대 2만원·30%·영수증 환급 조건 확인. 직접 장보기 비용 절감과 마감/예산소진형 클릭 이유 있음.",
+        "evidence": [
+          "https://www.fsale.kr/bbs/board.php?bo_table=onnuri1",
+          "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1043&seq=20260526092830508"
+        ]
       }
     ],
-    "summary": "bounty/direct-payout 우선 검토 후 안전한 자동 PR 후보 없음. 중복 benefit 후보 2개 제외. 공식 SEMAS 정책자금 3분기 대리대출 일정 후보 1개를 scout-only planning으로 등록하고 local/public dashboard를 검증.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 검토: bounty/direct-payout 2건 NO-GO, 중복 benefit 2건 제외, 신규 1건 GO.\n- `opp_20260527_116_sbc_policy_loan_q3_blog` 기획 패키지 생성.\n- 로컬/공개 대시보드 반영 및 카드 모달 검증 완료.\n\n**시장성 판단**\n- 강한 후보: 공식 SEMAS에서 2분기 예산소진 마감과 3분기 7월 6일 10시 접수 확인.\n- 소상공인 자금기회·조기마감 리스크가 있어 “놓치면 손해인가?” 클릭 이유가 있음.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 0원. 검색 유입 가설/전략 자산으로만 기록.\n\n**대기**\n- 다음 execution lane: 발행 직전 공식 일정 재확인 → 초안 → Pretendard 카드 3장 → Tistory QA.\n- 대시보드: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음."
+    "summary": "bounty/direct-payout rescue preflight 후 안전한 자동 PR 없음. 숙박세일 6월설은 공식 근거 부족으로 제외. 수산대전 6월 온누리 환급 공식 혜택 후보 1개를 scout-only planning으로 등록.",
+    "final_report": ""
   },
   "metrics": {
-    "total": 116,
-    "active": 9,
+    "total": 117,
+    "active": 10,
     "approval_needed": 1,
     "launched": 51,
     "closed_won": 0,
@@ -1681,7 +1683,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "강한 후보",
@@ -1839,6 +1841,164 @@
           "label": "후보 비교",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/candidate_outcomes.json"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-117",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "title": "2026 대한민국 수산대전 6월 온누리상품권 환급 확인 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "quality": 84,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "6월 10~14일 전통시장·수산시장 장보기 예정자, 국내산 수산물 구매자, 온누리상품권 환급 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 생활비/장보기 환급 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
+      "risk_flags": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "risk_labels": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.fsale.kr/",
+          "grade": "A",
+          "summary": "2026 대한민국 수산대전 공식 사이트. 진행중 행사/기획전과 전통시장/온누리 메뉴 운영 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.fsale.kr/bbs/board.php?bo_table=onnuri1",
+          "grade": "A",
+          "summary": "공식 수산대전 온누리상품권 환급행사 페이지. 6월 온누리상품권 환급행사 6.10~6.14 일정 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1043&seq=20260526092830508",
+          "grade": "A",
+          "summary": "수원시 공식 보도자료. 6/10~14, 국내산 수산물 최대 30%, 1인 최대 2만원, 3만4천원 이상 1만원/6만7천원 이상 2만원 환급, 영수증 부스 환급 조건 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "검색 결과 10+개 샘플: 수산대전/온누리 환급 일정·사용처·환급액 총정리 수요 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 수산대전/수원시 A급 근거와 검색 샘플에서 환급액·일정·사용처 수요 확인.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최대 2만원 환급은 작지만 6/10~14 짧은 창, 장보기 비용 절감, 시장별 참여 확인이라는 즉시 효용이 있어 Attention Gate 강한 후보.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "지원금 신청형 반복을 피하고 “시장/금액/영수증 부스” 판단표로 구성하면 품질 84점.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "전국 모든 시장 동일 혜택처럼 쓰는 과장만 피하고, 공식 수산대전/해당 지자체 참여점포 재확인을 본문 첫 화면에 넣으면 리스크 낮음.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
+      ],
+      "asset_links": [
+        {
+          "label": "Research — 2026 대한민국 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 수산대전 6월 온누리상품권 환급 확인 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md"
+        },
+        {
+          "label": "ROI — 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/sample_brief.json"
         }
       ],
       "approval_required": false
@@ -3765,7 +3925,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "강한 후보",
@@ -3926,6 +4086,164 @@
         }
       ],
       "approval_required": false
+    },
+    {
+      "key": "MF-117",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "title": "2026 대한민국 수산대전 6월 온누리상품권 환급 확인 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "quality": 84,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "6월 10~14일 전통시장·수산시장 장보기 예정자, 국내산 수산물 구매자, 온누리상품권 환급 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 생활비/장보기 환급 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
+      "risk_flags": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "risk_labels": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.fsale.kr/",
+          "grade": "A",
+          "summary": "2026 대한민국 수산대전 공식 사이트. 진행중 행사/기획전과 전통시장/온누리 메뉴 운영 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.fsale.kr/bbs/board.php?bo_table=onnuri1",
+          "grade": "A",
+          "summary": "공식 수산대전 온누리상품권 환급행사 페이지. 6월 온누리상품권 환급행사 6.10~6.14 일정 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1043&seq=20260526092830508",
+          "grade": "A",
+          "summary": "수원시 공식 보도자료. 6/10~14, 국내산 수산물 최대 30%, 1인 최대 2만원, 3만4천원 이상 1만원/6만7천원 이상 2만원 환급, 영수증 부스 환급 조건 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "검색 결과 10+개 샘플: 수산대전/온누리 환급 일정·사용처·환급액 총정리 수요 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 수산대전/수원시 A급 근거와 검색 샘플에서 환급액·일정·사용처 수요 확인.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최대 2만원 환급은 작지만 6/10~14 짧은 창, 장보기 비용 절감, 시장별 참여 확인이라는 즉시 효용이 있어 Attention Gate 강한 후보.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "지원금 신청형 반복을 피하고 “시장/금액/영수증 부스” 판단표로 구성하면 품질 84점.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "전국 모든 시장 동일 혜택처럼 쓰는 과장만 피하고, 공식 수산대전/해당 지자체 참여점포 재확인을 본문 첫 화면에 넣으면 리스크 낮음.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
+      ],
+      "asset_links": [
+        {
+          "label": "Research — 2026 대한민국 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 수산대전 6월 온누리상품권 환급 확인 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md"
+        },
+        {
+          "label": "ROI — 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/sample_brief.json"
+        }
+      ],
+      "approval_required": false
     }
   ],
   "rejection_summary": {
@@ -3946,60 +4264,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-26T05:42:56+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
-      "event": "decision",
-      "decision": "HOLD",
-      "reason": "공식 공고 대기",
-      "summary": "2026 1차 접수 공고/FAQ 공식 확인 전 Tistory 공개 발행 보류."
-    },
-    {
-      "time": "2026-05-26T05:48:57+09:00",
-      "agent": "skill_maintenance",
-      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": "",
-      "summary": "korean-blog-organic-writing skill에 macOS Pillow Apple Color Emoji 회피 규칙 추가"
-    },
-    {
-      "time": "2026-05-26T06:21:02+09:00",
-      "agent": "리서치",
-      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
-      "event": "discovered",
-      "decision": "GO",
-      "reason": "",
-      "summary": "기후동행카드 페이백 후보 발견; bounty lane은 rescue 0개."
-    },
-    {
-      "time": "2026-05-26T06:21:02+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "A급 공식 안내/FAQ와 6월 가치상실 훅으로 Attention Gate 폭발 후보."
-    },
-    {
-      "time": "2026-05-26T06:21:02+09:00",
-      "agent": "기획",
-      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
-      "event": "asset_created",
-      "decision": "GO",
-      "reason": "",
-      "summary": "Scout-only evidence/plan/sample/candidate outcomes 생성."
-    },
-    {
-      "time": "2026-05-26T06:21:02+09:00",
-      "agent": "기획 검수",
-      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "품질 88점. 최근 지원금 글과 달리 페이백 누락 방지 구조로 차별화."
-    },
     {
       "time": "2026-05-26T06:21:02+09:00",
       "agent": "리스크 검토",
@@ -4305,6 +4569,60 @@
       "decision": "HOLD",
       "reason": "스킬 검토 보류",
       "summary": "Public dashboard rsync --delete support-file deletion lesson saved as local skill_update_candidate because money-flow SKILL.md patch exceeded tool size limit."
+    },
+    {
+      "time": "2026-05-27T15:02:37.719359+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": null,
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "이목 수요 낮음",
+      "summary": "Existing public post 21 failed Attention/Cash Gate; no CMS work performed."
+    },
+    {
+      "time": "2026-05-27T19:43:19+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "event": "discovered",
+      "decision": "GO",
+      "reason": "",
+      "summary": "Candidate discovered from official fishery refund event pages."
+    },
+    {
+      "time": "2026-05-27T19:43:19+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "A-grade official schedule/refund evidence found; Attention Gate strong candidate."
+    },
+    {
+      "time": "2026-05-27T19:43:19+09:00",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "Scout-only planning package quality score 84."
+    },
+    {
+      "time": "2026-05-27T19:43:19+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "Free validation content; expected net 0 KRW and strategic search asset only."
+    },
+    {
+      "time": "2026-05-27T19:43:19+09:00",
+      "agent": "제작",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": "",
+      "summary": "Scout-only planning/evidence/sample assets created for execution lane handoff."
     }
   ],
   "board_columns": [
@@ -32856,7 +33174,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "강한 후보",
@@ -33014,6 +33332,164 @@
           "label": "후보 비교",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/candidate_outcomes.json"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-117",
+      "opportunity_id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "id": "opp_20260527_117_fsale_june_onnuri_refund_blog",
+      "title": "2026 대한민국 수산대전 6월 온누리상품권 환급 확인 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음"
+      ],
+      "quality": 84,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "6월 10~14일 전통시장·수산시장 장보기 예정자, 국내산 수산물 구매자, 온누리상품권 환급 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 생활비/장보기 환급 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
+      "risk_flags": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "risk_labels": [
+        "강한 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 재확인 필요"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.fsale.kr/",
+          "grade": "A",
+          "summary": "2026 대한민국 수산대전 공식 사이트. 진행중 행사/기획전과 전통시장/온누리 메뉴 운영 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.fsale.kr/bbs/board.php?bo_table=onnuri1",
+          "grade": "A",
+          "summary": "공식 수산대전 온누리상품권 환급행사 페이지. 6월 온누리상품권 환급행사 6.10~6.14 일정 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1043&seq=20260526092830508",
+          "grade": "A",
+          "summary": "수원시 공식 보도자료. 6/10~14, 국내산 수산물 최대 30%, 1인 최대 2만원, 3만4천원 이상 1만원/6만7천원 이상 2만원 환급, 영수증 부스 환급 조건 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "grade": "B",
+          "summary": "검색 결과 10+개 샘플: 수산대전/온누리 환급 일정·사용처·환급액 총정리 수요 확인.",
+          "checked_at": "2026-05-27T19:43:19+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 수산대전/수원시 A급 근거와 검색 샘플에서 환급액·일정·사용처 수요 확인.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최대 2만원 환급은 작지만 6/10~14 짧은 창, 장보기 비용 절감, 시장별 참여 확인이라는 즉시 효용이 있어 Attention Gate 강한 후보.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "지원금 신청형 반복을 피하고 “시장/금액/영수증 부스” 판단표로 구성하면 품질 84점.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "전국 모든 시장 동일 혜택처럼 쓰는 과장만 피하고, 공식 수산대전/해당 지자체 참여점포 재확인을 본문 첫 화면에 넣으면 리스크 낮음.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-27T19:43:19+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
+      ],
+      "asset_links": [
+        {
+          "label": "Research — 2026 대한민국 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 수산대전 6월 온누리상품권 환급 확인 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/plan.md"
+        },
+        {
+          "label": "ROI — 수산대전 6월 온누리상품권 환급 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/roi.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/sample_brief.json"
         }
       ],
       "approval_required": false

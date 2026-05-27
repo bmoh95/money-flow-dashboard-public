@@ -1,0 +1,33 @@
+[
+  {
+    "name": "IssueHunt/GitHub bounty rescue queue",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "PAYMENT_UNCLEAR",
+    "summary": "Top rescue 3개 중 2개는 closed, 1개는 locked + broad feature request. 현금성 PR 자동제출 조건 불충족.",
+    "evidence": [
+      "bounty_deep_preflight.md"
+    ]
+  },
+  {
+    "name": "2026 대한민국 숙박세일페스타 6월 쿠폰",
+    "type": "blog",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "summary": "공식 ktostay 페이지는 봄편 4/8~5/10 종료만 확인. 6월 쿠폰 A급 근거 없음.",
+    "evidence": [
+      "https://ktostay.visitkorea.or.kr/"
+    ]
+  },
+  {
+    "name": "2026 대한민국 수산대전 6월 온누리상품권 환급",
+    "type": "blog",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "공식 수산대전 페이지에서 6/10~6/14 환급행사와 진행중 행사 확인, 수원시 공식 보도자료에서 최대 2만원·30%·영수증 환급 조건 확인. 직접 장보기 비용 절감과 마감/예산소진형 클릭 이유 있음.",
+    "evidence": [
+      "https://www.fsale.kr/bbs/board.php?bo_table=onnuri1",
+      "https://www.suwon.go.kr/web/board/BD_board.view.do?bbsCd=1043&seq=20260526092830508"
+    ]
+  }
+]
