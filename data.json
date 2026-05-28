@@ -1,102 +1,36 @@
 {
-  "updated_at": "2026-05-29T02:52:00+09:00",
+  "updated_at": "2026-05-29T04:48:39+09:00",
   "last_run": {
-    "run_id": "2026-05-29_0237_money-flow-backlog",
-    "started_at": "2026-05-29T02:37:00+09:00",
-    "finished_at": "2026-05-29T02:48:17+09:00",
+    "run_id": "2026-05-29_0445_money-flow-bounty-gate",
+    "started_at": "2026-05-29T04:45:00+09:00",
+    "finished_at": "2026-05-29T04:48:39+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
       "research_lead",
-      "execution_member",
-      "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "candidates_discovered": 33,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_sbiz_credit_weak_loan_blog/assets/body_tistory_ready_local.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_sbiz_credit_weak_loan_blog/assets/images/01-sbiz-credit-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_sbiz_credit_weak_loan_blog/assets/images/02-sbiz-credit-flow.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_sbiz_credit_weak_loan_blog/assets/images/03-sbiz-credit-action.png",
-      "https://beemo.tistory.com/97"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0445_money-flow-bounty-gate/deep_preflight_raw.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0445_money-flow-bounty-gate/warpspeed_deep_preflight_summary.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0445_money-flow-bounty-gate/warpspeed_docs.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-05-29T02:48:17+09:00",
-        "run_id": "2026-05-29_0237_money-flow-backlog",
-        "agent": "research_lead",
-        "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-        "event": "decision",
-        "from_status": "planning",
-        "to_status": "tracking",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "Attention/Cash Gate 재심사 통과: A급 공식 근거와 6월 15~16일 접수일로 폭발 후보 유지.",
-        "links": []
-      },
-      {
-        "time": "2026-05-29T02:48:17+09:00",
-        "run_id": "2026-05-29_0237_money-flow-backlog",
-        "agent": "execution_lead",
-        "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-        "event": "decision",
-        "from_status": "planning",
-        "to_status": "tracking",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "Tistory 공개 발행 및 3회 렌더 QA 통과.",
-        "links": [
-          "https://beemo.tistory.com/97"
-        ]
-      },
-      {
-        "time": "2026-05-29T02:48:17+09:00",
-        "run_id": "2026-05-29_0237_money-flow-backlog",
-        "agent": "redteam",
-        "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-        "event": "decision",
-        "from_status": "planning",
-        "to_status": "tracking",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "승인 보장/신청대행 오해 제거, 공식 재확인 문구 반영.",
-        "links": []
-      },
-      {
-        "time": "2026-05-29T02:48:17+09:00",
-        "run_id": "2026-05-29_0237_money-flow-backlog",
-        "agent": "roi",
-        "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-        "event": "decision",
-        "from_status": "planning",
-        "to_status": "tracking",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "무료 검증 글로 순마진 0원 처리.",
-        "links": []
-      },
-      {
-        "time": "2026-05-29T02:48:17+09:00",
-        "run_id": "2026-05-29_0237_money-flow-backlog",
-        "agent": "ledger_dashboard_manager",
-        "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-        "event": "status_changed",
-        "from_status": "planning",
-        "to_status": "tracking",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "planning → tracking 상태 전환 및 대시보드 갱신.",
-        "links": [
-          "https://beemo.tistory.com/97"
-        ]
+        "opportunity_id": null,
+        "decision": "HOLD",
+        "reason_code": "NO_APPROVAL",
+        "summary": "Bounty scout found fresh warpspeed paid issues, but deep preflight blocked automatic PR work: developer signup/account + maintainer assignment required, implementation repo/PR target not visible, and several slots are full."
       }
     ],
-    "summary": "신용취약 소상공인자금 무료 검증 글 공개, tracking 전환, 로컬/공개 대시보드 검증 완료.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260529_119_sbiz_credit_weak_loan_blog` 공개 발행/QA 완료: https://beemo.tistory.com/97\n- GPT Image 2 흑백 만화 3장, 카테고리/본문/이미지/OG/모바일/공식 링크 QA 통과.\n- 로컬/공개 대시보드 갱신 및 모달 검증 완료.\n\n**시장성 판단**\n- 폭발 후보: 최대 3천만원 정책자금, 6월 15~16일 접수일, 출생연도 홀짝 판정 효용이 큽니다.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 모두 0원. 검색 유입 가설로만 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음."
+    "summary": "Bounty scout found fresh warpspeed paid issues, but deep preflight blocked automatic PR work: developer signup/account + maintainer assignment required, implementation repo/PR target not visible, and several slots are full.",
+    "final_report": "주인님, Money Flow bounty scout 결과입니다.\n\n**완료**\n- bounty/direct-payout 후보 8개 검토, pre-run GO 2건을 deep preflight로 재분류했습니다.\n- `warpspeedopen-source/warpspeed-bounties` 유료 이슈들은 실제 보상 표기는 있으나, 개발자 signup/maintainer assignment가 선행 조건이고 구현 repo/PR target이 GitHub상 불명확해 자동 PR은 중단했습니다.\n- skiplist 보강: warpSpeed bounty board를 soft-block 처리했습니다.\n- 로컬/공개 대시보드 갱신 및 검증 완료.\n\n**NO-GO 이유**\n- `NO_APPROVAL`: account/signup·assignment 선행 조건은 자동 L3 범위를 벗어납니다.\n- `NO_CHANNEL`: bounty board만 있고 실제 구현 repo/PR 경로가 확인되지 않았습니다.\n- `DUPLICATE`: FAForever IssueHunt 후보는 닫힌/중복 PR 후보라 제외했습니다.\n\n**대기**\n- 없음. 다음 scout는 warpSpeed를 assignment/source repo 확인 전까지 낮은 우선순위로 두고, 바로 PR 가능한 cash/platform bounty를 우선 검색합니다."
   },
   "metrics": {
     "total": 119,
@@ -2610,6 +2544,18 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-05-29T04:48:39+09:00",
+      "run_id": "2026-05-29_0445_money-flow-bounty-gate",
+      "agent": "시장성 검토",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": "승인/가입 필요",
+      "summary": "Bounty scout found fresh warpspeed paid issues, but deep preflight blocked automatic PR work: developer signup/account + maintainer assignment required, implementation repo/PR target not visible, and several slots are full.",
+      "links": [
+        "https://github.com/warpspeedopen-source/warpspeed-bounties/issues/2"
+      ]
+    },
     {
       "time": "2026-05-28T13:51:22+09:00",
       "run_id": "2026-05-28_1343_money-flow",
