@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-28T13:51:22+09:00",
+  "updated_at": "2026-05-28T18:12:36+09:00",
   "last_run": {
-    "run_id": "2026-05-28_1343_money-flow",
-    "started_at": "2026-05-28T13:43:12+09:00",
-    "finished_at": "2026-05-28T13:51:22+09:00",
+    "run_id": "2026-05-28_1755_money-flow",
+    "started_at": "2026-05-28T17:55:07+09:00",
+    "finished_at": "2026-05-28T18:12:36+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,26 +17,26 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_104_gg_youth_basic_income_blog/assets/tistory_publish_result_20260528_gg_youth_basic_income_public_safe.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1343_money-flow/public_render_qa_gg_youth_basic_income.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1343_money-flow/browser_dom_qa_gg_youth_basic_income.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/tistory_publish_result_20260528_worker_vacation_public_safe.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1755_money-flow/public_render_qa_worker_vacation.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1755_money-flow/browser_dom_qa_worker_vacation.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260523_104_gg_youth_basic_income_blog",
+        "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
         "decision": "GO",
         "summary": "Attention/Cash Gate 통과 및 Tistory 공개 발행/QA 완료."
       }
     ],
-    "summary": "경기도 청년기본소득 2분기 글을 공개 발행하고 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260523_104_gg_youth_basic_income_blog` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/92\n- Profile 2 CDP 재프로브 성공, 공개 렌더 QA 3회, 이미지 3장/OG/모바일/카테고리 확인 완료.\n\n**시장성 판단**\n- GO: 6월 1일 시작·6월 30일 마감·25만원·성남/고양 제외·미사용 소멸 리스크가 있는 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
+    "summary": "근로자 휴가지원사업 글을 공개 발행하고 tracking 전환.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260526_115_worker_vacation_support_blog` Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/93\n- 공식 누리집 재확인, GPT Image 2 만화형 이미지 3장, 공개 렌더 QA 3회, OG/모바일/카테고리 확인 완료.\n\n**시장성 판단**\n- GO: 근로자 20만원→총 40만원 포인트, 회사 신청·선착순·여름휴가 전 직접 혜택 이슈가 있는 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 117,
-    "active": 8,
+    "active": 7,
     "approval_needed": 1,
-    "launched": 53,
+    "launched": 54,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 56
@@ -194,8 +194,7 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "반복 검수 통과"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -781,7 +780,6 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
         "검토 메모",
         "무료 검증",
         "판매문구 없음"
@@ -888,139 +886,6 @@
           "title": "sample_brief.json",
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
           "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "id": "opp_20260526_115_worker_vacation_support_blog",
-      "key": "MF-115",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "근로자 휴가지원사업, 20만원→40만원 회사 신청 먼저 체크 글",
-      "type": "기타",
-      "owner": "기획 검수",
-      "buyer_or_payer": "중소기업·소상공인 대표/총무, 근로자 휴가지원사업 참여 가능성을 확인하는 직장인 독자",
-      "channel": "Tistory 무료 검증 블로그 — 여름휴가/회사 복지/지원금 검색 유입 실험",
-      "quality": 86,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog lane: 공식 누리집 최신 접수 가능/마감 상태 재확인 후 Tistory 초안, Pretendard 카드 3장, 카테고리/렌더/OG/list/mobile QA 진행.",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "free_validation_only",
-        "company_unit_application",
-        "latest_availability_recheck_required",
-        "no_sales_cta"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "무료 검증",
-        "검토 메모",
-        "판매문구 없음"
-      ],
-      "evidence": [
-        {
-          "url": "https://vacation.visitkorea.or.kr/admin/vt/202601/b04412fe-a1c4-436c-9394-54f95b2bd562.pdf",
-          "grade": "A",
-          "summary": "2026 근로자 휴가지원사업 모집공고. 정부 10만원+기업 10만원+근로자 20만원, 총 40만원 포인트, 모집인원 10만명 내외, 기업 단위 온라인 신청, 선착순 접수 확인.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        },
-        {
-          "url": "https://vacation.visitkorea.or.kr/",
-          "grade": "A",
-          "summary": "공식 누리집에서 40만원 포인트 지원, 휴가샵 사용, 기업/근로자 혜택 구조 확인. 단 최신 잔여 접수 가능 여부는 발행 전 재확인 필요.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "grade": "B",
-          "summary": "2026 근로자 휴가지원사업 검색 샘플 20개. 20만원→40만원, 선착순, 회사 신청 관련 제목 다수.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty 후보 실패 후 공식 근로자 휴가지원사업 후보 발견. 20만원→40만원/선착순/여름휴가 전 검색 수요."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 모집공고와 누리집 확인. 회사 단위 신청 제약은 첫 화면 핵심 설명으로 처리 가능."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 86점. “근로자 혼자 신청 아님” 구조로 기존 지원금 글과 차별화."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "휴가비 보장·공짜·대행 표현 금지 및 최신 접수상태 재확인 조건으로 비차단."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설로 추적."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/evidence.md",
-          "title": "evidence.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/plan.md",
-          "title": "plan.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/decisions.md",
-          "title": "decisions.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/decisions.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/roi.md",
-          "title": "roi.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/roi.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json",
-          "title": "candidate_outcomes.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "title": "sample_brief.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt",
-          "title": "official_notice_2026_worker_vacation.txt",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt"
         }
       ],
       "approval_required": false
@@ -1192,7 +1057,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -1693,8 +1557,7 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "반복 검수 통과"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -2280,7 +2143,6 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
         "검토 메모",
         "무료 검증",
         "판매문구 없음"
@@ -2387,139 +2249,6 @@
           "title": "sample_brief.json",
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
           "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "id": "opp_20260526_115_worker_vacation_support_blog",
-      "key": "MF-115",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "근로자 휴가지원사업, 20만원→40만원 회사 신청 먼저 체크 글",
-      "type": "기타",
-      "owner": "기획 검수",
-      "buyer_or_payer": "중소기업·소상공인 대표/총무, 근로자 휴가지원사업 참여 가능성을 확인하는 직장인 독자",
-      "channel": "Tistory 무료 검증 블로그 — 여름휴가/회사 복지/지원금 검색 유입 실험",
-      "quality": 86,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "next_action": "backlog lane: 공식 누리집 최신 접수 가능/마감 상태 재확인 후 Tistory 초안, Pretendard 카드 3장, 카테고리/렌더/OG/list/mobile QA 진행.",
-      "stop_reason": "",
-      "risk_flags": [
-        "ATTENTION_EXPLOSIVE_CANDIDATE",
-        "free_validation_only",
-        "company_unit_application",
-        "latest_availability_recheck_required",
-        "no_sales_cta"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "무료 검증",
-        "검토 메모",
-        "판매문구 없음"
-      ],
-      "evidence": [
-        {
-          "url": "https://vacation.visitkorea.or.kr/admin/vt/202601/b04412fe-a1c4-436c-9394-54f95b2bd562.pdf",
-          "grade": "A",
-          "summary": "2026 근로자 휴가지원사업 모집공고. 정부 10만원+기업 10만원+근로자 20만원, 총 40만원 포인트, 모집인원 10만명 내외, 기업 단위 온라인 신청, 선착순 접수 확인.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        },
-        {
-          "url": "https://vacation.visitkorea.or.kr/",
-          "grade": "A",
-          "summary": "공식 누리집에서 40만원 포인트 지원, 휴가샵 사용, 기업/근로자 혜택 구조 확인. 단 최신 잔여 접수 가능 여부는 발행 전 재확인 필요.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "grade": "B",
-          "summary": "2026 근로자 휴가지원사업 검색 샘플 20개. 20만원→40만원, 선착순, 회사 신청 관련 제목 다수.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty 후보 실패 후 공식 근로자 휴가지원사업 후보 발견. 20만원→40만원/선착순/여름휴가 전 검색 수요."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 모집공고와 누리집 확인. 회사 단위 신청 제약은 첫 화면 핵심 설명으로 처리 가능."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 86점. “근로자 혼자 신청 아님” 구조로 기존 지원금 글과 차별화."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "휴가비 보장·공짜·대행 표현 금지 및 최신 접수상태 재확인 조건으로 비차단."
-        },
-        {
-          "time": "2026-05-27T00:25:37+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설로 추적."
-        }
-      ],
-      "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/evidence.md",
-          "title": "evidence.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/evidence.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/plan.md",
-          "title": "plan.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/plan.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/decisions.md",
-          "title": "decisions.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/decisions.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/roi.md",
-          "title": "roi.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/roi.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json",
-          "title": "candidate_outcomes.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "title": "sample_brief.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt",
-          "title": "official_notice_2026_worker_vacation.txt",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt"
         }
       ],
       "approval_required": false
@@ -2691,7 +2420,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -2810,108 +2538,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-27T00:25:37+09:00",
-      "run_id": "2026-05-26_2354_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "품질 86점. 회사 단위 신청 차별점으로 블로그 계획 승인.",
-      "links": []
-    },
-    {
-      "time": "2026-05-27T00:25:37+09:00",
-      "run_id": "2026-05-26_2354_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "evidence/plan/decision/roi/sample artifacts created.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/plan.md"
-      ]
-    },
-    {
-      "agent": "attention_cash_gate",
-      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "OFFICIAL_NOTICE_PENDING",
-      "summary": "공식 메인 2026 일정 확인: 공고 6/24, 접수 7/1~7/13. 개별 공고/FAQ 전 공개 보류 유지.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/official_recheck_20260527_0239.json"
-      ],
-      "time": "2026-05-27T02:42:36+09:00",
-      "run_id": "2026-05-27_0242_money-flow-backlog"
-    },
-    {
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "로컬 제목/본문의 6월 신청 관점을 7월 접수 전 사전 체크로 정정.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/title.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/body.md"
-      ],
-      "time": "2026-05-27T02:42:36+09:00",
-      "run_id": "2026-05-27_0242_money-flow-backlog"
-    },
-    {
-      "agent": "redteam",
-      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "OFFICIAL_NOTICE_PENDING",
-      "summary": "개별 모집공고/FAQ 확인 전 Tistory 공개 금지 유지.",
-      "links": [],
-      "time": "2026-05-27T02:42:36+09:00",
-      "run_id": "2026-05-27_0242_money-flow-backlog"
-    },
-    {
-      "time": "2026-05-27T04:41:12.977844+09:00",
-      "run_id": "2026-05-27_0438_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "NO_QUALIFIED_CANDIDATE",
-      "summary": "New-work scout compared 5 candidates; none passed direct-cash or attention gates; no opportunity/dashboard change.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-27_0438_money-flow/candidate_outcomes.json"
-      ]
-    },
-    {
-      "time": "2026-05-27T13:19:27+09:00",
-      "run_id": "2026-05-27_1243_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260527_116_sbc_policy_loan_q3_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "소상공인 정책자금 3분기 대리대출 공식 일정 후보 발견.",
-      "links": [
-        "https://ols.semas.or.kr/ols/man/SMAN010M/page.do"
-      ]
-    },
     {
       "time": "2026-05-27T13:19:27+09:00",
       "run_id": "2026-05-27_1243_money-flow",
@@ -3390,6 +3016,111 @@
       "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
       "links": [
         "https://beemo.tistory.com/92"
+      ]
+    },
+    {
+      "time": "2026-05-28T17:23:30.803598+09:00",
+      "run_id": "2026-05-28_1720_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_SAFE_GO_CANDIDATE",
+      "summary": "Scout-only run checked bounty/direct-payout plus blog fallback candidates; no persistent opportunity created and dashboard unchanged.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1720_money-flow/candidate_outcomes.json"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사: 20만원→40만원 포인트, 회사 신청 선착순 구조, 여름휴가 전 직접 혜택 이슈로 폭발 후보 유지.",
+      "links": [
+        "https://beemo.tistory.com/93"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 누리집 재확인, GPT Image 2 만화형 이미지 3장 생성, Tistory 공개 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/93"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 3회, categoryId 1295941, 이미지 3장, OG/모바일/홈 썸네일, 공식 링크 확인.",
+      "links": [
+        "https://beemo.tistory.com/93"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공짜/개인 단독 신청/혜택 보장 표현을 피하고 회사 신청·공식 모집 상태 확인을 전면화.",
+      "links": [
+        "https://beemo.tistory.com/93"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "roi",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking.",
+      "links": [
+        "https://beemo.tistory.com/93"
+      ]
+    },
+    {
+      "time": "2026-05-28T18:12:36+09:00",
+      "run_id": "2026-05-28_1755_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
+      "event": "status_changed",
+      "from_status": "planning",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환.",
+      "links": [
+        "https://beemo.tistory.com/93"
       ]
     }
   ],
@@ -20656,7 +20387,6 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "반복 검수 통과",
         "판매문구 없음",
         "Tistory 게시 확인",
         "공개 URL 확인",
@@ -21875,9 +21605,8 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "반복 검수 통과",
-        "카테고리 확인",
         "검토 메모",
+        "카테고리 확인",
         "무료 검증",
         "판매문구 없음",
         "출처 링크 확인",
@@ -22151,8 +21880,6 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "반복 검수 통과",
-        "공식 마감 확인",
         "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
@@ -22161,7 +21888,8 @@
         "PNG 썸네일 확인",
         "출처 링크 확인",
         "목록 썸네일 확인",
-        "모바일 QA 통과"
+        "모바일 QA 통과",
+        "반복 검수 통과"
       ],
       "evidence": [
         {
@@ -22454,8 +22182,6 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
-        "반복 검수 통과",
         "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
@@ -22464,7 +22190,8 @@
         "PNG 썸네일 확인",
         "출처 링크 확인",
         "목록 썸네일 확인",
-        "모바일 QA 통과"
+        "모바일 QA 통과",
+        "반복 검수 통과"
       ],
       "evidence": [
         {
@@ -22736,7 +22463,6 @@
       "risk_labels": [
         "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -23001,7 +22727,6 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "반복 검수 통과",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -23713,11 +23438,10 @@
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음",
         "검토 메모",
-        "반복 검수 통과",
+        "판매문구 없음",
         "공식 링크 포함",
+        "반복 검수 통과",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -24004,13 +23728,12 @@
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
+        "검토 메모",
         "판매문구 없음",
         "Tistory 게시 확인",
         "시각 QA 통과",
         "본문 QA 통과",
         "OG 썸네일 확인",
-        "검토 메모",
         "카테고리 확인"
       ],
       "evidence": [
@@ -24270,10 +23993,9 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "반복 검수 통과",
-        "공식 마감 확인",
         "검토 메모",
         "공식 링크 포함",
+        "반복 검수 통과",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -24659,7 +24381,6 @@
         "폭발 후보",
         "검토 메모",
         "판매문구 없음",
-        "공식 마감 확인",
         "공식 링크 포함",
         "무료 검증",
         "반복 검수 통과",
@@ -24992,12 +24713,11 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "반복 검수 통과",
-        "검토 메모",
         "공식 링크 포함",
+        "반복 검수 통과",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
@@ -25309,8 +25029,7 @@
       "risk_labels": [
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "반복 검수 통과"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -25896,7 +25615,6 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
         "검토 메모",
         "무료 검증",
         "판매문구 없음"
@@ -26050,7 +25768,6 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
         "공식 링크 포함",
         "반복 검수 통과",
         "Tistory 게시 확인",
@@ -26267,51 +25984,82 @@
     {
       "id": "opp_20260526_115_worker_vacation_support_blog",
       "key": "MF-115",
-      "raw_status": "planning",
-      "status": "기획",
-      "column": "기획",
-      "title": "근로자 휴가지원사업, 20만원→40만원 회사 신청 먼저 체크 글",
+      "raw_status": "tracking",
+      "status": "운영/추적",
+      "column": "운영/수익",
+      "title": "근로자 휴가지원사업, 혼자 신청하는 줄 알았다면 먼저 멈춰보세요",
       "type": "기타",
-      "owner": "기획 검수",
+      "owner": "수익성 검토",
       "buyer_or_payer": "중소기업·소상공인 대표/총무, 근로자 휴가지원사업 참여 가능성을 확인하는 직장인 독자",
-      "channel": "Tistory 무료 검증 블로그 — 여름휴가/회사 복지/지원금 검색 유입 실험",
-      "quality": 86,
+      "channel": "Tistory 무료 검증 글 → 여름휴가/회사복지/지원금 검색 유입 실험",
+      "quality": 91,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "backlog lane: 공식 누리집 최신 접수 가능/마감 상태 재확인 후 Tistory 초안, Pretendard 카드 3장, 카테고리/렌더/OG/list/mobile QA 진행.",
+      "next_action": "공개 글 유입/검색 반응 추적. 공식 모집 상태가 바뀌면 안내 문구 stale 여부만 재점검.",
       "stop_reason": "",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "free_validation_only",
         "company_unit_application",
-        "latest_availability_recheck_required",
-        "no_sales_cta"
+        "no_sales_cta",
+        "attention_gate_explosive",
+        "no_paid_cta",
+        "official_source_links_included",
+        "anti_repetition_passed",
+        "tistory_published_verified",
+        "public_url_verified",
+        "public_visual_qa_passed",
+        "content_qa_passed",
+        "category_verified",
+        "uploaded_png_thumbnail_verified",
+        "og_thumbnail_verified",
+        "source_links_verified",
+        "mobile_public_qa_passed",
+        "home_thumbnail_verified"
       ],
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "검토 메모",
-        "판매문구 없음"
+        "회사 단위 신청",
+        "판매문구 없음",
+        "공식 링크 포함",
+        "반복 검수 통과",
+        "Tistory 게시 확인",
+        "공개 URL 확인",
+        "시각 QA 통과",
+        "본문 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "OG 썸네일 확인",
+        "출처 링크 확인",
+        "모바일 QA 통과",
+        "목록 썸네일 확인"
       ],
       "evidence": [
         {
           "url": "https://vacation.visitkorea.or.kr/admin/vt/202601/b04412fe-a1c4-436c-9394-54f95b2bd562.pdf",
           "grade": "A",
-          "summary": "2026 근로자 휴가지원사업 모집공고. 정부 10만원+기업 10만원+근로자 20만원, 총 40만원 포인트, 모집인원 10만명 내외, 기업 단위 온라인 신청, 선착순 접수 확인.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
+          "summary": "2026 참여기업 모집공고. 근로자 20만원+기업 10만원+정부 10만원, 기업 단위 온라인 신청, 모집 인원/분담금 확인.",
+          "checked_at": "2026-05-28T18:12:36+09:00"
         },
         {
           "url": "https://vacation.visitkorea.or.kr/",
           "grade": "A",
-          "summary": "공식 누리집에서 40만원 포인트 지원, 휴가샵 사용, 기업/근로자 혜택 구조 확인. 단 최신 잔여 접수 가능 여부는 발행 전 재확인 필요.",
-          "checked_at": "2026-05-27T00:25:37+09:00"
+          "summary": "공식 누리집 재확인: 40만원 상당 포인트, 휴가샵, 기업/근로자 혜택 구조와 공지 목록 확인.",
+          "checked_at": "2026-05-28T18:12:36+09:00"
         },
         {
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/sample_brief.json",
           "grade": "B",
           "summary": "2026 근로자 휴가지원사업 검색 샘플 20개. 20만원→40만원, 선착순, 회사 신청 관련 제목 다수.",
           "checked_at": "2026-05-27T00:25:37+09:00"
+        },
+        {
+          "url": "https://beemo.tistory.com/93",
+          "grade": "B",
+          "summary": "Tistory 공개 발행 및 3회 HTTP 렌더 QA, 브라우저 DOM 이미지/간격 QA 통과.",
+          "checked_at": "2026-05-28T18:12:36+09:00"
         }
       ],
       "decision_history": [
@@ -26349,6 +26097,41 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설로 추적."
+        },
+        {
+          "time": "2026-05-28T18:12:36+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Attention/Cash Gate 재심사 통과: 20만원→40만원 포인트, 회사 신청 선착순 구조, 여름휴가 전 직접 혜택 이슈로 폭발 후보 유지."
+        },
+        {
+          "time": "2026-05-28T18:12:36+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 누리집 재확인, GPT Image 2 만화형 이미지 3장 생성, Profile 2 CDP로 Tistory 공개 발행 완료."
+        },
+        {
+          "time": "2026-05-28T18:12:36+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 렌더 QA 3회, categoryId 1295941, 이미지 3장, OG/모바일/홈 썸네일, 공식 링크, 금지 워크노트 없음 확인."
+        },
+        {
+          "time": "2026-05-28T18:12:36+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공짜/개인 단독 신청/혜택 보장 표현을 피하고 회사 신청·공식 모집 상태 확인을 전면화해 리스크 비차단."
+        },
+        {
+          "time": "2026-05-28T18:12:36+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -26393,6 +26176,66 @@
           "title": "official_notice_2026_worker_vacation.txt",
           "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt",
           "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/official_notice_2026_worker_vacation.txt"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/body_tistory_ready_local.html",
+          "title": "Tistory ready HTML",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/body_tistory_ready_local.html",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/body_tistory_ready_local.html"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/body_published_payload_20260528.html",
+          "title": "Tistory published payload",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/body_published_payload_20260528.html",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/body_published_payload_20260528.html"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/images/01-worker-vacation-comic.png",
+          "title": "01-worker-vacation-comic.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/01-worker-vacation-comic.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/01-worker-vacation-comic.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/images/02-worker-vacation-flow.png",
+          "title": "02-worker-vacation-flow.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/02-worker-vacation-flow.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/02-worker-vacation-flow.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/images/03-worker-vacation-check.png",
+          "title": "03-worker-vacation-check.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/03-worker-vacation-check.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/03-worker-vacation-check.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/images/contact_sheet.png",
+          "title": "contact_sheet.png",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/contact_sheet.png",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/contact_sheet.png"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/tistory_publish_result_20260528_worker_vacation_public_safe.json",
+          "title": "Tistory publish result safe",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/tistory_publish_result_20260528_worker_vacation_public_safe.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/tistory_publish_result_20260528_worker_vacation_public_safe.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1755_money-flow/public_render_qa_worker_vacation.json",
+          "title": "public render QA",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/public_render_qa_worker_vacation.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/public_render_qa_worker_vacation.json"
+        },
+        {
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_1755_money-flow/browser_dom_qa_worker_vacation.json",
+          "title": "browser DOM QA",
+          "url": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/browser_dom_qa_worker_vacation.json",
+          "viewer": "https://bmoh95.github.io/money-flow-dashboard-public/artifacts/opp_20260526_115_worker_vacation_support_blog/browser_dom_qa_worker_vacation.json"
+        },
+        {
+          "path": "https://beemo.tistory.com/93",
+          "title": "Tistory public post",
+          "url": "https://beemo.tistory.com/93",
+          "viewer": "https://beemo.tistory.com/93"
         }
       ],
       "approval_required": false
@@ -26564,7 +26407,6 @@
       ],
       "risk_labels": [
         "검토 메모",
-        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],

@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-05-28T18:10:40+09:00",
+  "status": "browser_dom_qa_passed",
+  "public_url": "https://beemo.tistory.com/93",
+  "title": "근로자 휴가지원사업, 혼자 신청하는 줄 알았다면 먼저 멈춰보세요 :: 검증노트",
+  "figures": [
+    {"index": 0, "complete": true, "natural_width": 1024, "natural_height": 1024, "rendered_width": 740, "rendered_height": 740, "img_caption_gap_px": 7, "caption_next_gap_px": 26},
+    {"index": 1, "complete": true, "natural_width": 1024, "natural_height": 1024, "rendered_width": 740, "rendered_height": 740, "img_caption_gap_px": 7, "caption_next_gap_px": 24},
+    {"index": 2, "complete": true, "natural_width": 1024, "natural_height": 1024, "rendered_width": 740, "rendered_height": 740, "img_caption_gap_px": 7, "caption_next_gap_px": 24}
+  ],
+  "source_links": [
+    "https://vacation.visitkorea.or.kr/",
+    "https://vacation.visitkorea.or.kr/admin/vt/202601/b04412fe-a1c4-436c-9394-54f95b2bd562.pdf"
+  ],
+  "forbidden_work_notes": false
+}
