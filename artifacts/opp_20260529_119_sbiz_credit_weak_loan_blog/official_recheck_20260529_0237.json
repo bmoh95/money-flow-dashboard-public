@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-05-29T02:38:45+09:00",
+  "attention_gate": "폭발 후보",
+  "cash_gate": "무료 검증, 직접 수익 0원, 최대 3천만원 정책자금 신청 손익 이슈",
+  "checks": {
+    "gov24": {
+      "url": "https://www.gov.kr/portal/ntnadmNews/4757844",
+      "http": 200,
+      "bytes": 164778,
+      "has": {
+        "신용취약소상공인자금": true,
+        "6월 15일": true,
+        "6월 16일": false,
+        "NCB": true,
+        "839": true,
+        "최대 3천만원": true,
+        "5.04%": true,
+        "선착순": true,
+        "홀수": false,
+        "짝수": false
+      }
+    },
+    "ols": {
+      "url": "https://ols.semas.or.kr/ols/man/SMAN010M/page.do",
+      "http": 200,
+      "bytes": 57240,
+      "has": {
+        "신용취약소상공인자금": true,
+        "6월 15일": true,
+        "6월 16일": true,
+        "NCB": false,
+        "839": false,
+        "최대 3천만원": false,
+        "5.04%": false,
+        "선착순": false,
+        "홀수": true,
+        "짝수": true
+      }
+    }
+  }
+}
