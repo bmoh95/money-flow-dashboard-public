@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-28T21:33:08+09:00",
+  "updated_at": "2026-05-28T21:37:09+09:00",
   "last_run": {
     "run_id": "2026-05-28_2126_money-flow",
     "started_at": "2026-05-28T21:26:21.999160+09:00",
@@ -22,7 +22,9 @@
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/evidence.md",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/plan.md",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/assets/sample_brief.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/assets/candidate_outcomes.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_2126_money-flow/public_stage_signed_url_scan_strict.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-28_2126_money-flow/public_dashboard_verify_sbiz_final.json"
     ],
     "approval_needed": [],
     "decisions": [
@@ -32,8 +34,8 @@
         "summary": "소상공인 경영안정 바우처 25만원 글을 scout-only planning으로 생성."
       }
     ],
-    "summary": "bounty/direct-payout 후보를 우선 점검했으나 안전한 GO 없음. 보조 lane에서 공식 25만원 소상공인 바우처 폭발 후보 1건 생성.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `opp_20260528_118_sbiz_stability_voucher_blog` 기획 패키지 생성 완료.\n\n**시장성 판단**\n- GO: 중기부 A급 근거, 최대 25만원 직접 혜택, 예산 소진/카드 선택/사용처 실수 방지 이슈가 있어 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- backlog/execution lane에서 공식 신청 가능 상태 재확인 후 글·이미지·Tistory QA 진행.\n\n**필요 승인**\n- 없음."
+    "summary": "bounty/direct-payout 후보를 우선 점검했으나 안전한 GO 없음. 보조 lane에서 공식 25만원 소상공인 바우처 폭발 후보 1건 생성; 로컬/공개 대시보드 반영 완료.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO, 3개 NO-GO.\n- `opp_20260528_118_sbiz_stability_voucher_blog` 기획 패키지 생성 완료.\n- 로컬/공개 대시보드 반영 확인 완료.\n\n**시장성 판단**\n- GO: 중기부 A급 근거, 최대 25만원 직접 혜택, 예산 소진/카드 선택/사용처 실수 방지 이슈가 있어 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- backlog/execution lane에서 공식 신청 가능 상태 재확인 후 글·이미지·Tistory QA 진행.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 118,
