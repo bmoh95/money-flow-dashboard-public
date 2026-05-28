@@ -1,9 +1,11 @@
-# 결정 로그
-
-- 2026-05-28T21:33:08+09:00 `research_member` GO: 공식 A급 근거와 검색 샘플에서 25만원 직접 혜택/예산소진 긴장감 확인.
-- 2026-05-28T21:33:08+09:00 `research_lead` GO: bounty lane은 안전한 standing-L3 후보 없음. 소상공인 바우처는 buyer/channel/evidence 명확.
-- 2026-05-28T21:33:08+09:00 `planning_member` GO: 5초 판정표+카드/사용처 실수 방지형 계획 작성.
-- 2026-05-28T21:33:08+09:00 `planning_lead` GO: 최근 지원금 글과 구조를 분리했고 품질 93점.
-- 2026-05-28T21:33:08+09:00 `execution_member` GO: 새 작업 scout-only라 초안/발행은 backlog/execution lane으로 인계. lane boundary는 blocker 아님.
-- 2026-05-28T21:33:08+09:00 `redteam` GO: 예산소진/공식 사이트 devtools 차단/지급보장 과장 리스크는 발행 직전 공식 재확인과 표현 제한으로 통제 가능.
-- 2026-05-28T21:33:08+09:00 `roi` GO: 무료 검증 글이므로 KRW 예상 순마진은 0원. 검색 유입 가설/전략 자산으로만 추적.
+- 2026-05-28T21:33:08+09:00: research_member GO — 공식 A급 근거와 검색 샘플에서 25만원 직접 혜택/예산소진 긴장감 확인.
+- 2026-05-28T21:33:08+09:00: research_lead GO — bounty lane은 안전한 standing-L3 후보 없음. 소상공인 바우처는 buyer/channel/evidence 명확.
+- 2026-05-28T21:33:08+09:00: planning_member GO — 5초 판정표+카드/사용처 실수 방지형 계획 작성.
+- 2026-05-28T21:33:08+09:00: planning_lead GO — 최근 지원금 글과 구조를 분리했고 품질 93점.
+- 2026-05-28T21:33:08+09:00: execution_member GO — 새 작업 scout-only라 초안/발행은 backlog/execution lane으로 인계. lane boundary는 blocker 아님.
+- 2026-05-28T21:33:08+09:00: redteam GO — 예산소진/공식 사이트 devtools 차단/지급보장 과장 리스크는 발행 직전 공식 재확인과 표현 제한으로 통제 가능.
+- 2026-05-28T21:33:08+09:00: roi GO — 무료 검증 글이므로 KRW 예상 순마진은 0원. 검색 유입 가설/전략 자산으로만 추적.
+- 2026-05-28T22:30:38+09:00: research_lead GO — Attention/Cash Gate 재심사 통과: 25만원 직접 혜택, 예산 소진 리스크, A급 공식 근거로 폭발 후보 유지.
+- 2026-05-28T22:30:38+09:00: execution_lead GO — GPT Image 2 흑백 잉크 만화 이미지 3장 생성, Tistory 공개 발행, 렌더/카테고리/OG/모바일/공식 링크 QA 통과.
+- 2026-05-28T22:30:38+09:00: redteam GO — 지급 보장/신청대행 오해 제거, 공식 확인 기준과 예산 소진 단서 명시.
+- 2026-05-28T22:30:38+09:00: roi GO — 직접 수익 0원. 실제 방문/RPM/전환 전까지 검색 유입 가설로만 추적.

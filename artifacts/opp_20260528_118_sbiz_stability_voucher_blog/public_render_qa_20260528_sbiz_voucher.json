@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-05-28T22:28:20+09:00",
+  "url": "https://beemo.tistory.com/95?qa=render2",
+  "status": "PUBLIC_RENDER_QA_PASSED",
+  "cycles_required": 1,
+  "cycles_completed": 1,
+  "title_found": true,
+  "category_verified": "돈관리·구매체크",
+  "images": {"count": 3, "all_complete": true, "natural_size": "1200x675", "rendered_width": 740},
+  "spacing": {"img_to_caption_px": [5,5,5], "caption_to_next_px": [26,24,26]},
+  "body_checks": ["2025년 12월 31일 이전 개업", "0원 초과 ~ 1억400만원 미만", "영업 중", "1인 1사업체", "중소벤처기업부", "예산 소진"],
+  "source_links_verified": true,
+  "forbidden_work_notes": false,
+  "og_thumbnail_verified_by_publish_script": true,
+  "mobile_verified_by_publish_script": true
+}
