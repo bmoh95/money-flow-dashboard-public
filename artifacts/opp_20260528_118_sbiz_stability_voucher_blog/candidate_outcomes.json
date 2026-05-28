@@ -1,0 +1,51 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt rescue 후보 3개",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "FAForever #3133, PrismarineJS #420은 이미 closed. BoostNote-Legacy #2567은 repo archived + open PR 2개로 자동 PR/지급 루프 부적합.",
+    "evidence_urls": [
+      "https://github.com/FAForever/downlords-faf-client/issues/3133",
+      "https://github.com/BoostIO/BoostNote-Legacy/issues/2567",
+      "https://github.com/PrismarineJS/prismarine-viewer/issues/420"
+    ]
+  },
+  {
+    "candidate": "fresh GitHub bounty broad pool 69개",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_RISK",
+    "summary": "상위권이 SSRF/보안 이슈, Meta bounty-alert, wallet/token, prompt/session disclosure, no visible cash route 후보로 오염. 안전한 small PR standing-L3 후보 없음.",
+    "evidence_urls": [
+      "https://github.com/IntersectMBO/govtool/issues/4168",
+      "https://github.com/calcom/cal.diy/issues/29469",
+      "https://github.com/dev-kp-eloper/BountyScout/issues/28",
+      "https://github.com/algora-io/algora/issues/303",
+      "https://github.com/asaadnashed/bounty-autopilot/issues/12"
+    ]
+  },
+  {
+    "candidate": "소상공인 경영안정 바우처 25만원 확인 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "attention_or_cash_class": "폭발 후보",
+    "summary": "A급 공식 공고/보도자료, 직접 25만원 혜택, 예산 소진/사용기한/카드 변경 불가/매출 기준 오해가 있어 클릭 긴장감과 즉시 효용이 큼.",
+    "evidence_urls": [
+      "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=86&bcIdx=1065091",
+      "https://www.mss.go.kr/site/smba/ex/bbs/View.do?bcIdx=310&bcIdx=1065100",
+      "https://voucher.sbiz24.kr/"
+    ]
+  },
+  {
+    "candidate": "HHS simpler-grants funded contributor program",
+    "type": "service",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "summary": "공공기관 funded contributor program은 현금성 가능성은 있으나 특정 작은 PR 바운티가 아니고 eligibility/onboarding/user profile 부담이 커 이번 자동 새 작업으로 부적합.",
+    "evidence_urls": [
+      "https://github.com/HHS/simpler-grants-gov/issues/10059"
+    ]
+  }
+]

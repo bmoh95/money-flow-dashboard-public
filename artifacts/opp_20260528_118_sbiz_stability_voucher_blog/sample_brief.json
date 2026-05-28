@@ -1,0 +1,66 @@
+{
+  "topic": "소상공인 경영안정 바우처 25만원 신청 전 확인",
+  "classification": "폭발 후보",
+  "target_reader": "연매출 1억400만원 미만 가능성이 있는 영세 소상공인, 아직 신청/사용/카드선택을 확인하지 않은 사업자",
+  "voice": "사장님이 신청 전 헷갈리는 것만 먼저 짚어주는 검증노트 말투. 지급 보장·대행 없이 공식 확인 순서 중심.",
+  "avoid": [
+    "무조건 25만원 지급",
+    "신청 대행",
+    "소상공인24 로그인 유도 과장",
+    "공식 마감 확인 없는 예산소진 단정",
+    "판매 CTA"
+  ],
+  "first_screen_payoff": [
+    "5초 판정: 매출·개업일·휴폐업·업종·1인1사업체",
+    "예산 소진 전 확인할 공식 사이트 순서",
+    "카드 변경 불가/사용처 9개/12월31일 잔액 회수 체크"
+  ],
+  "image_plan": [
+    "검은 잉크 만화 썸네일: 사장님이 공과금 고지서와 25만원 말풍선을 보는 컷",
+    "판정 흐름 4컷: 매출→개업일→카드선택→사용처",
+    "행동 카드: 지금 확인할 4가지와 공식 링크"
+  ],
+  "comparable_samples": [
+    {
+      "title": "소상공인 경영안정 바우처",
+      "url": "https://voucher.sbiz24.kr/"
+    },
+    {
+      "title": "2026년 소상공인 경영안정 바우처 — 25만원 신청 전 꼭 확인할 것",
+      "url": "https://theissueon.tistory.com/324"
+    },
+    {
+      "title": "2026 소상공인 경영안정 바우처 총정리｜대상·지원금·신청방법 ...",
+      "url": "https://wizson.com/entry/2026-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%B4%9D%EC%A0%95%EB%A6%AC"
+    },
+    {
+      "title": "소상공인 경영안정 바우처 예산 소진 전 신청하고 혜택받기 ...",
+      "url": "https://m.blog.naver.com/minsunny81/224193153517"
+    },
+    {
+      "title": "2026 소상공인 경영안정 바우처 선착순 마감 주의! 매출 1억 400만 ...",
+      "url": "https://my-plan.kr/2026-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%84%A0%EC%B0%A9%EC%88%9C-%EB%A7%88%EA%B0%90-%EC%A3%BC%EC%9D%98-%EB%A7%A4%EC%B6%9C-1/"
+    },
+    {
+      "title": "소상공인 경영안정 바우처 총정리, 이거 모르면 25만 원 그냥 ...",
+      "url": "https://smile-nest.com/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%B4%9D%EC%A0%95%EB%A6%AC-%EC%9D%B4%EA%B1%B0-%EB%AA%A8%EB%A5%B4%EB%A9%B4-25%EB%A7%8C-%EC%9B%90/"
+    },
+    {
+      "title": "소상공인 경영안정 바우처 총정리 (25만원 지원대상 및 신청방법)",
+      "url": "https://honeynara.com/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98/"
+    },
+    {
+      "title": "소상공인 경영안정 바우처 지원사업(25만원). 예산 소진 시 마감!",
+      "url": "https://i.ai-tax-ai.com/entry/%EB%AA%85%EC%A0%88-%EC%A7%81%EC%A0%84-%EC%A7%80%EC%9B%90%EA%B8%88-25%EB%A7%8C%EC%9B%90-%EB%B0%9B%EA%B8%B0%EC%84%A4%EC%A7%80%EC%9B%90%EA%B8%88-%EB%AF%BC%EC%83%9D%ED%9A%8C%EB%B3%B5%EC%A7%80%EC%9B%90%EA%B8%88-%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%A7%80%EC%9B%90%EC%82%AC%EC%97%85%EC%A4%91%EC%86%8C%EB%B2%A4%EC%B2%98%EA%B8%B0%EC%97%85%EB%B6%80-%EC%98%88%EC%82%B0-%EC%86%8C%EC%A7%84-%EC%8B%9C-%EC%A1%B0%EB%A7%88%EA%B0%90"
+    },
+    {
+      "title": "소상공인 경영안정 바우처 예산 소진 시 대처법 및 정책 대출 ...",
+      "url": "https://loveiinfo.com/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95-%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%98%88%EC%82%B0-%EC%86%8C%EC%A7%84-%EC%8B%9C-%EB%8C%80%EC%B2%98%EB%B2%95-%EB%B0%8F-%EC%A0%95/"
+    },
+    {
+      "title": "소상공인 경영안정바우처 신청기간, 2026년 언제까지 기다릴 수 ...",
+      "url": "https://economic-news24.com/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EA%B2%BD%EC%98%81%EC%95%88%EC%A0%95%EB%B0%94%EC%9A%B0%EC%B2%98-%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84-2026%EB%85%84-%EC%96%B8%EC%A0%9C%EA%B9%8C%EC%A7%80-%EA%B8%B0/"
+    }
+  ],
+  "recent_blog_anti_repetition": "최근 근로자휴가지원/수산대전/청년지원금 글과 겹치지 않도록 지원금 총정리형이 아니라 소상공인 카드선택·사용처·잔액회수 실수 방지형으로 구성."
+}
