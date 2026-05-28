@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-05-28T13:49:00+09:00",
+  "url": "https://beemo.tistory.com/92?qa=1348",
+  "status": "browser_dom_qa_passed",
+  "category": "돈관리·구매체크",
+  "figures": [
+    {"i": 1, "alt": "2분기 먼저 확인할 것", "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "computedHeight": "416.25px", "imgToCaption": 7, "captionToNext": 24, "nextTag": "H2"},
+    {"i": 2, "alt": "성남 고양 제외 흐름", "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "computedHeight": "416.25px", "imgToCaption": 7, "captionToNext": 24, "nextTag": "H2"},
+    {"i": 3, "alt": "내 경우 체크 순서", "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "computedHeight": "416.25px", "imgToCaption": 7, "captionToNext": 24, "nextTag": "H2"}
+  ],
+  "forbidden_work_notes": [],
+  "source_links": 1,
+  "og_image_non_default": true,
+  "vision_tool_note": "browser_vision captured screenshots but analysis failed with NoneType error; DOM/image-load/HTTP QA passed and screenshots were saved by the browser tool."
+}
