@@ -3,7 +3,7 @@
   "last_run": {
     "run_id": "2026-05-28_2217_money-flow-backlog",
     "started_at": "2026-05-28T22:17:17+09:00",
-    "finished_at": "2026-05-28T22:30:38+09:00",
+    "finished_at": "2026-05-28T22:32:00+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -95,7 +95,33 @@
       }
     ],
     "summary": "소상공인 경영안정 바우처 25만원 무료 검증 글을 Tistory 공개 발행하고 tracking 전환.",
-    "final_report": "material"
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260528_118_sbiz_stability_voucher_blog` 처리 완료: Tistory 공개 발행 + `tracking` 전환.\n- 공개 URL: https://beemo.tistory.com/95\n- GPT Image 2 흑백 잉크 만화 이미지 3장 생성, 렌더/카테고리/OG/모바일/공식 링크 QA 통과.\n- 로컬/공개 대시보드 갱신 및 검증 완료.\n\n**시장성 판단**\n- 폭발 후보: 25만원 직접 혜택, 예산 소진 가능성, 공식 A급 근거.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 검색 유입 가설/전략 자산으로만 추적.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음.",
+    "github_pages_stage": {
+      "stage": "ok",
+      "changed": true,
+      "committed": true,
+      "pushed": true,
+      "push_output_tail": "To https://github.com/bmoh95/money-flow-dashboard-public.git\n   da4f69d..1806a53  main -> main\n",
+      "scan": {
+        "checked_at": "2026-05-28T22:30:38+09:00",
+        "sanitized_files": [
+          "/Users/beemo/.hermes/money_ops/money_flow/dashboard/artifacts/opp_20260528_118_sbiz_stability_voucher_blog/body.published_payload.html",
+          "/Users/beemo/.hermes/money_ops/money_flow/github_pages_stage/artifacts/opp_20260528_118_sbiz_stability_voucher_blog/body.published_payload.html"
+        ],
+        "signed_url_scan_ok": true,
+        "leaks": []
+      }
+    },
+    "dashboard_public_verify": {
+      "checked_at": "2026-05-28T22:31:35+09:00",
+      "public_url": "https://bmoh95.github.io/money-flow-dashboard-public",
+      "data_ok": true,
+      "html_ok": true,
+      "target_status_ok": true,
+      "target_status": "tracking",
+      "data_updated_at": "2026-05-28T22:30:38+09:00",
+      "attempts": 1
+    }
   },
   "metrics": {
     "total": 118,
