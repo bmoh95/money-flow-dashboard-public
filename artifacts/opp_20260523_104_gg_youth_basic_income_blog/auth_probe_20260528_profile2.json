@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-05-28T09:33:22+09:00",
+  "ports": [
+    {
+      "port": 9334,
+      "tabs": [
+        {
+          "title": "OpenClaw Browser Relay",
+          "url": "chrome-extension://gmhjkeicnfgdjbefhbahfncaljhmmbjk/options.html"
+        },
+        {
+          "title": "카카오계정",
+          "url": "https://accounts.kakao.com/login/?continue=https%3A%2F%2Fkauth.kakao.com%2Foauth%2Fauthorize%3Fclient_id%3D3e6ddd834b023f24221217e370daed18%26state%3DaHR0cHM6Ly9iZWVtby50aXN0b3J5LmNvbS9tYW5hZ2UvcG9zdHMv%26prompt%3Dselect_account%26redirect_uri%3Dhttps%253A%252F%252Fwww.tistory.com%252Fauth%252Fkakao%252Fredirect%26response_type%3Dcode%26auth_tran_id%3Dgcq7132ly0c3e6ddd834b023f24221217e370daed18mpo65e04%26ka%3Dsdk%252F1.43.6%2520os%252Fjavascript%2520sdk_type%252Fjavascript%2520lang%252Fko-KR%2520device%252FMacIntel%2520origin%252Fhttps%25253A%25252F%25252Fwww.tistory.com%26is_popup%3Dfalse%26through_account%3Dtrue&talk_login=#login"
+        }
+      ],
+      "has_manage_tab": false,
+      "has_login_tab": true
+    },
+    {
+      "port": 9335,
+      "tabs": [
+        {
+          "title": "TISTORY",
+          "url": "https://www.tistory.com/auth/login?redirectUrl=https%3A%2F%2Fbeemo.tistory.com%2Fmanage%2Fposts%2F#kakaoLnb"
+        }
+      ],
+      "has_manage_tab": false,
+      "has_login_tab": true
+    }
+  ],
+  "classification": "AUTH_BLOCKED",
+  "summary": "Profile 2 기존 CDP와 fresh Profile 2 copy 모두 Tistory/Kakao login 화면으로 리다이렉트됨. 비밀번호/2FA/captcha 입력 없이 중단."
+}
