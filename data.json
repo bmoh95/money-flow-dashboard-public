@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-29T22:41:50+09:00",
+  "updated_at": "2026-05-29T22:45:46+09:00",
   "last_run": {
     "run_id": "2026-05-29_2235_money-flow",
     "started_at": "2026-05-29T22:35:24+09:00",
-    "finished_at": "2026-05-29T22:41:50+09:00",
+    "finished_at": "2026-05-29T22:45:46+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -17,31 +17,24 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 3,
-    "opportunities_advanced": 1,
-    "opportunities_rejected": 1,
-    "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json"
-    ],
+    "opportunities_advanced": 0,
+    "opportunities_rejected": 0,
+    "assets_created": [],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "6월 자동차세 정기분·연납 위택스 체크 무료 검증 글 planning package created."
+        "decision": "NO-GO",
+        "reason_code": "DUPLICATE",
+        "summary": "Retracted duplicate of existing opp_20260525_108_car_tax_june_prepayment_blog; no new opportunity remains."
       }
     ],
-    "summary": "Created one scout-only planning opportunity for June car tax/Wetax check after bounty lane found no safe direct-cash rescue candidate.",
-    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 3개 비교 후 1개 GO: `opp_20260529_122_june_car_tax_wetax_blog` 생성.\n- 6월 자동차세 정기분·연납 위택스 체크 글의 근거/기획/ROI/후보비교 파일 저장.\n\n**시장성 판단**\n- GO: 6월 자동차세 고지서·연납 신청 window가 직접 세금 손익과 연결됩니다. 110/지자체 공식 근거 확인.\n- bounty/direct-cash 검색은 현금성 rescue 후보 0개라 NO-GO.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 모두 0원. 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 다음 실행 lane: Tistory 초안 + 흑백 잉크 만화 이미지 3장 제작.\n- 대시보드 갱신: file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html\n\n**필요 승인**\n- 없음."
+    "summary": "Scout found car-tax candidate but retracted it as duplicate of existing planning opportunity; bounty lane had no safe direct-cash rescue candidate.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
-    "total": 123,
-    "active": 11,
+    "total": 122,
+    "active": 10,
     "approval_needed": 1,
     "launched": 56,
     "closed_won": 0,
@@ -2206,167 +2199,6 @@
           "label": "tistory_auth_probe.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_auth_probe.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-123",
-      "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "title": "6월 자동차세 정기분·연납 위택스 체크 무료 검증 글",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 84,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/위택스 알림을 받은 차량 보유자, 연납 할인 가능 여부와 납부기한을 헷갈리는 독자",
-      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "다음 실행 lane에서 6월 자동차세 Tistory 초안과 흑백 잉크 만화 이미지 3장을 제작한다. 새 작업 scout lane은 여기서 종료.",
-      "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "risk_labels": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.110.go.kr/data/counselView.do?num=A01_660057",
-          "grade": "A",
-          "summary": "정부민원안내콜센터 110 FAQ: 위택스 자동차세 연납 신청 가능 여부와 신청기간 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000145639Sn5uO4j",
-          "grade": "A",
-          "summary": "세종시 공식 공지: 2026년 자동차세 연납 제도와 6월/12월 정기분 대비 선납 할인 구조 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.icjg.go.kr/krcm01b/282872",
-          "grade": "A",
-          "summary": "인천 중구청 공식 공지: 2026년 자동차세 연납 1월·3월·6월·9월 신청 가능 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "grade": "B",
-          "summary": "Naver 검색 결과/공식·블로그·카페 제목 패턴 10개 이상 샘플링.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "3개 후보 비교 후 자동차세 6월 window 후보 선택.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 근거와 직접 세금 손익, 채널 적합성 확인.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 84. 정기분/연납 갈림길과 위택스 확인 순서로 실용성 확보.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "연납 할인 과장·지역별 차이 단정 금지 조건으로 리스크 수용.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글로 예상 순수익 0원, 검색 유입 가설로만 추적.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json"
-      ],
-      "asset_links": [
-        {
-          "label": "6월 자동차세/연납 후보 근거",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/evidence.md"
-        },
-        {
-          "label": "계획: 6월 자동차세, 연납할까 정기분만 낼까",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/plan.md"
-        },
-        {
-          "label": "ROI",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/roi.md"
-        },
-        {
-          "label": "Decisions",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/decisions.md"
-        },
-        {
-          "label": "샘플/스타일 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/sample_style_brief.json"
-        },
-        {
-          "label": "후보 비교",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/candidate_outcomes.json"
         }
       ],
       "approval_required": false
@@ -4843,167 +4675,6 @@
         }
       ],
       "approval_required": false
-    },
-    {
-      "key": "MF-123",
-      "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "title": "6월 자동차세 정기분·연납 위택스 체크 무료 검증 글",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 84,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/위택스 알림을 받은 차량 보유자, 연납 할인 가능 여부와 납부기한을 헷갈리는 독자",
-      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "다음 실행 lane에서 6월 자동차세 Tistory 초안과 흑백 잉크 만화 이미지 3장을 제작한다. 새 작업 scout lane은 여기서 종료.",
-      "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "risk_labels": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.110.go.kr/data/counselView.do?num=A01_660057",
-          "grade": "A",
-          "summary": "정부민원안내콜센터 110 FAQ: 위택스 자동차세 연납 신청 가능 여부와 신청기간 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000145639Sn5uO4j",
-          "grade": "A",
-          "summary": "세종시 공식 공지: 2026년 자동차세 연납 제도와 6월/12월 정기분 대비 선납 할인 구조 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.icjg.go.kr/krcm01b/282872",
-          "grade": "A",
-          "summary": "인천 중구청 공식 공지: 2026년 자동차세 연납 1월·3월·6월·9월 신청 가능 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "grade": "B",
-          "summary": "Naver 검색 결과/공식·블로그·카페 제목 패턴 10개 이상 샘플링.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "3개 후보 비교 후 자동차세 6월 window 후보 선택.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 근거와 직접 세금 손익, 채널 적합성 확인.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 84. 정기분/연납 갈림길과 위택스 확인 순서로 실용성 확보.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "연납 할인 과장·지역별 차이 단정 금지 조건으로 리스크 수용.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글로 예상 순수익 0원, 검색 유입 가설로만 추적.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json"
-      ],
-      "asset_links": [
-        {
-          "label": "6월 자동차세/연납 후보 근거",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/evidence.md"
-        },
-        {
-          "label": "계획: 6월 자동차세, 연납할까 정기분만 낼까",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/plan.md"
-        },
-        {
-          "label": "ROI",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/roi.md"
-        },
-        {
-          "label": "Decisions",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/decisions.md"
-        },
-        {
-          "label": "샘플/스타일 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/sample_style_brief.json"
-        },
-        {
-          "label": "후보 비교",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/candidate_outcomes.json"
-        }
-      ],
-      "approval_required": false
     }
   ],
   "rejection_summary": {
@@ -5025,15 +4696,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-29T02:48:17+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "Attention/Cash Gate 재심사 통과: A급 공식 근거와 6월 15~16일 접수일로 폭발 후보 유지."
-    },
     {
       "time": "2026-05-29T02:48:17+09:00",
       "agent": "제작 검수",
@@ -5474,6 +5136,15 @@
       "decision": "GO",
       "reason": "",
       "summary": "Organic content valuation kept at 0 KRW; strategic search asset only."
+    },
+    {
+      "time": "2026-05-29T22:45:46+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "중복",
+      "summary": "Provisional car-tax opportunity retracted; existing active duplicate opp_20260525_108_car_tax_june_prepayment_blog already covers the topic."
     }
   ],
   "board_columns": [
@@ -36718,167 +36389,6 @@
           "label": "tistory_auth_probe.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_auth_probe.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-123",
-      "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "id": "opp_20260529_122_june_car_tax_wetax_blog",
-      "title": "6월 자동차세 정기분·연납 위택스 체크 무료 검증 글",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 84,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/위택스 알림을 받은 차량 보유자, 연납 할인 가능 여부와 납부기한을 헷갈리는 독자",
-      "channel": "Tistory 무료 검증 블로그 — 돈관리·구매체크/세금·장부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "다음 실행 lane에서 6월 자동차세 Tistory 초안과 흑백 잉크 만화 이미지 3장을 제작한다. 새 작업 scout lane은 여기서 종료.",
-      "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "risk_labels": [
-        "강한 후보",
-        "공식 근거 확인",
-        "절약",
-        "무료 검증",
-        "판매문구 없음",
-        "이미지 필요"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.110.go.kr/data/counselView.do?num=A01_660057",
-          "grade": "A",
-          "summary": "정부민원안내콜센터 110 FAQ: 위택스 자동차세 연납 신청 가능 여부와 신청기간 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000145639Sn5uO4j",
-          "grade": "A",
-          "summary": "세종시 공식 공지: 2026년 자동차세 연납 제도와 6월/12월 정기분 대비 선납 할인 구조 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "https://www.icjg.go.kr/krcm01b/282872",
-          "grade": "A",
-          "summary": "인천 중구청 공식 공지: 2026년 자동차세 연납 1월·3월·6월·9월 신청 가능 안내.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "grade": "B",
-          "summary": "Naver 검색 결과/공식·블로그·카페 제목 패턴 10개 이상 샘플링.",
-          "checked_at": "2026-05-29T22:41:50+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "3개 후보 비교 후 자동차세 6월 window 후보 선택.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 근거와 직접 세금 손익, 채널 적합성 확인.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 84. 정기분/연납 갈림길과 위택스 확인 순서로 실용성 확보.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "연납 할인 과장·지역별 차이 단정 금지 조건으로 리스크 수용.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T22:41:50+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글로 예상 순수익 0원, 검색 유입 가설로만 추적.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json"
-      ],
-      "asset_links": [
-        {
-          "label": "6월 자동차세/연납 후보 근거",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/evidence.md"
-        },
-        {
-          "label": "계획: 6월 자동차세, 연납할까 정기분만 낼까",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/plan.md"
-        },
-        {
-          "label": "ROI",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/roi.md"
-        },
-        {
-          "label": "Decisions",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/decisions.md"
-        },
-        {
-          "label": "샘플/스타일 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/sample_style_brief.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/sample_style_brief.json"
-        },
-        {
-          "label": "후보 비교",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_122_june_car_tax_wetax_blog/assets/candidate_outcomes.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_122_june_car_tax_wetax_blog/candidate_outcomes.json"
         }
       ],
       "approval_required": false
