@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-30T03:48:59+09:00",
+  "updated_at": "2026-05-30T03:52:32+09:00",
   "last_run": {
     "run_id": "2026-05-30_0343_money-flow-backlog",
     "started_at": "2026-05-30T03:43:46+09:00",
-    "finished_at": "2026-05-30T03:48:59+09:00",
+    "finished_at": "2026-05-30T03:52:32+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -33,7 +33,7 @@
       }
     ],
     "summary": "Processed one AUTH_BLOCKED high-attention backlog item: K-pass refund/card-info post published to Tistory and verified.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260529_121_kpass_refund_card_update_blog` 공개 발행 완료: https://beemo.tistory.com/100\n- Tistory 렌더 QA 3회, 모바일/OG/이미지 3장/카테고리 검증 통과.\n- 상태를 `redteam_hold` → `tracking`으로 전환.\n\n**시장성 판단**\n- 7월 7일 카드정보 업데이트 미진행 시 환급 불이익 가능 안내가 있어 Attention Gate는 `폭발 후보` 유지.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 로컬 대시보드 갱신 완료: file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260529_121_kpass_refund_card_update_blog` 공개 발행 완료: https://beemo.tistory.com/100\n- Tistory 렌더 QA 3회, 브라우저 시각 QA, 모바일/OG/이미지 3장/카테고리 검증 통과.\n- 상태를 `redteam_hold` → `tracking`으로 전환.\n- 로컬/공개 대시보드 갱신 및 GitHub Pages 검증 완료.\n\n**시장성 판단**\n- K-패스 공식 7월 7일 카드정보 업데이트 안내와 환급 불이익 가능성이 있어 Attention Gate는 `폭발 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 3일/7일 뒤 조회·검색 유입 확인.\n- 대시보드: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 122,
