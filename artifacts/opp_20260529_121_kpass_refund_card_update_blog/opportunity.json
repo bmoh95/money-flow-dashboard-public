@@ -1,0 +1,186 @@
+{
+  "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+  "title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-05-29T18:28:40+09:00",
+  "updated_at": "2026-05-29T19:35:57+09:00",
+  "source_run_id": "2026-05-29_1822_money-flow",
+  "current_owner": "redteam",
+  "buyer_or_payer": "K-패스 이용자, 청년·다자녀·저소득·어르신 대중교통 이용자, 환급 누락이 걱정되는 카드 사용자",
+  "channel": "Tistory 무료 검증 글 — 교통비 환급/카드정보 업데이트 검색 유입 실험",
+  "evidence": [
+    {
+      "url": "https://korea-pass.kr/",
+      "grade": "A",
+      "summary": "공식 K-패스 메인: 7월 7일까지 카드정보 업데이트 미진행 시 환급 불이익 가능 배너, 다자녀 환급률 안내.",
+      "checked_at": "2026-05-29T18:28:40+09:00"
+    },
+    {
+      "url": "https://korea-pass.kr/info/intro.do",
+      "grade": "A",
+      "summary": "공식 사업소개: 2026.04.01~2026.09.30 한시 시차출퇴근 환급 확대, 일반/청년/어르신/다자녀/저소득 환급기준.",
+      "checked_at": "2026-05-29T18:28:40+09:00"
+    },
+    {
+      "url": "https://korea-pass.kr/info/use_accm.do",
+      "grade": "A",
+      "summary": "공식 적립안내: 매월 1일~말일 이용, 익월 정산, 회원가입 및 K-패스 카드 이용, 15회 이상 조건.",
+      "checked_at": "2026-05-29T18:28:40+09:00"
+    },
+    {
+      "url": "https://korea-pass.kr/info/use_pay.do",
+      "grade": "A",
+      "summary": "공식 환급안내: 월 15회 미만이면 환급되지 않음, 가입 첫 달 예외, 카드사 실제 지급일/방식 확인 필요.",
+      "checked_at": "2026-05-29T18:28:40+09:00"
+    },
+    {
+      "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
+      "grade": "B",
+      "summary": "비교 글 12개 샘플링과 최근 반복 회피 브리프.",
+      "checked_at": "2026-05-29T18:28:40+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 92,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": null
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "ATTENTION_EXPLOSIVE_CANDIDATE",
+    "official_source_verified",
+    "card_update_deadline",
+    "refund_loss_risk",
+    "free_validation_only",
+    "no_sales_cta",
+    "no_refund_guarantee",
+    "draft_ready",
+    "gpt_image2_comic_assets_ready",
+    "local_image_layered_qa_done",
+    "tistory_auth_reprobe_done",
+    "AUTH_BLOCKED",
+    "tistory_rendered_qa_required"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "bounty/direct-payout, 소상공인 분할상환, K-패스 글, K-패스 계산기 후보를 비교. K-패스 카드정보 업데이트·환급 체크가 가장 높은 Attention Gate를 통과."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 K-패스 A급 근거에서 7월7일 카드정보 업데이트 경고, 월 15회 조건, 2026.04~09 한시 환급 확대 확인. 독자/채널 명확."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "planning_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "evidence/plan/style brief/candidate outcomes 작성. 무료 검증 글 구조와 이미지 계획 정의."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "최근 지원금 마감형 반복을 피하고 “환급 누락 방지” 순서형으로 차별화. 품질 92."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "새 작업 scout-only lane이라 제작/발행은 하지 않고 backlog lane으로 handoff. HOLD/승인대기 아님."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "execution_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "기획 패키지와 근거 파일 완비. 외부 게시 없이 로컬 산출물만 생성."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "환급 보장·카드사 지급일 단정·개인정보 대행 표현을 피하면 법/플랫폼 리스크 낮음. 공식 링크 중심으로 처리."
+    },
+    {
+      "time": "2026-05-29T18:28:40+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록."
+    },
+    {
+      "time": "2026-05-29T19:35:57+09:00",
+      "agent": "execution_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 K-패스 재확인 후 Tistory 본문, 태그, GPT Image 2 흑백 잉크 만화 이미지 3장, 로컬 준비 HTML 생성."
+    },
+    {
+      "time": "2026-05-29T19:35:57+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "이미지 contact sheet QA는 통과했으나 Profile 2 복사 CDP가 Kakao 비밀번호/QR 로그인 화면으로 이동. 공개 발행은 인증 회복 후 가능."
+    },
+    {
+      "time": "2026-05-29T19:35:57+09:00",
+      "agent": "redteam",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "비밀번호·QR·2FA·captcha 입력 없이 중단. 로컬 패키지는 재사용 가능하므로 재생성 불필요."
+    },
+    {
+      "time": "2026-05-29T19:35:57+09:00",
+      "agent": "roi",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "무료 검증 글이라 예상 순마진은 0원. Attention은 폭발 후보 유지, 발행만 인증 차단."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/evidence.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/plan.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/decisions.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/roi.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/kpass_source_snapshot.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/title.txt",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/body_tistory_ready_local.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tags.txt",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/01-kpass-refund-cardinfo-1200x675.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/02-kpass-four-checks-1200x675.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json"
+  ],
+  "next_action": "Tistory/Profile 2 인증 회복 후 저장된 로컬 패키지로 이미지 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
+  "stop_reason_code": "AUTH_BLOCKED"
+}
