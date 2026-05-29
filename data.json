@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-29T22:45:46+09:00",
+  "updated_at": "2026-05-30T03:48:59+09:00",
   "last_run": {
-    "run_id": "2026-05-29_2235_money-flow",
-    "started_at": "2026-05-29T22:35:24+09:00",
-    "finished_at": "2026-05-29T22:45:46+09:00",
+    "run_id": "2026-05-30_0343_money-flow-backlog",
+    "started_at": "2026-05-30T03:43:46+09:00",
+    "finished_at": "2026-05-30T03:48:59+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -16,30 +16,33 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 3,
-    "opportunities_advanced": 0,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 0,
-    "assets_created": [],
+    "assets_created": [
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tistory_publish_result_kpass_public_safe.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/public_render_browser_qa.json"
+    ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260529_122_june_car_tax_wetax_blog",
-        "decision": "NO-GO",
-        "reason_code": "DUPLICATE",
-        "summary": "Retracted duplicate of existing opp_20260525_108_car_tax_june_prepayment_blog; no new opportunity remains."
+        "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "K-패스 카드정보 업데이트/환급 누락 방지 글 공개 발행 및 tracking 전환."
       }
     ],
-    "summary": "Scout found car-tax candidate but retracted it as duplicate of existing planning opportunity; bounty lane had no safe direct-cash rescue candidate.",
-    "final_report": "[SILENT]"
+    "summary": "Processed one AUTH_BLOCKED high-attention backlog item: K-pass refund/card-info post published to Tistory and verified.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260529_121_kpass_refund_card_update_blog` 공개 발행 완료: https://beemo.tistory.com/100\n- Tistory 렌더 QA 3회, 모바일/OG/이미지 3장/카테고리 검증 통과.\n- 상태를 `redteam_hold` → `tracking`으로 전환.\n\n**시장성 판단**\n- 7월 7일 카드정보 업데이트 미진행 시 환급 불이익 가능 안내가 있어 Attention Gate는 `폭발 후보` 유지.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 로컬 대시보드 갱신 완료: file:///Users/beemo/.hermes/money_ops/money_flow/dashboard/index.html\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 122,
-    "active": 10,
+    "active": 9,
     "approval_needed": 1,
-    "launched": 56,
+    "launched": 57,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 59
+    "rejected": 58
   },
   "active_opportunities": [
     {
@@ -202,7 +205,8 @@
         "강한 후보",
         "공식 근거 확인",
         "monthly_value_loss",
-        "무료 검증"
+        "무료 검증",
+        "판매문구 없음"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -221,7 +225,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -233,7 +237,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -434,7 +438,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/source_snapshot_20260524_foodvoucher.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/candidate_outcomes.json"
         }
@@ -457,7 +461,7 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증"
       ],
       "quality": 84,
@@ -474,11 +478,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -487,11 +491,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -590,7 +594,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/candidate_outcomes.json"
         },
@@ -617,7 +621,9 @@
         "기타",
         "강한 후보",
         "검토 메모",
-        "무료 검증"
+        "무료 검증",
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -947,8 +953,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -964,23 +970,23 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
@@ -1093,7 +1099,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
         },
@@ -1121,7 +1127,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk"
       ],
       "quality": 86,
@@ -1138,7 +1144,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -1146,7 +1152,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -1271,7 +1277,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/sample_brief.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/candidate_outcomes.json"
         }
@@ -1292,7 +1298,7 @@
       "tags": [
         "기타",
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -1309,14 +1315,14 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
       ],
       "risk_labels": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -1425,7 +1431,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
         },
@@ -1451,7 +1457,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk"
@@ -1468,35 +1474,35 @@
       "next_action": "Tistory/Profile 2 인증 회복 후 같은 로컬 패키지로 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
@@ -1669,12 +1675,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/sample_style_brief.json"
         },
@@ -1725,7 +1731,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee"
@@ -1742,7 +1748,7 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -1750,7 +1756,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -1882,12 +1888,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
         },
@@ -1895,310 +1901,6 @@
           "label": "gg_artist_notice.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/gg_artist_notice.txt"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-122",
-      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
-      "id": "opp_20260529_121_kpass_refund_card_update_blog",
-      "title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증"
-      ],
-      "quality": 92,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "K-패스 이용자, 청년·다자녀·저소득·어르신 대중교통 이용자, 환급 누락이 걱정되는 카드 사용자",
-      "channel": "Tistory 무료 검증 글 — 교통비 환급/카드정보 업데이트 검색 유입 실험",
-      "current_owner": "리스크 검토",
-      "owner": "리스크 검토",
-      "next_action": "Tistory/Profile 2 인증 회복 후 저장된 로컬 패키지로 이미지 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
-      "risk_flags": [
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증",
-        "판매문구 없음",
-        "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증",
-        "판매문구 없음",
-        "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
-      ],
-      "stop_reason": "인증 필요",
-      "evidence": [
-        {
-          "url": "https://korea-pass.kr/",
-          "grade": "A",
-          "summary": "공식 K-패스 메인: 7월 7일까지 카드정보 업데이트 미진행 시 환급 불이익 가능 배너, 다자녀 환급률 안내.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/intro.do",
-          "grade": "A",
-          "summary": "공식 사업소개: 2026.04.01~2026.09.30 한시 시차출퇴근 환급 확대, 일반/청년/어르신/다자녀/저소득 환급기준.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/use_accm.do",
-          "grade": "A",
-          "summary": "공식 적립안내: 매월 1일~말일 이용, 익월 정산, 회원가입 및 K-패스 카드 이용, 15회 이상 조건.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/use_pay.do",
-          "grade": "A",
-          "summary": "공식 환급안내: 월 15회 미만이면 환급되지 않음, 가입 첫 달 예외, 카드사 실제 지급일/방식 확인 필요.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-          "grade": "B",
-          "summary": "비교 글 12개 샘플링과 최근 반복 회피 브리프.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty/direct-payout, 소상공인 분할상환, K-패스 글, K-패스 계산기 후보를 비교. K-패스 카드정보 업데이트·환급 체크가 가장 높은 Attention Gate를 통과.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 K-패스 A급 근거에서 7월7일 카드정보 업데이트 경고, 월 15회 조건, 2026.04~09 한시 환급 확대 확인. 독자/채널 명확.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "evidence/plan/style brief/candidate outcomes 작성. 무료 검증 글 구조와 이미지 계획 정의.",
-          "agent_label": "기획",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "최근 지원금 마감형 반복을 피하고 “환급 누락 방지” 순서형으로 차별화. 품질 92.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "새 작업 scout-only lane이라 제작/발행은 하지 않고 backlog lane으로 handoff. HOLD/승인대기 아님.",
-          "agent_label": "제작",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "기획 패키지와 근거 파일 완비. 외부 게시 없이 로컬 산출물만 생성.",
-          "agent_label": "제작 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "환급 보장·카드사 지급일 단정·개인정보 대행 표현을 피하면 법/플랫폼 리스크 낮음. 공식 링크 중심으로 처리.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 K-패스 재확인 후 Tistory 본문, 태그, GPT Image 2 흑백 잉크 만화 이미지 3장, 로컬 준비 HTML 생성.",
-          "agent_label": "제작",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "이미지 contact sheet QA는 통과했으나 Profile 2 복사 CDP가 Kakao 비밀번호/QR 로그인 화면으로 이동. 공개 발행은 인증 회복 후 가능.",
-          "agent_label": "제작 검수",
-          "reason_label": "인증 필요"
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "비밀번호·QR·2FA·captcha 입력 없이 중단. 로컬 패키지는 재사용 가능하므로 재생성 불필요.",
-          "agent_label": "리스크 검토",
-          "reason_label": "인증 필요"
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "무료 검증 글이라 예상 순마진은 0원. Attention은 폭발 후보 유지, 발행만 인증 차단.",
-          "agent_label": "수익성 검토",
-          "reason_label": "인증 필요"
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/kpass_source_snapshot.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/title.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/body_tistory_ready_local.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tags.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/01-kpass-refund-cardinfo-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/02-kpass-four-checks-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json"
-      ],
-      "asset_links": [
-        {
-          "label": "근거 — K-패스 7월 7일 카드정보 업데이트·환급 체크",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/evidence.md"
-        },
-        {
-          "label": "계획 — K-패스 7월 7일 카드정보 업데이트·환급 체크 글",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/plan.md"
-        },
-        {
-          "label": "결정 로그",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/decisions.md"
-        },
-        {
-          "label": "ROI — K-패스 환급 체크 글",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/roi.md"
-        },
-        {
-          "label": "후보 비교",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/candidate_outcomes.json"
-        },
-        {
-          "label": "샘플/스타일 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/sample_style_brief.json"
-        },
-        {
-          "label": "kpass_source_snapshot.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/kpass_source_snapshot.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_source_snapshot.json"
-        },
-        {
-          "label": "title.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/title.txt",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/title.txt"
-        },
-        {
-          "label": "body_tistory_ready_local.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/body_tistory_ready_local.html",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/body_tistory_ready_local.html"
-        },
-        {
-          "label": "tags.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tags.txt",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tags.txt"
-        },
-        {
-          "label": "01-kpass-refund-cardinfo-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/01-kpass-refund-cardinfo-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "02-kpass-four-checks-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/02-kpass-four-checks-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "03-kpass-my-case-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "contact_sheet.jpg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
-          "viewer": null
-        },
-        {
-          "label": "kpass_official_recheck.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_official_recheck.json"
-        },
-        {
-          "label": "tistory_auth_probe.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_auth_probe.json"
         }
       ],
       "approval_required": false
@@ -2675,7 +2377,8 @@
         "강한 후보",
         "공식 근거 확인",
         "monthly_value_loss",
-        "무료 검증"
+        "무료 검증",
+        "판매문구 없음"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -2694,7 +2397,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -2706,7 +2409,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -2907,7 +2610,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/source_snapshot_20260524_foodvoucher.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/candidate_outcomes.json"
         }
@@ -2930,7 +2633,7 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증"
       ],
       "quality": 84,
@@ -2947,11 +2650,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -2960,11 +2663,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -3063,7 +2766,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/candidate_outcomes.json"
         },
@@ -3090,7 +2793,9 @@
         "기타",
         "강한 후보",
         "검토 메모",
-        "무료 검증"
+        "무료 검증",
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -3420,8 +3125,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -3437,23 +3142,23 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
@@ -3566,7 +3271,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
         },
@@ -3594,7 +3299,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk"
       ],
       "quality": 86,
@@ -3611,7 +3316,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -3619,7 +3324,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -3744,7 +3449,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/sample_brief.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/candidate_outcomes.json"
         }
@@ -3765,7 +3470,7 @@
       "tags": [
         "기타",
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -3782,14 +3487,14 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
       ],
       "risk_labels": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -3898,7 +3603,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
         },
@@ -3924,7 +3629,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk"
@@ -3941,35 +3646,35 @@
       "next_action": "Tistory/Profile 2 인증 회복 후 같은 로컬 패키지로 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
@@ -4142,12 +3847,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/sample_style_brief.json"
         },
@@ -4198,7 +3903,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee"
@@ -4215,7 +3920,7 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -4223,7 +3928,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -4355,12 +4060,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
         },
@@ -4368,310 +4073,6 @@
           "label": "gg_artist_notice.txt",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/gg_artist_notice.txt"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-122",
-      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
-      "id": "opp_20260529_121_kpass_refund_card_update_blog",
-      "title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "priority": "높음",
-      "tags": [
-        "기타",
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증"
-      ],
-      "quality": 92,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "K-패스 이용자, 청년·다자녀·저소득·어르신 대중교통 이용자, 환급 누락이 걱정되는 카드 사용자",
-      "channel": "Tistory 무료 검증 글 — 교통비 환급/카드정보 업데이트 검색 유입 실험",
-      "current_owner": "리스크 검토",
-      "owner": "리스크 검토",
-      "next_action": "Tistory/Profile 2 인증 회복 후 저장된 로컬 패키지로 이미지 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
-      "risk_flags": [
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증",
-        "판매문구 없음",
-        "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
-      ],
-      "risk_labels": [
-        "폭발 후보",
-        "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
-        "무료 검증",
-        "판매문구 없음",
-        "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
-      ],
-      "stop_reason": "인증 필요",
-      "evidence": [
-        {
-          "url": "https://korea-pass.kr/",
-          "grade": "A",
-          "summary": "공식 K-패스 메인: 7월 7일까지 카드정보 업데이트 미진행 시 환급 불이익 가능 배너, 다자녀 환급률 안내.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/intro.do",
-          "grade": "A",
-          "summary": "공식 사업소개: 2026.04.01~2026.09.30 한시 시차출퇴근 환급 확대, 일반/청년/어르신/다자녀/저소득 환급기준.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/use_accm.do",
-          "grade": "A",
-          "summary": "공식 적립안내: 매월 1일~말일 이용, 익월 정산, 회원가입 및 K-패스 카드 이용, 15회 이상 조건.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "https://korea-pass.kr/info/use_pay.do",
-          "grade": "A",
-          "summary": "공식 환급안내: 월 15회 미만이면 환급되지 않음, 가입 첫 달 예외, 카드사 실제 지급일/방식 확인 필요.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-          "grade": "B",
-          "summary": "비교 글 12개 샘플링과 최근 반복 회피 브리프.",
-          "checked_at": "2026-05-29T18:28:40+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty/direct-payout, 소상공인 분할상환, K-패스 글, K-패스 계산기 후보를 비교. K-패스 카드정보 업데이트·환급 체크가 가장 높은 Attention Gate를 통과.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 K-패스 A급 근거에서 7월7일 카드정보 업데이트 경고, 월 15회 조건, 2026.04~09 한시 환급 확대 확인. 독자/채널 명확.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "evidence/plan/style brief/candidate outcomes 작성. 무료 검증 글 구조와 이미지 계획 정의.",
-          "agent_label": "기획",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "최근 지원금 마감형 반복을 피하고 “환급 누락 방지” 순서형으로 차별화. 품질 92.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "새 작업 scout-only lane이라 제작/발행은 하지 않고 backlog lane으로 handoff. HOLD/승인대기 아님.",
-          "agent_label": "제작",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "기획 패키지와 근거 파일 완비. 외부 게시 없이 로컬 산출물만 생성.",
-          "agent_label": "제작 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "환급 보장·카드사 지급일 단정·개인정보 대행 표현을 피하면 법/플랫폼 리스크 낮음. 공식 링크 중심으로 처리.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T18:28:40+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 K-패스 재확인 후 Tistory 본문, 태그, GPT Image 2 흑백 잉크 만화 이미지 3장, 로컬 준비 HTML 생성.",
-          "agent_label": "제작",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "execution_lead",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "이미지 contact sheet QA는 통과했으나 Profile 2 복사 CDP가 Kakao 비밀번호/QR 로그인 화면으로 이동. 공개 발행은 인증 회복 후 가능.",
-          "agent_label": "제작 검수",
-          "reason_label": "인증 필요"
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "redteam",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "비밀번호·QR·2FA·captcha 입력 없이 중단. 로컬 패키지는 재사용 가능하므로 재생성 불필요.",
-          "agent_label": "리스크 검토",
-          "reason_label": "인증 필요"
-        },
-        {
-          "time": "2026-05-29T19:35:57+09:00",
-          "agent": "roi",
-          "decision": "HOLD",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "무료 검증 글이라 예상 순마진은 0원. Attention은 폭발 후보 유지, 발행만 인증 차단.",
-          "agent_label": "수익성 검토",
-          "reason_label": "인증 필요"
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/kpass_source_snapshot.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/title.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/body_tistory_ready_local.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tags.txt",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/01-kpass-refund-cardinfo-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/02-kpass-four-checks-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json"
-      ],
-      "asset_links": [
-        {
-          "label": "근거 — K-패스 7월 7일 카드정보 업데이트·환급 체크",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/evidence.md"
-        },
-        {
-          "label": "계획 — K-패스 7월 7일 카드정보 업데이트·환급 체크 글",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/plan.md"
-        },
-        {
-          "label": "결정 로그",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/decisions.md"
-        },
-        {
-          "label": "ROI — K-패스 환급 체크 글",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/roi.md"
-        },
-        {
-          "label": "후보 비교",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/candidate_outcomes.json"
-        },
-        {
-          "label": "샘플/스타일 브리프",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/sample_style_brief.json"
-        },
-        {
-          "label": "kpass_source_snapshot.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/kpass_source_snapshot.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_source_snapshot.json"
-        },
-        {
-          "label": "title.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/title.txt",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/title.txt"
-        },
-        {
-          "label": "body_tistory_ready_local.html",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/body_tistory_ready_local.html",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/body_tistory_ready_local.html"
-        },
-        {
-          "label": "tags.txt",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tags.txt",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tags.txt"
-        },
-        {
-          "label": "01-kpass-refund-cardinfo-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/01-kpass-refund-cardinfo-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "02-kpass-four-checks-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/02-kpass-four-checks-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "03-kpass-my-case-1200x675.png",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
-          "viewer": null
-        },
-        {
-          "label": "contact_sheet.jpg",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
-          "viewer": null
-        },
-        {
-          "label": "kpass_official_recheck.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_official_recheck.json"
-        },
-        {
-          "label": "tistory_auth_probe.json",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
-          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_auth_probe.json"
         }
       ],
       "approval_required": false
@@ -4688,7 +4089,7 @@
     "이목 수요 낮음": 3,
     "채널 없음": 1,
     "검토 메모": 1,
-    "인증 필요": 2
+    "인증 필요": 1
   },
   "roi": {
     "expected_base_net_total": 951161,
@@ -4696,51 +4097,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-29T02:48:17+09:00",
-      "agent": "제작 검수",
-      "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "Tistory 공개 발행 및 3회 렌더 QA 통과."
-    },
-    {
-      "time": "2026-05-29T02:48:17+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "승인 보장/신청대행 오해 제거, 공식 재확인 문구 반영."
-    },
-    {
-      "time": "2026-05-29T02:48:17+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "무료 검증 글로 순마진 0원 처리."
-    },
-    {
-      "time": "2026-05-29T02:48:17+09:00",
-      "agent": "대시보드",
-      "opportunity_id": "opp_20260529_119_sbiz_credit_weak_loan_blog",
-      "event": "status_changed",
-      "decision": "GO",
-      "reason": "",
-      "summary": "planning → tracking 상태 전환 및 대시보드 갱신."
-    },
-    {
-      "time": "2026-05-29T04:48:39+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": null,
-      "event": "decision",
-      "decision": "HOLD",
-      "reason": "승인 필요",
-      "summary": "Bounty scout found fresh warpspeed paid issues, but deep preflight blocked automatic PR work: developer signup/account + maintainer assignment required, implementation repo/PR target not visible, and several slots are full."
-    },
     {
       "time": "2026-05-29T04:48:39+09:00",
       "agent": "리스크 검토",
@@ -5145,6 +4501,51 @@
       "decision": "NO-GO",
       "reason": "중복",
       "summary": "Provisional car-tax opportunity retracted; existing active duplicate opp_20260525_108_car_tax_june_prepayment_blog already covers the topic."
+    },
+    {
+      "time": "2026-05-30T02:52:42+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": null,
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason": "기회비용",
+      "summary": "New-work scout found no non-duplicate safe direct-cash or high-attention blog candidate; no opportunity/dashboard change."
+    },
+    {
+      "time": "2026-05-30T03:48:59+09:00",
+      "agent": "제작",
+      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+      "event": "launched",
+      "decision": "GO",
+      "reason": "",
+      "summary": "K-패스 무료 검증 글을 Tistory에 공개 발행."
+    },
+    {
+      "time": "2026-05-30T03:48:59+09:00",
+      "agent": "제작 검수",
+      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "3회 렌더 QA, 브라우저 DOM/시각 QA, 모바일·OG 확인 통과."
+    },
+    {
+      "time": "2026-05-30T03:48:59+09:00",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "AUTH_BLOCKED 해소. 기존 인증 세션만 사용했고 L4 입력 없음."
+    },
+    {
+      "time": "2026-05-30T03:48:59+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
+      "event": "status_changed",
+      "decision": "GO",
+      "reason": "",
+      "summary": "무료 글 ROI는 0원으로 유지, 전략 자산으로 추적 전환."
     }
   ],
   "board_columns": [
@@ -9205,7 +8606,7 @@
         "public_visual_qa_passed",
         "tistory_published",
         "tracking_search_response",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "free_template_competition",
@@ -9215,7 +8616,7 @@
         "public_visual_qa_passed",
         "tistory_published",
         "tracking_search_response",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -10694,7 +10095,7 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "uploaded_png_thumbnail_verified",
+        "PNG 썸네일 확인",
         "published_free_validation",
         "public_visual_qa_failed_then_fixed",
         "korean_title_linebreak_fixed",
@@ -10715,7 +10116,7 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "uploaded_png_thumbnail_verified",
+        "PNG 썸네일 확인",
         "published_free_validation",
         "public_visual_qa_failed_then_fixed",
         "korean_title_linebreak_fixed",
@@ -14808,7 +14209,7 @@
         "tax_disclaimer_included",
         "tistory_published",
         "public_visual_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "risk_labels": [
         "tax_information_must_be_softened",
@@ -14816,7 +14217,7 @@
         "tax_disclaimer_included",
         "tistory_published",
         "public_visual_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -15355,7 +14756,7 @@
         "official_sources_rechecked",
         "tistory_published",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation"
       ],
       "risk_labels": [
@@ -15364,7 +14765,7 @@
         "official_sources_rechecked",
         "tistory_published",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation"
       ],
       "stop_reason": "",
@@ -15858,9 +15259,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "tax_wording_softened",
@@ -15868,9 +15269,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -16284,9 +15685,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "official_source_links_included",
@@ -16294,9 +15695,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -16732,8 +16133,8 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "무료 검증",
@@ -16743,8 +16144,8 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -17167,7 +16568,7 @@
         "tistory_quota_rechecked",
         "published_to_tistory",
         "public_visual_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "risk_labels": [
         "tax_advice_risk",
@@ -17178,7 +16579,7 @@
         "tistory_quota_rechecked",
         "published_to_tistory",
         "public_visual_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -18484,7 +17885,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "category_verified",
+        "카테고리 확인",
         "dashboard_artifact_prepared",
         "무료 검증",
         "local_visual_qa_passed",
@@ -18501,7 +17902,7 @@
       "owner": "수익성 검토",
       "next_action": "공개 게시 완료. 2~4주 뒤 검색 유입/체류/관련 문의를 확인해 유사 세금·장부 글 확장 여부 판단.",
       "risk_flags": [
-        "category_verified",
+        "카테고리 확인",
         "dashboard_artifact_prepared",
         "무료 검증",
         "local_visual_qa_passed",
@@ -18513,10 +17914,10 @@
         "tax_caveat_softened",
         "tistory_published",
         "tistory_upload_verified",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
-        "category_verified",
+        "카테고리 확인",
         "dashboard_artifact_prepared",
         "무료 검증",
         "local_visual_qa_passed",
@@ -18528,7 +17929,7 @@
         "tax_caveat_softened",
         "tistory_published",
         "tistory_upload_verified",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -19366,7 +18767,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "category_verified",
+        "카테고리 확인",
         "무료 검증",
         "official_source_rechecked",
         "public_visual_qa_passed",
@@ -19383,7 +18784,7 @@
       "owner": "수익성 검토",
       "next_action": "공개 글 유입/검색 반응 추적. 반복 세무 단정 표현 여부는 추후 업데이트 때 재확인.",
       "risk_flags": [
-        "category_verified",
+        "카테고리 확인",
         "무료 검증",
         "official_source_rechecked",
         "public_visual_qa_passed",
@@ -19392,7 +18793,7 @@
         "tistory_published"
       ],
       "risk_labels": [
-        "category_verified",
+        "카테고리 확인",
         "무료 검증",
         "official_source_rechecked",
         "public_visual_qa_passed",
@@ -20183,9 +19584,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "무료 검증",
@@ -20194,9 +19595,9 @@
         "tistory_published",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -21140,7 +20541,7 @@
         "무료 검증",
         "tistory_published_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "official_wording_softened"
       ],
       "quality": 84,
@@ -21157,14 +20558,14 @@
         "무료 검증",
         "tistory_published_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "official_wording_softened"
       ],
       "risk_labels": [
         "무료 검증",
         "tistory_published_verified",
         "public_visual_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "official_wording_softened"
       ],
       "stop_reason": "",
@@ -23758,9 +23159,9 @@
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "risk_labels": [
         "무료 검증",
@@ -23771,9 +23172,9 @@
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -24532,7 +23933,7 @@
       "tags": [
         "기타",
         "anti_repetition_passed",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "local_visual_qa_passed"
@@ -24549,7 +23950,7 @@
       "next_action": "Tistory 공개 글 조회·검색 유입 반응 추적. paid CTA 없이 무료 검증 상태 유지.",
       "risk_flags": [
         "anti_repetition_passed",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "local_visual_qa_passed",
@@ -24561,11 +23962,11 @@
         "public_visual_qa_passed",
         "tistory_published_verified",
         "tracking_public_post",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "anti_repetition_passed",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "local_visual_qa_passed",
@@ -24577,7 +23978,7 @@
         "public_visual_qa_passed",
         "tistory_published_verified",
         "tracking_public_post",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "이목 수요 낮음",
       "evidence": [
@@ -25820,7 +25221,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_003_sme_confirmation_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_003_sme_confirmation_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_003_sme_confirmation_blog/candidate_outcomes.json"
         },
@@ -25874,9 +25275,9 @@
         "tistory_published_verified",
         "public_render_qa_passed",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "판매문구 없음",
         "organic_content_valuation_zero"
       ],
@@ -25888,9 +25289,9 @@
         "tistory_published_verified",
         "public_render_qa_passed",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "판매문구 없음",
         "organic_content_valuation_zero"
       ],
@@ -26177,7 +25578,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_089_franchise_disclosure_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_089_franchise_disclosure_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_089_franchise_disclosure_blog/candidate_outcomes.json"
         },
@@ -26297,9 +25698,9 @@
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "risk_labels": [
         "legal_privacy_wording_risk",
@@ -26310,9 +25711,9 @@
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -26632,7 +26033,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_090_cctv_notice_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_090_cctv_notice_blog/candidate_outcomes.json"
         },
@@ -26984,7 +26385,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_091_biz_registration_change_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_091_biz_registration_change_blog/candidate_outcomes.json"
         },
@@ -27015,7 +26416,7 @@
       "tags": [
         "기타",
         "강한 후보",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "modern_gothic_image_qa_passed"
@@ -27032,7 +26433,7 @@
       "next_action": "공개 글 조회/댓글/검색 유입을 추적합니다. 직접 수익 추정은 실제 유입·전환 데이터가 생긴 뒤에만 계산합니다.",
       "risk_flags": [
         "강한 후보",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "modern_gothic_image_qa_passed",
@@ -27044,7 +26445,7 @@
       ],
       "risk_labels": [
         "강한 후보",
-        "category_verified",
+        "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
         "modern_gothic_image_qa_passed",
@@ -27227,7 +26628,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_092_withholding_tax_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_092_withholding_tax_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_092_withholding_tax_blog/candidate_outcomes.json"
         },
@@ -27565,7 +26966,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260520_093_eitc_deadline_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260520_093_eitc_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260520_093_eitc_deadline_blog/candidate_outcomes.json"
         },
@@ -27661,10 +27062,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "category_verified",
+        "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증",
-        "free_validation_published"
+        "무료 글 공개"
       ],
       "quality": 98,
       "expected_base_net": 0,
@@ -27678,25 +27079,25 @@
       "next_action": "Tracking: 5월 말 기관별 금리 세부 안내가 나오면 최신화 필요 여부만 재검토. 같은 유형 반복 발행은 Attention Gate 후 진행.",
       "risk_flags": [
         "폭발 후보",
-        "category_verified",
+        "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증",
-        "free_validation_published",
+        "무료 글 공개",
         "판매문구 없음",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "uploaded_png_thumbnail_verified"
+        "렌더 QA 통과",
+        "출처 링크 확인",
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "폭발 후보",
-        "category_verified",
+        "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증",
-        "free_validation_published",
+        "무료 글 공개",
         "판매문구 없음",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "uploaded_png_thumbnail_verified"
+        "렌더 QA 통과",
+        "출처 링크 확인",
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -27898,7 +27299,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_094_youth_future_savings_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260521_094_youth_future_savings_blog/candidate_outcomes.json"
         },
@@ -27970,8 +27371,9 @@
         "기타",
         "폭발 후보",
         "anti_repetition_checked",
-        "category_verified",
-        "factcheck_source_verified"
+        "카테고리 확인",
+        "factcheck_source_verified",
+        "무료 검증"
       ],
       "quality": 95,
       "expected_base_net": 0,
@@ -27986,34 +27388,34 @@
       "risk_flags": [
         "폭발 후보",
         "anti_repetition_checked",
-        "category_verified",
+        "카테고리 확인",
         "factcheck_source_verified",
         "무료 검증",
-        "free_validation_published",
-        "이미지 필요",
+        "무료 글 공개",
+        "image_generation_required",
         "판매문구 없음",
         "official_wording_recheck_required",
         "public_blog_published",
-        "public_rendered_qa_passed",
-        "source_links_verified",
+        "렌더 QA 통과",
+        "출처 링크 확인",
         "tistory_rendered_qa_required",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "risk_labels": [
         "폭발 후보",
         "anti_repetition_checked",
-        "category_verified",
+        "카테고리 확인",
         "factcheck_source_verified",
         "무료 검증",
-        "free_validation_published",
-        "이미지 필요",
+        "무료 글 공개",
+        "image_generation_required",
         "판매문구 없음",
         "official_wording_recheck_required",
         "public_blog_published",
-        "public_rendered_qa_passed",
-        "source_links_verified",
+        "렌더 QA 통과",
+        "출처 링크 확인",
         "tistory_rendered_qa_required",
-        "uploaded_png_thumbnail_verified"
+        "PNG 썸네일 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -28347,7 +27749,8 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked"
+        "anti_repetition_checked",
+        "official_deadline_verified"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -28364,16 +27767,16 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "이미지 필요",
+        "official_deadline_verified",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
@@ -28384,16 +27787,16 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "이미지 필요",
+        "official_deadline_verified",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
@@ -28690,7 +28093,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260521_096_national_scholarship_deadline_blog/source_snapshot_20260521_national_scholarship.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_096_national_scholarship_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260521_096_national_scholarship_deadline_blog/candidate_outcomes.json"
         },
@@ -28778,7 +28181,8 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인"
+        "official_deadline_verified",
+        "anti_repetition_checked"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -28794,18 +28198,18 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "anti_repetition_checked",
         "duplicate_risk_electricity_support_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
@@ -28815,18 +28219,18 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "anti_repetition_checked",
         "duplicate_risk_electricity_support_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
@@ -29110,7 +28514,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/source_snapshot_20260521_energy_voucher.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260521_097_energy_voucher_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260521_097_energy_voucher_deadline_blog/candidate_outcomes.json"
         },
@@ -29187,7 +28591,7 @@
         "기타",
         "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "tistory_published_verified",
         "public_url_verified"
       ],
@@ -29204,13 +28608,13 @@
       "risk_flags": [
         "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
         "no_paid_cta",
@@ -29219,13 +28623,13 @@
       "risk_labels": [
         "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "anti_repetition_passed",
         "no_paid_cta",
@@ -29576,7 +28980,7 @@
         "공식 근거 확인",
         "insurance_claim_rights",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_insurance_advice",
@@ -29584,10 +28988,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified"
+        "출처 링크 확인"
       ],
       "risk_labels": [
         "강한 후보",
@@ -29596,7 +29000,7 @@
         "공식 근거 확인",
         "insurance_claim_rights",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_insurance_advice",
@@ -29604,10 +29008,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified"
+        "출처 링크 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -29904,7 +29308,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260522_099_silson24_claim_check_blog/source_snapshot_20260522_silson24.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_099_silson24_claim_check_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260522_099_silson24_claim_check_blog/candidate_outcomes.json"
         },
@@ -29990,7 +29394,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "검토 메모"
+        "검토 메모",
+        "tistory_published_verified"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -30009,9 +29414,9 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "mobile_public_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "anti_repetition_passed",
         "no_paid_cta"
@@ -30023,9 +29428,9 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "mobile_public_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인",
         "home_thumbnail_verified",
         "anti_repetition_passed",
         "no_paid_cta"
@@ -30281,7 +29686,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260522_100_high_oil_support_blog/image_plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_100_high_oil_support_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260522_100_high_oil_support_blog/candidate_outcomes.json"
         },
@@ -30537,8 +29942,9 @@
         "기타",
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음"
+        "official_deadline_verified",
+        "판매문구 없음",
+        "image_generation_required"
       ],
       "quality": 94,
       "expected_base_net": 0,
@@ -30553,9 +29959,9 @@
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "anti_repetition_checked",
@@ -30566,10 +29972,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
@@ -30577,9 +29983,9 @@
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "anti_repetition_checked",
@@ -30590,10 +29996,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
@@ -30860,7 +30266,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260522_102_youth_culture_pass_deadline_blog/source_snapshot_20260522_youth_culture_pass.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260522_102_youth_culture_pass_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260522_102_youth_culture_pass_deadline_blog/candidate_outcomes.json"
         },
@@ -30967,8 +30373,9 @@
         "기타",
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음"
+        "official_deadline_verified",
+        "판매문구 없음",
+        "tistory_published_verified"
       ],
       "quality": 94,
       "expected_base_net": 0,
@@ -30983,26 +30390,26 @@
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
         "tistory_published_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
         "og_thumbnail_verified",
         "mobile_centered_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
         "tistory_published_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
         "og_thumbnail_verified",
         "mobile_centered_qa_passed",
-        "category_verified"
+        "카테고리 확인"
       ],
       "stop_reason": "",
       "evidence": [
@@ -31236,7 +30643,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260523_103_seoul_careerup_deadline_blog/source_snapshot_20260523_seoul_careerup.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_103_seoul_careerup_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260523_103_seoul_careerup_deadline_blog/candidate_outcomes.json"
         },
@@ -31324,7 +30731,8 @@
         "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked"
+        "anti_repetition_checked",
+        "official_deadline_verified"
       ],
       "quality": 90,
       "expected_base_net": 0,
@@ -31341,8 +30749,8 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "이미지 필요",
+        "official_deadline_verified",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "local_draft_ready",
@@ -31354,10 +30762,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -31366,8 +30774,8 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "이미지 필요",
+        "official_deadline_verified",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "local_draft_ready",
@@ -31379,10 +30787,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -31750,7 +31158,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260523_104_gg_youth_basic_income_blog/source_snapshot_20260523_gg_youth_basic_income.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_104_gg_youth_basic_income_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260523_104_gg_youth_basic_income_blog/candidate_outcomes.json"
         },
@@ -31868,7 +31276,8 @@
         "폭발 후보",
         "검토 메모",
         "공식 근거 확인",
-        "source_snapshot_saved"
+        "source_snapshot_saved",
+        "bounty_lane_checked"
       ],
       "quality": 95,
       "expected_base_net": 0,
@@ -31889,7 +31298,7 @@
         "scout_only",
         "anti_repetition_planned",
         "no_paid_cta",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "official_source_links_included",
         "무료 검증",
         "판매문구 없음",
@@ -31898,10 +31307,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
@@ -31915,7 +31324,7 @@
         "scout_only",
         "anti_repetition_planned",
         "no_paid_cta",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "official_source_links_included",
         "무료 검증",
         "판매문구 없음",
@@ -31924,10 +31333,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
@@ -32217,7 +31626,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260523_105_youth_monthly_rent_deadline_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260523_105_youth_monthly_rent_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260523_105_youth_monthly_rent_deadline_blog/candidate_outcomes.json"
         },
@@ -32348,9 +31757,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "anti_repetition_checked"
       ],
       "quality": 93,
       "expected_base_net": 0,
@@ -32364,11 +31774,11 @@
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 16시 마감 이후 stale 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee",
@@ -32379,21 +31789,21 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee",
@@ -32404,10 +31814,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "mobile_centered_qa_passed",
         "home_thumbnail_verified"
@@ -32745,7 +32155,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260524_106_seoul_youth_allowance_deadline_blog/source_snapshot_20260524_seoul_youth_allowance.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_106_seoul_youth_allowance_deadline_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260524_106_seoul_youth_allowance_deadline_blog/candidate_outcomes.json"
         },
@@ -32843,7 +32253,8 @@
         "강한 후보",
         "공식 근거 확인",
         "monthly_value_loss",
-        "무료 검증"
+        "무료 검증",
+        "판매문구 없음"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -32862,7 +32273,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -32874,7 +32285,7 @@
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "category_id_verify_required",
         "no_benefit_guarantee"
@@ -33075,7 +32486,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/source_snapshot_20260524_foodvoucher.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260524_107_foodvoucher_monthly_benefit_blog/candidate_outcomes.json"
         }
@@ -33098,7 +32509,7 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증"
       ],
       "quality": 84,
@@ -33115,11 +32526,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -33128,11 +32539,11 @@
         "강한 후보",
         "공식 근거 확인",
         "tax_deadline",
-        "절약",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_required",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "exact_discount_must_use_official_calculator",
         "no_tax_advice"
@@ -33231,7 +32642,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/plan.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260525_108_car_tax_june_prepayment_blog/candidate_outcomes.json"
         },
@@ -33258,7 +32669,9 @@
         "기타",
         "강한 후보",
         "검토 메모",
-        "무료 검증"
+        "무료 검증",
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -33588,8 +33001,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -33605,23 +33018,23 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
-        "절약",
+        "official_deadline_verified",
+        "money_saving",
         "무료 검증",
         "판매문구 없음",
         "tistory_rendered_qa_required",
-        "이미지 필요",
+        "image_generation_required",
         "tmoney_registration_required",
         "avoid_login_guidance"
       ],
@@ -33734,7 +33147,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260526_113_climate_card_payback_blog/candidate_outcomes.json"
         },
@@ -33762,7 +33175,8 @@
         "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "official_deadline_verified"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -33779,7 +33193,7 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "no_paid_cta",
         "official_source_links_included",
         "anti_repetition_passed",
@@ -33787,9 +33201,9 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -33798,7 +33212,7 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "no_paid_cta",
         "official_source_links_included",
         "anti_repetition_passed",
@@ -33806,9 +33220,9 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -33999,7 +33413,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260526_114_seongnam_energy_grant_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_114_seongnam_energy_grant_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260526_114_seongnam_energy_grant_blog/candidate_outcomes.json"
         },
@@ -34102,7 +33516,8 @@
         "폭발 후보",
         "무료 검증",
         "company_unit_application",
-        "판매문구 없음"
+        "판매문구 없음",
+        "no_paid_cta"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -34126,10 +33541,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -34145,10 +33560,10 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
         "og_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "mobile_public_qa_passed",
         "home_thumbnail_verified"
       ],
@@ -34352,7 +33767,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_115_worker_vacation_support_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260526_115_worker_vacation_support_blog/candidate_outcomes.json"
         },
@@ -34435,7 +33850,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk"
       ],
       "quality": 86,
@@ -34452,7 +33867,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -34460,7 +33875,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "공식 일정 확인",
+        "official_schedule_verified",
         "budget_exhaustion_risk",
         "policy_loan_not_advice"
       ],
@@ -34585,7 +34000,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/sample_brief.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_116_sbc_policy_loan_q3_blog/candidate_outcomes.json"
         }
@@ -34606,7 +34021,7 @@
       "tags": [
         "기타",
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -34623,14 +34038,14 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
       ],
       "risk_labels": [
         "강한 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -34739,7 +34154,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/decisions.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260527_117_fsale_june_onnuri_refund_blog/candidate_outcomes.json"
         },
@@ -34767,7 +34182,8 @@
         "폭발 후보",
         "공식 근거 확인",
         "budget_exhaustion_risk",
-        "무료 검증"
+        "무료 검증",
+        "판매문구 없음"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -34785,18 +34201,18 @@
         "budget_exhaustion_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "official_source_required_before_publish",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
         "mobile_public_qa_passed",
         "home_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "no_paid_cta"
       ],
       "risk_labels": [
@@ -34805,18 +34221,18 @@
         "budget_exhaustion_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "official_source_required_before_publish",
         "tistory_published_verified",
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
         "mobile_public_qa_passed",
         "home_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "no_paid_cta"
       ],
       "stop_reason": "",
@@ -35119,7 +34535,7 @@
           "viewer": "viewer.html?file=artifacts/opp_20260528_118_sbiz_stability_voucher_blog/sample_brief.json"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260528_118_sbiz_stability_voucher_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260528_118_sbiz_stability_voucher_blog/candidate_outcomes.json"
         },
@@ -35232,7 +34648,8 @@
         "폭발 후보",
         "공식 근거 확인",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "image_generation_required"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -35249,7 +34666,7 @@
         "공식 근거 확인",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "official_source_required_before_publish",
         "scout_only_handoff",
@@ -35257,11 +34674,11 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
         "mobile_public_qa_passed",
         "home_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "image2_comic_style_verified",
         "no_paid_cta"
       ],
@@ -35270,7 +34687,7 @@
         "공식 근거 확인",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "official_source_required_before_publish",
         "scout_only_handoff",
@@ -35278,11 +34695,11 @@
         "public_url_verified",
         "public_visual_qa_passed",
         "content_qa_passed",
-        "category_verified",
+        "카테고리 확인",
         "og_thumbnail_verified",
         "mobile_public_qa_passed",
         "home_thumbnail_verified",
-        "source_links_verified",
+        "출처 링크 확인",
         "image2_comic_style_verified",
         "no_paid_cta"
       ],
@@ -35641,7 +35058,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk"
@@ -35658,35 +35075,35 @@
       "next_action": "Tistory/Profile 2 인증 회복 후 같은 로컬 패키지로 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "공식 근거 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "이미지 필요",
+        "image_generation_required",
         "tistory_rendered_qa_required",
         "no_selection_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
         "인증 필요",
         "tistory_profile2_default_reprobe_done"
       ],
@@ -35859,12 +35276,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/sample_style_brief.json"
         },
@@ -35915,7 +35332,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee"
@@ -35932,7 +35349,7 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -35940,7 +35357,7 @@
       ],
       "risk_labels": [
         "폭발 후보",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "no_selection_guarantee",
@@ -36072,12 +35489,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
         },
@@ -36094,18 +35511,18 @@
       "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
       "id": "opp_20260529_121_kpass_refund_card_update_blog",
       "title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요",
-      "status": "검증 보류",
-      "status_label": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "운영/추적",
+      "status_label": "운영/추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "priority": "높음",
       "tags": [
         "기타",
         "폭발 후보",
         "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "카드정보 마감",
+        "환급 불이익 위험",
         "무료 검증"
       ],
       "quality": 92,
@@ -36115,40 +35532,44 @@
       "expected_price": 0,
       "buyer_or_payer": "K-패스 이용자, 청년·다자녀·저소득·어르신 대중교통 이용자, 환급 누락이 걱정되는 카드 사용자",
       "channel": "Tistory 무료 검증 글 — 교통비 환급/카드정보 업데이트 검색 유입 실험",
-      "current_owner": "리스크 검토",
-      "owner": "리스크 검토",
-      "next_action": "Tistory/Profile 2 인증 회복 후 저장된 로컬 패키지로 이미지 attach.json 업로드 → 공개 발행 → strict rendered QA. 새 비밀번호/2FA/captcha 입력은 금지.",
+      "current_owner": "수익성 검토",
+      "owner": "수익성 검토",
+      "next_action": "Tistory 공개 발행과 3회 렌더 QA 완료. 3일/7일 뒤 조회·검색 유입 확인.",
       "risk_flags": [
         "폭발 후보",
         "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "카드정보 마감",
+        "환급 불이익 위험",
         "무료 검증",
         "판매문구 없음",
         "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
+        "무료 글 공개",
+        "렌더 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
       "risk_labels": [
         "폭발 후보",
         "공식 근거 확인",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "카드정보 마감",
+        "환급 불이익 위험",
         "무료 검증",
         "판매문구 없음",
         "no_refund_guarantee",
-        "draft_ready",
-        "gpt_image2_comic_assets_ready",
-        "local_image_layered_qa_done",
-        "tistory_auth_reprobe_done",
-        "인증 필요",
-        "tistory_rendered_qa_required"
+        "초안 준비",
+        "만화 이미지 준비",
+        "이미지 QA 완료",
+        "무료 글 공개",
+        "렌더 QA 통과",
+        "카테고리 확인",
+        "PNG 썸네일 확인",
+        "출처 링크 확인"
       ],
-      "stop_reason": "인증 필요",
+      "stop_reason": "",
       "evidence": [
         {
           "url": "https://korea-pass.kr/",
@@ -36289,6 +35710,42 @@
           "summary": "무료 검증 글이라 예상 순마진은 0원. Attention은 폭발 후보 유지, 발행만 인증 차단.",
           "agent_label": "수익성 검토",
           "reason_label": "인증 필요"
+        },
+        {
+          "time": "2026-05-30T03:48:59+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Profile 2 CDP 인증 회복 확인 후 저장된 로컬 패키지와 이미지 3장을 Tistory에 업로드하고 공개 발행.",
+          "agent_label": "제작",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-30T03:48:59+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 URL, 모바일 URL, 이미지 3장, OG 썸네일, 카테고리, 금지 작업노트 누락 여부를 3회 렌더 QA와 브라우저 시각 QA로 확인.",
+          "agent_label": "제작 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-30T03:48:59+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "비밀번호·2FA·captcha·개인정보 입력 없이 기존 인증 세션만 사용. 환급 보장 표현 없이 공식 확인 순서로 제한.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-30T03:48:59+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 예상 순마진 0원. 7월7일 환급 불이익 고지 기반 검색 유입 가설/전략 자산으로 tracking 전환.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
         }
       ],
       "assets": [
@@ -36307,7 +35764,10 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/03-kpass-my-case-1200x675.png",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/contact_sheet.jpg",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/kpass_official_recheck.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json"
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tistory_publish_result_kpass_public_safe.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/public_render_browser_qa.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/kpass_attention_cash_recheck.json"
       ],
       "asset_links": [
         {
@@ -36331,12 +35791,12 @@
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/roi.md"
         },
         {
-          "label": "후보 비교",
+          "label": "candidate_outcomes.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/candidate_outcomes.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/candidate_outcomes.json"
         },
         {
-          "label": "샘플/스타일 브리프",
+          "label": "sample_style_brief.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/sample_style_brief.json"
         },
@@ -36389,6 +35849,21 @@
           "label": "tistory_auth_probe.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1926_money-flow-backlog/tistory_auth_probe.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_auth_probe.json"
+        },
+        {
+          "label": "Tistory 발행 검증",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_121_kpass_refund_card_update_blog/assets/publish_20260529_1926/tistory_publish_result_kpass_public_safe.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/tistory_publish_result_kpass_public_safe.json"
+        },
+        {
+          "label": "공개 렌더 QA",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/public_render_browser_qa.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/public_render_browser_qa.json"
+        },
+        {
+          "label": "kpass_attention_cash_recheck.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/kpass_attention_cash_recheck.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_attention_cash_recheck.json"
         }
       ],
       "approval_required": false

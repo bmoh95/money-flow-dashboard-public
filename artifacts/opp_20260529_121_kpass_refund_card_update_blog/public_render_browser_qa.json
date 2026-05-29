@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-30T03:46:00+09:00",
+  "url": "https://beemo.tistory.com/100",
+  "desktop_browser_title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요 :: 검증노트",
+  "mobile_browser_title": "K-패스 환급 안 들어오기 전, 7월 7일 카드정보부터 보세요",
+  "desktop_dom": {
+    "article_chars": 1752,
+    "raw_markdown": false,
+    "work_notes": false,
+    "required_text_found": true,
+    "images_loaded": 3,
+    "image_natural_size": "1200x675 each",
+    "img_to_caption_px": [7, 7, 7],
+    "caption_to_next_heading_px": [24, 24, 24],
+    "og_image_not_default": true,
+    "thumbnail_http": 200
+  },
+  "mobile_dom": {
+    "title_found": true,
+    "category_found": "돈관리·구매체크",
+    "images_loaded": 3,
+    "image_natural_size": "1200x675 each"
+  },
+  "vision_pass": true,
+  "vision_screenshot": "/Users/beemo/.hermes/cache/screenshots/browser_screenshot_a328dcbc77d24416a59e99e628a31948.png",
+  "blocking_defects": []
+}
