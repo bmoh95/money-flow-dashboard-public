@@ -8,3 +8,8 @@
 - 2026-05-29T10:04:24+09:00 `execution_lead` GO: 외부 발행 없음. 로컬 자산 완비, 공식 링크/스냅샷 경로 확인.
 - 2026-05-29T10:04:24+09:00 `redteam` GO: 날짜 충돌, 선발 보장, 신청 대행, 개인정보 입력 유도만 피하면 리스크 낮음. 게시 전 첨부 공고문 재확인 필요.
 - 2026-05-29T10:04:24+09:00 `roi` GO: 무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.
+
+## 2026-05-29T15:20:41+09:00 backlog execution hold
+- execution_member: GO — 본문/이미지 로컬 패키지 생성.
+- execution_lead/redteam: HOLD AUTH_BLOCKED — Profile 2/Default CDP 관리 URL 모두 로그인 리다이렉트.
+- next: 인증 회복 후 같은 패키지로 발행/렌더 QA.
