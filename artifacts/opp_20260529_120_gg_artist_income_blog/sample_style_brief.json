@@ -1,0 +1,54 @@
+{
+  "topic": "2026 경기도 예술인 기회소득 6월 19일 마감 체크",
+  "attention_gate": "폭발 후보",
+  "target_reader": "경기도 28개 참여 시군에 거주하는 예술활동증명 보유 예술인과 신청 전 중복/소득/지역 조건이 헷갈리는 독자",
+  "voice": "검증노트식. 신청 보장 없이 “내가 먼저 확인할 것”을 짧게 짚는 실무 메모 톤",
+  "avoid": [
+    "선정 보장",
+    "대리 신청 유도",
+    "개인정보/계좌 입력 안내 과잉",
+    "판매 CTA",
+    "용인·고양·성남 참여로 오해"
+  ],
+  "structure_variant": "5초 판정 → 참여 시군/증명/소득/중복 제외 갈림길 → 제출 전 체크 → 공식 PDF 문장 읽는 순서",
+  "image_plan": [
+    "흑백 잉크 만화 썸네일: “150만원, 나도 해당?”",
+    "4컷 갈림길: 시군→예술활동증명→소득→중복지원",
+    "저장 카드: 6/19 18시 전 서류 체크"
+  ],
+  "sampled_patterns": [
+    {
+      "title": "2026년 「경기도 예술인 기회소득」 사업시행 공고",
+      "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985"
+    },
+    {
+      "title": "2026년 경기도 예술인 기회소득 신청 안내 - 네이버 블로그",
+      "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002"
+    },
+    {
+      "title": "2026 경기도 예술인 기회소득 자격·신청·지급 한 번에 정리 (150만 ...",
+      "url": "https://2captain.tistory.com/entry/2026-%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-%EC%9E%90%EA%B2%A9%C2%B7%EC%8B%A0%EC%B2%AD%C2%B7%EC%A7%80%EA%B8%89-%ED%95%9C-%EB%B2%88%EC%97%90-%EC%A0%95%EB%A6%AC150%EB%A7%8C-%EC%9B%90"
+    },
+    {
+      "title": "2026 경기도 예술인 기회소득 신청방법 금액 대상 총정리 (연 150만원)",
+      "url": "https://info.searcheditors.com/2026-%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EA%B8%88%EC%95%A1-%EB%8C%80%EC%83%81-%EC%B4%9D%EC%A0%95%EB%A6%AC/"
+    },
+    {
+      "title": "경기도 예술인 기회소득 신청방법(+신청기간, 지원 대상, 지급일 ...",
+      "url": "https://enerzay.com/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95%EC%8B%A0%EC%B2%AD%EA%B8%B0%EA%B0%84-%EC%A7%80%EC%9B%90-%EB%8C%80/"
+    },
+    {
+      "title": "예술인 지원금 신청방법 완벽 정리 | 2026 경기도 예술인 기회소득 ...",
+      "url": "https://gov2026.kr/%EC%98%88%EC%88%A0%EC%9D%B8-%EC%A7%80%EC%9B%90%EA%B8%88-%EC%8B%A0%EC%B2%AD%EB%B0%A9%EB%B2%95-%EC%99%84%EB%B2%BD-%EC%A0%95%EB%A6%AC-2026-%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8/"
+    },
+    {
+      "title": "경기도 예술인에게 150만원…&#x27;기회소득&#x27; 11일 접수 시작",
+      "url": "https://www.mt.co.kr/policy/2026/05/04/2026050409585346265"
+    },
+    {
+      "title": "2026년 경기도 예술인 기회소득&#x27; 사업 시행 &lt; 인천 &lt; 로컬 &lt; 기사 ...",
+      "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=769054"
+    }
+  ],
+  "anti_repetition": "최근 청년통장/복지포인트/월세/문화패스 지원금 글과 겹치므로 예술인 대상 + 참여 제외 시군 + 사회보장급여 변동 주의라는 갈림길 구조로 차별화."
+}

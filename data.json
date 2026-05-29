@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-05-29T10:09:17+09:00",
+  "updated_at": "2026-05-29T14:16:28+09:00",
   "last_run": {
-    "run_id": "2026-05-29_0959_money-flow",
-    "started_at": "2026-05-29T09:59:30+09:00",
-    "finished_at": "2026-05-29T10:09:17+09:00",
+    "run_id": "2026-05-29_1411_money-flow",
+    "started_at": "2026-05-29T14:11:08+09:00",
+    "finished_at": "2026-05-29T14:16:28+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -18,34 +18,33 @@
     ],
     "candidates_discovered": 4,
     "opportunities_advanced": 1,
-    "opportunities_rejected": 3,
+    "opportunities_rejected": 2,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0959_money-flow/raw_bounty_candidates_direct.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0959_money-flow/bounty_deep_checks.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0959_money-flow/seoul_youth_savings_official_checks.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_0959_money-flow/candidate_outcomes.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/candidate_outcomes.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/official_page_snapshots.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
+        "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
         "decision": "GO",
         "reason_code": null,
-        "summary": "서울 희망두배 청년통장 2026 공식 공고 기반 무료 검증 글을 scout-only planning 기회로 생성."
+        "summary": "경기도 예술인 기회소득 6/19 마감 공식 공고 기반 무료 검증 글을 scout-only planning 기회로 생성."
       }
     ],
-    "summary": "Scout compared bounty/direct-payout and high-attention blog candidates; created one planning opportunity for official Seoul youth matched-savings deadline topic; local and public dashboards verified.",
-    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교: bounty 1개 NO-GO, 블로그/지원금 후보 3개 비교, 1개 GO.\n- `opp_20260529_119_seoul_youth_savings_blog` 기획 패키지 생성 완료.\n- 로컬/공개 대시보드 반영 확인 완료.\n\n**시장성 판단**\n- GO: 서울시복지재단 A급 공식 공고, 6/8~6/19 짧은 신청기간, 1만 명 모집, 최대 1,080만원 매칭 구조라 Attention Gate `폭발 후보`입니다.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 모두 0원. 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 다음 backlog lane: 공식 첨부 공고문 재확인 → 초안/흑백 만화 이미지 3장 → Tistory QA.\n- 대시보드: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음."
+    "summary": "Scout compared bounty/direct-payout and high-attention support/blog candidates; created one planning opportunity for official Gyeonggi artist opportunity income deadline topic.",
+    "final_report": "주인님, Money Flow 새 작업 scout 결과입니다.\n\n**완료**\n- 후보 4개 비교: bounty/direct-payout 1개 NO-GO, 블로그/지원 후보 3개 비교, 1개 GO.\n- `opp_20260529_120_gg_artist_income_blog` 기획 패키지 생성 완료.\n- 로컬/공개 대시보드 반영 확인 완료.\n\n**시장성 판단**\n- GO: 경기도 공식 공고 A급 근거, 6/19 18시 마감, 연 150만원 현금 지원, 참여 시군/소득/중복 제외 체크 필요라 Attention Gate `폭발 후보`입니다.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 모두 0원. 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 다음 backlog lane: 초안 작성 → 흑백 만화 이미지 3장 → Tistory QA.\n- 대시보드: `https://bmoh95.github.io/money-flow-dashboard-public/`\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
-    "total": 120,
-    "active": 8,
+    "total": 121,
+    "active": 9,
     "approval_needed": 1,
     "launched": 56,
     "closed_won": 0,
@@ -1458,7 +1457,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "폭발 후보",
@@ -1636,6 +1635,194 @@
           "label": "샘플/스타일 브리프",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/sample_style_brief.json"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-121",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "id": "opp_20260529_120_gg_artist_income_blog",
+      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음"
+      ],
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
+      "risk_flags": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
+          "grade": "A",
+          "summary": "경기도 공고 제2026-972호. 2026.5.11~6.19 18:00 접수, 연 150만원 이내 현금 2회 분할, 참여 28개 시군, 용인·고양·성남 미참여, 중위소득 120% 이하, 예술활동증명 필요.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002",
+          "grade": "A",
+          "summary": "경기도 공식 블로그 검색결과로 같은 사업 안내 확인. 제목/첫 화면 샘플링 근거.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
+          "grade": "B",
+          "summary": "DDG 비교 샘플에서 공식 공고와 다수 2026 정리 글 확인. 검색 의도 신호로만 사용.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty lane은 무 safe GO. 경기도 예술인 기회소득은 공식 PDF와 직접 현금/마감/제외조건이 명확해 후보로 채택.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 근거, 대상 독자, 채널, 첫 화면 효용이 명확. 실패 요인은 선발보장 오해·사회보장급여 변동 리스크이며 본문 주의문으로 제어 가능.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5초 판정 + 참여 제외 시군/예술활동증명/소득/중복제외 갈림길 구조로 기획.",
+          "agent_label": "기획",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최근 지원금 글 반복을 피하려고 예술인 전용 갈림길과 공식 PDF 문장 읽는 순서로 차별화. 품질 86.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only run이라 초안/이미지 제작은 backlog lane으로 넘김. 사용자 승인 대기가 아님.",
+          "agent_label": "제작",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 planning package와 후보 비교 파일 완성. 외부 게시 없음.",
+          "agent_label": "제작 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "3대 실패모드: 용인·고양·성남 미참여 오해, 문체부 지원금 중복 제외 누락, 기초생활수급자 급여 변동 위험. 모두 본문 상단 주의로 완화 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/plan.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플/스타일 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
+        },
+        {
+          "label": "gg_artist_notice.txt",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/gg_artist_notice.txt"
         }
       ],
       "approval_required": false
@@ -3357,7 +3544,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "폭발 후보",
@@ -3538,6 +3725,194 @@
         }
       ],
       "approval_required": false
+    },
+    {
+      "key": "MF-121",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "id": "opp_20260529_120_gg_artist_income_blog",
+      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음"
+      ],
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
+      "risk_flags": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
+          "grade": "A",
+          "summary": "경기도 공고 제2026-972호. 2026.5.11~6.19 18:00 접수, 연 150만원 이내 현금 2회 분할, 참여 28개 시군, 용인·고양·성남 미참여, 중위소득 120% 이하, 예술활동증명 필요.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002",
+          "grade": "A",
+          "summary": "경기도 공식 블로그 검색결과로 같은 사업 안내 확인. 제목/첫 화면 샘플링 근거.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
+          "grade": "B",
+          "summary": "DDG 비교 샘플에서 공식 공고와 다수 2026 정리 글 확인. 검색 의도 신호로만 사용.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty lane은 무 safe GO. 경기도 예술인 기회소득은 공식 PDF와 직접 현금/마감/제외조건이 명확해 후보로 채택.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 근거, 대상 독자, 채널, 첫 화면 효용이 명확. 실패 요인은 선발보장 오해·사회보장급여 변동 리스크이며 본문 주의문으로 제어 가능.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5초 판정 + 참여 제외 시군/예술활동증명/소득/중복제외 갈림길 구조로 기획.",
+          "agent_label": "기획",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최근 지원금 글 반복을 피하려고 예술인 전용 갈림길과 공식 PDF 문장 읽는 순서로 차별화. 품질 86.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only run이라 초안/이미지 제작은 backlog lane으로 넘김. 사용자 승인 대기가 아님.",
+          "agent_label": "제작",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 planning package와 후보 비교 파일 완성. 외부 게시 없음.",
+          "agent_label": "제작 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "3대 실패모드: 용인·고양·성남 미참여 오해, 문체부 지원금 중복 제외 누락, 기초생활수급자 급여 변동 위험. 모두 본문 상단 주의로 완화 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/plan.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플/스타일 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
+        },
+        {
+          "label": "gg_artist_notice.txt",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/gg_artist_notice.txt"
+        }
+      ],
+      "approval_required": false
     }
   ],
   "rejection_summary": {
@@ -3558,60 +3933,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-28T18:12:36+09:00",
-      "agent": "수익성 검토",
-      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "직접 수익 0원. 검색 유입 가설/전략 자산으로 tracking."
-    },
-    {
-      "time": "2026-05-28T18:12:36+09:00",
-      "agent": "대시보드",
-      "opportunity_id": "opp_20260526_115_worker_vacation_support_blog",
-      "event": "status_changed",
-      "decision": "GO",
-      "reason": "",
-      "summary": "Tistory 공개글/QA 결과를 ledger에 반영하고 tracking으로 전환."
-    },
-    {
-      "time": "2026-05-28T21:33:08+09:00",
-      "agent": "리서치",
-      "opportunity_id": "opp_20260528_118_sbiz_stability_voucher_blog",
-      "event": "discovered",
-      "decision": "GO",
-      "reason": "",
-      "summary": "소상공인 경영안정 바우처 25만원 후보 발견."
-    },
-    {
-      "time": "2026-05-28T21:33:08+09:00",
-      "agent": "리서치",
-      "opportunity_id": "opp_20260528_118_sbiz_stability_voucher_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "공식 A급 근거와 검색 샘플에서 25만원 직접 혜택/예산소진 긴장감 확인."
-    },
-    {
-      "time": "2026-05-28T21:33:08+09:00",
-      "agent": "시장성 검토",
-      "opportunity_id": "opp_20260528_118_sbiz_stability_voucher_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "bounty lane은 안전한 standing-L3 후보 없음. 소상공인 바우처는 buyer/channel/evidence 명확."
-    },
-    {
-      "time": "2026-05-28T21:33:08+09:00",
-      "agent": "기획",
-      "opportunity_id": "opp_20260528_118_sbiz_stability_voucher_blog",
-      "event": "decision",
-      "decision": "GO",
-      "reason": "",
-      "summary": "5초 판정표+카드/사용처 실수 방지형 계획 작성."
-    },
     {
       "time": "2026-05-28T21:33:08+09:00",
       "agent": "기획 검수",
@@ -4007,6 +4328,60 @@
       "decision": "GO",
       "reason": "",
       "summary": "Asset created: sample_style_brief.json"
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "리서치",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "discovered",
+      "decision": "GO",
+      "reason": "",
+      "summary": "경기도 예술인 기회소득 6/19 마감 후보 발견."
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "A급 공식 근거와 직접 현금/마감/체크 효용 확인."
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "기획 검수",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "품질 86. scout-only planning 상태로 backlog lane handoff."
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "선정 보장·중복지원·사회보장급여 변동 주의문 필요. 비차단."
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "수익성 검토",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "decision": "GO",
+      "reason": "",
+      "summary": "무료 검증 글. 순마진 0원, 검색 유입 가설로 추적."
+    },
+    {
+      "time": "2026-05-29T14:15:13+09:00",
+      "agent": "대시보드",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason": "",
+      "summary": "기획 패키지와 후보 비교/샘플 브리프 생성."
     }
   ],
   "board_columns": [
@@ -4515,17 +4890,17 @@
           "viewer": null
         },
         {
-          "label": "Generate Changelog Skill",
+          "label": "SKILL.md",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/SKILL.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/SKILL.md"
         },
         {
-          "label": "Changelog Generator Bounty Submission Draft",
+          "label": "README.md",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/README.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/README.md"
         },
         {
-          "label": "Changelog",
+          "label": "sample-output.md",
           "path": "opportunities/opp_20260515_003_changelog_bounty/assets/changelog-bounty/sample-output.md",
           "viewer": "viewer.html?file=artifacts/opp_20260515_003_changelog_bounty/sample-output.md"
         },
@@ -14155,22 +14530,22 @@
           "viewer": null
         },
         {
-          "label": "Research — OWASP BLT $1 deletion micro-bounty revival",
+          "label": "research.md",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/research.md"
         },
         {
-          "label": "Plan — OWASP BLT Android 16px logo deletion micro-bounty",
+          "label": "기획안",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/plan.md"
         },
         {
-          "label": "Decisions — OWASP BLT Android 16px micro-bounty",
+          "label": "결정 로그",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/decisions.md"
         },
         {
-          "label": "ROI — OWASP BLT $1 deletion micro-bounty",
+          "label": "수익성",
           "path": "opportunities/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md",
           "viewer": "viewer.html?file=artifacts/opp_20260518_045_owasp_blt_android16_micro_bounty/roi.md"
         },
@@ -34499,7 +34874,7 @@
       "raw_status": "planning",
       "column": "기획",
       "type": "기타",
-      "priority": "높음",
+      "priority": "보통",
       "tags": [
         "기타",
         "폭발 후보",
@@ -34677,6 +35052,194 @@
           "label": "샘플/스타일 브리프",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/sample_style_brief.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_119_seoul_youth_savings_blog/sample_style_brief.json"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-121",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "id": "opp_20260529_120_gg_artist_income_blog",
+      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음"
+      ],
+      "quality": 86,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
+      "current_owner": "기획",
+      "owner": "기획",
+      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
+      "risk_flags": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음",
+        "선발보장 없음",
+        "복지급여 주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
+          "grade": "A",
+          "summary": "경기도 공고 제2026-972호. 2026.5.11~6.19 18:00 접수, 연 150만원 이내 현금 2회 분할, 참여 28개 시군, 용인·고양·성남 미참여, 중위소득 120% 이하, 예술활동증명 필요.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002",
+          "grade": "A",
+          "summary": "경기도 공식 블로그 검색결과로 같은 사업 안내 확인. 제목/첫 화면 샘플링 근거.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
+          "grade": "B",
+          "summary": "DDG 비교 샘플에서 공식 공고와 다수 2026 정리 글 확인. 검색 의도 신호로만 사용.",
+          "checked_at": "2026-05-29T14:15:13+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "bounty lane은 무 safe GO. 경기도 예술인 기회소득은 공식 PDF와 직접 현금/마감/제외조건이 명확해 후보로 채택.",
+          "agent_label": "리서치",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 근거, 대상 독자, 채널, 첫 화면 효용이 명확. 실패 요인은 선발보장 오해·사회보장급여 변동 리스크이며 본문 주의문으로 제어 가능.",
+          "agent_label": "시장성 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "5초 판정 + 참여 제외 시군/예술활동증명/소득/중복제외 갈림길 구조로 기획.",
+          "agent_label": "기획",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "최근 지원금 글 반복을 피하려고 예술인 전용 갈림길과 공식 PDF 문장 읽는 순서로 차별화. 품질 86.",
+          "agent_label": "기획 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Scout-only run이라 초안/이미지 제작은 backlog lane으로 넘김. 사용자 승인 대기가 아님.",
+          "agent_label": "제작",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "로컬 planning package와 후보 비교 파일 완성. 외부 게시 없음.",
+          "agent_label": "제작 검수",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "3대 실패모드: 용인·고양·성남 미참여 오해, 문체부 지원금 중복 제외 누락, 기초생활수급자 급여 변동 위험. 모두 본문 상단 주의로 완화 가능.",
+          "agent_label": "리스크 검토",
+          "reason_label": ""
+        },
+        {
+          "time": "2026-05-29T14:15:13+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록.",
+          "agent_label": "수익성 검토",
+          "reason_label": ""
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
+      ],
+      "asset_links": [
+        {
+          "label": "Evidence — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/evidence.md"
+        },
+        {
+          "label": "Plan — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/plan.md"
+        },
+        {
+          "label": "결정 로그",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/decisions.md"
+        },
+        {
+          "label": "ROI — 경기도 예술인 기회소득 6월 19일 마감 체크 글",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/roi.md"
+        },
+        {
+          "label": "후보 비교",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/candidate_outcomes.json"
+        },
+        {
+          "label": "샘플/스타일 브리프",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/sample_style_brief.json"
+        },
+        {
+          "label": "gg_artist_notice.txt",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
+          "viewer": "viewer.html?file=artifacts/opp_20260529_120_gg_artist_income_blog/gg_artist_notice.txt"
         }
       ],
       "approval_required": false

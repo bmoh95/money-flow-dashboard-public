@@ -1,0 +1,45 @@
+[
+  {
+    "candidate": "GitHub/IssueHunt/Algora bounty rescue queue",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "NO_CHANNEL",
+    "summary": "13:57 bounty gate checked 33 raw candidates and deep-preflighted 8. No GO/HOLD; top items were closed/locked/archived, duplicate PR crowded, token/wallet, or no visible cash platform route.",
+    "evidence": [
+      "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/gate_last_summary.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/gate_last_preflight.json"
+    ]
+  },
+  {
+    "candidate": "2026 경기도 예술인 기회소득 신청 마감 체크 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "attention_class": "폭발 후보",
+    "summary": "경기도 공식 공고 PDF가 5/11~6/19 접수, 연 150만원 현금, 소득/지역/예술활동증명/중복 제외 조건을 명시. 지금 클릭 이유와 첫 화면 효용이 강함.",
+    "evidence": [
+      "https://www.gg.go.kr/cmmn/download.do?idx=893985",
+      "https://m.blog.naver.com/gyeonggi_gov/224278896002"
+    ]
+  },
+  {
+    "candidate": "2026 대한민국 숙박세일 페스타 여름 쿠폰 글",
+    "type": "free_validation_blog",
+    "decision": "NO-GO",
+    "reason_code": "NO_EVIDENCE",
+    "summary": "검색결과에는 여름편 블로그가 많지만 공식 VisitKorea 페이지는 봄편 4/8~5/10 종료 상태만 확인됨. 6월 쿠폰 A급 공식 근거 부족.",
+    "evidence": [
+      "http://ktostay.visitkorea.or.kr/"
+    ]
+  },
+  {
+    "candidate": "서울 자영업자 안심통장 신청 체크 글",
+    "type": "free_validation_blog",
+    "decision": "HOLD",
+    "reason_code": "OPPORTUNITY_COST",
+    "summary": "서울시 공식 기사, 최대 1,000만원/자금 소진 시까지/조회 42,999로 관심은 강함. 단 대출상품이라 신용·보증·사업장 사진/GPS 등 사용자 부담과 금융 오해 리스크가 있어 경기도 예술인 현금지원 마감 후보보다 낮음.",
+    "evidence": [
+      "https://mediahub.seoul.go.kr/archives/2017381"
+    ]
+  }
+]
