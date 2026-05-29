@@ -1,0 +1,48 @@
+{
+  "run_id": "2026-05-29_2235_money-flow",
+  "checked_at": "2026-05-29T22:41:50+09:00",
+  "candidates": [
+    {
+      "candidate": "fresh_github_bounty_direct_cash",
+      "type": "bounty",
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "GitHub direct-cash/bounty searches returned only 3 broad candidates; filter found 0 rescue candidates, 3/3 lacked visible cash/platform payout hints, and 2/3 were hard-excluded/token-wallet-like.",
+      "evidence_grade": "A/B",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_2235_money-flow/2026-05-29_2235_money-flow_gh_bounty_recent.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/bounty_scout/last_filter_report.json"
+      ],
+      "filter_warnings": [
+        "hard_blocked_share_too_high_retry_search",
+        "same_repo_share_too_high",
+        "source_diversity_too_low",
+        "no_rescue_candidate_after_filter"
+      ]
+    },
+    {
+      "candidate": "2026_june_car_tax_wetax_check",
+      "type": "blog_free_validation",
+      "decision": "GO",
+      "attention_gate": "attention_gate_strong",
+      "reason_code": null,
+      "summary": "6월 자동차세 1기분/연납 신청 전 “정기분만 낼지, 6월 연납으로 일부 할인받을지”를 판단하는 독자 손익형 주제. 공식 110/지자체 근거가 있고 6월 신청·납부 window가 있어 즉시성 있음.",
+      "evidence_grade": "A/B",
+      "links": [
+        "https://www.110.go.kr/data/counselView.do?num=A01_660057",
+        "https://www.sejong.go.kr/bbs/R0071/view.do?nttId=B000000145639Sn5uO4j",
+        "https://www.icjg.go.kr/krcm01b/282872"
+      ]
+    },
+    {
+      "candidate": "car_insurance_mileage_refund_check",
+      "type": "blog_free_validation",
+      "decision": "HOLD",
+      "attention_gate": "보류/버림",
+      "reason_code": "LOW_ATTENTION_DEMAND",
+      "summary": "자동차 유지비 절약 주제지만 특정 공식 마감·제도변화 근거가 약하고 보험사별 안내가 흩어져 있어 이번 6월 자동차세 window보다 클릭 긴장감/공식성 낮음.",
+      "evidence_grade": "C",
+      "links": []
+    }
+  ]
+}
