@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-05-30T08:01:21+09:00",
+  "checks": [
+    {
+      "url": "https://www.welfare.seoul.kr/web/contents/communication1-1.do?schM=view&id=28483&schBcid=swf_news",
+      "final_url": "https://www.welfare.seoul.kr/home/working/maint.html",
+      "status": 200,
+      "length": 2916,
+      "has_himang": false,
+      "has_2026": false,
+      "has_2025": false,
+      "has_6_8_6_19": false,
+      "has_6_9_6_20": false,
+      "snippet": " 점검중 - 서울시복지재단 *, *::before, *::after {box-sizing: border-box;margin: 0;padding: 0;} html {font-size: 16px;-webkit-text-size-adjust: 100%;line-height: 140%;letter-spacing: -1%;} body {font-family: \"Paperlogy\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, \"Open Sans\", \"Helvetica Neue\", sans-serif;color: #111;line-height: 1.6;min-height: 100vh;background: linear-gradient(180deg, #C1FAFF 0%, #FFFFFF 75%);} .maint-wrap {display: flex;align-items: center;justify-content: center;min-height: 100vh;padding: 40px 28px;} .maint-inner {display: flex;flex-direction: column;align-items: center;max-width: 500px;margin: 0 auto;text-align: center;} .maint-logo {display: block;line-height: 1;} .maint-logo img {width: 155px;} .maint-title {font-size: 64px;font-weight: 800;word-break: keep-all;} .maint-desc {margin-top: -20px;margin-bottom: 72px;font-size: 20px;font-weight: 500;word-break: keep-all;} .maint-desc:before {content: '';display: block;width: 290px;height: 270px;margin: 0 auto;background: url(maint_bell_img.png) center center no-repeat;background-size: contain;} .maint-desc p {margin-top: -8px;} .maint-time-box {width: 100%;padding: 48px 70px;background: #F0F0F0;border-radius: 36"
+    },
+    {
+      "url": "https://news.seoul.go.kr/welfare/archives/570909",
+      "final_url": "https://news.seoul.go.kr/welfare/archives/570909",
+      "status": 200,
+      "length": 116615,
+      "has_himang": true,
+      "has_2026": false,
+      "has_2025": true,
+      "has_6_8_6_19": false,
+      "has_6_9_6_20": true,
+      "snippet": " 청년 꿈에 날개를…서울시, 희망두배 청년통장·꿈나래 통장 참여자 모집 var is_mobile=false; var is_bunya=true; img:is([sizes=\"auto\" i], [sizes^=\"auto,\" i]) { contain-intrinsic-size: 3000px 1500px } var ajaxurl = 'https://news.seoul.go.kr/welfare/wp-admin/admin-ajax.php'; /*! This file is auto-generated */ .wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none} :root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;-"
+    },
+    {
+      "url": "https://youth.seoul.go.kr/infoData/plcyInfo/view.do?plcyBizId=20250519005400210852",
+      "final_url": "https://youth.seoul.go.kr/infoData/plcyInfo/view.do?plcyBizId=20250519005400210852",
+      "status": 200,
+      "length": 126115,
+      "has_himang": true,
+      "has_2026": false,
+      "has_2025": true,
+      "has_6_8_6_19": false,
+      "has_6_9_6_20": false,
+      "snippet": " | 청년몽땅정보통 --> 본문영역 바로가기 메인메뉴 바로가기 하단링크 바로가기 --> --> --> 생태와 여가가 조화를 이루는 '지속가능한 남산 프로젝트'생태와 여가가 조화를 이루는 '지속가능한 남산 프로젝트'생태와 여가가 조화를 이루는 '지속가능한 남산 프로젝트'생태와 여가가 조화를 이루는 '지속가능한 남산 프로젝트' --> --> --> --> 분야별정보 --> --> --> --> --> 주택 --> --> --> --> --> 경제 --> --> --> --> --> 교통 --> --> --> --> --> 환경 --> --> --> --> --> 복지 --> --> --> --> --> 안전 --> --> --> --> --> 문화 --> --> --> --> --> 행정 --> --> --> --> --> --> --> --> 모바일 메뉴 열기 메인으로 이동 로그인 해주세요 --> 로그인 해주세요 모바일 메뉴 닫기 맞춤서비스 신청하기 --> 분야별정보 --> --> 청년몽땅정보통 패밀리사이트 열기 서울 영테크 홈페이지 서울청년정책네트워크 홈페이지 서울청년센터 홈페이지 서울청년센터 상담 홈페이지 통합검색 통합검색 옵션열기 통합검색 서울시 정책 자치구 정책 중앙정부 정책 타지역 정책 청년지원정보 메뉴 콘텐츠 게시물 기타정보 최근 검색어 전체삭제 --> 로그인하여 최근 검색어를 확인해보세요. 인기검색어 검색어 팝업 닫기 function goTotalSearchNavi(v){ let f = document.forms['searchFrm2']; if(v != undefined){ f.keyWord.value = $(v).text(); } if($(\"#totalKeyWord\").val() == '' && $(\"#moSearch\").val() != ''){ f.keyWord.value = $(\"#moSearch\").val(); } if ($(\"input[name=sc_searchSe]\").val() == '') { f.key.value = \"2309250002\"; } if ($(\"input[name=sc_searchSe]\").val() == 'plcyInfo001') { f.key.value = \"2309250003\"; } if ($(\"input[name=sc_searchSe]\").val() == 'plcyInfo002') { f.key.value = \"2310160003\"; } if ($(\"input[nam"
+    }
+  ]
+}
