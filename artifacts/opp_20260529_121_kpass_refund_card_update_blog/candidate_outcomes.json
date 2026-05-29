@@ -1,0 +1,45 @@
+[
+  {
+    "candidate": "nwjs ARM prebuilt Bountysource issue",
+    "type": "bounty",
+    "decision": "NO-GO",
+    "reason_code": "HIGH_USER_INPUT",
+    "summary": "$65 cash-like bounty hint exists, but issue is 2015-era broad ARM build/prebuilt infrastructure, 175 comments, high verification burden, no small deterministic PR path.",
+    "evidence": [
+      "runs/2026-05-29_1822_money-flow/deep_preflight_results.json"
+    ]
+  },
+  {
+    "candidate": "코로나19 피해 소상공인 분할상환/상환연장",
+    "type": "free_validation_blog",
+    "decision": "NO-GO",
+    "reason_code": "DUPLICATE",
+    "summary": "A-grade direct financial topic, but same-day existing opportunity opp_20260529_119_sbiz_credit_weak_loan_blog already covers 소상공인 정책자금/분할상환 맥락; new item would inflate backlog.",
+    "evidence": [
+      "opportunities/opp_20260529_119_sbiz_credit_weak_loan_blog"
+    ]
+  },
+  {
+    "candidate": "K-패스 7월 7일 카드정보 업데이트·환급 불이익 체크 글",
+    "type": "free_validation_blog",
+    "decision": "GO",
+    "reason_code": null,
+    "summary": "Official K-패스 site shows card-information update deadline warning, 2026.04.01~09.30 한시 환급률 확대, 다자녀/청년/저소득 환급률, 15회 미만 환급 미지급 rule. Direct monthly money impact and title tension are clear.",
+    "evidence": [
+      "https://korea-pass.kr/",
+      "https://korea-pass.kr/info/intro.do",
+      "https://korea-pass.kr/info/use_accm.do",
+      "https://korea-pass.kr/info/use_pay.do"
+    ]
+  },
+  {
+    "candidate": "K-패스 예상 환급금 계산기/툴 standalone",
+    "type": "tool",
+    "decision": "HOLD",
+    "reason_code": "WEAK_DIFFERENTIATION",
+    "summary": "Tool idea has utility, but official site already has 예상환급금 계산기. First step should be a reader-facing official-order guide; custom calculator only after traffic/reader questions are measured.",
+    "evidence": [
+      "https://korea-pass.kr/info/intro_refund_calculator.do"
+    ]
+  }
+]
