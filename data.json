@@ -39,8 +39,8 @@
         "summary": "publish-ready local package created; Tistory auth blocked"
       }
     ],
-    "summary": "Processed one backlog item; local package/images ready; Tistory publish blocked by Kakao password page.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck` 공식 근거 재확인, Tistory 원고, GPT Image 2 흑백 만화 이미지 3장, contact sheet QA 완료.\n- 상태: `planning` → `redteam_hold` / `AUTH_BLOCKED`.\n\n**시장성 판단**\n- 폭발 후보 유지: 30만원 지원금·2026 신청 오해·개인정보/계좌 입력 전 확인 수요가 큽니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산입니다.\n\n**대기**\n- Tistory/Kakao 관리 세션이 비밀번호 입력 화면이라 공개 발행은 중단했습니다.\n\n**필요 승인**\n- 없음. 비밀번호/2FA/captcha 입력은 진행하지 않았습니다."
+    "summary": "Processed one backlog item; local package/images ready; dashboard/public mirror verified; Tistory publish blocked by Kakao password page.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck` 공식 근거 재확인, Tistory 원고, GPT Image 2 흑백 만화 이미지 3장, contact sheet QA 완료.\n- 상태: `planning` → `redteam_hold` / `AUTH_BLOCKED`.\n- 로컬 대시보드와 GitHub Pages 미러 반영 확인 완료.\n\n**시장성 판단**\n- 폭발 후보 유지: 30만원 지원금·2026 신청 오해·개인정보/계좌 입력 전 확인 수요가 큽니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산입니다.\n\n**대기**\n- Tistory/Kakao 관리 세션이 비밀번호 입력 화면이라 공개 발행은 중단했습니다.\n\n**필요 승인**\n- 없음. 비밀번호/2FA/captcha 입력은 진행하지 않았습니다."
   },
   "metrics": {
     "total": 123,
