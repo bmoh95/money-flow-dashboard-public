@@ -1,43 +1,48 @@
 {
-  "updated_at": "2026-05-30T08:01:21+09:00",
+  "updated_at": "2026-05-30T11:03:15+09:00",
   "last_run": {
-    "run_id": "2026-05-30_0756_money-flow-backlog",
-    "started_at": "2026-05-30T08:01:21+09:00",
-    "finished_at": "2026-05-30T08:01:21+09:00",
+    "run_id": "2026-05-30_1057_money-flow",
+    "started_at": "2026-05-30T11:02:39+09:00",
+    "finished_at": "2026-05-30T11:02:39+09:00",
     "trigger": "cron",
     "agents_executed": [
+      "research_member",
       "research_lead",
-      "execution_lead",
+      "planning_member",
+      "planning_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 0,
-    "opportunities_rejected": 0,
+    "candidates_discovered": 4,
+    "opportunities_advanced": 1,
+    "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0756_money-flow-backlog/official_recheck_seoul_youth_savings.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-        "decision": "HOLD",
-        "reason_code": "NO_EVIDENCE",
-        "summary": "Tistory auth recovered via saved Kakao simple-login, but publish gate stopped: current accessible official pages do not verify the prepared 2026 6/8~6/19 claims; welfare source redirects to maintenance and Seoul/youth pages expose 2025 6/9~6/20 data."
+        "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "소상공인 배달택배비 30만원 2026 신청 팩트체크 후보를 scout-only planning으로 생성."
       }
     ],
-    "summary": "Backlog item processed; publish blocked by official source/date mismatch after auth recovery.",
-    "final_report": "[SILENT]"
+    "summary": "New-work scout created one high-attention free-validation planning opportunity after bounty lane reuse found no GO/HOLD.",
+    "final_report": "material"
   },
   "metrics": {
-    "total": 122,
-    "active": 9,
+    "active": 10,
     "approval_needed": 1,
     "launched": 57,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 58
+    "rejected": 56,
+    "total": 123
   },
   "active_opportunities": [
     {
@@ -1940,6 +1945,146 @@
         }
       ],
       "approval_required": false
+    },
+    {
+      "key": "MF-123",
+      "id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "title": "소상공인 배달택배비 30만원 2026 신청 팩트체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "quality": 93,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "2026년 소상공인 배달·택배비 30만원 지원금을 검색하는 소상공인 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/사기방지 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "다음 실행 lane에서 공식 보도자료를 한 번 더 확인하고, 흑백 잉크 만화 이미지 3장 + Tistory 초안을 제작한다. 사용자 승인이 아니라 자동 제작 handoff.",
+      "risk_flags": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1063839",
+          "grade": "A",
+          "summary": "중기부 수정공고. 신청기간 2025.5.19~2025.12.24 18:00, 최대 30만원 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1063839&cbIdx=310&streFileNm=76230f5b-dc89-437d-8341-4a3a8b7e0678.pdf",
+          "grade": "A",
+          "summary": "수정공고 PDF 원문. 증빙 제출·보완 마감 등 세부 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "grade": "B",
+          "summary": "검색 결과의 2026 신청방법 SEO 글/비공식 도메인 노출과 후보 비교 기록.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "후보 4개 비교. 직접 현금 PR은 GO 없음, 민생쿠폰은 공식 근거 부족, K-패스는 중복. 소상공인 배달택배비 2026 팩트체크가 폭발 후보."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 중기부 공고가 2025 종료를 확인하며 2026 신청 주장/비공식 도메인 노출은 독자 피해 방지 가치가 큼."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 확인 순서와 입력 전 체크리스트 중심의 무료 검증 글로 품질 93점."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "향후 새 공고 가능성을 열어두고 현재 확인 기준으로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 예상 순마진은 0원. 검색 유입 가설/전략 자산으로만 기록."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json"
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md"
+        },
+        {
+          "label": "source_snapshot_20260530.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/source_snapshot_20260530.json"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/candidate_outcomes.json"
+        }
+      ],
+      "approval_required": false
     }
   ],
   "approval_needed": [
@@ -2253,6 +2398,146 @@
     }
   ],
   "priority_queue": [
+    {
+      "key": "MF-123",
+      "id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "title": "소상공인 배달택배비 30만원 2026 신청 팩트체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "quality": 93,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "2026년 소상공인 배달·택배비 30만원 지원금을 검색하는 소상공인 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/사기방지 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "다음 실행 lane에서 공식 보도자료를 한 번 더 확인하고, 흑백 잉크 만화 이미지 3장 + Tistory 초안을 제작한다. 사용자 승인이 아니라 자동 제작 handoff.",
+      "risk_flags": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1063839",
+          "grade": "A",
+          "summary": "중기부 수정공고. 신청기간 2025.5.19~2025.12.24 18:00, 최대 30만원 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1063839&cbIdx=310&streFileNm=76230f5b-dc89-437d-8341-4a3a8b7e0678.pdf",
+          "grade": "A",
+          "summary": "수정공고 PDF 원문. 증빙 제출·보완 마감 등 세부 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "grade": "B",
+          "summary": "검색 결과의 2026 신청방법 SEO 글/비공식 도메인 노출과 후보 비교 기록.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "후보 4개 비교. 직접 현금 PR은 GO 없음, 민생쿠폰은 공식 근거 부족, K-패스는 중복. 소상공인 배달택배비 2026 팩트체크가 폭발 후보."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 중기부 공고가 2025 종료를 확인하며 2026 신청 주장/비공식 도메인 노출은 독자 피해 방지 가치가 큼."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 확인 순서와 입력 전 체크리스트 중심의 무료 검증 글로 품질 93점."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "향후 새 공고 가능성을 열어두고 현재 확인 기준으로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 예상 순마진은 0원. 검색 유입 가설/전략 자산으로만 기록."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json"
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md"
+        },
+        {
+          "label": "source_snapshot_20260530.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/source_snapshot_20260530.json"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/candidate_outcomes.json"
+        }
+      ],
+      "approval_required": false
+    },
     {
       "key": "MF-104",
       "id": "opp_20260522_101_gg_interview_allowance_blog",
@@ -4169,6 +4454,17 @@
   },
   "recent_events": [
     {
+      "time": "2026-05-30T11:03:15+09:00",
+      "run_id": "2026-05-30_1057_money-flow",
+      "agent": "시장성 검토",
+      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "event": "decision",
+      "decision": "GO",
+      "summary": "소상공인 배달택배비 30만원 2026 신청 팩트체크 후보를 기획 단계로 생성.",
+      "reason_code": null,
+      "reason_label": ""
+    },
+    {
       "time": "2026-05-29T06:55:49+09:00",
       "agent": "attention_cash_gate",
       "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
@@ -4608,15 +4904,6 @@
       "decision": "HOLD",
       "reason": "근거 부족",
       "summary": "Tistory auth recovered via saved Kakao simple-login, but publish gate stopped: current accessible official pages do not verify the prepared 2026 6/8~6/19 claims; welfare source redirects to maintenance and Seoul/youth pages expose 2025 6/9~6/20 data."
-    },
-    {
-      "time": "2026-05-30T08:01:21+09:00",
-      "agent": "리스크 검토",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "status_changed",
-      "decision": "HOLD",
-      "reason": "근거 부족",
-      "summary": "Official source/date mismatch replaced AUTH_BLOCKED as the active blocker; no external publish was performed."
     }
   ],
   "board_columns": [
@@ -36033,6 +36320,146 @@
           "label": "kpass_attention_cash_recheck.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_0343_money-flow-backlog/kpass_attention_cash_recheck.json",
           "viewer": "viewer.html?file=artifacts/opp_20260529_121_kpass_refund_card_update_blog/kpass_attention_cash_recheck.json"
+        }
+      ],
+      "approval_required": false
+    },
+    {
+      "key": "MF-123",
+      "id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+      "title": "소상공인 배달택배비 30만원 2026 신청 팩트체크 무료 검증 글",
+      "status": "기획",
+      "status_label": "기획",
+      "raw_status": "planning",
+      "column": "기획",
+      "type": "기타",
+      "priority": "높음",
+      "tags": [
+        "기타",
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "quality": 93,
+      "expected_base_net": 0,
+      "base_net_margin_pct": null,
+      "margin_pct": null,
+      "expected_price": 0,
+      "buyer_or_payer": "2026년 소상공인 배달·택배비 30만원 지원금을 검색하는 소상공인 독자",
+      "channel": "Tistory 무료 검증 블로그 — 지원금/사기방지 검색 유입 실험",
+      "current_owner": "기획 검수",
+      "owner": "기획 검수",
+      "next_action": "다음 실행 lane에서 공식 보도자료를 한 번 더 확인하고, 흑백 잉크 만화 이미지 3장 + Tistory 초안을 제작한다. 사용자 승인이 아니라 자동 제작 handoff.",
+      "risk_flags": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "risk_labels": [
+        "폭발 후보",
+        "무료 검증",
+        "공식확인",
+        "사기주의"
+      ],
+      "stop_reason": "",
+      "evidence": [
+        {
+          "url": "https://www.mss.go.kr/site/smba/ex/bbs/View.do?cbIdx=310&bcIdx=1063839",
+          "grade": "A",
+          "summary": "중기부 수정공고. 신청기간 2025.5.19~2025.12.24 18:00, 최대 30만원 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "https://www.mss.go.kr/common/board/Download.do?bcIdx=1063839&cbIdx=310&streFileNm=76230f5b-dc89-437d-8341-4a3a8b7e0678.pdf",
+          "grade": "A",
+          "summary": "수정공고 PDF 원문. 증빙 제출·보완 마감 등 세부 확인.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        },
+        {
+          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "grade": "B",
+          "summary": "검색 결과의 2026 신청방법 SEO 글/비공식 도메인 노출과 후보 비교 기록.",
+          "checked_at": "2026-05-30T11:02:39+09:00"
+        }
+      ],
+      "decision_history": [
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "후보 4개 비교. 직접 현금 PR은 GO 없음, 민생쿠폰은 공식 근거 부족, K-패스는 중복. 소상공인 배달택배비 2026 팩트체크가 폭발 후보."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "A급 중기부 공고가 2025 종료를 확인하며 2026 신청 주장/비공식 도메인 노출은 독자 피해 방지 가치가 큼."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "planning_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공식 확인 순서와 입력 전 체크리스트 중심의 무료 검증 글로 품질 93점."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "향후 새 공고 가능성을 열어두고 현재 확인 기준으로 제한하면 안전."
+        },
+        {
+          "time": "2026-05-30T11:02:39+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이라 예상 순마진은 0원. 검색 유입 가설/전략 자산으로만 기록."
+        }
+      ],
+      "assets": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json"
+      ],
+      "asset_links": [
+        {
+          "label": "evidence.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/evidence.md"
+        },
+        {
+          "label": "plan.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/plan.md"
+        },
+        {
+          "label": "decisions.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/decisions.md"
+        },
+        {
+          "label": "roi.md",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/roi.md"
+        },
+        {
+          "label": "source_snapshot_20260530.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/source_snapshot_20260530.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/source_snapshot_20260530.json"
+        },
+        {
+          "label": "candidate_outcomes.json",
+          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/candidate_outcomes.json",
+          "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/candidate_outcomes.json"
         }
       ],
       "approval_required": false
