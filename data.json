@@ -3,7 +3,7 @@
   "last_run": {
     "run_id": "2026-05-30_1057_money-flow",
     "started_at": "2026-05-30T11:02:39+09:00",
-    "finished_at": "2026-05-30T11:02:39+09:00",
+    "finished_at": "2026-05-30T11:05:58+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -33,7 +33,7 @@
       }
     ],
     "summary": "New-work scout created one high-attention free-validation planning opportunity after bounty lane reuse found no GO/HOLD.",
-    "final_report": "material"
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교 후 `opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck` 새 기획 생성.\n- 로컬/공개 대시보드 갱신·검증 완료.\n\n**시장성 판단**\n- GO: 소상공인 배달택배비 30만원 “2026 신청” 검색 수요가 있고, 중기부 A급 공고는 2025 신청 종료를 확인합니다. 비공식 신청 도메인 노출로 사기·오신청 방지 효용이 큽니다.\n\n**예상 순마진**\n- 무료 검증 글이라 보수/기준/낙관 모두 0원. 검색 유입 가설/전략 자산으로만 기록.\n\n**대기**\n- 다음 제작 lane: 공식 보도자료 재확인 → 흑백 잉크 만화 이미지 3장 → Tistory 초안 제작.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "active": 10,
