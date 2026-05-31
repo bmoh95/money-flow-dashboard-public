@@ -3,7 +3,7 @@
   "last_run": {
     "run_id": "2026-06-01_0356_money-flow",
     "started_at": "2026-06-01T03:56:19+09:00",
-    "finished_at": "2026-06-01T03:56:19+09:00",
+    "finished_at": "2026-06-01T04:05:00+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -19,20 +19,16 @@
     "opportunities_advanced": 0,
     "opportunities_rejected": 3,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-01_0356_money-flow/candidate_outcomes.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-01_0356_money-flow/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/archive/duplicate_retracted/opp_20260601_123_auto_tax_june_notice"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "강한 후보 기획 패키지 생성; scout-only handoff."
+        "decision": "NO-GO",
+        "reason_code": "DUPLICATE",
+        "summary": "Provisional auto-tax planning package retracted as duplicate of opp_20260525_108_car_tax_june_prepayment_blog."
       }
     ],
     "summary": "Compared 3 candidates; provisional auto-tax candidate was retracted as duplicate; no material new opportunity persisted.",
