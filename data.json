@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-01T03:56:19+09:00",
+  "updated_at": "2026-06-01T04:05:00+09:00",
   "last_run": {
     "run_id": "2026-06-01_0356_money-flow",
     "started_at": "2026-06-01T03:56:19+09:00",
@@ -16,8 +16,8 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 3,
-    "opportunities_advanced": 1,
-    "opportunities_rejected": 2,
+    "opportunities_advanced": 0,
+    "opportunities_rejected": 3,
     "assets_created": [
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
@@ -35,12 +35,12 @@
         "summary": "강한 후보 기획 패키지 생성; scout-only handoff."
       }
     ],
-    "summary": "Compared 3 candidates; created one scout-only planning opportunity for seasonal auto-tax/annual-prepay confusion.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 3개 비교: bounty 1개 NO-GO, 기존 장려금 주제 중복 NO-GO, 신규 1개 GO.\n- `opp_20260601_123_auto_tax_june_notice` 기획 패키지 생성 완료.\n\n**시장성 판단**\n- 강한 후보: 6월 자동차세 고지서 시즌, 연납했는데 또 내야 하나라는 직접 돈 손실/중복납부 불안이 있습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글의 검색 유입 가설/전략 자산으로만 기록했습니다.\n\n**대기**\n- 제작/발행은 backlog lane 작업입니다.\n\n**필요 승인**\n- 없음."
+    "summary": "Compared 3 candidates; provisional auto-tax candidate was retracted as duplicate; no material new opportunity persisted.",
+    "final_report": "[SILENT]"
   },
   "metrics": {
-    "total": 124,
-    "active": 11,
+    "total": 123,
+    "active": 10,
     "approval_needed": 1,
     "launched": 57,
     "closed_won": 0,
@@ -2154,160 +2154,6 @@
           "label": "auth_probe_tistory.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_1207_money-flow/auth_probe_tistory.json",
           "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/auth_probe_tistory.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-124",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "id": "opp_20260601_123_auto_tax_june_notice",
-      "title": "6월 자동차세 고지서, 연납했는데 또 내야 하나",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "보통",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 88,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/알림을 받은 운전자, 연납 여부가 헷갈리는 차량 소유자",
-      "channel": "Tistory 무료 검증 블로그 — 자동차세/생활비 납부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "backlog lane: 공식 문구 최신 재확인 후 원고와 GPT Image 2 흑백 만화 이미지 3장을 제작하고 Tistory 품질 gate를 통과하면 발행.",
-      "risk_flags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_labels": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.law.go.kr/법령/지방세법/제128조",
-          "grade": "A",
-          "summary": "자동차세 납기 법령 근거. 6월/12월 정기분 설명의 공식 근거로 사용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.wetax.go.kr/",
-          "grade": "A",
-          "summary": "지방세 조회·납부 공식 채널. 본문에서는 실제 납부 대상/납부내역 조회 순서만 안내.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.korea.kr/news/reporterView.do?newsId=148958272",
-          "grade": "B",
-          "summary": "스마트 위택스 자동차세 연납/납부 경험형 글. 비교 수요와 독자 언어 참고용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "grade": "B",
-          "summary": "Naver 검색 샘플과 최근 공개글 반복 회피 메모.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "후보 3개 비교 후 자동차세 6월 고지서/연납 혼동 후보 선정.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 납부 채널과 법령 근거, 검색 샘플 수요 확인. Attention Gate 강한 후보.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 88. 최근 공개글 반복을 피하고 즉시 체크 효용 있음.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "납부 보장/대행/카드혜택 과장 금지 조건으로 리스크 낮음.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글. 예상 순마진 0원, 검색 유입 가설로만 기록.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md"
-      ],
-      "asset_links": [
-        {
-          "label": "evidence.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/evidence.md"
-        },
-        {
-          "label": "plan.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/plan.md"
-        },
-        {
-          "label": "decisions.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/decisions.md"
-        },
-        {
-          "label": "roi.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/roi.md"
-        },
-        {
-          "label": "sample_brief.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/sample_brief.md"
         }
       ],
       "approval_required": false
@@ -4728,160 +4574,6 @@
         }
       ],
       "approval_required": false
-    },
-    {
-      "key": "MF-124",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "id": "opp_20260601_123_auto_tax_june_notice",
-      "title": "6월 자동차세 고지서, 연납했는데 또 내야 하나",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "보통",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 88,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/알림을 받은 운전자, 연납 여부가 헷갈리는 차량 소유자",
-      "channel": "Tistory 무료 검증 블로그 — 자동차세/생활비 납부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "backlog lane: 공식 문구 최신 재확인 후 원고와 GPT Image 2 흑백 만화 이미지 3장을 제작하고 Tistory 품질 gate를 통과하면 발행.",
-      "risk_flags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_labels": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.law.go.kr/법령/지방세법/제128조",
-          "grade": "A",
-          "summary": "자동차세 납기 법령 근거. 6월/12월 정기분 설명의 공식 근거로 사용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.wetax.go.kr/",
-          "grade": "A",
-          "summary": "지방세 조회·납부 공식 채널. 본문에서는 실제 납부 대상/납부내역 조회 순서만 안내.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.korea.kr/news/reporterView.do?newsId=148958272",
-          "grade": "B",
-          "summary": "스마트 위택스 자동차세 연납/납부 경험형 글. 비교 수요와 독자 언어 참고용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "grade": "B",
-          "summary": "Naver 검색 샘플과 최근 공개글 반복 회피 메모.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "후보 3개 비교 후 자동차세 6월 고지서/연납 혼동 후보 선정.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 납부 채널과 법령 근거, 검색 샘플 수요 확인. Attention Gate 강한 후보.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 88. 최근 공개글 반복을 피하고 즉시 체크 효용 있음.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "납부 보장/대행/카드혜택 과장 금지 조건으로 리스크 낮음.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글. 예상 순마진 0원, 검색 유입 가설로만 기록.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md"
-      ],
-      "asset_links": [
-        {
-          "label": "evidence.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/evidence.md"
-        },
-        {
-          "label": "plan.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/plan.md"
-        },
-        {
-          "label": "decisions.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/decisions.md"
-        },
-        {
-          "label": "roi.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/roi.md"
-        },
-        {
-          "label": "sample_brief.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/sample_brief.md"
-        }
-      ],
-      "approval_required": false
     }
   ],
   "rejection_summary": {
@@ -4904,21 +4596,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-29T18:28:40+09:00",
-      "run_id": "2026-05-29_1822_money-flow",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260529_121_kpass_refund_card_update_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "기획 패키지와 근거 파일 완비. 외부 게시 없이 로컬 산출물만 생성.",
-      "links": [],
-      "agent_label": "제작 검수",
-      "reason_label": ""
-    },
     {
       "time": "2026-05-29T18:28:40+09:00",
       "run_id": "2026-05-29_1822_money-flow",
@@ -5565,6 +5242,23 @@
       ],
       "agent_label": "대시보드",
       "reason_label": ""
+    },
+    {
+      "time": "2026-06-01T04:05:00+09:00",
+      "run_id": "2026-06-01_0356_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "archived",
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "Retracted provisional scout opportunity as duplicate of opp_20260525_108_car_tax_june_prepayment_blog.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/archive/duplicate_retracted/opp_20260601_123_auto_tax_june_notice"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": "중복"
     }
   ],
   "board_columns": [
@@ -36714,160 +36408,6 @@
           "label": "auth_probe_tistory.json",
           "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-30_1207_money-flow/auth_probe_tistory.json",
           "viewer": "viewer.html?file=artifacts/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/auth_probe_tistory.json"
-        }
-      ],
-      "approval_required": false
-    },
-    {
-      "key": "MF-124",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "id": "opp_20260601_123_auto_tax_june_notice",
-      "title": "6월 자동차세 고지서, 연납했는데 또 내야 하나",
-      "status": "기획",
-      "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "priority": "보통",
-      "tags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "quality": 88,
-      "expected_base_net": 0,
-      "base_net_margin_pct": null,
-      "expected_price": 0,
-      "buyer_or_payer": "6월 자동차세 고지서/알림을 받은 운전자, 연납 여부가 헷갈리는 차량 소유자",
-      "channel": "Tistory 무료 검증 블로그 — 자동차세/생활비 납부 검색 유입 실험",
-      "current_owner": "기획",
-      "owner": "기획",
-      "next_action": "backlog lane: 공식 문구 최신 재확인 후 원고와 GPT Image 2 흑백 만화 이미지 3장을 제작하고 Tistory 품질 gate를 통과하면 발행.",
-      "risk_flags": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_labels": [
-        "기타",
-        "강한 후보",
-        "6월 시즌",
-        "공식 근거 필요",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "stop_reason": "",
-      "evidence": [
-        {
-          "url": "https://www.law.go.kr/법령/지방세법/제128조",
-          "grade": "A",
-          "summary": "자동차세 납기 법령 근거. 6월/12월 정기분 설명의 공식 근거로 사용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.wetax.go.kr/",
-          "grade": "A",
-          "summary": "지방세 조회·납부 공식 채널. 본문에서는 실제 납부 대상/납부내역 조회 순서만 안내.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "https://www.korea.kr/news/reporterView.do?newsId=148958272",
-          "grade": "B",
-          "summary": "스마트 위택스 자동차세 연납/납부 경험형 글. 비교 수요와 독자 언어 참고용.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "grade": "B",
-          "summary": "Naver 검색 샘플과 최근 공개글 반복 회피 메모.",
-          "checked_at": "2026-06-01T03:56:19+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "후보 3개 비교 후 자동차세 6월 고지서/연납 혼동 후보 선정.",
-          "agent_label": "리서치",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "공식 납부 채널과 법령 근거, 검색 샘플 수요 확인. Attention Gate 강한 후보.",
-          "agent_label": "시장성 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "품질 88. 최근 공개글 반복을 피하고 즉시 체크 효용 있음.",
-          "agent_label": "기획 검수",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "납부 보장/대행/카드혜택 과장 금지 조건으로 리스크 낮음.",
-          "agent_label": "리스크 검토",
-          "reason_label": ""
-        },
-        {
-          "time": "2026-06-01T03:56:19+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글. 예상 순마진 0원, 검색 유입 가설로만 기록.",
-          "agent_label": "수익성 검토",
-          "reason_label": ""
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md"
-      ],
-      "asset_links": [
-        {
-          "label": "evidence.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/evidence.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/evidence.md"
-        },
-        {
-          "label": "plan.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/plan.md"
-        },
-        {
-          "label": "decisions.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/decisions.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/decisions.md"
-        },
-        {
-          "label": "roi.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/roi.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/roi.md"
-        },
-        {
-          "label": "sample_brief.md",
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/assets/sample_brief.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260601_123_auto_tax_june_notice/sample_brief.md"
         }
       ],
       "approval_required": false
