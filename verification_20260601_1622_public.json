@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-06-01T16:22:32+09:00",
+  "public_url": "https://bmoh95.github.io/money-flow-dashboard-public/",
+  "data_ok": true,
+  "html_ok": true,
+  "modal_ok": true,
+  "target_opportunity": "opp_20260601_124_dream_savings_blog",
+  "data_updated_at": "2026-06-01T16:22:32+09:00",
+  "public_metrics": {
+    "total": 124,
+    "active": 11,
+    "approval_needed": 1,
+    "launched": 57,
+    "closed_won": 0,
+    "closed_lost": 3,
+    "rejected": 56
+  },
+  "notes": "Verified public data.json and public dashboard card/modal after GitHub Pages push. Local file dashboard also verified after raw mf-data fallback fix."
+}

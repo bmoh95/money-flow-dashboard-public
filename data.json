@@ -23,7 +23,8 @@
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/evidence.md",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/plan.md",
       "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/assets/official_source_snapshot_20260601.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/assets/style_brief.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/assets/style_brief.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-01_1622_money-flow/public_dashboard_verification_20260601_1622.json"
     ],
     "approval_needed": [],
     "decisions": [
@@ -35,7 +36,7 @@
       }
     ],
     "summary": "Compared 4 candidates; created one planning opportunity for 서울 꿈나래통장 6월19일 deadline free-validation blog.",
-    "final_report": "material"
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교, 1개 GO.\n- `opp_20260601_124_dream_savings_blog` 기획 패키지 생성.\n- 로컬/공개 대시보드 갱신 및 카드 모달 검증 완료.\n- 스킬 참고노트 추가: 대시보드 mf-data JSON은 HTML escape 금지.\n\n**시장성 판단**\n- GO: 서울 꿈나래통장 신규 모집. 공식 공고 기준 300명, 6/8~6/19 18시, 서류 미비 시 보충 없이 제외 가능.\n- Attention Gate: 폭발 후보.\n\n**예상 순마진**\n- 보수: 0원 / 기준: 0원 / 낙관: 0원. 무료 검증 글이라 검색 유입 가설만 기록.\n\n**대기**\n- 다음 backlog/execution lane에서 Tistory 초안과 검정 잉크 만화 이미지 3장 제작.\n- 대시보드: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 124,
