@@ -1,0 +1,40 @@
+{
+  "checked_at": "2026-06-01T16:22:32+09:00",
+  "official_notice": "https://www.welfare.seoul.kr/web/contents/communication1-1.do?schM=view&id=28484&schBcid=swf_news",
+  "official_program": "https://account.welfare.seoul.kr/web/contents/dreamBank.lp",
+  "notice_facts": {
+    "title": "[공고] 2026년 꿈나래 통장 신규 참가자 모집 안내(접수 6/8~19)",
+    "participants": "총 300명",
+    "application_period": "2026. 6. 8.(월) ~ 6. 19.(금) 18:00",
+    "method": "서울시 자산형성지원사업 홈페이지 온라인 신청",
+    "selection_announcement": "2026. 11. 3 예정",
+    "document_risk": "제출 서류 미비·누락·식별 불가 시 별도 보충 요청 없이 선발 제외 유의"
+  },
+  "program_facts": {
+    "target": "서울시 거주, 만 14세 이하 아동을 양육하는 만 18세 이상 친권자, 기준중위소득 80% 이하 가구",
+    "savings": "월 5·10·12만원 중 선택(12만원은 3자녀 이상)",
+    "match": "본인저축액의 50% 매월 적립",
+    "term": "36개월 또는 60개월",
+    "total_examples": [
+      "5만원·3년 총 270만원",
+      "10만원·5년 총 900만원",
+      "12만원·5년 총 1,080만원"
+    ],
+    "obligations": [
+      "서울시 연속 거주",
+      "적립기간 50% 이상 저축",
+      "금융교육 연 1회 이상",
+      "참가아동 양육 이행"
+    ]
+  },
+  "attention_gate": {
+    "classification": "폭발 후보",
+    "why_now": "6/8 접수 시작, 6/19 18:00 마감, 300명 모집, 서류 미비 시 보충 없이 제외 가능",
+    "reader_question": "우리 집도 해당되나? 6월 19일 전에 어떤 서류·조건부터 걸러야 하나?",
+    "first_screen_payoff": "5초 판정표 + 제외 위험 + 공식 신청 순서"
+  },
+  "duplicate_check": {
+    "result": "not_duplicate_enough_to_block",
+    "notes": "Existing opp_20260529_119 covers 희망두배 청년통장 youth worker savings; opp_20260521_098 covers existing participants 개인정보 점검. This candidate targets parents/children education savings 신규 모집."
+  }
+}
