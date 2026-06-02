@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-02T22:41:21+09:00",
+  "updated_at": "2026-06-02T22:46:30+09:00",
   "last_run": {
     "run_id": "2026-06-02_2232_money-flow-backlog",
     "started_at": "2026-06-02T22:32:15+09:00",
-    "finished_at": "2026-06-02T22:41:21+09:00",
+    "finished_at": "2026-06-02T22:46:30+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -71,7 +71,7 @@
       }
     ],
     "summary": "꿈나래통장 backlog 1건을 공식 재확인 후 Tistory-ready local package까지 제작. Tistory 인증 세션 부재로 redteam_hold/AUTH_BLOCKED.",
-    "final_report": "주인님, Money Flow backlog 실행 결과입니다."
+    "final_report": "주인님, Money Flow backlog 실행 결과입니다.\n\n**완료**\n- `opp_20260601_124_dream_savings_blog` 1건 처리.\n- 공식 공고 재확인 완료: 2026년 꿈나래통장 300명, 6/8~6/19 18시, 서류 미비 제외 위험 확인.\n- Tistory용 본문 HTML, 태그, GPT Image 2 검정 잉크 만화 이미지 3장, contact sheet, 로컬 렌더 QA까지 완료.\n- 상태를 `기획` → `검증 보류/AUTH_BLOCKED`로 정리하고 로컬/공개 대시보드 갱신·검증 완료.\n\n**시장성 판단**\n- 폭발 후보: 신청 기간이 짧고, 자녀 교육비·서류 누락 탈락 위험이 직접 손익으로 연결됩니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 기록했습니다.\n\n**대기**\n- Tistory/Profile 2 manage 인증 세션 필요. 같은 날 safe-login probe는 Kakao password/QR-only라 공개 발행은 하지 않았습니다.\n- 대시보드: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음. 비밀번호/QR/2FA/captcha는 자동 처리하지 않습니다."
   },
   "metrics": {
     "total": 124,
