@@ -1,0 +1,53 @@
+{
+  "saved_path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_124_dream_savings_blog/assets/blog_package/03-dream-savings-action-check.png",
+  "prompt": "Korean blog action checklist comic, black-and-white rough hand-drawn ink zine style, 4-panel decision path for Seoul Dream Savings Bankbook application, parent checks boxes before deadline, guide character says exact Korean text '내 경우는?', visible short labels: '서울 거주' '만14세 이하' '소득 확인' '서류 준비', no color, no extra text, no empty speech bubbles",
+  "model": "gpt-5.4",
+  "image_model": "gpt-image-2",
+  "reasoning_effort": "medium",
+  "prompt_mode": "fidelity",
+  "enhancement_profile": "none",
+  "research": "off",
+  "size": "1536x1024",
+  "quality": "medium",
+  "background": "auto",
+  "format": "png",
+  "moderation": "low",
+  "action": "auto",
+  "count": 1,
+  "index": 1,
+  "inputs": {
+    "edit_image": null,
+    "reference_images": []
+  },
+  "revised_prompt": "Korean blog action checklist comic, black-and-white rough hand-drawn ink zine style, 4-panel decision path for Seoul Dream Savings Bankbook application, parent checks boxes before deadline, guide character says exact Korean text '내 경우는?', visible short labels: '서울 거주' '만14세 이하' '소득 확인' '서류 준비', no color, no extra text, no empty speech bubbles",
+  "usage": {
+    "input_tokens": 3284,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 3388
+  },
+  "web_search_calls": 0,
+  "events_saved": null,
+  "raw_event_count": 18,
+  "event_types": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.image_generation_call.in_progress": 1,
+    "response.image_generation_call.generating": 1,
+    "keepalive": 4,
+    "response.image_generation_call.partial_image": 1,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 2
+  },
+  "partial_images": 1,
+  "created_at": "2026-06-02T22:37:30.095708"
+}
