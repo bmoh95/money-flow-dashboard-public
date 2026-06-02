@@ -241,9 +241,8 @@
       "tags": [
         "기타",
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -259,29 +258,19 @@
       "next_action": "backlog lane: 공식 플랫폼 main/support/apply 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG/list/mobile QA까지 진행.",
       "risk_flags": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -499,10 +488,10 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -517,30 +506,20 @@
       "owner": "기획",
       "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -664,8 +643,7 @@
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
-        "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "무료 검증"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -682,22 +660,14 @@
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "stop_reason": "공식 공고 대기",
       "evidence": [
@@ -997,11 +967,11 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required"
+        "검토 메모"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -1015,25 +985,19 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -1172,9 +1136,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -1190,17 +1152,13 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -1344,10 +1302,10 @@
       "tags": [
         "기타",
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -1361,17 +1319,17 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -1503,8 +1461,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증"
@@ -1521,37 +1479,27 @@
       "next_action": "공식 2026 모집 공고가 현재 URL에서 다시 확인될 때까지 공개 발행 금지. 다음 backlog run은 공식 날짜/접수기간/서류 기준을 재확인하고, 불일치가 계속되면 초안을 폐기 또는 2025 종료/공식확인 대기 글로 전면 재작성.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "stop_reason": "근거 부족",
       "evidence": [
@@ -1811,11 +1759,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -1829,19 +1776,17 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -2535,12 +2480,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "quality": 87,
       "expected_base_net": 30400,
@@ -2553,24 +2493,10 @@
       "owner": "수익성 검토",
       "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
       "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -2991,9 +2917,8 @@
       "tags": [
         "기타",
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -3009,29 +2934,19 @@
       "next_action": "backlog lane: 공식 플랫폼 main/support/apply 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG/list/mobile QA까지 진행.",
       "risk_flags": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -3249,10 +3164,10 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -3267,30 +3182,20 @@
       "owner": "기획",
       "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -3414,8 +3319,7 @@
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
-        "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "무료 검증"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -3432,22 +3336,14 @@
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "stop_reason": "공식 공고 대기",
       "evidence": [
@@ -3747,11 +3643,11 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required"
+        "검토 메모"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -3765,25 +3661,19 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -3922,9 +3812,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -3940,17 +3828,13 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -4094,10 +3978,10 @@
       "tags": [
         "기타",
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -4111,17 +3995,17 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -4253,8 +4137,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증"
@@ -4271,37 +4155,27 @@
       "next_action": "공식 2026 모집 공고가 현재 URL에서 다시 확인될 때까지 공개 발행 금지. 다음 backlog run은 공식 날짜/접수기간/서류 기준을 재확인하고, 불일치가 계속되면 초안을 폐기 또는 2025 종료/공식확인 대기 글로 전면 재작성.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "stop_reason": "근거 부족",
       "evidence": [
@@ -4561,11 +4435,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -4579,19 +4452,17 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -6288,9 +6159,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "system_prompt_disclosure_required",
-        "policy_and_security_risk",
-        "low_trust_bounty_terms",
+        "검토 메모",
         "고위험"
       ],
       "quality": 20,
@@ -6304,14 +6173,10 @@
       "owner": "시장성 검토",
       "next_action": "폐기. 같은 'full system prompt 공개' 조건의 UnsafeLabs/Bounty-Hunters 바운티는 자동 스킵 후보로 재사용.",
       "risk_flags": [
-        "system_prompt_disclosure_required",
-        "policy_and_security_risk",
-        "low_trust_bounty_terms"
+        "검토 메모"
       ],
       "risk_labels": [
-        "system_prompt_disclosure_required",
-        "policy_and_security_risk",
-        "low_trust_bounty_terms"
+        "검토 메모"
       ],
       "stop_reason": "고위험",
       "evidence": [
@@ -6388,10 +6253,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "sensitive_aws_security_scope",
-        "civil_id_upload_flow",
-        "requires_secret_owner_coordination",
-        "high_operational_liability",
+        "검토 메모",
         "고위험"
       ],
       "quality": 25,
@@ -6405,16 +6267,10 @@
       "owner": "시장성 검토",
       "next_action": "폐기. 민감 AWS/IAM/S3·신분증 업로드 복구형 바운티는 사전 권한/안전 범위가 명확하지 않으면 자동 제외.",
       "risk_flags": [
-        "sensitive_aws_security_scope",
-        "civil_id_upload_flow",
-        "requires_secret_owner_coordination",
-        "high_operational_liability"
+        "검토 메모"
       ],
       "risk_labels": [
-        "sensitive_aws_security_scope",
-        "civil_id_upload_flow",
-        "requires_secret_owner_coordination",
-        "high_operational_liability"
+        "검토 메모"
       ],
       "stop_reason": "고위험",
       "evidence": [
@@ -6509,12 +6365,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "quality": 87,
       "expected_base_net": 30400,
@@ -6527,24 +6378,10 @@
       "owner": "수익성 검토",
       "next_action": "중복 공개 글 확인 완료. /5를 canonical로 유지하고 /4 삭제 또는 비공개 전환은 주인님 승인 후에만 진행.",
       "risk_flags": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_free_template_results",
-        "duplicate_post_cleanup_pending",
-        "seasonal_search_window",
-        "tax_advice_disclaimer_included",
-        "tistory_preview_ready",
-        "tistory_published",
-        "duplicate_public_post_confirmed",
-        "duplicate_cleanup_requires_approval"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -6818,12 +6655,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "avoid_education_outcome_guarantees",
-        "crowded_free_templates",
-        "school_context_varies",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 23760,
@@ -6836,20 +6668,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 학원 상담·마감·보강 안내 문구 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "avoid_education_outcome_guarantees",
-        "crowded_free_templates",
-        "school_context_varies",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "avoid_education_outcome_guarantees",
-        "crowded_free_templates",
-        "school_context_varies",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -7139,12 +6961,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "paid_conversion_unproven",
-        "platform_ui_changes",
-        "seasonal_window",
-        "tax_advice_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 39600,
@@ -7157,22 +6974,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 쇼핑몰·배달 매출자료 정리표 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "platform_ui_changes",
-        "seasonal_window",
-        "tax_advice_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "paid_conversion_unproven",
-        "platform_ui_changes",
-        "seasonal_window",
-        "tax_advice_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -7454,12 +7259,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "consumer_law_wording_softened",
-        "paid_conversion_unproven",
-        "platform_policy_variance",
-        "platform_policy_wording_softened",
-        "seasonal_keyword_competition",
-        "tistory_preview_ready"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 31680,
@@ -7472,24 +7272,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 숙박업 예약·취소·환불 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "consumer_law_wording_softened",
-        "paid_conversion_unproven",
-        "platform_policy_variance",
-        "platform_policy_wording_softened",
-        "seasonal_keyword_competition",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "consumer_law_wording_softened",
-        "paid_conversion_unproven",
-        "platform_policy_variance",
-        "platform_policy_wording_softened",
-        "seasonal_keyword_competition",
-        "tistory_preview_ready",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -7771,12 +7557,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "center_policy_variance",
-        "center_policy_variance_noted",
-        "crowded_free_message_examples",
-        "paid_conversion_unproven",
-        "refund_contract_wording_softened",
-        "tistory_preview_ready"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 39600,
@@ -7789,22 +7570,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응 추적 후 피트니스 운영 문자 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "center_policy_variance",
-        "center_policy_variance_noted",
-        "crowded_free_message_examples",
-        "paid_conversion_unproven",
-        "refund_contract_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "risk_labels": [
-        "center_policy_variance",
-        "center_policy_variance_noted",
-        "crowded_free_message_examples",
-        "paid_conversion_unproven",
-        "refund_contract_wording_softened",
-        "tistory_preview_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -8056,12 +7825,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "crowded_free_notice_templates",
-        "paid_conversion_unproven",
-        "public_url_verified",
-        "refund_freeze_wording_softened",
-        "store_policy_variance",
-        "store_policy_variance_noted"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 39600,
@@ -8074,22 +7838,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 스터디카페 운영 공지·문자 템플릿 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "crowded_free_notice_templates",
-        "paid_conversion_unproven",
-        "public_url_verified",
-        "refund_freeze_wording_softened",
-        "store_policy_variance",
-        "store_policy_variance_noted",
-        "tistory_published"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_free_notice_templates",
-        "paid_conversion_unproven",
-        "public_url_verified",
-        "refund_freeze_wording_softened",
-        "store_policy_variance",
-        "store_policy_variance_noted",
-        "tistory_published"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -8315,9 +8067,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "crowded_free_notice_templates",
-        "store_policy_variance",
-        "paid_conversion_unproven"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 39600,
@@ -8330,14 +8080,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 세탁소·빨래방 접수/클레임/수거배달 안내문 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "crowded_free_notice_templates",
-        "store_policy_variance",
-        "paid_conversion_unproven"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_free_notice_templates",
-        "store_policy_variance",
-        "paid_conversion_unproven"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -8566,8 +8312,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "paid_conversion_unproven",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 39600,
@@ -8580,12 +8325,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업체별 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "risk_labels": [
-        "paid_conversion_unproven",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -8814,9 +8557,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "paid_conversion_unproven",
-        "monitor_search_response",
-        "naver_ui_change_risk_softened"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 47520,
@@ -8829,14 +8570,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/댓글/저장 반응을 추적하고, 업종별 휴무 공지 문구 요청 신호가 있으면 후속 무료 블로그/자료 보강 여부만 판단.",
       "risk_flags": [
-        "paid_conversion_unproven",
-        "monitor_search_response",
-        "naver_ui_change_risk_softened"
+        "검토 메모"
       ],
       "risk_labels": [
-        "paid_conversion_unproven",
-        "monitor_search_response",
-        "naver_ui_change_risk_softened"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -9059,12 +8796,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_logged_in_profile2_confirmed",
-        "tistory_published",
-        "public_url_verified",
-        "tistory_thumbnail_verified"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 51600,
@@ -9077,24 +8809,10 @@
       "owner": "수익성 검토",
       "next_action": "공개 글 유입/검색 반응만 추적. 이미지·대표이미지·OG 검증은 완료됨.",
       "risk_flags": [
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_logged_in_profile2_confirmed",
-        "tistory_published",
-        "public_url_verified",
-        "tistory_thumbnail_verified",
-        "image_typography_fixed",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "risk_labels": [
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_logged_in_profile2_confirmed",
-        "tistory_published",
-        "public_url_verified",
-        "tistory_thumbnail_verified",
-        "image_typography_fixed",
-        "monitor_search_response"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -9415,12 +9133,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "allergy_wording_softened",
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_profile2_direct_api_publish_verified",
-        "tistory_visual_qa_passed_public",
-        "tistory_thumbnail_png_verified"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 63360,
@@ -9433,20 +9146,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색/유입 반응을 추적하고, 유료 전환은 사용자 판매 재개 전까지 보류.",
       "risk_flags": [
-        "allergy_wording_softened",
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_profile2_direct_api_publish_verified",
-        "tistory_visual_qa_passed_public",
-        "tistory_thumbnail_png_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "allergy_wording_softened",
-        "free_template_competition",
-        "paid_conversion_unproven",
-        "tistory_profile2_direct_api_publish_verified",
-        "tistory_visual_qa_passed_public",
-        "tistory_thumbnail_png_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -9784,12 +9487,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "free_template_competition",
-        "medical_wording_softened",
-        "personal_data_placeholder_removed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 61920,
@@ -9802,24 +9500,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 공개 URL/제목/본문 PNG 3장/og:image 확인됨. 검색 유입·반응 추적 단계.",
       "risk_flags": [
-        "free_template_competition",
-        "medical_wording_softened",
-        "personal_data_placeholder_removed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published",
-        "tracking_search_response",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "free_template_competition",
-        "medical_wording_softened",
-        "personal_data_placeholder_removed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published",
-        "tracking_search_response",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -10119,12 +9803,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "institution_policy_variation",
-        "free_template_competition",
-        "seasonal_window_short",
-        "personal_data_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 63360,
@@ -10137,28 +9816,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 방학 안내문·긴급보육 안내 자료 보강 여부만 판단.",
       "risk_flags": [
-        "institution_policy_variation",
-        "free_template_competition",
-        "seasonal_window_short",
-        "personal_data_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified",
-        "institution_policy_wording_softened"
+        "검토 메모"
       ],
       "risk_labels": [
-        "institution_policy_variation",
-        "free_template_competition",
-        "seasonal_window_short",
-        "personal_data_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified",
-        "institution_policy_wording_softened"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -10430,11 +10091,7 @@
       "tags": [
         "디지털 상품",
         "무료 대체재가 많아 유료 전환은 검증 후 판단",
-        "refund_deposit_wording_softened",
-        "platform_policy_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 55440,
@@ -10448,23 +10105,11 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 검색 유입/조회 반응을 추적한 뒤 공방 업종별 예약 안내 문구 후속 무료 글 또는 자료 보강 여부만 판단.",
       "risk_flags": [
         "무료 대체재가 많아 유료 전환은 검증 후 판단",
-        "refund_deposit_wording_softened",
-        "platform_policy_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "무료 대체재가 많아 유료 전환은 검증 후 판단",
-        "refund_deposit_wording_softened",
-        "platform_policy_wording_softened",
-        "tistory_visual_qa_passed_local",
-        "tistory_thumbnail_png_ready",
-        "tistory_published",
-        "public_url_verified",
-        "og_image_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -10714,12 +10359,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "activation_lock_wording_softened",
-        "apple_official_fact_check_done",
-        "body_images_3_verified",
-        "public_body_images_3_dom_verified",
-        "public_url_verified",
-        "thumbnail_og_verified"
+        "검토 메모"
       ],
       "quality": 82,
       "expected_base_net": 0,
@@ -10732,32 +10372,12 @@
       "owner": "수익성 검토",
       "next_action": "공개 게시 완료. 무료 검증 글로 유입/반응 추적.",
       "risk_flags": [
-        "activation_lock_wording_softened",
-        "apple_official_fact_check_done",
-        "body_images_3_verified",
-        "public_body_images_3_dom_verified",
-        "public_url_verified",
-        "thumbnail_og_verified",
-        "tistory_list_thumbnail_real_verified",
-        "tistory_published",
-        "tistory_thumbnail_png_ready",
-        "tistory_visual_qa_passed_local",
-        "used_trade_scam_wording_softened",
+        "검토 메모",
         "중고거래 법률/사기 단정 표현 주의",
         "콘텐츠 판매 중지 상태: 무료 블로그만 허용"
       ],
       "risk_labels": [
-        "activation_lock_wording_softened",
-        "apple_official_fact_check_done",
-        "body_images_3_verified",
-        "public_body_images_3_dom_verified",
-        "public_url_verified",
-        "thumbnail_og_verified",
-        "tistory_list_thumbnail_real_verified",
-        "tistory_published",
-        "tistory_thumbnail_png_ready",
-        "tistory_visual_qa_passed_local",
-        "used_trade_scam_wording_softened",
+        "검토 메모",
         "중고거래 법률/사기 단정 표현 주의",
         "콘텐츠 판매 중지 상태: 무료 블로그만 허용"
       ],
@@ -11007,11 +10627,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "calculator_asset_ready",
-        "calculator_embedded_verified",
-        "free_calculator_competition",
-        "no_paid_cta",
-        "published_free_validation"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 30400,
@@ -11024,18 +10640,10 @@
       "owner": "수익성 검토",
       "next_action": "계산기 본문 삽입 및 공개 렌더링 검증 완료. 이후 조회/유입 변화 추적.",
       "risk_flags": [
-        "calculator_asset_ready",
-        "calculator_embedded_verified",
-        "free_calculator_competition",
-        "no_paid_cta",
-        "published_free_validation"
+        "검토 메모"
       ],
       "risk_labels": [
-        "calculator_asset_ready",
-        "calculator_embedded_verified",
-        "free_calculator_competition",
-        "no_paid_cta",
-        "published_free_validation"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -11277,12 +10885,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "no_paid_cta",
-        "long_term_seo_asset",
-        "tax_wording_softened",
-        "official_source_check_completed",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 24000,
@@ -11295,46 +10898,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 유의미한 반응이 생기면 폐업 자료 체크시트/계산 보조 도구 개선 여부를 재평가.",
       "risk_flags": [
-        "no_paid_cta",
-        "long_term_seo_asset",
-        "tax_wording_softened",
-        "official_source_check_completed",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "uploaded_png_thumbnail_verified",
-        "published_free_validation",
-        "public_visual_qa_failed_then_fixed",
-        "korean_title_linebreak_fixed",
-        "tistory_images_reuploaded_verified",
-        "tistory_image_spacing_fixed",
-        "visual_spacing_qa_required_added",
-        "internal_card_spacing_fixed",
-        "internal_spacing_qa_required_added",
-        "title_line_collision_fixed",
-        "footer_border_collision_fixed",
-        "card_collision_qa_required_added"
+        "검토 메모"
       ],
       "risk_labels": [
-        "no_paid_cta",
-        "long_term_seo_asset",
-        "tax_wording_softened",
-        "official_source_check_completed",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "uploaded_png_thumbnail_verified",
-        "published_free_validation",
-        "public_visual_qa_failed_then_fixed",
-        "korean_title_linebreak_fixed",
-        "tistory_images_reuploaded_verified",
-        "tistory_image_spacing_fixed",
-        "visual_spacing_qa_required_added",
-        "internal_card_spacing_fixed",
-        "internal_spacing_qa_required_added",
-        "title_line_collision_fixed",
-        "footer_border_collision_fixed",
-        "card_collision_qa_required_added"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -11594,11 +11161,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "unclear_payout_rails",
-        "system_prompt_disclosure_risk",
-        "secret_or_payment_provider_testing_risk",
-        "broad_acceptance_criteria",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 42,
@@ -11612,18 +11175,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 cash bounty scout에서 경쟁 PR이 적고 payout rail이 명확한 micro-bounty를 재탐색. 이번 후보들은 코딩/claim/PR 제출하지 않음.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_payout_rails",
-        "system_prompt_disclosure_risk",
-        "secret_or_payment_provider_testing_risk",
-        "broad_acceptance_criteria"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "unclear_payout_rails",
-        "system_prompt_disclosure_risk",
-        "secret_or_payment_provider_testing_risk",
-        "broad_acceptance_criteria"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -11754,11 +11309,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "unclear_or_wallet_payout",
-        "broad_acceptance_criteria",
-        "external_instance_or_secret_testing_burden",
-        "low_reward_for_review_load",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 44,
@@ -11772,18 +11323,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 linked PR이 없고 payout rail·acceptance criteria가 명확한 cash/platform micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_or_wallet_payout",
-        "broad_acceptance_criteria",
-        "external_instance_or_secret_testing_burden",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "unclear_or_wallet_payout",
-        "broad_acceptance_criteria",
-        "external_instance_or_secret_testing_burden",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -11925,11 +11468,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "wallet_or_payment_user_burden",
-        "external_marketing_reputation_risk",
-        "broad_acceptance_criteria",
-        "low_reward_for_review_load",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 43,
@@ -11943,18 +11482,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 최근 생성·경쟁 PR 없음·cash/platform payout 명확·검증 로컬 가능 조건의 micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "wallet_or_payment_user_burden",
-        "external_marketing_reputation_risk",
-        "broad_acceptance_criteria",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "wallet_or_payment_user_burden",
-        "external_marketing_reputation_risk",
-        "broad_acceptance_criteria",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -12108,11 +11639,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "unclear_payment_rail",
-        "content_or_video_user_burden",
-        "prompt_exposure_risk",
-        "low_reward_for_review_load",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 41,
@@ -12126,18 +11653,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 최근 생성·경쟁 PR 없음·cash/platform payout 명확·로컬 검증 가능 조건의 micro-bounty를 재탐색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "unclear_payment_rail",
-        "content_or_video_user_burden",
-        "prompt_exposure_risk",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "unclear_payment_rail",
-        "content_or_video_user_burden",
-        "prompt_exposure_risk",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -12285,11 +11804,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "subjective_acceptance",
-        "token_or_unclear_payout",
-        "external_tool_or_hardware_validation",
-        "low_reward_for_review_load",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 41,
@@ -12303,18 +11818,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 comments<5, open competing PR 없음, cash/platform payout 명확, 로컬 테스트 가능한 micro-bounty를 우선 재검색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "subjective_acceptance",
-        "token_or_unclear_payout",
-        "external_tool_or_hardware_validation",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "subjective_acceptance",
-        "token_or_unclear_payout",
-        "external_tool_or_hardware_validation",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -12474,11 +11981,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "instruction_leakage_required",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "bot_like_bounty_repo",
-        "low_reward_for_review_load",
+        "검토 메모",
         "고위험"
       ],
       "quality": 38,
@@ -12492,18 +11995,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 comments<5, competing PR 없음, cash/platform payout과 claim rules가 명확하고 로컬 테스트 가능한 micro-bounty를 우선 재검색. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "instruction_leakage_required",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "bot_like_bounty_repo",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "risk_labels": [
-        "instruction_leakage_required",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "bot_like_bounty_repo",
-        "low_reward_for_review_load"
+        "검토 메모"
       ],
       "stop_reason": "고위험",
       "evidence": [
@@ -12658,11 +12153,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "symbolic_bounty_repo",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "finalized_existing_pr",
-        "demo_or_external_service_burden",
+        "검토 메모",
         "고위험"
       ],
       "quality": 35,
@@ -12676,18 +12167,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 CONTRIBUTING/README payout warning을 먼저 확인하고, comments<5·competing PR 없음·cash/platform payout 명확 후보만 preflight/plan으로 승격. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "symbolic_bounty_repo",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "finalized_existing_pr",
-        "demo_or_external_service_burden"
+        "검토 메모"
       ],
       "risk_labels": [
-        "symbolic_bounty_repo",
-        "crowded_competing_prs",
-        "payout_unclear_or_low",
-        "finalized_existing_pr",
-        "demo_or_external_service_burden"
+        "검토 메모"
       ],
       "stop_reason": "고위험",
       "evidence": [
@@ -12842,11 +12325,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "symbolic_bounty_repo",
-        "crypto_or_unclear_payout",
-        "crowded_competing_prs",
-        "internal_or_existing_solution",
-        "maintainer_friction",
+        "검토 메모",
         "지급 불명확"
       ],
       "quality": 35,
@@ -12860,18 +12339,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서는 IssueHunt/Algora/Opire 중 comments<5, competing PR 없음, cash/platform payout 명확, maintainer 경고 없는 후보만 preflight/plan 승격.",
       "risk_flags": [
-        "symbolic_bounty_repo",
-        "crypto_or_unclear_payout",
-        "crowded_competing_prs",
-        "internal_or_existing_solution",
-        "maintainer_friction"
+        "검토 메모"
       ],
       "risk_labels": [
-        "symbolic_bounty_repo",
-        "crypto_or_unclear_payout",
-        "crowded_competing_prs",
-        "internal_or_existing_solution",
-        "maintainer_friction"
+        "검토 메모"
       ],
       "stop_reason": "지급 불명확",
       "evidence": [
@@ -13014,12 +12485,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "already_rewarded_or_claimed",
-        "token_or_wallet_payout",
-        "role_restricted_start",
-        "outreach_spam_risk",
-        "low_reward_ev"
+        "검토 메모"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -13032,20 +12498,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 comments<5라도 open PR/issue comments로 선점 여부를 먼저 필터링하고, cash/platform payout 명확 후보만 GO 검토.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_rewarded_or_claimed",
-        "token_or_wallet_payout",
-        "role_restricted_start",
-        "outreach_spam_risk",
-        "low_reward_ev"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "already_rewarded_or_claimed",
-        "token_or_wallet_payout",
-        "role_restricted_start",
-        "outreach_spam_risk",
-        "low_reward_ev"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -13194,12 +12650,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "symbolic_not_paid_warning",
-        "token_or_wallet_payout",
-        "prompt_disclosure_risk",
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "unclear_payout_or_stake_required"
+        "검토 메모"
       ],
       "quality": 30,
       "expected_base_net": 0,
@@ -13212,22 +12663,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 Algora/Polar/IssueHunt에서 cash/platform 지급이 명시되고 comments/PR 경쟁이 낮은 micro-doc 또는 focused test/code 후보를 우선 검색.",
       "risk_flags": [
-        "symbolic_not_paid_warning",
-        "token_or_wallet_payout",
-        "prompt_disclosure_risk",
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "unclear_payout_or_stake_required",
-        "broad_scope"
+        "검토 메모"
       ],
       "risk_labels": [
-        "symbolic_not_paid_warning",
-        "token_or_wallet_payout",
-        "prompt_disclosure_risk",
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "unclear_payout_or_stake_required",
-        "broad_scope"
+        "검토 메모"
       ],
       "stop_reason": "고위험",
       "evidence": [
@@ -13403,12 +12842,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "competing_or_submitted_prs",
-        "token_or_wallet_payout",
-        "stake_required",
-        "prompt_disclosure_risk",
-        "pull_request_route_unusable",
-        "large_scope_or_low_reward"
+        "검토 메모"
       ],
       "quality": 30,
       "expected_base_net": 0,
@@ -13421,22 +12855,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 최근 생성된 cash/platform micro-doc 또는 focused test/code bounty 중 comments/PR 경쟁이 낮고 PR route가 정상인 후보만 우선 검토.",
       "risk_flags": [
-        "competing_or_submitted_prs",
-        "token_or_wallet_payout",
-        "stake_required",
-        "prompt_disclosure_risk",
-        "pull_request_route_unusable",
-        "large_scope_or_low_reward",
-        "subjective_acceptance"
+        "검토 메모"
       ],
       "risk_labels": [
-        "competing_or_submitted_prs",
-        "token_or_wallet_payout",
-        "stake_required",
-        "prompt_disclosure_risk",
-        "pull_request_route_unusable",
-        "large_scope_or_low_reward",
-        "subjective_acceptance"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -13612,12 +13034,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "already_claimed_or_assigned",
-        "wallet_or_assignment_unclear",
-        "large_scope",
-        "low_reward_ev",
-        "outreach_spam_risk"
+        "검토 메모"
       ],
       "quality": 35,
       "expected_base_net": 0,
@@ -13630,20 +13047,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 comments/open PR 수가 낮고 assignment 없음 + cash/platform payout이 명확한 issue만 GO 검토.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_claimed_or_assigned",
-        "wallet_or_assignment_unclear",
-        "large_scope",
-        "low_reward_ev",
-        "outreach_spam_risk"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "already_claimed_or_assigned",
-        "wallet_or_assignment_unclear",
-        "large_scope",
-        "low_reward_ev",
-        "outreach_spam_risk"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -13810,12 +13217,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "competing_prs_or_attempts",
-        "assignment_or_wallet_flow",
-        "unclear_acceptance_criteria",
-        "broad_scope",
-        "subjective_acceptance",
-        "stale_or_uncertain_payout"
+        "검토 메모"
       ],
       "quality": 38,
       "expected_base_net": 0,
@@ -13828,20 +13230,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 comments/open PR 수가 낮고 assignment 제한이 없으며 cash/platform payout과 acceptance criteria가 명확한 micro-bounty만 GO 검토. 이번 후보는 claim/코딩/PR 제출하지 않음.",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "assignment_or_wallet_flow",
-        "unclear_acceptance_criteria",
-        "broad_scope",
-        "subjective_acceptance",
-        "stale_or_uncertain_payout"
+        "검토 메모"
       ],
       "risk_labels": [
-        "competing_prs_or_attempts",
-        "assignment_or_wallet_flow",
-        "unclear_acceptance_criteria",
-        "broad_scope",
-        "subjective_acceptance",
-        "stale_or_uncertain_payout"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -13984,11 +13376,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "privacy_sensitive_contributor_headers",
-        "unclear_assignment_or_external_coordination",
-        "broad_or_subjective_scope",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 35,
@@ -14002,18 +13390,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 comments/open PR 수가 낮고 assignment·wallet·민감정보 노출 요구가 없으며 cash/platform payout과 acceptance criteria가 명확한 후보만 GO 검토.",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "privacy_sensitive_contributor_headers",
-        "unclear_assignment_or_external_coordination",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "risk_labels": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "privacy_sensitive_contributor_headers",
-        "unclear_assignment_or_external_coordination",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -14162,11 +13542,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "sensitive_session_disclosure",
-        "oauth_or_external_api_demo_burden",
-        "broad_or_subjective_scope",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 30,
@@ -14180,18 +13556,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 comments/open PR 수가 낮고 wallet·stake·민감정보 노출 요구가 없으며 cash/platform payout과 acceptance criteria가 명확한 후보만 GO 검토.",
       "risk_flags": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "sensitive_session_disclosure",
-        "oauth_or_external_api_demo_burden",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "risk_labels": [
-        "competing_prs_or_attempts",
-        "token_or_wallet_claim",
-        "sensitive_session_disclosure",
-        "oauth_or_external_api_demo_burden",
-        "broad_or_subjective_scope"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -14346,12 +13714,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "demo_or_paid_service_required",
-        "benchmark_environment_required",
-        "low_approval_odds",
-        "broad_scope_small_payout"
+        "검토 메모"
       ],
       "quality": 25,
       "expected_base_net": 0,
@@ -14364,20 +13727,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 comments<10, matching open PR≤1, cash/platform payout 명시, 로컬 테스트 가능 micro-bounty만 우선 필터링. GitHub API rate limit 회복 후 재검색.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "demo_or_paid_service_required",
-        "benchmark_environment_required",
-        "low_approval_odds",
-        "broad_scope_small_payout"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "already_attempted_or_submitted",
-        "demo_or_paid_service_required",
-        "benchmark_environment_required",
-        "low_approval_odds",
-        "broad_scope_small_payout"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -14571,11 +13924,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "symbolic_or_unclear_payment",
-        "crowded_competing_prs",
-        "unsafe_prompt_disclosure_request",
-        "scope_too_large_for_reward",
-        "claim_path_unclear",
+        "검토 메모",
         "지급 불명확"
       ],
       "quality": 20,
@@ -14589,18 +13938,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 CONTRIBUTING/README에 non-payment 또는 symbolic 고지가 없는 후보, matching open PR 0~1건, Algora/Opire 공식 댓글 또는 플랫폼 링크가 있는 후보만 우선 필터링.",
       "risk_flags": [
-        "symbolic_or_unclear_payment",
-        "crowded_competing_prs",
-        "unsafe_prompt_disclosure_request",
-        "scope_too_large_for_reward",
-        "claim_path_unclear"
+        "검토 메모"
       ],
       "risk_labels": [
-        "symbolic_or_unclear_payment",
-        "crowded_competing_prs",
-        "unsafe_prompt_disclosure_request",
-        "scope_too_large_for_reward",
-        "claim_path_unclear"
+        "검토 메모"
       ],
       "stop_reason": "지급 불명확",
       "evidence": [
@@ -14782,12 +14123,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "existing_claims_or_prs",
-        "unanswered_availability_confirmation",
-        "unofficial_pledge",
-        "ambiguous_payout",
-        "scope_too_large_for_reward",
-        "low_margin_micro_bounty"
+        "검토 메모"
       ],
       "quality": 20,
       "expected_base_net": 0,
@@ -14800,20 +14136,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 공식 플랫폼 지급, matching open PR 0건, 미응답 claim 없음, 테스트 재현 가능, reward 대비 2~4시간 내 완료 가능 후보만 GO 검토.",
       "risk_flags": [
-        "existing_claims_or_prs",
-        "unanswered_availability_confirmation",
-        "unofficial_pledge",
-        "ambiguous_payout",
-        "scope_too_large_for_reward",
-        "low_margin_micro_bounty"
+        "검토 메모"
       ],
       "risk_labels": [
-        "existing_claims_or_prs",
-        "unanswered_availability_confirmation",
-        "unofficial_pledge",
-        "ambiguous_payout",
-        "scope_too_large_for_reward",
-        "low_margin_micro_bounty"
+        "검토 메모"
       ],
       "stop_reason": "중복",
       "evidence": [
@@ -15001,11 +14327,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "duplicate_pr_or_claim",
-        "unclear_payout_terms",
-        "high_editorial_burden",
-        "duplicate_tax_blog_angle",
-        "weak_cash_distance",
+        "검토 메모",
         "중복"
       ],
       "quality": 30,
@@ -15019,18 +14341,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 신규 scout는 공식 지급액/claim 상태/PR 경쟁이 명확한 bounty 또는 기존 블로그 축과 겹치지 않는 무료 검증 주제만 GO 검토.",
       "risk_flags": [
-        "duplicate_pr_or_claim",
-        "unclear_payout_terms",
-        "high_editorial_burden",
-        "duplicate_tax_blog_angle",
-        "weak_cash_distance"
+        "검토 메모"
       ],
       "risk_labels": [
-        "duplicate_pr_or_claim",
-        "unclear_payout_terms",
-        "high_editorial_burden",
-        "duplicate_tax_blog_angle",
-        "weak_cash_distance"
+        "검토 메모"
       ],
       "stop_reason": "중복",
       "evidence": [
@@ -15201,12 +14515,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "duplicate_open_prs",
-        "crowded_attempts",
-        "crypto_or_btc_payment",
-        "preconversation_instruction_disclosure_request",
-        "external_marketing_required",
-        "stale_or_low_activity_repo"
+        "검토 메모"
       ],
       "quality": 20,
       "expected_base_net": 0,
@@ -15219,20 +14528,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout는 공식 cash/platform 지급, 동일 목적 open PR 0건, prompt/secret 공개 요구 없음, 2~4시간 내 테스트 가능한 후보만 GO 검토.",
       "risk_flags": [
-        "duplicate_open_prs",
-        "crowded_attempts",
-        "crypto_or_btc_payment",
-        "preconversation_instruction_disclosure_request",
-        "external_marketing_required",
-        "stale_or_low_activity_repo"
+        "검토 메모"
       ],
       "risk_labels": [
-        "duplicate_open_prs",
-        "crowded_attempts",
-        "crypto_or_btc_payment",
-        "preconversation_instruction_disclosure_request",
-        "external_marketing_required",
-        "stale_or_low_activity_repo"
+        "검토 메모"
       ],
       "stop_reason": "중복",
       "evidence": [
@@ -15414,12 +14713,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "tax_information_must_be_softened",
-        "no_paid_cta_current_mode",
-        "tax_disclaimer_included",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -15432,20 +14726,10 @@
       "owner": "수익성 검토",
       "next_action": "공개 글 유입/검색 반응 추적. 세무 기준 변경 가능성이 있어 추후 공식 안내 변동만 재확인.",
       "risk_flags": [
-        "tax_information_must_be_softened",
-        "no_paid_cta_current_mode",
-        "tax_disclaimer_included",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "tax_information_must_be_softened",
-        "no_paid_cta_current_mode",
-        "tax_disclaimer_included",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -15798,12 +15082,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "assigned_to_other_user",
-        "friend_mention_required",
-        "github_sponsors_profile_required"
+        "검토 메모"
       ],
       "quality": 82,
       "expected_base_net": 1,
@@ -15816,20 +15095,10 @@
       "owner": "제작 검수",
       "next_action": "폐기. 향후 OWASP-BLT류는 assignee/friend mention/Sponsors profile/peer-review requirement를 PR 전 필수 체크.",
       "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "assigned_to_other_user",
-        "friend_mention_required",
-        "github_sponsors_profile_required"
+        "검토 메모"
       ],
       "risk_labels": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "assigned_to_other_user",
-        "friend_mention_required",
-        "github_sponsors_profile_required"
+        "검토 메모"
       ],
       "stop_reason": "사용자 부담 큼",
       "evidence": [
@@ -15963,12 +15232,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "tax_disclaimer_included",
-        "no_paid_cta_current_mode",
-        "official_sources_rechecked",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "quality": 83,
       "expected_base_net": 0,
@@ -15981,22 +15245,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 국세청 기준 변경 시 업데이트.",
       "risk_flags": [
-        "tax_disclaimer_included",
-        "no_paid_cta_current_mode",
-        "official_sources_rechecked",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation"
+        "검토 메모"
       ],
       "risk_labels": [
-        "tax_disclaimer_included",
-        "no_paid_cta_current_mode",
-        "official_sources_rechecked",
-        "tistory_published",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -16331,10 +15583,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "micro_payout",
-        "new_contributor_gate",
-        "friend_mention_required",
-        "sponsors_profile_may_be_required",
+        "검토 메모",
         "사용자 부담 큼"
       ],
       "quality": 84,
@@ -16348,16 +15597,10 @@
       "owner": "제작 검수",
       "next_action": "PR #6447 리뷰/자동화 상태 모니터링. 친구 멘션/Sponsors 프로필 등 사용자·외부 조치는 자동 진행하지 않음.",
       "risk_flags": [
-        "micro_payout",
-        "new_contributor_gate",
-        "friend_mention_required",
-        "sponsors_profile_may_be_required"
+        "검토 메모"
       ],
       "risk_labels": [
-        "micro_payout",
-        "new_contributor_gate",
-        "friend_mention_required",
-        "sponsors_profile_may_be_required"
+        "검토 메모"
       ],
       "stop_reason": "사용자 부담 큼",
       "evidence": [
@@ -16467,12 +15710,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "tax_wording_softened",
-        "official_source_links_included",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "quality": 82,
       "expected_base_net": 0,
@@ -16485,24 +15723,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고, 종합소득세·지방소득세 확인 수요가 있으면 체크시트/계산 보조 자료 보강 여부를 재평가.",
       "risk_flags": [
-        "tax_wording_softened",
-        "official_source_links_included",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "tax_wording_softened",
-        "official_source_links_included",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -16723,11 +15947,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "crowded_competing_prs",
-        "assigned_to_other_user",
-        "unclear_payout",
-        "broad_feature_scope",
-        "approval_odds_low",
+        "검토 메모",
         "기회비용"
       ],
       "quality": 38,
@@ -16741,18 +15961,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 bounty scout에서 Space and Time coverage처럼 병렬 허용되는 후보는 작은 미점유 테스트 slice를 먼저 식별한 뒤 GO 재평가.",
       "risk_flags": [
-        "crowded_competing_prs",
-        "assigned_to_other_user",
-        "unclear_payout",
-        "broad_feature_scope",
-        "approval_odds_low"
+        "검토 메모"
       ],
       "risk_labels": [
-        "crowded_competing_prs",
-        "assigned_to_other_user",
-        "unclear_payout",
-        "broad_feature_scope",
-        "approval_odds_low"
+        "검토 메모"
       ],
       "stop_reason": "기회비용",
       "evidence": [
@@ -16895,12 +16107,7 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "official_source_links_included",
-        "benefit_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "quality": 83,
       "expected_base_net": 0,
@@ -16913,24 +16120,10 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고 고용보험료 지원 검색 수요가 유지되면 공식 조건 변경 여부만 주기 확인.",
       "risk_flags": [
-        "official_source_links_included",
-        "benefit_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "risk_labels": [
-        "official_source_links_included",
-        "benefit_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -17344,11 +16537,7 @@
       "tags": [
         "기타",
         "무료 검증",
-        "no_paid_cta",
-        "official_source_links_included",
-        "legal_wording_softened",
-        "tistory_published",
-        "public_url_verified"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -17362,25 +16551,11 @@
       "next_action": "공개 글 검색 유입/반응 추적. 직접 매출 없음.",
       "risk_flags": [
         "무료 검증",
-        "no_paid_cta",
-        "official_source_links_included",
-        "legal_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "무료 검증",
-        "no_paid_cta",
-        "official_source_links_included",
-        "legal_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -17778,12 +16953,8 @@
       "priority": "보통",
       "tags": [
         "디지털 상품",
-        "tax_advice_risk",
-        "무료 검증",
-        "tistory_upload_verified",
-        "local_visual_qa_passed",
-        "tax_caveat_softened",
-        "tistory_quota_rechecked"
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 84,
       "expected_base_net": 30400,
@@ -17796,26 +16967,12 @@
       "owner": "수익성 검토",
       "next_action": "공개 게시 완료. Tistory 유입/검색 반응 추적.",
       "risk_flags": [
-        "tax_advice_risk",
-        "무료 검증",
-        "tistory_upload_verified",
-        "local_visual_qa_passed",
-        "tax_caveat_softened",
-        "tistory_quota_rechecked",
-        "published_to_tistory",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "risk_labels": [
-        "tax_advice_risk",
-        "무료 검증",
-        "tistory_upload_verified",
-        "local_visual_qa_passed",
-        "tax_caveat_softened",
-        "tistory_quota_rechecked",
-        "published_to_tistory",
-        "public_visual_qa_passed",
-        "category_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "stop_reason": "",
       "evidence": [
@@ -18260,12 +17417,8 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "tax_advice_risk",
-        "무료 검증",
-        "category_tax_bookkeeping",
-        "tax_caveat_softened",
-        "local_visual_qa_passed",
-        "dashboard_artifact_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 82,
       "expected_base_net": 28000,
@@ -18278,28 +17431,12 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 게시 완료. 공개 URL/본문 이미지 3장/OG 이미지/세금·장부 카테고리/이미지-캡션-본문 간격 QA 통과. 다음은 유입 추적.",
       "risk_flags": [
-        "tax_advice_risk",
-        "무료 검증",
-        "category_tax_bookkeeping",
-        "tax_caveat_softened",
-        "local_visual_qa_passed",
-        "dashboard_artifact_verified",
-        "tistory_upload_verified",
-        "public_published_verified",
-        "public_visual_qa_passed",
-        "tistory_category_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "risk_labels": [
-        "tax_advice_risk",
-        "무료 검증",
-        "category_tax_bookkeeping",
-        "tax_caveat_softened",
-        "local_visual_qa_passed",
-        "dashboard_artifact_verified",
-        "tistory_upload_verified",
-        "public_published_verified",
-        "public_visual_qa_passed",
-        "tistory_category_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "stop_reason": "",
       "evidence": [
@@ -18630,11 +17767,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "demo_video_requirement_softened",
-        "algora_payout_profile_may_be_needed",
+        "검토 메모",
         "품질 낮음"
       ],
       "quality": 84,
@@ -18648,18 +17781,10 @@
       "owner": "제작 검수",
       "next_action": "폐기. 재제출하지 않음; acceptance criteria 미충족 판정으로 현 PR 수익화 실패.",
       "risk_flags": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "demo_video_requirement_softened",
-        "algora_payout_profile_may_be_needed"
+        "검토 메모"
       ],
       "risk_labels": [
-        "micro_payout",
-        "maintainer_discretion",
-        "prior_closed_attempts",
-        "demo_video_requirement_softened",
-        "algora_payout_profile_may_be_needed"
+        "검토 메모"
       ],
       "stop_reason": "품질 낮음",
       "evidence": [
@@ -19126,12 +18251,8 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "category_verified",
-        "dashboard_artifact_prepared",
-        "무료 검증",
-        "local_visual_qa_passed",
-        "public_url_verified",
-        "public_visual_qa_passed"
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 83,
       "expected_base_net": 28800,
@@ -19144,34 +18265,12 @@
       "owner": "수익성 검토",
       "next_action": "공개 게시 완료. 2~4주 뒤 검색 유입/체류/관련 문의를 확인해 유사 세금·장부 글 확장 여부 판단.",
       "risk_flags": [
-        "category_verified",
-        "dashboard_artifact_prepared",
-        "무료 검증",
-        "local_visual_qa_passed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "published_free_validation",
-        "refund_terms_change_risk",
-        "tax_advice_risk",
-        "tax_caveat_softened",
-        "tistory_published",
-        "tistory_upload_verified",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "risk_labels": [
-        "category_verified",
-        "dashboard_artifact_prepared",
-        "무료 검증",
-        "local_visual_qa_passed",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "published_free_validation",
-        "refund_terms_change_risk",
-        "tax_advice_risk",
-        "tax_caveat_softened",
-        "tistory_published",
-        "tistory_upload_verified",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모",
+        "무료 검증"
       ],
       "stop_reason": "",
       "evidence": [
@@ -20010,12 +19109,8 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "category_verified",
-        "무료 검증",
-        "official_source_rechecked",
-        "public_visual_qa_passed",
-        "tax_advice_risk",
-        "tax_wording_softened"
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -20028,22 +19123,12 @@
       "owner": "수익성 검토",
       "next_action": "공개 글 유입/검색 반응 추적. 반복 세무 단정 표현 여부는 추후 업데이트 때 재확인.",
       "risk_flags": [
-        "category_verified",
-        "무료 검증",
-        "official_source_rechecked",
-        "public_visual_qa_passed",
-        "tax_advice_risk",
-        "tax_wording_softened",
-        "tistory_published"
+        "검토 메모",
+        "무료 검증"
       ],
       "risk_labels": [
-        "category_verified",
-        "무료 검증",
-        "official_source_rechecked",
-        "public_visual_qa_passed",
-        "tax_advice_risk",
-        "tax_wording_softened",
-        "tistory_published"
+        "검토 메모",
+        "무료 검증"
       ],
       "stop_reason": "",
       "evidence": [
@@ -20657,9 +19742,7 @@
       "priority": "보통",
       "tags": [
         "바운티",
-        "duplicate_pr_competition",
-        "payment_unclear_candidates",
-        "security_sensitive_candidate_skipped",
+        "검토 메모",
         "중복"
       ],
       "quality": null,
@@ -20673,14 +19756,10 @@
       "owner": "시장성 검토",
       "next_action": "다음 scout에서 cash/platform bounty 5건 이상 재검색. 현재 후보들은 재시도하지 않음 unless 경쟁/지급 상태 변화.",
       "risk_flags": [
-        "duplicate_pr_competition",
-        "payment_unclear_candidates",
-        "security_sensitive_candidate_skipped"
+        "검토 메모"
       ],
       "risk_labels": [
-        "duplicate_pr_competition",
-        "payment_unclear_candidates",
-        "security_sensitive_candidate_skipped"
+        "검토 메모"
       ],
       "stop_reason": "중복",
       "evidence": [
@@ -20808,11 +19887,7 @@
       "tags": [
         "기타",
         "무료 검증",
-        "official_source_rechecked",
-        "wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed"
+        "검토 메모"
       ],
       "quality": 85,
       "expected_base_net": 28000,
@@ -20826,25 +19901,11 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적하고 세금·행정서류 콘텐츠군 내부링크 보강 여부를 재평가.",
       "risk_flags": [
         "무료 검증",
-        "official_source_rechecked",
-        "wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "무료 검증",
-        "official_source_rechecked",
-        "wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "published_free_validation",
-        "uploaded_png_thumbnail_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -21788,10 +20849,7 @@
       "tags": [
         "기타",
         "무료 검증",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "official_wording_softened"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 32000,
@@ -21805,17 +20863,11 @@
       "next_action": "Tistory 무료 검증 글 공개 완료. 유입/조회 반응 추적.",
       "risk_flags": [
         "무료 검증",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "official_wording_softened"
+        "검토 메모"
       ],
       "risk_labels": [
         "무료 검증",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "official_wording_softened"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -22464,12 +21516,8 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "labor_admin_wording_risk",
-        "무료 검증",
-        "official_wording_softened",
-        "local_visual_qa_passed",
-        "tistory_image_upload_succeeded",
-        "labor_admin_wording_risk_mitigated"
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 85,
       "expected_base_net": 34000,
@@ -22482,33 +21530,13 @@
       "owner": "수익성 검토",
       "next_action": "공개 URL 색인/유입을 추적하고, 다음 backlog redteam_hold 항목을 처리.",
       "risk_flags": [
-        "labor_admin_wording_risk",
+        "검토 메모",
         "무료 검증",
-        "official_wording_softened",
-        "local_visual_qa_passed",
-        "tistory_image_upload_succeeded",
-        "labor_admin_wording_risk_mitigated",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
         "판매문구 없음"
       ],
       "risk_labels": [
-        "labor_admin_wording_risk",
+        "검토 메모",
         "무료 검증",
-        "official_wording_softened",
-        "local_visual_qa_passed",
-        "tistory_image_upload_succeeded",
-        "labor_admin_wording_risk_mitigated",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
         "판매문구 없음"
       ],
       "stop_reason": "",
@@ -23399,11 +22427,8 @@
       "tags": [
         "기타",
         "무료 검증",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
-        "로컬 QA 통과",
-        "tistory_profile2_session_verified"
+        "검토 메모",
+        "로컬 QA 통과"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -23417,36 +22442,14 @@
       "next_action": "공개 글 유입/검색 반응을 추적하고, 다음 backlog redteam_hold 항목을 oldest-first로 처리.",
       "risk_flags": [
         "무료 검증",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
+        "검토 메모",
         "로컬 QA 통과",
-        "tistory_profile2_session_verified",
-        "official_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified",
         "판매문구 없음"
       ],
       "risk_labels": [
         "무료 검증",
-        "insurance_wording_softened",
-        "category_verified_1295940",
-        "local_visual_qa_passed",
+        "검토 메모",
         "로컬 QA 통과",
-        "tistory_profile2_session_verified",
-        "official_wording_softened",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified",
         "판매문구 없음"
       ],
       "stop_reason": "",
@@ -24386,11 +23389,9 @@
       "tags": [
         "기타",
         "무료 검증",
-        "official_wording_softened",
-        "food_hygiene_scope_general_restaurant_noted",
-        "anti_repetition_passed",
-        "판매문구 없음",
-        "tistory_published_verified"
+        "검토 메모",
+        "반복 검토 통과",
+        "판매문구 없음"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -24404,29 +23405,15 @@
       "next_action": "Tistory 공개 글 유입/검색 반응을 추적. 교육기관·공식 기준 변경 시 문구 업데이트.",
       "risk_flags": [
         "무료 검증",
-        "official_wording_softened",
-        "food_hygiene_scope_general_restaurant_noted",
-        "anti_repetition_passed",
-        "판매문구 없음",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "검토 메모",
+        "반복 검토 통과",
+        "판매문구 없음"
       ],
       "risk_labels": [
         "무료 검증",
-        "official_wording_softened",
-        "food_hygiene_scope_general_restaurant_noted",
-        "anti_repetition_passed",
-        "판매문구 없음",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "검토 메모",
+        "반복 검토 통과",
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -25184,12 +24171,9 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "anti_repetition_passed",
-        "category_verified",
-        "fact_qa_passed",
-        "무료 검증",
-        "local_visual_qa_passed",
-        "long_tail_not_priority"
+        "반복 검토 통과",
+        "검토 메모",
+        "무료 검증"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -25202,36 +24186,16 @@
       "owner": "수익성 검토",
       "next_action": "Tistory 공개 글 조회·검색 유입 반응 추적. paid CTA 없이 무료 검증 상태 유지.",
       "risk_flags": [
-        "anti_repetition_passed",
-        "category_verified",
-        "fact_qa_passed",
+        "반복 검토 통과",
+        "검토 메모",
         "무료 검증",
-        "local_visual_qa_passed",
-        "long_tail_not_priority",
-        "low_attention_user_correction",
-        "판매문구 없음",
-        "official_wording_softened",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published_verified",
-        "tracking_public_post",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "anti_repetition_passed",
-        "category_verified",
-        "fact_qa_passed",
+        "반복 검토 통과",
+        "검토 메모",
         "무료 검증",
-        "local_visual_qa_passed",
-        "long_tail_not_priority",
-        "low_attention_user_correction",
-        "판매문구 없음",
-        "official_wording_softened",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "tistory_published_verified",
-        "tracking_public_post",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "stop_reason": "이목 수요 낮음",
       "evidence": [
@@ -26223,9 +25187,7 @@
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue"
+        "검토 메모"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -26241,19 +25203,13 @@
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish"
+        "검토 메모"
       ],
       "risk_labels": [
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish"
+        "검토 메모"
       ],
       "stop_reason": "이목 수요 낮음",
       "evidence": [
@@ -26506,11 +25462,7 @@
       "tags": [
         "기타",
         "무료 검증",
-        "official_sources_verified",
-        "legal_contract_wording_softened",
-        "no_brand_evaluation",
-        "tistory_published_verified",
-        "public_render_qa_passed"
+        "검토 메모"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -26524,31 +25476,13 @@
       "next_action": "공개 글 검색 유입/조회/댓글 반응 추적. 실제 트래픽·전환 데이터가 생기기 전까지 예상 순마진은 0원으로 유지.",
       "risk_flags": [
         "무료 검증",
-        "official_sources_verified",
-        "legal_contract_wording_softened",
-        "no_brand_evaluation",
-        "tistory_published_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "판매문구 없음",
-        "organic_content_valuation_zero"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "risk_labels": [
         "무료 검증",
-        "official_sources_verified",
-        "legal_contract_wording_softened",
-        "no_brand_evaluation",
-        "tistory_published_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "판매문구 없음",
-        "organic_content_valuation_zero"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -26928,12 +25862,10 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "legal_privacy_wording_risk",
+        "법/개인정보 문구 주의",
         "무료 검증",
-        "anti_repetition_checked",
-        "판매문구 없음",
-        "official_wording_softened",
-        "tistory_published_verified"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "quality": 90,
       "expected_base_net": 0,
@@ -26946,30 +25878,16 @@
       "owner": "수익성 검토",
       "next_action": "Backlog job: 개인정보 포털/PIPC 공식 문구 재확인 → PNG 이미지 3장 생성/QA → Tistory 카테고리 지정 → 공개 렌더링/OG/모바일 QA 후 tracking 전환. Scout job은 게시 금지.",
       "risk_flags": [
-        "legal_privacy_wording_risk",
+        "법/개인정보 문구 주의",
         "무료 검증",
-        "anti_repetition_checked",
-        "판매문구 없음",
-        "official_wording_softened",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "legal_privacy_wording_risk",
+        "법/개인정보 문구 주의",
         "무료 검증",
-        "anti_repetition_checked",
-        "판매문구 없음",
-        "official_wording_softened",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -27367,9 +26285,7 @@
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue"
+        "검토 메모"
       ],
       "quality": 87,
       "expected_base_net": 0,
@@ -27385,21 +26301,13 @@
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish",
-        "preserved_local_draft"
+        "검토 메모"
       ],
       "risk_labels": [
         "이목 수요 낮음",
         "기회비용",
         "무료 검증",
-        "long_tail_admin_topic",
-        "no_current_deadline",
-        "no_measured_revenue",
-        "do_not_auto_publish",
-        "preserved_local_draft"
+        "검토 메모"
       ],
       "stop_reason": "이목 수요 낮음",
       "evidence": [
@@ -27672,11 +26580,9 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "attention_gate_strong",
-        "category_verified",
-        "fact_qa_passed",
+        "강한 후보",
+        "검토 메모",
         "무료 검증",
-        "modern_gothic_image_qa_passed",
         "판매문구 없음"
       ],
       "quality": 91,
@@ -27690,28 +26596,16 @@
       "owner": "수익성 검토",
       "next_action": "공개 글 조회/댓글/검색 유입을 추적합니다. 직접 수익 추정은 실제 유입·전환 데이터가 생긴 뒤에만 계산합니다.",
       "risk_flags": [
-        "attention_gate_strong",
-        "category_verified",
-        "fact_qa_passed",
+        "강한 후보",
+        "검토 메모",
         "무료 검증",
-        "modern_gothic_image_qa_passed",
-        "판매문구 없음",
-        "og_thumbnail_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "tistory_published"
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "attention_gate_strong",
-        "category_verified",
-        "fact_qa_passed",
+        "강한 후보",
+        "검토 메모",
         "무료 검증",
-        "modern_gothic_image_qa_passed",
-        "판매문구 없음",
-        "og_thumbnail_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "tistory_published"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -27934,9 +26828,7 @@
         "무료 검증",
         "판매문구 없음",
         "폭발 후보",
-        "attention_cash_gate_passed",
-        "fact_qa_passed",
-        "official_sources_verified"
+        "검토 메모"
       ],
       "quality": 95,
       "expected_base_net": 0,
@@ -27952,33 +26844,13 @@
         "무료 검증",
         "판매문구 없음",
         "폭발 후보",
-        "attention_cash_gate_passed",
-        "fact_qa_passed",
-        "official_sources_verified",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "무료 검증",
         "판매문구 없음",
         "폭발 후보",
-        "attention_cash_gate_passed",
-        "fact_qa_passed",
-        "official_sources_verified",
-        "category_verified_1295942",
-        "tistory_published",
-        "public_url_verified",
-        "public_render_qa_passed",
-        "public_visual_qa_passed",
-        "mobile_render_qa_passed",
-        "og_image_verified",
-        "tistory_list_thumbnail_real_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -28321,10 +27193,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "category_verified",
-        "financial_advice_disclaimer_present",
+        "검토 메모",
         "무료 검증",
-        "free_validation_published",
         "판매문구 없음"
       ],
       "quality": 98,
@@ -28339,25 +27209,15 @@
       "next_action": "Tracking: 5월 말 기관별 금리 세부 안내가 나오면 최신화 필요 여부만 재검토. 같은 유형 반복 발행은 Attention Gate 후 진행.",
       "risk_flags": [
         "폭발 후보",
-        "category_verified",
-        "financial_advice_disclaimer_present",
+        "검토 메모",
         "무료 검증",
-        "free_validation_published",
-        "판매문구 없음",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "폭발 후보",
-        "category_verified",
-        "financial_advice_disclaimer_present",
+        "검토 메모",
         "무료 검증",
-        "free_validation_published",
-        "판매문구 없음",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -28630,10 +27490,7 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "anti_repetition_checked",
-        "attention_gate_explosive",
-        "category_verified",
-        "factcheck_source_verified",
+        "검토 메모",
         "무료 검증"
       ],
       "quality": 95,
@@ -28648,37 +27505,15 @@
       "next_action": "Tracking: 2026년 전기요금 관련 새 공식 공고가 나오면 제목/본문 최신화 여부만 재검토. 직접 매출은 산정하지 않고 검색 유입 가설로 관찰.",
       "risk_flags": [
         "폭발 후보",
-        "anti_repetition_checked",
-        "attention_gate_explosive",
-        "category_verified",
-        "factcheck_source_verified",
+        "검토 메모",
         "무료 검증",
-        "free_validation_published",
-        "image_generation_required",
-        "판매문구 없음",
-        "official_wording_recheck_required",
-        "public_blog_published",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "tistory_rendered_qa_required",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "폭발 후보",
-        "anti_repetition_checked",
-        "attention_gate_explosive",
-        "category_verified",
-        "factcheck_source_verified",
+        "검토 메모",
         "무료 검증",
-        "free_validation_published",
-        "image_generation_required",
-        "판매문구 없음",
-        "official_wording_recheck_required",
-        "public_blog_published",
-        "public_rendered_qa_passed",
-        "source_links_verified",
-        "tistory_rendered_qa_required",
-        "uploaded_png_thumbnail_verified"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -29010,11 +27845,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified"
+        "검토 메모",
+        "공식 마감 확인"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -29028,45 +27862,19 @@
       "next_action": "공개글 검색 유입/반응 추적. 6월 22일 신청 마감 후 stale 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "검토 메모",
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "검토 메모",
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -29445,11 +28253,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "official_deadline_verified",
-        "anti_repetition_checked"
+        "공식 마감 확인",
+        "검토 메모"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -29463,47 +28270,19 @@
       "next_action": "공개글 유입·검색 반응 추적. 5월 25일 이후에는 기한 지난 안내로 stale 처리 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "official_deadline_verified",
-        "anti_repetition_checked",
-        "duplicate_risk_electricity_support_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "공식 마감 확인",
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "official_deadline_verified",
-        "anti_repetition_checked",
-        "duplicate_risk_electricity_support_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "공식 마감 확인",
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -29860,10 +28639,8 @@
         "기타",
         "폭발 후보",
         "공식 마감",
-        "official_deadline_verified",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed"
+        "공식 마감 확인",
+        "검토 메모"
       ],
       "quality": 93,
       "expected_base_net": 0,
@@ -29878,32 +28655,16 @@
       "risk_flags": [
         "폭발 후보",
         "공식 마감",
-        "official_deadline_verified",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta",
-        "official_source_links_included"
+        "공식 마감 확인",
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
         "공식 마감",
-        "official_deadline_verified",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "anti_repetition_passed",
-        "no_paid_cta",
-        "official_source_links_included"
+        "공식 마감 확인",
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -30227,12 +28988,11 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "attention_gate_strong",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked"
+        "공식 근거 확인",
+        "검토 메모"
       ],
       "quality": 90,
       "expected_base_net": 0,
@@ -30245,46 +29005,18 @@
       "owner": "수익성 검토",
       "next_action": "공개글 검색 유입/반응 추적. 실손24 참여기관 확대/공식 공지 변경 시 업데이트 후보로 재검토.",
       "risk_flags": [
-        "attention_gate_strong",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_insurance_advice",
-        "강한 후보",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified"
+        "공식 근거 확인",
+        "검토 메모"
       ],
       "risk_labels": [
-        "attention_gate_strong",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified",
-        "insurance_claim_rights",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_insurance_advice",
-        "강한 후보",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified"
+        "공식 근거 확인",
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -30684,31 +29416,13 @@
         "폭발 후보",
         "공식 마감",
         "검토 메모",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "mobile_public_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
         "공식 마감",
         "검토 메모",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "mobile_public_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified",
-        "home_thumbnail_verified",
-        "anti_repetition_passed",
-        "no_paid_cta"
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -31216,11 +29930,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "image_generation_required"
+        "검토 메모"
       ],
       "quality": 94,
       "expected_base_net": 0,
@@ -31234,53 +29947,19 @@
       "next_action": "공개글 검색 유입/반응 추적. 6월30 발급 마감과 7월31 첫 사용 조건 이후 stale 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -31650,11 +30329,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "tistory_published_verified"
+        "검토 메모"
       ],
       "quality": 94,
       "expected_base_net": 0,
@@ -31668,29 +30346,17 @@
       "next_action": "Tistory 공개 글 유입/검색 반응 추적. 실제 방문·클릭 데이터 전까지 예상 순마진은 0원 유지.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "og_thumbnail_verified",
-        "mobile_centered_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
-        "tistory_published_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "og_thumbnail_verified",
-        "mobile_centered_qa_passed",
-        "category_verified"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -32010,11 +30676,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified"
+        "검토 메모",
+        "공식 마감 확인"
       ],
       "quality": 90,
       "expected_base_net": 0,
@@ -32028,55 +30693,19 @@
       "next_action": "공개 글 유입/검색 반응 추적. 6월 1일 이후 공식 신청 경로가 열리면 링크 문구 stale 여부만 재점검.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "local_draft_ready",
-        "pretendard_comic_images_ready",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "official_deadline_verified",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "local_draft_ready",
-        "pretendard_comic_images_ready",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -32560,9 +31189,7 @@
         "폭발 후보",
         "공식 마감",
         "검토 메모",
-        "official_source_verified",
-        "source_snapshot_saved",
-        "bounty_lane_checked"
+        "공식 근거 확인"
       ],
       "quality": 95,
       "expected_base_net": 0,
@@ -32578,57 +31205,21 @@
         "폭발 후보",
         "공식 마감",
         "검토 메모",
-        "official_source_verified",
-        "source_snapshot_saved",
-        "bounty_lane_checked",
-        "scout_only",
-        "anti_repetition_planned",
-        "no_paid_cta",
-        "attention_gate_explosive",
-        "official_deadline_verified",
-        "official_source_links_included",
+        "공식 근거 확인",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
         "공식 마감",
         "검토 메모",
-        "official_source_verified",
-        "source_snapshot_saved",
-        "bounty_lane_checked",
-        "scout_only",
-        "anti_repetition_planned",
-        "no_paid_cta",
-        "attention_gate_explosive",
-        "official_deadline_verified",
-        "official_source_links_included",
+        "공식 근거 확인",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -33046,11 +31637,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked"
+        "검토 메모"
       ],
       "quality": 93,
       "expected_base_net": 0,
@@ -33064,55 +31654,19 @@
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 16시 마감 이후 stale 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "mobile_centered_qa_passed",
-        "home_thumbnail_verified"
+        "검토 메모",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -33543,9 +32097,8 @@
       "tags": [
         "기타",
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -33561,29 +32114,19 @@
       "next_action": "backlog lane: 공식 플랫폼 main/support/apply 재확인 후 1,200~1,600자 초안 작성, PNG 3장 생성, Tistory 카테고리/렌더/OG/list/mobile QA까지 진행.",
       "risk_flags": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss",
+        "공식 근거 확인",
+        "월별 소멸",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "no_benefit_guarantee"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -33801,10 +32344,10 @@
       "priority": "보통",
       "tags": [
         "기타",
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -33819,30 +32362,20 @@
       "owner": "기획",
       "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "risk_labels": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 근거 확인",
+        "검토 메모",
+        "절약",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "exact_discount_must_use_official_calculator",
-        "no_tax_advice"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -33966,8 +32499,7 @@
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
-        "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "무료 검증"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -33984,22 +32516,14 @@
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "강한 후보",
         "공식 공고 대기",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready",
-        "판매문구 없음",
-        "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "판매문구 없음"
       ],
       "stop_reason": "공식 공고 대기",
       "evidence": [
@@ -34299,11 +32823,11 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required"
+        "검토 메모"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -34317,25 +32841,19 @@
       "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "money_saving",
+        "공식 마감 확인",
+        "절약",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required",
-        "avoid_login_guidance"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -34475,8 +32993,7 @@
         "공식 마감",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "attention_gate_explosive"
+        "판매문구 없음"
       ],
       "quality": 88,
       "expected_base_net": 0,
@@ -34494,20 +33011,8 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "official_deadline_verified",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
@@ -34515,20 +33020,8 @@
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "official_deadline_verified",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "공식 마감 확인",
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -34819,10 +33312,8 @@
         "기타",
         "폭발 후보",
         "무료 검증",
-        "company_unit_application",
-        "판매문구 없음",
-        "attention_gate_explosive",
-        "no_paid_cta"
+        "검토 메모",
+        "판매문구 없음"
       ],
       "quality": 91,
       "expected_base_net": 0,
@@ -34837,42 +33328,16 @@
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "company_unit_application",
+        "검토 메모",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "반복 검토 통과"
       ],
       "risk_labels": [
         "폭발 후보",
         "무료 검증",
-        "company_unit_application",
+        "검토 메모",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "no_paid_cta",
-        "official_source_links_included",
-        "anti_repetition_passed",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "og_thumbnail_verified",
-        "source_links_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified"
+        "반복 검토 통과"
       ],
       "stop_reason": "",
       "evidence": [
@@ -35157,9 +33622,7 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -35175,17 +33638,13 @@
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_schedule_verified",
-        "budget_exhaustion_risk",
-        "policy_loan_not_advice"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -35329,10 +33788,10 @@
       "tags": [
         "기타",
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -35346,17 +33805,17 @@
       "next_action": "execution lane에서 발행 직전 공식 수산대전 환급행사 페이지와 대상 시장을 재확인한 뒤, 짧은 Tistory 글과 Pretendard 카드 3장을 제작·QA한다.",
       "risk_flags": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "risk_labels": [
         "강한 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "official_source_required_before_publish"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -35488,9 +33947,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
-        "budget_exhaustion_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -35506,45 +33964,17 @@
       "next_action": "공개글 검색 유입/반응 추적. 예산 소진 또는 공고 변경 시 stale 여부 재점검.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
-        "budget_exhaustion_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified",
-        "source_links_verified",
-        "no_paid_cta"
+        "판매문구 없음"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
-        "budget_exhaustion_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified",
-        "source_links_verified",
-        "no_paid_cta"
+        "판매문구 없음"
       ],
       "stop_reason": "",
       "evidence": [
@@ -35957,11 +34387,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
+        "공식 근거 확인",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required"
+        "검토 메모"
       ],
       "quality": 92,
       "expected_base_net": 0,
@@ -35975,47 +34404,17 @@
       "next_action": "공개글 검색 유입/반응 추적. 6월15~16일 접수 종료 후 stale 여부 재검토.",
       "risk_flags": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
+        "공식 근거 확인",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish",
-        "scout_only_handoff",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified",
-        "source_links_verified",
-        "image2_comic_style_verified",
-        "no_paid_cta"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "attention_gate_explosive",
-        "official_source_verified",
+        "공식 근거 확인",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish",
-        "scout_only_handoff",
-        "tistory_published_verified",
-        "public_url_verified",
-        "public_visual_qa_passed",
-        "content_qa_passed",
-        "category_verified",
-        "og_thumbnail_verified",
-        "mobile_public_qa_passed",
-        "home_thumbnail_verified",
-        "source_links_verified",
-        "image2_comic_style_verified",
-        "no_paid_cta"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -36372,8 +34771,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증"
@@ -36390,37 +34789,27 @@
       "next_action": "공식 2026 모집 공고가 현재 URL에서 다시 확인될 때까지 공개 발행 금지. 다음 backlog run은 공식 날짜/접수기간/서류 기준을 재확인하고, 불일치가 계속되면 초안을 폐기 또는 2025 종료/공식확인 대기 글로 전면 재작성.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
-        "official_source_verified",
+        "공식 마감 확인",
+        "공식 근거 확인",
         "짧은 신청기간",
         "서류누락 위험",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "no_selection_guarantee",
+        "검토 메모",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "tistory_profile2_default_reprobe_done",
-        "검토 메모"
+        "만화 이미지 준비"
       ],
       "stop_reason": "근거 부족",
       "evidence": [
@@ -36680,11 +35069,10 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "quality": 86,
       "expected_base_net": 0,
@@ -36698,19 +35086,17 @@
       "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
       "risk_flags": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "검토 메모"
       ],
       "stop_reason": "",
       "evidence": [
@@ -36869,9 +35255,8 @@
       "tags": [
         "기타",
         "폭발 후보",
-        "official_source_verified",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음"
       ],
@@ -36887,37 +35272,21 @@
       "next_action": "Tistory 공개 발행과 3회 렌더 QA 완료. 3일/7일 뒤 조회·검색 유입 확인.",
       "risk_flags": [
         "폭발 후보",
-        "official_source_verified",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "no_refund_guarantee",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "free_validation_published",
-        "public_rendered_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "만화 이미지 준비"
       ],
       "risk_labels": [
         "폭발 후보",
-        "official_source_verified",
-        "card_update_deadline",
-        "refund_loss_risk",
+        "공식 근거 확인",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "no_refund_guarantee",
         "초안 준비",
-        "만화 이미지 준비",
-        "local_image_layered_qa_done",
-        "free_validation_published",
-        "public_rendered_qa_passed",
-        "category_verified",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "만화 이미지 준비"
       ],
       "stop_reason": "",
       "evidence": [
