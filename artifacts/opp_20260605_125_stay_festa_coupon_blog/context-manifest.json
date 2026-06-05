@@ -1,0 +1,10 @@
+{
+  "mode": "STANDARD_CRON",
+  "attention_gate": "폭발 후보",
+  "publish_ready": false,
+  "blocked_by": "GPT_IMAGE_2_RATE_LIMIT",
+  "source_recheck": "PASS",
+  "official_recheck": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
+  "image_generation_metadata": "images/01_raw.png.json",
+  "note": "본문 초안은 저장했지만, 사용자가 선호한 GPT Image 2 흑백 잉크 만화 이미지 생성이 rate_limit_exceeded로 실패해 Tistory 공개 발행 금지."
+}

@@ -1,69 +1,46 @@
 {
-  "updated_at": "2026-06-05T03:45:36+09:00",
+  "updated_at": "2026-06-05T16:03:04+09:00",
   "last_run": {
-    "run_id": "2026-06-05_0341_money-flow",
-    "started_at": "2026-06-05T03:45:36+09:00",
-    "finished_at": "2026-06-05T03:45:36+09:00",
+    "run_id": "2026-06-05_1603_money-flow-backlog",
+    "started_at": "2026-06-05T16:03:04+09:00",
+    "finished_at": "2026-06-05T16:03:04+09:00",
     "trigger": "cron",
     "agents_executed": [
-      "research_member",
       "research_lead",
-      "planning_member",
-      "planning_lead",
+      "execution_member",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 4,
-    "opportunities_advanced": 1,
-    "opportunities_rejected": 3,
+    "candidates_discovered": 0,
+    "opportunities_advanced": 0,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/plan.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "time": "2026-06-05T03:45:36+09:00",
-        "agent": "research_member",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "공식 페이지 활성화와 6/11 선착순 할인권 손익 후크 확인."
-      },
-      {
-        "time": "2026-06-05T03:45:36+09:00",
+        "time": "2026-06-05T16:03:04+09:00",
         "agent": "research_lead",
         "decision": "GO",
         "reason_code": null,
-        "summary": "이전 NO_EVIDENCE 후보였으나 A급 공식 근거가 생겨 Attention Gate 폭발 후보. 중복 active opportunity 없음."
+        "summary": "Attention/Cash Gate 폭발 후보 유지."
       },
       {
-        "time": "2026-06-05T03:45:36+09:00",
-        "agent": "planning_lead",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "스카우트 전용 기획 상태로 보관. 초안/발행은 backlog/execution lane에서 품질 게이트 후 진행."
-      },
-      {
-        "time": "2026-06-05T03:45:36+09:00",
+        "time": "2026-06-05T16:03:04+09:00",
         "agent": "redteam",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "할인 보장/잔여수량 단정 금지, 참여 OTA와 지역 제한 확인형으로 쓰면 리스크 낮음."
-      },
-      {
-        "time": "2026-06-05T03:45:36+09:00",
-        "agent": "roi",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록."
+        "decision": "HOLD",
+        "reason_code": "LOW_QUALITY",
+        "summary": "GPT Image 2/Codex rate_limit_exceeded로 이미지 QA/발행 보류."
       }
     ],
-    "summary": "Bounty lane GO 없음. 공식 KTO 숙박세일페스타 6/11 할인권 후보 1건을 scout-only planning 상태로 생성.",
-    "final_report": "주인님, Money Flow 새 작업 scout 실행 결과입니다.\n\n**완료**\n- 후보 4개 비교: bounty 1개 lane NO-GO, 블로그/free-validation 3개 중 1개 GO.\n- 새 작업 생성: `opp_20260605_125_stay_festa_coupon_blog`\n- 공식 KTO 숙박세일페스타 페이지에서 6/11~7/31, 매일 10시 선착순, 최대 7만원 할인 조건 확인.\n\n**시장성 판단**\n- 폭발 후보: 여행 예약 전 “나도 할인권 받나/오전 10시 놓치나” 긴장감이 있고, 직접 할인 손익이 있습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설/전략 자산으로만 기록했습니다.\n\n**대기**\n- 다음 execution/backlog lane에서 본문·흑백 잉크 만화 이미지 제작 후 Tistory 품질 게이트를 진행하면 됩니다.\n- 대시보드: https://bmoh95.github.io/money-flow-dashboard-public/\n\n**필요 승인**\n- 없음."
+    "summary": "Backlog item 1개 처리: 공식 소스 재확인 PASS, 본문 패키지 저장, 이미지 생성 rate limit 때문에 redteam_hold 전환.",
+    "final_report": "주인님, Money Flow 밀린 일감 처리 결과입니다.\n\n**완료**\n- `opp_20260605_125_stay_festa_coupon_blog` 공식 소스 재확인 PASS.\n- Tistory용 본문 초안/로컬 HTML 패키지 저장.\n- 이미지 생성 실패로 공개 발행은 하지 않고 `redteam_hold`로 전환.\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 11일 오전 10시 선착순 할인권이라 직접 손익·마감 긴장감이 있습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이라 검색 유입 가설만 기록했습니다.\n\n**대기**\n- GPT Image 2/Codex rate limit 해소 후 흑백 잉크 만화 이미지 3장 생성·QA 필요. 이미지 없는 발행은 금지했습니다.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 125,
@@ -72,7 +49,7 @@
     "launched": 57,
     "closed_won": 0,
     "closed_lost": 3,
-    "rejected": 56
+    "rejected": 53
   },
   "active_opportunities": [
     {
@@ -1872,18 +1849,16 @@
       "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
       "id": "opp_20260605_125_stay_festa_coupon_blog",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
-      "status": "기획",
+      "status": "검증 보류",
       "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "priority": "높음",
       "tags": [
         "기타",
         "폭발 후보",
-        "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "품질 미달"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -1894,12 +1869,12 @@
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
       "current_owner": "기획",
       "owner": "기획",
-      "next_action": "Execution/backlog lane에서 공식 페이지를 재확인한 뒤 10시 선착순 체크리스트형 Tistory 본문과 흑백 잉크 만화 이미지 3장을 제작한다.",
+      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "이미지 생성 제한",
+        "발행 보류"
       ],
       "risk_labels": [
         "폭발 후보",
@@ -1907,7 +1882,7 @@
         "공식 페이지 현재 활성",
         "판매문구 없음"
       ],
-      "stop_reason": "",
+      "stop_reason": "품질 미달",
       "evidence": [
         {
           "url": "https://ktostay.visitkorea.or.kr/",
@@ -1977,9 +1952,15 @@
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "LOW_QUALITY"
     }
   ],
   "approval_needed": [
@@ -4037,18 +4018,16 @@
       "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
       "id": "opp_20260605_125_stay_festa_coupon_blog",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
-      "status": "기획",
+      "status": "검증 보류",
       "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "priority": "높음",
       "tags": [
         "기타",
         "폭발 후보",
-        "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "품질 미달"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -4059,12 +4038,12 @@
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
       "current_owner": "기획",
       "owner": "기획",
-      "next_action": "Execution/backlog lane에서 공식 페이지를 재확인한 뒤 10시 선착순 체크리스트형 Tistory 본문과 흑백 잉크 만화 이미지 3장을 제작한다.",
+      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "이미지 생성 제한",
+        "발행 보류"
       ],
       "risk_labels": [
         "폭발 후보",
@@ -4072,7 +4051,7 @@
         "공식 페이지 현재 활성",
         "판매문구 없음"
       ],
-      "stop_reason": "",
+      "stop_reason": "품질 미달",
       "evidence": [
         {
           "url": "https://ktostay.visitkorea.or.kr/",
@@ -4142,9 +4121,15 @@
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "LOW_QUALITY"
     }
   ],
   "rejection_summary": {
@@ -4163,221 +4148,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-05-31T23:52:14+09:00",
-      "run_id": "2026-05-31_2349_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "NO_EVIDENCE",
-      "summary": "Search results did not provide a quick, low-user-burden direct payout with clear rules/payout rail fit for this cycle.",
-      "links": [],
-      "agent_label": "시장성 검토",
-      "reason_label": "근거 부족"
-    },
-    {
-      "time": "2026-05-31T23:53:50+09:00",
-      "run_id": "2026-05-31_2349_money-flow",
-      "agent": "redteam",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "Correction after direct PR comparison: codepan candidate has recent open duplicate PRs; no HOLD opportunity created.",
-      "links": [
-        "https://github.com/egoist/codepan/pull/112",
-        "https://github.com/egoist/codepan/pull/113"
-      ],
-      "agent_label": "리스크 검토",
-      "reason_label": "중복"
-    },
-    {
-      "time": "2026-06-01T03:56:19+09:00",
-      "run_id": "2026-06-01_0356_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "6월 자동차세 고지서/연납 혼동 후보 discovered after 3-candidate comparison.",
-      "links": [
-        "https://www.wetax.go.kr/"
-      ],
-      "agent_label": "리서치",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T03:56:19+09:00",
-      "run_id": "2026-06-01_0356_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention Gate 강한 후보; 공식 납부 채널/법령 근거와 시즌성 돈 손실 불안 확인.",
-      "links": [
-        "https://www.law.go.kr/법령/지방세법/제128조"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T03:56:19+09:00",
-      "run_id": "2026-06-01_0356_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Scout-only planning package created; quality score 88.",
-      "links": [],
-      "agent_label": "기획 검수",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T03:56:19+09:00",
-      "run_id": "2026-06-01_0356_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "event": "asset_created",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "evidence/plan/decisions/roi/sample brief assets created.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260601_123_auto_tax_june_notice/plan.md"
-      ],
-      "agent_label": "대시보드",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T04:05:00+09:00",
-      "run_id": "2026-06-01_0356_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260601_123_auto_tax_june_notice",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "archived",
-      "decision": "NO-GO",
-      "reason_code": "DUPLICATE",
-      "summary": "Retracted provisional scout opportunity as duplicate of opp_20260525_108_car_tax_june_prepayment_blog.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/archive/duplicate_retracted/opp_20260601_123_auto_tax_june_notice"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": "중복"
-    },
-    {
-      "time": "2026-06-01T13:54:17.718169+09:00",
-      "run_id": "2026-06-01_1350_money-flow-backlog",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "evidence_added",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Official MSS notice/PDF rechecked; source gate remains PASS after official-host-only TLS retry.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-01_1350_money-flow-backlog/official_recheck_20260601_tls_retry.json"
-      ],
-      "agent_label": "시장성 검토",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T13:54:17.718169+09:00",
-      "run_id": "2026-06-01_1350_money-flow-backlog",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Cleaned local Tistory-ready HTML source links from Markdown syntax to clickable anchors; no CMS publish attempted.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/blog_package/body_tistory_ready_local.html"
-      ],
-      "agent_label": "execution_member",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T13:54:17.718169+09:00",
-      "run_id": "2026-06-01_1350_money-flow-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "redteam_hold",
-      "decision": "HOLD",
-      "reason_code": "AUTH_BLOCKED",
-      "summary": "Tistory/Profile 2 and Default copied CDP routes redirected to login; Kakao screen requires password or QR. Standing L3 does not cover this L4 auth action.",
-      "links": [
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-01_1350_money-flow-backlog/auth_probe_tistory_20260601.json"
-      ],
-      "agent_label": "execution_lead",
-      "reason_label": "인증 차단"
-    },
-    {
-      "time": "2026-06-01T16:22:32+09:00",
-      "run_id": "2026-06-01_1622_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "서울 꿈나래통장 6월19일 전 서류 체크 무료 검증 후보 발견.",
-      "links": [
-        "https://www.welfare.seoul.kr/web/contents/communication1-1.do?schM=view&id=28484&schBcid=swf_news",
-        "https://account.welfare.seoul.kr/web/contents/dreamBank.lp"
-      ],
-      "agent_label": "리서치",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T16:22:32+09:00",
-      "run_id": "2026-06-01_1622_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A급 공식 공고와 프로그램 페이지 확인. 300명/6월19일/서류미비 제외 위험으로 폭발 후보.",
-      "links": [],
-      "agent_label": "시장성 검토",
-      "reason_label": ""
-    },
-    {
-      "time": "2026-06-01T16:22:32+09:00",
-      "run_id": "2026-06-01_1622_money-flow",
-      "agent": "planning_lead",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "decision",
-      "from_status": "planning",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "스카우트 전용 기획 패키지 생성. 초안·이미지·발행은 backlog/execution lane으로 handoff.",
-      "links": [],
-      "agent_label": "기획 검수",
-      "reason_label": ""
-    },
     {
       "time": "2026-06-01T16:22:32+09:00",
       "run_id": "2026-06-01_1622_money-flow",
@@ -4995,6 +4765,59 @@
       ],
       "agent_label": "기획",
       "reason_label": ""
+    },
+    {
+      "time": "2026-06-05T16:03:04+09:00",
+      "run_id": "2026-06-05_1603_money-flow-backlog",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사: 공식 6/11 오전 10시 선착순 할인권 후크로 폭발 후보 유지. 직접 예상 순마진은 0원.",
+      "links": [
+        "https://ktostay.visitkorea.or.kr/"
+      ],
+      "agent_label": "시장성 검토",
+      "reason_label": null
+    },
+    {
+      "time": "2026-06-05T16:03:04+09:00",
+      "run_id": "2026-06-05_1603_money-flow-backlog",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "planning",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Tistory용 본문 초안과 로컬 HTML 패키지 저장. 이미지 생성 실패로 공개 발행은 진행하지 않음.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json"
+      ],
+      "agent_label": "제작",
+      "reason_label": null
+    },
+    {
+      "time": "2026-06-05T16:03:04+09:00",
+      "run_id": "2026-06-05_1603_money-flow-backlog",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "LOW_QUALITY",
+      "summary": "GPT Image 2/Codex 이미지 생성이 rate_limit_exceeded로 실패. 사용자 워크플로상 generic/local fallback 없이 보류.",
+      "links": [
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_raw.png.json"
+      ],
+      "agent_label": "리스크 검토",
+      "reason_label": "품질 미달"
     }
   ],
   "board_columns": [
@@ -29310,18 +29133,16 @@
       "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
       "id": "opp_20260605_125_stay_festa_coupon_blog",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
-      "status": "기획",
+      "status": "검증 보류",
       "status_label": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "priority": "높음",
       "tags": [
         "기타",
         "폭발 후보",
-        "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "품질 미달"
       ],
       "quality": 84,
       "expected_base_net": 0,
@@ -29332,12 +29153,12 @@
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
       "current_owner": "기획",
       "owner": "기획",
-      "next_action": "Execution/backlog lane에서 공식 페이지를 재확인한 뒤 10시 선착순 체크리스트형 Tistory 본문과 흑백 잉크 만화 이미지 3장을 제작한다.",
+      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
       "risk_flags": [
         "폭발 후보",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음"
+        "이미지 생성 제한",
+        "발행 보류"
       ],
       "risk_labels": [
         "폭발 후보",
@@ -29345,7 +29166,7 @@
         "공식 페이지 현재 활성",
         "판매문구 없음"
       ],
-      "stop_reason": "",
+      "stop_reason": "품질 미달",
       "evidence": [
         {
           "url": "https://ktostay.visitkorea.or.kr/",
@@ -29415,9 +29236,15 @@
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "LOW_QUALITY"
     }
   ]
 }
