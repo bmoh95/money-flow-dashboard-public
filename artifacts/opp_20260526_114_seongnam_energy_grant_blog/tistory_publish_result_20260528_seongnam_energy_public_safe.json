@@ -9,7 +9,7 @@
   "image_hits": 3,
   "body_img_count": 7,
   "upload_count": 3,
-  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]",
+  "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
   "twitter_image": "",
   "thumbnail_http": 200,
   "thumbnail_bytes": 60179,
@@ -19,7 +19,7 @@
   "mobile": {
     "http": 200,
     "title_found": true,
-    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]"
+    "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED"
   },
   "home_title_found": true,
   "home_thumb_hint": true,
@@ -33,21 +33,21 @@
   "uploads": [
     {
       "name": "01-seongnam-energy-thumb.png",
-      "url_path": "https://blog.kakaocdn.net/dna/C9E1F/dJMcacXyAgl/AAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/C9E1F/dJMcacXyAgl/AAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H/img.png?credential=REDACTED&expires=REDACTED&allow_ip=&allow_referer=&signature=REDACTED",
       "key": "C9E1F/dJMcacXyAgl/AAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H",
       "filename": "img.png",
       "size": 92235
     },
     {
       "name": "02-seongnam-energy-flow.png",
-      "url_path": "https://blog.kakaocdn.net/dna/pCCub/dJMcafGMAQu/AAAAAAAAAAAAAAAAAAAAAGLuO30UKdEKueU01JIvhn7tinbEnm7sGkejRb7vKk-6/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/pCCub/dJMcafGMAQu/AAAAAAAAAAAAAAAAAAAAAGLuO30UKdEKueU01JIvhn7tinbEnm7sGkejRb7vKk-6/img.png?credential=REDACTED&expires=REDACTED&allow_ip=&allow_referer=&signature=REDACTED",
       "key": "pCCub/dJMcafGMAQu/AAAAAAAAAAAAAAAAAAAAAGLuO30UKdEKueU01JIvhn7tinbEnm7sGkejRb7vKk-6",
       "filename": "img.png",
       "size": 99727
     },
     {
       "name": "03-seongnam-energy-compare.png",
-      "url_path": "https://blog.kakaocdn.net/dna/ohpjL/dJMcadoyKbK/AAAAAAAAAAAAAAAAAAAAADzCW_mIQNW1cxi9IaKI63K31d5OW1EDTrDp38oLt1HN/img.png?credential=[REDACTED]&expires=[REDACTED]&allow_ip=&allow_referer=&signature=[REDACTED]",
+      "url_path": "https://blog.kakaocdn.net/dna/ohpjL/dJMcadoyKbK/AAAAAAAAAAAAAAAAAAAAADzCW_mIQNW1cxi9IaKI63K31d5OW1EDTrDp38oLt1HN/img.png?credential=REDACTED&expires=REDACTED&allow_ip=&allow_referer=&signature=REDACTED",
       "key": "ohpjL/dJMcadoyKbK/AAAAAAAAAAAAAAAAAAAAADzCW_mIQNW1cxi9IaKI63K31d5OW1EDTrDp38oLt1HN",
       "filename": "img.png",
       "size": 93073
@@ -65,7 +65,7 @@
       "image_hits": 3,
       "body_img_count": 7,
       "upload_count": 3,
-      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]",
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
       "twitter_image": "",
       "thumbnail_http": 200,
       "thumbnail_bytes": 60179,
@@ -75,7 +75,7 @@
       "mobile": {
         "http": 200,
         "title_found": true,
-        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]"
+        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED"
       },
       "home_title_found": true,
       "home_thumb_hint": true,
@@ -94,7 +94,7 @@
       "image_hits": 3,
       "body_img_count": 7,
       "upload_count": 3,
-      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]",
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
       "twitter_image": "",
       "thumbnail_http": 200,
       "thumbnail_bytes": 60179,
@@ -104,7 +104,7 @@
       "mobile": {
         "http": 200,
         "title_found": true,
-        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]"
+        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED"
       },
       "home_title_found": true,
       "home_thumb_hint": true,
@@ -123,7 +123,7 @@
       "image_hits": 3,
       "body_img_count": 7,
       "upload_count": 3,
-      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]",
+      "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED",
       "twitter_image": "",
       "thumbnail_http": 200,
       "thumbnail_bytes": 60179,
@@ -133,7 +133,7 @@
       "mobile": {
         "http": 200,
         "title_found": true,
-        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3D[REDACTED]%26expires%3D[REDACTED]%26allow_ip%3D%26allow_referer%3D%26signature%3D[REDACTED]"
+        "og_image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FC9E1F%2FdJMcacXyAgl%2FAAAAAAAAAAAAAAAAAAAAACYmxuWXfkLvLixPmK-HILfdgUlnYfGb1E4NkwlQ1G8H%2Fimg.png%3Fcredential%3DREDACTED%26expires%3DREDACTED%26allow_ip%3D%26allow_referer%3D%26signature%3DREDACTED"
       },
       "home_title_found": true,
       "home_thumb_hint": true,
