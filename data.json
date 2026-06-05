@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-06T04:20:00+09:00",
+  "updated_at": "2026-06-06T04:26:00+09:00",
   "last_run": {
     "run_id": "2026-06-06_0410_money-flow-bounty-gate",
     "started_at": "2026-06-06T04:10:00+09:00",
-    "finished_at": "2026-06-06T04:20:00+09:00",
+    "finished_at": "2026-06-06T04:26:00+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -20,7 +20,8 @@
       "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/research.md",
       "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/redteam.md",
       "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/roi.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/filter_report_after_skiplist.json"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/filter_report_after_skiplist.json",
+      "skill:github-bounty-approval-playbook"
     ],
     "approval_needed": [],
     "decisions": [
@@ -41,9 +42,15 @@
         "decision": "NO-GO",
         "reason_code": "OPPORTUNITY_COST",
         "summary": "No safe cash/platform PR candidate; skiplist update reduces future false positives."
+      },
+      {
+        "agent": "retrospective",
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "Patched bounty playbook: failed Opire /reward minimum bot comments invalidate bounty labels before coding."
       }
     ],
-    "summary": "Bounty gate false GO downgraded; no PR submitted; skiplist strengthened.",
+    "summary": "Bounty gate false GO downgraded; no PR submitted; skiplist and bounty playbook strengthened.",
     "final_report": "material_skiplist_update"
   },
   "metrics": {
@@ -3342,6 +3349,19 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-06-06T04:26:00+09:00",
+      "run_id": "2026-06-06_0410_money-flow-bounty-gate",
+      "agent": "retrospective",
+      "opportunity_id": null,
+      "event": "asset_created",
+      "from_status": null,
+      "to_status": null,
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Patched github-bounty-approval-playbook for failed Opire reward-minimum false positives.",
+      "links": []
+    },
     {
       "time": "2026-06-06T04:20:00+09:00",
       "run_id": "2026-06-06_0410_money-flow-bounty-gate",
