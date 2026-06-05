@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-06T01:02:58+09:00",
+  "updated_at": "2026-06-06T04:20:00+09:00",
   "last_run": {
-    "run_id": "2026-06-06_0058_money-flow-bounty-gate",
-    "started_at": "2026-06-06T00:58:00+09:00",
-    "finished_at": "2026-06-06T01:02:58+09:00",
+    "run_id": "2026-06-06_0410_money-flow-bounty-gate",
+    "started_at": "2026-06-06T04:10:00+09:00",
+    "finished_at": "2026-06-06T04:20:00+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_member",
@@ -12,27 +12,39 @@
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 8,
+    "candidates_discovered": 58,
     "opportunities_advanced": 0,
-    "opportunities_rejected": 1,
+    "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0058_money-flow-bounty-gate/candidate_outcome_kcolbchain_stablecoin_63.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_126_kcolbchain_stablecoin_access_control/opportunity.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_126_kcolbchain_stablecoin_access_control/evidence.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_126_kcolbchain_stablecoin_access_control/decisions.md",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_126_kcolbchain_stablecoin_access_control/roi.md"
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/candidate_outcomes.json",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/research.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/redteam.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/roi.md",
+      "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_0410_money-flow-bounty-gate/filter_report_after_skiplist.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260606_126_kcolbchain_stablecoin_access_control",
+        "agent": "research_lead",
         "decision": "NO-GO",
-        "reason_code": "HIGH_USER_INPUT",
-        "summary": "Apparent GO bounty rejected after fresh preflight: USDC on Base, Contributor tier, existing claim comment."
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "Pre-run apparent GO downgraded: no actual Opire reward; retry rescue candidates failed payout/competition/safety gates."
+      },
+      {
+        "agent": "redteam",
+        "decision": "NO-GO",
+        "reason_code": "HIGH_RISK",
+        "summary": "Wallet/token, cancelled funding, duplicate PR queues, or external business-development scopes blocked auto-PR."
+      },
+      {
+        "agent": "roi",
+        "decision": "NO-GO",
+        "reason_code": "OPPORTUNITY_COST",
+        "summary": "No safe cash/platform PR candidate; skiplist update reduces future false positives."
       }
     ],
-    "summary": "Bounty gate GO candidate corrected to NO-GO after deep preflight; skiplist hardened for kcolbchain/USDC Base pattern.",
-    "final_report": "주인님, Money Flow bounty gate 실행 결과입니다.\n\n**완료**\n- 후보 8개 deep preflight, pre-run GO 1개를 최종 NO-GO로 정정했습니다.\n- `kcolbchain/stablecoin-toolkit#63`는 USDC on Base 지급, Contributor tier(1+ merged PR), 기존 claim comment가 있어 자동 구현/PR 중단했습니다.\n- skiplist 보강: kcolbchain org + USDC/Base token payout 패턴 추가.\n\n**NO-GO 이유**\n- 지급: USDC on Base라 지갑/token rail 필요.\n- 참여자격: Contributor tier 필요.\n- 경쟁: 이미 claim-like comment 존재.\n\n**대기**\n- 대시보드 갱신: 로컬/공개 미러 검증 완료."
+    "summary": "Bounty gate false GO downgraded; no PR submitted; skiplist strengthened.",
+    "final_report": "material_skiplist_update"
   },
   "metrics": {
     "total": 126,
@@ -3330,6 +3342,47 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-06-06T04:20:00+09:00",
+      "run_id": "2026-06-06_0410_money-flow-bounty-gate",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "Pre-run apparent GO downgraded because Opire reward creation failed minimum amount; no real funded bounty.",
+      "links": [
+        "https://github.com/aozorayama45/Apache-DolphinScheduler/issues/1"
+      ]
+    },
+    {
+      "time": "2026-06-06T04:20:00+09:00",
+      "run_id": "2026-06-06_0410_money-flow-bounty-gate",
+      "agent": "redteam",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "HIGH_RISK",
+      "summary": "Retry rescue candidates failed due to duplicate PRs, cancelled funding, token/wallet payout, or external non-PR scope.",
+      "links": []
+    },
+    {
+      "time": "2026-06-06T04:20:00+09:00",
+      "run_id": "2026-06-06_0410_money-flow-bounty-gate",
+      "agent": "roi",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "OPPORTUNITY_COST",
+      "summary": "No safe bounty PR submitted; skiplist strengthened to reduce future false positives.",
+      "links": []
+    },
     {
       "time": "2026-06-02T22:41:21+09:00",
       "run_id": "2026-06-02_2232_money-flow-backlog",
