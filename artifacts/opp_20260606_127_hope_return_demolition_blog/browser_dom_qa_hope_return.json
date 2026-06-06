@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-06-07T01:31:00+09:00",
+  "url": "https://beemo.tistory.com/138?mfqa=browser",
+  "title": "폐업 소상공인 점포철거비, 철거 전에 이 조건부터 보세요 :: 검증노트",
+  "category": "돈관리·구매체크",
+  "result": "PASS",
+  "bodyTextHasForbidden": [],
+  "images": [
+    {"i": 1, "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "renderedWidth": 760, "renderedHeight": 428, "captionGap": 7, "nextGap": 26},
+    {"i": 2, "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "renderedWidth": 760, "renderedHeight": 428, "captionGap": 7, "nextGap": 26},
+    {"i": 3, "complete": true, "naturalWidth": 1200, "naturalHeight": 675, "renderedWidth": 760, "renderedHeight": 428, "captionGap": 7, "nextGap": 26}
+  ],
+  "og_image_present": true,
+  "og_default_placeholder": false,
+  "notes": "Browser DOM QA passed: 3 public body images loaded with explicit 1200x675 natural size; caption gap 7px and caption-to-heading gap 26px match baseline; no raw Markdown/work-note artifacts."
+}
