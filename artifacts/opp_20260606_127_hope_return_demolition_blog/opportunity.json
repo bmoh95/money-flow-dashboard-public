@@ -1,0 +1,119 @@
+{
+  "opportunity_id": "opp_20260606_127_hope_return_demolition_blog",
+  "title": "폐업 소상공인 점포철거비, 철거 전 놓치면 못 받는 조건",
+  "type": "other",
+  "status": "redteam_hold",
+  "created_at": "2026-06-06T13:00:58+09:00",
+  "updated_at": "2026-06-06T21:17:56+09:00",
+  "source_run_id": "2026-06-06_1255_money-flow-scout",
+  "current_owner": "execution_lead",
+  "buyer_or_payer": "폐업 예정 또는 2023년 이후 폐업한 임차 점포 소상공인, 철거·원상복구 비용을 줄이고 싶은 독자",
+  "channel": "Tistory 무료 검증 블로그 — 소상공인 폐업지원/점포철거비 검색 유입 실험",
+  "evidence": [
+    {
+      "url": "https://www.sbiz.or.kr/nhrp/pblanc/pblancView.do?cMenuNo=100102&directCall=Y&pMenuNo=100100&selPblancClCode=BCC008",
+      "grade": "A",
+      "summary": "희망리턴패키지 공식 공고. 2026 원스톱폐업지원 수정 공고, 신청기간 예산 소진시, 점포철거비 지원은 소상공인24 접수.",
+      "checked_at": "2026-06-06T13:00:58+09:00"
+    },
+    {
+      "url": "https://www.sbiz.or.kr/file/dwldAtchFile.do?atchmnflNo=ADN00000000003710648&fileSn=4&pageGb=EDC",
+      "grade": "A",
+      "summary": "공식 PDF. 점포철거비 지원규모 33,000건 내외, 폐업일별 최대 400만원/600만원, 전용면적 3.3㎡당 20만원 이내, 전자세금계산서 공급가액만 지원 및 자력철거 제외 조건 확인.",
+      "checked_at": "2026-06-06T13:00:58+09:00"
+    },
+    {
+      "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/official_source_snapshots.json",
+      "grade": "B",
+      "summary": "공식 페이지/PDF 추출 스냅샷과 fact proof 저장.",
+      "checked_at": "2026-06-06T13:00:58+09:00"
+    }
+  ],
+  "pricing": {
+    "expected_price": 0,
+    "platform_fee_pct": 0,
+    "conservative_units": 0,
+    "base_units": 0,
+    "optimistic_units": 0
+  },
+  "scores": {
+    "quality": 86,
+    "user_involvement": 0,
+    "cash_distance": 4,
+    "payout_certainty": 1
+  },
+  "margin": {
+    "conservative_net": 0,
+    "base_net": 0,
+    "optimistic_net": 0,
+    "base_net_margin_pct": null
+  },
+  "approval_required": false,
+  "approval_reason": null,
+  "risk_flags": [
+    "ATTENTION_EXPLOSIVE_CANDIDATE",
+    "공식 공고",
+    "예산 소진",
+    "무료 검증",
+    "판매문구 없음"
+  ],
+  "decision_history": [
+    {
+      "time": "2026-06-06T13:00:58+09:00",
+      "agent": "research_member",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 공고/PDF에서 예산 소진시, 점포철거비 최대 400만/600만원, 신청 조건 확인."
+    },
+    {
+      "time": "2026-06-06T13:00:58+09:00",
+      "agent": "research_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "돈/폐업비용/예산소진/철거 전 절차라는 강한 클릭 긴장감. 중복 없음. Attention Gate 폭발 후보."
+    },
+    {
+      "time": "2026-06-06T13:00:58+09:00",
+      "agent": "planning_lead",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "첫 화면에서 철거 전 체크리스트와 지원불가 조건을 제시하면 즉시 효용이 큼. 품질 86점."
+    },
+    {
+      "time": "2026-06-06T13:00:58+09:00",
+      "agent": "redteam",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "신청 대행·수급 보장 표현 금지, 지역/업종/증빙 예외를 공식 확인형으로 쓰면 안전."
+    },
+    {
+      "time": "2026-06-06T13:00:58+09:00",
+      "agent": "roi",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록."
+    },
+    {
+      "time": "2026-06-06T21:17:56+09:00",
+      "agent": "execution_lead",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "공개 시도 결과 AUTH_BLOCKED로 보류."
+    }
+  ],
+  "assets": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/official_source_snapshots.json",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/official_notice_text.txt",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/2026_hope_return_onestop_closure_notice.pdf",
+    "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-06_1255_money-flow-scout/candidate_outcomes.json",
+    "https://www.tistory.com/auth/login?redirectUrl=https%3A%2F%2Fbeemo.tistory.com%2Fmanage%2Fnewpost",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/title.txt",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/body_tistory_ready_local.html",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/attention_cash_gate_20260606.md",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/02-hope-return-demolition-eligible.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/03-hope-return-demolition-docs.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/01-hope-return-demolition-thumb.png"
+  ],
+  "next_action": "Tistory 인증/게시 제한/편집 자동화 상태를 다음 backlog run에서 재확인한다.",
+  "stop_reason_code": "AUTH_BLOCKED"
+}
