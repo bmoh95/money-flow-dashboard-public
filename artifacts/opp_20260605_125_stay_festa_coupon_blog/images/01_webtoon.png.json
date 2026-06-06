@@ -1,0 +1,53 @@
+{
+  "saved_path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png",
+  "prompt": "Polished black-and-white vertical Korean webtoon/manga for a Tistory blog article, 4 stacked panels, mobile-readable. Theme: 2026 대한민국 숙박세일페스타, coupon starts June 11 at 10 AM, get coupon before booking and check conditions. Same friendly Korean guide woman with round glasses and a traveler with phone. Large clean speech balloons integrated into composition, no extra text, no brand logos.\nPanel 1: traveler about to reserve lodging on phone, confused. Speech balloon from traveler, tail to traveler mouth: \"예약 먼저 할까?\"\nPanel 2: guide points to clock showing 10:00 and coupon ticket. Speech balloon from guide, tail to guide mouth: \"6월 11일 10시, 쿠폰 먼저!\"\nPanel 3: phone screen shows map outside 수도권 and checklist icons. Speech balloon from guide, tail to guide mouth: \"지역·금액·연박 조건을 같이 봐요\"\nPanel 4: traveler checks payment screen happily with discount applied. Speech balloon from traveler, tail to traveler mouth: \"결제 전 적용금액까지 확인!\"\nUse natural readable Korean Gothic-like lettering, thick ink panel borders, clear faces, high contrast, no garbled pseudo-text.",
+  "model": "gpt-5.4",
+  "image_model": "gpt-image-2",
+  "reasoning_effort": "medium",
+  "prompt_mode": "fidelity",
+  "enhancement_profile": "none",
+  "research": "off",
+  "size": "1024x1536",
+  "quality": "medium",
+  "background": "auto",
+  "format": "png",
+  "moderation": "low",
+  "action": "auto",
+  "count": 1,
+  "index": 1,
+  "inputs": {
+    "edit_image": null,
+    "reference_images": []
+  },
+  "revised_prompt": "Polished black-and-white vertical Korean webtoon/manga for a Tistory blog article, 4 stacked panels, mobile-readable. Theme: 2026 대한민국 숙박세일페스타, coupon starts June 11 at 10 AM, get coupon before booking and check conditions. Same friendly Korean guide woman with round glasses and a traveler with phone. Large clean speech balloons integrated into composition, no extra text, no brand logos.\nPanel 1: traveler about to reserve lodging on phone, confused. Speech balloon from traveler, tail to traveler mouth: \"예약 먼저 할까?\"\nPanel 2: guide points to clock showing 10:00 and coupon ticket. Speech balloon from guide, tail to guide mouth: \"6월 11일 10시, 쿠폰 먼저!\"\nPanel 3: phone screen shows map outside 수도권 and checklist icons. Speech balloon from guide, tail to guide mouth: \"지역·금액·연박 조건을 같이 봐요\"\nPanel 4: traveler checks payment screen happily with discount applied. Speech balloon from traveler, tail to traveler mouth: \"결제 전 적용금액까지 확인!\"\nUse natural readable Korean Gothic-like lettering, thick ink panel borders, clear faces, high contrast, no garbled pseudo-text.\n\nVisible text items to render exactly and only as readable text:\n\"2026 대한민국 숙박세일페스타\"\n\"예약 먼저 할까?\"\n\"6월 11일 10시, 쿠폰 먼저!\"\n\"지역·금액·연박 조건을 같이 봐요\"\n\"결제 전 적용금액까지 확인!\"\n\"10:00\"\n\"수도권\"",
+  "usage": {
+    "input_tokens": 5577,
+    "input_tokens_details": {
+      "cached_tokens": 0
+    },
+    "output_tokens": 373,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 5950
+  },
+  "web_search_calls": 0,
+  "events_saved": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png.events.jsonl",
+  "raw_event_count": 18,
+  "event_types": {
+    "response.created": 1,
+    "response.in_progress": 1,
+    "response.output_item.added": 2,
+    "response.image_generation_call.in_progress": 1,
+    "response.image_generation_call.generating": 1,
+    "response.image_generation_call.partial_image": 2,
+    "keepalive": 3,
+    "response.output_item.done": 2,
+    "response.content_part.added": 1,
+    "response.output_text.done": 1,
+    "response.content_part.done": 1,
+    "response.completed": 2
+  },
+  "partial_images": 2,
+  "created_at": "2026-06-07T05:43:56.866317"
+}

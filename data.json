@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-07T01:29:08+09:00",
+  "updated_at": "2026-06-07T05:56:13+09:00",
   "last_run": {
-    "run_id": "2026-06-07_0124_money-flow-backlog",
-    "started_at": "2026-06-07T01:24:38+09:00",
-    "finished_at": "2026-06-07T01:29:08+09:00",
+    "run_id": "2026-06-07_0540_money-flow-backlog",
+    "started_at": "2026-06-07T05:40:00+09:00",
+    "finished_at": "2026-06-07T05:56:13+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,24 +17,23 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/tistory_publish_result_hope_return_20260607_public_safe.json",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/body_published_payload_20260607.html",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/01-hope-return-demolition-thumb.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/02-hope-return-demolition-eligible.png",
-      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260606_127_hope_return_demolition_blog/assets/images/03-hope-return-demolition-docs.png"
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/02_webtoon.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/03_webtoon.png",
+      "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/image_qa_stay_festa_20260607.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "agent": "execution_lead",
-        "opportunity_id": "opp_20260606_127_hope_return_demolition_blog",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "Tistory 공개 발행 및 렌더 QA 완료."
+        "agent": "redteam",
+        "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
+        "decision": "HOLD",
+        "reason_code": "AUTH_BLOCKED",
+        "summary": "이미지 QA는 통과했으나 Tistory manage가 Kakao 비밀번호/QR 화면으로 리디렉션."
       }
     ],
-    "summary": "희망리턴패키지 점포철거비 글 공개 및 tracking 전환.",
-    "final_report": "주인님, Money Flow backlog 처리 결과입니다.\n\n**완료**\n- `폐업 소상공인 점포철거비` 글을 Tistory에 공개하고 `tracking`으로 전환했습니다.\n- Tistory: https://beemo.tistory.com/138\n- Profile 2 인증 회복 확인, 이미지 3장 업로드, 공개 렌더 QA 2회 완료.\n\n**시장성 판단**\n- 폭발 후보 유지: 철거 전 증빙을 놓치면 최대 400만/600만원 지원 가능성 손실이 있고, 예산 소진형 공고입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음."
+    "summary": "숙박세일페스타 글 이미지 생성 완료, Tistory auth block으로 공개 보류.",
+    "final_report": "주인님, Money Flow backlog 처리 결과입니다.\n\n**완료**\n- `숙박세일페스타 6월 11일 할인권` backlog 1건을 처리했습니다.\n- 공식 페이지 재확인 완료: 6/11~7/31, 매일 오전 10시 선착순, 비수도권 인구감소지역 조건 확인.\n- Codex/GPT Image 2로 흑백 4패널 웹툰 이미지 3장 생성 및 QA 통과.\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 11일 오전 10시 시작, 선착순/소진 가능성, 2만~7만원 할인 손익이 있어 클릭·검색 수요가 현재형입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- Tistory/Profile 2가 Kakao 비밀번호/QR 로그인 화면으로 이동해 공개 발행은 보류했습니다. 비밀번호·QR·2FA·captcha는 자동 처리하지 않았습니다.\n\n**필요 승인**\n- 없음. 로그인/QR이 회복되면 다음 backlog run에서 자동 재시도 가능합니다."
   },
   "metrics": {
     "total": 127,
@@ -2048,35 +2047,38 @@
       "key": "MF-125",
       "raw_status": "redteam_hold",
       "status": "검증 보류",
-      "column": "검증 보류",
+      "column": "백로그",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
       "type": "기타",
       "owner": "리스크 검토",
       "buyer_or_payer": "6월 11일 이후 국내 숙박을 예약하려는 여행자, 인구감소지역 숙박 할인권을 놓치기 싫은 독자",
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
-      "quality": 84,
+      "quality": 88,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
-      "stop_reason": "검토 메모",
+      "next_action": "Tistory/Profile 2 manage 세션이 회복되면 저장된 Codex/GPT Image 2 웹툰 3장과 발행용 HTML을 사용해 공개 발행하고 strict rendered QA를 진행한다. 비밀번호/QR/2FA/captcha 입력은 하지 않는다.",
+      "stop_reason": "인증 필요",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음",
-        "IMAGE2_RATE_LIMIT",
-        "본문 초안 저장",
-        "발행 보류"
+        "official_source_reverified",
+        "gpt_image2_comic_assets_ready",
+        "local_image_qa_passed",
+        "TISTORY_AUTH_BLOCKED",
+        "free_validation_only",
+        "no_sales_cta"
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 근거 재확인",
+        "GPT Image 2 이미지 준비",
+        "이미지 QA 통과",
+        "Tistory 인증 필요",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음",
-        "검토 메모",
-        "본문 초안 저장",
-        "발행 보류"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -2157,50 +2159,22 @@
         }
       ],
       "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "title": "official_source_snapshots.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "title": "candidate_outcomes.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "title": "body.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260605_125_stay_festa_coupon_blog/body.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "title": "body_local_not_publish_ready.html",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "title": "context-manifest.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "title": "attention_cash_gate.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "title": "official_recheck.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/02_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/03_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/image_qa_stay_festa_20260607.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/auth_probe_tistory_profile2.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "AUTH_BLOCKED"
     }
   ],
   "approval_needed": [
@@ -4446,35 +4420,38 @@
       "key": "MF-125",
       "raw_status": "redteam_hold",
       "status": "검증 보류",
-      "column": "검증 보류",
+      "column": "백로그",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
       "type": "기타",
       "owner": "리스크 검토",
       "buyer_or_payer": "6월 11일 이후 국내 숙박을 예약하려는 여행자, 인구감소지역 숙박 할인권을 놓치기 싫은 독자",
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
-      "quality": 84,
+      "quality": 88,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
-      "stop_reason": "검토 메모",
+      "next_action": "Tistory/Profile 2 manage 세션이 회복되면 저장된 Codex/GPT Image 2 웹툰 3장과 발행용 HTML을 사용해 공개 발행하고 strict rendered QA를 진행한다. 비밀번호/QR/2FA/captcha 입력은 하지 않는다.",
+      "stop_reason": "인증 필요",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음",
-        "IMAGE2_RATE_LIMIT",
-        "본문 초안 저장",
-        "발행 보류"
+        "official_source_reverified",
+        "gpt_image2_comic_assets_ready",
+        "local_image_qa_passed",
+        "TISTORY_AUTH_BLOCKED",
+        "free_validation_only",
+        "no_sales_cta"
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 근거 재확인",
+        "GPT Image 2 이미지 준비",
+        "이미지 QA 통과",
+        "Tistory 인증 필요",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음",
-        "검토 메모",
-        "본문 초안 저장",
-        "발행 보류"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -4555,50 +4532,22 @@
         }
       ],
       "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "title": "official_source_snapshots.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "title": "candidate_outcomes.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "title": "body.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260605_125_stay_festa_coupon_blog/body.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "title": "body_local_not_publish_ready.html",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "title": "context-manifest.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "title": "attention_cash_gate.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "title": "official_recheck.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/02_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/03_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/image_qa_stay_festa_20260607.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/auth_probe_tistory_profile2.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "AUTH_BLOCKED"
     }
   ],
   "rejection_summary": {
@@ -4612,6 +4561,16 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-06-07T05:56:13+09:00",
+      "run_id": "2026-06-07_0540_money-flow-backlog",
+      "agent": "리스크 검토",
+      "opportunity_id": "opp_20260605_125_stay_festa_coupon_blog",
+      "event": "decision",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "이미지 QA 통과 후 Tistory 인증 필요로 공개 보류."
+    },
     {
       "time": "2026-06-05T16:03:04+09:00",
       "run_id": "2026-06-05_1603_money-flow-backlog",
@@ -30274,35 +30233,38 @@
       "key": "MF-125",
       "raw_status": "redteam_hold",
       "status": "검증 보류",
-      "column": "검증 보류",
+      "column": "백로그",
       "title": "숙박세일페스타 6월 11일 할인권, 오전 10시 전에 볼 것",
       "type": "기타",
       "owner": "리스크 검토",
       "buyer_or_payer": "6월 11일 이후 국내 숙박을 예약하려는 여행자, 인구감소지역 숙박 할인권을 놓치기 싫은 독자",
       "channel": "Tistory 무료 검증 블로그 — 정부 숙박할인권 검색 유입 실험",
-      "quality": 84,
+      "quality": 88,
       "expected_base_net": 0,
       "base_net_margin_pct": null,
       "expected_price": 0,
-      "next_action": "GPT Image 2/Codex rate_limit_exceeded가 풀리면 흑백 잉크 만화 이미지 3장을 재생성·QA한 뒤 Tistory 공개 발행/렌더 QA를 진행한다. 이미지 없는 bare-text 발행 금지.",
-      "stop_reason": "검토 메모",
+      "next_action": "Tistory/Profile 2 manage 세션이 회복되면 저장된 Codex/GPT Image 2 웹툰 3장과 발행용 HTML을 사용해 공개 발행하고 strict rendered QA를 진행한다. 비밀번호/QR/2FA/captcha 입력은 하지 않는다.",
+      "stop_reason": "인증 필요",
       "risk_flags": [
         "ATTENTION_EXPLOSIVE_CANDIDATE",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음",
-        "IMAGE2_RATE_LIMIT",
-        "본문 초안 저장",
-        "발행 보류"
+        "official_source_reverified",
+        "gpt_image2_comic_assets_ready",
+        "local_image_qa_passed",
+        "TISTORY_AUTH_BLOCKED",
+        "free_validation_only",
+        "no_sales_cta"
       ],
       "risk_labels": [
         "폭발 후보",
+        "공식 근거 재확인",
+        "GPT Image 2 이미지 준비",
+        "이미지 QA 통과",
+        "Tistory 인증 필요",
         "무료 검증",
-        "공식 페이지 현재 활성",
-        "판매문구 없음",
-        "검토 메모",
-        "본문 초안 저장",
-        "발행 보류"
+        "판매문구 없음"
       ],
       "evidence": [
         {
@@ -30383,50 +30345,22 @@
         }
       ],
       "assets": [
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "title": "official_source_snapshots.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "title": "candidate_outcomes.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "title": "body.md",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
-          "viewer": "viewer.html?file=artifacts/opp_20260605_125_stay_festa_coupon_blog/body.md"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "title": "body_local_not_publish_ready.html",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "title": "context-manifest.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "title": "attention_cash_gate.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json"
-        },
-        {
-          "path": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "title": "official_recheck.json",
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
-          "viewer": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json"
-        }
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/official_source_snapshots.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_0341_money-flow/candidate_outcomes.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/body_local_not_publish_ready.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/context-manifest.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/attention_cash_gate.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-05_1603_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/01_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/02_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/images/03_webtoon.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260605_125_stay_festa_coupon_blog/assets/blog_package/image_qa_stay_festa_20260607.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-07_0540_money-flow-backlog/auth_probe_tistory_profile2.json"
       ],
-      "approval_required": false
+      "approval_required": false,
+      "stop_reason_code": "AUTH_BLOCKED"
     },
     {
       "id": "opp_20260606_126_kcolbchain_stablecoin_access_control",
