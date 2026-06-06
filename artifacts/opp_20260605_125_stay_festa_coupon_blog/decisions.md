@@ -1,5 +1,0 @@
-- research_member: GO / - — 공식 페이지 활성화와 6/11 선착순 할인권 손익 후크 확인.
-- research_lead: GO / - — 이전 NO_EVIDENCE 후보였으나 A급 공식 근거가 생겨 Attention Gate 폭발 후보. 중복 active opportunity 없음.
-- planning_lead: GO / - — 스카우트 전용 기획 상태로 보관. 초안/발행은 backlog/execution lane에서 품질 게이트 후 진행.
-- redteam: GO / - — 할인 보장/잔여수량 단정 금지, 참여 OTA와 지역 제한 확인형으로 쓰면 리스크 낮음.
-- roi: GO / - — 무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.
