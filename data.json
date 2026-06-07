@@ -18,7 +18,11 @@
       "runs/2026-06-07_1949_money-flow-bounty-gate/deep_preflight_georgianatowne1_etcd_1.json",
       "runs/2026-06-07_1949_money-flow-bounty-gate/deep_preflight_commaai_opendbc_3426.json",
       "runs/2026-06-07_1949_money-flow-bounty-gate/candidate_outcomes_after_agent_preflight.json",
-      "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_skiplist_update.json"
+      "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_skiplist_update.json",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/public_stage_signed_url_scan.json",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/github_pages_verify.json",
+      "scripts/bounty_candidate_filter.py",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_script_patch.json"
     ],
     "approval_needed": [],
     "decisions": [
@@ -35,8 +39,8 @@
         "summary": "Hardware/vehicle validation and broad car-port scope block low-touch automated PR work."
       }
     ],
-    "summary": "Bounty gate wake candidate was downgraded after deep preflight; no actionable cash/platform PR candidate remains. Skiplist updated for repeated Opire below-minimum personal clone false positives.",
-    "final_report": "주인님, 현금성 bounty gate 1건을 deep preflight했고 자동 PR은 진행하지 않았습니다.\n\n**완료**\n- `georgianatowne1/etcd #1`은 스크립트상 GO였지만 Opire 댓글에서 `/reward 10`이 플랫폼 최소금액 미달로 거절된 것을 확인해 NO-GO로 내렸습니다.\n- 반복 오탐 방지를 위해 `bounty_scout/skiplist.json`에 `georgianatowne1` hard block을 추가하고 필터를 재실행했습니다.\n\n**NO-GO 이유**\n- 실제 funded cash/platform bounty가 없음: Opire bot이 $10 reward 생성을 거절했습니다.\n- rescue 후보 `commaai/opendbc #3426`도 F-150/TRON 하드웨어·차량 검증이 필요한 broad car-port라 low-touch 자동 PR 대상이 아닙니다."
+    "summary": "Bounty gate wake candidate was downgraded after deep preflight; no actionable cash/platform PR candidate remains. Skiplist updated for repeated Opire below-minimum personal clone false positives. Local dashboard and approved GitHub Pages mirror were refreshed and verified after cache-bust retry. Bounty filter now hard-flags Opire $10 below-minimum hints before rescue ranking.",
+    "final_report": "주인님, 현금성 bounty gate 1건을 deep preflight했고 자동 PR은 진행하지 않았습니다.\n\n**완료**\n- `georgianatowne1/etcd #1`은 스크립트상 GO였지만 Opire 댓글에서 `/reward 10`이 플랫폼 최소금액 미달로 거절된 것을 확인해 NO-GO로 내렸습니다.\n- 반복 오탐 방지를 위해 `bounty_scout/skiplist.json`에 `georgianatowne1` hard block을 추가하고 필터를 재실행했습니다.\n\n**NO-GO 이유**\n- 실제 funded cash/platform bounty가 없음: Opire bot이 $10 reward 생성을 거절했습니다.\n- rescue 후보 `commaai/opendbc #3426`도 F-150/TRON 하드웨어·차량 검증이 필요한 broad car-port라 low-touch 자동 PR 대상이 아닙니다.\n- 로컬/공개 대시보드 data.json도 같은 run_id로 검증했습니다.\n- 필터도 보강했습니다: Opire `$10`/`/reward 10` 최소금액 미달 힌트는 rescue 후보로 올리지 않게 했습니다."
   },
   "metrics": {
     "total": 127,
@@ -1087,6 +1091,15 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-06-07T19:52:17+09:00",
+      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
+      "agent": "원장/대시보드",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Opire $10 최소금액 미달 후보를 필터 단계에서 차단하도록 guardrail 보강."
+    },
     {
       "time": "2026-06-07T19:52:17+09:00",
       "run_id": "2026-06-07_1949_money-flow-bounty-gate",
