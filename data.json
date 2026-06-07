@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-07T22:55:08+09:00",
+  "updated_at": "2026-06-08T03:13:21+09:00",
   "last_run": {
-    "run_id": "2026-06-07_2250_money-flow-backlog",
-    "started_at": "2026-06-07T22:55:01+09:00",
-    "finished_at": "2026-06-07T22:55:08+09:00",
+    "run_id": "2026-06-08_0309_money-flow-backlog",
+    "started_at": "2026-06-08T03:09:13+09:00",
+    "finished_at": "2026-06-08T03:13:21+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,28 +17,29 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "runs/2026-06-07_2250_money-flow-backlog/attention_cash_gate.json",
-      "runs/2026-06-07_2250_money-flow-backlog/official_recheck.json",
-      "runs/2026-06-07_2250_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
-      "opportunities/opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck/assets/tistory_publish_result_20260607_sbiz_delivery_fee_public_safe.json"
+      "runs/2026-06-08_0309_money-flow-backlog/attention_cash_gate.json",
+      "runs/2026-06-08_0309_money-flow-backlog/official_recheck.json",
+      "runs/2026-06-08_0309_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
+      "opportunities/opp_20260529_119_seoul_youth_savings_blog/assets/tistory_publish_result_20260608_seoul_youth_savings_public_safe.json",
+      "runs/2026-06-08_0309_money-flow-backlog/public_render_qa_final.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
+        "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
         "decision": "GO",
         "reason_code": null,
         "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck. Material publish completed.",
+    "summary": "Processed exactly one backlog item: opp_20260529_119_seoul_youth_savings_blog. Material publish completed.",
     "final_report": ""
   },
   "metrics": {
     "total": 127,
-    "active": 9,
+    "active": 8,
     "approval_needed": 1,
-    "launched": 61,
+    "launched": 62,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 57
