@@ -1,37 +1,42 @@
 {
-  "updated_at": "2026-06-07T18:38:55+09:00",
+  "updated_at": "2026-06-07T19:52:17+09:00",
   "last_run": {
-    "run_id": "2026-06-07_1832_money-flow-backlog",
-    "started_at": "2026-06-07T18:32:31+09:00",
-    "finished_at": "2026-06-07T18:38:55+09:00",
+    "run_id": "2026-06-07_1949_money-flow-bounty-gate",
+    "started_at": "2026-06-07T19:49:24+09:00",
+    "finished_at": "2026-06-07T19:52:17+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
-      "execution_member",
-      "execution_lead",
       "redteam",
       "roi",
       "ledger_dashboard_manager"
     ],
-    "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "candidates_discovered": 8,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [
-      "runs/2026-06-07_1832_money-flow-backlog/publish_update_dream_safe.json",
-      "runs/2026-06-07_1832_money-flow-backlog/public_render_qa_final.json",
-      "opportunities/opp_20260601_124_dream_savings_blog/assets/tistory_publish_result_20260607_dream_savings_public_safe.json"
+      "runs/2026-06-07_1949_money-flow-bounty-gate/deep_preflight_georgianatowne1_etcd_1.json",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/deep_preflight_commaai_opendbc_3426.json",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/candidate_outcomes_after_agent_preflight.json",
+      "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_skiplist_update.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260601_124_dream_savings_blog",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
+        "candidate": "georgianatowne1/etcd#1",
+        "decision": "NO-GO",
+        "reason_code": "PAYMENT_UNCLEAR",
+        "summary": "Script GO downgraded: Opire /reward 10 failed platform minimum, so no funded bounty exists."
+      },
+      {
+        "candidate": "commaai/opendbc#3426",
+        "decision": "NO-GO",
+        "reason_code": "HIGH_USER_INPUT",
+        "summary": "Hardware/vehicle validation and broad car-port scope block low-touch automated PR work."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260601_124_dream_savings_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260601_124_dream_savings_blog` 서울 꿈나래통장 서류 체크 글을 Tistory에 공개 발행했습니다.\n- GPT Image 2 만화 3장 업로드, 본문 300명/50% 근거 보강, 공개 렌더 QA 3회, 브라우저 시각 QA, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/145\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 19일 18시 마감, 300명 모집, 서류 미비 시 제외 위험이 있어 독자 손익·기한성이 분명합니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음."
+    "summary": "Bounty gate wake candidate was downgraded after deep preflight; no actionable cash/platform PR candidate remains. Skiplist updated for repeated Opire below-minimum personal clone false positives.",
+    "final_report": "주인님, 현금성 bounty gate 1건을 deep preflight했고 자동 PR은 진행하지 않았습니다.\n\n**완료**\n- `georgianatowne1/etcd #1`은 스크립트상 GO였지만 Opire 댓글에서 `/reward 10`이 플랫폼 최소금액 미달로 거절된 것을 확인해 NO-GO로 내렸습니다.\n- 반복 오탐 방지를 위해 `bounty_scout/skiplist.json`에 `georgianatowne1` hard block을 추가하고 필터를 재실행했습니다.\n\n**NO-GO 이유**\n- 실제 funded cash/platform bounty가 없음: Opire bot이 $10 reward 생성을 거절했습니다.\n- rescue 후보 `commaai/opendbc #3426`도 F-150/TRON 하드웨어·차량 검증이 필요한 broad car-port라 low-touch 자동 PR 대상이 아닙니다."
   },
   "metrics": {
     "total": 127,
@@ -1082,6 +1087,33 @@
     "actual_net_total": 0
   },
   "recent_events": [
+    {
+      "time": "2026-06-07T19:52:17+09:00",
+      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
+      "agent": "시장성 검토",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "지급 불명확",
+      "summary": "georgianatowne1/etcd#1: Opire 최소금액 미달로 실제 funded bounty 없음."
+    },
+    {
+      "time": "2026-06-07T19:52:17+09:00",
+      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
+      "agent": "리스크 검토",
+      "event": "decision",
+      "decision": "NO-GO",
+      "reason_code": "사용자 부담 높음",
+      "summary": "commaai/opendbc#3426: 차량·하드웨어 검증이 필요한 broad car-port라 자동 PR 제외."
+    },
+    {
+      "time": "2026-06-07T19:52:17+09:00",
+      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
+      "agent": "수익성 검토",
+      "event": "asset_created",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "bounty skiplist에 georgianatowne1 hard block 추가."
+    },
     {
       "time": "2026-06-06T04:44:33.771112+09:00",
       "run_id": "2026-06-06_0441_money-flow-scout",
