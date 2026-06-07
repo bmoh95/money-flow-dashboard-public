@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-08T03:17:32+09:00",
+  "updated_at": "2026-06-08T03:18:57+09:00",
   "last_run": {
     "run_id": "2026-06-08_0309_money-flow-backlog",
     "started_at": "2026-06-08T03:09:13+09:00",
-    "finished_at": "2026-06-08T03:17:32+09:00",
+    "finished_at": "2026-06-08T03:18:57+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -33,7 +33,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260529_119_seoul_youth_savings_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260529_119_seoul_youth_savings_blog` 서울 희망두배 청년통장 무료 검증 글을 Tistory에 공개 발행했습니다.\n- 공식 공고 재확인, Codex/GPT Image 만화 3장 업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/149\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 8일~19일 짧은 접수창, 최대 1,080만원 구조, 서류 미비 탈락 위험이 있어 지금 독자 손익이 큽니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260529_119_seoul_youth_savings_blog` 서울 희망두배 청년통장 무료 검증 글을 Tistory에 공개 발행했습니다.\n- 공식 공고 재확인, Codex/GPT Image 만화 3장 업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- GitHub Pages 대시보드 미러도 최신 `tracking` 상태로 검증했습니다.\n- 공개 URL: https://beemo.tistory.com/149\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 8일~19일 짧은 접수창, 최대 1,080만원 구조, 서류 미비 탈락 위험이 있어 지금 독자 손익이 큽니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 없음.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
