@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-08T07:41:45+09:00",
+  "updated_at": "2026-06-08T07:44:58+09:00",
   "last_run": {
     "run_id": "2026-06-08_0725_money-flow-backlog",
     "started_at": "2026-06-08T07:25:15+09:00",
-    "finished_at": "2026-06-08T07:41:45+09:00",
+    "finished_at": "2026-06-08T07:44:58+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -35,7 +35,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260522_101_gg_interview_allowance_blog. Material publish completed.",
-    "final_report": ""
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260522_101_gg_interview_allowance_blog` 경기도 청년 면접수당 6월 1차 준비 글을 Tistory에 공개 발행했습니다.\n- 공식 근거 재확인, Codex/GPT Image 4컷 만화 3장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/151\n\n**시장성 판단**\n- 강한 후보 유지: 면접 1회 5만원·연 최대 15만원, 6월 1차 예정, 면접확인서/대체서약서 오해가 있어 독자 손익이 분명합니다. 단, 폭발 후보는 아니어서 과장 없이 Standard 공개로 처리했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- 없음. GitHub Pages 대시보드 미러도 최신 상태로 검증했습니다.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
