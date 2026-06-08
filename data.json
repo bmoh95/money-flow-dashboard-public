@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-08T16:45:20+09:00",
+  "updated_at": "2026-06-08T20:49:57+09:00",
   "last_run": {
-    "run_id": "2026-06-08_1615_money-flow-backlog",
-    "started_at": "2026-06-08T16:15:34+09:00",
-    "finished_at": "2026-06-08T16:45:20+09:00",
+    "run_id": "2026-06-08_2047_money-flow-backlog",
+    "started_at": "2026-06-08T20:47:56+09:00",
+    "finished_at": "2026-06-08T20:49:57+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,26 +17,28 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "runs/2026-06-08_1615_money-flow-backlog/attention_cash_gate.json",
-      "runs/2026-06-08_1615_money-flow-backlog/official_recheck.json",
-      "runs/2026-06-08_1615_money-flow-backlog/image_qa.json",
-      "runs/2026-06-08_1615_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
+      "runs/2026-06-08_2047_money-flow-backlog/attention_cash_gate.json",
+      "runs/2026-06-08_2047_money-flow-backlog/official_recheck.json",
+      "runs/2026-06-08_2047_money-flow-backlog/image_qa.json",
+      "runs/2026-06-08_2047_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
       "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/contact_sheet.png",
       "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/body_tistory_ready_local.html",
       "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/01-foodvoucher-monthly-expiry-4panel.png",
-      "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/02-foodvoucher-amount-check-4panel.png"
+      "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/02-foodvoucher-amount-check-4panel.png",
+      "opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/tistory_publish_result_20260608_foodvoucher_public_safe.json",
+      "runs/2026-06-08_2047_money-flow-backlog/public_render_qa_final.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260524_107_foodvoucher_monthly_benefit_blog",
-        "decision": "HOLD",
-        "reason_code": "AUTH_BLOCKED",
-        "summary": "Codex images/body ready; Tistory manage CDP session missing."
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260524_107_foodvoucher_monthly_benefit_blog. Image/body assets advanced; external publish blocked by missing live manage CDP session.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건을 발행 직전 상태까지 올렸습니다.\n\n**완료**\n- `opp_20260524_107_foodvoucher_monthly_benefit_blog` 농식품바우처 글의 Attention/Cash Gate를 재심사했고, 공식 근거로 대상·월지원금·당월 미사용 소멸 가능성·신청 경로를 재확인했습니다.\n- Codex/GPT Image raw SSE로 4컷 웹툰 이미지 2장을 생성했고, 실제 픽셀 QA에서 한국어 말풍선 가독성/패널 흐름을 통과했습니다.\n- Tistory-ready 본문과 contact sheet를 저장했고, 기회 상태를 `redteam_hold`로 정리했습니다.\n\n**시장성 판단**\n- 강한 후보: 월 지원금이 있고 당월 미사용 시 소멸될 수 있어 독자 손익이 분명합니다. 폭발 후보까지는 아니므로 과장 없는 Standard 글로 유지합니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- Tistory live Chrome Profile 2 manage CDP 세션이 현재 열려 있지 않아 업로드/공개 렌더 QA는 보류입니다. 다음 backlog run에서 같은 후보를 재스캔해 세션이 있으면 바로 발행하면 됩니다. GitHub Pages 대시보드 미러는 최신 상태로 검증했습니다.\n\n**필요 승인**\n- 없음. 새 로그인/2FA/비밀번호 입력은 하지 않았습니다."
+    "summary": "Processed exactly one backlog item: opp_20260524_107_foodvoucher_monthly_benefit_blog. Material publish completed.",
+    "final_report": ""
   },
   "metrics": {
     "total": 127,
