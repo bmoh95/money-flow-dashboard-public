@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-06-08T16:41:43+09:00",
+  "opportunity_id": "opp_20260524_107_foodvoucher_monthly_benefit_blog",
+  "files": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/01-foodvoucher-monthly-expiry-4panel.png",
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260524_107_foodvoucher_monthly_benefit_blog/assets/blog_package_20260608_foodvoucher/02-foodvoucher-amount-check-4panel.png"
+  ],
+  "accepted_count": 2,
+  "qa": "PASS",
+  "notes": "두 Codex/GPT Image 4컷 만화 모두 패널 흐름과 한국어 말풍선이 읽힘. 3번째 이미지는 upstream server_error/EMPTY_RESPONSE로 제외하고 본문을 2장 구성으로 축소."
+}
