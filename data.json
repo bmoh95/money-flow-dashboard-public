@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-09T18:01:52+09:00",
+  "updated_at": "2026-06-10T02:17:15+09:00",
   "last_run": {
-    "run_id": "2026-06-09_1731_money-flow-backlog",
-    "started_at": "2026-06-09T17:31:34+09:00",
-    "finished_at": "2026-06-09T18:01:52+09:00",
+    "run_id": "2026-06-10_0206_money-flow-backlog",
+    "started_at": "2026-06-10T02:06:48+09:00",
+    "finished_at": "2026-06-10T02:17:15+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -17,34 +17,33 @@
     "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
-      "runs/2026-06-09_1731_money-flow-backlog/attention_cash_gate.json",
-      "runs/2026-06-09_1731_money-flow-backlog/official_recheck.json",
-      "runs/2026-06-09_1731_money-flow-backlog/image_qa.json",
-      "runs/2026-06-09_1731_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
-      "opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/contact_sheet.png",
-      "opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/body_tistory_ready_local.html",
-      "opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/01-climate-payback-5sec-4panel.png",
-      "opportunities/opp_20260526_113_climate_card_payback_blog/assets/tistory_publish_result_20260609_climate_payback_public_safe.json",
-      "runs/2026-06-09_1731_money-flow-backlog/public_render_qa_final.json",
-      "money-flow/references/session-2026-06-09-tistory-nonmanage-tab-cookie-auth.md"
+      "runs/2026-06-10_0206_money-flow-backlog/attention_cash_gate.json",
+      "runs/2026-06-10_0206_money-flow-backlog/official_recheck.json",
+      "runs/2026-06-10_0206_money-flow-backlog/image_qa.json",
+      "runs/2026-06-10_0206_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
+      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/contact_sheet.png",
+      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/body_tistory_ready_local.html",
+      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/01-gg-artist-income-4panel.png",
+      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/tistory_publish_result_20260610_artist_income_public_safe.json",
+      "runs/2026-06-10_0206_money-flow-backlog/public_render_qa_final.json"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+        "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
         "decision": "GO",
         "reason_code": null,
         "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260526_113_climate_card_payback_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260526_113_climate_card_payback_blog` 기후동행카드 6월 페이백 글을 Tistory에 공개 발행했습니다.\n- 서울시 공식 안내/FAQ 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/163\n- `money-flow` 참고 메모 추가: Tistory manage 탭이 없어도 기존 Tistory/Kakao 탭 쿠키로 관리 API를 먼저 probe하는 auth 복구 패턴을 기록했습니다.\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 말 전 확인하지 않으면 월 3만원, 최대 9만원 페이백을 놓칠 수 있는 직접 손익 이슈입니다. 환급 보장 없이 공식 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
+    "summary": "Processed exactly one backlog item: opp_20260529_120_gg_artist_income_blog. Material publish completed.",
+    "final_report": ""
   },
   "metrics": {
     "total": 127,
-    "active": 6,
+    "active": 4,
     "approval_needed": 1,
-    "launched": 64,
+    "launched": 66,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 57
@@ -62,14 +61,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving"
       ],
       "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving",
         "무료 검증",
@@ -166,13 +165,12 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "risk_flags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
@@ -337,113 +335,6 @@
       "updated_at": "2026-05-27T02:42:36+09:00"
     },
     {
-      "key": "MF-113",
-      "id": "opp_20260526_113_climate_card_payback_blog",
-      "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "quality": 88,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "money_saving",
-        "무료 검증"
-      ],
-      "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "money_saving",
-        "무료 검증",
-        "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required"
-      ],
-      "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
-      "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
-      "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
-          "grade": "A",
-          "summary": "서울시 공식 기후동행카드 페이백 이벤트 안내. 2026년 4~6월, 4.1~6.30 기간 내, 월 3만원 페이백, 3개월 최대 9만원, 티머니 카드&페이 가입/카드등록/신청 필수 및 제외대상 확인.",
-          "checked_at": "2026-05-26T06:21:02+09:00",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
-        },
-        {
-          "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
-          "grade": "A",
-          "summary": "서울시 공식 페이백 FAQ. 6월 30일 충전 후 7월 29일까지 만료 이용 시 대상, 후불카드/한도 미만/환불·단기권 제외/홈페이지 신청 등 독자 오해 지점 확인.",
-          "checked_at": "2026-05-26T06:21:02+09:00",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
-          "grade": "B",
-          "summary": "공식/로컬 샘플 5개 기반 구조·반복 회피·이미지 계획 메모.",
-          "checked_at": "2026-05-26T06:21:02+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty/direct-payout pool은 rescue 0개. 보조 lane에서 서울시 공식 기후동행카드 페이백 4~6월/월 3만원/최대 9만원 후보 발견."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 안내와 FAQ가 있고 6월 30일 충전/이용 기준, 티머니 신청 필수, 제외조건으로 독자 손익 긴장감이 높음."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Scout-only planning 패키지 생성. 초안/게시/이미지 제작은 backlog/execution lane으로 넘김."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "첫 화면에 5초 판정·신청 누락 조건·공식 확인 순서를 제시하면 품질 88점. 최근 지원금 글과 구조 차별 가능."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "로그인/계좌/카드등록은 독자 직접 확인으로만 안내하고, 환급 보장·대행 표현을 피하면 리스크 낮음."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
-      ],
-      "updated_at": "2026-05-26T06:21:02+09:00"
-    },
-    {
       "key": "MF-116",
       "id": "opp_20260527_116_sbc_policy_loan_q3_blog",
       "title": "소상공인 정책자금 3분기 대리대출 7월 6일 접수 무료 검증 글",
@@ -455,13 +346,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -560,14 +451,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -648,124 +539,6 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
       ],
       "updated_at": "2026-05-27T19:43:19+09:00"
-    },
-    {
-      "key": "MF-121",
-      "id": "opp_20260529_120_gg_artist_income_blog",
-      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "quality": 86,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "무료 검증",
-        "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
-      ],
-      "stop_reason": null,
-      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
-      "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
-      "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
-          "grade": "A",
-          "summary": "경기도 공고 제2026-972호. 2026.5.11~6.19 18:00 접수, 연 150만원 이내 현금 2회 분할, 참여 28개 시군, 용인·고양·성남 미참여, 중위소득 120% 이하, 예술활동증명 필요.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        },
-        {
-          "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002",
-          "grade": "A",
-          "summary": "경기도 공식 블로그 검색결과로 같은 사업 안내 확인. 제목/첫 화면 샘플링 근거.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
-          "grade": "B",
-          "summary": "DDG 비교 샘플에서 공식 공고와 다수 2026 정리 글 확인. 검색 의도 신호로만 사용.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty lane은 무 safe GO. 경기도 예술인 기회소득은 공식 PDF와 직접 현금/마감/제외조건이 명확해 후보로 채택."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 근거, 대상 독자, 채널, 첫 화면 효용이 명확. 실패 요인은 선발보장 오해·사회보장급여 변동 리스크이며 본문 주의문으로 제어 가능."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "5초 판정 + 참여 제외 시군/예술활동증명/소득/중복제외 갈림길 구조로 기획."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "최근 지원금 글 반복을 피하려고 예술인 전용 갈림길과 공식 PDF 문장 읽는 순서로 차별화. 품질 86."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Scout-only run이라 초안/이미지 제작은 backlog lane으로 넘김. 사용자 승인 대기가 아님."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "로컬 planning package와 후보 비교 파일 완성. 외부 게시 없음."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "3대 실패모드: 용인·고양·성남 미참여 오해, 문체부 지원금 중복 제외 누락, 기초생활수급자 급여 변동 위험. 모두 본문 상단 주의로 완화 가능."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
-      ],
-      "updated_at": "2026-05-29T14:15:13+09:00"
     }
   ],
   "approval_needed": [
@@ -985,14 +758,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving"
       ],
       "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving",
         "무료 검증",
@@ -1089,13 +862,12 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "risk_flags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
@@ -1260,113 +1032,6 @@
       "updated_at": "2026-05-27T02:42:36+09:00"
     },
     {
-      "key": "MF-113",
-      "id": "opp_20260526_113_climate_card_payback_blog",
-      "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "quality": 88,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "money_saving",
-        "무료 검증"
-      ],
-      "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "money_saving",
-        "무료 검증",
-        "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required"
-      ],
-      "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
-      "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
-      "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://news.seoul.go.kr/traffic/archives/category/public-news_c1/climate-accompany-card_c1/payback-accompany_card",
-          "grade": "A",
-          "summary": "서울시 공식 기후동행카드 페이백 이벤트 안내. 2026년 4~6월, 4.1~6.30 기간 내, 월 3만원 페이백, 3개월 최대 9만원, 티머니 카드&페이 가입/카드등록/신청 필수 및 제외대상 확인.",
-          "checked_at": "2026-05-26T06:21:02+09:00",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
-        },
-        {
-          "url": "https://news.seoul.go.kr/traffic/public/climatecard-faq/faq-payback",
-          "grade": "A",
-          "summary": "서울시 공식 페이백 FAQ. 6월 30일 충전 후 7월 29일까지 만료 이용 시 대상, 후불카드/한도 미만/환불·단기권 제외/홈페이지 신청 등 독자 오해 지점 확인.",
-          "checked_at": "2026-05-26T06:21:02+09:00",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-26_0614_money-flow/climate_payback_sources_recheck.json"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
-          "grade": "B",
-          "summary": "공식/로컬 샘플 5개 기반 구조·반복 회피·이미지 계획 메모.",
-          "checked_at": "2026-05-26T06:21:02+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty/direct-payout pool은 rescue 0개. 보조 lane에서 서울시 공식 기후동행카드 페이백 4~6월/월 3만원/최대 9만원 후보 발견."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 공식 안내와 FAQ가 있고 6월 30일 충전/이용 기준, 티머니 신청 필수, 제외조건으로 독자 손익 긴장감이 높음."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Scout-only planning 패키지 생성. 초안/게시/이미지 제작은 backlog/execution lane으로 넘김."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "첫 화면에 5초 판정·신청 누락 조건·공식 확인 순서를 제시하면 품질 88점. 최근 지원금 글과 구조 차별 가능."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "로그인/계좌/카드등록은 독자 직접 확인으로만 안내하고, 환급 보장·대행 표현을 피하면 리스크 낮음."
-        },
-        {
-          "time": "2026-05-26T06:21:02+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
-      ],
-      "updated_at": "2026-05-26T06:21:02+09:00"
-    },
-    {
       "key": "MF-116",
       "id": "opp_20260527_116_sbc_policy_loan_q3_blog",
       "title": "소상공인 정책자금 3분기 대리대출 7월 6일 접수 무료 검증 글",
@@ -1378,13 +1043,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -1483,14 +1148,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -1571,124 +1236,6 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260527_117_fsale_june_onnuri_refund_blog/assets/sample_brief.json"
       ],
       "updated_at": "2026-05-27T19:43:19+09:00"
-    },
-    {
-      "key": "MF-121",
-      "id": "opp_20260529_120_gg_artist_income_blog",
-      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
-      "type": "기타",
-      "quality": 86,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "무료 검증",
-        "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
-      ],
-      "stop_reason": null,
-      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
-      "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
-      "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
-          "grade": "A",
-          "summary": "경기도 공고 제2026-972호. 2026.5.11~6.19 18:00 접수, 연 150만원 이내 현금 2회 분할, 참여 28개 시군, 용인·고양·성남 미참여, 중위소득 120% 이하, 예술활동증명 필요.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        },
-        {
-          "url": "https://m.blog.naver.com/gyeonggi_gov/224278896002",
-          "grade": "A",
-          "summary": "경기도 공식 블로그 검색결과로 같은 사업 안내 확인. 제목/첫 화면 샘플링 근거.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/candidate_search_results.json",
-          "grade": "B",
-          "summary": "DDG 비교 샘플에서 공식 공고와 다수 2026 정리 글 확인. 검색 의도 신호로만 사용.",
-          "checked_at": "2026-05-29T14:15:13+09:00"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "bounty lane은 무 safe GO. 경기도 예술인 기회소득은 공식 PDF와 직접 현금/마감/제외조건이 명확해 후보로 채택."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "A급 근거, 대상 독자, 채널, 첫 화면 효용이 명확. 실패 요인은 선발보장 오해·사회보장급여 변동 리스크이며 본문 주의문으로 제어 가능."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "planning_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "5초 판정 + 참여 제외 시군/예술활동증명/소득/중복제외 갈림길 구조로 기획."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "최근 지원금 글 반복을 피하려고 예술인 전용 갈림길과 공식 PDF 문장 읽는 순서로 차별화. 품질 86."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "Scout-only run이라 초안/이미지 제작은 backlog lane으로 넘김. 사용자 승인 대기가 아님."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "로컬 planning package와 후보 비교 파일 완성. 외부 게시 없음."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "3대 실패모드: 용인·고양·성남 미참여 오해, 문체부 지원금 중복 제외 누락, 기초생활수급자 급여 변동 위험. 모두 본문 상단 주의로 완화 가능."
-        },
-        {
-          "time": "2026-05-29T14:15:13+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": null,
-          "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/decisions.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
-      ],
-      "updated_at": "2026-05-29T14:15:13+09:00"
     }
   ],
   "rejection_summary": {
@@ -1702,233 +1249,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-06-07T18:38:55+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 PASS — 폭발 후보 유지.",
-      "links": [
-        "https://beemo.tistory.com/145"
-      ]
-    },
-    {
-      "time": "2026-06-07T18:38:55+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 이미지 업로드/공개 발행 완료.",
-      "links": [
-        "https://beemo.tistory.com/145"
-      ]
-    },
-    {
-      "time": "2026-06-07T18:38:55+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "status_changed",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "본문 보강, 공개 렌더 QA 3회, 브라우저 시각 QA PASS 후 tracking 전환.",
-      "links": [
-        "https://beemo.tistory.com/145"
-      ]
-    },
-    {
-      "time": "2026-06-07T18:38:55+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 확인형/무료 검증 문구로 리스크 통과.",
-      "links": [
-        "https://beemo.tistory.com/145"
-      ]
-    },
-    {
-      "time": "2026-06-07T18:38:55+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "roi",
-      "opportunity_id": "opp_20260601_124_dream_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
-      "links": [
-        "https://beemo.tistory.com/145"
-      ]
-    },
-    {
-      "time": "2026-06-07T18:43:43+09:00",
-      "run_id": "2026-06-07_1832_money-flow-backlog",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Patched money-flow skill: tracking cards must be visible in board_columns or mapped into an existing operations column; verify with title filter and modal after publish-to-tracking.",
-      "links": [
-        "/Users/beemo/.hermes/skills/business/money-flow/SKILL.md"
-      ]
-    },
-    {
-      "time": "2026-06-07T19:52:17+09:00",
-      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "PAYMENT_UNCLEAR",
-      "summary": "Downgraded script GO candidate georgianatowne1/etcd#1 after Opire bot rejected /reward 10 below platform minimum.",
-      "links": [
-        "https://github.com/georgianatowne1/etcd/issues/1"
-      ]
-    },
-    {
-      "time": "2026-06-07T19:52:17+09:00",
-      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
-      "agent": "redteam",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "HIGH_USER_INPUT",
-      "summary": "Rescue candidate commaai/opendbc#3426 requires vehicle/hardware validation and broad car-port work; not safe low-touch automatic PR.",
-      "links": [
-        "https://github.com/commaai/opendbc/issues/3426"
-      ]
-    },
-    {
-      "time": "2026-06-07T19:52:17+09:00",
-      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Updated bounty skiplist with georgianatowne1 hard-block org and saved filter rerun artifacts.",
-      "links": [
-        "bounty_scout/skiplist.json",
-        "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_skiplist_update.json"
-      ]
-    },
-    {
-      "time": "2026-06-07T19:52:17+09:00",
-      "run_id": "2026-06-07_1949_money-flow-bounty-gate",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Patched bounty_candidate_filter.py to hard-flag Opire $10/reward 10 below-minimum hints before rescue ranking.",
-      "links": [
-        "scripts/bounty_candidate_filter.py",
-        "runs/2026-06-07_1949_money-flow-bounty-gate/filter_report_after_script_patch.json"
-      ]
-    },
-    {
-      "time": "2026-06-07T22:55:08+09:00",
-      "run_id": "2026-06-07_2250_money-flow-backlog",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 PASS — 강한 후보.",
-      "links": [
-        "https://beemo.tistory.com/147"
-      ]
-    },
-    {
-      "time": "2026-06-07T22:55:08+09:00",
-      "run_id": "2026-06-07_2250_money-flow-backlog",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 이미지 업로드/공개 발행 완료.",
-      "links": [
-        "https://beemo.tistory.com/147"
-      ]
-    },
-    {
-      "time": "2026-06-07T22:55:08+09:00",
-      "run_id": "2026-06-07_2250_money-flow-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "status_changed",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 렌더 QA 3회 PASS, tracking 전환.",
-      "links": [
-        "https://beemo.tistory.com/147"
-      ]
-    },
-    {
-      "time": "2026-06-07T22:55:08+09:00",
-      "run_id": "2026-06-07_2250_money-flow-backlog",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 확인형/무료 검증 문구로 리스크 통과.",
-      "links": [
-        "https://beemo.tistory.com/147"
-      ]
-    },
-    {
-      "time": "2026-06-07T22:55:08+09:00",
-      "run_id": "2026-06-07_2250_money-flow-backlog",
-      "agent": "roi",
-      "opportunity_id": "opp_20260530_122_sbiz_delivery_fee_fake_2026_factcheck",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
-      "links": [
-        "https://beemo.tistory.com/147"
-      ]
-    },
     {
       "time": "2026-06-08T03:13:21+09:00",
       "run_id": "2026-06-08_0309_money-flow-backlog",
@@ -2293,6 +1613,233 @@
       "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
       "links": [
         "https://beemo.tistory.com/157"
+      ]
+    },
+    {
+      "time": "2026-06-09T01:25:27.744082+09:00",
+      "run_id": "2026-06-09_0122_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "Standard scout found no material new opportunity; no dashboard/opportunity state changed.",
+      "links": [
+        "runs/2026-06-09_0122_money-flow/candidate_outcomes.json",
+        "runs/2026-06-09_0122_money-flow/filter_retry_report.json"
+      ]
+    },
+    {
+      "time": "2026-06-09T05:25:18.623097+09:00",
+      "run_id": "2026-06-09_0525_money-flow-backlog",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OFFICIAL_NOTICE_PENDING",
+      "summary": "공식 메인 일정은 재확인 대상이나 2026 1차 개별 모집공고/FAQ 공개 전 상태로 판단해 기존 redteam_hold 유지.",
+      "links": [
+        "https://youth.jobaba.net/youth/main/main.do",
+        "https://www.gjf.or.kr/main/pst/list.do?pst_id=notice_ap",
+        "https://www.gjf.or.kr/main/pst/list.do?pst_id=notice_ap&search=%EC%B2%AD%EB%85%84%EB%B3%B5%EC%A7%80%ED%8F%AC%EC%9D%B8%ED%8A%B8%202026"
+      ]
+    },
+    {
+      "time": "2026-06-09T09:28:13.106147+09:00",
+      "run_id": "2026-06-09_0926_money-flow-backlog",
+      "agent": "attention_cash_gate",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OFFICIAL_NOTICE_PENDING",
+      "summary": "6/9 backlog-only recheck: strong attention candidate, but individual 2026 notice/FAQ still pending; no material state change or publication.",
+      "links": [
+        "runs/2026-06-09_0926_money-flow-backlog/attention_cash_gate_recheck.json"
+      ]
+    },
+    {
+      "time": "2026-06-09T13:37:20+09:00",
+      "run_id": "2026-06-09_1333_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_MATERIAL_CANDIDATE",
+      "summary": "Standard scout produced no new persistent opportunity: bounty GO/HOLD 0; strong blog fallbacks duplicate existing work.",
+      "links": []
+    },
+    {
+      "time": "2026-06-09T17:57:41+09:00",
+      "run_id": "2026-06-09_1731_money-flow-backlog",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사 PASS — 폭발 후보 유지.",
+      "links": [
+        "https://beemo.tistory.com/163"
+      ]
+    },
+    {
+      "time": "2026-06-09T17:57:41+09:00",
+      "run_id": "2026-06-09_1731_money-flow-backlog",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Codex 만화 1장 생성/QA 후 Tistory 공개 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/163"
+      ]
+    },
+    {
+      "time": "2026-06-09T17:57:41+09:00",
+      "run_id": "2026-06-09_1731_money-flow-backlog",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "status_changed",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 3회 PASS, tracking 전환.",
+      "links": [
+        "https://beemo.tistory.com/163"
+      ]
+    },
+    {
+      "time": "2026-06-09T17:57:41+09:00",
+      "run_id": "2026-06-09_1731_money-flow-backlog",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 확인형/무료 검증 문구로 리스크 통과.",
+      "links": [
+        "https://beemo.tistory.com/163"
+      ]
+    },
+    {
+      "time": "2026-06-09T17:57:41+09:00",
+      "run_id": "2026-06-09_1731_money-flow-backlog",
+      "agent": "roi",
+      "opportunity_id": "opp_20260526_113_climate_card_payback_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
+      "links": [
+        "https://beemo.tistory.com/163"
+      ]
+    },
+    {
+      "time": "2026-06-09T22:05:58+09:00",
+      "run_id": "2026-06-09_2204_money-flow",
+      "agent": "attention_cash_gate",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OFFICIAL_NOTICE_PENDING",
+      "summary": "Backlog-only official recheck found no material change: main schedule still shows 2026.06.24 notice and 2026.07.01~07.13 application; individual notice/FAQ not available before publication.",
+      "links": [
+        "https://youth.jobaba.net/youth/main/main.do",
+        "runs/2026-06-09_2204_money-flow/official_recheck_gg_youth_welfare_20260609.json"
+      ]
+    },
+    {
+      "time": "2026-06-10T02:17:15+09:00",
+      "run_id": "2026-06-10_0206_money-flow-backlog",
+      "agent": "research_lead",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Attention/Cash Gate 재심사 PASS — 폭발 후보 유지.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
+      ]
+    },
+    {
+      "time": "2026-06-10T02:17:15+09:00",
+      "run_id": "2026-06-10_0206_money-flow-backlog",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "execution",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "Codex 만화 1장 생성/QA 후 Tistory 공개 발행 완료.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
+      ]
+    },
+    {
+      "time": "2026-06-10T02:17:15+09:00",
+      "run_id": "2026-06-10_0206_money-flow-backlog",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "status_changed",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 3회 PASS, tracking 전환.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
+      ]
+    },
+    {
+      "time": "2026-06-10T02:17:15+09:00",
+      "run_id": "2026-06-10_0206_money-flow-backlog",
+      "agent": "redteam",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공식 확인형/무료 검증 문구로 리스크 통과.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
+      ]
+    },
+    {
+      "time": "2026-06-10T02:17:15+09:00",
+      "run_id": "2026-06-10_0206_money-flow-backlog",
+      "agent": "roi",
+      "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+      "event": "decision",
+      "from_status": "execution",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
       ]
     }
   ],
@@ -16442,13 +15989,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "attention_gate_strong",
         "카테고리 확인",
         "fact_qa_passed",
         "무료 검증"
       ],
       "risk_flags": [
-        "강한 후보",
+        "attention_gate_strong",
         "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
@@ -16607,13 +16154,13 @@
       "tags": [
         "무료 검증",
         "판매문구 없음",
-        "검토 메모",
+        "폭발 후보",
         "attention_cash_gate_passed"
       ],
       "risk_flags": [
         "무료 검증",
         "판매문구 없음",
-        "검토 메모",
+        "폭발 후보",
         "attention_cash_gate_passed",
         "fact_qa_passed",
         "official_sources_verified",
@@ -16838,13 +16385,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "폭발 후보",
         "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증"
       ],
       "risk_flags": [
-        "검토 메모",
+        "폭발 후보",
         "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증",
@@ -17028,20 +16575,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "폭발 후보",
         "anti_repetition_checked",
-        "attention_gate_explosive",
-        "카테고리 확인"
+        "카테고리 확인",
+        "factcheck_source_verified"
       ],
       "risk_flags": [
-        "검토 메모",
+        "폭발 후보",
         "anti_repetition_checked",
-        "attention_gate_explosive",
         "카테고리 확인",
         "factcheck_source_verified",
         "무료 검증",
         "free_validation_published",
-        "image_generation_required"
+        "image_generation_required",
+        "판매문구 없음"
       ],
       "stop_reason": null,
       "next_action": "Tracking: 2026년 전기요금 관련 새 공식 공고가 나오면 제목/본문 최신화 여부만 재검토. 직접 매출은 산정하지 않고 검색 유입 가설로 관찰.",
@@ -17256,20 +16803,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "anti_repetition_checked"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "image_generation_required",
-        "tistory_rendered_qa_required"
+        "tistory_rendered_qa_required",
+        "category_id_verify_required"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월 22일 신청 마감 후 stale 여부 재검토.",
@@ -17513,20 +17060,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_deadline_verified",
+        "공식 마감 확인"
+      ],
+      "risk_flags": [
+        "폭발 후보",
+        "무료 검증",
+        "판매문구 없음",
+        "공식 마감 확인",
         "anti_repetition_checked",
         "duplicate_risk_electricity_support_checked",
-        "image_generation_required"
+        "image_generation_required",
+        "tistory_rendered_qa_required"
       ],
       "stop_reason": null,
       "next_action": "공개글 유입·검색 반응 추적. 5월 25일 이후에는 기한 지난 안내로 stale 처리 여부 재검토.",
@@ -17759,20 +17306,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
-        "official_deadline_verified",
-        "Tistory 게시 확인",
-        "공개 URL 확인"
+        "공식 마감 확인",
+        "Tistory 게시 확인"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
         "카테고리 확인",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "uploaded_png_thumbnail_verified"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월 31일 점검 기한 이후 stale 여부와 신규 모집 공고 여부 재검토.",
@@ -17976,16 +17523,16 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "attention_gate_strong",
         "무료 검증",
         "판매문구 없음",
-        "공식 근거 확인"
+        "official_source_verified"
       ],
       "risk_flags": [
-        "강한 후보",
+        "attention_gate_strong",
         "무료 검증",
         "판매문구 없음",
-        "공식 근거 확인",
+        "official_source_verified",
         "insurance_claim_rights",
         "anti_repetition_checked",
         "image_generation_required",
@@ -18239,20 +17786,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
         "Tistory 게시 확인",
-        "공개 URL 확인",
-        "시각 QA 통과"
+        "공개 URL 확인"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
         "mobile_public_qa_passed",
         "카테고리 확인",
-        "uploaded_png_thumbnail_verified",
-        "source_links_verified"
+        "uploaded_png_thumbnail_verified"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 7월 3일 신청 마감 또는 8월 31일 사용기한 이후 stale 여부 재검토.",
@@ -18475,20 +18022,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "Tistory 게시 확인"
+        "attention_gate_strong"
       ],
       "risk_flags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
+        "attention_gate_strong",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
-        "본문 QA 통과",
-        "카테고리 확인"
+        "본문 QA 통과"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 1차 접수 반응 추적. 유료 전환 없음.",
@@ -18620,20 +18167,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "official_deadline_verified"
+        "공식 마감 확인",
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
         "image_generation_required",
         "tistory_rendered_qa_required",
-        "category_id_verify_required"
+        "category_id_verify_required",
+        "anti_repetition_checked"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월30 발급 마감과 7월31 첫 사용 조건 이후 stale 여부 재검토.",
@@ -18868,20 +18415,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "official_deadline_verified"
+        "공식 마감 확인",
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "판매문구 없음",
         "Tistory 게시 확인",
         "시각 QA 통과",
-        "본문 QA 통과"
+        "본문 QA 통과",
+        "og_thumbnail_verified"
       ],
       "stop_reason": null,
       "next_action": "Tistory 공개 글 유입/검색 반응 추적. 실제 방문·클릭 데이터 전까지 예상 순마진은 0원 유지.",
@@ -19085,20 +18632,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "anti_repetition_checked"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
+        "폭발 후보",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "image_generation_required",
-        "tistory_rendered_qa_required"
+        "tistory_rendered_qa_required",
+        "category_id_verify_required"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 6월 1일 이후 공식 신청 경로가 열리면 링크 문구 stale 여부만 재점검.",
@@ -19405,20 +18952,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
-        "공식 근거 확인",
-        "source_snapshot_saved",
-        "bounty_lane_checked"
+        "official_source_verified",
+        "source_snapshot_saved"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
-        "공식 근거 확인",
+        "official_source_verified",
         "source_snapshot_saved",
         "bounty_lane_checked",
         "scout_only",
         "anti_repetition_planned",
-        "판매문구 없음",
-        "attention_gate_explosive"
+        "판매문구 없음"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 신청 마감 이후 stale 여부와 공식 안내 변경 여부 재검토.",
@@ -19672,20 +19219,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "official_deadline_verified",
-        "무료 검증"
+        "폭발 후보",
+        "공식 마감 확인",
+        "무료 검증",
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "official_deadline_verified",
+        "폭발 후보",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
         "image_generation_required",
-        "tistory_rendered_qa_required"
+        "tistory_rendered_qa_required",
+        "category_id_verify_required"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 16시 마감 이후 stale 여부 재검토.",
@@ -19969,20 +19516,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "공식 근거 확인",
-        "월별 소멸 주의",
-        "무료 검증"
+        "검토 메모",
+        "attention_gate_strong",
+        "official_source_verified",
+        "monthly_value_loss"
       ],
       "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
-        "월별 소멸 주의",
+        "검토 메모",
+        "attention_gate_strong",
+        "official_source_verified",
+        "monthly_value_loss",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "no_benefit_guarantee",
-        "만화 이미지 확인"
+        "no_benefit_guarantee"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 월말 전 사용처/잔액 확인 검색 반응 추적. 유료 전환 없음.",
@@ -20212,14 +19759,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving"
       ],
       "risk_flags": [
-        "강한 후보",
-        "공식 근거 확인",
+        "attention_gate_strong",
+        "official_source_verified",
         "tax_deadline",
         "money_saving",
         "무료 검증",
@@ -20316,13 +19863,12 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite"
+        "local_draft_needs_date_rewrite",
+        "local_draft_ready"
       ],
       "risk_flags": [
-        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
@@ -20490,31 +20036,31 @@
       "key": "MF-113",
       "id": "opp_20260526_113_climate_card_payback_blog",
       "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "status": "운영/추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "quality": 88,
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "official_deadline_verified",
+        "폭발 후보",
+        "공식 마감 확인",
         "money_saving",
         "무료 검증"
       ],
       "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
+        "폭발 후보",
+        "공식 마감 확인",
         "money_saving",
         "무료 검증",
         "판매문구 없음",
-        "tistory_rendered_qa_required",
-        "image_generation_required",
-        "tmoney_registration_required"
+        "tmoney_registration_required",
+        "avoid_login_guidance",
+        "Tistory 게시 확인"
       ],
       "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 신청페이지 오픈 여부와 서울시/티머니 최신 문구 재확인 → 자연스러운 Tistory 초안, Pretendard PNG 3장, 돈관리·구매체크/중고·장비구매 또는 생활비 절감 카테고리 검토, 공개 렌더/OG/list/mobile QA 진행.",
+      "next_action": "공개 글 검색 유입과 6월 말 전 페이백 확인 검색 반응 추적. 유료 전환 없음.",
       "buyer_or_payer": "2026년 4~6월 기후동행카드 30일권을 사용했거나 6월 말 충전/사용 예정인 서울·수도권 대중교통 이용자",
       "channel": "Tistory 무료 검증 글 → 교통비/생활비 절감 검색 유입 실험",
       "evidence": [
@@ -20581,6 +20127,41 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "무료 검증 글이라 순마진 0원. 검색 유입 가설/전략 자산으로 기록."
+        },
+        {
+          "time": "2026-06-09T17:57:41+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Attention/Cash Gate 재심사 PASS: 6월 말 전 월 3만원·최대 9만원 페이백 확인 이슈로 폭발 후보 유지."
+        },
+        {
+          "time": "2026-06-09T17:57:41+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Codex/GPT Image 4컷 만화 1장 생성/QA, Profile 2 live CDP manage 세션으로 Tistory 공개 발행."
+        },
+        {
+          "time": "2026-06-09T17:57:41+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 렌더 QA 3회, 이미지/OG/모바일/공식 링크 확인."
+        },
+        {
+          "time": "2026-06-09T17:57:41+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "환급 보장·대행·개인정보 유도·판매 CTA 없음. 공식 확인형 문구로 유지."
+        },
+        {
+          "time": "2026-06-09T17:57:41+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -20589,9 +20170,20 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/decisions.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/roi.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/sample_brief.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/body_tistory_ready_local.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/contact_sheet.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-09_1731_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-09_1731_money-flow-backlog/public_render_qa_final.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/tistory_publish_result_20260609_climate_payback_public_safe.json",
+        {
+          "path": "https://beemo.tistory.com/163",
+          "type": "tistory_public_url",
+          "title": "기후동행카드 6월 페이백, 3만원 놓치기 전 확인할 것"
+        },
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/01-climate-payback-5sec-4panel.png"
       ],
-      "updated_at": "2026-05-26T06:21:02+09:00"
+      "updated_at": "2026-06-09T17:57:41+09:00"
     },
     {
       "key": "MF-114",
@@ -20605,17 +20197,17 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "attention_gate_explosive"
+        "판매문구 없음"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "official_deadline_verified",
+        "공식 마감 확인",
         "공식 링크 포함",
         "anti_repetition_passed",
         "Tistory 게시 확인"
@@ -20788,20 +20380,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "폭발 후보",
         "무료 검증",
         "company_unit_application",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
+        "폭발 후보",
         "무료 검증",
         "company_unit_application",
         "판매문구 없음",
-        "attention_gate_explosive",
         "공식 링크 포함",
         "anti_repetition_passed",
-        "Tistory 게시 확인"
+        "Tistory 게시 확인",
+        "공개 URL 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 공식 모집 상태가 바뀌면 안내 문구 stale 여부만 재점검.",
@@ -20978,13 +20570,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "강한 후보",
+        "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -21083,14 +20675,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "강한 후보",
-        "official_deadline_verified",
+        "검토 메모",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -21184,20 +20776,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "공식 근거 확인",
-        "budget_exhaustion_risk"
+        "폭발 후보",
+        "official_source_verified",
+        "budget_exhaustion_risk",
+        "무료 검증"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "공식 근거 확인",
+        "폭발 후보",
+        "official_source_verified",
         "budget_exhaustion_risk",
         "무료 검증",
         "판매문구 없음",
         "image_generation_required",
-        "tistory_rendered_qa_required"
+        "tistory_rendered_qa_required",
+        "official_source_required_before_publish"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 예산 소진 또는 공고 변경 시 stale 여부 재점검.",
@@ -21467,20 +21059,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "공식 근거 확인",
-        "무료 검증"
+        "폭발 후보",
+        "official_source_verified",
+        "무료 검증",
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_explosive",
-        "공식 근거 확인",
+        "폭발 후보",
+        "official_source_verified",
         "무료 검증",
         "판매문구 없음",
         "image_generation_required",
         "tistory_rendered_qa_required",
-        "official_source_required_before_publish"
+        "official_source_required_before_publish",
+        "scout_only_handoff"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월15~16일 접수 종료 후 stale 여부 재검토.",
@@ -21714,15 +21306,15 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "공식 근거 확인",
+        "폭발 후보",
+        "공식 마감 확인",
+        "official_source_verified",
         "short_application_window"
       ],
       "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
-        "공식 근거 확인",
+        "폭발 후보",
+        "공식 마감 확인",
+        "official_source_verified",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
@@ -21926,30 +21518,32 @@
     {
       "key": "MF-121",
       "id": "opp_20260529_120_gg_artist_income_blog",
-      "title": "경기도 예술인 기회소득 6월 19일 마감 체크 무료 검증 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "title": "경기도 예술인 기회소득 150만원, 6월 19일 전 이것부터 보세요",
+      "status": "운영/추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "quality": 86,
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "official_deadline_verified",
+        "폭발 후보",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "official_deadline_verified",
+        "폭발 후보",
+        "공식 마감 확인",
         "무료 검증",
         "판매문구 없음",
-        "no_selection_guarantee",
-        "social_benefit_caution"
+        "선정 보장 없음",
+        "급여 변동 주의",
+        "Tistory 게시 확인",
+        "공개 URL 확인"
       ],
       "stop_reason": null,
-      "next_action": "다음 backlog lane에서 공식 PDF 핵심 문장 재확인 → 초안 작성 → 흑백 만화 이미지 3장 생성 → Tistory 품질 QA 후 공개. 사용자 승인 대기 아님.",
+      "next_action": "공개 글 검색 유입과 6월 19일 마감 전 예술인 지원금 확인 검색 반응 추적. 유료 전환 없음.",
       "buyer_or_payer": "경기도 참여 28개 시군 거주 예술활동증명 보유 예술인, 연 150만원 현금 지원 대상 여부를 확인하려는 독자",
       "channel": "Tistory 무료 검증 블로그 — 지원금/예술인/경기도 검색 유입 실험",
       "evidence": [
@@ -22028,6 +21622,41 @@
           "decision": "GO",
           "reason_code": null,
           "summary": "무료 검증 글이므로 예상 순마진 0원. 직접 현금성 독자 효용은 높지만 블로그 가치는 측정 전 0원으로 기록."
+        },
+        {
+          "time": "2026-06-10T02:17:15+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Attention/Cash Gate 재심사 PASS: 6월 19일 18시 전 연 150만원 현금 지원 확인 이슈로 폭발 후보 유지."
+        },
+        {
+          "time": "2026-06-10T02:17:15+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Codex/GPT Image 4컷 만화 1장 생성/QA, Profile 2 live CDP manage 세션으로 Tistory 공개 발행."
+        },
+        {
+          "time": "2026-06-10T02:17:15+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "공개 렌더 QA 3회, 이미지/OG/모바일/공식 링크 확인."
+        },
+        {
+          "time": "2026-06-10T02:17:15+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "선정 보장·대행·개인정보 유도·판매 CTA 없음. 공식 공고 확인형 문구로 유지."
+        },
+        {
+          "time": "2026-06-10T02:17:15+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -22037,9 +21666,20 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/roi.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/candidate_outcomes.json",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/sample_style_brief.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt"
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-29_1411_money-flow/gg_artist_notice.txt",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/body_tistory_ready_local.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/contact_sheet.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_0206_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_0206_money-flow-backlog/public_render_qa_final.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/tistory_publish_result_20260610_artist_income_public_safe.json",
+        {
+          "path": "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94",
+          "type": "tistory_public_url",
+          "title": "경기도 예술인 기회소득 150만원, 6월 19일 전 이것부터 보세요"
+        },
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/01-gg-artist-income-4panel.png"
       ],
-      "updated_at": "2026-05-29T14:15:13+09:00"
+      "updated_at": "2026-06-10T02:17:15+09:00"
     },
     {
       "key": "MF-122",
@@ -22053,14 +21693,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "공식 근거 확인",
+        "폭발 후보",
+        "official_source_verified",
         "card_update_deadline",
         "refund_loss_risk"
       ],
       "risk_flags": [
-        "검토 메모",
-        "공식 근거 확인",
+        "폭발 후보",
+        "official_source_verified",
         "card_update_deadline",
         "refund_loss_risk",
         "무료 검증",
@@ -22253,20 +21893,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
-        "강한 후보",
-        "official_source_reverified",
-        "gpt_image2_comic_assets_ready"
+        "attention_gate_strong",
+        "official_source_reverified"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
-        "강한 후보",
+        "attention_gate_strong",
         "official_source_reverified",
         "gpt_image2_comic_assets_ready",
         "Tistory 게시 확인",
         "공개 URL 확인",
-        "시각 QA 통과",
-        "본문 QA 통과"
+        "시각 QA 통과"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 2026 신규 공고/비공식 신청글 노출 변화를 추적. 유료 전환 없음.",
@@ -22433,20 +22073,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음",
-        "official_source_reverified"
+        "판매문구 없음"
       ],
       "risk_flags": [
+        "폭발 후보",
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_source_reverified",
         "draft_ready",
         "gpt_image2_comic_assets_ready",
-        "local_render_qa_passed",
-        "Tistory 게시 확인"
+        "local_render_qa_passed"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 19일 마감 전 반응 추적. 유료 전환 없음.",
@@ -22631,13 +22271,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "폭발 후보",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
+        "폭발 후보",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음",
@@ -22903,20 +22543,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "폭발 후보",
         "공식 공고",
         "예산 소진",
         "무료 검증"
       ],
       "risk_flags": [
-        "검토 메모",
+        "폭발 후보",
         "공식 공고",
         "예산 소진",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_explosive",
-        "공식 근거 확인",
-        "Tistory 게시 확인"
+        "official_source_verified",
+        "Tistory 게시 확인",
+        "시각 QA 통과"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 공식 공고 변경 또는 예산 소진 공지가 나오면 본문 갱신 여부만 재점검.",

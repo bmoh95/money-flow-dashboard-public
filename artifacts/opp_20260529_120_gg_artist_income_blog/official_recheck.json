@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-06-10T02:17:05+09:00",
+  "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
+  "url": "https://www.gg.go.kr/cmmn/download.do?idx=893985",
+  "http": 200,
+  "bytes": 441680,
+  "pdf_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_0206_money-flow-backlog/gg_artist_notice_2026_recheck.pdf",
+  "text_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_0206_money-flow-backlog/gg_artist_notice_2026_recheck.txt",
+  "found_terms": [
+    "2026",
+    "예술인 기회소득",
+    "18:00",
+    "150만원",
+    "용인",
+    "고양",
+    "성남",
+    "예술활동증명",
+    "중위소득",
+    "120%",
+    "3,077,086",
+    "예술활동준비금",
+    "K-ART",
+    "기초생활수급자"
+  ],
+  "proof": {
+    "http_200_pdf": true,
+    "has_deadline": true,
+    "has_amount": true,
+    "has_city_exclusions": true,
+    "has_artist_income_checks": true,
+    "has_duplicate_cautions": true
+  },
+  "source_gate": "PASS",
+  "attention_gate": "폭발 후보",
+  "cash_gate": "free_validation_roi_0",
+  "summary": "경기도 공식 공고 PDF에서 2026.5.11~6.19 18:00, 연 150만원, 28개 시군/용인·고양·성남 제외, 예술활동증명·중위소득·중복지원·사회보장급여 주의 재확인."
+}
