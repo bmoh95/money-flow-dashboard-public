@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-10T02:18:40+09:00",
+  "updated_at": "2026-06-10T02:19:20+09:00",
   "last_run": {
     "run_id": "2026-06-10_0206_money-flow-backlog",
     "started_at": "2026-06-10T02:06:48+09:00",
@@ -37,7 +37,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260529_120_gg_artist_income_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260529_120_gg_artist_income_blog` 경기도 예술인 기회소득 글을 Tistory에 공개 발행했습니다.\n- 경기도 공식 공고 PDF 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 19일 18시 전 확인하지 않으면 연 150만원 현금 지원 신청 기회를 놓칠 수 있는 직접 손익 이슈입니다. 선정 보장 없이 공식 공고 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 대기\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260529_120_gg_artist_income_blog` 경기도 예술인 기회소득 글을 Tistory에 공개 발행했습니다.\n- 경기도 공식 공고 PDF 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 19일 18시 전 확인하지 않으면 연 150만원 현금 지원 신청 기회를 놓칠 수 있는 직접 손익 이슈입니다. 선정 보장 없이 공식 공고 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
