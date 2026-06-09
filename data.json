@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-09T17:59:12+09:00",
+  "updated_at": "2026-06-09T18:01:52+09:00",
   "last_run": {
     "run_id": "2026-06-09_1731_money-flow-backlog",
     "started_at": "2026-06-09T17:31:34+09:00",
-    "finished_at": "2026-06-09T17:59:12+09:00",
+    "finished_at": "2026-06-09T18:01:52+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -25,7 +25,8 @@
       "opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/body_tistory_ready_local.html",
       "opportunities/opp_20260526_113_climate_card_payback_blog/assets/blog_package_20260609_climate_payback/01-climate-payback-5sec-4panel.png",
       "opportunities/opp_20260526_113_climate_card_payback_blog/assets/tistory_publish_result_20260609_climate_payback_public_safe.json",
-      "runs/2026-06-09_1731_money-flow-backlog/public_render_qa_final.json"
+      "runs/2026-06-09_1731_money-flow-backlog/public_render_qa_final.json",
+      "money-flow/references/session-2026-06-09-tistory-nonmanage-tab-cookie-auth.md"
     ],
     "approval_needed": [],
     "decisions": [
@@ -37,7 +38,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260526_113_climate_card_payback_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260526_113_climate_card_payback_blog` 기후동행카드 6월 페이백 글을 Tistory에 공개 발행했습니다.\n- 서울시 공식 안내/FAQ 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/163\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 말 전 확인하지 않으면 월 3만원, 최대 9만원 페이백을 놓칠 수 있는 직접 손익 이슈입니다. 환급 보장 없이 공식 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260526_113_climate_card_payback_blog` 기후동행카드 6월 페이백 글을 Tistory에 공개 발행했습니다.\n- 서울시 공식 안내/FAQ 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/163\n- `money-flow` 참고 메모 추가: Tistory manage 탭이 없어도 기존 Tistory/Kakao 탭 쿠키로 관리 API를 먼저 probe하는 auth 복구 패턴을 기록했습니다.\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 말 전 확인하지 않으면 월 3만원, 최대 9만원 페이백을 놓칠 수 있는 직접 손익 이슈입니다. 환급 보장 없이 공식 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
