@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-10T22:43:19+09:00",
+  "updated_at": "2026-06-10T22:45:06+09:00",
   "last_run": {
     "run_id": "2026-06-10_2233_money-flow-backlog",
     "started_at": "2026-06-10T22:33:48+09:00",
-    "finished_at": "2026-06-10T22:43:19+09:00",
+    "finished_at": "2026-06-10T22:45:06+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -14,7 +14,7 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 0,
+    "opportunities_advanced": 1,
     "opportunities_rejected": 0,
     "assets_created": [
       "runs/2026-06-10_2233_money-flow-backlog/attention_cash_gate.json",
@@ -23,174 +23,33 @@
       "runs/2026-06-10_2233_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
       "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
       "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
-      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
+      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png",
+      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/tistory_publish_result_20260610_car_tax_public_safe.json",
+      "runs/2026-06-10_2233_money-flow-backlog/public_render_qa_final.json",
+      "runs/2026-06-10_2233_money-flow-backlog/public_og_image_car_tax.png"
     ],
     "approval_needed": [],
     "decisions": [
       {
         "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
-        "decision": "HOLD",
-        "reason_code": "AUTH_BLOCKED",
-        "summary": "이미지·본문 준비 완료, 발행은 외부 상태로 보류."
+        "decision": "GO",
+        "reason_code": null,
+        "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260525_108_car_tax_june_prepayment_blog. Material image/body-ready checkpoint completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 결과입니다.\n\n**완료**\n- `opp_20260525_108_car_tax_june_prepayment_blog` 자동차세 6월 고지서 글의 공식 자료 재확인, Codex/GPT Image 4컷 만화 1장, Tistory-ready 본문을 완료했습니다.\n- 발행 전 상태는 `AUTH_BLOCKED`로 `검증 보류` 유지했습니다.\n\n**시장성 판단**\n- 강한 후보 유지: 6월 16~30일 자동차세 납부 전 정기분/선납 확인이 필요한 시즌성 돈관리 이슈입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산입니다.\n\n**대기**\n- Tistory 공개 발행: AUTH_BLOCKED\n- GitHub Pages 대시보드 미러: 대기\n\n**필요 승인**\n- 없음."
+    "summary": "Processed exactly one backlog item: opp_20260525_108_car_tax_june_prepayment_blog. Material publish completed after QA reconciliation.",
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260525_108_car_tax_june_prepayment_blog` 6월 자동차세 고지서 확인 글을 Tistory에 공개 발행했습니다.\n- ETAX/위택스 공식 자료 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 재검증, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8-6%EC%9B%94-%EA%B3%A0%EC%A7%80%EC%84%9C-%EA%B7%B8%EB%83%A5-%EB%82%B4%EA%B8%B0-%EC%A0%84-%EC%97%B0%EB%82%A9%EB%B6%80%ED%84%B0-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94\n\n**시장성 판단**\n- 강한 후보 유지: 6월 16~30일 자동차세 납부 전 정기분/선납을 헷갈리면 실제 지출 판단을 잘못할 수 있는 시즌성 돈관리 이슈입니다. 정확 공제액은 공식 계산기 확인형으로만 썼습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 대기\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
-    "active": 4,
+    "active": 3,
     "approval_needed": 1,
-    "launched": 66,
+    "launched": 67,
     "closed_won": 0,
     "closed_lost": 3,
     "rejected": 57
   },
   "active_opportunities": [
-    {
-      "key": "MF-111",
-      "id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "quality": 84,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "강한 후보",
-        "공식 출처 확인",
-        "세금 기한",
-        "지출 절감"
-      ],
-      "risk_flags": [
-        "강한 후보",
-        "공식 출처 확인",
-        "세금 기한",
-        "지출 절감",
-        "무료 검증",
-        "판매문구 없음",
-        "반복 방지",
-        "Tistory 렌더 QA 필요"
-      ],
-      "stop_reason": "인증 필요",
-      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
-      "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
-      "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://etax.seoul.go.kr/TaxTotScheAction.tran?gnb_id=0612&lnb_id=0612&gl_gubun=l",
-          "grade": "A",
-          "summary": "서울시 ETAX 연간 지방세 일정에서 2026년 6월 16일~6월 30일 “자동차세(신고납부-2/4 선납), 자동차세(정기분-1분기)” 일정 확인. 6월 자동차세 납부 전 선납 여부를 확인할 명확한 마감 근거.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "browser_verified",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/seoul_etax_schedule_browser_snapshot.txt"
-        },
-        {
-          "url": "https://cdn.wetax.go.kr/static/guide/03%20%EC%8B%A0%EC%B2%AD/02_%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A7%A4%EB%89%B4%EC%96%BC_%EC%8B%A0%EC%B2%AD_%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8%20%EC%97%B0%EC%84%B8%EC%95%A1%EB%82%A9%EB%B6%80%20%EC%8B%A0%EC%B2%AD.pdf",
-          "grade": "A",
-          "summary": "위택스 공식 자동차세 연세액납부 신청 사용자매뉴얼 PDF 다운로드 및 텍스트 추출 완료. 실제 신청 화면/업무 절차 근거로 사용 가능.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "pdf_extract",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/wetax_car_tax_pdf_extract.txt"
-        },
-        {
-          "url": "https://etax.seoul.go.kr/m/screen/ADS1100M06",
-          "grade": "A",
-          "summary": "서울시 ETAX 모바일 지방세 미리계산 검색 스니펫에서 자동차세 연납 제도가 연세액 일시납부 시 신고납부기한 이후 기간에 대해 100분의 10 범위에서 공제받는 제도라고 안내됨. 정확 금액은 공식 계산기 확인형으로 처리.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "search_result_browser",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/car_tax_official_search2.json"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/fallback_search_results.json",
-          "grade": "B",
-          "summary": "DuckDuckGo 샘플에서 2026 자동차세 연납/6월 신청 관련 블로그 결과 다수 확인. 검색 의도 신호로만 사용.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "search_sample"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "bounty/direct-payout rescue 후보 3개는 locked/duplicate/broad/competition으로 탈락. 비현금 후보 중 자동차세 6월 선납은 A급 ETAX 일정과 돈 절약 훅이 있어 보조 lane 후보로 채택."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "구매자/독자 명확, 공식 일정 확인, 직접 손익 영향 있음. 6월 16~30일 전 선행 기획 가치 있음."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "새 작업 scout-only 범위: 초안/게시 전 planning 패키지만 생성. 정확 공제액 단정 금지, 공식 계산기 확인 순서 중심으로 기획."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "정확 할인율 오해, 지역별 ETAX/위택스 차이, 세무 조언화 위험은 제목/본문에서 공식 계산기·납부 전 체크로 통제 가능."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "유기검색 검증 자산으로 ROI 0원 기록. 비용 낮고 6월 납부 시즌 검색 타이밍이 있어 기획 backlog로 넘길 가치 있음."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "Attention/Cash Gate 재심사 PASS: 6월 16~30일 자동차세 지출 확인 이슈로 강한 후보 유지."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "Codex/GPT Image 4컷 만화 1장과 Tistory-ready 본문 생성 완료."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "발행 단계는 Tistory 세션/제한 상태로 보류. 로컬 이미지·본문 QA 통과."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공개 전 렌더 QA 필요."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
-      ],
-      "updated_at": "2026-06-10T22:42:29+09:00"
-    },
     {
       "key": "MF-112",
       "id": "opp_20260525_112_gg_youth_welfare_point_blog",
@@ -786,150 +645,6 @@
   ],
   "priority_queue": [
     {
-      "key": "MF-111",
-      "id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
-      "type": "기타",
-      "quality": 84,
-      "expected_base_net": 0,
-      "approval_required": false,
-      "tags": [
-        "강한 후보",
-        "공식 출처 확인",
-        "세금 기한",
-        "지출 절감"
-      ],
-      "risk_flags": [
-        "강한 후보",
-        "공식 출처 확인",
-        "세금 기한",
-        "지출 절감",
-        "무료 검증",
-        "판매문구 없음",
-        "반복 방지",
-        "Tistory 렌더 QA 필요"
-      ],
-      "stop_reason": "인증 필요",
-      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
-      "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
-      "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
-      "evidence": [
-        {
-          "url": "https://etax.seoul.go.kr/TaxTotScheAction.tran?gnb_id=0612&lnb_id=0612&gl_gubun=l",
-          "grade": "A",
-          "summary": "서울시 ETAX 연간 지방세 일정에서 2026년 6월 16일~6월 30일 “자동차세(신고납부-2/4 선납), 자동차세(정기분-1분기)” 일정 확인. 6월 자동차세 납부 전 선납 여부를 확인할 명확한 마감 근거.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "browser_verified",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/seoul_etax_schedule_browser_snapshot.txt"
-        },
-        {
-          "url": "https://cdn.wetax.go.kr/static/guide/03%20%EC%8B%A0%EC%B2%AD/02_%EC%82%AC%EC%9A%A9%EC%9E%90%EB%A7%A4%EB%89%B4%EC%96%BC_%EC%8B%A0%EC%B2%AD_%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8%20%EC%97%B0%EC%84%B8%EC%95%A1%EB%82%A9%EB%B6%80%20%EC%8B%A0%EC%B2%AD.pdf",
-          "grade": "A",
-          "summary": "위택스 공식 자동차세 연세액납부 신청 사용자매뉴얼 PDF 다운로드 및 텍스트 추출 완료. 실제 신청 화면/업무 절차 근거로 사용 가능.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "pdf_extract",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/wetax_car_tax_pdf_extract.txt"
-        },
-        {
-          "url": "https://etax.seoul.go.kr/m/screen/ADS1100M06",
-          "grade": "A",
-          "summary": "서울시 ETAX 모바일 지방세 미리계산 검색 스니펫에서 자동차세 연납 제도가 연세액 일시납부 시 신고납부기한 이후 기간에 대해 100분의 10 범위에서 공제받는 제도라고 안내됨. 정확 금액은 공식 계산기 확인형으로 처리.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "search_result_browser",
-          "local_snapshot": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/car_tax_official_search2.json"
-        },
-        {
-          "url": "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-05-25_0130_money-flow/fallback_search_results.json",
-          "grade": "B",
-          "summary": "DuckDuckGo 샘플에서 2026 자동차세 연납/6월 신청 관련 블로그 결과 다수 확인. 검색 의도 신호로만 사용.",
-          "checked_at": "2026-05-25T01:48:54+09:00",
-          "snapshot_method": "search_sample"
-        }
-      ],
-      "decision_history": [
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "research_member",
-          "decision": "GO",
-          "summary": "bounty/direct-payout rescue 후보 3개는 locked/duplicate/broad/competition으로 탈락. 비현금 후보 중 자동차세 6월 선납은 A급 ETAX 일정과 돈 절약 훅이 있어 보조 lane 후보로 채택."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "summary": "구매자/독자 명확, 공식 일정 확인, 직접 손익 영향 있음. 6월 16~30일 전 선행 기획 가치 있음."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "planning_lead",
-          "decision": "GO",
-          "summary": "새 작업 scout-only 범위: 초안/게시 전 planning 패키지만 생성. 정확 공제액 단정 금지, 공식 계산기 확인 순서 중심으로 기획."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "summary": "정확 할인율 오해, 지역별 ETAX/위택스 차이, 세무 조언화 위험은 제목/본문에서 공식 계산기·납부 전 체크로 통제 가능."
-        },
-        {
-          "time": "2026-05-25T01:48:54+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "summary": "유기검색 검증 자산으로 ROI 0원 기록. 비용 낮고 6월 납부 시즌 검색 타이밍이 있어 기획 backlog로 넘길 가치 있음."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "research_lead",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "Attention/Cash Gate 재심사 PASS: 6월 16~30일 자동차세 지출 확인 이슈로 강한 후보 유지."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "execution_member",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "Codex/GPT Image 4컷 만화 1장과 Tistory-ready 본문 생성 완료."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "execution_lead",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "발행 단계는 Tistory 세션/제한 상태로 보류. 로컬 이미지·본문 QA 통과."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "redteam",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공개 전 렌더 QA 필요."
-        },
-        {
-          "time": "2026-06-10T22:42:29+09:00",
-          "agent": "roi",
-          "decision": "GO",
-          "reason_code": "AUTH_BLOCKED",
-          "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
-        }
-      ],
-      "assets": [
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/evidence.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
-      ],
-      "updated_at": "2026-06-10T22:42:29+09:00"
-    },
-    {
       "key": "MF-112",
       "id": "opp_20260525_112_gg_youth_welfare_point_blog",
       "title": "경기도 청년 복지포인트 7월 접수 전 조건 체크 무료 검증 글",
@@ -1329,36 +1044,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-06-08T07:32:45+09:00",
-      "run_id": "2026-06-08_0725_money-flow",
-      "agent": "research_member",
-      "opportunity_id": "opp_20260608_128_youth_future_savings_switch_blog",
-      "event": "discovered",
-      "from_status": null,
-      "to_status": "discovered",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "청년미래적금 갈아타기/해지 주의 무료 검증 후보 발견.",
-      "links": [
-        "https://www.fsc.go.kr/no010101/86767"
-      ]
-    },
-    {
-      "time": "2026-06-08T07:32:45+09:00",
-      "run_id": "2026-06-08_0725_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260608_128_youth_future_savings_switch_blog",
-      "event": "decision",
-      "from_status": "discovered",
-      "to_status": "planning",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "A급 금융위 근거와 강한 Attention Gate 확인. scout-only planning 상태로 handoff.",
-      "links": [
-        "https://www.fsc.go.kr/no010101/86767"
-      ]
-    },
     {
       "time": "2026-06-08T07:34:13+09:00",
       "run_id": "2026-06-08_0725_money-flow",
@@ -1915,6 +1600,36 @@
       "reason_code": "AUTH_BLOCKED",
       "summary": "Codex 만화/본문 준비 완료, Tistory 발행은 외부 상태 해소 후 재시도.",
       "links": []
+    },
+    {
+      "time": "2026-06-10T22:45:06+09:00",
+      "run_id": "2026-06-10_2233_money-flow-backlog",
+      "agent": "execution_lead",
+      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
+      "event": "status_changed",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "공개 렌더 QA 재검증 PASS, tracking 전환. 이전 PUBLISHED_VERIFY_WEAK은 과엄격 날짜 문자열 검사 문제.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8-6%EC%9B%94-%EA%B3%A0%EC%A7%80%EC%84%9C-%EA%B7%B8%EB%83%A5-%EB%82%B4%EA%B8%B0-%EC%A0%84-%EC%97%B0%EB%82%A9%EB%B6%80%ED%84%B0-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94"
+      ]
+    },
+    {
+      "time": "2026-06-10T22:45:06+09:00",
+      "run_id": "2026-06-10_2233_money-flow-backlog",
+      "agent": "roi",
+      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "tracking",
+      "decision": "GO",
+      "reason_code": null,
+      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
+      "links": [
+        "https://beemo.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8-6%EC%9B%94-%EA%B3%A0%EC%A7%80%EC%84%9C-%EA%B7%B8%EB%83%A5-%EB%82%B4%EA%B8%B0-%EC%A0%84-%EC%97%B0%EB%82%A9%EB%B6%80%ED%84%B0-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94"
+      ]
     }
   ],
   "board_columns": [
@@ -19825,9 +19540,9 @@
       "key": "MF-111",
       "id": "opp_20260525_108_car_tax_june_prepayment_blog",
       "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
-      "status": "검증 보류",
-      "raw_status": "redteam_hold",
-      "column": "검증 보류",
+      "status": "운영/추적",
+      "raw_status": "tracking",
+      "column": "운영/수익",
       "type": "기타",
       "quality": 84,
       "expected_base_net": 0,
@@ -19846,10 +19561,10 @@
         "무료 검증",
         "판매문구 없음",
         "반복 방지",
-        "Tistory 렌더 QA 필요"
+        "공식 계산기 기준"
       ],
-      "stop_reason": "인증 필요",
-      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
+      "stop_reason": null,
+      "next_action": "공개 글 검색 유입과 6월 자동차세 납부/선납 검색 반응 추적. 유료 전환 없음.",
       "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
       "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
       "evidence": [
@@ -19950,6 +19665,27 @@
           "decision": "GO",
           "reason_code": "AUTH_BLOCKED",
           "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
+        },
+        {
+          "time": "2026-06-10T22:45:06+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "Reconciled public QA: public page title/body/image/OG/mobile checks pass; previous weak check was a literal date matcher issue."
+        },
+        {
+          "time": "2026-06-10T22:45:06+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공식 확인형 문구로 공개 유지 가능."
+        },
+        {
+          "time": "2026-06-10T22:45:06+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": null,
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 검색 유입 가설/전략 자산으로 tracking 전환."
         }
       ],
       "assets": [
@@ -19961,9 +19697,17 @@
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
         "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/public_render_qa_final.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/tistory_publish_result_20260610_car_tax_public_safe.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/public_og_image_car_tax.png",
+        {
+          "path": "https://beemo.tistory.com/entry/%EC%9E%90%EB%8F%99%EC%B0%A8%EC%84%B8-6%EC%9B%94-%EA%B3%A0%EC%A7%80%EC%84%9C-%EA%B7%B8%EB%83%A5-%EB%82%B4%EA%B8%B0-%EC%A0%84-%EC%97%B0%EB%82%A9%EB%B6%80%ED%84%B0-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94",
+          "type": "tistory_public_url",
+          "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요"
+        }
       ],
-      "updated_at": "2026-06-10T22:42:29+09:00"
+      "updated_at": "2026-06-10T22:45:06+09:00"
     },
     {
       "key": "MF-112",

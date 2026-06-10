@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-06-10T22:42:20+09:00",
+  "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
+  "files": [
+    "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
+  ],
+  "accepted_count": 1,
+  "qa": "PASS",
+  "rubric_30": 27,
+  "notes": "Codex/GPT Image 4컷 흑백 웹툰 1장. 큰 한국어 말풍선, 6월 고지서/6월16~30일/정기분/2·4 선납/ETAX·위택스/공식 계산기/납부 전 5분 체크 가독성 통과. 정확 할인율 없음."
+}
