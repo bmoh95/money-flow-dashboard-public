@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-10T02:19:20+09:00",
+  "updated_at": "2026-06-10T22:42:29+09:00",
   "last_run": {
-    "run_id": "2026-06-10_0206_money-flow-backlog",
-    "started_at": "2026-06-10T02:06:48+09:00",
-    "finished_at": "2026-06-10T02:18:06+09:00",
+    "run_id": "2026-06-10_2233_money-flow-backlog",
+    "started_at": "2026-06-10T22:33:48+09:00",
+    "finished_at": "2026-06-10T22:42:29+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -14,30 +14,28 @@
       "ledger_dashboard_manager"
     ],
     "candidates_discovered": 0,
-    "opportunities_advanced": 1,
+    "opportunities_advanced": 0,
     "opportunities_rejected": 0,
     "assets_created": [
-      "runs/2026-06-10_0206_money-flow-backlog/attention_cash_gate.json",
-      "runs/2026-06-10_0206_money-flow-backlog/official_recheck.json",
-      "runs/2026-06-10_0206_money-flow-backlog/image_qa.json",
-      "runs/2026-06-10_0206_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
-      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/contact_sheet.png",
-      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/body_tistory_ready_local.html",
-      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/blog_package_20260610_artist_income/01-gg-artist-income-4panel.png",
-      "opportunities/opp_20260529_120_gg_artist_income_blog/assets/tistory_publish_result_20260610_artist_income_public_safe.json",
-      "runs/2026-06-10_0206_money-flow-backlog/public_render_qa_final.json"
+      "runs/2026-06-10_2233_money-flow-backlog/attention_cash_gate.json",
+      "runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
+      "runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
+      "runs/2026-06-10_2233_money-flow-backlog/auth_probe_tistory_profile2_live_cdp.json",
+      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
+      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
+      "opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
     ],
     "approval_needed": [],
     "decisions": [
       {
-        "opportunity_id": "opp_20260529_120_gg_artist_income_blog",
-        "decision": "GO",
-        "reason_code": null,
-        "summary": "Tistory 공개 발행/QA 완료, tracking 전환."
+        "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
+        "decision": "HOLD",
+        "reason_code": "AUTH_BLOCKED",
+        "summary": "이미지·본문 준비 완료, 발행은 외부 상태로 보류."
       }
     ],
-    "summary": "Processed exactly one backlog item: opp_20260529_120_gg_artist_income_blog. Material publish completed.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260529_120_gg_artist_income_blog` 경기도 예술인 기회소득 글을 Tistory에 공개 발행했습니다.\n- 경기도 공식 공고 PDF 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94\n\n**시장성 판단**\n- 폭발 후보 유지: 6월 19일 18시 전 확인하지 않으면 연 150만원 현금 지원 신청 기회를 놓칠 수 있는 직접 손익 이슈입니다. 선정 보장 없이 공식 공고 확인 순서 중심으로 Standard 공개했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
+    "summary": "Processed exactly one backlog item: opp_20260525_108_car_tax_june_prepayment_blog. Material image/body-ready checkpoint completed.",
+    "final_report": ""
   },
   "metrics": {
     "total": 127,
@@ -52,32 +50,32 @@
     {
       "key": "MF-111",
       "id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "title": "자동차세 6월 연납, 고지서 그냥 내기 전 5분 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "quality": 84,
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving"
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감"
       ],
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required"
+        "반복 방지",
+        "Tistory 렌더 QA 필요"
       ],
-      "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
+      "stop_reason": "인증 필요",
+      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
       "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
       "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
       "evidence": [
@@ -143,15 +141,55 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "유기검색 검증 자산으로 ROI 0원 기록. 비용 낮고 6월 납부 시즌 검색 타이밍이 있어 기획 backlog로 넘길 가치 있음."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Attention/Cash Gate 재심사 PASS: 6월 16~30일 자동차세 지출 확인 이슈로 강한 후보 유지."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Codex/GPT Image 4컷 만화 1장과 Tistory-ready 본문 생성 완료."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "발행 단계는 Tistory 세션/제한 상태로 보류. 로컬 이미지·본문 QA 통과."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공개 전 렌더 QA 필요."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
         }
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
       ],
-      "updated_at": "2026-05-25T01:48:54+09:00"
+      "updated_at": "2026-06-10T22:42:29+09:00"
     },
     {
       "key": "MF-112",
@@ -165,19 +203,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready"
+        "local_draft_needs_date_rewrite"
       ],
       "risk_flags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
         "local_draft_ready",
         "판매문구 없음",
         "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": "검토 메모",
       "next_action": "2026-06-24 개별 모집공고/FAQ 공식 게시 후 날짜·서류·선정 기준을 최종 반영해 Tistory 공개 발행과 1회 이상 strict rendered QA 진행. 현재 6월 신청 초안은 7월 접수 전 사전 체크로 정정됨.",
@@ -346,13 +385,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -451,14 +490,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -749,32 +788,32 @@
     {
       "key": "MF-111",
       "id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "title": "자동차세 6월 연납, 고지서 그냥 내기 전 5분 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "quality": 84,
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving"
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감"
       ],
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required"
+        "반복 방지",
+        "Tistory 렌더 QA 필요"
       ],
-      "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
+      "stop_reason": "인증 필요",
+      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
       "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
       "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
       "evidence": [
@@ -840,15 +879,55 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "유기검색 검증 자산으로 ROI 0원 기록. 비용 낮고 6월 납부 시즌 검색 타이밍이 있어 기획 backlog로 넘길 가치 있음."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Attention/Cash Gate 재심사 PASS: 6월 16~30일 자동차세 지출 확인 이슈로 강한 후보 유지."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Codex/GPT Image 4컷 만화 1장과 Tistory-ready 본문 생성 완료."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "발행 단계는 Tistory 세션/제한 상태로 보류. 로컬 이미지·본문 QA 통과."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공개 전 렌더 QA 필요."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
         }
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
       ],
-      "updated_at": "2026-05-25T01:48:54+09:00"
+      "updated_at": "2026-06-10T22:42:29+09:00"
     },
     {
       "key": "MF-112",
@@ -862,19 +941,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready"
+        "local_draft_needs_date_rewrite"
       ],
       "risk_flags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
         "local_draft_ready",
         "판매문구 없음",
         "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": "검토 메모",
       "next_action": "2026-06-24 개별 모집공고/FAQ 공식 게시 후 날짜·서류·선정 기준을 최종 반영해 Tistory 공개 발행과 1회 이상 strict rendered QA 진행. 현재 6월 신청 초안은 7월 접수 전 사전 체크로 정정됨.",
@@ -1043,13 +1123,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -1148,14 +1228,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -1249,112 +1329,6 @@
     "actual_net_total": 0
   },
   "recent_events": [
-    {
-      "time": "2026-06-08T03:13:21+09:00",
-      "run_id": "2026-06-08_0309_money-flow-backlog",
-      "agent": "research_lead",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "decision",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Attention/Cash Gate 재심사 PASS — 폭발 후보 유지.",
-      "links": [
-        "https://beemo.tistory.com/149"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:21+09:00",
-      "run_id": "2026-06-08_0309_money-flow-backlog",
-      "agent": "execution_member",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "asset_created",
-      "from_status": "redteam_hold",
-      "to_status": "execution",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Tistory 이미지 업로드/공개 발행 완료.",
-      "links": [
-        "https://beemo.tistory.com/149"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:21+09:00",
-      "run_id": "2026-06-08_0309_money-flow-backlog",
-      "agent": "execution_lead",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "status_changed",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공개 렌더 QA 3회 PASS, tracking 전환.",
-      "links": [
-        "https://beemo.tistory.com/149"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:21+09:00",
-      "run_id": "2026-06-08_0309_money-flow-backlog",
-      "agent": "redteam",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "공식 확인형/무료 검증 문구로 리스크 통과.",
-      "links": [
-        "https://beemo.tistory.com/149"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:21+09:00",
-      "run_id": "2026-06-08_0309_money-flow-backlog",
-      "agent": "roi",
-      "opportunity_id": "opp_20260529_119_seoul_youth_savings_blog",
-      "event": "decision",
-      "from_status": "execution",
-      "to_status": "tracking",
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "예상 순마진 0원, 검색 유입 가설로 추적.",
-      "links": [
-        "https://beemo.tistory.com/149"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:20+09:00",
-      "run_id": "2026-06-08_0309_money-flow",
-      "agent": "research_lead",
-      "opportunity_id": null,
-      "event": "decision",
-      "from_status": null,
-      "to_status": null,
-      "decision": "NO-GO",
-      "reason_code": "HIGH_USER_INPUT",
-      "summary": "Bounty scout found no safe low-touch direct-payout candidate; hardware-heavy commaai/opendbc rescue blocked.",
-      "links": [
-        "runs/2026-06-08_0309_money-flow/filter_report_after_skiplist_update.md"
-      ]
-    },
-    {
-      "time": "2026-06-08T03:13:20+09:00",
-      "run_id": "2026-06-08_0309_money-flow",
-      "agent": "ledger_dashboard_manager",
-      "opportunity_id": null,
-      "event": "asset_created",
-      "from_status": null,
-      "to_status": null,
-      "decision": "GO",
-      "reason_code": null,
-      "summary": "Run-level candidate outcomes and research artifacts saved; no opportunity/dashboard material state change.",
-      "links": [
-        "runs/2026-06-08_0309_money-flow/candidate_outcomes.json",
-        "runs/2026-06-08_0309_money-flow/research.md"
-      ]
-    },
     {
       "time": "2026-06-08T07:32:45+09:00",
       "run_id": "2026-06-08_0725_money-flow",
@@ -1841,6 +1815,106 @@
       "links": [
         "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%98%88%EC%88%A0%EC%9D%B8-%EA%B8%B0%ED%9A%8C%EC%86%8C%EB%93%9D-150%EB%A7%8C%EC%9B%90-6%EC%9B%94-19%EC%9D%BC-%EC%A0%84-%EC%9D%B4%EA%B2%83%EB%B6%80%ED%84%B0-%EB%B3%B4%EC%84%B8%EC%9A%94"
       ]
+    },
+    {
+      "time": "2026-06-10T10:00:08+09:00",
+      "run_id": "2026-06-10_0955_money-flow",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "No material new opportunity. Bounty retry had zero rescue candidates; fallback searches did not produce a fresh A-grade high-attention non-duplicate item.",
+      "links": []
+    },
+    {
+      "time": "2026-06-10T10:28:20+09:00",
+      "run_id": "2026-06-10_1026_money-flow-backlog",
+      "agent": "attention_cash_gate",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OFFICIAL_NOTICE_PENDING",
+      "summary": "Backlog STANDARD_CRON recheck found no official 2026 1차 개별 모집공고/FAQ yet; no material state change, no publish.",
+      "links": [
+        "runs/2026-06-10_1026_money-flow-backlog/attention_cash_gate_recheck.json"
+      ]
+    },
+    {
+      "time": "2026-06-10T16:31:30+09:00",
+      "run_id": "2026-06-10_1627_money-flow-backlog",
+      "agent": "attention_cash_gate",
+      "opportunity_id": "opp_20260525_112_gg_youth_welfare_point_blog",
+      "event": "decision",
+      "from_status": "redteam_hold",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "OFFICIAL_NOTICE_PENDING",
+      "summary": "Backlog 재심사: 공식 youth.jobaba 메인 일정은 6/24 공고·7/1~7/13 접수를 유지하나 개별 모집공고/FAQ는 아직 미확인. 발행/상태 전환 없음.",
+      "links": [
+        "runs/2026-06-10_1627_money-flow-backlog/official_recheck.json",
+        "runs/2026-06-10_1627_money-flow-backlog/direct_official_probes.json"
+      ]
+    },
+    {
+      "time": "2026-06-10T16:30:28+09:00",
+      "run_id": "2026-06-10_1626_money-flow",
+      "agent": "ledger_dashboard_manager",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "NO_EVIDENCE",
+      "summary": "Run-level scout found no direct-cash or high-attention candidate; no persistent opportunity/dashboard change.",
+      "links": []
+    },
+    {
+      "time": "2026-06-10T16:45:58+09:00",
+      "run_id": "2026-06-10_1644_money-flow-bounty-gate",
+      "agent": "research_lead",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "PAYMENT_UNCLEAR",
+      "summary": "Deep triage rejected juanitahagenes/ClickHouse#1: Opire /reward 10 was rejected below platform $20 minimum; no funded cash/platform bounty exists.",
+      "links": [
+        "https://github.com/juanitahagenes/ClickHouse/issues/1"
+      ]
+    },
+    {
+      "time": "2026-06-10T16:47:07+09:00",
+      "run_id": "2026-06-10_1644_money-flow-bounty-gate",
+      "agent": "redteam",
+      "opportunity_id": null,
+      "event": "decision",
+      "from_status": null,
+      "to_status": null,
+      "decision": "NO-GO",
+      "reason_code": "DUPLICATE",
+      "summary": "Existing same-scope PR/claim queue and wallet claim noise block local patch/PR-ready branch work; skiplist updated and filter rerun found no rescue candidates.",
+      "links": [
+        "https://github.com/juanitahagenes/ClickHouse/pull/2"
+      ]
+    },
+    {
+      "time": "2026-06-10T22:42:29+09:00",
+      "run_id": "2026-06-10_2233_money-flow-backlog",
+      "agent": "execution_member",
+      "opportunity_id": "opp_20260525_108_car_tax_june_prepayment_blog",
+      "event": "asset_created",
+      "from_status": "planning",
+      "to_status": "redteam_hold",
+      "decision": "HOLD",
+      "reason_code": "AUTH_BLOCKED",
+      "summary": "Codex 만화/본문 준비 완료, Tistory 발행은 외부 상태 해소 후 재시도.",
+      "links": []
     }
   ],
   "board_columns": [
@@ -2152,7 +2226,7 @@
       "title": "UnsafeLabs AI-only GitHub bounty prompt 공개 요구",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 20,
       "expected_base_net": 0,
@@ -2229,7 +2303,7 @@
       "title": "StudentHub AWS S3 보안 복구 $600 바운티",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 25,
       "expected_base_net": 0,
@@ -5543,7 +5617,7 @@
       "title": "현금성 GitHub bounty scout 6건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -5654,7 +5728,7 @@
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 44,
       "expected_base_net": 0,
@@ -5776,7 +5850,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 43,
       "expected_base_net": 0,
@@ -5910,7 +5984,7 @@
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 41,
       "expected_base_net": 0,
@@ -6038,7 +6112,7 @@
       "title": "현금성 GitHub bounty scout 11건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 41,
       "expected_base_net": 0,
@@ -6178,7 +6252,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 38,
       "expected_base_net": 0,
@@ -6313,7 +6387,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -6448,7 +6522,7 @@
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -6571,7 +6645,7 @@
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -6701,7 +6775,7 @@
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 30,
       "expected_base_net": 0,
@@ -6853,7 +6927,7 @@
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 30,
       "expected_base_net": 0,
@@ -7005,7 +7079,7 @@
       "title": "현금성 GitHub bounty scout 12건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -7153,7 +7227,7 @@
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 38,
       "expected_base_net": 0,
@@ -7277,7 +7351,7 @@
       "title": "현금성 GitHub bounty scout 9건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -7406,7 +7480,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 30,
       "expected_base_net": 0,
@@ -7541,7 +7615,7 @@
       "title": "현금성 GitHub bounty scout 12건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 25,
       "expected_base_net": 0,
@@ -7710,7 +7784,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 20,
       "expected_base_net": 0,
@@ -7866,7 +7940,7 @@
       "title": "현금성 GitHub bounty scout 11건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 20,
       "expected_base_net": 0,
@@ -8029,7 +8103,7 @@
       "title": "신규 수익화 scout 5건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "기타",
       "quality": 30,
       "expected_base_net": 0,
@@ -8179,7 +8253,7 @@
       "title": "현금성 GitHub bounty scout 10건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 20,
       "expected_base_net": 0,
@@ -8487,7 +8561,7 @@
       "title": "Cash bounty scout batch — no GO candidate",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 0,
       "expected_base_net": 0,
@@ -8569,7 +8643,7 @@
       "title": "OWASP BLT Android 16px 삭제 $1 micro-bounty",
       "status": "폐기",
       "raw_status": "closed_lost",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 82,
       "expected_base_net": 1,
@@ -9086,7 +9160,7 @@
       "title": "현금성 GitHub bounty scout 8건 전원 NO-GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 38,
       "expected_base_net": 0,
@@ -9365,7 +9439,7 @@
       "title": "현금성 GitHub bounty scout 7건 전원 GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -9632,7 +9706,7 @@
       "title": "현금성 GitHub bounty scout 6건 전원 GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -9902,7 +9976,7 @@
       "title": "UnsafeLabs #854 cash bounty preflight HOLD",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 78,
       "expected_base_net": 0,
@@ -10192,7 +10266,7 @@
       "title": "UnsafeLabs #573 EMS $1 micro-bounty PR",
       "status": "폐기",
       "raw_status": "closed_lost",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 84,
       "expected_base_net": 0,
@@ -10301,7 +10375,7 @@
       "title": "현금성 GitHub bounty scout 6건 전원 GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -10407,7 +10481,7 @@
       "title": "현금성 GitHub bounty scout 6건 전원 GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -10719,7 +10793,7 @@
       "title": "현금성 GitHub bounty scout 6건 전원 GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 35,
       "expected_base_net": 0,
@@ -10825,7 +10899,7 @@
       "title": "현금성 GitHub bounty scout 7건 — #827 재검토 후보, GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 45,
       "expected_base_net": 0,
@@ -10937,7 +11011,7 @@
       "title": "현금성 GitHub bounty scout 7건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -11243,7 +11317,7 @@
       "title": "현금성 GitHub bounty scout 7건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 44,
       "expected_base_net": 0,
@@ -11355,7 +11429,7 @@
       "title": "현금성 GitHub bounty scout 7건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -11467,7 +11541,7 @@
       "title": "Cash bounty scout 2026-05-19 03:15 — no GO",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -11748,7 +11822,7 @@
       "title": "현금성 GitHub bounty scout 8건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -11866,7 +11940,7 @@
       "title": "현금성 GitHub bounty scout 12건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 43,
       "expected_base_net": 0,
@@ -12008,7 +12082,7 @@
       "title": "UnsafeLabs #745 Laravel bcrypt rounds bounty PR",
       "status": "폐기",
       "raw_status": "closed_lost",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 86,
       "expected_base_net": 0,
@@ -12430,7 +12504,7 @@
       "title": "Cash bounty scout: no safe low-competition GO found",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -12538,7 +12612,7 @@
       "title": "Cash/platform bounty scout: no safe GO after preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -12916,7 +12990,7 @@
       "title": "Cash/platform bounty scout: all candidates failed preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -13024,7 +13098,7 @@
       "title": "Cash/platform bounty scout: 7 candidates rejected at preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -13133,7 +13207,7 @@
       "title": "Cash/platform bounty scout: 8 candidates rejected at preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -13536,7 +13610,7 @@
       "title": "현금성 GitHub bounty scout 7건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -13648,7 +13722,7 @@
       "title": "현금성 GitHub bounty scout 9건 — GO 없음",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 42,
       "expected_base_net": 0,
@@ -13772,7 +13846,7 @@
       "title": "Cash/platform bounty scout — no safe PR candidate",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": 0,
       "expected_base_net": 0,
@@ -14033,7 +14107,7 @@
       "title": "Cash/platform bounty scout: 10 candidates rejected at preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -14160,7 +14234,7 @@
       "title": "Cash/platform bounty scout: 10 candidates rejected or held at preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -14287,7 +14361,7 @@
       "title": "Cash/platform bounty scout: 10 candidates rejected or held at preflight",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -14645,7 +14719,7 @@
       "title": "Cash/platform bounty scout: 9 candidates preflighted, no safe PR",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -14766,7 +14840,7 @@
       "title": "Cash bounty scout: 12 candidates, no safe PR route",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -14905,7 +14979,7 @@
       "title": "Bounty rescue scout: no eligible cash PR after retry",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -15082,7 +15156,7 @@
       "title": "소상공인확인서 제출 전 4질문 무료 검증 글",
       "status": "폐기",
       "raw_status": "planning_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "기타",
       "quality": 88,
       "expected_base_net": 0,
@@ -15779,7 +15853,7 @@
       "title": "사업자등록 정정신고 주소·상호 변경 무료 검증 글",
       "status": "폐기",
       "raw_status": "planning_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "기타",
       "quality": 87,
       "expected_base_net": 0,
@@ -15989,13 +16063,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "attention_gate_strong",
+        "강한 후보",
         "카테고리 확인",
         "fact_qa_passed",
         "무료 검증"
       ],
       "risk_flags": [
-        "attention_gate_strong",
+        "강한 후보",
         "카테고리 확인",
         "fact_qa_passed",
         "무료 검증",
@@ -16154,13 +16228,13 @@
       "tags": [
         "무료 검증",
         "판매문구 없음",
-        "폭발 후보",
+        "검토 메모",
         "attention_cash_gate_passed"
       ],
       "risk_flags": [
         "무료 검증",
         "판매문구 없음",
-        "폭발 후보",
+        "검토 메모",
         "attention_cash_gate_passed",
         "fact_qa_passed",
         "official_sources_verified",
@@ -16385,13 +16459,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
         "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
         "카테고리 확인",
         "financial_advice_disclaimer_present",
         "무료 검증",
@@ -16575,20 +16649,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
         "anti_repetition_checked",
-        "카테고리 확인",
-        "factcheck_source_verified"
+        "attention_gate_explosive",
+        "카테고리 확인"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
         "anti_repetition_checked",
+        "attention_gate_explosive",
         "카테고리 확인",
         "factcheck_source_verified",
         "무료 검증",
         "free_validation_published",
-        "image_generation_required",
-        "판매문구 없음"
+        "이미지 필요"
       ],
       "stop_reason": null,
       "next_action": "Tracking: 2026년 전기요금 관련 새 공식 공고가 나오면 제목/본문 최신화 여부만 재검토. 직접 매출은 산정하지 않고 검색 유입 가설로 관찰.",
@@ -16803,20 +16877,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_checked"
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required"
+        "official_deadline_verified",
+        "이미지 필요",
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월 22일 신청 마감 후 stale 여부 재검토.",
@@ -17060,20 +17134,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "판매문구 없음",
-        "공식 마감 확인"
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "anti_repetition_checked",
         "duplicate_risk_electricity_support_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required"
+        "이미지 필요"
       ],
       "stop_reason": null,
       "next_action": "공개글 유입·검색 반응 추적. 5월 25일 이후에는 기한 지난 안내로 stale 처리 여부 재검토.",
@@ -17306,20 +17380,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
-        "Tistory 게시 확인"
+        "official_deadline_verified",
+        "Tistory 게시 확인",
+        "공개 URL 확인"
       ],
       "risk_flags": [
-        "폭발 후보",
         "검토 메모",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
         "카테고리 확인",
-        "uploaded_png_thumbnail_verified"
+        "uploaded_png_thumbnail_verified",
+        "source_links_verified"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월 31일 점검 기한 이후 stale 여부와 신규 모집 공고 여부 재검토.",
@@ -17523,20 +17597,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "attention_gate_strong",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified"
+        "공식 출처 확인"
       ],
       "risk_flags": [
-        "attention_gate_strong",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified",
+        "공식 출처 확인",
         "insurance_claim_rights",
         "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required"
+        "이미지 필요",
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 실손24 참여기관 확대/공식 공지 변경 시 업데이트 후보로 재검토.",
@@ -17786,20 +17860,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
         "검토 메모",
         "Tistory 게시 확인",
-        "공개 URL 확인"
+        "공개 URL 확인",
+        "시각 QA 통과"
       ],
       "risk_flags": [
-        "폭발 후보",
         "검토 메모",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
         "mobile_public_qa_passed",
         "카테고리 확인",
-        "uploaded_png_thumbnail_verified"
+        "uploaded_png_thumbnail_verified",
+        "source_links_verified"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 7월 3일 신청 마감 또는 8월 31일 사용기한 이후 stale 여부 재검토.",
@@ -18022,20 +18096,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_strong"
+        "Tistory 게시 확인"
       ],
       "risk_flags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
-        "attention_gate_strong",
         "Tistory 게시 확인",
         "공개 URL 확인",
         "시각 QA 통과",
-        "본문 QA 통과"
+        "본문 QA 통과",
+        "카테고리 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 1차 접수 반응 추적. 유료 전환 없음.",
@@ -18167,20 +18241,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음"
+        "official_deadline_verified"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required",
-        "anti_repetition_checked"
+        "이미지 필요",
+        "Tistory 렌더 QA 필요",
+        "category_id_verify_required"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월30 발급 마감과 7월31 첫 사용 조건 이후 stale 여부 재검토.",
@@ -18415,20 +18489,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "공식 마감 확인",
-        "판매문구 없음"
+        "official_deadline_verified"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "공식 마감 확인",
+        "official_deadline_verified",
         "판매문구 없음",
         "Tistory 게시 확인",
         "시각 QA 통과",
-        "본문 QA 통과",
-        "og_thumbnail_verified"
+        "본문 QA 통과"
       ],
       "stop_reason": null,
       "next_action": "Tistory 공개 글 유입/검색 반응 추적. 실제 방문·클릭 데이터 전까지 예상 순마진은 0원 유지.",
@@ -18632,20 +18706,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
-        "판매문구 없음",
-        "anti_repetition_checked"
+        "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
+        "attention_gate_explosive",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "공식 마감 확인",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required"
+        "official_deadline_verified",
+        "이미지 필요",
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 6월 1일 이후 공식 신청 경로가 열리면 링크 문구 stale 여부만 재점검.",
@@ -18952,20 +19026,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
         "검토 메모",
-        "official_source_verified",
-        "source_snapshot_saved"
+        "공식 출처 확인",
+        "source_snapshot_saved",
+        "bounty_lane_checked"
       ],
       "risk_flags": [
-        "폭발 후보",
         "검토 메모",
-        "official_source_verified",
+        "공식 출처 확인",
         "source_snapshot_saved",
         "bounty_lane_checked",
         "scout_only",
         "anti_repetition_planned",
-        "판매문구 없음"
+        "판매문구 없음",
+        "attention_gate_explosive"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 신청 마감 이후 stale 여부와 공식 안내 변경 여부 재검토.",
@@ -19219,20 +19293,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "공식 마감 확인",
-        "무료 검증",
-        "판매문구 없음"
+        "검토 메모",
+        "attention_gate_explosive",
+        "official_deadline_verified",
+        "무료 검증"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "공식 마감 확인",
+        "검토 메모",
+        "attention_gate_explosive",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "category_id_verify_required"
+        "이미지 필요",
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 5월29일 16시 마감 이후 stale 여부 재검토.",
@@ -19516,20 +19590,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "attention_gate_strong",
-        "official_source_verified",
-        "monthly_value_loss"
+        "강한 후보",
+        "공식 출처 확인",
+        "monthly_value_loss",
+        "무료 검증"
       ],
       "risk_flags": [
-        "검토 메모",
-        "attention_gate_strong",
-        "official_source_verified",
+        "강한 후보",
+        "공식 출처 확인",
         "monthly_value_loss",
         "무료 검증",
         "판매문구 없음",
         "anti_repetition_checked",
-        "no_benefit_guarantee"
+        "no_benefit_guarantee",
+        "만화 이미지 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 월말 전 사용처/잔액 확인 검색 반응 추적. 유료 전환 없음.",
@@ -19750,32 +19824,32 @@
     {
       "key": "MF-111",
       "id": "opp_20260525_108_car_tax_june_prepayment_blog",
-      "title": "자동차세 6월 연납, 고지서 그냥 내기 전 5분 체크 글",
-      "status": "기획",
-      "raw_status": "planning",
-      "column": "기획",
+      "title": "자동차세 6월 고지서, 그냥 내기 전 연납부터 확인하세요",
+      "status": "검증 보류",
+      "raw_status": "redteam_hold",
+      "column": "검증 보류",
       "type": "기타",
       "quality": 84,
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving"
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감"
       ],
       "risk_flags": [
-        "attention_gate_strong",
-        "official_source_verified",
-        "tax_deadline",
-        "money_saving",
+        "강한 후보",
+        "공식 출처 확인",
+        "세금 기한",
+        "지출 절감",
         "무료 검증",
         "판매문구 없음",
-        "anti_repetition_required",
-        "image_generation_required"
+        "반복 방지",
+        "Tistory 렌더 QA 필요"
       ],
-      "stop_reason": null,
-      "next_action": "backlog/execution lane: 6월 16일 직전 또는 당일 ETAX/위택스 일정 재확인 → 1,200~1,600자 Tistory 초안, PNG 3장, 카테고리 돈관리·구매체크/세금·장부, 공개 렌더 QA 진행.",
+      "stop_reason": "인증 필요",
+      "next_action": "다음 backlog run에서 Tistory/Profile 2 manage 세션 또는 일일 발행 제한 해소를 재확인한 뒤 같은 본문·Codex 만화로 공개 발행/렌더 QA 진행.",
       "buyer_or_payer": "6월 자동차세 고지서를 받은 차량 소유자, 서울/전국 위택스·ETAX 납부 전 할인·선납 여부를 확인하려는 독자",
       "channel": "Tistory 무료 검증 글 → 세금/차량 유지비 절감 검색 유입 실험",
       "evidence": [
@@ -19841,15 +19915,55 @@
           "agent": "roi",
           "decision": "GO",
           "summary": "유기검색 검증 자산으로 ROI 0원 기록. 비용 낮고 6월 납부 시즌 검색 타이밍이 있어 기획 backlog로 넘길 가치 있음."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "research_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Attention/Cash Gate 재심사 PASS: 6월 16~30일 자동차세 지출 확인 이슈로 강한 후보 유지."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_member",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "Codex/GPT Image 4컷 만화 1장과 Tistory-ready 본문 생성 완료."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "execution_lead",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "발행 단계는 Tistory 세션/제한 상태로 보류. 로컬 이미지·본문 QA 통과."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "redteam",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "정확 할인율 단정·세무 조언·판매 CTA 없음. 공개 전 렌더 QA 필요."
+        },
+        {
+          "time": "2026-06-10T22:42:29+09:00",
+          "agent": "roi",
+          "decision": "GO",
+          "reason_code": "AUTH_BLOCKED",
+          "summary": "무료 검증 글이므로 예상 순마진 0원. 발행 전까지 redteam_hold 유지."
         }
       ],
       "assets": [
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/evidence.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/plan.md",
         "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/candidate_outcomes.json",
-        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md"
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/sample_style_brief.md",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/body_tistory_ready_local.html",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/contact_sheet.png",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/official_recheck.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/runs/2026-06-10_2233_money-flow-backlog/image_qa.json",
+        "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_108_car_tax_june_prepayment_blog/assets/blog_package_20260610_car_tax/01-car-tax-june-check-4panel.png"
       ],
-      "updated_at": "2026-05-25T01:48:54+09:00"
+      "updated_at": "2026-06-10T22:42:29+09:00"
     },
     {
       "key": "MF-112",
@@ -19863,19 +19977,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
-        "local_draft_needs_date_rewrite",
-        "local_draft_ready"
+        "local_draft_needs_date_rewrite"
       ],
       "risk_flags": [
+        "강한 후보",
         "검토 메모",
         "무료 검증",
         "local_draft_needs_date_rewrite",
         "local_draft_ready",
         "판매문구 없음",
         "pretendard_images_ready",
-        "tistory_rendered_qa_required"
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": "검토 메모",
       "next_action": "2026-06-24 개별 모집공고/FAQ 공식 게시 후 날짜·서류·선정 기준을 최종 반영해 Tistory 공개 발행과 1회 이상 strict rendered QA 진행. 현재 6월 신청 초안은 7월 접수 전 사전 체크로 정정됨.",
@@ -20044,20 +20159,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "공식 마감 확인",
-        "money_saving",
+        "검토 메모",
+        "official_deadline_verified",
+        "지출 절감",
         "무료 검증"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "공식 마감 확인",
-        "money_saving",
+        "검토 메모",
+        "official_deadline_verified",
+        "지출 절감",
         "무료 검증",
         "판매문구 없음",
         "tmoney_registration_required",
         "avoid_login_guidance",
-        "Tistory 게시 확인"
+        "attention_gate_explosive"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 말 전 페이백 확인 검색 반응 추적. 유료 전환 없음.",
@@ -20197,17 +20312,17 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "검토 메모",
-        "무료 검증",
-        "판매문구 없음"
-      ],
-      "risk_flags": [
-        "폭발 후보",
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
-        "공식 마감 확인",
+        "attention_gate_explosive"
+      ],
+      "risk_flags": [
+        "검토 메모",
+        "무료 검증",
+        "판매문구 없음",
+        "attention_gate_explosive",
+        "official_deadline_verified",
         "공식 링크 포함",
         "anti_repetition_passed",
         "Tistory 게시 확인"
@@ -20380,20 +20495,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
         "무료 검증",
         "company_unit_application",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
         "무료 검증",
         "company_unit_application",
         "판매문구 없음",
+        "attention_gate_explosive",
         "공식 링크 포함",
         "anti_repetition_passed",
-        "Tistory 게시 확인",
-        "공개 URL 확인"
+        "Tistory 게시 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 공식 모집 상태가 바뀌면 안내 문구 stale 여부만 재점검.",
@@ -20570,13 +20685,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified"
       ],
       "risk_flags": [
-        "검토 메모",
+        "강한 후보",
         "무료 검증",
         "판매문구 없음",
         "official_schedule_verified",
@@ -20675,14 +20790,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "검토 메모",
-        "공식 마감 확인",
+        "강한 후보",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
         "official_source_required_before_publish"
@@ -20776,20 +20891,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "official_source_verified",
-        "budget_exhaustion_risk",
-        "무료 검증"
+        "검토 메모",
+        "attention_gate_explosive",
+        "공식 출처 확인",
+        "budget_exhaustion_risk"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "official_source_verified",
+        "검토 메모",
+        "attention_gate_explosive",
+        "공식 출처 확인",
         "budget_exhaustion_risk",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish"
+        "이미지 필요",
+        "Tistory 렌더 QA 필요"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 예산 소진 또는 공고 변경 시 stale 여부 재점검.",
@@ -21059,20 +21174,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "official_source_verified",
-        "무료 검증",
-        "판매문구 없음"
+        "검토 메모",
+        "attention_gate_explosive",
+        "공식 출처 확인",
+        "무료 검증"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "official_source_verified",
+        "검토 메모",
+        "attention_gate_explosive",
+        "공식 출처 확인",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required",
-        "tistory_rendered_qa_required",
-        "official_source_required_before_publish",
-        "scout_only_handoff"
+        "이미지 필요",
+        "Tistory 렌더 QA 필요",
+        "official_source_required_before_publish"
       ],
       "stop_reason": null,
       "next_action": "공개글 검색 유입/반응 추적. 6월15~16일 접수 종료 후 stale 여부 재검토.",
@@ -21306,20 +21421,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "공식 마감 확인",
-        "official_source_verified",
+        "검토 메모",
+        "official_deadline_verified",
+        "공식 출처 확인",
         "short_application_window"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "공식 마감 확인",
-        "official_source_verified",
+        "검토 메모",
+        "official_deadline_verified",
+        "공식 출처 확인",
         "short_application_window",
         "document_omission_loss_risk",
         "무료 검증",
         "판매문구 없음",
-        "image_generation_required"
+        "이미지 필요"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 19일 마감 전 반응 추적. 유료 전환 없음.",
@@ -21527,20 +21642,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "공식 마감 확인",
+        "검토 메모",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "공식 마감 확인",
+        "검토 메모",
+        "official_deadline_verified",
         "무료 검증",
         "판매문구 없음",
-        "선정 보장 없음",
-        "급여 변동 주의",
-        "Tistory 게시 확인",
-        "공개 URL 확인"
+        "no_selection_guarantee",
+        "social_benefit_caution",
+        "attention_gate_explosive",
+        "Tistory 게시 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 19일 마감 전 예술인 지원금 확인 검색 반응 추적. 유료 전환 없음.",
@@ -21693,14 +21808,14 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
-        "official_source_verified",
+        "검토 메모",
+        "공식 출처 확인",
         "card_update_deadline",
         "refund_loss_risk"
       ],
       "risk_flags": [
-        "폭발 후보",
-        "official_source_verified",
+        "검토 메모",
+        "공식 출처 확인",
         "card_update_deadline",
         "refund_loss_risk",
         "무료 검증",
@@ -21893,20 +22008,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
         "검토 메모",
-        "attention_gate_strong",
-        "official_source_reverified"
+        "강한 후보",
+        "official_source_reverified",
+        "gpt_image2_comic_assets_ready"
       ],
       "risk_flags": [
-        "폭발 후보",
         "검토 메모",
-        "attention_gate_strong",
+        "강한 후보",
         "official_source_reverified",
         "gpt_image2_comic_assets_ready",
         "Tistory 게시 확인",
         "공개 URL 확인",
-        "시각 QA 통과"
+        "시각 QA 통과",
+        "본문 QA 통과"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 2026 신규 공고/비공식 신청글 노출 변화를 추적. 유료 전환 없음.",
@@ -22073,20 +22188,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
         "검토 메모",
         "무료 검증",
-        "판매문구 없음"
+        "판매문구 없음",
+        "official_source_reverified"
       ],
       "risk_flags": [
-        "폭발 후보",
         "검토 메모",
         "무료 검증",
         "판매문구 없음",
         "official_source_reverified",
         "draft_ready",
         "gpt_image2_comic_assets_ready",
-        "local_render_qa_passed"
+        "local_render_qa_passed",
+        "Tistory 게시 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 검색 유입과 6월 19일 마감 전 반응 추적. 유료 전환 없음.",
@@ -22271,13 +22386,13 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
         "무료 검증",
         "공식 페이지 현재 활성",
         "판매문구 없음",
@@ -22462,7 +22577,7 @@
       "title": "kcolbchain stablecoin-toolkit AgentEscrow access control bounty",
       "status": "폐기",
       "raw_status": "research_rejected",
-      "column": "폐기",
+      "column": "종료/폐기",
       "type": "바운티",
       "quality": null,
       "expected_base_net": 0,
@@ -22543,20 +22658,20 @@
       "expected_base_net": 0,
       "approval_required": false,
       "tags": [
-        "폭발 후보",
+        "검토 메모",
         "공식 공고",
         "예산 소진",
         "무료 검증"
       ],
       "risk_flags": [
-        "폭발 후보",
+        "검토 메모",
         "공식 공고",
         "예산 소진",
         "무료 검증",
         "판매문구 없음",
-        "official_source_verified",
-        "Tistory 게시 확인",
-        "시각 QA 통과"
+        "attention_gate_explosive",
+        "공식 출처 확인",
+        "Tistory 게시 확인"
       ],
       "stop_reason": null,
       "next_action": "공개 글 유입/검색 반응 추적. 공식 공고 변경 또는 예산 소진 공지가 나오면 본문 갱신 여부만 재점검.",

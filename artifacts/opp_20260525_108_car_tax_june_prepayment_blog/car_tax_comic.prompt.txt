@@ -1,0 +1,15 @@
+Create one polished black-and-white vertical Korean webtoon/manga image, 4 stacked panels, 1024x1536. It will be used as a Tistory blog illustration for a Korean article about checking June automobile tax before paying.
+
+Visual thesis: Before paying the June automobile tax bill, the reader should check whether it is the regular installment or whether a remaining annual prepayment/advance payment option applies, then verify the exact amount on ETAX/Wetax official screens.
+
+Style: clean printed manga/webtoon line art, high contrast, modern Korean blog comic, large readable Korean speech balloons, mobile-readable, no color except black/white/gray tones, clear panel borders, expressive ordinary Korean driver character, official-looking bill and laptop/phone screens with only allowed text below. No tiny fake document text, no fake exact discount percentage, no tax advice tone.
+
+Panel 1 (medium shot): A Korean driver at a desk holds a June automobile tax bill, surprised. Visible bill header only says "6월 자동차세 고지서". Speech balloon from driver, tail to driver's mouth: "그냥 내면 끝인가?"
+
+Panel 2 (close-up split between bill and calendar): Calendar highlights "6월 16일~30일" and two simple labels on paper tabs: "정기분" and "2/4 선납". Speech balloon from narrator checklist icon, tail to small checklist icon: "먼저 정기분인지 선납인지 봐요"
+
+Panel 3 (over-shoulder laptop/phone scene): The driver checks official site screens. Screen text only: "ETAX · 위택스" and a button-like label "공식 계산기". Speech balloon from laptop screen, tail to the screen: "정확한 금액은 여기서 확인"
+
+Panel 4 (wide calm conclusion): The driver checks three boxes on a checklist: "고지서", "지역", "공식 링크". Speech balloon from driver, tail to driver's mouth: "납부 전 5분만 확인!"
+
+Composition requirements: Each panel must show visible action and change. Balloons must be integrated into panels with tails pointing to the correct speaker. Korean text must be large, clean, and readable. Avoid ambiguous speaker balloons. Avoid invented dates besides "6월 16일~30일". Avoid showing exact discount rates or legal/tax promises. No extra random Korean text.
