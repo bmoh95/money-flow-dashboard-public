@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-13T08:39:54+09:00",
+  "updated_at": "2026-06-13T08:40:42+09:00",
   "last_run": {
     "run_id": "2026-06-13_0833_money-flow-backlog",
     "started_at": "2026-06-13T08:39:48+09:00",
-    "finished_at": "2026-06-13T08:39:54+09:00",
+    "finished_at": "2026-06-13T08:40:42+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -37,7 +37,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260527_117_fsale_june_onnuri_refund_blog. Material publish completed.",
-    "final_report": ""
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260527_117_fsale_june_onnuri_refund_blog` 수산대전 6월 온누리상품권 환급 글을 Tistory에 공개 발행했습니다.\n- 공식 수산대전/수원시 자료 재확인, Codex/GPT Image 4컷 만화 1장 생성·업로드, 공개 렌더 QA 3회, 모바일/OG/카테고리 확인 후 `tracking`으로 전환했습니다.\n- 공개 URL: https://beemo.tistory.com/entry/%EC%88%98%EC%82%B0%EB%8C%80%EC%A0%84-6%EC%9B%94-%EC%98%A8%EB%88%84%EB%A6%AC-%ED%99%98%EA%B8%89-%EC%9E%A5%EB%B3%B4%EA%B8%B0-%EC%A0%84-%EC%8B%9C%EC%9E%A5%EC%98%81%EC%88%98%EC%A6%9D%EB%B6%80%ED%84%B0-%ED%99%95%EC%9D%B8%ED%95%98%EC%84%B8%EC%9A%94\n\n**시장성 판단**\n- 강한 후보 유지: 6.10~6.14 짧은 환급창과 최대 2만원 직접 장보기 혜택이 있어 지금 확인 가치가 큽니다. 모든 시장 자동 환급처럼 쓰지 않고 참여 시장·영수증·부스 확인형으로 제한했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
