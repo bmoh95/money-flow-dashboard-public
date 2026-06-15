@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-15T12:27:14+09:00",
+  "updated_at": "2026-06-15T12:29:20+09:00",
   "last_run": {
     "run_id": "2026-06-15_1219_money-flow-backlog",
     "started_at": "2026-06-15T12:27:09+09:00",
-    "finished_at": "2026-06-15T12:27:14+09:00",
+    "finished_at": "2026-06-15T12:29:20+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -24,7 +24,9 @@
       "opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/blog_package_20260615_policy_loan/body_tistory_ready_local.html",
       "opportunities/opp_20260527_116_sbc_policy_loan_q3_blog/assets/blog_package_20260615_policy_loan/01-policy-loan-q3-comic.png",
       "runs/2026-06-15_1219_money-flow-backlog/body_published_payload.html",
-      "runs/2026-06-15_1219_money-flow-backlog/public_og_image_policy_loan.png"
+      "runs/2026-06-15_1219_money-flow-backlog/public_og_image_policy_loan.png",
+      "runs/2026-06-15_1219_money-flow-backlog/public_stage_signed_url_scan.json",
+      "runs/2026-06-15_1219_money-flow-backlog/public_dashboard_verify_final.json"
     ],
     "approval_needed": [],
     "decisions": [
@@ -60,7 +62,7 @@
       }
     ],
     "summary": "Processed exactly one backlog item: opp_20260527_116_sbc_policy_loan_q3_blog. Tistory 공개 발행/QA 완료, tracking 전환.",
-    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260527_116_sbc_policy_loan_q3_blog` 정책자금 3분기 대리대출 글을 Tistory에 공개 발행하고 `tracking`으로 전환했습니다.\n- 공식 SEMAS 일정 재확인, Codex/GPT Image 4컷 웹툰 1장 생성, 공개 렌더/OG/mobile QA 3회 완료.\n- 공개 URL: https://beemo.tistory.com/entry/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88-3%EB%B6%84%EA%B8%B0-%EB%8C%80%EB%A6%AC%EB%8C%80%EC%B6%9C-7%EC%9B%94-6%EC%9D%BC-10%EC%8B%9C-%EC%A0%84%EC%97%90-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83\n\n**시장성 판단**\n- 강한 후보: 2분기 예산소진 마감과 7월 6일 10시 접수 시작이 소상공인 자금 기회 손실과 직접 연결됩니다. 대출 권유가 아니라 공식 일정 확인형으로 제한했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러 확인 필요.\n\n**필요 승인**\n- 없음."
+    "final_report": "주인님, Money Flow 밀린 일감 1건 처리 완료입니다.\n\n**완료**\n- `opp_20260527_116_sbc_policy_loan_q3_blog` 정책자금 3분기 대리대출 글을 Tistory에 공개 발행하고 `tracking`으로 전환했습니다.\n- 공식 SEMAS 일정 재확인, Codex/GPT Image 4컷 웹툰 1장 생성, 공개 렌더/OG/mobile QA 3회 완료.\n- 공개 URL: https://beemo.tistory.com/entry/%EC%86%8C%EC%83%81%EA%B3%B5%EC%9D%B8-%EC%A0%95%EC%B1%85%EC%9E%90%EA%B8%88-3%EB%B6%84%EA%B8%B0-%EB%8C%80%EB%A6%AC%EB%8C%80%EC%B6%9C-7%EC%9B%94-6%EC%9D%BC-10%EC%8B%9C-%EC%A0%84%EC%97%90-%ED%99%95%EC%9D%B8%ED%95%A0-%EA%B2%83\n\n**시장성 판단**\n- 강한 후보: 2분기 예산소진 마감과 7월 6일 10시 접수 시작이 소상공인 자금 기회 손실과 직접 연결됩니다. 대출 권유가 아니라 공식 일정 확인형으로 제한했습니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 무료 검증 글이며 검색 유입 가설/전략 자산으로만 추적합니다.\n\n**대기**\n- GitHub Pages 대시보드 미러: 완료\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
