@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-06-19T00:22:58+09:00",
+  "updated_at": "2026-06-19T00:25:42+09:00",
   "last_run": {
     "run_id": "2026-06-19_0010_money-flow",
     "started_at": "2026-06-19T00:10:52+09:00",
-    "finished_at": "2026-06-19T00:22:58+09:00",
+    "finished_at": "2026-06-19T00:25:42+09:00",
     "trigger": "cron",
     "agents_executed": [
       "research_lead",
@@ -29,8 +29,8 @@
         "summary": "공식 모집공고 확인 후 Tistory 공개 발행/QA 완료."
       }
     ],
-    "summary": "경기도 청년 복지포인트 7월 접수 글을 공개 발행하고 tracking 전환.",
-    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260525_112_gg_youth_welfare_point_blog` 공식 모집공고 확인 후 Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%B2%AD%EB%85%84-%EB%B3%B5%EC%A7%80%ED%8F%AC%EC%9D%B8%ED%8A%B8-7%EC%9B%94-%EC%A0%91%EC%88%98-120%EB%A7%8C%EC%9B%90%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%B3%BC-%EC%A1%B0%EA%B1%B4\n- Codex/GPT Image 웹툰 이미지 생성·업로드, 공개 본문/모바일/썸네일/카테고리 QA 완료.\n\n**시장성 판단**\n- GO: 7월 1일 접수 시작, 7월 13일 마감, 최대 120만원·11,300명 조건 확인 수요가 있는 `강한 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드 갱신 및 public mirror 동기화 진행.\n\n**필요 승인**\n- 없음."
+    "summary": "경기도 청년 복지포인트 7월 접수 글을 공개 발행하고 tracking 전환. public dashboard mirror 확인 완료.",
+    "final_report": "주인님, Money Flow 실행 결과입니다.\n\n**완료**\n- `opp_20260525_112_gg_youth_welfare_point_blog` 공식 모집공고 확인 후 Tistory 공개 발행 및 tracking 전환 완료.\n- Tistory: https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%B2%AD%EB%85%84-%EB%B3%B5%EC%A7%80%ED%8F%AC%EC%9D%B8%ED%8A%B8-7%EC%9B%94-%EC%A0%91%EC%88%98-120%EB%A7%8C%EC%9B%90%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%B3%BC-%EC%A1%B0%EA%B1%B4\n- Codex/GPT Image 웹툰 이미지 생성·업로드, 공개 본문/모바일/썸네일/카테고리 QA 완료.\n\n**시장성 판단**\n- GO: 7월 1일 접수 시작, 7월 13일 마감, 최대 120만원·11,300명 조건 확인 수요가 있는 `강한 후보`입니다.\n\n**예상 순마진**\n- 보수/기준/낙관: 0원. 직접 수익이 아니라 검색 유입 가설/전략 자산으로 추적합니다.\n\n**대기**\n- 대시보드와 public mirror 최신 반영 완료.\n\n**필요 승인**\n- 없음."
   },
   "metrics": {
     "total": 127,
