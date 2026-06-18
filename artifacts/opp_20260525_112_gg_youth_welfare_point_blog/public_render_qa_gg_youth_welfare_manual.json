@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-06-19T00:20:03.683044+09:00",
+  "status": "public_render_qa_passed",
+  "public_url": "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%B2%AD%EB%85%84-%EB%B3%B5%EC%A7%80%ED%8F%AC%EC%9D%B8%ED%8A%B8-7%EC%9B%94-%EC%A0%91%EC%88%98-120%EB%A7%8C%EC%9B%90%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%B3%BC-%EC%A1%B0%EA%B1%B4",
+  "post_id": "233",
+  "checks": [
+    {
+      "url": "https://beemo.tistory.com/entry/%EA%B2%BD%EA%B8%B0%EB%8F%84-%EC%B2%AD%EB%85%84-%EB%B3%B5%EC%A7%80%ED%8F%AC%EC%9D%B8%ED%8A%B8-7%EC%9B%94-%EC%A0%91%EC%88%98-120%EB%A7%8C%EC%9B%90%EB%B3%B4%EB%8B%A4-%EB%A8%BC%EC%A0%80-%EB%B3%BC-%EC%A1%B0%EA%B1%B4",
+      "http": 200,
+      "title": true,
+      "required": true,
+      "img_filename": true,
+      "opengraph_placeholder": true
+    },
+    {
+      "url": "https://beemo.tistory.com/233",
+      "http": 200,
+      "title": true,
+      "required": true,
+      "img_filename": true,
+      "opengraph_placeholder": true
+    },
+    {
+      "url": "https://beemo.tistory.com/m/233",
+      "http": 200,
+      "title": true,
+      "required": true,
+      "img_filename": true,
+      "opengraph_placeholder": true
+    }
+  ],
+  "public_image_path": "/Users/beemo/.hermes/money_ops/money_flow/opportunities/opp_20260525_112_gg_youth_welfare_point_blog/assets/public_uploaded_comic_20260619.png",
+  "public_image_http": 200,
+  "public_image_bytes": 1976747,
+  "note": "Manual numeric/mobile verification added because slug URL made previous script skip mobile check."
+}

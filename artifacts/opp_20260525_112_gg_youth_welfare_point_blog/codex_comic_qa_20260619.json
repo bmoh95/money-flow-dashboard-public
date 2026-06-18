@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-06-19T00:16:41.752452+09:00",
+  "image": "assets/gg_youth_welfare_codex_comic_20260619_v2.png",
+  "accepted": true,
+  "score_30": 27,
+  "findings": [
+    "6-panel black-and-white vertical webtoon; not generic card",
+    "Korean balloons are large/readable",
+    "dates/numbers match official notice: 7/1 09:00~7/13 18:00, 11,300명",
+    "speaker tails clear; no generic official-check punchline"
+  ],
+  "non_blocking_notes": [
+    "Checklist says 6개월 재직, article clarifies 6개월 이상 재직"
+  ]
+}
