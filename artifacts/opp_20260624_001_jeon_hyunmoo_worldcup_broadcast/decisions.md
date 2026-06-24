@@ -1,0 +1,6 @@
+- 2026-06-24T15:09:59+09:00 research_member GO: bounty/direct-payout, Google Trends blog, paid-writing/contest 후보 비교 후 전현무 월드컵 중계 후보를 Traffic-first fallback GO로 선정.
+- 2026-06-24T15:09:59+09:00 research_lead GO: Google Trends 5000+와 KBS/Daum/스포츠동아 source-bearing 기사 확인. 기존 스포츠 글은 경기 스코어/일정, 이 후보는 방송 합류·출연료 논란 맥락이라 reader action이 다름.
+- 2026-06-24T15:09:59+09:00 planning_member GO: 결론-first, 출처-map, 과장 금지, 출연료 확정 단정 금지 구조로 scout-only 기획 패키지 생성.
+- 2026-06-24T15:09:59+09:00 planning_lead GO: 품질 84. 연예/스포츠 high-click candidate이나 직접 수익은 0원, 실행 lane에서 live duplicate/source 재확인 필요.
+- 2026-06-24T15:09:59+09:00 redteam GO: 리스크: 고액 출연료 단정, 인물 초상/유사 이미지, 월드컵 중계 기존글과 중복. 제목/본문에서 방송 맥락과 보도 기준을 분리하고 이미지는 generic viewer/guide comic만 사용.
+- 2026-06-24T15:09:59+09:00 roi GO: 무료 검증 글이므로 순마진 0원. 검색 유입 가설/전략 자산으로만 기록.
